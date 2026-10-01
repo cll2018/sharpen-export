@@ -1,1 +1,4 @@
-LS0tCmxheW91dDogcm9vdC5uamsKdGl0bGU6IFNoYXJwZW4gTmV3IE1hdGVyaWFscwotLS0K
+---
+layout: root.njk
+title: Sharpen New Materials
+---
