@@ -1,0 +1,52 @@
+# Decap CMS configuration.
+# 1. Set backend.repo to your GitHub repo (owner/name).
+# 2. Deploy on Cloudflare Pages; visit /admin/ to log in with GitHub.
+# 3. Edits commit back to the repo and Cloudflare Pages rebuilds the site.
+backend:
+  name: github
+  repo: cll2018/sharpen-export
+  branch: main
+  squash_merges: true
+
+# Allow local testing via `npx decap-server` (set local_backend: true).
+local_backend: false
+
+media_folder: "assets/img"
+public_folder: "/assets/img"
+
+publish_mode: editorial_workflow
+
+collections:
+  - name: "pages-en"
+    label: "Pages (English)"
+    files:
+      - { name: home-en, label: "Home (EN)", file: "en/index.md" }
+      - { name: products-en, label: "Products (EN)", file: "en/products.md" }
+      - { name: about-en, label: "About (EN)", file: "en/about.md" }
+      - { name: contact-en, label: "Contact (EN)", file: "en/contact.md" }
+
+  - name: "pages-zh"
+    label: "Pages (中文)"
+    files:
+      - { name: home-zh, label: "首页 (ZH)", file: "zh/index.md" }
+      - { name: products-zh, label: "产品 (ZH)", file: "zh/products.md" }
+      - { name: about-zh, label: "关于 (ZH)", file: "zh/about.md" }
+      - { name: contact-zh, label: "联系 (ZH)", file: "zh/contact.md" }
+
+  # ---- AI chat settings: EDITABLE IN THE BACKEND ----
+  # Change model, API base URL (any OpenAI-compatible), system prompt, or
+  # enable/disable the bot here. The secret API key is NOT stored here — it
+  # lives in the Cloudflare Pages env var AI_LLM_API_KEY.
+  - name: "ai-settings"
+    label: "AI Chat Settings"
+    files:
+      - name: settings
+        label: "AI Chat Config"
+        file: "data/settings.json"
+        fields:
+          - { name: enabled, label: "Enable AI auto-reply", widget: boolean }
+          - { name: provider, label: "Provider", widget: string, hint: "openai-compatible" }
+          - { name: apiBaseUrl, label: "API Base URL", widget: string, hint: "e.g. https://api.openai.com/v1 or https://api.deepseek.com/v1" }
+          - { name: model, label: "Model", widget: string, hint: "e.g. gpt-4o-mini / deepseek-chat" }
+          - { name: systemPrompt, label: "System Prompt", widget: text }
+          - { name: fallbackMessage, label: "Fallback Message", widget: text }

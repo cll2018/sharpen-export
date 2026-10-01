@@ -1,0 +1,46 @@
+---
+layout: base.njk
+---
+{% block content %}
+<section class="hero">
+  <div class="container">
+    <h1>{{ heroTitle }}</h1>
+    <p class="lead">{{ heroLead }}</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="{{ ('/' + lang + '/products/') | langUrl(lang) }}">{{ '查看产品' if lang == 'zh' else 'View Products' }}</a>
+      <a class="btn btn-outline" href="{{ ('/' + lang + '/contact/') | langUrl(lang) }}">{{ '获取报价' if lang == 'zh' else 'Get a Quote' }}</a>
+    </div>
+  </div>
+</section>
+
+<section class="container features">
+  <h2>{{ '核心产品' if lang == 'zh' else 'Core Products' }}</h2>
+  <div class="card-grid">
+    {% set plist = products[lang] or products[site.fallbackLang] %}
+    {% for p in plist %}
+    <article class="card">
+      <div class="card-img" style="background-image:url('{{ p.image }}')"></div>
+      <h3>{{ p.name }}</h3>
+      <p>{{ p.summary }}</p>
+      <a class="card-link" href="{{ ('/' + lang + '/products/') | langUrl(lang) }}#{{ p.id }}">{{ '了解更多' if lang == 'zh' else 'Learn more' }} →</a>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="container why">
+  <h2>{{ '为什么选择萨普' if lang == 'zh' else 'Why Sharpen' }}</h2>
+  <ul class="why-list">
+    <li>{{ '依托教育部长江学者创新团队，拥有自主知识产权' if lang == 'zh' else 'Backed by a Changjiang Scholars innovation team with proprietary IP' }}</li>
+    <li>{{ '高锋利度、高保型性、长寿命的精密磨具' if lang == 'zh' else 'High-sharpness, shape-retentive, long-life precision abrasives' }}</li>
+    <li>{{ '服务于半导体、蓝宝石、硬质合金、3D 玻璃热弯等高端制造' if lang == 'zh' else 'Serving semiconductor, sapphire, carbide and 3D-glass thermal markets' }}</li>
+    <li>{{ '湖南省专精特新中小企业 / 科技型中小企业' if lang == 'zh' else 'Hunan specialized & innovative SME / tech SME' }}</li>
+  </ul>
+  <p class="cta-line">
+    {{ '有项目要谈？' if lang == 'zh' else 'Have a project in mind?' }}
+    <a href="https://wa.me/{{ site.whatsapp }}" target="_blank" rel="noopener">WhatsApp</a>
+    {{ '或' if lang == 'zh' else 'or' }}
+    <button id="chat-toggle-3" class="link-btn">💬 {{ 'AI 在线咨询' if lang == 'zh' else 'AI chat' }}</button>
+  </p>
+</section>
+{% endblock %}
