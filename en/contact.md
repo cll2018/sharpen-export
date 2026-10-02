@@ -22,6 +22,7 @@ description: "Contact Changsha Sharpen New Materials for quotes on diamond/CBN w
           <option>CBN Grinding Wheels</option>
           <option>Powder Metallurgy High-Speed Steel</option>
           <option>TiNiCo Superalloy Heat Spreader</option>
+          <option>Steel-Bonded Carbide</option>
           <option>Other / Not sure</option>
         </select>
       </label>

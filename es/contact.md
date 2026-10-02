@@ -18,6 +18,7 @@ description: "Contacte a Changsha Sharpen New Materials para obtener presupuesto
       <label>País / Región<input type="text" name="country" /></label>
       <label>Producto de interés
         <select name="product">
+          <option>Carburo con ligante de acero</option>
           <option>Discos de pulido de diamante</option>
           <option>Discos de pulido de CBN</option>
           <option>Acero rapidometalúrgico (PM)</option>

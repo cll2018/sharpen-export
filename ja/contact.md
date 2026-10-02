@@ -22,6 +22,7 @@ description: "長沙シャープ・ニュー・マテリアルへのダイヤモ
           <option>CBN（超硬）砥輪</option>
           <option>粉末冶金高速鋼</option>
           <option>TiNiCo 高耐熱合金放熱板</option>
+          <option>鋼結硬質合金</option>
           <option>その他 / 不明</option>
         </select>
       </label>

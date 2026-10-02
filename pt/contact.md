@@ -18,6 +18,7 @@ description: "Entre em contato com a Changsha Sharpen New Materials para obter o
       <label>País / Região<input type="text" name="country" /></label>
       <label>Produto de interesse
         <select name="product">
+          <option>Carbeto com ligação de aço</option>
           <option>Discos de Retificação de Diamante</option>
           <option>Discos de Retificação de CBN</option>
           <option>Aço-Rapido de Metalurgia do Pó</option>

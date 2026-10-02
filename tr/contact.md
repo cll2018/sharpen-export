@@ -22,6 +22,7 @@ description: "Elmas/CBN tekerlekleri, toz metalurjisi yüksek hızlı çelik ve 
           <option>CBN Taşlama Tekerlekleri</option>
           <option>Toz Metalurjisi Yüksek Hızlı Çelik</option>
           <option>TiNiCo Süper Alaşım Isı Dağıtıcı</option>
+          <option>Çelik bağlı sert alaşım</option>
           <option>Diğer / Emin Değilim</option>
         </select>
       </label>

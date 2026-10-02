@@ -18,6 +18,7 @@ description: "تواصل مع Changsha Sharpen New Materials للحصول على
       <label>الدولة / المنطقة<input type="text" name="country" /></label>
       <label>المنتج محل الاهتمام
         <select name="product">
+          <option>كربيد مربوط بالصلب</option>
           <option>أقراص لياسة ماسية</option>
           <option>أقراص لياسة CBN</option>
           <option>فولاذ سريع عالي السرعة بالمعالجة بالفريز</option>

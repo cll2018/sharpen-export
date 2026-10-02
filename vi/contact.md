@@ -18,6 +18,7 @@ description: "Liên hệ Changsha Sharpen New Materials để được báo giá
       <label>Quốc gia / Khu vực<input type="text" name="country" /></label>
       <label>Sản phẩm quan tâm
         <select name="product">
+          <option>Thép kết hợp với hạt cứng</option>
           <option>Bánh mài kim cương</option>
           <option>Bánh mài CBN</option>
           <option>Thép tốc độ cao luyện粉末</option>

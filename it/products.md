@@ -107,3 +107,17 @@ description: "Changsha Sharpen New Materials — mole a graffio di alta resisten
     <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Richiedi un preventivo</a></div>
   </div>
 </div>
+<div class="product-block" id="steel-bonded-carbide">
+  <div class="pb-img" style="background-image:url('/assets/img/steel-bonded-carbide.png')"></div>
+  <div>
+    <h2>Carburo con lega di acciaio</h2>
+    <p>Carburo con lega di acciaio (cementato) per utensili e parti soggette a severa usura: lavorabile allo stato ricotto, compatibile con fucinatura e saldatura senza attrezzature speciali, e in grado di formare geometrie complesse. Dopo la tempra la durezza può raggiungere HRC 60–70; la resistenza all'usura è paragonabile a quella del carburo ad alto contenuto di cobalto, e la tenacità e la resistenza agli urti sono nettamente superiori al carburo convenzionale. La selezione dell'acciaio di lega consente di ottenere prestazioni specifiche (usura, corrosione, calore); il costo del ciclo di vita è molto inferiore rispetto agli acciai da stampo comuni, e la vita degli utensili si moltiplica di 10–20 volte, riducendo notevolmente i tempi di fermo.</p>
+    <ul class="specs">
+      <li>Applications: cold-extrusion, cold-heading and blanking/punching dies, firebrick shaping molds; replaces YG20-type carbide in high-load die cores.</li>
+      <li>Cutting tools: carbide and high-speed-steel tooling for titanium and nickel alloys, rock-boring and geological-drilling tools.</li>
+      <li>Wear parts: rollers, nozzles, bearings; high-grade grades used in aerospace and submarine-navigation components.</li>
+      <li>Support for diamond/CBN grinding-wheel fixtures and CBN-mill-forming jigs; meets accuracy and wear requirements.</li>
+    </ul>
+    <div class="pb-cta"><a class="btn btn-primary" href="/it/contact/">Richiedi un preventivo</a></div>
+  </div>
+</div>

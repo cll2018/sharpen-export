@@ -107,3 +107,17 @@ description: "Changsha Sharpen New Materials — strong grooving wheels, semicon
     <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Request a quote</a></div>
   </div>
 </div>
+<div class="product-block" id="steel-bonded-carbide">
+  <div class="pb-img" style="background-image:url('/assets/img/steel-bonded-carbide.png')"></div>
+  <div>
+    <h2>Steel-Bonded Carbide</h2>
+    <p>Steel-bonded carbide (cemented carbide) for tooling and demanding wear parts — machinable in the annealed condition, forgeable and weldable without special equipment, with a hardened range of HRC 60–70. It pairs the wear resistance of high-cobalt cemented carbide with much higher toughness and shock resistance than ordinary carbide, and can be tailored for wear, corrosion or heat resistance. Full-life cost is far lower than standard alloy die steels, with tooling life improved by one to two orders of magnitude and far less downtime between changes.</p>
+    <ul class="specs">
+      <li>Applications: cold-extrusion, cold-heading and blanking/punching dies, firebrick shaping molds; replaces YG20-type carbide in high-load die cores.</li>
+      <li>Cutting tools: carbide and high-speed-steel tooling for titanium and nickel alloys, rock-boring and geological-drilling tools.</li>
+      <li>Wear parts: rollers, nozzles, bearings; high-grade grades used in aerospace and submarine-navigation components.</li>
+      <li>Support for diamond/CBN grinding-wheel fixtures and CBN-mill-forming jigs; meets accuracy and wear requirements.</li>
+    </ul>
+    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Request a quote</a></div>
+  </div>
+</div>

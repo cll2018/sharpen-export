@@ -107,3 +107,17 @@ description: "Changsha Sharpen New Materials — rodas de serra de rasgo fortes,
     <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Solicitar cotação</a></div>
   </div>
 </div>
+<div class="product-block" id="steel-bonded-carbide">
+  <div class="pb-img" style="background-image:url('/assets/img/steel-bonded-carbide.png')"></div>
+  <div>
+    <h2>Carbeto com ligação de aço</h2>
+    <p>Carbeto com ligação de aço (cementado) para ferramentas e peças de desgaste severo: usinável no estado de recozimento, compatível com forjamento e soldagem sem equipamentos especiais, e apto a formar geometrias complexas. Após a têmpera a dureza pode alcançar HRC 60–70, a resistência ao desgaste é comparável à do carbeto de alto teor de cobalto e a tenacidade e resistência a impactos são muito superiores às do carbeto comum. É possível obter desempenho específico (desgaste, corrosão, calor) pela seleção do aço de ligação; o custo de vida útil é bem menor que o dos aços de moldes convencionais, e a vida das ferramentas é multiplicada de 10 a 20 vezes, reduzindo de forma notável o tempo de parada.</p>
+    <ul class="specs">
+      <li>Applications: cold-extrusion, cold-heading and blanking/punching dies, firebrick shaping molds; replaces YG20-type carbide in high-load die cores.</li>
+      <li>Cutting tools: carbide and high-speed-steel tooling for titanium and nickel alloys, rock-boring and geological-drilling tools.</li>
+      <li>Wear parts: rollers, nozzles, bearings; high-grade grades used in aerospace and submarine-navigation components.</li>
+      <li>Support for diamond/CBN grinding-wheel fixtures and CBN-mill-forming jigs; meets accuracy and wear requirements.</li>
+    </ul>
+    <div class="pb-cta"><a class="btn btn-primary" href="/pt/contact/">Solicitar cotação</a></div>
+  </div>
+</div>

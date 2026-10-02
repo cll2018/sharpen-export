@@ -22,6 +22,7 @@ description: "联系长沙市萨普新材料有限公司，获取金刚石/CBN�
           <option>立方氮化硼砂轮</option>
           <option>粉末冶金高速钢</option>
           <option>TiNiCo 超合金均热板</option>
+          <option>钢结硬质合金</option>
           <option>其他 / 不确定</option>
         </select>
       </label>

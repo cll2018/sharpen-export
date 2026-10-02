@@ -22,6 +22,7 @@ description: "치앙사 샤브펜 신소재에서 다이아몬드/CBN 휠, PM �
           <option>CBN 연삭 휠</option>
           <option>분말 야금 고속강합금</option>
           <option>TiNiCo 합금 열 확산체</option>
+          <option>강결 경질합금</option>
           <option>기타 / 모름</option>
         </select>
       </label>

@@ -107,3 +107,17 @@ description: "Changsha Sharpen New Materials — piedras de canelado resistentes
     <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Solicitar una cotización</a></div>
   </div>
 </div>
+<div class="product-block" id="steel-bonded-carbide">
+  <div class="pb-img" style="background-image:url('/assets/img/steel-bonded-carbide.png')"></div>
+  <div>
+    <h2>Carburo con ligante de acero</h2>
+    <p>Carburo con ligante de acero (cementado) para herramienta y piezas con desgaste severo: mecanizable en estado temple-anodizado, compatible con forja y soldadura sin equipos especiales, y capaz de formar geometrías complejas. Tras el templado la dureza puede alcanzar HRC 60–70, la resistencia al desgaste es comparable a la del carburo de alto cobalto y su tenacidad y resistencia a los impactos son muy superiores a las del carburo convencional. Permite obtener prestaciones específicas (desgaste, corrosión, calor) mediante la selección del acero de ligante; el coste total de vida útil es mucho menor que el de los aceros de molde habituales, y la vida de las herramientas se multiplica de 10 a 20 veces, reduciendo notablemente el tiempo de parada.</p>
+    <ul class="specs">
+      <li>Applications: cold-extrusion, cold-heading and blanking/punching dies, firebrick shaping molds; replaces YG20-type carbide in high-load die cores.</li>
+      <li>Cutting tools: carbide and high-speed-steel tooling for titanium and nickel alloys, rock-boring and geological-drilling tools.</li>
+      <li>Wear parts: rollers, nozzles, bearings; high-grade grades used in aerospace and submarine-navigation components.</li>
+      <li>Support for diamond/CBN grinding-wheel fixtures and CBN-mill-forming jigs; meets accuracy and wear requirements.</li>
+    </ul>
+    <div class="pb-cta"><a class="btn btn-primary" href="/es/contact/">Solicitar una cotización</a></div>
+  </div>
+</div>

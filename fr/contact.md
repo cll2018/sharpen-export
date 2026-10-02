@@ -18,6 +18,7 @@ description: "Contactez Changsha Sharpen New Materials pour obtenir des devis su
       <label>Pays / Région<input type="text" name="country" /></label>
       <label>Produit d'intérêt
         <select name="product">
+          <option>Carbure lié à la base acier</option>
           <option>Meules de meulage diamant</option>
           <option>Meules de meulage CBN</option>
           <option>Acier rapide haute vitesse en métallurgie des poudres</option>

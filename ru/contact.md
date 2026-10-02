@@ -18,6 +18,7 @@ description: "Свяжитесь с Changsha Sharpen New Materials для пол
       <label>Страна / Регион<input type="text" name="country" /></label>
       <label>Интересующий продукт
         <select name="product">
+          <option>Сталепромежиточный твердосплав</option>
           <option>Алмазные шлифовальные круги</option>
           <option>СВС шлифовальные круги</option>
           <option>Быстрорежущая сталь порошковой металлургии</option>

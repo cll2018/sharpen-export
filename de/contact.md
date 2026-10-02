@@ -22,6 +22,7 @@ description: "Kontaktieren Sie Changsha Sharpen New Materials für Angebote zu D
           <option>CBN-Schleifscheiben</option>
           <option>Pulvermetallurgischer Hochgeschwindigkeitsstahl</option>
           <option>TiNiCo-Superlegierungswärmeableiter</option>
+          <option>Stahlgebundener Hartmetall</option>
           <option>Andere / Unsicher</option>
         </select>
       </label>

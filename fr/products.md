@@ -107,3 +107,17 @@ description: "Changsha Sharpen New Materials — meules de cannelage robustes, m
     <div class="pb-cta"><a class="btn btn-primary" href="/fr/contact/">Demander un devis</a></div>
   </div>
 </div>
+<div class="product-block" id="steel-bonded-carbide">
+  <div class="pb-img" style="background-image:url('/assets/img/steel-bonded-carbide.png')"></div>
+  <div>
+    <h2>Carbure lié à la base acier</h2>
+    <p>Carbure lié à la base acier (cémenté) pour outillage et pièces à usure sévère: usinable à l'état recuit, compatible avec la forge et le soudage sans équipements spéciaux, capable de former des géométries complexes. Après trempe, la dureté peut atteindre HRC 60–70; la résistance à l'usure est comparable à celle du carbure haute teneur en cobalt, et sa ténacité et sa résistance aux chocs sont bien supérieures au carbure conventionnel. L'ajustement de l'acier de liaison permet d'obtenir des performances spécifiques (usure, corrosion, chaleur); le coût du cycle de vie complet est bien inférieur à celui des aciers de moules classiques, et la durée de vie des outillages est multipliée par 10 à 20, réduisant notablement les temps d'arrêt.</p>
+    <ul class="specs">
+      <li>Applications: cold-extrusion, cold-heading and blanking/punching dies, firebrick shaping molds; replaces YG20-type carbide in high-load die cores.</li>
+      <li>Cutting tools: carbide and high-speed-steel tooling for titanium and nickel alloys, rock-boring and geological-drilling tools.</li>
+      <li>Wear parts: rollers, nozzles, bearings; high-grade grades used in aerospace and submarine-navigation components.</li>
+      <li>Support for diamond/CBN grinding-wheel fixtures and CBN-mill-forming jigs; meets accuracy and wear requirements.</li>
+    </ul>
+    <div class="pb-cta"><a class="btn btn-primary" href="/fr/contact/">Demander un devis</a></div>
+  </div>
+</div>

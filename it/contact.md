@@ -18,6 +18,7 @@ description: "Contatta Changsha Sharpen New Materials per i preventivi di mole d
       <label>Paese / Regione<input type="text" name="country" /></label>
       <label>Prodotto di interesse
         <select name="product">
+          <option>Carburo con lega di acciaio</option>
           <option>Mole diamantate per rettifica</option>
           <option>Mole CBN per rettifica</option>
           <option>Acci rapidi a sinterizzazione (PM)</option>

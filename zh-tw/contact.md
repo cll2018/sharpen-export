@@ -22,6 +22,7 @@ description: "聯繫長沙市薩普新材料有限公司，獲取金剛石/CBN�
           <option>立方氮化硼砂輪</option>
           <option>粉末冶金高速鋼</option>
           <option>TiNiCo 超合金均熱板</option>
+          <option>鋼結硬質合金</option>
           <option>其他 / 不確定</option>
         </select>
       </label>

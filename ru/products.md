@@ -107,3 +107,17 @@ description: "Changsha Sharpen New Materials — долговечные круг
     <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Запросить расчет</a></div>
   </div>
 </div>
+<div class="product-block" id="steel-bonded-carbide">
+  <div class="pb-img" style="background-image:url('/assets/img/steel-bonded-carbide.png')"></div>
+  <div>
+    <h2>Сталепромежиточный твердосплав</h2>
+    <p>Сталепромежиточный твердосплав для инструмента и агрессивных износостойких деталей — обрабатывается токарной/фрезерной/сверлильной обработкой в отожжённом состоянии, поддерживает ковку и сварку, не требует специального оборудования для сложного формообразования. После закалки твёрдость достигает HRC 60–70, износостойкость близка к высококобальтовому твердосплаву, а вязкость и ударопрочность значительно превосходят обычный карбид. Настройка свойств (износ, коррозионная стойкость, жаропрочность) путём выбора стали-связки. Полная стоимость жизненного цикла значительно ниже обычной инструментальной стали; ресурс штампов улучшен на порядок, время простоя на смену штампа существенно сокращается.</p>
+    <ul class="specs">
+      <li>Applications: cold-extrusion, cold-heading and blanking/punching dies, firebrick shaping molds; replaces YG20-type carbide in high-load die cores.</li>
+      <li>Cutting tools: carbide and high-speed-steel tooling for titanium and nickel alloys, rock-boring and geological-drilling tools.</li>
+      <li>Wear parts: rollers, nozzles, bearings; high-grade grades used in aerospace and submarine-navigation components.</li>
+      <li>Support for diamond/CBN grinding-wheel fixtures and CBN-mill-forming jigs; meets accuracy and wear requirements.</li>
+    </ul>
+    <div class="pb-cta"><a class="btn btn-primary" href="/ru/contact/">Запросить расчет</a></div>
+  </div>
+</div>

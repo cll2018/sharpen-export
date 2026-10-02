@@ -107,3 +107,17 @@ description: "长沙市萨普新材料有限公司的强力开槽砂轮、半导
     <div class="pb-cta"><a class="btn btn-primary" href="/zh/contact/">获取报价</a></div>
   </div>
 </div>
+<div class="product-block" id="steel-bonded-carbide">
+  <div class="pb-img" style="background-image:url('/assets/img/steel-bonded-carbide.png')"></div>
+  <div>
+    <h2>钢结硬质合金</h2>
+    <p>钢结硬质合金面向刀具与苛刻耐磨件——退火态可直接车、铣、钻加工，支持锻造与焊接、无需特殊设备即可完成复杂成型。淬硬后硬度可达 HRC 60–70，耐磨性接近高钴硬质合金，韧性远优于普通硬质合金、抗冲击更强。可通过调整粘结相钢材获得耐磨、耐腐蚀、耐热等特殊性能，全生命周期成本远低于常规合金模具钢，模具寿命可提升十几至几十倍、大幅减少换模停机时间。</p>
+    <ul class="specs">
+      <li>Applications: cold-extrusion, cold-heading and blanking/punching dies, firebrick shaping molds; replaces YG20-type carbide in high-load die cores.</li>
+      <li>Cutting tools: carbide and high-speed-steel tooling for titanium and nickel alloys, rock-boring and geological-drilling tools.</li>
+      <li>Wear parts: rollers, nozzles, bearings; high-grade grades used in aerospace and submarine-navigation components.</li>
+      <li>Support for diamond/CBN grinding-wheel fixtures and CBN-mill-forming jigs; meets accuracy and wear requirements.</li>
+    </ul>
+    <div class="pb-cta"><a class="btn btn-primary" href="/zh/contact/">获取报价</a></div>
+  </div>
+</div>

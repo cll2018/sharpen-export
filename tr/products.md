@@ -107,3 +107,17 @@ description: "Changsha Sharpen New Materials — güçlü çelik tekerlekleri, y
     <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Teklif iste</a></div>
   </div>
 </div>
+<div class="product-block" id="steel-bonded-carbide">
+  <div class="pb-img" style="background-image:url('/assets/img/steel-bonded-carbide.png')"></div>
+  <div>
+    <h2>Çelik bağlı sert alaşım</h2>
+    <p>Çelik bağlı sert alaşım (simentant) takımlar ve sert aşınma parçaları için: tavlanmış halde CNC, freze, delik işlemeye uygundur; döküm ve kaynak için özel ekipman gerektirmez, karmaşık şekillerin oluşturulmasına imkân verir. Isıl işlem sonrası sertlik HRC 60–70'a ulaşabilir, aşınma direnci yüksek kobalt içeren sert alaşımlara yaklaşır; süneklik ve darbe direnci sıradan sert alaşımlara göre çok daha yüksektir. Bağlayıcı çeliğin seçimiyle aşınma, korozyon, ısı direnci gibi özel performanslar elde edilebilir. Toplam kullanım maliyeti, geleneksel alaşım kalıp çeliklerinden çok daha düşüktür; kalıp ömrü 10–20 katına çıkar, değişim süreleri ciddi biçimde kısalır.</p>
+    <ul class="specs">
+      <li>Applications: cold-extrusion, cold-heading and blanking/punching dies, firebrick shaping molds; replaces YG20-type carbide in high-load die cores.</li>
+      <li>Cutting tools: carbide and high-speed-steel tooling for titanium and nickel alloys, rock-boring and geological-drilling tools.</li>
+      <li>Wear parts: rollers, nozzles, bearings; high-grade grades used in aerospace and submarine-navigation components.</li>
+      <li>Support for diamond/CBN grinding-wheel fixtures and CBN-mill-forming jigs; meets accuracy and wear requirements.</li>
+    </ul>
+    <div class="pb-cta"><a class="btn btn-primary" href="/tr/contact/">Teklif iste</a></div>
+  </div>
+</div>
