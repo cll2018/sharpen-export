@@ -34,6 +34,12 @@ export async function onRequestPost({ request, env }) {
   const product = str(body.product);
   const message = str(body.message);
 
+  // Honeypot: a hidden field real users never see. Bots that fill it in are
+  // dropped silently so they don't trigger a sales email.
+  if (str(body.website)) {
+    return json({ ok: true, delivered: "none" }, 200);
+  }
+
   if (!email || !message) {
     return json({ ok: false, error: "请至少填写邮箱和留言。" }, 400);
   }

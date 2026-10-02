@@ -7,7 +7,7 @@ description: "長沙シャーペン新材料 — 高強度溝研ぎ砥石、半�
 ---
 
 <div class="product-block" id="strong-grooving-wheels">
-  <div class="pb-img" style="background-image:url('/assets/img/diamond-wheels.jpg')"></div>
+  <img class="pb-img" src="/assets/img/diamond-wheels.jpg" alt="高強度溝研ぎ砥石" loading="lazy" />
   <div>
     <h2>高強度溝研ぎ砥石</h2>
     <p>社内R&Dにより、シャーペンは金属結合とダイヤモンド/CBN研磨材間の接着課題を解決し、高級輸入砥石を代替する均一な金属間化合物（サーメット）結合を中国で初めて開発しました。SAP高強度溝研ぎ砥石は金属砥石と焼結体の利点を兼ね備えており、高い自己研削性、鋭さ、優れた形状維持性、および簡単なドレッシングを特徴とし、硬質合金、高速鋼、サーメット回転工具およびインサートの効率的な加工に最適です。</p>
@@ -21,7 +21,7 @@ description: "長沙シャーペン新材料 — 高強度溝研ぎ砥石、半�
 </div>
 
 <div class="product-block" id="led-backgrinding-wheels">
-  <div class="pb-img" style="background-image:url('/assets/img/wafer-backgrind.jpg')"></div>
+  <img class="pb-img" src="/assets/img/wafer-backgrind.jpg" alt="半導体・LEDウェーハバック研ぎ砥石" loading="lazy" />
   <div>
     <h2>半導体・LEDウェーハバック研ぎ砥石</h2>
     <p>これらのダイヤモンド砥石は、超硬質半導体材料の精密研削用に設計されており、サファイアやSiC基盤のバックスライス、LEDサファイア基盤のバック研削、SiCおよびGaAs基盤の研削に対応します。金属/共有金属結合により、優れた砥石性能を発揮します。</p>
@@ -36,7 +36,7 @@ description: "長沙シャーペン新材料 — 高強度溝研ぎ砥石、半�
 </div>
 
 <div class="product-block" id="pm-high-speed-steel">
-  <div class="pb-img" style="background-image:url('/assets/img/pm-steel.jpg')"></div>
+  <img class="pb-img" src="/assets/img/pm-steel.jpg" alt="粉末冶金高速鋼" loading="lazy" />
   <div>
     <h2>粉末冶金高速鋼</h2>
     <p>SAPシリーズの粉末冶金高速鋼（PM-HSS）は、輸入代替品として高級工具・金型産業を提供します。斬新な粉末冶金プロセスにより、極少の機械加工だけで任意の形状・サイズの工具/金型部品の製造が可能です。PM-HSSに加え、SAP工具/金型材料ファミリーには金型鋼、高クロムステンレス高速鋼、高バナジウム高速鋼、Ti-Ni高速鋼、TiC/TiCN鋼结合硬質合金、Fe-Cr / Fe-Mn / Ni-Cr鋼结合硬質合金も含まれます。</p>
@@ -51,7 +51,7 @@ description: "長沙シャーペン新材料 — 高強度溝研ぎ砥石、半�
 </div>
 
 <div class="product-block" id="tinico-heat-spreader">
-  <div class="pb-img" style="background-image:url('/assets/img/tinico.jpg')"></div>
+  <img class="pb-img" src="/assets/img/tinico.jpg" alt="TiNiCo超合金均熱板" loading="lazy" />
   <div>
     <h2>TiNiCo超合金均熱板</h2>
     <p>TiNiCo超合金均熱板は、3Dカバーガラスのホットベンディング型や半導体の熱管理に使用されます。均一加熱、高平面度、および長い使用寿命を提供し、非標準カスタムサイズに対応し、輸入されたホットベンディング型均熱板の国内代替の重要な材料です。</p>
@@ -65,7 +65,7 @@ description: "長沙シャーペン新材料 — 高強度溝研ぎ砥石、半�
 </div>
 
 <div class="product-block" id="sic-wafer-wheels">
-  <div class="pb-img" style="background-image:url('/assets/img/sic-wafer.jpg')"></div>
+  <img class="pb-img" src="/assets/img/sic-wafer.jpg" alt="炭化シリコン（SiC）ウェーハ薄肉化砥石" loading="lazy" />
   <div>
     <h2>炭化シリコン（SiC）ウェーハ薄肉化砥石</h2>
     <p>自社開発のSiCウェーハ薄肉化砥石は、ダイヤモンド砥石に単一均一な金属間化合物サーメット結合を使用し、自己空隙形成による自己研削性（鋭さ）、形状維持性（長寿命）、および高い切削能力のバランスを実現します。</p>
@@ -79,7 +79,7 @@ description: "長沙シャーペン新材料 — 高強度溝研ぎ砥石、半�
 </div>
 
 <div class="product-block" id="pv-ingot-wheels">
-  <div class="pb-img" style="background-image:url('/assets/img/pv-ingot.jpg')"></div>
+  <img class="pb-img" src="/assets/img/pv-ingot.jpg" alt="光電シリコン丸鋼の四角出し・角抜き砥石" loading="lazy" />
   <div>
     <h2>光電シリコン丸鋼の四角出し・角抜き砥石</h2>
     <p>これらの砥石は、光電シリコン丸鋼のカット後、ノコ目と表面損傷層を除去し、四角出しと角抜きを行うために使用され、下流プロセスの効率と歩留まりを向上させます。</p>
@@ -93,7 +93,7 @@ description: "長沙シャーペン新材料 — 高強度溝研ぎ砥石、半�
 </div>
 
 <div class="product-block" id="resin-wheels">
-  <div class="pb-img" style="background-image:url('/assets/img/resin-wheels.png')"></div>
+  <img class="pb-img" src="/assets/img/resin-wheels.png" alt="5軸樹脂接着砥石" loading="lazy" />
   <div>
     <h2>5軸樹脂接着砥石</h2>
     <p>5軸マシン用の樹脂接着砥石は、5軸同時運動の高精度運動学に適合した接着砥石です。樹脂結合でダイヤモンドまたはCBN超硬粒子を使用し、硬質合金や高速鋼などの加工困難材料の精密プロファイル研削用に設計されており、精密CNC工具製造のコア消耗品です。輸入5軸工具研削機（Walter、Aka、Hardinge/Hassなど）および国産5軸研削機にそのまま接続可能で、固溶硬质合金エンドミル、ドリル、リーマーおよびPCD/PCBNインサートの溝切り、裏研ぎ、アンダーカーニング、ならびに高速鋼、ステンレス鋼、サーメットワークピースの複雑プロファイル研削に対応します。</p>
@@ -108,7 +108,7 @@ description: "長沙シャーペン新材料 — 高強度溝研ぎ砥石、半�
   </div>
 </div>
 <div class="product-block" id="steel-bonded-carbide">
-  <div class="pb-img" style="background-image:url('/assets/img/steel-bonded-carbide.png')"></div>
+  <img class="pb-img" src="/assets/img/steel-bonded-carbide.png" alt="鋼結硬质合金" loading="lazy" />
   <div>
     <h2>鋼結硬质合金</h2>
     <p>鋼結硬質合金（セメタクト）は工具や過酷な耐摩耗部品向け——焼きなまし状態のまま旋盤・フライス・ドリリング加工でき、Forge ならびに溶接が可能、特殊設備なしで複雑な成形に対応。焼入れ後は HRC 60–70 を達成し、耐摩耗性は高コバルト超硬合金に近く、一般的な超硬合金よりはるかに高い靭性と耐衝撃性を発揮。接着相鋼材の調整により耐摩耗・耐腐食・耐熱などをカスタマイズでき、ライフサイクルコストは通常の合金モールド鋼を大きく下回り、型寿命は10〜数十倍向上、型替え停止時間を大幅に短縮します。</p>

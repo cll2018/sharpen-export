@@ -27,7 +27,9 @@ description: "Свяжитесь с Changsha Sharpen New Materials для пол
         </select>
       </label>
       <label>Сообщение *<textarea name="message" required placeholder="Материал, размеры, количество, область применения..."></textarea></label>
-      <button class="btn btn-primary" type="submit">Отправить запрос</button>
+            <div class="hp-field" aria-hidden="true"><label>Please leave this field empty<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+      <label class="consent"><input type="checkbox" name="consent" required /> Я согласен на контакт по моему запросу.</label>
+<button class="btn btn-primary" type="submit">Отправить запрос</button>
       <div id="rfqMsg" class="form-msg" role="status"></div>
     </form>
   </div>

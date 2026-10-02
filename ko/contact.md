@@ -27,7 +27,9 @@ description: "치앙사 샤브펜 신소재에서 다이아몬드/CBN 휠, PM �
         </select>
       </label>
       <label>메시지 *<textarea name="message" required placeholder="재료, 치수, 수량, 용도..."></textarea></label>
-      <button class="btn btn-primary" type="submit">문의 제출</button>
+            <div class="hp-field" aria-hidden="true"><label>Please leave this field empty<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+      <label class="consent"><input type="checkbox" name="consent" required /> 문의에 대한 연락에 동의합니다.</label>
+<button class="btn btn-primary" type="submit">문의 제출</button>
       <div id="rfqMsg" class="form-msg" role="status"></div>
     </form>
   </div>

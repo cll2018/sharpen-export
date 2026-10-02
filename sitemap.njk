@@ -10,10 +10,12 @@ permalink: /sitemap.xml
     <lastmod>{{ u.lastmod }}</lastmod>
     <changefreq>{{ u.changefreq }}</changefreq>
     <priority>{{ u.priority }}</priority>
+    {% for img in u.images %}
     <image:image>
-      <image:loc>{{ u.image }}</image:loc>
+      <image:loc>{{ img }}</image:loc>
       <image:title>{{ u.title }}</image:title>
     </image:image>
+    {% endfor %}
   </url>
 {% endfor %}
 </urlset>

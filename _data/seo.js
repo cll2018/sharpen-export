@@ -5,16 +5,21 @@ const site = require("../_data/site.js");
 // ISO build timestamp (used for sitemap lastmod).
 const BUILD_TIME = new Date().toISOString().slice(0, 10);
 
-// All pages per language: home, products, about, news, contact.
-const PAGES = [
-  { seg: "", priority: "1.0", changefreq: "weekly", image: "/assets/img/logo.png" },
-  { seg: "products", priority: "0.9", changefreq: "weekly", image: "/assets/img/diamond-wheels.jpg" },
-  { seg: "about", priority: "0.7", changefreq: "monthly", image: "/assets/img/pm-steel.jpg" },
-  { seg: "news", priority: "0.7", changefreq: "daily", image: "/assets/img/news-company.png" },
-  { seg: "contact", priority: "0.7", changefreq: "monthly", image: "/assets/img/news-industry.png" },
-];
-
 const DOMAIN = "https://" + site.domain;
+
+// All 8 product images (same paths across every language) so the products
+// page URL carries the full product image index for Google Images.
+const PRODUCT_IMAGES = ((require("./products").en) || []).map((p) => p.image);
+
+// All pages per language: home, products, about, news, contact.
+// `images` is an array of image paths; the products page lists every product.
+const PAGES = [
+  { seg: "", priority: "1.0", changefreq: "weekly", images: ["/assets/img/logo.png"] },
+  { seg: "products", priority: "0.9", changefreq: "weekly", images: PRODUCT_IMAGES },
+  { seg: "about", priority: "0.7", changefreq: "monthly", images: ["/assets/img/pm-steel.jpg"] },
+  { seg: "news", priority: "0.7", changefreq: "daily", images: ["/assets/img/news-company.png"] },
+  { seg: "contact", priority: "0.7", changefreq: "monthly", images: ["/assets/img/news-industry.png"] },
+];
 
 function pageUrl(lang, seg) {
   if (!seg) return "/" + lang + "/";
@@ -30,7 +35,7 @@ for (const l of site.langs) {
       lastmod: BUILD_TIME,
       changefreq: p.changefreq,
       priority: p.priority,
-      image: DOMAIN + p.image,
+      images: p.images.map((i) => DOMAIN + i),
       title: (l.native ? l.native + " " : "") + site.shortName + (p.seg ? " – " + p.seg : ""),
     });
   }

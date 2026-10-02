@@ -27,7 +27,9 @@ description: "Elmas/CBN tekerlekleri, toz metalurjisi yüksek hızlı çelik ve 
         </select>
       </label>
       <label>Mesaj *<textarea name="message" required placeholder="Malzeme, boyutlar, miktar, uygulama..."></textarea></label>
-      <button class="btn btn-primary" type="submit">Başvuruyu Gönder</button>
+            <div class="hp-field" aria-hidden="true"><label>Please leave this field empty<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+      <label class="consent"><input type="checkbox" name="consent" required /> Sorgumuyla ilgili olarak benimle iletişime geçilmesine onay veriyorum.</label>
+<button class="btn btn-primary" type="submit">Başvuruyu Gönder</button>
       <div id="rfqMsg" class="form-msg" role="status"></div>
     </form>
   </div>

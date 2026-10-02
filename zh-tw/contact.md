@@ -27,7 +27,9 @@ description: "聯繫長沙市薩普新材料有限公司，獲取金剛石/CBN�
         </select>
       </label>
       <label>留言 *<textarea name="message" required placeholder="材料、尺寸、數量、應用場景……"></textarea></label>
-      <button class="btn btn-primary" type="submit">提交詢盤</button>
+            <div class="hp-field" aria-hidden="true"><label>Please leave this field empty<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+      <label class="consent"><input type="checkbox" name="consent" required /> 我同意就本次詢盤與我聯繫。</label>
+<button class="btn btn-primary" type="submit">提交詢盤</button>
       <div id="rfqMsg" class="form-msg" role="status"></div>
     </form>
   </div>

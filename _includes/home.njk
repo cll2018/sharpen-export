@@ -19,7 +19,7 @@ layout: base.njk
     {% set plist = products[lang] or products[site.fallbackLang] %}
     {% for p in plist %}
     <article class="card">
-      <div class="card-img" style="background-image:url('{{ p.image }}')"></div>
+      <img class="card-img" src="{{ p.image }}" alt="{{ p.name }}" loading="lazy" />
       <h3>{{ p.name }}</h3>
       <p>{{ p.summary }}</p>
       <a class="card-link" href="{{ ('/' + lang + '/products/') | langUrl(lang) }}#{{ p.id }}">{{ s.learn }} →</a>

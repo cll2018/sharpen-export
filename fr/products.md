@@ -7,7 +7,7 @@ description: "Changsha Sharpen New Materials — meules de cannelage robustes, m
 ---
 
 <div class="product-block" id="strong-grooving-wheels">
-  <div class="pb-img" style="background-image:url('/assets/img/diamond-wheels.jpg')"></div>
+  <img class="pb-img" src="/assets/img/diamond-wheels.jpg" alt="Meules de cannelage robustes" loading="lazy" />
   <div>
     <h2>Meules de cannelage robustes</h2>
     <p>Grâce à ses activités internes de R&D, Sharpen a résolu le défi lié à l'adhérence entre le liant et les abrasifs au diamant/CBN, devenant ainsi le premier en Chine à développer un liant céramique homogène qui remplace les meules haut de gamme importées. Les meules de cannelage robustes SAP combinent les avantages des meules métalliques et vitrifiées — auto-affûtage élevé, tranchant supérieur, excellente tenue de forme et dressage facile — idéales pour l'usinage efficace des outils rotatifs et inserts en carbure, HSS et céramique.</p>
@@ -21,7 +21,7 @@ description: "Changsha Sharpen New Materials — meules de cannelage robustes, m
 </div>
 
 <div class="product-block" id="led-backgrinding-wheels">
-  <div class="pb-img" style="background-image:url('/assets/img/wafer-backgrind.jpg')"></div>
+  <img class="pb-img" src="/assets/img/wafer-backgrind.jpg" alt="Meules de rectification arrière pour substrats et wafers de semi-conducteurs et LED" loading="lazy" />
   <div>
     <h2>Meules de rectification arrière pour substrats et wafers de semi-conducteurs et LED</h2>
     <p>Ces meules au diamant sont conçues pour l'usinage de précision de matériaux semi-conducteurs ultradurs — amincissement de face arrière de substrats en saphir et SiC, rectification de face arrière de substrats en saphir pour LED, usinage de substrats en SiC et GaAs. Un liant métallique/covalent métallique assure une excellente performance de la meule.</p>
@@ -36,7 +36,7 @@ description: "Changsha Sharpen New Materials — meules de cannelage robustes, m
 </div>
 
 <div class="product-block" id="pm-high-speed-steel">
-  <div class="pb-img" style="background-image:url('/assets/img/pm-steel.jpg')"></div>
+  <img class="pb-img" src="/assets/img/pm-steel.jpg" alt="Acier à outillage haute vitesse par métallurgie des poudres" loading="lazy" />
   <div>
     <h2>Acier à outillage haute vitesse par métallurgie des poudres</h2>
     <p>La gamme SAP d'acier HSS par métallurgie des poudres s'adresse à l'industrie haut de gamme de l'outillage et des moules comme substitut aux produits importés. Un nouveau procédé de métallurgie des poudres nécessite un usinage minimal pour fournir des pièces d'outillage/moule de forme et taille quelconques. Au-delà de l'HSS par PM, la famille de matériaux pour outillage/moule SAP couvre également l'acier pour moules, les aciers à outillage HSS haute teneur en chrome, les aciers HSS haute teneur en vanadium, les aciers HSS Ti-Ni, les carbures liés par acier TiC/TiCN, ainsi que les carbures liés par acier Fe-Cr / Fe-Mn / Ni-Cr.</p>
@@ -51,7 +51,7 @@ description: "Changsha Sharpen New Materials — meules de cannelage robustes, m
 </div>
 
 <div class="product-block" id="tinico-heat-spreader">
-  <div class="pb-img" style="background-image:url('/assets/img/tinico.jpg')"></div>
+  <img class="pb-img" src="/assets/img/tinico.jpg" alt="Diffuseurs de chaleur en super-alliage TiNiCo" loading="lazy" />
   <div>
     <h2>Diffuseurs de chaleur en super-alliage TiNiCo</h2>
     <p>Les diffuseurs de chaleur en super-alliage TiNiCo sont utilisés dans les moules de flexion thermique pour verres 3D et la gestion thermique des semi-conducteurs. Ils offrent un chauffage uniforme, une planéité élevée et une longue durée de vie, s'adaptent aux dimensions sur mesure non standard et constituent un matériau de substitution locale clé pour les diffuseurs de chaleur de moules importés.</p>
@@ -65,7 +65,7 @@ description: "Changsha Sharpen New Materials — meules de cannelage robustes, m
 </div>
 
 <div class="product-block" id="sic-wafer-wheels">
-  <div class="pb-img" style="background-image:url('/assets/img/sic-wafer.jpg')"></div>
+  <img class="pb-img" src="/assets/img/sic-wafer.jpg" alt="Meules d'amincissement de wafers en carbure de silicium (SiC)" loading="lazy" />
   <div>
     <h2>Meules d'amincissement de wafers en carbure de silicium (SiC)</h2>
     <p>Nos meules d'amincissement de wafers SiC développées en interne utilisent un liant céramique intermétallique homogène unique pour la meule au diamant, assurant un équilibre entre l'auto-affûtage (tranchant), la tenue de forme (longue durée de vie) et le taux élevé de retrait de matière grâce à la formation spontanée de pores en surface de la meule.</p>
@@ -79,7 +79,7 @@ description: "Changsha Sharpen New Materials — meules de cannelage robustes, m
 </div>
 
 <div class="product-block" id="pv-ingot-wheels">
-  <div class="pb-img" style="background-image:url('/assets/img/pv-ingot.jpg')"></div>
+  <img class="pb-img" src="/assets/img/pv-ingot.jpg" alt="Meules de dressage et chanfreinage pour lingots de silicium photovoltaïque" loading="lazy" />
   <div>
     <h2>Meules de dressage et chanfreinage pour lingots de silicium photovoltaïque</h2>
     <p>Ces meules sont utilisées pour le dressage et le chanfreinage des lingots de silicium PV après trépannage, afin de retirer les marques de scie et les couches de surface endommagées, améliorant ainsi l'efficacité et le rendement en aval.</p>
@@ -93,7 +93,7 @@ description: "Changsha Sharpen New Materials — meules de cannelage robustes, m
 </div>
 
 <div class="product-block" id="resin-wheels">
-  <div class="pb-img" style="background-image:url('/assets/img/resin-wheels.png')"></div>
+  <img class="pb-img" src="/assets/img/resin-wheels.png" alt="Meules de rectification à liant résine pour 5 axes" loading="lazy" />
   <div>
     <h2>Meules de rectification à liant résine pour 5 axes</h2>
     <p>Les meules de rectification à liant résine pour machines à 5 axes sont des meules abrasives à liant adaptées à la cinématique de haute précision du mouvement simultané 5 axes. Utilisant un liant résine avec des grains supertdurs en diamant ou CBN, elles sont spécifiquement conçues pour la rectification de contour de précision de matériaux difficiles à usiner tels que le carbure et l'acier à outillage hautes performances, constituant ainsi le consommable central de la fabrication d'outillage CNC de précision. Elles s'adaptent directement aux rectifieuses d'outils 5 axes importées (Walter, Aka, Hardinge/Hass et autres) ainsi qu'aux rectifieuses 5 axes locales, pour la cannelure, le dédoublage et la mise à l'angle des fraises à carbure massif, des forets, des alésoirs et des inserts PCD/PCBN, ainsi que pour la rectification de contour complexe de pièces en acier HSS, acier inoxydable et céramique.</p>
@@ -108,7 +108,7 @@ description: "Changsha Sharpen New Materials — meules de cannelage robustes, m
   </div>
 </div>
 <div class="product-block" id="steel-bonded-carbide">
-  <div class="pb-img" style="background-image:url('/assets/img/steel-bonded-carbide.png')"></div>
+  <img class="pb-img" src="/assets/img/steel-bonded-carbide.png" alt="Carbure lié à la base acier" loading="lazy" />
   <div>
     <h2>Carbure lié à la base acier</h2>
     <p>Carbure lié à la base acier (cémenté) pour outillage et pièces à usure sévère: usinable à l'état recuit, compatible avec la forge et le soudage sans équipements spéciaux, capable de former des géométries complexes. Après trempe, la dureté peut atteindre HRC 60–70; la résistance à l'usure est comparable à celle du carbure haute teneur en cobalt, et sa ténacité et sa résistance aux chocs sont bien supérieures au carbure conventionnel. L'ajustement de l'acier de liaison permet d'obtenir des performances spécifiques (usure, corrosion, chaleur); le coût du cycle de vie complet est bien inférieur à celui des aciers de moules classiques, et la durée de vie des outillages est multipliée par 10 à 20, réduisant notablement les temps d'arrêt.</p>

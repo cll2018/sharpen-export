@@ -27,7 +27,9 @@ description: "联系长沙市萨普新材料有限公司，获取金刚石/CBN�
         </select>
       </label>
       <label>留言 *<textarea name="message" required placeholder="材料、尺寸、数量、应用场景……"></textarea></label>
-      <button class="btn btn-primary" type="submit">提交询盘</button>
+            <div class="hp-field" aria-hidden="true"><label>Please leave this field empty<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+      <label class="consent"><input type="checkbox" name="consent" required /> 我同意就本次询盘与我联系。</label>
+<button class="btn btn-primary" type="submit">提交询盘</button>
       <div id="rfqMsg" class="form-msg" role="status"></div>
     </form>
   </div>

@@ -27,7 +27,9 @@ description: "Contatta Changsha Sharpen New Materials per i preventivi di mole d
         </select>
       </label>
       <label>Messaggio *<textarea name="message" required placeholder="Materiale, dimensioni, quantità, applicazione..."></textarea></label>
-      <button class="btn btn-primary" type="submit">Invia la richiesta</button>
+            <div class="hp-field" aria-hidden="true"><label>Please leave this field empty<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+      <label class="consent"><input type="checkbox" name="consent" required /> Acconsento di essere contattato per la mia richiesta.</label>
+<button class="btn btn-primary" type="submit">Invia la richiesta</button>
       <div id="rfqMsg" class="form-msg" role="status"></div>
     </form>
   </div>

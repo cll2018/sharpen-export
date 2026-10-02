@@ -29,6 +29,10 @@
       var fd = new FormData(form);
       var payload = {};
       fd.forEach(function (v, k) { payload[k] = v; });
+
+      // Client-side honeypot: never submit if the hidden field is filled.
+      if (payload.website) { return; }
+
       var btn = form.querySelector('button[type="submit"]');
       var prevLabel = btn ? btn.textContent : "";
       if (btn) { btn.disabled = true; btn.textContent = "提交中…"; }

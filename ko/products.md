@@ -7,7 +7,7 @@ description: "창사 샤펜 뉴 머티리얼스(Changsha Sharpen New Materials) 
 ---
 
 <div class="product-block" id="strong-grooving-wheels">
-  <div class="pb-img" style="background-image:url('/assets/img/diamond-wheels.jpg')"></div>
+  <img class="pb-img" src="/assets/img/diamond-wheels.jpg" alt="고강도 그루빙 휠" loading="lazy" />
   <div>
     <h2>고강도 그루빙 휠</h2>
     <p>샤펜(Sharpen)은 자체 연구개발을 통해 바인더와 다이아몬드/CBN 연마재 사이의 결합 문제를 해결했으며, 고급 수입 휠을 대체하는 균일한 세라믹-금속(serde) 바인더를 중국에서 최초로 개발했습니다. SAP 고강도 그루빙 휠은 금속 휠과 유리질 휠의 장점을 결합하여 자가 선예화(self-sharpening) 성능이 높고, 절삭력이 우수하며, 형상 유지력이 뛰어나고 보수(dressing)가 용이합니다. 이 때문에 탄화물, 고속강, 세라믹-금속 회전 공구 및 인서트 가공에 효율적인 처리가 가능합니다.</p>
@@ -21,7 +21,7 @@ description: "창사 샤펜 뉴 머티리얼스(Changsha Sharpen New Materials) 
 </div>
 
 <div class="product-block" id="led-backgrinding-wheels">
-  <div class="pb-img" style="background-image:url('/assets/img/wafer-backgrind.jpg')"></div>
+  <img class="pb-img" src="/assets/img/wafer-backgrind.jpg" alt="반도체 및 LED 웨이퍼 백 그라인딩 휠" loading="lazy" />
   <div>
     <h2>반도체 및 LED 웨이퍼 백 그라인딩 휠</h2>
     <p>이 다이아몬드 휠은 보석(Sapphire) 및 SiC 기판의 얇게 만들기, LED용 보석 기판 백 그라인딩, SiC 및 GaAs 기판 연마와 같이 초경도 반도체 재료의 정밀 연마를 위해 설계되었습니다. 금속성/공유 결합 금속성 바인더는 우수한 휠 성능을 제공합니다.</p>
@@ -36,7 +36,7 @@ description: "창사 샤펜 뉴 머티리얼스(Changsha Sharpen New Materials) 
 </div>
 
 <div class="product-block" id="pm-high-speed-steel">
-  <div class="pb-img" style="background-image:url('/assets/img/pm-steel.jpg')"></div>
+  <img class="pb-img" src="/assets/img/pm-steel.jpg" alt="분말야금 고속강(PM High-Speed Steel)" loading="lazy" />
   <div>
     <h2>분말야금 고속강(PM High-Speed Steel)</h2>
     <p>SAP 시리즈 분말야금 고속강은 수입 제품 대체재로서 고급 공구 및 금형 산업에 공급됩니다. 새로운 분말야금 공정으로 최소한의 가공만으로도 어떤 형상이나 크기의 공구/금형 부품을 제공할 수 있습니다. PM-HSS를 넘어 SAP 공구/금형 소재 라인업에는 금형강, 고크롬 스테인리스 고속강, 고바나듐 고속강, Ti-Ni 고속강, TiC/TiCN 강계 탄소화물, Fe-Cr / Fe-Mn / Ni-Cr 강계 탄소화물이 포함됩니다.</p>
@@ -51,7 +51,7 @@ description: "창사 샤펜 뉴 머티리얼스(Changsha Sharpen New Materials) 
 </div>
 
 <div class="product-block" id="tinico-heat-spreader">
-  <div class="pb-img" style="background-image:url('/assets/img/tinico.jpg')"></div>
+  <img class="pb-img" src="/assets/img/tinico.jpg" alt="TiNiCo 초합금 열 확산기" loading="lazy" />
   <div>
     <h2>TiNiCo 초합금 열 확산기</h2>
     <p>TiNiCo 초합금 열 확산기는 3D 커버글라스 핫 벤딩 금형 및 반도체 열 관리에 사용됩니다. 균일한 가열, 높은 평탄도, 긴 수명을 제공하며, 비표준 커스텀 크기를 지원하고, 수입 핫 벤딩 금형 열 확산기의 중요한 국산 대체재입니다.</p>
@@ -65,7 +65,7 @@ description: "창사 샤펜 뉴 머티리얼스(Changsha Sharpen New Materials) 
 </div>
 
 <div class="product-block" id="sic-wafer-wheels">
-  <div class="pb-img" style="background-image:url('/assets/img/sic-wafer.jpg')"></div>
+  <img class="pb-img" src="/assets/img/sic-wafer.jpg" alt="탄화규소(SiC) 웨이퍼 얇게 만들기 휠" loading="lazy" />
   <div>
     <h2>탄화규소(SiC) 웨이퍼 얇게 만들기 휠</h2>
     <p>자체 개발한 SiC 웨이퍼 얇게 만들기 휠은 다이아몬드 휠에 단일 균일한 금속간 화합물 세라믹-금속 바인더를 사용하여, 휠 표면의 자가 기공 형성(self-pore-forming)을 통해 자가 선예화(날카로움), 형상 유지(긴 수명) 및 높은 재료 제거율을 균형 있게 구현합니다.</p>
@@ -79,7 +79,7 @@ description: "창사 샤펜 뉴 머티리얼스(Changsha Sharpen New Materials) 
 </div>
 
 <div class="product-block" id="pv-ingot-wheels">
-  <div class="pb-img" style="background-image:url('/assets/img/pv-ingot.jpg')"></div>
+  <img class="pb-img" src="/assets/img/pv-ingot.jpg" alt="태양광(PV) 실리콘 잉곳 네모내기 및 사선 깎기 휠" loading="lazy" />
   <div>
     <h2>태양광(PV) 실리콘 잉곳 네모내기 및 사선 깎기 휠</h2>
     <p>이 휠들은 절단(cropping) 후 PV 실리콘 잉곳의 네모내기 및 사선 깎기(chamfering)에 사용되며, 절단 자국 및 표면 손상층을 제거하여 하류 효율과 수율을 개선합니다.</p>
@@ -93,7 +93,7 @@ description: "창사 샤펜 뉴 머티리얼스(Changsha Sharpen New Materials) 
 </div>
 
 <div class="product-block" id="resin-wheels">
-  <div class="pb-img" style="background-image:url('/assets/img/resin-wheels.png')"></div>
+  <img class="pb-img" src="/assets/img/resin-wheels.png" alt="5축 수지 결합 연마 휠" loading="lazy" />
   <div>
     <h2>5축 수지 결합 연마 휠</h2>
     <p>5축 머신을 위한 수지 결합 연마 휠은 5축 동시 동기의 정밀 기구학에 맞춰진 결합 연마재 휠입니다. 다이아몬드 또는 CBN 초강 연마 입자를 수지 바인더와 함께 사용하여, 탄화물 및 고속강 등 가공이 어려운 재료의 정밀 윤곽 연마를 위해 특수 설계되었습니다. 이들은 정밀 CNC 공구 제조의 핵심 소모품이며, 수입 5축 공구 연마기(Walther, Aka, Hardinge/Hass 등) 및 국산 5축 연마기에 직접 꽂아서 사용할 수 있습니다. 전체 탄소화물 엔드밀, 드릴, 리머 및 PCD/PCBN 인서트의 그루빙, 백 이너링(back-ironing), 언더 코너링(under-cornering) 및 고속강, 스테인리스강, 세라믹-금속 가공 재료의 복잡한 윤곽 연마에 사용됩니다.</p>
@@ -108,7 +108,7 @@ description: "창사 샤펜 뉴 머티리얼스(Changsha Sharpen New Materials) 
   </div>
 </div>
 <div class="product-block" id="steel-bonded-carbide">
-  <div class="pb-img" style="background-image:url('/assets/img/steel-bonded-carbide.png')"></div>
+  <img class="pb-img" src="/assets/img/steel-bonded-carbide.png" alt="강결 경질합금" loading="lazy" />
   <div>
     <h2>강결 경질합금</h2>
     <p>강결 경질합금(시멘테이트)은 공구와 가혹한 내마모 부품에 적합——회화 상태 그대로 CNC, 밀링, 드릴링 가공이 가능하며, 단조 및 용접도 지원하며, 특수 장비 없이 복잡한 성형이 가능합니다. 질화 후 경도는 HRC 60–70에 달하며, 내마모성은 고코발트 경질합금에 근접하지만 일반 경질합금보다 훨씬 높은 인성과 충격 저항성을 발휘합니다. 접합상 강재 조정을 통해 내마모, 내부식, 내열 등 특수 성능을 달성할 수 있으며, 전체 수명 사이클 원가는 일반 합금 금강을 크게 하회하고, 금형 수명은 10~수십 배 향상되어 금형 교환 가동 중단 시간을 대폭 줄입니다.</p>

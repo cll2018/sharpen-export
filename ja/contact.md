@@ -27,7 +27,9 @@ description: "長沙シャープ・ニュー・マテリアルへのダイヤモ
         </select>
       </label>
       <label>メッセージ *<textarea name="message" required placeholder="素材、寸法、数量、用途など..."></textarea></label>
-      <button class="btn btn-primary" type="submit">お問い合わせを送信</button>
+            <div class="hp-field" aria-hidden="true"><label>Please leave this field empty<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+      <label class="consent"><input type="checkbox" name="consent" required /> お問い合わせに関するご連絡に同意します。</label>
+<button class="btn btn-primary" type="submit">お問い合わせを送信</button>
       <div id="rfqMsg" class="form-msg" role="status"></div>
     </form>
   </div>

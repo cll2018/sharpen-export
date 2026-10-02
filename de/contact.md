@@ -27,7 +27,9 @@ description: "Kontaktieren Sie Changsha Sharpen New Materials für Angebote zu D
         </select>
       </label>
       <label>Nachricht *<textarea name="message" required placeholder="Material, Abmessungen, Menge, Anwendung..."></textarea></label>
-      <button class="btn btn-primary" type="submit">Anfrage senden</button>
+            <div class="hp-field" aria-hidden="true"><label>Please leave this field empty<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+      <label class="consent"><input type="checkbox" name="consent" required /> Ich stimme zu, bezüglich meiner Anfrage kontaktiert zu werden.</label>
+<button class="btn btn-primary" type="submit">Anfrage senden</button>
       <div id="rfqMsg" class="form-msg" role="status"></div>
     </form>
   </div>

@@ -27,7 +27,9 @@ description: "Contact Changsha Sharpen New Materials for quotes on diamond/CBN w
         </select>
       </label>
       <label>Message *<textarea name="message" required placeholder="Material, dimensions, quantity, application..."></textarea></label>
-      <button class="btn btn-primary" type="submit">Submit Inquiry</button>
+            <div class="hp-field" aria-hidden="true"><label>Please leave this field empty<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+      <label class="consent"><input type="checkbox" name="consent" required /> I agree to be contacted regarding my inquiry.</label>
+<button class="btn btn-primary" type="submit">Submit Inquiry</button>
       <div id="rfqMsg" class="form-msg" role="status"></div>
     </form>
   </div>

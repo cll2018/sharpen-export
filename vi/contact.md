@@ -27,7 +27,9 @@ description: "Liên hệ Changsha Sharpen New Materials để được báo giá
         </select>
       </label>
       <label>Nhắn *<textarea name="message" required placeholder="Vật liệu, kích thước, số lượng, ứng dụng..."></textarea></label>
-      <button class="btn btn-primary" type="submit">Gửi yêu cầu</button>
+            <div class="hp-field" aria-hidden="true"><label>Please leave this field empty<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+      <label class="consent"><input type="checkbox" name="consent" required /> Tôi đồng ý được liên hệ về yêu cầu của mình.</label>
+<button class="btn btn-primary" type="submit">Gửi yêu cầu</button>
       <div id="rfqMsg" class="form-msg" role="status"></div>
     </form>
   </div>

@@ -20,7 +20,7 @@ def products_block(lang, products, quote_label, quote_link):
     out.append('')
     for (pid, name, intro, specs) in products:
         out.append('<div class="product-block" id="%s">' % pid)
-        out.append('  <div class="pb-img" style="background-image:url(\'%s\')"></div>' % PRODUCTS_IMG[pid])
+        out.append('  <img class="pb-img" src="%s" alt="%s" loading="lazy" />' % (PRODUCTS_IMG[pid], name))
         out.append('  <div>')
         out.append('    <h2>%s</h2>' % name)
         out.append('    <p>%s</p>' % intro)
