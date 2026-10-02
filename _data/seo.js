@@ -11,6 +11,11 @@ const DOMAIN = "https://" + site.domain;
 // page URL carries the full product image index for Google Images.
 const PRODUCT_IMAGES = ((require("./products").en) || []).map((p) => p.image);
 
+// Per-product detail-page slugs (single source of truth) + full product data
+// so the sitemap can emit one URL per product per language.
+const PRODUCT_SLUGS = require("./productSlugs.json");
+const PRODUCTS_ALL = require("./products");
+
 // All pages per language: home, products, about, news, contact.
 // `images` is an array of image paths; the products page lists every product.
 const PAGES = [
@@ -37,6 +42,24 @@ for (const l of site.langs) {
       priority: p.priority,
       images: p.images.map((i) => DOMAIN + i),
       title: (l.native ? l.native + " " : "") + site.shortName + (p.seg ? " – " + p.seg : ""),
+    });
+  }
+}
+
+// Per-product detail pages: one URL per product per language, each carrying
+// its own product photo for Google Images + the localized product name.
+for (const l of site.langs) {
+  const plist = PRODUCTS_ALL[l.code] || [];
+  for (const p of plist) {
+    const slug = PRODUCT_SLUGS[p.id];
+    if (!slug) continue;
+    urls.push({
+      loc: DOMAIN + "/" + l.code + "/products/" + slug + "/",
+      lastmod: BUILD_TIME,
+      changefreq: "weekly",
+      priority: "0.8",
+      images: [DOMAIN + p.image],
+      title: (l.native ? l.native + " " : "") + p.name + " – " + site.shortName,
     });
   }
 }

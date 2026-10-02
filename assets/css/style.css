@@ -167,3 +167,16 @@ h1, h2, h3 { line-height: 1.25; color: var(--blue-dark); }
 @media (max-width: 520px) {
   .card-grid { grid-template-columns: 1fr; }
 }
+
+/* Breadcrumb (product detail + any future breadcrumbed page) */
+.breadcrumb { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 0 0 18px; font-size: 13px; color: var(--muted); }
+.breadcrumb a { color: var(--muted); text-decoration: none; }
+.breadcrumb a:hover { color: var(--brand); text-decoration: underline; }
+.breadcrumb .sep { color: var(--line); }
+.breadcrumb [aria-current="page"] { color: var(--ink); font-weight: 600; }
+
+/* Product detail page: give the hero image a touch more presence and drop
+   the bottom divider (it is the only block on the page). */
+.product-detail .product-block { border-bottom: none; padding-top: 8px; }
+.product-detail .product-block .pb-img { height: 220px; }
+@media (max-width: 640px) { .product-detail .product-block .pb-img { height: 180px; } }

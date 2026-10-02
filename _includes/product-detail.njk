@@ -1,0 +1,17 @@
+---
+layout: base.njk
+---
+{% set s = i18n[lang] or i18n[site.fallbackLang] %}
+{% block content %}
+<section class="container page product-detail">
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="{{ ('/' + lang + '/') | langUrl(lang) }}">{{ site.nav[0] | navLabel(lang) }}</a>
+    <span class="sep" aria-hidden="true">›</span>
+    <a href="{{ ('/' + lang + '/products/') | langUrl(lang) }}">{{ site.nav[1] | navLabel(lang) }}</a>
+    <span class="sep" aria-hidden="true">›</span>
+    <span aria-current="page">{{ title }}</span>
+  </nav>
+  <h1>{{ title }}</h1>
+  {{ content | safe }}
+</section>
+{% endblock %}

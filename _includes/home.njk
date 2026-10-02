@@ -22,7 +22,7 @@ layout: base.njk
       <img class="card-img" src="{{ p.image }}" alt="{{ p.name }}" loading="lazy" />
       <h3>{{ p.name }}</h3>
       <p>{{ p.summary }}</p>
-      <a class="card-link" href="{{ ('/' + lang + '/products/') | langUrl(lang) }}#{{ p.id }}">{{ s.learn }} →</a>
+      <a class="card-link" href="{{ '/' + lang + '/products/' + productSlugs[p.id] + '/' }}">{{ s.learn }} →</a>
     </article>
     {% endfor %}
   </div>
