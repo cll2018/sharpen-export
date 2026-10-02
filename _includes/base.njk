@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{{ title }} — {{ site.name }}</title>
   <meta name="description" content="{{ description or site.name + ' — diamond/CBN grinding wheels, powder metallurgy high-speed steel, TiNiCo superalloy heat spreaders.' }}" />
+  <meta name="keywords" content="{{ title | keywordsFor(lang) }}" />
+  <meta name="author" content="{{ site.name }}" />
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1" />
   <link rel="canonical" href="{{ page.url | absUrl(site.domain) }}" />
   {% for l in site.langs %}
   <link rel="alternate" hreflang="{{ l.code }}" href="{{ page.url | langUrl(l.code) | absUrl(site.domain) }}" />
@@ -12,8 +15,83 @@
   <link rel="alternate" hreflang="x-default" href="{{ '/en/' | absUrl(site.domain) }}" />
   <meta property="og:title" content="{{ title }} — {{ site.name }}" />
   <meta property="og:description" content="{{ description or 'Industrial grinding & advanced materials manufacturer.' }}" />
-  <meta property="og:type" content="website" />
+  <meta property="og:type" content="{{ 'product' if page.url | urlFilter('products') else 'website' }}" />
   <meta property="og:url" content="{{ page.url | absUrl(site.domain) }}" />
+  <meta property="og:image" content="{{ '/assets/img/logo.png' | absUrl(site.domain) }}" />
+  <meta property="og:site_name" content="{{ site.name }}" />
+  {% set ogLoc = {zh:'zh_CN','zh-tw':'zh_TW'}[lang] or lang %}
+  <meta property="og:locale" content="{{ ogLoc }}" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{{ title }} — {{ site.name }}" />
+  <meta name="twitter:description" content="{{ description or 'Industrial grinding & advanced materials manufacturer.' }}" />
+  <meta name="twitter:image" content="{{ '/assets/img/logo.png' | absUrl(site.domain) }}" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://{{ site.domain | safe }}/org",
+        "name": "{{ site.name | safe }}",
+        "alternateName": "{{ site.nameZh | safe }}",
+        "url": "https://{{ site.domain | safe }}/en/",
+        "logo": "https://{{ site.domain | safe }}/assets/img/logo.png",
+        "contactPoint": { "@type": "ContactPoint", "telephone": "{{ site.phone | safe }}", "email": "{{ site.email | safe }}", "contactType": "sales", "areaServed": "Worldwide" },
+        "address": { "@type": "PostalAddress", "streetAddress": "{{ site.address | safe }}", "addressCountry": "CN", "addressLocality": "Changsha", "addressRegion": "Hunan" }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://{{ site.domain | safe }}/website",
+        "url": "https://{{ site.domain | safe }}/en/",
+        "name": "{{ site.name | safe }}",
+        "inLanguage": {{ site.langs | map('code') | tojson | safe }},
+        "publisher": { "@id": "https://{{ site.domain | safe }}/org" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://{{ site.domain | safe }}/breadcrumbs",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://{{ site.domain | safe }}/{{ lang | safe }}/" }
+          {% if page.url | urlFilter('products') %}
+          ,{ "@type": "ListItem", "position": 2, "name": "Products", "item": "https://{{ site.domain | safe }}/{{ lang | safe }}/products/" }
+          {% elif page.url | urlFilter('about') %}
+          ,{ "@type": "ListItem", "position": 2, "name": "About", "item": "https://{{ site.domain | safe }}/{{ lang | safe }}/about/" }
+          {% elif page.url | urlFilter('news') %}
+          ,{ "@type": "ListItem", "position": 2, "name": "News", "item": "https://{{ site.domain | safe }}/{{ lang | safe }}/news/" }
+          {% elif page.url | urlFilter('contact') %}
+          ,{ "@type": "ListItem", "position": 2, "name": "Contact", "item": "https://{{ site.domain | safe }}/{{ lang | safe }}/contact/" }
+          {% endif %}
+        ]
+      }
+    ]
+  }
+  </script>
+  {% if page.url | urlFilter('products') %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "{{ title | safe }}",
+    "url": "https://{{ site.domain | safe }}/{{ lang | safe }}/products/",
+    "itemListElement": [
+      {% for p in (products[lang] or products[site.fallbackLang]) %}
+      {
+        "@type": "ListItem",
+        "position": {{ loop.index | safe }},
+        "item": {
+          "@type": "Product",
+          "name": {{ p.name | tojson | safe }},
+          "description": {{ p.summary | tojson | safe }},
+          "image": "https://{{ site.domain | safe }}{{ p.image | safe }}",
+          "sku": "{{ p.id | safe }}",
+          "brand": { "@type": "Brand", "name": "{{ site.shortName | safe }}" }
+        }
+      }{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+  }
+  </script>
+  {% endif %}
   <link rel="stylesheet" href="/assets/css/style.css" />
 </head>
 <body>

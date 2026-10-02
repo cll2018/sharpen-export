@@ -1,7 +1,3 @@
-// Product catalogue used by the homepage cards and the products page.
-// Keyed by language. `image` points to a file in assets/img.
-// 7 products: strong-grooving, LED backgrind, PM-HSS, TiNiCo, SiC, PV ingot, resin wheels.
-// 14 languages: en/zh/zh-tw hand-curated; de/ja/ko/ru/es/pt/fr/it/tr/ar/vi machine-translated.
 module.exports = {
   "en": [
     {
@@ -45,6 +41,12 @@ module.exports = {
       "name": "Five-Axis Resin-Bond Grinding Wheels",
       "summary": "Resin-bond wheels with diamond or CBN superabrasive grains for 5-axis tool grinding of carbide and HSS — high surface accuracy, self-sharpening, high material removal and long dressing cycles for CNC cutting tools.",
       "image": "/assets/img/resin-wheels.png"
+    },
+    {
+      "id": "steel-bonded-carbide",
+      "name": "Steel-Bonded Cemented Carbide",
+      "summary": "Steel-bonded cemented carbide for tooling and demanding wear parts — machinable, forgeable and weldable in the annealed condition, hardened to HRC 60–70, pairing high-cobalt carbide wear resistance with far greater toughness; full-life cost far lower than alloy die steels.",
+      "image": "/assets/img/steel-bonded-carbide.png"
     }
   ],
   "zh": [
@@ -89,6 +91,12 @@ module.exports = {
       "name": "五轴磨床用树脂砂轮",
       "summary": "以树脂为结合剂、配金刚石或 CBN 超硬磨料，适配五轴磨床高精度运动，专用于硬质合金、高速钢等难加工材料的复杂型面精密磨削，是数控刀具制造的核心耗材。",
       "image": "/assets/img/resin-wheels.png"
+    },
+    {
+      "id": "steel-bonded-carbide",
+      "name": "钢结硬质合金",
+      "summary": "面向刀具与苛刻耐磨件——退火态可直接车、铣、钻加工，支持锻造与焊接，无需特殊设备即可成型；淬硬后 HRC 60–70，耐磨性接近高钴硬质合金、韧性远优于普通硬质合金，全生命周期成本远低于常规合金模具钢。",
+      "image": "/assets/img/steel-bonded-carbide.png"
     }
   ],
   "zh-tw": [
@@ -133,6 +141,12 @@ module.exports = {
       "name": "五軸磨床用樹脂砂輪",
       "summary": "以樹脂為結合劑、配鑽石或 CBN 超硬磨料，適配五軸磨床高精度運動，專用於硬質合金、高速鋼等難加工材料的複雜型面精密磨削，是數控刀具製造的核心耗材。",
       "image": "/assets/img/resin-wheels.png"
+    },
+    {
+      "id": "steel-bonded-carbide",
+      "name": "鋼結硬質合金",
+      "summary": "面向刀具與苛刻耐磨件——退火態可直接車、銑、鑽加工，支持鍛造與焊接，無需特殊設備即可成型；淬硬後 HRC 60–70，耐磨性接近高鉻硬質合金、韌性遠優於普通硬質合金，全生命週期成本遠低於常規合金模具鋼。",
+      "image": "/assets/img/steel-bonded-carbide.png"
     }
   ],
   "de": [
@@ -177,6 +191,12 @@ module.exports = {
       "name": "Fünfsachsige Harz-gebundene Schleifscheiben",
       "summary": "Harz-gebundene Scheiben mit Diamant- oder CBN-Hartmetallkörnchen für die 5-Achsen-Werkzeugbearbeitung von Hartmetall und HSS – hohe Oberflächengenauigkeit, Selbstschärfung, hohe Materialabtragungsleistung und lange Nachschärfintervalle für CNC-Schneidwerkzeuge.",
       "image": "/assets/img/resin-wheels.png"
+    },
+    {
+      "id": "steel-bonded-carbide",
+      "name": "Stahlgebundener Hartmetall (Cemetal)",
+      "summary": "Stahlgebundener Hartmetall für Werkzeuge und anspruchsvolle Verschleißteile — im geglühten Zustand bearbeitbar, schmiedbar und schweißbar, nach Härtung HRC 60–70; verbindet die Verschleißbeständigkeit von Hochcobalt-Hartmetall mit deutlich höherer Zähigkeit.",
+      "image": "/assets/img/steel-bonded-carbide.png"
     }
   ],
   "ja": [
@@ -221,6 +241,12 @@ module.exports = {
       "name": "5軸レジン結合研削砥石",
       "summary": "ダイヤモンドまたはCBN超砥粒を備えたレジン結合砥石。超硬や高速度鋼の5軸ツール研削に使用され、高い表面精度、自己鋭磨き性、高い切削速度、長い砥ぎ調整サイクルを実現し、CNC切削工具に適用されます。",
       "image": "/assets/img/resin-wheels.png"
+    },
+    {
+      "id": "steel-bonded-carbide",
+      "name": "鋼結合硬質合金（Cemetal）",
+      "summary": "工具・高荷重耐磨部材向け。焼きなまし状態でも切削・锻造・溶接加工が可能、HRC 60–70 まで高硬度化でき、コバルト高配合硬质合金に匹敵する耐摩耗性と高い靭性を兼ね備え、合金型鋼より全ライフコストを大幅に削減します。",
+      "image": "/assets/img/steel-bonded-carbide.png"
     }
   ],
   "ko": [
@@ -265,6 +291,12 @@ module.exports = {
       "name": "5축 레진계 연마 휠",
       "summary": "다이아몬드 또는 CBN 초경질 알갱이를 사용하는 레진계 연마 휠입니다. 5축 공구 연마에 사용하며, 카바이드 및 고속강(HSS)를 대상으로 높은 표면 정확성, 자체 연마성, 높은 절삭량, 장시간 드레싱 사이클을 제공합니다.",
       "image": "/assets/img/resin-wheels.png"
+    },
+    {
+      "id": "steel-bonded-carbide",
+      "name": "강결합 세멘테드 카바이드 (Cemetal)",
+      "summary": "공구와 고하중 마모 부품을 위한 강결합 세멘테드 카바이드 —annealed 상태에서 가공/단조/용접 가능, HRC 60–70까지 경화되며 고코발트 카바이드에匹敵하는 내마모성과 훨씬 높은 인성을 제공해 합금 다이 스틸 대비 총 수명 비용을 크게 낮춥니다.",
+      "image": "/assets/img/steel-bonded-carbide.png"
     }
   ],
   "ru": [
@@ -309,6 +341,12 @@ module.exports = {
       "name": "Пятисосовые шлифовальные круги с бакелитовой связкой",
       "summary": "Круги с бакелитовой связкой и суперабразивными зернами алмаза или CBN для 5-осевой заточки инструмента из твердого сплава и БРС — высокая точность поверхности, самозаостряемость, высокая производительность и длительный срок приработки для режущего инструмента с ЧПУ.",
       "image": "/assets/img/resin-wheels.png"
+    },
+    {
+      "id": "steel-bonded-carbide",
+      "name": "Сталевая керамика (сталь-карбид, Cemetal)",
+      "summary": "Сталь-карбидные твёрдосплавные материалы для инструмента и нагруженных изнашивающихся деталей: обрабатываются, ковка и сварка в отожжённом состоянии, упрочнение до HRC 60–70, износостойкость на уровне высококобальтовых сплавов при значительно большей вязкости.",
+      "image": "/assets/img/steel-bonded-carbide.png"
     }
   ],
   "es": [
@@ -353,6 +391,12 @@ module.exports = {
       "name": "Ruedas de rectificado con aglutinante de resina de cinco ejes",
       "summary": "Ruedas de aglutinante de resina con granos superabrasivos de diamante o CBN para el rectificado de herramientas de cinco ejes de carburo y ACP (HSS) —alta precisión superficial, autoafilesado, alta remoción de material y ciclos largos de afilado para herramientas de corte CNC.",
       "image": "/assets/img/resin-wheels.png"
+    },
+    {
+      "id": "steel-bonded-carbide",
+      "name": "Carburo Cementado Unido con Acero (Cemetal)",
+      "summary": "Carburo cementado unido con acero para herramientas y piezas de desgaste exigentes: mecanizable, forjable y soldable en estado recocido, endurecido a HRC 60–70; combina la resistencia al desgaste del carburo de cobalto alto con mucha mayor tenacidad y menor coste total.",
+      "image": "/assets/img/steel-bonded-carbide.png"
     }
   ],
   "pt": [
@@ -397,6 +441,12 @@ module.exports = {
       "name": "Rendas de Retificação Liga de Resina de Cinco Eixos",
       "summary": "Rendas de liga de resina com grãos superabrasivos de diamante ou CBN para retificação de ferramentas de cinco eixos em cromo duro e aço rápido — alta precisão superficial, autoafiamento, alto remoção de material e longos ciclos de manutenção para ferramentas de corte CNC.",
       "image": "/assets/img/resin-wheels.png"
+    },
+    {
+      "id": "steel-bonded-carbide",
+      "name": "Carbeto Cimentado Unido com Aço (Cemetal)",
+      "summary": "Carbeto cimentado unido com aço para ferramentas e peças de desgaste severas — usinável, forjável e soldável no estado recozido, endurecido para HRC 60–70, combinando resistência ao desgaste do carbeto de cobalto alto com muito mais tenacidade e menor custo de vida útil.",
+      "image": "/assets/img/steel-bonded-carbide.png"
     }
   ],
   "fr": [
@@ -441,6 +491,12 @@ module.exports = {
       "name": "Meules de rectification à liant résine sur cinq axes",
       "summary": "Meules à liant résine avec grains superabrasifs au diamant ou CBN pour la rectification 5 axes de l'outillage en carbure et HSS — haute précision de surface, auto-rehaussage, haute capacité de coup et longs cycles de dressage pour les outils de coupe CNC.",
       "image": "/assets/img/resin-wheels.png"
+    },
+    {
+      "id": "steel-bonded-carbide",
+      "name": "Carbure Cémentié Lié à l'Acier (Cemetal)",
+      "summary": "Carbure cémentié lié à l'acier pour l'outillage et les pièces de wear exigeantes — usinable, forgeable et soudable à l'état recuit, durci jusqu'à HRC 60–70 ; combine la résistance à l'usure du carbure à haut cobalt avec une ténacité nettement supérieure et un coût total réduit.",
+      "image": "/assets/img/steel-bonded-carbide.png"
     }
   ],
   "it": [
@@ -485,6 +541,12 @@ module.exports = {
       "name": "Five-Axis Resin-Bond Grinding Wheels",
       "summary": "Resin-bond wheels with diamond or CBN superabrasive grains for 5-axis tool grinding of carbide and HSS — high surface accuracy, self-sharpening, high material removal and long dressing cycles for CNC cutting tools.",
       "image": "/assets/img/resin-wheels.png"
+    },
+    {
+      "id": "steel-bonded-carbide",
+      "name": "Carburo Sinterato Legato all'Acciaio (Cemetal)",
+      "summary": "Carburo sinterato legato all'acciaio per utensili e parti soggette a severo usura — lavorabile, forgiabile e saldabile nello stato ricotto, induribile a HRC 60–70, combina la resistenza all'usura del carburo alto-cobalto con tenacità nettamente maggiore e costo nel ciclo di vita inferiore.",
+      "image": "/assets/img/steel-bonded-carbide.png"
     }
   ],
   "tr": [
@@ -529,6 +591,12 @@ module.exports = {
       "name": "Beş Eksenli Reçine Bağlı Zımparalama Taşları",
       "summary": "Seramik veya CBN süper aşındırıcı taneleri içeren, beş eksenli çelik ve HSS takım taşlaması için reçine bağlı taşlar — yüksek yüzey doğruluğu, kendini tuzlama, yüksek malzeme kaldırma ve CNC kesici takımlar için uzun taşlama döngüleri.",
       "image": "/assets/img/resin-wheels.png"
+    },
+    {
+      "id": "steel-bonded-carbide",
+      "name": "Çelik Bağlı Sementize Krom (Cemetal)",
+      "summary": "Kesici takım ve zor aşınma parçaları için çelik bağlı sementize krom — tavlalı durumda işlenebilir, dövülebilir ve kaynaklanabilir, HRC 60–70 sertleştirilir; yüksek kobalt karbür dayanıklılığını çok daha yüksek toklukla birleştirir ve yaşam döngüsü maliyetini düşürür.",
+      "image": "/assets/img/steel-bonded-carbide.png"
     }
   ],
   "ar": [
@@ -573,6 +641,12 @@ module.exports = {
       "name": "عجلات طحن برابطة راتنجية لخمس محاور",
       "summary": "عجلات طحن برابطة راتنجية تحتوي على حبيبات كاسرة فائقة من الألماس أو كربيد البوران (CBN) لطحن الأدوات بخمس محاور من الكاربيد والفولاذ عالي السرعة - دقة سطح عالية، حدّة ذاتية، إزالة كميات كبيرة من المادة ودورات تسوية طويلة للأدوات القطعية CNC.",
       "image": "/assets/img/resin-wheels.png"
+    },
+    {
+      "id": "steel-bonded-carbide",
+      "name": "الكربيد المصمت بالصلب (Cemetal)",
+      "summary": "كربيد مثبت بالصلب للأدوات وقطع التآكل الصعبة — قابل للميكانيكا والخراطة والتهذيب واللحام في الحالة المبلورة، يَصلَّب حتى HRC 60–70، يجمع بين مقاومة التآكل للكربيد عالي الكوبالت ومتانة أعلى بكثير وتكلفة دورة حياة أقل.",
+      "image": "/assets/img/steel-bonded-carbide.png"
     }
   ],
   "vi": [
@@ -617,6 +691,12 @@ module.exports = {
       "name": "Phôi mài liên kết nhựa năm trục",
       "summary": "Phôi mài liên kết nhựa với hạt siêu mài mòn kim cương hoặc CBN cho việc mài dụng cụ năm trục bằng carbide và HSS — độ chính xác bề mặt cao, tự sắc, tốc độ cắt cao và chu kỳ đánh bóng dài cho dụng cụ cắt CNC.",
       "image": "/assets/img/resin-wheels.png"
+    },
+    {
+      "id": "steel-bonded-carbide",
+      "name": "Carbide Kết Dạng Thép (Cemetal)",
+      "summary": "Carbide kết dạng thép (cemented carbide) cho dụng cụ và bộ phận chịu mài mòn khắc nghiệt — gia công được ở trạng thái ủ, có thể rèn và hàn mà không cần thiết bị đặc biệt, tôi cứng tới HRC 60–70, kết hợp độ chống mài mòn của carbide cao coban với độ dẻo dai vượt trội và chi phí vòng đời thấp hơn.",
+      "image": "/assets/img/steel-bonded-carbide.png"
     }
   ]
-};
+}
