@@ -2,40 +2,41 @@
 layout: page.njk
 lang: it
 permalink: /it/contact/
-title: "Contact & RFQ"
-description: "Contact Changsha Sharpen New Materials for quotes on diamond/CBN wheels, PM high-speed steel and TiNiCo heat spreaders. Real-time inquiry via AI chat or WhatsApp."
+title: "Contatti e Richiesta di preventivo"
+description: "Contatta Changsha Sharpen New Materials per i preventivi di mole diamantate/CBN, acciai rapidi a sinterizzazione e spreaders termici in TiNiCo. Richiesta in tempo reale tramite chat AI o WhatsApp."
 ---
 
 <div class="rfq">
   <div>
-    <h2>Send an RFQ</h2>
-    <p>Tell us your material, size, quantity and application. We reply within 1 business day.</p>
-    <form id="rfqForm" data-ok="Thanks! Your inquiry has been sent. We'll reply shortly." data-err="Something went wrong. Please email us directly or use WhatsApp.">
+    <h2>Invia una richiesta di preventivo</h2>
+    <p>Indicanoci materiale, dimensioni, quantità e applicazione. Rispondiamo entro 1 giorno lavorativo.</p>
+    <form id="rfqForm" data-ok="Grazie! La tua richiesta è stata inviata. Ti risponderemo a breve." data-err="Qualcosa è andato storto. Ti preghiamo di inviarci un'e-mail direttamente o di utilizzare WhatsApp.">
       <input type="hidden" name="access_key" value="{{ site.web3formsKey }}" />
-      <label>Name *<input type="text" name="name" required /></label>
-      <label>Company<input type="text" name="company" /></label>
-      <label>Email *<input type="email" name="email" required /></label>
-      <label>Country / Region<input type="text" name="country" /></label>
-      <label>Product of interest
+      <label>Nome *<input type="text" name="name" required /></label>
+      <label>Azienda<input type="text" name="company" /></label>
+      <label>E-mail *<input type="email" name="email" required /></label>
+      <label>Paese / Regione<input type="text" name="country" /></label>
+      <label>Prodotto di interesse
         <select name="product">
-          <option>Diamond Grinding Wheels</option>
-          <option>CBN Grinding Wheels</option>
-          <option>Powder Metallurgy High-Speed Steel</option>
-          <option>TiNiCo Superalloy Heat Spreader</option>
-          <option>Other / Not sure</option>
+          <option>Mole diamantate per rettifica</option>
+          <option>Mole CBN per rettifica</option>
+          <option>Acci rapidi a sinterizzazione (PM)</option>
+          <option>Spreaders termici in superlega TiNiCo</option>
+          <option>Altro / Non sono sicuro</option>
         </select>
       </label>
-      <label>Message *<textarea name="message" required placeholder="Material, dimensions, quantity, application..."></textarea></label>
-      <button class="btn btn-primary" type="submit">Submit Inquiry</button>
+      <label>Messaggio *<textarea name="message" required placeholder="Materiale, dimensioni, quantità, applicazione..."></textarea></label>
+      <button class="btn btn-primary" type="submit">Invia la richiesta</button>
       <div id="rfqMsg" class="form-msg" role="status"></div>
     </form>
   </div>
   <div class="contact-info">
-    <h2>Direct</h2>
+    <h2>Contatti diretti</h2>
     <p><strong>WhatsApp:</strong> <a href="https://wa.me/{{ site.whatsapp }}" target="_blank" rel="noopener">wa.me/{{ site.whatsapp }}</a></p>
-    <p><strong>Email:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-    <p><strong>Tel:</strong> {{ site.phone }}</p>
-    <p><strong>Address:</strong> {{ site.address }}</p>
-    <p style="margin-top:18px"><a class="btn btn-chat" href="#" onclick="document.getElementById('chat-toggle').click();return false;">💬 AI Chat (instant)</a></p>
+    <p><strong>E-mail:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+    <p><strong>Telefono:</strong> {{ site.phone }}</p>
+    <p><strong>WeChat:</strong> {{ site.wechat }}</p>
+    <p><strong>Indirizzo:</strong> {{ site.address }}</p>
+    <p style="margin-top:18px"><a class="btn btn-chat" href="#" onclick="document.getElementById('chat-toggle').click();return false;">💬 Chat AI (immediata)</a></p>
   </div>
 </div>

@@ -2,40 +2,41 @@
 layout: page.njk
 lang: tr
 permalink: /tr/contact/
-title: "Contact & RFQ"
-description: "Contact Changsha Sharpen New Materials for quotes on diamond/CBN wheels, PM high-speed steel and TiNiCo heat spreaders. Real-time inquiry via AI chat or WhatsApp."
+title: "İletişim ve Teklif Talebi"
+description: "Elmas/CBN tekerlekleri, toz metalurjisi yüksek hızlı çelik ve TiNiCo ısı dağıtıcıları için Changsha Sharpen New Materials'ten fiyat teklifi alın. Gerçek zamanlı başvuru için yapay zeka sohbeti veya WhatsApp kullanın."
 ---
 
 <div class="rfq">
   <div>
-    <h2>Send an RFQ</h2>
-    <p>Tell us your material, size, quantity and application. We reply within 1 business day.</p>
-    <form id="rfqForm" data-ok="Thanks! Your inquiry has been sent. We'll reply shortly." data-err="Something went wrong. Please email us directly or use WhatsApp.">
+    <h2>Teklif Talebi Gönderin</h2>
+    <p>Malzemeniz, boyutu, miktarı ve uygulaması hakkında bize bilgi verin. 1 iş günü içinde yanıt veririz.</p>
+    <form id="rfqForm" data-ok="Teşekkürler! Başvurunuz gönderildi. Kısa süre içinde yanıt vereceğiz." data-err="Bir şeyler ters gitti. Lütfen bize doğrudan e-posta gönderin veya WhatsApp kullanın.">
       <input type="hidden" name="access_key" value="{{ site.web3formsKey }}" />
-      <label>Name *<input type="text" name="name" required /></label>
-      <label>Company<input type="text" name="company" /></label>
-      <label>Email *<input type="email" name="email" required /></label>
-      <label>Country / Region<input type="text" name="country" /></label>
-      <label>Product of interest
+      <label>Ad *<input type="text" name="name" required /></label>
+      <label>Şirket<input type="text" name="company" /></label>
+      <label>E-posta *<input type="email" name="email" required /></label>
+      <label>Ülke / Bölge<input type="text" name="country" /></label>
+      <label>İlgi duyduğunuz ürün
         <select name="product">
-          <option>Diamond Grinding Wheels</option>
-          <option>CBN Grinding Wheels</option>
-          <option>Powder Metallurgy High-Speed Steel</option>
-          <option>TiNiCo Superalloy Heat Spreader</option>
-          <option>Other / Not sure</option>
+          <option>Elmas Taşlama Tekerlekleri</option>
+          <option>CBN Taşlama Tekerlekleri</option>
+          <option>Toz Metalurjisi Yüksek Hızlı Çelik</option>
+          <option>TiNiCo Süper Alaşım Isı Dağıtıcı</option>
+          <option>Diğer / Emin Değilim</option>
         </select>
       </label>
-      <label>Message *<textarea name="message" required placeholder="Material, dimensions, quantity, application..."></textarea></label>
-      <button class="btn btn-primary" type="submit">Submit Inquiry</button>
+      <label>Mesaj *<textarea name="message" required placeholder="Malzeme, boyutlar, miktar, uygulama..."></textarea></label>
+      <button class="btn btn-primary" type="submit">Başvuruyu Gönder</button>
       <div id="rfqMsg" class="form-msg" role="status"></div>
     </form>
   </div>
   <div class="contact-info">
-    <h2>Direct</h2>
+    <h2>Direkt</h2>
     <p><strong>WhatsApp:</strong> <a href="https://wa.me/{{ site.whatsapp }}" target="_blank" rel="noopener">wa.me/{{ site.whatsapp }}</a></p>
-    <p><strong>Email:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-    <p><strong>Tel:</strong> {{ site.phone }}</p>
-    <p><strong>Address:</strong> {{ site.address }}</p>
-    <p style="margin-top:18px"><a class="btn btn-chat" href="#" onclick="document.getElementById('chat-toggle').click();return false;">💬 AI Chat (instant)</a></p>
+    <p><strong>E-posta:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+    <p><strong>Telefon:</strong> {{ site.phone }}</p>
+    <p><strong>WeChat:</strong> {{ site.wechat }}</p>
+    <p><strong>Adres:</strong> {{ site.address }}</p>
+    <p style="margin-top:18px"><a class="btn btn-chat" href="#" onclick="document.getElementById('chat-toggle').click();return false;">💬 Yapay Zeka Sohbeti (anında)</a></p>
   </div>
 </div>

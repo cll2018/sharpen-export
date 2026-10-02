@@ -2,62 +2,108 @@
 layout: page.njk
 lang: ar
 permalink: /ar/products/
-title: "Products"
-description: "Diamond grinding wheels, CBN wheels, powder metallurgy high-speed steel and TiNiCo superalloy heat spreaders by Changsha Sharpen New Materials."
+title: "منتجات"
+description: "شانغشا شاربِن للمواد الجديدة — عجلات شدّ قوية، عجلات صنفرة خلفية لألواح أشباه الموصلات وأشباه الموصلات الدقيقة (LED)، فولاذ سريع القص بأعلى سرعات مع المعالجة بالمسحوق، مبدلات حرارية من سبائك TiNiCo، عجلات ترقيق ألواح الكاربيد السيليكوني (SiC) وعجلات استواء وزوايا مائلة (Chamfering) للجزيئات السيليكونية في ألواح الطاقة الشمسية."
 ---
 
-<div class="product-block" id="diamond-wheels">
+<div class="product-block" id="strong-grooving-wheels">
   <div class="pb-img" style="background-image:url('/assets/img/diamond-wheels.jpg')"></div>
   <div>
-    <h2>Diamond Grinding Wheels</h2>
-    <p>High-performance diamond wheels developed for hard-brittle materials — sapphire, zirconia, carbide, PCD and PCBN. High sharpness, excellent shape retention and long dressing life. Ideal for large carbide / PM-HSS rotary tools (Ø10 mm+), Ti(C,N) cermet tools and semiconductor/LED wafer back-grinding.</p>
+    <h2>عجلات شدّ قوية</h2>
+    <p>من خلال البحث والتطوير الداخليين، حلّت شركة شاربِن مشكلة الالتصاق بين الروابط وأجسام الصنفرة الماسية أو كاربايد البورون النيتريد (CBN)، وكانت أول شركة في الصين تطوّر رابطة سيرميت متجانسة تستبدل العجلات المستوردة عالية النهاية. تجمع عجلات الشد القوية من SAP بين مزايا العجلات المعدنية والزجاجية — قدرة عالية على حدة الانتظام، دقة حدة عالية، حفظ ممتاز للشكل، وسهولة الصيانة — مما يجعلها مثالية لتصنيع الأدوات والأقراص الدوارة المصنوعة من الكاربيد وفولاذ القص السريع والسبائك السيرميت بكفاءة.</p>
     <ul class="specs">
-      <li>Bond: resin / metal / vitrified</li>
-      <li>Application: sapphire, ceramics, carbide, PCD/PCBN</li>
-      <li>Feature: high sharpness, easy dressing, long life</li>
+      <li>تكوين مسام ذاتية وارتفاع حبيبات على وجه العجلة</li>
+      <li>قدرة ذاتية على حدة الانتظام مع الحفاظ على الشكل وإمكانية الصيانة السهلة</li>
+      <li>رابطة معدنية قوية من خلال التشكيل التكاملية المتكاملة بالتوازن</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/ar/contact/">Request a quote</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">طلب عرض سعر</a></div>
   </div>
 </div>
 
-<div class="product-block" id="cbn-wheels">
-  <div class="pb-img" style="background-image:url('/assets/img/cbn-wheels.jpg')"></div>
+<div class="product-block" id="led-backgrinding-wheels">
+  <div class="pb-img" style="background-image:url('/assets/img/wafer-backgrind.jpg')"></div>
   <div>
-    <h2>CBN Grinding Wheels</h2>
-    <p>Cubic boron nitride wheels for high-speed steel, cast iron and other hard-to-grind metals. Stable in high-temperature grinding with minimal wheel wear and superior surface finish.</p>
+    <h2>عجلات صنفرة خلفية لألواح أشباه الموصلات والألواح الدقيقة (LED)</h2>
+    <p>هذه العجلات الماسية مصممة لصنفرة المواد فائقة الصلابة في أشباه الموصلات بدقة — ترقيق الخلفي للأسطح الزجاجية وسبائك الكاربيد السيليكوني (SiC)، صنفرة خلفية لأسطح الألواح الدقيقة (LED)، وصنفرة لأسطح Sica وGaAs. توفر رابطة معدنية/أسياسية معدنية أداءً ممتازًا للعجلة.</p>
     <ul class="specs">
-      <li>Bond: electroplated / metal / resin</li>
-      <li>Application: HSS, hardened steel, cast iron</li>
-      <li>Feature: high thermal stability, long life</li>
+      <li>قدرة ذاتية على حدة الانتظام: تحافظ على حدة العجلة مع قدرة قطع عالية</li>
+      <li>حفظ شكل مرتفع لعمر خدمة طويل</li>
+      <li>صيانة سهلة عند سرعة منخفضة؛ سعة عالية لاستيعاب وإخراج القطع الأثرية</li>
+      <li>معدل خدش منخفض ومعدل كسر للألواح منخفض</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/ar/contact/">Request a quote</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">طلب عرض سعر</a></div>
   </div>
 </div>
 
 <div class="product-block" id="pm-high-speed-steel">
   <div class="pb-img" style="background-image:url('/assets/img/pm-steel.jpg')"></div>
   <div>
-    <h2>Powder Metallurgy High-Speed Steel (SAP PM HSS)</h2>
-    <p>SAP powder metallurgy high-speed steel with uniformly distributed fine carbides — high hardness, toughness and red-hardness for cutting tools, broaches and precision rolls.</p>
+    <h2>فولاذ القص السريع بالمعالجة بالمسحوق (Powder Metallurgy High-Speed Steel)</h2>
+    <p>سلسلة SAP من فولاذ القص السريع المعالج بالمسحوق تخدم صناعة الأدوات والقوالب عالية النهاية كبديل عن الاستيراد. تحتاج عملية المعالجة بالمسحوق الحديثة إلى كمية دنيا من التشطيب لتنفيذ قطع/أجزاء القوالب بأي شكل وحجم. بخلاف فولاذ القص السريع المعالج بالمسحوق، تغطي عائلة مواد أدوات/قوالب SAP أيضًا فولاذ القوالب، فولاذ القص السريع المقاوم للصدأ عالي الكروم، فولاذ القص السريع عالي الفاناديوم، فولاذ القص السريع Ti-Ni، الكاربيدات المرتبطة بالفولاذ من TiC/TiCN، والكاربيدات المرتبطة بالفولاذ من Fe-Cr / Fe-Mn / Ni-Cr.</p>
     <ul class="specs">
-      <li>Process: inert-gas atomization + HIP</li>
-      <li>Application: cutting tools, rolls, punches</li>
-      <li>Feature: uniform carbide, high toughness</li>
+      <li>قطع معقدة شبه الشكل النهائي مع إمكانية تخصيص الشكل، تقليل تكلفة التشطيب للمستخدم</li>
+      <li>محتوى شوائب منخفض (O≤60ppm, S≤80ppm, P≤50ppm)</li>
+      <li>تجاوز حدود السبائك في الصهر التقليدي؛ سهولة ضبط التركيب الكيميائي</li>
+      <li>متين بفولاذ القص السريع المعالج بالمسحوق المعزز بالطور الفائق الصلابة</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/ar/contact/">Request a quote</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">طلب عرض سعر</a></div>
   </div>
 </div>
 
 <div class="product-block" id="tinico-heat-spreader">
   <div class="pb-img" style="background-image:url('/assets/img/tinico.jpg')"></div>
   <div>
-    <h2>TiNiCo Superalloy Heat Spreader</h2>
-    <p>TiNiCo superalloy heat spreader for 3D glass hot-bending molds and semiconductor thermal management — uniform heating, high flatness and long service life.</p>
+    <h2>مبدّل حراري فائق من سبائك TiNiCo</h2>
+    <p>يُستخدم مبدّل الحرارة الفائق من سبائك TiNiCo في قوالب انحناء الزجاج ثلاثي الأبعاد الحارّة وإدارة الحرارة في أشباه الموصلات. يوفر تسخينًا منتظمًا، استواءً عاليًا، وعمرًا خدمةً طويلًا، يدعم الأحجام المخصصة غير القياسية، وهو مادة محلية بديلة عن مستوردات مبدّلات الحرارة في قوالب الانحناء الحار.</p>
     <ul class="specs">
-      <li>Application: 3D cover-glass hot bending, thermal</li>
-      <li>Feature: uniform temperature, high flatness</li>
-      <li>Custom sizes available</li>
+      <li>تطبيقات: قوالب انحناء الزجاج ثلاثي الأبعاد الحارّة، إدارة الحرارة في أشباه الموصلات</li>
+      <li>درجة حرارة منتظمة، استواء عالي، عمر طويل</li>
+      <li>دعم الأحجام المخصصة غير القياسية</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/ar/contact/">Request a quote</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">طلب عرض سعر</a></div>
+  </div>
+</div>
+
+<div class="product-block" id="sic-wafer-wheels">
+  <div class="pb-img" style="background-image:url('/assets/img/sic-wafer.jpg')"></div>
+  <div>
+    <h2>عجلات ترقيق ألواح الكاربيد السيليكوني (SiC)</h2>
+    <p>تستخدم عجلات ترقيق ألواح SiC التي طورناها ذاتيًا رابطة سيرميت متجانسة معدنية أحادية للعجلة الماسية، مما يوفر توازنًا بين قدرة حدة الانتظام الذاتية (الحدة)، حفظ الشكل (عمر طويل)، ومعدل إزالة المواد العالي من خلال تكوين مسام ذاتي على وجه العجلة.</p>
+    <ul class="specs">
+      <li>صنفرة خشن عند 2000# مع تقدم عالٍ؛ TTV&lt;2&nbsp;μm</li>
+      <li>صنفرة دقيق عند 30000#: خشونة AFM أقل من 2&nbsp;nm، طبقة تلف 0.4–0.6&nbsp;μm</li>
+      <li>متوافق مع أجهزة Disco وTokyo Seimitsu وTSD وCETC وغيرها</li>
+    </ul>
+    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">طلب عرض سعر</a></div>
+  </div>
+</div>
+
+<div class="product-block" id="pv-ingot-wheels">
+  <div class="pb-img" style="background-image:url('/assets/img/pv-ingot.jpg')"></div>
+  <div>
+    <h2>عجلات استواء وزوايا مائلة (Chamfering) للجزيئات السيليكونية في ألواح الطاقة الشمسية</h2>
+    <p>تُستخدم هذه العجلات لقطعة مستلّة والجزيئات السيليكونية بعد القص لإزالة آثار القطع وطبقات التلف السطحية وتحسين الكفاءة والعائد في المراحل اللاحقة.</p>
+    <ul class="specs">
+      <li>إزالة آثار القطع وطبقة التلف بعد القص؛ تحقيق استواء وتوازي</li>
+      <li>إزالة علامات الصنفرة الخشن حتى التشطيب المطلوب</li>
+      <li>عمر طويل، جودة سطح عالية، أداء مستقر</li>
+    </ul>
+    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">طلب عرض سعر</a></div>
+  </div>
+</div>
+
+<div class="product-block" id="resin-wheels">
+  <div class="pb-img" style="background-image:url('/assets/img/resin-wheels.png')"></div>
+  <div>
+    <h2>عجلات صنفرة برابطة راتنجية لخمس محاور</h2>
+    <p>عجلات صنفرة برابطة راتنجية لآلات ذات خمس محاور هي عجلات صنفرة برابطة مطابقة للحركة الحركية عالية الدقة للحركة المتزامنة لخمس محاور. باستخدام رابطة راتنجية مع جسيمات صنفرة ماسية أو CBN فائقة الصلابة، فهي مصممة خصيصًا للصنفرة اللاتينية الدقيقة للمواد الصعبة المعالجة مثل الكاربيد وفولاذ القص السريع، وتعتبر المادة المستهلكة الأساسية لصناعة أدوات CNC الدقيقة. تعمل مباشرة على آلات قطع الأدوات المستوردة بخمس محاور (Walter وAka وHardinge/Hass وغيرها) وكذلك آلات الصنفرة المحلية ذات الخمس محاور، للحدّ والقفل الخلفي والزاوية السفلية لأدوات التلقيم الصلبة من الكاربيد المثالي (End mills) والثقاب والخراطات وأقراص PCD/PCBN، وللصنفرة اللاتينية المعقدة لقطع فولاذ القص السريع والفولاذ المقاوم للصدأ والمكثفات (Cermet) التي تعمل.</p>
+    <ul class="specs">
+      <li>دقة صنفرة عالية: الحفاظ الممتاز على الشكل — الدائرة حتى 0.01&nbsp;mm، الأسطوانية 0.02&nbsp;mm، الزوايا تقاوم البلى، مما يحافظ على ثبات حدة الحواف</li>
+      <li>قدرة حدة انتظام ذاتية ممتازة: تتكسر الحبيبات في الوقت المناسب لكشف حواف قطع جديدة؛ يتم تقليل الاحتراق والسمن (Scorching) لأدوات العمل إلى حد أدنى ويقل حمل عمود الدوران بشكل كبير</li>
+      <li>كفاءة ملحوظة: معدل إزالة مواد عالٍ، تآكل منخفض للعجلة، فترات صيانة أطول بكثير — مما يتيح صنفرة خمس محاور بسرعة تقدّم عالية ويرفع إنتاجية الدفعات</li>
+      <li>جودة سطح ممتازة: مرونة رابطة الراتنج تحسّن الخشونة؛ يمكن أن تصل قيمة التشطيب Ra إلى 0.4&nbsp;μm، تلبي متطلبات الحافة عالية اللمعان للأدوات الصناعية</li>
+      <li>قابلية تخصيص قوية: تركيب الراتنج وحجم الجسيمات وتركيزها يتم ضبطها حسب قوة المعدة والمادة؛ صنفرة غير قياسية حسب المخطط/عينة، أقطار خارجية Φ50–Φ200&nbsp;mm، أشكال منحنى مثل 1A1، 1V1، 11V9، 12V9</li>
+    </ul>
+    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">طلب عرض سعر</a></div>
   </div>
 </div>

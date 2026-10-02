@@ -2,22 +2,33 @@
 layout: page.njk
 lang: ja
 permalink: /ja/about/
-title: "About Us"
-description: "Changsha Sharpen New Materials Co., Ltd. — an innovative新材料 manufacturer backed by a Changjiang Scholars team, specializing in high-performance abrasives and advanced alloys."
+title: "会社概要"
+description: " Changsha Sharpen New Materials Co., Ltd. — 国家ハイテク企業、湖南省の専門・イノベーティブ「little giant」企業、長江学者チームが支援；ダイヤモンド/CBN砥石、粉末冶金高速鋼、TiNiCoヒートスプレッダ。"
 ---
 
-Changsha Sharpen New Materials Co., Ltd. (长沙市萨普新材料有限公司) is an innovative materials manufacturer backed by the Changjiang Scholars innovation team. We hold independent intellectual property on our core products and serve high-end manufacturing worldwide.
+# 会社概要 Sharpen New Materials
 
-**Core technologies**
-- High-performance diamond and CBN grinding wheels for superhard and hard-brittle materials
-- Diamond wheel discs for sapphire / oxide ceramic grinding and polishing
-- Powder metallurgy high-speed steel (SAP PM HSS)
-- TiNiCo superalloy heat spreaders for 3D-glass hot bending
+Changsha Sharpen New Materials Co., Ltd.（長沙市サプ新素材有限公司）は2013年に設立され、粉末冶金新素材分野に専心しています。私たちは研究開発、製造、販売、技術サービスを統合した国家ハイテク企業であり、湖南省の専門・イノベーティブ「little giant」企業、国家技術ベース型イノベーション企業、そして長沙市のスマート製造パイロット企業です。
 
-**Recognition**
-- Hunan Provincial specialized & innovative SME (专精特新)
-- Listed in Hunan's 2024 first-batch technology SME directory
-- Strategic R&D partnership with the He Yuehui professor team (Changjiang Scholar)
+## 研究開発力
 
-**Vision**
-We look forward to working with manufacturers worldwide to advance the dream of intelligent, high-precision manufacturing.
+私たちのチームは、中南大学の何岳輝教授が率いる長江学者イノベーションチームを中心に構築されており、材料科学分野の博士号および修士課程修了者が8名在籍しています。チームは**37件の特許**を出願しており、そのうち13件が発明特許（権利化済み）、4件が実用新案特許、20件が発明特許の出願審査中です。さらに、中南大学、湘潭大学、香港シティー大学との深い技術連携を維持しています。粉末冶金と新素材に関する30年以上の研究実績を持ち、チームは最先端の粉末冶金工具材料製造設備とノウハウを統括しています。
+
+## コア技術と製品
+
+- **ダイヤモンド・CBN砥石** 工具研削用（超硬合金、高速鋼、セラメット）
+- **ダイヤモンド円形砥石** 硬脆性材料（炭化ケイ素、サファイア、単結晶/多結晶シリコン、ジルコニア）の研削および研磨用
+- **TiNiCoヒートスプレッダ** 光学ガラス精密成型用
+- **粉末冶金高速鋼** ツールおよび金型用
+
+高性能なダイヤモンドおよびCBN砥石は、鋭さが高く、形状保持性に優れ、修整が容易で長寿命であることが特徴です。大型（直径10mm以上）の超硬合金および粉末冶金高速鋼回転工具、Ti(C,N)セラメット工具、PCDおよびPCBN挿入式の加工に最適です。
+
+## アプリケーションと顧客
+
+製品は精密機械、半導体、光学、太陽光発電、自動車、金型加工の各分野で活用されています。国内外で200社以上の企業に供給しており、東尼電子、伯恩光学、聚燦光電なども含まれます。また、当社の製品は華為（HUAWEI）、vivo、OPPOのサプライチェーンにも導入されています。
+
+## ビジョン
+
+私たちは、新素材分野における「ボトルネック」技術的問題の解決と、輸入品からの国産代替の実現に専心しています。素材産業の技術とサプライチェーン資源を統合することで、世界的に先導する素材技術のウィンウィンプラットフォームを構築することを目指しています。
+
+<p><a class="btn btn-outline" href="{{ site.brochure }}">会社パンフレット（PDF）をダウンロードする</a></p>

@@ -2,22 +2,33 @@
 layout: page.njk
 lang: ko
 permalink: /ko/about/
-title: "About Us"
-description: "Changsha Sharpen New Materials Co., Ltd. — an innovative新材料 manufacturer backed by a Changjiang Scholars team, specializing in high-performance abrasives and advanced alloys."
+title: "회사 소개"
+description: "창사 샤퍼펜 신소재 유한공사 — 국가 하이테크 기업, 후난 성 특화 혁신 '작은 거인' 기업, 장강 학자 팀 후원; 다이아몬드/CBN 바라구, PM 고속강, TiNiCo 히트 스프레더."
 ---
 
-Changsha Sharpen New Materials Co., Ltd. (长沙市萨普新材料有限公司) is an innovative materials manufacturer backed by the Changjiang Scholars innovation team. We hold independent intellectual property on our core products and serve high-end manufacturing worldwide.
+# 샤퍼펜 신소재 소개
 
-**Core technologies**
-- High-performance diamond and CBN grinding wheels for superhard and hard-brittle materials
-- Diamond wheel discs for sapphire / oxide ceramic grinding and polishing
-- Powder metallurgy high-speed steel (SAP PM HSS)
-- TiNiCo superalloy heat spreaders for 3D-glass hot bending
+창사 샤퍼펜 신소재 유한공사(Changsha Sharpen New Materials Co., Ltd.)는 2013년에 설립되었으며 분말 야금 신소재 분야에 전념하고 있습니다. 당사는 R&D, 제조, 판매 및 기술 서비스를 결합한 통합 국가 하이테크 기업으로, 후난 성 특화 혁신 "작은 거인(Little Giant)" 기업, 국가 기술 기반 혁신 기업, 창사 지능형 제조 시범 기업입니다.
 
-**Recognition**
-- Hunan Provincial specialized & innovative SME (专精特新)
-- Listed in Hunan's 2024 first-batch technology SME directory
-- Strategic R&D partnership with the He Yuehui professor team (Changjiang Scholar)
+## R&D 역량
 
-**Vision**
-We look forward to working with manufacturers worldwide to advance the dream of intelligent, high-precision manufacturing.
+당사의 팀은 중남대(중앙남방대학) 허 옌후이(He Yuehui) 교수가 이끄는 장강 학자(Changjiang Scholars) 혁신 팀을 중심으로 구성되었으며, 8명의 재료과학 박사 및 석사를 포용하고 있습니다. 이 팀은 **37건의 특허**를 출원했으며, 그 중 13건의 발명 특허, 4건의 실용 신안 특허, 그리고 심사 중인 20건의 발명 특허를 보유하고 있습니다. 또한 중남대, 향탄대학교, 홍콩 도시 대학교와 깊은 기술 협력 관계를 유지하고 있습니다. 30년 이상의 분말 야금 및 신소재 연구 경험을 바탕으로, 팀은 첨단 PM 도구 재료 제조 장비와 노하우를 갖추고 있습니다.
+
+## 핵심 기술 및 제품
+
+- 공구研磨(강철, 고속강, 세라메트)를 위한 **다이아몬드 & CBN 마그니티 바라구(연마석)**
+- 경질 취성 재료(SiC, 사파이어, 단결정/다결정 실리콘, 지르코니아)의 박형화 및 폴리싱을 위한 **다이아몬드 휠 디스크**
+- 광학 유리 정밀 성형을 위한 **TiNiCo 히트 스프레더**
+- 공구 및 금형을 위한 **분말 야금 고속강**
+
+당사의 고품질 다이아몬드 및 CBN 바라구는 높은 날카로움, 우수한 형상 유지성, 용이한 드레싱(표면 처리) 및 긴 수명을 특징으로 합니다. 대형(Ø10 mm 이상)硬质(경질) 및 PM-HSS 회전 공구, Ti(C,N) 세라메트 공구, PCD 및 PCBN 삽입 공구에 이상적입니다.
+
+## 적용 분야 및 고객
+
+제품은 정밀 기계, 반도체, 광학, 태양광 PV, 자동차 및 몰드 가공 분야에서 사용됩니다. 국내 및 해외 200개 이상의 기업에 공급하며, 톤테니(동니전자), 바이얼 크리стал(伯恩光学), 포커스 라이팅스(聚灿光电) 등을 포함합니다. 또한 당사의 제품은 화웨이, 비보, OPPO의 공급망에 진입했습니다.
+
+## 비전
+
+당사는 신소재 분야의 "차오크포인트(Chokepoint)" 기술 문제를 해결하고 수입 제품의 국산화를 실현하는 데 전념하고 있습니다. 재료 산업 기술과 공급망 자원을 통합하여 전 세계를 선도하는 재료 기술 상생 플랫폼을 구축하는 것을 목표로 합니다.
+
+<p><a class="btn btn-outline" href="{{ site.brochure }}">회사 브로슈어 다운로드 (PDF)</a></p>

@@ -2,62 +2,108 @@
 layout: page.njk
 lang: ru
 permalink: /ru/products/
-title: "Products"
-description: "Diamond grinding wheels, CBN wheels, powder metallurgy high-speed steel and TiNiCo superalloy heat spreaders by Changsha Sharpen New Materials."
+title: "Продукция"
+description: "Changsha Sharpen New Materials — долговечные круги для подрезания, круги для背面-шлифования кристаллов для полупроводников и светодиодов, высоколегированная сталь粉末ной металлургии, теплораспределители TiNiCo, круги для тонкошлифования кристаллов SiC и круги для торцевания и фаски кристаллов фотополупроводникового кремния."
 ---
 
-<div class="product-block" id="diamond-wheels">
+<div class="product-block" id="strong-grooving-wheels">
   <div class="pb-img" style="background-image:url('/assets/img/diamond-wheels.jpg')"></div>
   <div>
-    <h2>Diamond Grinding Wheels</h2>
-    <p>High-performance diamond wheels developed for hard-brittle materials — sapphire, zirconia, carbide, PCD and PCBN. High sharpness, excellent shape retention and long dressing life. Ideal for large carbide / PM-HSS rotary tools (Ø10 mm+), Ti(C,N) cermet tools and semiconductor/LED wafer back-grinding.</p>
+    <h2>Долговечные круги для подрезания</h2>
+    <p>Благодаря собственным НИОКР компания Sharpen решила проблему адгезии между связкой и абразивами из алмаза/КБН и первой в Китае разработала гомогенную церметную связку, заменяющую высококачественные импортные круги. Круги для подрезания серии SAP сочетают преимущества металлотвердых и керамических кругов — высокую самозаточку, высокую режущую способность, отличное удержание формы и легкость правки, что идеально подходит для эффективной обработки твердосплавных, быстрорежущих и церметных вращающихся инструментов и плашек.</p>
     <ul class="specs">
-      <li>Bond: resin / metal / vitrified</li>
-      <li>Application: sapphire, ceramics, carbide, PCD/PCBN</li>
-      <li>Feature: high sharpness, easy dressing, long life</li>
+      <li>Самовыявление пор и повышение выступов зерна на рабочей поверхности круга</li>
+      <li>Автономная самозаточка с совмещением высокого удержания формы и легкой реставрации</li>
+      <li>Высокопрочная металлургическая связка за счет полного равновесного диффузионного интегрального формирования</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/ru/contact/">Request a quote</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Запросить расчет</a></div>
   </div>
 </div>
 
-<div class="product-block" id="cbn-wheels">
-  <div class="pb-img" style="background-image:url('/assets/img/cbn-wheels.jpg')"></div>
+<div class="product-block" id="led-backgrinding-wheels">
+  <div class="pb-img" style="background-image:url('/assets/img/wafer-backgrind.jpg')"></div>
   <div>
-    <h2>CBN Grinding Wheels</h2>
-    <p>Cubic boron nitride wheels for high-speed steel, cast iron and other hard-to-grind metals. Stable in high-temperature grinding with minimal wheel wear and superior surface finish.</p>
+    <h2>Круги для обратной шлифовки кристаллов полупроводников и светодиодов</h2>
+    <p>Эти алмазные круги предназначены для прецизионного шлифования сверхтвердых полупроводниковых материалов — тонирования подложек из сапфира и SiC с обратной стороны, обратной шлифовки сапировых подложек для светодиодов, шлифования подложек SiC и GaAs. Металлическая/ковалентная металлическая связка обеспечивает превосходные характеристики круга.</p>
     <ul class="specs">
-      <li>Bond: electroplated / metal / resin</li>
-      <li>Application: HSS, hardened steel, cast iron</li>
-      <li>Feature: high thermal stability, long life</li>
+      <li>Самозаточка: сохраняет остроту круга с высокой режущей способностью</li>
+      <li>Высокое удержание формы для длительного срока службы</li>
+      <li>Легкая правка на низкой скорости; высокая вместимость и отвод стружки</li>
+      <li>Низкий процент царапин и низкий процент ломки кристаллов</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/ru/contact/">Request a quote</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Запросить расчет</a></div>
   </div>
 </div>
 
 <div class="product-block" id="pm-high-speed-steel">
   <div class="pb-img" style="background-image:url('/assets/img/pm-steel.jpg')"></div>
   <div>
-    <h2>Powder Metallurgy High-Speed Steel (SAP PM HSS)</h2>
-    <p>SAP powder metallurgy high-speed steel with uniformly distributed fine carbides — high hardness, toughness and red-hardness for cutting tools, broaches and precision rolls.</p>
+    <h2>Быстрорежущая сталь порошковой металлургии</h2>
+    <p>Серия PM быстрорежущей стали SAP служит отраслям высококачественного инструмента и оснастки как замена импорту. Новое порошковое металлургическое производство требует минимальной механической обработки для поставки деталей инструмента/оснастки любой формы и размера. Помимо PM-БРС, семейство материалов SAP для инструментов и оснастки также включает инструментальную сталь, высокохромистую нержавеющую БРС, высокованадиевую БРС, Ti-Ni БРС, carbides, связанные с сталью TiC/TiCN, и carbides, связанные с сталью Fe-Cr / Fe-Mn / Ni-Cr.</p>
     <ul class="specs">
-      <li>Process: inert-gas atomization + HIP</li>
-      <li>Application: cutting tools, rolls, punches</li>
-      <li>Feature: uniform carbide, high toughness</li>
+      <li>Сложные детали, получаемые по методу приближенных форм (near-net-shape), с настройкой по форме, что снижает затраты на механическую обработку для заказчика</li>
+      <li>Низкое содержание примесей (O≤60ppm, S≤80ppm, P≤50ppm)</li>
+      <li>Преодоление ограничений по легированию, свойственных традиционному плавильному производству; легкая корректировка состава</li>
+      <li>Прочность сверхтвердых фаз в УМПС-БРС</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/ru/contact/">Request a quote</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Запросить расчет</a></div>
   </div>
 </div>
 
 <div class="product-block" id="tinico-heat-spreader">
   <div class="pb-img" style="background-image:url('/assets/img/tinico.jpg')"></div>
   <div>
-    <h2>TiNiCo Superalloy Heat Spreader</h2>
-    <p>TiNiCo superalloy heat spreader for 3D glass hot-bending molds and semiconductor thermal management — uniform heating, high flatness and long service life.</p>
+    <h2>Теплораспределитель из сверхсплава TiNiCo</h2>
+    <p>Теплораспределитель из сверхсплава TiNiCo используется в формах для горячего изгиба 3D-закаленного стекла и в термическом управлении полупроводниковых устройств. Он обеспечивает равномерный нагрев, высокую плоскостность и длительный срок службы, поддерживает размеры, нестандартные с точки зрения заказчика, и является ключевым отечественным материалом для замены импортных теплораспределителей горячих форм для изгиба стекла.</p>
     <ul class="specs">
-      <li>Application: 3D cover-glass hot bending, thermal</li>
-      <li>Feature: uniform temperature, high flatness</li>
-      <li>Custom sizes available</li>
+      <li>Применение: формы для горячего изгиба 3D-стекла, термическое управление полупроводниковых устройств</li>
+      <li>Равномерная температура, высокая плоскостность, длительный срок службы</li>
+      <li>Поддержка нестандартных размеров по индивидуальному заказу</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/ru/contact/">Request a quote</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Запросить расчет</a></div>
+  </div>
+</div>
+
+<div class="product-block" id="sic-wafer-wheels">
+  <div class="pb-img" style="background-image:url('/assets/img/sic-wafer.jpg')"></div>
+  <div>
+    <h2>Круги для тонкошлифования кристаллов карбида кремния (SiC)</h2>
+    <p>Наши самостоятельно разработанные круги для тонкошлифования кристаллов SiC используют единую гомогенную интерметаллическую церметную связку для алмазного круга, балансируя самозаточку (остроту), удержание формы (долгий срок службы) и высокую скорость съема материала за счет самоформирования пор на рабочей поверхности круга.</p>
+    <ul class="specs">
+      <li>Черновое шлифование зерном 2000# с высокой подачей; TTV&lt;2&nbsp;μm</li>
+      <li>Тонкое шлифование зерном 30000#: шероховатость AFM ниже 2&nbsp;nm, слой повреждений 0,4–0,6&nbsp;μm</li>
+      <li>Совместимость с оборудованием Disco, Tokyo Seimitsu, TSD, CETC и других производителей</li>
+    </ul>
+    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Запросить расчет</a></div>
+  </div>
+</div>
+
+<div class="product-block" id="pv-ingot-wheels">
+  <div class="pb-img" style="background-image:url('/assets/img/pv-ingot.jpg')"></div>
+  <div>
+    <h2>Круги для торцевания и фаски кристаллов фотополупроводникового кремния</h2>
+    <p>Эти круги используются для торцевания и фаски кристаллов фотополупроводникового кремния после резки, удаления следов пилы и поверхностных поврежденных слоев для повышения эффективности и выхода годного на последующих этапах.</p>
+    <ul class="specs">
+      <li>Удаляет следы пилы и поврежденный слой после резки; обеспечивает плоскостность и параллельность</li>
+      <li>Удаляет следы чернового шлифования до требуемого качества обработки</li>
+      <li>Долгий срок службы, высокое качество поверхности и стабильные характеристики</li>
+    </ul>
+    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Запросить расчет</a></div>
+  </div>
+</div>
+
+<div class="product-block" id="resin-wheels">
+  <div class="pb-img" style="background-image:url('/assets/img/resin-wheels.png')"></div>
+  <div>
+    <h2>Пятисосный абразивный круг на эпоксидной связке</h2>
+    <p>Абразивные круги на эпоксидной связке для 5-осовых станков — это абразивные круги на связке, подобранные под высокоточную кинематику 5-осового одновременного движения. Используя эпоксидную связку с супертвердыми зернами из алмаза или КБН, они специально разработаны для прецизионного контурного шлифования труднообрабатываемых материалов, таких как твердосплав и быстрорежущая сталь, и являются основным расходным материалом для прецизионного производства ЧПУ-инструмента. Они напрямую совместимы с импортными 5-осовыми инструментальными шлифмашинами (Walter, Aka, Hardinge/Hass и другие), а также с отечественными 5-осовыми шлифмашинами, для подрезания, отточки и обработки задних углов цельносплавных концевых фрез, свёрл, зенкеров и пластин PCD/PCBN, а также для сложного контурного шлифования деталей из БРС, нержавеющей стали и церметов.</p>
+    <ul class="specs">
+      <li>Высокая точность шлифования: отличное удержание контура — круглость до 0,01&nbsp;мм, цилиндричность 0,02&nbsp;мм, углы устойчивы к износу, сохраняя стабильность кромки</li>
+      <li>Превосходная самозаточка: зерно вовремя откалывается, открывая свежие режущие кромки; заиливание и жжение/пожелание заготовки минимизированы, нагрузка на шпиндель значительно снижена</li>
+      <li>Выдающаяся эффективность: высокая скорость съема материала, низкий износ круга, значительно большие интервалы правки, что позволяет обеспечить быстрое шлифование с большой подачей на 5-осовом станке и повысить производительность серии</li>
+      <li>Отличное качество поверхности: эластичность эпоксидной связки улучшает шероховатость; обработанная поверхность Ra может достигать 0,4&nbsp;μm, что соответствует высокому требования к полированности кромки для ЧПУ-инструмента</li>
+      <li>Высокая настраиваемость: формула связки, размер и концентрация зерна настраиваются под мощность станка и материал; изготовление по чертежу/образцу нестандартного шлифования, наружные диаметры Φ50–Φ200&nbsp;мм, профилированные формы, такие как 1A1, 1V1, 11V9, 12V9</li>
+    </ul>
+    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Запросить расчет</a></div>
   </div>
 </div>

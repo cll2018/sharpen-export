@@ -16,7 +16,7 @@ description: "長沙市薩普新材料有限公司的強力開槽砂輪、半導
       <li>工作層自主出刃自銳，高保型性與易修復性耦合</li>
       <li>高強度冶金結合，內界面液相全平衡擴散整體成型</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/zh/contact/">獲取報價</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/zh-tw/contact/">獲取報價</a></div>
   </div>
 </div>
 
@@ -31,7 +31,7 @@ description: "長沙市薩普新材料有限公司的強力開槽砂輪、半導
       <li>易修型：可低轉速修型；高容屑排屑</li>
       <li>低劃傷率，低破片率</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/zh/contact/">獲取報價</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/zh-tw/contact/">獲取報價</a></div>
   </div>
 </div>
 
@@ -46,7 +46,7 @@ description: "長沙市薩普新材料有限公司的強力開槽砂輪、半導
       <li>突破傳統熔鍊法的合金化限制，成分調節方便</li>
       <li>擅長製備超硬硬質相強化粉末冶金高速鋼</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/zh/contact/">獲取報價</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/zh-tw/contact/">獲取報價</a></div>
   </div>
 </div>
 
@@ -60,7 +60,7 @@ description: "長沙市薩普新材料有限公司的強力開槽砂輪、半導
       <li>特點：溫度均勻、平面度高、壽命長</li>
       <li>支持非標定製尺寸</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/zh/contact/">獲取報價</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/zh-tw/contact/">獲取報價</a></div>
   </div>
 </div>
 
@@ -74,7 +74,7 @@ description: "長沙市薩普新材料有限公司的強力開槽砂輪、半導
       <li>精磨 30000# 減薄砂輪：AFM 光潔度 2nm 以下，損傷層 0.4–0.6&nbsp;μm</li>
       <li>適用設備：Disco、東京精密、特思迪、中電科等</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/zh/contact/">獲取報價</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/zh-tw/contact/">獲取報價</a></div>
   </div>
 </div>
 
@@ -88,6 +88,22 @@ description: "長沙市薩普新材料有限公司的強力開槽砂輪、半導
       <li>去除粗磨痕跡，達到相應光潔度</li>
       <li>使用壽命長、表面光潔度高、穩定性好</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/zh/contact/">獲取報價</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/zh-tw/contact/">獲取報價</a></div>
+  </div>
+</div>
+
+<div class="product-block" id="resin-wheels">
+  <div class="pb-img" style="background-image:url('/assets/img/resin-wheels.png')"></div>
+  <div>
+    <h2>五軸磨床用樹脂砂輪</h2>
+    <p>五軸磨床用樹脂砂輪是適配五軸聯動高精度運動特性的專用固結磨具，以樹脂為結合劑，搭配鑽石或 CBN 超硬磨料，專為硬質合金、高速鋼等難加工材料的複雜型面磨削設計，是數控刀具精密製造的核心耗材。可直接匹配瓦爾特、安卡、哈斯馬格等進口五軸數控工具磨床及各類國產五軸磨床，用於整體硬質合金銑刀、鑽頭、銼刀、PCD/PCBN 刀片的開槽、鏟背、清根等工序，也能完成高速鋼、不鏽鋼、金屬陶瓷等工件的複雜型面精密磨削。</p>
+    <ul class="specs">
+      <li>磨削精度高：型面精度保持性優異，圓度可達 0.01mm、圓柱度 0.02mm，尖角不易磨損，保障刀具刃口加工一致性</li>
+      <li>自銳性優異：磨粒適時自然脫落、持續露出新切削刃，不易堵塞、工件不發黑燒傷，大幅降低主軸負載</li>
+      <li>加工效率突出：材料去除速度快、自身損耗低、修整週期長，支持五軸磨床快速進給高效磨削</li>
+      <li>表面質量優異：精磨後工件表面 Ra 可低至 0.4μm，滿足數控刀具高光潔度刃口要求</li>
+      <li>定製化適配性強：可按不同功率五軸磨床與加工材質調整樹脂配方、磨料粒度與濃度，支持來圖來樣非標定製（外徑 Φ50~Φ200mm，1A1、1V1、11V9、12V9 等異型結構）</li>
+    </ul>
+    <div class="pb-cta"><a class="btn btn-primary" href="/zh-tw/contact/">獲取報價</a></div>
   </div>
 </div>

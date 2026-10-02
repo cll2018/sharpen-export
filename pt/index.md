@@ -3,8 +3,8 @@ layout: home.njk
 lang: pt
 permalink: /pt/
 title: "Home"
-description: "Changsha Sharpen New Materials — diamond & CBN grinding wheels, powder metallurgy high-speed steel, TiNiCo superalloy heat spreaders for semiconductor, sapphire, carbide and 3D-glass industries."
-heroTitle: "Precision Grinding & Advanced Materials for High-End Manufacturing"
-heroLead: "Sharpen New Materials develops high-performance diamond/CBN wheels, powder metallurgy high-speed steel and TiNiCo superalloy heat spreaders — engineered for semiconductor, sapphire, hard-metal and 3D-glass thermal applications."
+description: "Changsha Sharpen New Materials — retificadores de diamante & CBN, aço-rápido de metalurgia do pó e dissipadores térmicos de superliga TiNiCo para as indústrias de semicondutores, safira, carbeto e vidro 3D."
+heroTitle: "Retificação de Precisão e Materiais Avançados para Manufatura de Alto Gama"
+heroLead: "A Sharpen New Materials desenvolve retificadores de alto desempenho de diamante/CBN, aço-rápido de metalurgia do pó e dissipadores térmicos de superliga TiNiCo — projetados para aplicações térmicas de semicondutores, safira, metal duro e vidro 3D."
 ---
-<!-- Homepage body is rendered by home.njk (hero + product cards + why). -->
+<!-- O corpo da página inicial é renderizado por home.njk (hero + cartões de produto + porquê). -->

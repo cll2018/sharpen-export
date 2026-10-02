@@ -2,62 +2,108 @@
 layout: page.njk
 lang: tr
 permalink: /tr/products/
-title: "Products"
-description: "Diamond grinding wheels, CBN wheels, powder metallurgy high-speed steel and TiNiCo superalloy heat spreaders by Changsha Sharpen New Materials."
+title: "Ürünler"
+description: "Changsha Sharpen New Materials — güçlü çelik tekerlekleri, yarı iletken ve LED wafer arka zımparalama tekerlekleri, toz metalurji yüksek hızlı çelik, TiNiCo ısı dağıtıcıları, SiC wafer inceltme tekerlekleri ve PV silisyum ingot kareleştirme & kenarleme tekerlekleri."
 ---
 
-<div class="product-block" id="diamond-wheels">
+<div class="product-block" id="strong-grooving-wheels">
   <div class="pb-img" style="background-image:url('/assets/img/diamond-wheels.jpg')"></div>
   <div>
-    <h2>Diamond Grinding Wheels</h2>
-    <p>High-performance diamond wheels developed for hard-brittle materials — sapphire, zirconia, carbide, PCD and PCBN. High sharpness, excellent shape retention and long dressing life. Ideal for large carbide / PM-HSS rotary tools (Ø10 mm+), Ti(C,N) cermet tools and semiconductor/LED wafer back-grinding.</p>
+    <h2>Güçlü Çelik Tekerlekleri</h2>
+    <p>Yerleşik Ar-Ge çalışmaları yoluyla, Sharpen, bağdayan ve elmas/CBN aşındırıcılar arasındaki yapışma sorununu çözdü ve Çin'de ithal üst segment tekerleklerin yerini alan homojen bir seramik-metal (cermet) bağı geliştiren ilk firma oldu. SAP güçlü çelik tekerlekleri, metal ve vitrifiye tekerleklerin avantajlarını birleştirir — yüksek kendiliğinden keskinleştirme, yüksek keskinlik, mükemmel form korunumu ve kolay zımparalama — karbür, yüksek hızlı çelik (HSS) ve seramik-metal döner kesici aletlerin ve insertlerin verimli işlenmesi için idealdir.</p>
     <ul class="specs">
-      <li>Bond: resin / metal / vitrified</li>
-      <li>Application: sapphire, ceramics, carbide, PCD/PCBN</li>
-      <li>Feature: high sharpness, easy dressing, long life</li>
+      <li>Tekerlek yüzeyinde kendi kendine oluşan gözenekler ve artan tanecik çıkıntısı</li>
+      <li>Kusursuz form korunumu ve kolay onarım eşleşen otomatik keskinleştirme</li>
+      <li>Tam denge-difüzyonlu bütünleşik şekillendirme ile yüksek dayanımlı metalürjik bağ</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/tr/contact/">Request a quote</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Teklif iste</a></div>
   </div>
 </div>
 
-<div class="product-block" id="cbn-wheels">
-  <div class="pb-img" style="background-image:url('/assets/img/cbn-wheels.jpg')"></div>
+<div class="product-block" id="led-backgrinding-wheels">
+  <div class="pb-img" style="background-image:url('/assets/img/wafer-backgrind.jpg')"></div>
   <div>
-    <h2>CBN Grinding Wheels</h2>
-    <p>Cubic boron nitride wheels for high-speed steel, cast iron and other hard-to-grind metals. Stable in high-temperature grinding with minimal wheel wear and superior surface finish.</p>
+    <h2>Yarı İletken &amp; LED Wafer Arka Zımparalama Tekerlekleri</h2>
+    <p>Bu elmas tekerlekler, ultra sert yarı iletken malzemelerin hassas zımparalanması için tasarlanmıştır — safir ve SiC taban inceltme, LED safir taban arka zımparalama, SiC ve GaAs taban zımparalama. Metalik/kovalent metalik bağ mükemmel tekerlek performansı sağlar.</p>
     <ul class="specs">
-      <li>Bond: electroplated / metal / resin</li>
-      <li>Application: HSS, hardened steel, cast iron</li>
-      <li>Feature: high thermal stability, long life</li>
+      <li>Kendiliğinden keskinleştirme: tekerleği yüksek kesme yeteneğiyle keskin tutar</li>
+      <li>Uzun servis ömrü için yüksek form korunumu</li>
+      <li>Düşük hızda kolay zımparalama; yüksek talaş barındırma ve tahliye</li>
+      <li>Düşük çizilme oranı ve düşük wafer kırılma oranı</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/tr/contact/">Request a quote</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Teklif iste</a></div>
   </div>
 </div>
 
 <div class="product-block" id="pm-high-speed-steel">
   <div class="pb-img" style="background-image:url('/assets/img/pm-steel.jpg')"></div>
   <div>
-    <h2>Powder Metallurgy High-Speed Steel (SAP PM HSS)</h2>
-    <p>SAP powder metallurgy high-speed steel with uniformly distributed fine carbides — high hardness, toughness and red-hardness for cutting tools, broaches and precision rolls.</p>
+    <h2>Toz Metalurji Yüksek Hızlı Çelik</h2>
+    <p>SAP serisi toz metalurji (PM) yüksek hızlı çelik, ithalatı yerli üretimle ikame etmek için üst segment kalıp ve kesici alet endüstrisine hizmet eder. Yeni nesil toz metalurji süreci, herhangi bir şekil ve boyutta kalıp/kesici alet parçalarını sunmak için yalnızca minimum işleme gerektirir. PM-HSS'nin ötesinde, SAP kalıp/kesici alet malzeme ailesi; kalıp çeliği, yüksek krom içerikli paslanmaz HSS, yüksek vanadyumlu HSS, Ti-Ni HSS, TiC/TiCN çelik bağlanmış karbürler ve Fe-Cr / Fe-Mn / Ni-Cr çelik bağlanmış karbürleri de kapsamaktadır.</p>
     <ul class="specs">
-      <li>Process: inert-gas atomization + HIP</li>
-      <li>Application: cutting tools, rolls, punches</li>
-      <li>Feature: uniform carbide, high toughness</li>
+      <li>Biçim özelleştirmeye sahip neredeyse net şekil karmaşık parçalar, kullanıcının işleme maliyetini keser</li>
+      <li>Düşük safsızlık içeriği (O≤60ppm, S≤80ppm, P≤50ppm)</li>
+      <li>Geleneksel ergitmenin alaşımlama sınırlarını kırar; kolay kompozisyon ayarlaması</li>
+      <li>Ultrasarı faz güçlendirilmiş PM yüksek hızlı çelikte güçlü</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/tr/contact/">Request a quote</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Teklif iste</a></div>
   </div>
 </div>
 
 <div class="product-block" id="tinico-heat-spreader">
   <div class="pb-img" style="background-image:url('/assets/img/tinico.jpg')"></div>
   <div>
-    <h2>TiNiCo Superalloy Heat Spreader</h2>
-    <p>TiNiCo superalloy heat spreader for 3D glass hot-bending molds and semiconductor thermal management — uniform heating, high flatness and long service life.</p>
+    <h2>TiNiCo Süper Alaşım Isı Dağıtıcısı</h2>
+    <p>TiNiCo süper alaşım ısı dağıtıcısı, 3D kaplama camı sıcak bükme kalıpları ve yarı iletken termal yönetiminde kullanılır. Düzgün ısıtma, yüksek düzlük ve uzun servis ömrü sağlar, standart dışı özel boyutları destekler ve ithal sıcak bükme kalıbı ısı dağıtıcıları için önemli bir yerli ikame malzemesidir.</p>
     <ul class="specs">
-      <li>Application: 3D cover-glass hot bending, thermal</li>
-      <li>Feature: uniform temperature, high flatness</li>
-      <li>Custom sizes available</li>
+      <li>Uygulama alanları: 3D cam sıcak bükme kalıpları, yarı iletken termal yönetim</li>
+      <li>Düzgün sıcaklık, yüksek düzlük, uzun ömür</li>
+      <li>Standart dışı özel boyutlar desteklenir</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/tr/contact/">Request a quote</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Teklif iste</a></div>
+  </div>
+</div>
+
+<div class="product-block" id="sic-wafer-wheels">
+  <div class="pb-img" style="background-image:url('/assets/img/sic-wafer.jpg')"></div>
+  <div>
+    <h2>Silikon Karbid (SiC) Wafer İnceltme Tekerlekleri</h2>
+    <p>Kendi geliştirdiğimiz SiC wafer inceltme tekerlekleri, elmas tekerlek için tek homojen intermetalik seramik-metal (cermet) bağı kullanır; tekerlek yüzeyindeki kendi kendine oluşan gözenekler yoluyla keskinleştirme (keskinlik), form korunumu (uzun ömür) ve yüksek malzeme kaldırma oranını dengeleyerek çalışır.</p>
+    <ul class="specs">
+      <li>Yüksek ilerleme ile 2000# kaba zımparalama; TTV&lt;2&nbsp;μm</li>
+      <li>30000# ince zımparalama: AFM pürüzlülüğü 2&nbsp;nm'nin altında, hasar katmanı 0,4–0,6&nbsp;μm</li>
+      <li>Disco, Tokyo Seimitsu, TSD, CETC ve diğer ekipmanlarla uyumlu</li>
+    </ul>
+    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Teklif iste</a></div>
+  </div>
+</div>
+
+<div class="product-block" id="pv-ingot-wheels">
+  <div class="pb-img" style="background-image:url('/assets/img/pv-ingot.jpg')"></div>
+  <div>
+    <h2>Fotovoltaik Silisyum Ingot Kareleştirme &amp; Kenarleme Tekerlekleri</h2>
+    <p>Bu tekerlekler, kırpma işleminden sonra PV silisyum ingotların kareleştirilmesi ve kenarlanmasında kullanılır; testere izlerini ve yüzey hasar katmanlarını kaldırarak aşağı akış verimliliğini ve verimini artırır.</p>
+    <ul class="specs">
+      <li>Kırpma sonrası testere izlerini ve hasar katmanını kaldırır; düzlük ve paralellik elde eder</li>
+      <li>Gerekli bitişe kadar kaba zımparalama izlerini kaldırır</li>
+      <li>Uzun ömür, yüksek yüzey kalitesi ve kararlı performans</li>
+    </ul>
+    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Teklif iste</a></div>
+  </div>
+</div>
+
+<div class="product-block" id="resin-wheels">
+  <div class="pb-img" style="background-image:url('/assets/img/resin-wheels.png')"></div>
+  <div>
+    <h2>Beş Eksenli Reçine Bağlı Zımparalama Tekerlekleri</h2>
+    <p>5 eksenli makineler için reçine bağlı zımparalama tekerlekleri, 5 eksenli eşzamanlı hareketin yüksek hassasiyet kinematiğine uyarlanmış bağlı aşındırıcı tekerleklerdir. Elmas veya CBN süper aşındırıcı taneleri içeren reçine bağ kullanılarak, karbür ve yüksek hızlı çelik gibi zor işlenen malzemelerin hassas kontur zımparalanması amacıyla özel olarak tasarlanmışlardır ve hassas CNC kesici alet üretiminin temel tüketilebilir malzemesidir. İthal 5 eksenli kesici alet zımparalama tekerlekleri (Walter, Aka, Hardinge/Hass ve diğerleri) ile yerli 5 eksenli zımparalara doğrudan takılarak, sağlam karbür uç freze, matkap, rivoşe ve PCD/PCBN insertlerin çelik, arka demirleme ve alt köşe işlemleri ile HSS, paslanmaz çelik ve seramik-metal iş parçalarının karmaşık kontur zımparalanması için kullanılır.</p>
+    <ul class="specs">
+      <li>Yüksek zımparalama doğruluğu: mükemmel kontur korunumu — merkezden sapma 0,01&nbsp;mm'ye kadar, silindiriklik 0,02&nbsp;mm, köşeler aşınmaya dirençli, kenar tutarlılığını istikrarlı tutar</li>
+      <li>Mükemmel kendiliğinden keskinleştirme: taneler zamanında kırılarak taze kesme kenarlarını ortaya çıkarır; tıkanma ve iş parçasının yanması/renk değiştirmesi minimize edilir ve mil yükü büyük ölçüde azaltılır</li>
+      <li>Özgün verimlilik: yüksek malzeme kaldırma oranı, düşük tekerlek aşınması, çok daha uzun zımparalama aralıkları — hızlı ilerlemeli 5 eksenli zımparalamayı mümkün kılar ve parti üretim verimliliğini artırır</li>
+      <li>Mükemmel yüzey kalitesi: reçine bağ elastikiyeti pürüzlülüğü iyileştirir; bitiş Ra değeri 0,4&nbsp;μm'ye ulaşabilir, CNC kesici aletlerin yüksek parlaklık kenar gereksinimini karşılar</li>
+      <li>Güçlü özelleştirilebilirlik: reçine formülü, tane boyutu ve konsantrasyonu, makine gücüne ve malzemeye göre ayarlanır; çizeye göre / örneğe göre standart dışı zımparalama, dış çaplar Φ50–Φ200&nbsp;mm, 1A1, 1V1, 11V9, 12V9 gibi profille şekiller</li>
+    </ul>
+    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Teklif iste</a></div>
   </div>
 </div>

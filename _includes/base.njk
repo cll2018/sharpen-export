@@ -56,18 +56,18 @@
         <p>WeChat: {{ site.wechat }}</p>
       </div>
       <div>
+        <h3>{{ '实时询盘' if lang == 'zh' else 'Real-time Inquiry' }}</h3>
+        <p><a href="https://wa.me/{{ site.whatsapp }}" target="_blank" rel="noopener">WhatsApp: +86 186 5687 1390</a></p>
+        <p><button id="chat-toggle-2" class="link-btn" type="button">💬 {{ 'AI 在线咨询' if lang == 'zh' else 'AI Chat' }}</button></p>
+        <p><a href="{{ ('/' + lang + '/contact/') | langUrl(lang) }}">{{ '提交询盘 / RFQ' if lang == 'zh' else 'Submit RFQ' }}</a></p>
+      </div>
+      <div>
         <h3>{{ '快速链接' if lang == 'zh' else 'Quick Links' }}</h3>
         <ul>
           {% for item in site.nav %}
           <li><a href="{{ item | navUrl(lang) }}">{{ item | navLabel(lang) }}</a></li>
           {% endfor %}
         </ul>
-      </div>
-      <div>
-        <h3>{{ '实时询盘' if lang == 'zh' else 'Real-time Inquiry' }}</h3>
-        <p><a href="https://wa.me/{{ site.whatsapp }}" target="_blank" rel="noopener">WhatsApp</a></p>
-        <p><button id="chat-toggle-2" class="link-btn" type="button">💬 AI Chat</button></p>
-        <p><a href="{{ ('/' + lang + '/contact/') | langUrl(lang) }}">{{ '提交询盘' if lang == 'zh' else 'Submit RFQ' }}</a></p>
       </div>
     </div>
     <div class="container copyright">

@@ -2,62 +2,108 @@
 layout: page.njk
 lang: de
 permalink: /de/products/
-title: "Products"
-description: "Diamond grinding wheels, CBN wheels, powder metallurgy high-speed steel and TiNiCo superalloy heat spreaders by Changsha Sharpen New Materials."
+title: "Produkte"
+description: "Changsha Sharpen New Materials – starre Nutbacken, Schleifscheiben für die Rückseitenbearbeitung von Halbleiter- und LED-Wafern, Pulvermetallurgie-Schnellaustahl, TiNiCo-Wärmespreizer, Schleifscheiben für SiC-Wafer-Dünnbearbeitung sowie Rechteck- und Bockbearbeitung von PV-Siliziumbarren."
 ---
 
-<div class="product-block" id="diamond-wheels">
+<div class="product-block" id="strong-grooving-wheels">
   <div class="pb-img" style="background-image:url('/assets/img/diamond-wheels.jpg')"></div>
   <div>
-    <h2>Diamond Grinding Wheels</h2>
-    <p>High-performance diamond wheels developed for hard-brittle materials — sapphire, zirconia, carbide, PCD and PCBN. High sharpness, excellent shape retention and long dressing life. Ideal for large carbide / PM-HSS rotary tools (Ø10 mm+), Ti(C,N) cermet tools and semiconductor/LED wafer back-grinding.</p>
+    <h2>Starre Nutbacken</h2>
+    <p>Durch die eigene Forschung und Entwicklung hat Sharpen die Bindungsproblematik zwischen Bindeharz und Diamant/CBN-Schleifkorn gelöst und in China als Erster ein homogenes Kerametal-Bindeharz entwickelt, das hochpreisige importierte Schleifscheiben ersetzt. Die starren Nutbacken von SAP kombinieren die Vorteile von Metall- und Schwerschleifscheiben – hohe Selbstschärfe, hohe Schnittscharfe, exzellente Formbeständigkeit und einfache Nachschleifung – ideal für die effiziente Bearbeitung von Hartmetall-, Schnellaustahl- und Kerametal-Werkzeugen und -Einsätzen.</p>
     <ul class="specs">
-      <li>Bond: resin / metal / vitrified</li>
-      <li>Application: sapphire, ceramics, carbide, PCD/PCBN</li>
-      <li>Feature: high sharpness, easy dressing, long life</li>
+      <li>Selbst erzeugte Poren und erhöhte Kornauskragung auf der Scheibenoberfläche</li>
+      <li>Autonome Selbstschärfe bei hoher Formbeständigkeit und einfacher Instandsetzung</li>
+      <li>Hohe Bindungsstärke durch volles Gleichgewichts-Diffusions-Integralformgebungsverfahren</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/de/contact/">Request a quote</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Angebot anfordern</a></div>
   </div>
 </div>
 
-<div class="product-block" id="cbn-wheels">
-  <div class="pb-img" style="background-image:url('/assets/img/cbn-wheels.jpg')"></div>
+<div class="product-block" id="led-backgrinding-wheels">
+  <div class="pb-img" style="background-image:url('/assets/img/wafer-backgrind.jpg')"></div>
   <div>
-    <h2>CBN Grinding Wheels</h2>
-    <p>Cubic boron nitride wheels for high-speed steel, cast iron and other hard-to-grind metals. Stable in high-temperature grinding with minimal wheel wear and superior surface finish.</p>
+    <h2>Schleifscheiben für die Rückseitenbearbeitung von Halbleiter- &amp; LED-Wafern</h2>
+    <p>Diese Diamantscheiben sind für das Präzisionsschleifen extrem harter Halbleitermaterialien entwickelt worden – Rückschliff von Saphir- und SiC-Substraten, Rückseitenbearbeitung von LED-Saphirsubstraten sowie Schleifen von SiC- und GaAs-Substraten. Eine metallische/kovalent metallische Bindung liefert eine exzellente Scheibenleistung.</p>
     <ul class="specs">
-      <li>Bond: electroplated / metal / resin</li>
-      <li>Application: HSS, hardened steel, cast iron</li>
-      <li>Feature: high thermal stability, long life</li>
+      <li>Selbstschärfe: Hält die Scheibe scharf mit hoher Schnittfähigkeit</li>
+      <li>Hohe Formbeständigkeit für lange Lebensdauer</li>
+      <li>Einfache Nachschleifung bei niedriger Drehzahl; hohe Spanaufnahme und -abfuhr</li>
+      <li>Niedrige Kratzerrate und niedrige Bruchrate der Wafer</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/de/contact/">Request a quote</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Angebot anfordern</a></div>
   </div>
 </div>
 
 <div class="product-block" id="pm-high-speed-steel">
   <div class="pb-img" style="background-image:url('/assets/img/pm-steel.jpg')"></div>
   <div>
-    <h2>Powder Metallurgy High-Speed Steel (SAP PM HSS)</h2>
-    <p>SAP powder metallurgy high-speed steel with uniformly distributed fine carbides — high hardness, toughness and red-hardness for cutting tools, broaches and precision rolls.</p>
+    <h2>Pulvermetallurgie-Schnellaustahl</h2>
+    <p>Die SAP-Serie an PM-Schnellaustahl dient der hochmodernen Werkzeug- und Formenbauindustrie als Importsubstitution. Ein neuartiges Pulvermetallurgieverfahren erfordert nur minimale Bearbeitung, um Werkzeug- und Formteile in jeder Form und Größe zu liefern. Neben PM-Schnellaustahl umfasst die SAP-Werkzeug- und Formstofffamilie auch Formstahl, hochchromhaltigen Edelstahl-Schnellaustahl, hochvanadierten Schnellaustahl, Ti-Ni-Schnellaustahl, TiC/TiCN-Stahlbundhartmetall sowie Fe-Cr / Fe-Mn / Ni-Cr-Stahlbundhartmetall.</p>
     <ul class="specs">
-      <li>Process: inert-gas atomization + HIP</li>
-      <li>Application: cutting tools, rolls, punches</li>
-      <li>Feature: uniform carbide, high toughness</li>
+      <li>Nah-Net-Sform komplexe Teile mit Formanpassung, senkt die Bearbeitungskosten des Anwenders</li>
+      <li>Niedriger Verunreinigunggehalt (O≤60ppm, S≤80ppm, P≤50ppm)</li>
+      <li>Überwindet die Legierungsgrenzen des konventionellen Gießens; einfache Zusammensetzungseinstellung</li>
+      <li>Starke Pulvermetallurgie-Schnellaustahl mit ultra-harten Phasen-Aushärtung</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/de/contact/">Request a quote</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Angebot anfordern</a></div>
   </div>
 </div>
 
 <div class="product-block" id="tinico-heat-spreader">
   <div class="pb-img" style="background-image:url('/assets/img/tinico.jpg')"></div>
   <div>
-    <h2>TiNiCo Superalloy Heat Spreader</h2>
-    <p>TiNiCo superalloy heat spreader for 3D glass hot-bending molds and semiconductor thermal management — uniform heating, high flatness and long service life.</p>
+    <h2>TiNiCo-Superalloy-Wärmespreizer</h2>
+    <p>Der TiNiCo-Superalloy-Wärmespreizer wird in 3D-Abdeckglas-Hotbending-Formen und im thermischen Management von Halbleitern eingesetzt. Er liefert gleichmäßige Erwärmung, hohe Ebenheit und eine lange Lebensdauer, unterstützt nicht-Standard-Größenanpassungen und ist ein wichtiger heimisch substituiertes Material für importierte Hotbending-Formen-Wärmespreizer.</p>
     <ul class="specs">
-      <li>Application: 3D cover-glass hot bending, thermal</li>
-      <li>Feature: uniform temperature, high flatness</li>
-      <li>Custom sizes available</li>
+      <li>Anwendungen: 3D-Glas-Hotbending-Formen, thermisches Management von Halbleitern</li>
+      <li>Gleichmäßige Temperatur, hohe Ebenheit, lange Lebensdauer</li>
+      <li>Nicht-Standard-Größenanpassungen unterstützt</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/de/contact/">Request a quote</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Angebot anfordern</a></div>
+  </div>
+</div>
+
+<div class="product-block" id="sic-wafer-wheels">
+  <div class="pb-img" style="background-image:url('/assets/img/sic-wafer.jpg')"></div>
+  <div>
+    <h2>Schleifscheiben für die Verdünnung von Siliziumkarbid (SiC) Wafern</h2>
+    <p>Unsere selbst entwickelten SiC-Wafer-Dünnbearbeitungsscheiben verwenden ein einziges homogenes intermetallisches Kerametal-Bindeharz für die Diamantscheibe, was Selbstschärfe (Schnitthärte), Formbeständigkeit (lange Lebensdauer) und hohe Materialabtragrate durch Selbstdurchlässigkeitsbildung auf der Scheibenoberfläche ausbalanciert.</p>
+    <ul class="specs">
+      <li>Rohschliff bei 2000# mit hoher Vorschub; TTV&lt;2&nbsp;μm</li>
+      <li>Feinschliff bei 30000#: AFM-Rauheit unter 2&nbsp;nm, Schädigungsschicht 0,4–0,6&nbsp;μm</li>
+      <li>Kompatibel mit Disco, Tokyo Seimitsu, TSD, CETC und anderen Geräten</li>
+    </ul>
+    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Angebot anfordern</a></div>
+  </div>
+</div>
+
+<div class="product-block" id="pv-ingot-wheels">
+  <div class="pb-img" style="background-image:url('/assets/img/pv-ingot.jpg')"></div>
+  <div>
+    <h2>Schleifscheiben für die Rechteck- und Bockbearbeitung von PV-Siliziumbarren</h2>
+    <p>Diese Schleifscheiben werden für die Rechteck- und Bockbearbeitung von PV-Siliziumbarren nach dem Zuschneiden verwendet, um Sägespuren und Oberflächen-Schädigungsschichten zu entfernen und so die Effizienz und Ausbeute in nachfolgenden Prozessen zu verbessern.</p>
+    <ul class="specs">
+      <li>Entfernung von Sägespuren und Schädigungsschichten nach dem Zuschneiden; Erreichung von Ebenheit und Parallelität</li>
+      <li>Entfernung von Rohschliffspuren bis zur gewünschten Oberflächenqualität</li>
+      <li>Lange Lebensdauer, hohe Oberflächenqualität und stabile Leistung</li>
+    </ul>
+    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Angebot anfordern</a></div>
+  </div>
+</div>
+
+<div class="product-block" id="resin-wheels">
+  <div class="pb-img" style="background-image:url('/assets/img/resin-wheels.png')"></div>
+  <div>
+    <h2>Fünfachsen-Resinbond-Schleifscheiben</h2>
+    <p>Resinbond-Schleifscheiben für 5-Achsen-Maschinen sind Hartmetall-Schleifscheiben, die auf die Hochpräzisionskinematik der 5-Achsen-Simultanbewegung abgestimmt sind. Mit einer Harzbindung und Diamant- oder CBN-Superabrasiv-Körnern sind sie gezielt für das präzise Konturschleifen schwer schneidbarer Materialien wie Hartmetall und Schnellaustahl entwickelt worden und sind der zentrale Verbrauchsstoff in der Präzisions-CNC-Werkzeugfertigung. Sie lassen sich direkt in importierte 5-Achsen-Werkzeugschleifmaschinen (Walter, Aka, Hardinge/Hass und andere) sowie in inländische 5-Achsen-Schleifmaschinen integrieren, für die Nutbacken-, Rückseiten- und Unten-Abkanten-Bearbeitung von Vollhartmetall-Fräsen, Bohrern, Reibern und PCD/PCBN-Einsätzen sowie für das komplexe Konturschleifen von Schnellaustahl-, Edelstahl- und Kerametal-Arbeitsteilen.</p>
+    <ul class="specs">
+      <li>Hohe Schleifgenauigkeit: Exzellente Kontur- und Passform – Rundlauf 0,01&nbsp;mm, Zylindrizität 0,02&nbsp;mm, Kanten widerstehen Verschleiß und erhalten eine stabile Schneidengeometrie</li>
+      <li>Exzellente Selbstschärfe: Körner brechen rechtzeitig ab und frische Schneidkanten werden freigelegt; Verkleben und Glühflecken/Farbänderungen am Werkstück werden minimiert und die Spindelbelastung stark reduziert</li>
+      <li>Hervorragende Effizienz: Hohe Materialabtragrate, geringer Scheibenverschleiß und deutlich längere Nachschleifintervalle – ermöglicht schnellen Vorschub beim 5-Achsen-Schleifen und steigert die Stapelproduktivität</li>
+      <li>Exzellente Oberflächenqualität: Die Elastizität der Harzbindung verbessert die Rauheit; die Oberflächenrauheit kann Ra bis 0,4&nbsp;μm erreichen und erfüllt die Hochglanzkantenanforderungen von CNC-Werkzeugen</li>
+      <li>Starke Anpassungsfähigkeit: Rezeptur des Harzes, Korngöße und Konzentration werden gemäß Maschinenleistung und Material abgestimmt; gefertigt nach Zeichnung / Muster für nicht-Standard-Schleifen, Außendurchmesser Φ50–Φ200&nbsp;mm, Profilformen wie 1A1, 1V1, 11V9, 12V9</li>
+    </ul>
+    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Angebot anfordern</a></div>
   </div>
 </div>

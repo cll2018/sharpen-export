@@ -2,22 +2,33 @@
 layout: page.njk
 lang: ar
 permalink: /ar/about/
-title: "About Us"
-description: "Changsha Sharpen New Materials Co., Ltd. — an innovative新材料 manufacturer backed by a Changjiang Scholars team, specializing in high-performance abrasives and advanced alloys."
+title: "من نحن"
+description: "شركة تشانغشا شاربين للمواد الجديدة المحدودة — مؤسسة تقنية وطنية متقدمة، من الشركات المتخصصة والابتكارية 「الصغيرة العملاقة「 في هونان، مدعومة بفريق علماء يانغتسي؛ عجلات الماس/CBN، الفولاذ سريع القطع عالي الأداء بالميتالورجيا الحبيبية، ونواقل حرارة TiNiCo."
 ---
 
-Changsha Sharpen New Materials Co., Ltd. (长沙市萨普新材料有限公司) is an innovative materials manufacturer backed by the Changjiang Scholars innovation team. We hold independent intellectual property on our core products and serve high-end manufacturing worldwide.
+# حول شركة شاربين للمواد الجديدة
 
-**Core technologies**
-- High-performance diamond and CBN grinding wheels for superhard and hard-brittle materials
-- Diamond wheel discs for sapphire / oxide ceramic grinding and polishing
-- Powder metallurgy high-speed steel (SAP PM HSS)
-- TiNiCo superalloy heat spreaders for 3D-glass hot bending
+تأسست شركة تشانغشا شاربين للمواد الجديدة المحدودة (长沙市萨普新材料有限公司) في عام 2013 وتكرس جهودها في مجال المواد الجديدة بالميتالورجيا الحبيبية. نحن مؤسسة تقنية وطنية متكاملة تجمع بين البحث والتطوير والتصنيع والمبيعات والخدمات التقنية — شركة متخصصة وابتكارية "صغيرة عملاقة" في مقاطعة هونان، ومؤسسة تقنية وطنية مبنية على الابتكار، وشركة تجريبية للتحول الذكي في تشانغشا.
 
-**Recognition**
-- Hunan Provincial specialized & innovative SME (专精特新)
-- Listed in Hunan's 2024 first-batch technology SME directory
-- Strategic R&D partnership with the He Yuehui professor team (Changjiang Scholar)
+## قوة البحث والتطوير
 
-**Vision**
-We look forward to working with manufacturers worldwide to advance the dream of intelligent, high-precision manufacturing.
+يتم بناء فريقنا حول فريق علماء يانغتسي للابتكار بقيادة البروفيسور هي يويهوي من جامعة جنوب الصين المركزية، ويتكون من 8 من الحاصلين على درجتَي الدكتوراه والماجستير في علوم المواد. قام الفريق بتسجيل **37 براءة اختراع** — منها 13 براءة اختراع ممنوحة، و4 براءات اختراع للنماذج الوظيفية، و20 براءة اختراع قيد المراجعة — ويحافظ على تعاون تقني عميق مع جامعة جنوب الصين المركزية، وجامعة شيانتان، وجامعة المدينة في هونغ كونغ. ومع أكثر من 30 عامًا من البحث في الميتالورجيا الحبيبية والمواد الجديدة، يمتلك الفريق معدات متقدمة لإعداد مواد الأدوات بالميتالورجيا الحبيبية والخبرات الفنية اللازمة.
+
+## التقنيات الأساسية والمنتجات
+
+- **عجلات صقل الماس و CBn** لصقل الأدوات (الكربيد، الفولاذ سريع القطع، السرامت)
+- **أقراص عجلات الماس** لتخفيض السماكة وتلميع المواد الهشة الصلبة (SiC، الزفير، السيليكون الأحادي/المتعدد البلورات، الزركونيا)
+- **نواقل حرارة TiNiCo** لصقل الزجاج البصري عالي الدقة
+- **فولاذ سريع القطع عالي الأداء بالميتالورجيا الحبيبية** للأدوات والقوالب
+
+تمتاز عجلاتنا عالية الأداء من الماس و CBn بدرجة حدّة عالية، وإمكانية ممتازة للحفاظ على الشكل، وسهولة التشطيب / عمر طويل — وهي مثالية للأدوات الدوارة من الكربيد وفولاذ سريع القطع عالي الأداء بالميتالورجيا الحبيبية (Ø10 ملم فأكثر)، وأدوات سرامت Ti(C,N)، وشرائح PCD و PCBN.
+
+## التطبيقات والعملاء
+
+تخدم منتجاتنا مجالات الميكانيكا الدقيقة، أشباه الموصلات، البصريات، الطاقة الشمسية PV، السيارات، ومعالجة القوالب. نوفر خدماتنا لأكثر من 200 شركة في الداخل والخارج — بما في ذلك Tonly (东尼电子)، وBiel Crystal (伯恩光学)، وFocus Lightings (聚灿光电) — ودخلت منتجاتنا سلاسل إمداع هواوي، وفيفو، وأوبو.
+
+## الرؤية
+
+نلتزم بمحاسبة مشاكل "عنق الزجاجة" التقنية في المواد الجديدة وتحقيق الاستبدال المحلي للمنتجات المستوردة. ومن خلال دمج تقنيات صناعة المواد وموارد سلسلة الإمداد، نسعى إلى بناء منصة رابحة على مستوى العالم لتقنيات المواد.
+
+<p><a class="btn btn-outline" href="{{ site.brochure }}">تحميل الكتيب التعريفي بالشركة (PDF)</a></p>

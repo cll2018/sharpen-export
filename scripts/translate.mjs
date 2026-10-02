@@ -11,12 +11,14 @@
 // content/<lang>/*.md. Re-run any time you change English source.
 import fs from "node:fs";
 import path from "node:path";
+import { createRequire } from "node:module";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const settings = JSON.parse(fs.readFileSync(path.join(root, "data", "settings.json"), "utf8"));
+const require = createRequire(import.meta.url);
 const langs = require(path.join(root, "_data", "site.js")).langs;
-const targets = langs.filter((l) => l !== "en" && l.code !== "zh");
+const targets = langs.filter((l) => l.code !== "en" && l.code !== "zh" && l.code !== "zh-tw");
 
 const apiKey = process.env.AI_LLM_API_KEY;
 if (!apiKey) {

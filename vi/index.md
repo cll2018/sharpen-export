@@ -2,9 +2,9 @@
 layout: home.njk
 lang: vi
 permalink: /vi/
-title: "Home"
-description: "Changsha Sharpen New Materials — diamond & CBN grinding wheels, powder metallurgy high-speed steel, TiNiCo superalloy heat spreaders for semiconductor, sapphire, carbide and 3D-glass industries."
-heroTitle: "Precision Grinding & Advanced Materials for High-End Manufacturing"
-heroLead: "Sharpen New Materials develops high-performance diamond/CBN wheels, powder metallurgy high-speed steel and TiNiCo superalloy heat spreaders — engineered for semiconductor, sapphire, hard-metal and 3D-glass thermal applications."
+title: "Trang chủ"
+description: "Changsha Sharpen New Materials — đá mài kim cương và CBN, thép gió luyện kim bột hợp kim, tản nhiệt superalloy TiNiCo cho ngành bán dẫn, sapphire, carbide và kính 3D."
+heroTitle: "Mài chính xác & Vật liệu tiên tiến cho sản xuất cao cấp"
+heroLead: "Sharpen New Materials phát triển các bánh mài kim cương/CBN hiệu suất cao, thép gió luyện kim bột hợp kim và tản nhiệt superalloy TiNiCo — được thiết kế cho các ứng dụng nhiệt trong ngành bán dẫn, sapphire, hợp kim cứng và kính 3D."
 ---
-<!-- Homepage body is rendered by home.njk (hero + product cards + why). -->
+<!-- Phần thân trang chủ được hiển thị bởi home.njk (hero + thẻ sản phẩm + lý do). -->

@@ -91,3 +91,19 @@ description: "Changsha Sharpen New Materials — strong grooving wheels, semicon
     <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Request a quote</a></div>
   </div>
 </div>
+
+<div class="product-block" id="resin-wheels">
+  <div class="pb-img" style="background-image:url('/assets/img/resin-wheels.png')"></div>
+  <div>
+    <h2>Five-Axis Resin-Bond Grinding Wheels</h2>
+    <p>Resin-bond grinding wheels for 5-axis machines are bonded-abrasive wheels matched to the high-precision kinematics of 5-axis simultaneous motion. Using a resin bond with diamond or CBN superabrasive grains, they are purpose-designed for precision contour grinding of difficult-to-machine materials such as carbide and high-speed steel, and are the core consumable of precision CNC tool manufacturing. They plug directly into imported 5-axis tool grinders (Walter, Aka, Hardinge/Hass and others) as well as domestic 5-axis grinders, for grooving, back-ironing and under-cornering of solid-carbide end mills, drills, reamers and PCD/PCBN inserts, and for complex contour grinding of HSS, stainless steel and cermet workpieces.</p>
+    <ul class="specs">
+      <li>High grinding accuracy: excellent contour retention — roundness to 0.01&nbsp;mm, cylindricity 0.02&nbsp;mm, corners resist wear, keeping edge-consistency stable</li>
+      <li>Excellent self-sharpening: grains fracture off in time to expose fresh cutting edges; clogging and workpiece scorching/discoloration are minimized and spindle load is greatly reduced</li>
+      <li>Outstanding efficiency: high material-removal rate, low wheel wear, much longer dressing intervals — enabling fast-feed 5-axis grinding and boosting batch productivity</li>
+      <li>Excellent surface quality: resin bond elasticity improves roughness; finish Ra can reach 0.4&nbsp;μm, meeting the high-gloss edge requirement of CNC tools</li>
+      <li>Strong customizability: resin formulation, grain size and concentration are tuned per machine power and material; made-to-drawing / made-to-sample non-standard grinding, outer diameters Φ50–Φ200&nbsp;mm, profiled shapes such as 1A1, 1V1, 11V9, 12V9</li>
+    </ul>
+    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Request a quote</a></div>
+  </div>
+</div>
