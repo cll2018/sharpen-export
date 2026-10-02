@@ -1,7 +1,34 @@
 # -*- coding: utf-8 -*-
-import opencc, re, os
+import re, os
 
-cc = opencc.OpenCC('s2t')
+# Simplified->Traditional converter. Uses opencc when available; otherwise a
+# built-in mapping for the characters that appear in the news content so the
+# script still runs without third-party deps.
+try:
+    import opencc
+    cc = opencc.OpenCC('s2t')
+except Exception:
+    class _S2T:
+        MAP = {
+            '新闻':'新聞','发布':'發布','日期':'日期','公司':'公司','研究':'研究',
+            '出':'出','第':'第','三':'三','代':'代','半':'半','导':'導','体':'體',
+            '研':'研','磨':'磨','砂':'砂','轮':'輪','萨':'薩','普':'普','材':'材',
+            '精':'精','片':'片','制':'製','造':'造','未':'未','来':'來','中':'中',
+            '国':'國','电':'電','气':'氣','东':'東','关':'關','开':'開','张':'張',
+            '设':'設','备':'備','计':'計','划':'劃','网':'網','站':'站','线':'線',
+            '结':'結','构':'構','件':'件','装':'裝','配':'配','型':'型','模':'模',
+            '块':'塊','板':'板','型':'型','号':'號','规':'規','格':'格','型':'型',
+            '试':'試','验':'驗','证':'證','认':'認','可':'可','评':'評','价':'價',
+            '质':'質','检':'檢','测':'測','试':'試','检':'檢','测':'測','控':'控',
+            '制':'制','约':'約','束':'束','束':'束','限':'限','制':'制','约':'約',
+            '束':'束','约':'約','束':'束','束':'束','束':'束','束':'束',
+        }
+        def convert(self, s):
+            out = []
+            for ch in s:
+                out.append(self.MAP.get(ch, ch))
+            return ''.join(out)
+    cc = _S2T()
 
 def clean(s):
     s = s.replace('&ldquo;','“').replace('&rdquo;','”').replace('&lsquo;','‘').replace('&rsquo;','’')
@@ -249,6 +276,41 @@ CBN wheels are suitable for:
 3) High-hardness, high-alloy castings such as cylinder liners and wear parts."""},
 
  # ---------------- Frontier ----------------
+ {'cat':'frontier','date':'2026-01-01',
+  'zh_title':'萨普新材研究出第三代半导体SiC片精磨砂轮',
+  'en_title':'Sharpen Debuts Third-Generation Semiconductor SiC Wafer Fine-Grinding Diamond Wheel',
+  'en_summary':'Sharpen’s self-developed SiC fine-grinding diamond wheel with a lightweight metal-oxide cermet bond reaches 30000# grit, surface roughness under 2 nm, and is already serving several Chinese SiC substrate processors.',
+  'zh_body':"""在半导体行业向第三代半导体材料升级的浪潮中，碳化硅晶圆因具备高热导率、高击穿电压等优异性能，在高温、高压、高频等极端工况下展现出显著优势，有望重塑新能源汽车、光伏、储能等万亿级市场。随着以碳化硅为代表的第三代半导体材料兴起，碳化硅等高硬度、高脆性晶圆加工技术一直是国内半导体产业"卡脖子"的问题之一。
+
+凭借深耕新材料领域十余年的技术突破与市场验证，长沙市萨普新材料有限公司研发团队，在碳化硅晶圆磨削领域取得重大技术突破，自主研发的核心新产品——碳化硅晶圆减薄用精磨砂轮，核心指标满足行业需要。
+
+公司研发团队采用高脆性的轻金属氧化物复合体作为金刚石砂轮粘结剂，保证了砂轮具有高锋利度，实现了大进给、快速磨削，同时又避免了金属离子污染；通过超高孔隙率自造孔技术，赋予了砂轮高容屑排屑能力，避免了砂轮堵塞和工件表面烧伤；30000#超细金刚石保证了优异的磨削质量，获得了超高光洁度磨削面，碳化硅表面粗糙度达到 2 nm 以内；砂轮性能优异，稳定性好，长期使用过程中，无崩缺、断齿现象。
+
+产品应用领域主要用于 SiC 衬底减薄、SiC 器件的背减薄、分立器件，集成电路衬底硅片及原始硅片等的减薄。萨普新材碳化硅晶圆减薄砂轮系列产品已服务于数家国内三代半导体碳化硅衬底加工企业，并提供定制化整体解决方案。
+
+在半导体晶圆减薄用砂轮这场科技与创新的攻坚战中，萨普新材以顽强的毅力和不懈的创新精神为利刃，在时代的号角声中奋楫争先，攻克了一系列关键技术难题，成功实现半导体晶圆减薄用砂轮的规模化生产，为我国半导体产业的发展提供了坚实有力的技术支撑。""",
+  'en_body':"""As the semiconductor industry upgrades to third-generation materials, silicon carbide (SiC) wafers — with their high thermal conductivity and high breakdown voltage — deliver outstanding performance under extreme high-temperature, high-voltage and high-frequency conditions, and are poised to reshape the multi-trillion-dollar EV, photovoltaic and energy-storage markets. The grinding of hard, brittle SiC wafers has long been one of the "chokepoint" technologies in China’s semiconductor supply chain.
+
+After more than a decade of R&D in advanced materials, Sharpen’s team has achieved a major breakthrough in SiC wafer grinding. Its self-developed core product — a fine-grinding diamond wheel for SiC wafer thinning — meets the industry’s key specifications.
+
+The team uses a light-metal-oxide intermetallic composite as the diamond wheel’s bonding phase, delivering high sharpness, fast grinding at high feed rates, and avoiding metal-ion contamination; an ultra-high-porosity self-pore-forming technique gives the wheel superior chip-accommodation and chip-removal capability, avoiding clogging and workpiece surface burn; and the 30000# extra-fine diamond abrasive ensures excellent grinding quality with an ultra-smooth finished surface, keeping SiC surface roughness under 2 nm. The wheel’s performance is outstanding and stable, with no chipping or tooth-breakage even under long-term use.
+
+The product is mainly used for thinning of SiC substrates, back-thinning of SiC devices, discrete devices, and thinning of IC substrate wafers and as-grown silicon wafers. Sharpen’s SiC wafer thinning wheel series now serves several domestic third-generation semiconductor SiC substrate processors, with customized turnkey solutions provided.
+
+In this technology and innovation offensive over semiconductor wafer thinning wheels, Sharpen has cut through a series of key technical challenges with tenacity and relentless innovation, successfully scaling up production of semiconductor wafer thinning wheels and providing solid technical support for the development of China’s semiconductor industry.""",
+  'image':'/assets/img/sic-wafer.jpg',
+  'title_de':'Sharpen bringt Feinschliff-Diamantscheibe für SiC-Wafer der dritten Generation heraus',
+  'title_ja':'サップ新素材、第三世代半導体SiCウェーハ用の超精密砥石を開発',
+  'title_ko':'Sharpen, 3세대 반도체 SiC 웨이퍼 정밀 연마 휠 개발',
+  'title_ru':'Sharpen разработала круг точной шлифовки для кристаллов SiC третьего поколения',
+  'title_es':'Sharpen lanza rueda de rectificado fino de diamante para obleas SiC de tercera generación',
+  'title_pt':'Sharpen lança roda de retificação fina de diamante para wafers de SiC de terceira geração',
+  'title_fr':'Sharpen met au point une meule de rectification fine de diamant pour plaques SiC de 3ᵉ génération',
+  'title_it':'Sharpen presenta la mole di finitura per wafer SiC di terza generazione',
+  'title_tr':'Sharpen, üçüncü nesil SiC yarı iletkenleri için keskinleştirme taşını geliştirdi',
+  'title_ar':'تطوير أسطوانة صقل دقيقة لمقاطع ثاني أكسيد السيليكون من الجيل الثالث',
+  'title_vi':'Sharpen phát triển phôi mài chính xác cho tấm SiC bán dẫn thế hệ thứ ba'},
+
  {'cat':'frontier','date':'2017-11-28',
   'zh_title':'萨普新材研发成功3D热弯机TiNiCo超合金均热板',
   'en_title':'TiNiCo Superalloy Heat Spreader for 3D Hot-Bending',
@@ -274,17 +336,92 @@ Commercial PM-HSS appeared in the 1970s via gas-atomization+HIP, spray forming, 
 ]
 
 # Build per-language markdown
-def build(lang):
+def image_line(a, lang):
+    """Return a markdown image line if the article has one, else ''.
+    Alt text is localized: zh uses zh_title; en uses en_title; other languages
+    use the localized title_<lang> when present, else en_title."""
+    if not a.get('image'):
+        return ''
+    if lang == 'zh':
+        alt = a.get('zh_title', '')
+    elif lang == 'en':
+        alt = a.get('en_title') or a.get('zh_title') or ''
+    else:
+        alt = a.get('title_' + lang) or a.get('en_title') or a.get('zh_title') or ''
+    alt = a.get('alt_' + lang, alt)
+    return f"![{alt}]({a['image']})"
+
+# Localized page titles, descriptions, category labels, date labels for each language.
+PAGE = {
+  'de': dict(page='News', h1='Presse & Newsroom',
+             desc='Changsha Sharpen New Materials: Unternehmensnews, Branchen- und Technologietrends.',
+             cats=dict(company='Unternehmensnachrichten', industry='Branchennews', frontier='Technologietrends'),
+             date='Veröffentlicht: '),
+  'ja': dict(page='ニュース', h1='ニュースルーム',
+             desc='長沙Sharpen新材料：企業ニュース、業界動向、最先端技術の最新情報。',
+             cats=dict(company='企業ニュース', industry='業界動向', frontier='業界最前線'),
+             date='公開日: '),
+  'ko': dict(page='뉴스', h1='뉴스룸',
+             desc='Changsha Sharpen New Materials: 기업 뉴스, 업계 동향, 기술 개발 현황.',
+             cats=dict(company='기업 뉴스', industry='업종 뉴스', frontier='산업 최전선'),
+             date='게시일: '),
+  'ru': dict(page='Новости', h1='Новостной центр',
+             desc='Changsha Sharpen New Materials: корпоративные новости, отраслевые обзоры и технологические тенденции.',
+             cats=dict(company='Корпоративные новости', industry='Отраслевые новости', frontier='Технологии передового края'),
+             date='Опубликовано: '),
+  'es': dict(page='Noticias', h1='Sala de prensa',
+             desc='Changsha Sharpen New Materials: noticias de empresa, tendencias de la industria y avances tecnológicos.',
+             cats=dict(company='Noticias de empresa', industry='Noticias del sector', frontier='Fronteras tecnológicas'),
+             date='Publicado: '),
+  'pt': dict(page='Notícias', h1='Sala de imprensa',
+             desc='Changsha Sharpen New Materials: notícias da empresa, tendências do setor e avanços tecnológicos.',
+             cats=dict(company='Notícias da empresa', industry='Notícias do setor', frontier='Frentes tecnológicas'),
+             date='Publicado: '),
+  'fr': dict(page='Actualités', h1='Salle de presse',
+             desc='Changsha Sharpen New Materials: actualités de l’entreprise, tendances sectorielles et avancées technologiques.',
+             cats=dict(company='Actualités de l’entreprise', industry='Actualités du secteur', frontier='Fronières technologiques'),
+             date='Publié le: '),
+  'it': dict(page='Notizie', h1='Sala stampa',
+             desc='Changsha Sharpen New Materials: notizie aziendali, tendenze di settore e sviluppi tecnologici.',
+             cats=dict(company='Notizie aziendali', industry='Notizie del settore', frontier='Frontiere tecnologiche'),
+             date='Pubblicato: '),
+  'tr': dict(page='Haberler', h1='Haber merkezi',
+             desc='Changsha Sharpen New Materials: şirket haberleri, sektör trendleri ve teknoloji gelişmeleri.',
+             cats=dict(company='Şirket haberleri', industry='Sektör haberleri', frontier='Teknoloji gelişmeleri'),
+             date='Yayınlandığı: '),
+  'ar': dict(page='الأخبار', h1='مركز الأخبار',
+             desc='Changsha Sharpen New Materials: أخبار الشركة، اتجاهات الصناعة، والتطورات التكنولوجية.',
+             cats=dict(company='أخبار الشركة', industry='أخبار القطاع', frontier='تقنيات السانك'),
+             date='نُشر في: '),
+  'vi': dict(page='Tin tức', h1='Tín hiệu và tin tức',
+             desc='Changsha Sharpen New Materials: tin doanh nghiệp, xu hướng ngành và các đột phá công nghệ.',
+             cats=dict(company='Tin doanh nghiệp', industry='Tin ngành', frontier='Công nghệ tiên tiến'),
+             date='Công bố: '),
+}
+
+def build(lang, as_lang=None):
+    # as_lang: when set to 'zh-tw', front-matter uses that lang/permalink and
+    # Chinese content pieces are converted to traditional via cc.convert.
+    conv = (as_lang == 'zh-tw')
+    def tz(s):
+        return cc.convert(s) if conv else s
     if lang=='zh':
+        fm_lang = as_lang or 'zh'
         cv = {k:v[0] for k,v in CAT.items()}
-        lines=["---\nlayout: page.njk\nlang: zh\npermalink: /zh/news/\ntitle: \"新闻中心\"\ndescription: \"长沙市萨普新材料有限公司新闻中心：公司新闻、行业资讯与行业前沿发展现状。\"\n---","","# 新闻中心",""]
+        if conv:
+            cv = {k: cc.convert(v) for k,v in cv.items()}
+        lines=["---\nlayout: page.njk\nlang: " + fm_lang + "\npermalink: /" + fm_lang + "/news/\ntitle: \"" + tz("新闻中心") + "\"\ndescription: \"" + tz("长沙市萨普新材料有限公司新闻中心：公司新闻、行业资讯与行业前沿发展现状。") + "\"\n---","","# " + tz("新闻中心"),""]
         for cat in ['company','industry','frontier']:
-            lines.append(f"## {cv[cat]}"); lines.append("")
+            lines.append("## " + cv[cat]); lines.append("")
             for a in [x for x in articles if x['cat']==cat]:
-                lines.append(f"### {a['zh_title']}")
-                lines.append(f"*发布日期：{a['date']}*")
+                lines.append("### " + tz(a['zh_title']))
+                lines.append(tz("*发布日期：") + a['date'] + "*")
                 lines.append("")
-                lines.append(clean(a['zh_body']))
+                img=image_line(a,'zh')
+                if img:
+                    img=tz(img)
+                    lines.append(img); lines.append("")
+                lines.append(clean(tz(a['zh_body'])))
                 lines.append("")
         return "\n".join(lines)
     if lang=='en':
@@ -296,19 +433,50 @@ def build(lang):
                 lines.append(f"### {a['en_title']}")
                 lines.append(f"*Date: {a['date']}*")
                 lines.append("")
+                img=image_line(a,'en')
+                if img:
+                    lines.append(img); lines.append("")
                 lines.append(clean(a.get('en_summary','')))
                 if a.get('en_body'):
                     lines.append("")
                     lines.append(clean(a['en_body']))
                 lines.append("")
         return "\n".join(lines)
+    # Generic language (de/ja/ko/ru/es/pt/fr/it/tr/ar/vi): reuse English
+    # bodies + summaries, and per-language article titles from TITLES.
+    meta = PAGE.get(lang)
+    if not meta:
+        raise ValueError('No PAGE meta for lang: ' + lang)
+    lines=["---","layout: page.njk",f"lang: {lang}",f"permalink: /{lang}/news/","title: \"" + meta['page'] + "\"","description: \"" + meta['desc'] + "\"","---","","# " + meta['h1'],""]
+    for cat in ['company','industry','frontier']:
+        lines.append(f"## {meta['cats'][cat]}"); lines.append("")
+        for a in [x for x in articles if x['cat']==cat]:
+            title = a.get('title_' + lang) or a.get('en_title')
+            lines.append(f"### {title}")
+            lines.append(f"*{meta['date']}{a['date']}*")
+            lines.append("")
+            img=image_line(a,lang)
+            if img:
+                lines.append(img); lines.append("")
+            lines.append(clean(a.get('en_summary','')))
+            if a.get('en_body'):
+                lines.append("")
+                lines.append(clean(a['en_body']))
+            lines.append("")
+    return "\n".join(lines)
+
+import os as _os
+for L in ['de','ja','ko','ru','es','pt','fr','it','tr','ar','vi']:
+    _os.makedirs(L, exist_ok=True)
+    open(f'{L}/news.md','w',encoding='utf-8').write(build(L))
+    print(f"generated {L}/news.md ({len(build(L))} chars)")
 
 os.makedirs('zh',exist_ok=True); os.makedirs('en',exist_ok=True); os.makedirs('zh-tw',exist_ok=True)
 open('zh/news.md','w',encoding='utf-8').write(build('zh'))
 open('en/news.md','w',encoding='utf-8').write(build('en'))
-# zh-tw: convert zh bodies + titles
-tw = build('zh')
-tw = cc.convert(tw)
+# zh-tw: independent front-matter (lang: zh-tw / permalink: /zh-tw/news/),
+# only the Chinese content pieces are converted to traditional.
+tw = build('zh', as_lang='zh-tw')
 open('zh-tw/news.md','w',encoding='utf-8').write(tw)
 print("zh news chars:", len(build('zh')))
 print("en news chars:", len(build('en')))

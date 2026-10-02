@@ -113,10 +113,10 @@ description: "شانغشا شاربِن للمواد الجديدة — عجلا
     <h2>كربيد مربوط بالصلب</h2>
     <p>كربيد مربوط بالصلب (سمنتاد) لأدوات التصنيع ومكونات التآكل الشديدة — يمكن تشغيله في الحالة المُمهَدة على آلة CNC أو fresing أو التثقيب، وهو متوافق مع الصب والسَواء، ويمكن تشكيل الهياكل المعقدة دون معدات خاصة. بعد التقسية، قد تصل الصلادة إلى HRC 60–70، وتكون مقاومة التآكل مقاربة للكربيد عالي الكوبالت، بينما تكون المرونة ومقاومة الصدمة أعلى بكثير من الكربيد العادي. يمكن الحصول على أداء خاص (تآكل، أكسدة، حرارة) عن طريق اختيار نوع الرابط؛ تكلفة دورة الحياة الكلية أقل بكثير من الفولاذ الكلاسيكي المستخدم في القوالب، ويتضاعف عمر الأدوات بمقدار 10 إلى 20 مرة، ويُقلَّل وقت التوقف بشكل كبير.</p>
     <ul class="specs">
-      <li>Applications: cold-extrusion, cold-heading and blanking/punching dies, firebrick shaping molds; replaces YG20-type carbide in high-load die cores.</li>
-      <li>Cutting tools: carbide and high-speed-steel tooling for titanium and nickel alloys, rock-boring and geological-drilling tools.</li>
-      <li>Wear parts: rollers, nozzles, bearings; high-grade grades used in aerospace and submarine-navigation components.</li>
-      <li>Support for diamond/CBN grinding-wheel fixtures and CBN-mill-forming jigs; meets accuracy and wear requirements.</li>
+      <li>تطبيقات: البثق البارد، والعجن البارد، وقوالب القصّ/النقش، وقوالب تشكيل طوب البناء؛ تحل مكان كربيد YG20 في نوى القوالب عالية الحِمل.</li>
+      <li>أدوات القطع: أدوات كربيد وفولاذ عالي السرعة للمبخرات والأدوات لحملات التنقيب الجيولوجية والتنقيب عن الخامات الصلبة.</li>
+      <li>قطع التآكل: أسطوانات، فوهات، محامل؛ الدرجات العالية تُستخدم في مركبات الفضاء ومكونات توجيه الغواصات.</li>
+      <li>دعامة لفكس وأسطوانه صقل الماس/CBN وفكس تشكيل CBN؛ يلبّي متطلبات الدقة والتآكل.</li>
     </ul>
     <div class="pb-cta"><a class="btn btn-primary" href="/ar/contact/">طلب عرض سعر</a></div>
   </div>

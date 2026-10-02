@@ -113,10 +113,10 @@ description: "長沙市薩普新材料有限公司的強力開槽砂輪、半導
     <h2>鋼結硬質合金</h2>
     <p>鋼結硬質合金面向刀具與苛刻耐磨件——退火態可直接車、銑、鑽加工，支援鍛造與焊接、無需特殊設備即可完成複雜成型。淬硬後硬度可達 HRC 60–70，耐磨性接近高鈷硬質合金，韌性遠優於普通硬質合金、抗衝擊更強。可通過調整黏結相鋼材獲得耐磨、耐腐蝕、耐熱等特殊性能，全生命週期成本遠低於常規合金模具鋼，模具壽命可提升十幾至幾十倍、大幅減少換模停機時間。</p>
     <ul class="specs">
-      <li>Applications: cold-extrusion, cold-heading and blanking/punching dies, firebrick shaping molds; replaces YG20-type carbide in high-load die cores.</li>
-      <li>Cutting tools: carbide and high-speed-steel tooling for titanium and nickel alloys, rock-boring and geological-drilling tools.</li>
-      <li>Wear parts: rollers, nozzles, bearings; high-grade grades used in aerospace and submarine-navigation components.</li>
-      <li>Support for diamond/CBN grinding-wheel fixtures and CBN-mill-forming jigs; meets accuracy and wear requirements.</li>
+      <li>應用：冷擠壓、冷墩及落料/沖孔模具、耐火磚成型模具；替代 YG20 型硬質合金用於高負荷模具芯。</li>
+      <li>切削刀具：用於鎢鋼與高速鋼刀具加工鈦合金、鎳合金，岩芯鑽探及地質鑽探。</li>
+      <li>耐磨件：輥輪、噴嘴、軸承；高等級牌號用於航空航天及潛艇導航部件。</li>
+      <li>金刚石/CBN 砂輪夾具及 CBN 銑削成型工装支撐；滿足精度與耐磨要求。</li>
     </ul>
     <div class="pb-cta"><a class="btn btn-primary" href="/zh-tw/contact/">獲取報價</a></div>
   </div>

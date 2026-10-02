@@ -113,10 +113,10 @@ description: "Changsha Sharpen New Materials — güçlü çelik tekerlekleri, y
     <h2>Çelik bağlı sert alaşım</h2>
     <p>Çelik bağlı sert alaşım (simentant) takımlar ve sert aşınma parçaları için: tavlanmış halde CNC, freze, delik işlemeye uygundur; döküm ve kaynak için özel ekipman gerektirmez, karmaşık şekillerin oluşturulmasına imkân verir. Isıl işlem sonrası sertlik HRC 60–70'a ulaşabilir, aşınma direnci yüksek kobalt içeren sert alaşımlara yaklaşır; süneklik ve darbe direnci sıradan sert alaşımlara göre çok daha yüksektir. Bağlayıcı çeliğin seçimiyle aşınma, korozyon, ısı direnci gibi özel performanslar elde edilebilir. Toplam kullanım maliyeti, geleneksel alaşım kalıp çeliklerinden çok daha düşüktür; kalıp ömrü 10–20 katına çıkar, değişim süreleri ciddi biçimde kısalır.</p>
     <ul class="specs">
-      <li>Applications: cold-extrusion, cold-heading and blanking/punching dies, firebrick shaping molds; replaces YG20-type carbide in high-load die cores.</li>
-      <li>Cutting tools: carbide and high-speed-steel tooling for titanium and nickel alloys, rock-boring and geological-drilling tools.</li>
-      <li>Wear parts: rollers, nozzles, bearings; high-grade grades used in aerospace and submarine-navigation components.</li>
-      <li>Support for diamond/CBN grinding-wheel fixtures and CBN-mill-forming jigs; meets accuracy and wear requirements.</li>
+      <li>Uygulamalar: soğuk ekstrüzyon, soğuk dövme, soğuk kesme/dabba kalıpları, ateş tuğlası şekillendirme kalıpları; yüksek yük altında YG20 tipi sert metali değiştirir.</li>
+      <li>Kesme takımları: titanyum ve nikel alaşımları için sert metal ve HSS takımları, kaya kazma ve jeolojik delme takımları.</li>
+      <li>Aşınma parçaları: makaralar, nozullar, yataklar; yüksek dereceler havacılık-alt-uzay ve denizaltı navigasyon bileşenlerinde kullanılır.</li>
+      <li>Elmas/CBN zımpara tezgâhı dübelleri ve CBN talaş şekillendirme jig'lerinin desteği; hassasiyet ve aşınma gereksinimlerini karşılar.</li>
     </ul>
     <div class="pb-cta"><a class="btn btn-primary" href="/tr/contact/">Teklif iste</a></div>
   </div>

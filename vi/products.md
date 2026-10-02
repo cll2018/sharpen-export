@@ -113,10 +113,10 @@ description: "Changsha Sharpen New Materials — bánh mài rãnh cứng, bánh 
     <h2>Thép kết hợp với hạt cứng</h2>
     <p>Thép kết hợp với hạt cứng (cimented) cho dụng cụ và bộ phận mài mòn khắc nghiệt: có thể tiện, phay, khoan trực tiếp trong trạng thái đã thoái火, hỗ trợ rèn và hàn không cần thiết bị đặc biệt, tạo hình được các kết cấu phức tạp. Sau khi tôi luyện, độ cứng có thể đạt HRC 60–70, khả năng chống mài mòn tiệm cận hợp kim cobalt cao, độ dẻo dai và khả năng chịu va đập vượt trội so với hợp kim cứng thường. Có thể điều chỉnh loại thép kết hợp để đạt được tính năng đặc biệt (chống mài, chống ăn mòn, chống nhiệt); chi phí vòng đời thấp hơn đáng kể so với thép dụng cụ hợp kim thông thường, tuổi thọ khuôn được tăng gấp 10–20 lần, giảm thời gian dừng máy đáng kể.</p>
     <ul class="specs">
-      <li>Applications: cold-extrusion, cold-heading and blanking/punching dies, firebrick shaping molds; replaces YG20-type carbide in high-load die cores.</li>
-      <li>Cutting tools: carbide and high-speed-steel tooling for titanium and nickel alloys, rock-boring and geological-drilling tools.</li>
-      <li>Wear parts: rollers, nozzles, bearings; high-grade grades used in aerospace and submarine-navigation components.</li>
-      <li>Support for diamond/CBN grinding-wheel fixtures and CBN-mill-forming jigs; meets accuracy and wear requirements.</li>
+      <li>Ứng dụng: ép đùn nguội, dập nguội, khuôn đột/dập/cắt, khuôn tạo hình gạch chịu lửa; thay thế carbide YG20 ở lõi khuôn tải trọng cao.</li>
+      <li>Dụng cụ cắt: dụng cụ carbide và thép tốc độ cao (HSS) cho hợp kim titan và niken, khoan đá và khoan địa chất.</li>
+      <li>Chi tiết chịu mài mòn: con lăn, vòi, bạc lót; các mác cao cấp dùng trong bộ phận hàng không vũ trụ và định hướng tàu ngầm.</li>
+      <li>Hỗ trợ bộ cố định phôi mài kim cương/CBN và jig CBN; đáp ứng yêu cầu độ chính xác và mài mòn.</li>
     </ul>
     <div class="pb-cta"><a class="btn btn-primary" href="/vi/contact/">Yêu cầu báo giá</a></div>
   </div>

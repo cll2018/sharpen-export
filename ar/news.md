@@ -3,127 +3,150 @@ layout: page.njk
 lang: ar
 permalink: /ar/news/
 title: "الأخبار"
-description: "غرفة أخبار شركة تشانغشا شاربِن للمواد الجديدة: أخبار الشركة، رؤى الصناعة، وآخر التطورات على المستوى الأمامي."
+description: "Changsha Sharpen New Materials: أخبار الشركة، اتجاهات الصناعة، والتطورات التكنولوجية."
 ---
 
-# غرفة الأخبار
+# مركز الأخبار
 
 ## أخبار الشركة
 
-### إدراج ضمن الدفعة الأولى من الشركات الصغيرة والمتوسطة المعتمدة تقنيًا في هونان لعام 2024
-*التاريخ: 2024-08-16*
+### Listed in Hunan’s 2024 First Batch of Technology-Based SMEs
+*نُشر في: 2024-08-16*
 
-تمت إعادة اعتماد شركة شاربِن في الدفعة الأولى من الشركات الصغيرة والمتوسطة العلمية والتكنولوجية في مقاطعة هونان لعام 2024، تكريمًا لنموّنا مدفوعًا بالابتكار والملكية الفكرية.
+Sharpen was again approved for Hunan Province’s 2024 first batch of sci-tech SMEs, recognizing our innovation- and IP-driven growth.
 
-نشرت مقاطعة هونان مؤخرًا قائمة الدفعة الأولى المخططة من الشركات الصغيرة والمتوسطة المعتمدة تقنيًا لعام 2024، وتمت إعادة اعتماد شاربِن للإدراج فيها. تُعد الشركات المعتمدة تقنيًا الوعاء الأساسي للابتكار، حيث تعتمد على الكوادر العلمية والتكنولوجية لإجراء البحث والتطوير، والحصول على ملكية فكرية مستقلة، وتحويلها إلى منتجات أو خدمات عالية التقنية لتحقيق نمو ثابت وقوي. تلعب هذه الشركات دورًا رئيسيًا في التنمية الاقتصادية، والوظائف، والتقدم العلمي، وتستفيد من الدعم السياسي على المستويين الوطني والمحلي. تأسست شركة تشانغشا شاربِن للمواد الجديدة في عام 2013، وهي شركة عالية التقنية وطنية تجمع بين البحث والتطوير، والتصنيع، والمبيعات، والخدمة في مجال مواد جديدة عبر الميتالورجيا بالفوارق (الميتالورجيا بالمسحوق) — وهي شركة متخصصة ومبتكرة من "الأصناف المتخصصة والمبتكرة" (Littl Giants) في هونان، وبرنامج تجريبي للذكاء الصناعي في تشانغشا، وشركة مواد جديدة في هونان، وأحد أوائل الشركات الصغيرة والمتوسطة المبتكرة في هونان. مدعومة بفريق الدكتوراه بقيادة البروفيسور هوي هوير من الجامعة المركزية الجنوبية، نلتزم بحل مشاكل "عنق الزجاجة" في المواد الجديدة وتحقيق الاستبدال المحلي للمنتجات المستوردة.
+Hunan Province recently published its 2024 first batch of planned technology-based SMEs, and Sharpen was again approved for inclusion. Technology-based SMEs are a backbone of innovation, relying on scientific and technical personnel to conduct R&D, obtain independent IP, and turn it into high-tech products or services for steady, robust growth. They play a key role in economic development, employment and scientific progress, and enjoy national and local policy support. Founded in 2013, Changsha Sharpen New Materials is a national high-tech enterprise integrating R&D, manufacturing, sales and service in powder-metallurgy new materials — a Hunan “Little Giant” specialized & innovative enterprise, a Changsha intelligent-manufacturing pilot, a Hunan new-materials enterprise and one of Hunan’s first innovative SMEs. Backed by the doctoral team led by Prof. He Yuehui of Central South University, we are committed to solving “chokepoint” new-material problems and realizing domestic substitution of imported products.
 
-### شراكة استثمارية استراتيجية مع مجموعة فوشيان شينغوي
-*التاريخ: 2023-07-19*
+### Strategic Investment Partnership with Futian Xingye Investment Group
+*نُشر في: 2023-07-19*
 
-في 17 يوليو 2023، وقع فريق البروفيسور هوي هوير اتفاق استثمار استراتيجي مع مجموعة فوشيان شينغوي للاستثمار، يجمع بين البحث والتعمق التقني والموارد القوية في السوق ورأس المال.
+On July 17, 2023, Prof. He Yuehui’s team signed a strategic investment agreement with Futian Xingye Investment Group, combining deep-tech R&D with strong market and capital resources.
 
-في 17 يوليو 2023، بقيادة الخبير التقني الرئيسي البروفيسور هوي هوير، توصلت شاربِن رسميًا إلى تعاون استثماري استراتيجي مع مجموعة فوشيان شينغوي للاستثمار وأقامت حفل توقيع. حضر القادة من الجانبين الحفل. قال البروفيسور هوي إن هذه الشراكة فرصة تاريخية للفريق والشركة، وأبدى ثقته في أنه من خلال جمع القوى مع فوشيان — التي يقدم رئيسها هو شينغ خبرة سوقية غنية وقوة مالية قوية — سيحقق الجانبان نموًا متبادلًا قفزة في التنمية. بعد عقد من بناء منتجاتها فائقة الصلابة ونظام تقنية PM-HSS، فإن تعاون شاربِن مع فوشيان هو "اندماج قوي-مع-قوي" عميق يهدف إلى النمو المشترك.
+On July 17, 2023, led by chief technical expert Prof. He Yuehui, Sharpen formally reached a strategic investment cooperation with Futian Xingye Investment Group and held a signing ceremony. Leaders from both sides attended. Prof. He said the partnership is a historic opportunity for the team and the company, and expressed confidence that by combining forces with Futian — whose chairman Hu Sheng brings rich market experience and strong financial strength — the two sides will achieve win-win, leapfrog development. After a decade building its ultra-hard products and PM-HSS technology system, Sharpen’s cooperation with Futian is a “strong-with-strong” deep integration aimed at joint growth.
 
-### منح لقب شركة "متخصصة ومبتكرة" الصغيرة والمتوسطة في هونان لعام 2023
-*التاريخ: 2023-04-15*
+### Awarded the 2023 Hunan “Specialized & Innovative” SME Title
+*نُشر في: 2023-04-15*
 
-حصلت شاربِن على تصنيف شركة صغيرة ومتوسطة "متخصصة، دقيقة، متمايزة، ومبتكرة" ("صغير عملاق") في مقاطعة هونان لعام 2023.
+Sharpen received the 2023 Hunan Province specialized, refined, differentiated & innovative (“Little Giant”) SME designation.
 
-### البروفيسور هوي هوير يُدرج ضمن أكبر 2% من العلماء في العالم لعام 2022
-*التاريخ: 2022-12-01*
+### Prof. He Yuehui Named Among the World’s Top 2% Scientists 2022
+*نُشر في: 2022-12-01*
 
-أُدرج خبيرنا التقني الرئيسي، البروفيسور هوي هوير، في تصنيف العلماء العشرة الأوائل عالميًا لعام 2022 الذي نشرته جامعة ستانفورد وإليزفير.
+Our chief technical expert, Prof. He Yuehui, was listed in the 2022 global top 2% scientists ranking published by Stanford University and Elsevier.
 
-### البروفيسور هوي هوير يتلقى جائزة "إنجاز وتحويل تقنية المواد الجديدة"
-*التاريخ: 2019-11-14*
+### Prof. He Yuehui Receives the “New Materials Achievement-Transformation Award”
+*نُشر في: 2019-11-14*
 
-في مؤتمر تطوير صناعة المواد الجديدة الصينية الثاني، تلقى البروفيسور هوي جائزة الإنجاز والتحويل التقني التأسيسية عن أبحاثه في المركبات بين الفلزات وتحويلها إلى صناعات.
+At the 2nd China New Materials Industry Development Conference, Prof. He received the inaugural achievement-transformation award for his intermetallic-compound research and industrialization.
 
-في افتتاحية مؤتمر تطوير صناعة المواد الجديدة الصينية الثاني (14 نوفمبر 2019)، تلقى البروفيسور هوي هوير جائزة "إنجاز وتحويل تقنية المواد الجديدة" التأسيسية. يتركز بحث البروفيسور هوي على المركبات بين الفلزات، مع تطبيق المفهوم لترقية المواد التقليدية وتجاوز أداء المواد. بناءً على اختراعات في المواد المسامية والإنتاج النظيف، أسس شركة تشينغدو ييتاي التقنية، مما خلق مليارات في القيمة الاقتصادية. رائد في تحضير السيرميت وتطبيقه في الصين، أسس شركة تشينغدو ميشرلاي للمواد الجديدة (سيرميت مبني على Ti(C,N)، تستخدمها شركة تشيري وآخرون)، وشترك في تطوير أسلاك الماس مع شركة آساهي داياموند اليابانية، مما أتاح معالجة رقائق الطاقة الشمسية بطريقة نظيفة وبكلفة منخفضة. في عام 2017، شارك في تأسيس شركة تشانغشا ديال للمواد الجديدة (مسجلة في بورصة تشنكس). كما أسس شركة شاربِن وشركات تقنية متقدمة أخرى، مما خلق مئات الملايين من اليوان في القيمة الاجتماعية السنوية.
+At the opening of the 2nd China New Materials Industry Development Conference (Nov 14, 2019), Prof. He Yuehui received the inaugural “New Materials Achievement-Transformation Award.” Prof. He’s research focuses on intermetallic compounds, applying the concept to upgrade traditional materials and leapfrog material performance. Building on porous-material and clean-production inventions, he founded Chengdu Yitai Technology, creating billions in economic value. He pioneered cermet preparation and application in China, founded Chengdu Meshray New Materials (Ti(C,N)-based cermet, used by Chery and others), and co-developed diamond wire with Japan’s Asahi Diamond, enabling clean, low-cost solar-wafer processing. In 2017 he co-founded Changsha Diale New Material (listed on the ChiNext). He also founded Sharpen and other high-tech firms, creating hundreds of millions of yuan in annual social value.
 
-### شاربِن في معرض CIMT2017
-*التاريخ: 2017-04-22*
+### Sharpen at CIMT2017
+*نُشر في: 2017-04-22*
 
-شاركت شاربِن في المعرض الدولي الصيني الخامس عشر للآلات والأدوات (CIMT2017)،عرضًا لأجزاء PM-HSS المصبوبة بالحقن (SAP PM-HSS) وأقراص الماس/سي بي إن المرتبطة بالسرميت.
+Sharpen exhibited at the 15th China International Machine Tool Show (CIMT2017), showcasing SAP PM-HSS parts and cermet-bond diamond/CBN wheels.
 
-أُقيم المعرض الدولي الصيني الخامس عشر للآلات والأدوات (CIMT2017) في الفترة من 17 إلى 22 أبريل 2017، وشاركت شاربِن في الجناح W7-418. قاد البروفيسور هوي هوير فرق البحث والتطوير والمبيعات للدكتوراه. عرّضت شاربِن أجزاء PM-HSS المصبوبة بالحقن (SAP PM-HSS) — الخراطة، والمثقبات، والنحت، والإدخالات، ومقاعد الصمامات، وأعمدة قيادة القوالب — وأقراص الماس/سي بي إن المرتبطة بالسرميت للأدوات الدوارة فائقة الصلابة والمواد الصلبة الهشة مثل السافير والزركونيا. اعتمدت شاربِن طويلًا على الاستيراد، لكن بنيت تقنية تحضير أساسية مستقلة للتوطين كليًا لكل من PM-HSS وأقراص الصمامات فائقة الصلابة، مما يوفر حلولاً شاملة السلسلة للمشترين.
+The 15th China International Machine Tool Show (CIMT2017) was held April 17–22, 2017, with Sharpen exhibiting at booth W7-418. Prof. He Yuehui led the doctoral R&D and sales teams. Sharpen showcased SAP PM-HSS formed parts — taps, drills, end mills, inserts, valve seats, mold guide posts — and cermet-bond diamond/CBN wheels for ultra-hard rotary tools and hard-brittle materials such as sapphire and zirconia. Long dependent on imports, Sharpen has built proprietary core preparation technology to localize both PM-HSS and superabrasive wheels, offering full-series solutions to manufacturers.
 
-### شاربِن في المنتدى الثاني للميتالورجيا بالمسحوق / هواتف السيراميك
-*التاريخ: 2017-03-17*
+### Sharpen at the 2nd PM / Ceramic Phone-Shell Forum
+*نُشر في: 2017-03-17*
 
-قدم البروفيسور هوير حلول أقراص صقل الزركونيا عالية الكفاءة، مما يعزز دور شاربِن في تصنيع مكونات الهواتف السيراميكية.
+Prof. He presented high-efficiency zirconia polishing wheel solutions, advancing Sharpen’s role in ceramic phone-component machining.
 
-في 17 مارس 2017، دُعيت شاربِن إلى المنتدى الثاني لتقنيات وتطبيقات الميتالورجيا بالمسحوق / هواتف السيراميك في شنتشن. قدم البروفيسور هوير محاضرة عن أقراص صقل الزركونيا عالية الكفاءة والدقة. بناءً على نظرية الرابطة في المركبات بين الفلزات وأكثر من 3,000 تجربة تركيب، طورت شاربِن حلاً ناضجًا لأغطية الهواتف السيراميكية المصنوعة من الزركونيا وصفائح التعرف على البصمات، مما يحسن كفاءة تصنيع البنية بشكل كبير ويخفض التكلفة للعملاء، مما يعزز التطبيق الصناعي للمكونات السيراميكية في الهواتف.
+On March 17, 2017, Sharpen was invited to the 2nd Powder Metallurgy / Ceramic Phone-Shell Technology & Application Forum in Shenzhen. Prof. He presented on high-efficiency, high-precision zirconia polishing wheels. Drawing on intermetallic-compound bond theory and more than 3,000 formulation trials, Sharpen developed a mature solution for zirconia ceramic phone back-plates and fingerprint-recognition wafers that greatly improves machining efficiency and lowers cost for customers, advancing the company’s scale application in ceramic phone-component machining.
 
-### شاربِن في معرض SIMM 2014 (شنتشن)
-*التاريخ: 2014-03-28*
+### Sharpen at SIMM 2014 (Shenzhen)
+*نُشر في: 2014-03-28*
 
-قدمت شاربِن أداءًا جديدًا لأقراص الماس وسي بي إن المرتبطة بالسرميت في معرض تصنيع الآلات الدولي الخامس عشر في شنتشن.
+Sharpen debuted high-performance cermet-bond diamond and CBN wheels at the 15th Shenzhen International Machinery Manufacturing Exhibition.
 
-في 28 مارس 2014، عرض رئيس مجلس إدارة شاربِن ومديرو المبيعات الأقراص عالية الأداء من الماس وسي بي إن التابعة للشركة في معرض تصنيع الآلات الدولي الخامس عشر في شنتشن. يقود فريق البحث والتطوير في شاربِن شخصية بارزة في مجال الصمامات الفائقة الصلابة في الصين، ويحوز الفريق حقوق ملكية فكرية مستقلة متعددة، ويصنع أقراص ماس وسيرميت المرتبطة بالسرميت العالمية التي تحل بالكامل محل نظيراتها المستوردة، مع القوة لتقديم حلول صقل كاملة لأدوات الكربيد وHSS. لفتت أقراص السرميت المرتبطة الجديدة انتباهًا واسعًا من قبل مشغلي الكربيد بسبب خاصية التصليق الذاتي، وحفظ الشكل، وسهولة الصقل. أعطى البروفيسور هوي محاضرة مستقبَلة جيدًا حول نظام سيرميت Ti(C,N) الجديد وأقراص الماس المرتبطة به.
+On March 28, 2014, Sharpen’s chairman and sales managers exhibited the company’s flagship high-performance diamond and CBN wheels at the 15th Shenzhen International Machinery Manufacturing Exhibition. Led by a top figure in China’s superabrasive field, Sharpen’s R&D team holds multiple independent IP rights and produces world-class cermet-bond diamond and CBN wheels that fully replace imported equivalents, with the strength to deliver complete grinding solutions for carbide and HSS tools. The new cermet-bond wheels drew wide attention from carbide processors for their self-sharpening, shape retention and easy dressing. Prof. He gave a well-received lecture on a new Ti(C,N) cermet system and its diamond wheels.
 
-### نجاح أقراص الصقل اليدوي في شركة تشو شيو
-*التاريخ: 2016-11-07*
+### Success of Manual-Grinder Wheels at a Zhuzhou Enterprise
+*نُشر في: 2016-11-07*
 
-استبدلت أقراص السرميت المرتبطة التابعة لنا أقراص الصقل المرتبطة بالراتنج في شركة رئيسية في تشو شيو، مما رفع عمر الأقراص حوالي 30 مرة دون الحاجة إلى صقل.
+Our cermet-bond wheels replaced resin-bond wheels at a major Zhuzhou manufacturer, boosting wheel life ~30x with no dressing needed.
 
-### إنتاج كمي لأقراص ماس وسي بي إن المرتبطة بالسرميت مقاس Ø400مم فئة 1A1
-*التاريخ: 2014-01-01*
+### Ø400mm 1A1 Cermet-Bond Diamond & CBN Wheels in Batch Production
+*نُشر في: 2014-01-01*
 
-تحققت شاربِن من الإنتاج الكمي لأقراص ماس وسي بي إن المرتبطة بالسرميت مقاس Ø400مم فئة 1A1، مما يمثل نقطة تحول في البحث والتطوير المحلي لأقراص الصقل عالية الجودة.
+Sharpen achieved batch production of Ø400mm 1A1 cermet-bond diamond and CBN wheels, marking a milestone in domestic high-end wheel R&D.
 
-طورت شاربِن بنجاح وأدخلت في الإنتاج الكمي أقراص ماس وسي بي إن المرتبطة بالسرميت مقاس Ø400مم فئة 1A1 للسوق. بعد تطوير أقراص الصقل الرأسي والسطحي المرتبطة بالسرميت في يوليو 2013 (مقاس Ø300مم، بسماكة 20مم) وأقراص HSS والفولاذ عالي الحرارة وسبائك السوبرالوي في أكتوبر 2013، طوّر الفريق أقراص Ø400مم فئة 1A1 في نوفمبر 2013 وبدأ الإنتاج الكمي في يناير 2014. يبين هذا قدرة شاربِن المستقلة والكاملة العملية في أقراص الماس وسي بي إن المرتبطة بالسرميت عالية الأداء وقطع عميق للأدوات الدوارة من HSS.
+Sharpen successfully developed and put into batch production Ø400mm 1A1 cermet-bond diamond and CBN wheels for the market. Following the July 2013 development of cermet-bond vertical- and surface-grinding wheels (Ø300mm, 20mm thick) and October 2013 wheels for HSS, titanium and superalloys, the team developed the Ø400mm 1A1 wheels in November 2013 and began batch production in January 2014. This demonstrates Sharpen’s proprietary, full-process capability in high-performance cermet-bond diamond/CBN wheels and strong-grooving of HSS rotary bodies.
 
-## أخبار الصناعة
+## أخبار القطاع
 
-### أول قرص طحن دقيق محلي بمقياس 30000 لرقائق SiC في الصين
-*التاريخ: 2024-06-07*
+### China’s First Domestic 30000# SiC Substrate Fine-Grinding Wheel
+*نُشر في: 2024-06-07*
 
-طورت شاربِن أول قرص طحن دقيق بمقياس 30000 لرقائق SiC في البلاد، مما يتيح تقشير رقائق ذات تلف منخفض ومعدل إنتاج عالٍ.
+Sharpen developed the country’s first 30000# fine-grinding wheel for SiC substrates, enabling low-damage, high-throughput wafer thinning.
 
-خطوة أساسية في إنتاج SiC هي معالجة القاعدة — التقطيع، والتقليص، والصقل. يتم تقليص السُمك أساسًا من خلال الطحن واللصق (المبدئي والناهد). تلتزم أقراص تقشير رقائق SiC التي طورها ذاتيًا مع تقنية الطحن معالجة آليات تلف الرقائق، وتقديم تقليص سُمك عالي معدل الإزالة منخفض التلف من الطحن المبدئي إلى النهائي. تأسست شاربِن في عام 2013، وهي شركة عالية التقنية وطنية في مجال مواد جديدة عبر الميتالورجيا بالمسحوق، وشركة "صغير عملاق" في هونان، ومختبر تجريبي للذكاء الصناعي في تشانغشا، بقيادة فريق الدكتوراه للبروفيسور هوي هوير، ملتزمة بالاستبدال المحلي للمنتجات المستوردة.
+A core step in SiC production is substrate processing — slicing, thinning and polishing. Thinning is achieved mainly by grinding and lapping (rough and fine). Sharpen’s self-developed SiC wafer thinning wheels and grinding technology address wafer damage mechanisms and deliver low-damage, high-removal-rate thinning from rough to fine grinding. Founded in 2013, Sharpen is a national high-tech enterprise in powder-metallurgy new materials, a Hunan “Little Giant”, and a Changsha intelligent-manufacturing pilot, led by Prof. He Yuehui’s doctoral team, committed to domestic substitution of imported products.
 
-### شاربِن تطور سبائك TiNiCo لتوزيع الحرارة للاستخدام في ثني 3D حراري
-*التاريخ: 2017-11-28*
+### Sharpen Develops TiNiCo Superalloy Heat Spreader for 3D Hot-Bending
+*نُشر في: 2017-11-28*
 
-طورت شاربِن بنجاح سبائك TiNiCo لتوزيع الحرارة المستخدمة في آلات ثني زجاج الشاشة الحرارية 3D.
+Sharpen successfully developed the TiNiCo superalloy heat spreader used in 3D cover-glass hot-bending machines.
 
-### اختراق في استخدام الأقراص لدى عميل في شنغهاي
-*التاريخ: 2016-11-07*
+### Breakthrough in Wheel Use at a Shanghai Customer
+*نُشر في: 2016-11-07*
 
-يستخدم عميل في شنغهاي أقراص الماس الخاصة بنا لإنتاج كميات كبيرة من نحاتات النهاية المخروطية ثلاثية الشفة، مما يرفع سرعة التغذية أكثر من 30% مقارنة بعلامة كورية.
+A Shanghai customer uses our diamond wheels to batch-produce 3-flute taper end mills, raising feed speed >30% vs a Korean brand.
 
-تشانغشا شاربِن هي موفر متخصص لحلول أنظمة الصقل عالية السرعة والجودة، مع ملكية فكرية مستقلة كاملة، وتقدم حلول صقل كاملة للأدوات الدوارة والقواطع من الكربيد وHSS. يستخدم عميل في شنغهاي الآن أقراص ماس شاربِن لإنتاج كميات كبيرة من نحاتات النهاية المخروطية ثلاثية الشفة (Ø28مم، بطول الشفة 50مم)؛ تصل هذه النحاتات إلى عمق قطع单边 حتى 5.5مم، وسرعة التغذية المتوسطة للقرص أعلى بنسبة أكثر من 30% من علامة كورية معينة. تمنح ارتباط الخاص الخاص بشاربِن لاقراص الماس الماس أفضالًا واضحة: قدرة عالية على استيعاب الحبيبات، ومقاومة دوارة؛ تصليق ذاتي عالٍ وحفظ شكل؛ قلب خفيف، عالي التوصيل الحراري، مقاوم للتآكل؛ اتصال معدني كامل بين الطبقة والقلب لثبات واجهة عالٍ؛ وملاءمة وثيقة بين الخصائص الفيزيائية والميكانيكية.
+Changsha Sharpen is a specialized high-tech provider of high-speed, high-quality grinding-system solutions with full independent IP, offering complete polishing solutions for carbide and HSS rotary tools and inserts. A Shanghai customer now uses Sharpen diamond wheels to batch-produce 3-flute tapered end mills (Ø28mm, 50mm flute length); the mills reach up to 5.5mm single-edge depth of cut, and the wheel’s average feed speed is more than 30% higher than a certain Korean brand. Sharpen’s proprietary special bond gives its diamond wheels clear advantages: high chip accommodation and rotary strength; high self-sharpening and shape retention; a light, high-thermal-conductivity, corrosion-resistant core; full metallurgical bonding between layer and core for high interface stability; and closely matched physico-mechanical properties.
 
-### أنماط فشل أدوات CNC وضدها
-*التاريخ: 2016-11-07*
+### Failure Modes of CNC Tools and Countermeasures
+*نُشر في: 2016-11-07*
 
-مراجعة تقنية لأنماط فشل أدوات CNC — التآكل الجانبي، التآكل الحفرة، التشكل البلاستيكي، حافة البناء — وكيفية التخفيف منها.
+A technical overview of CNC tool failure modes — flank wear, crater wear, plastic deformation, built-up edge — and how to mitigate them.
 
-يحدث فشل الأداة عندما تتآكل الأداة beyond حد، أو تتكسر، أو تتشكل تشوهًا بلاستيكيًا، وتفقد قدرتها على القطع أو تفشل في ضمان الجودة. أنماط الفشل الرئيسية وضدها: 1. التآكل الجانبي (احتكاك ميكانيكي) — استخدام مادة أداة أكثر مقاومة للتآكل، تقليل سرعة القطع، رفع التغذية، زيادة زاوية الإفلات. 2. تآكل الحفرة عند الحافة القطعية الرئيسية — تقليل السرعة/التغذية، استخدام مادة مقاومة للتآكل، زيادة زاوية الراسية. 3. تآكل الحفرة (احتكاك + انتشار على وجه الراسية) — تقليل السرعة/التغذية، استخدام كربيد مطلي. 4. التشكل البلاستيكي (حرارة/إجهاد عالي) — تقليل السرعة/التغذية، استخدام مادة عالية المقاومة للتآكل وعالية التوصيل الحراري. 5. حافة البناء (لصق قطعة العمل) — رفع السرعة، استخدام كربيد/سيرميت مطلي بميل منخفض، تطبيق سائل تبريد. 6. كسر الحافة (نُقش غير منتظم صغير) — تقليل التغذية عند البدء، اختيار مادة أكثر صلابة وحافة أقوى.
+Tool failure occurs when a tool wears beyond a limit, chips or plastically deforms, losing its cutting ability or failing to guarantee quality. Main failure modes and countermeasures: 1. Flank wear (mechanical friction) — use more wear-resistant tool material, lower cutting speed, raise feed, increase clearance angle. 2. Notch wear at the main cutting edge — lower speed/feed, use wear-resistant material, increase rake angle. 3. Crater wear (friction + diffusion on the rake face) — lower speed/feed, use coated carbide. 4. Plastic deformation (high temp/stress) — lower speed/feed, use high-wear-resistance, high-thermal-conductivity material. 5. Built-up edge (workpiece adhesion) — raise speed, use coated carbide/cermet with low affinity, apply coolant. 6. Edge chipping (small non-uniform notches) — lower feed at start, choose tougher material and stronger edge.
 
-### اتجاهات التصنيع ترفع شريط المعايير للأصناف الصقلية
-*التاريخ: 2016-11-07*
+### Manufacturing Trends Raise the Bar for Abrasives
+*نُشر في: 2016-11-07*
 
-تزداد منتجات الصمائل فائقة الصلابة في تلبية احتياجات الصقل الصعبة؛ تنبسط صيغ الصمائل الجديدة نطاق التطبيق.
+Superabrasive products increasingly meet demanding grinding needs; new abrasive formats expand application scope.
 
-بالنظر إلى تطور الصقل، سيطلب التصنيع المستقبلية المزيد من الأصناف الصقلية، وتمنح منتجات الصمائل فائقة الصلابة تلبي تمامًا هذه الاحتياجات الجديدة. توفر CBN، على سبيل المثال، استقرارًا حراريًا ممتازًا، وصلابة عالية ومقاومة للتآكل، مما يتيح سرعة قرص عالية، وكفاءة عالية، وعمر طويل — مثالي للأدوات الدوارة من HSS، والفولاذ المخزني، والفولاذ المقاوم للصدأ، والحديد المصبوب البرودي. تستخدم أدوات الصمائل فائقة الصلابة بودرة معدنية، أو أكسيد معدني، أو CBN كملء مع راتنج، زجاجي، أو رابطة معدنية؛ نتائجها عالية الدقة والكفاءة معترف بها على نطاق واسع. صيغ جديدة — صمائل سيراميك مصغرية، صمائل بهيكل ماس، أحزمة صقل أفلام البوليستر — توسع المزيد من المزايا ونطاق تطبيق الصقل.
+Looking at grinding development, future machining will demand more of abrasives, and superabrasive products precisely meet these new needs. CBN, for example, offers excellent thermal stability, high hardness and wear resistance, enabling high wheel speed, high efficiency and long life — ideal for HSS, bearing steel, stainless and chilled cast iron. Superabrasive tools use metal powder, metal oxide or CBN as filler with resin, vitrified or metal bonds; their high-precision, high-efficiency results are widely recognized. New formats — microcrystalline ceramic abrasives, diamond-shell abrasives, polyester-film polishing belts — further extend the advantages and application scope of grinding.
 
-### نصائح تخزين منتجات الماس
-*التاريخ: 2016-11-07*
+### Storage Tips for Diamond Products
+*نُشر في: 2016-11-07*
 
-توجيهات حول تخزين أقراص الماس — تجنب التدحرج، والتأثير، والرطوبة، والكيماويات الضارة؛ مراعاة تاريخ انتهاء الصلاحية.
+Guidance on storing diamond wheels — avoid rolling, impact, moisture and harmful chemicals; observe expiry.
 
-عند التخزين، يجب ألا يتم تدحرج أقراص الماس (لتجنب الشقوق وأضرار السطح)، ويجب ألا تتعرض لاهتزاز قوي أو تأثير. يجب ألا يتم تخزين الأقراص beyond فترة صحتها؛ يجب أن تجتاز الأقراص المرتبطة بالراتنج أو المطاط مخزنة لمدة عام أو أكثر اختبار دوران قبل الاستخدام. يجب أن تكون مناطق التخزين جافة، بدرجات حرارة مناسبة، ومفصولة عن كيماويات أخرى لمنع الرطوبة، والتجمد، والسخونة المفرطة، أو الهجوم التآكلي الذي يقلل القوة.
+In storage, diamond wheels must not be rolled (to avoid cracks and surface damage) and must not be subjected to strong vibration or impact. Wheels should not be kept beyond their valid period; resin- or rubber-bond wheels stored over a year must pass a spin test before use. Storage areas should be dry, at suitable temperature, and segregated from other chemicals to prevent moisture, freezing, overheating or corrosive attack that reduces strength.
 
-### كيف يمكن لصناعة أدوات القطع في الصين أن تتطور بشكل مستدام
-*التاريخ: 2016-11-07*
+### How China’s Cutting-Tool Industry Can Develop Sustainably
+*نُشر في: 2016-11-07*
 
-نظرة على مسار التطور المستدام لصناعة أدوات القطع في الصين.
+Perspectives on the sustainable-development path for China’s cutting-tool industry.
 
-### نطاق تطبيق المنتجات
-*التاريخ: 2016-11-07*
+### Product Application Scope
+*نُشر في: 2016-11-07*
 
-أين تنطبق أقراص الماس وCBN — أدوات الكربيد، السافير، أقراص السيرميت (الماس)؛ أدوات HSS، الفولاذ المقسى، الأجزاء المصبوبة (CBN).
+Where diamond and CBN wheels apply — carbide tools, sapphire, cermet inserts (diamond); HSS, hardened steel, cast parts (CBN).
 
-تناسب أقراص الماس
+Diamond wheels are suitable for: 1) Tools, rotary bodies, molds and wear parts made of carbide; 2) Sapphire ingots and wafer lapping/polishing; 3) Cermet inserts. CBN wheels are suitable for: 1) HSS and high-alloy steel cutting tools, fixtures and molds; 2) Hardened-steel parts and machine beds; 3) High-hardness, high-alloy castings such as cylinder liners and wear parts.
+
+## تقنيات السانك
+
+### تطوير أسطوانة صقل دقيقة لمقاطع ثاني أكسيد السيليكون من الجيل الثالث
+*نُشر في: 2026-01-01*
+
+![تطوير أسطوانة صقل دقيقة لمقاطع ثاني أكسيد السيليكون من الجيل الثالث](/assets/img/sic-wafer.jpg)
+
+Sharpen’s self-developed SiC fine-grinding diamond wheel with a lightweight metal-oxide cermet bond reaches 30000# grit, surface roughness under 2 nm, and is already serving several Chinese SiC substrate processors.
+
+As the semiconductor industry upgrades to third-generation materials, silicon carbide (SiC) wafers — with their high thermal conductivity and high breakdown voltage — deliver outstanding performance under extreme high-temperature, high-voltage and high-frequency conditions, and are poised to reshape the multi-trillion-dollar EV, photovoltaic and energy-storage markets. The grinding of hard, brittle SiC wafers has long been one of the "chokepoint" technologies in China’s semiconductor supply chain. After more than a decade of R&D in advanced materials, Sharpen’s team has achieved a major breakthrough in SiC wafer grinding. Its self-developed core product — a fine-grinding diamond wheel for SiC wafer thinning — meets the industry’s key specifications. The team uses a light-metal-oxide intermetallic composite as the diamond wheel’s bonding phase, delivering high sharpness, fast grinding at high feed rates, and avoiding metal-ion contamination; an ultra-high-porosity self-pore-forming technique gives the wheel superior chip-accommodation and chip-removal capability, avoiding clogging and workpiece surface burn; and the 30000# extra-fine diamond abrasive ensures excellent grinding quality with an ultra-smooth finished surface, keeping SiC surface roughness under 2 nm. The wheel’s performance is outstanding and stable, with no chipping or tooth-breakage even under long-term use. The product is mainly used for thinning of SiC substrates, back-thinning of SiC devices, discrete devices, and thinning of IC substrate wafers and as-grown silicon wafers. Sharpen’s SiC wafer thinning wheel series now serves several domestic third-generation semiconductor SiC substrate processors, with customized turnkey solutions provided. In this technology and innovation offensive over semiconductor wafer thinning wheels, Sharpen has cut through a series of key technical challenges with tenacity and relentless innovation, successfully scaling up production of semiconductor wafer thinning wheels and providing solid technical support for the development of China’s semiconductor industry.
+
+### TiNiCo Superalloy Heat Spreader for 3D Hot-Bending
+*نُشر في: 2017-11-28*
+
+Sharpen’s TiNiCo superalloy heat spreader enables uniform, high-flatness heating for 3D glass hot-bending molds.
+
+### Introduction to SAP Powder Metallurgy High-Speed Steel
+*نُشر في: 2017-03-24*
+
+An overview of PM-HSS vs conventional HSS and Sharpen’s non-atomization ball-milling route enabling domestic high-performance PM-HSS.
+
+High-speed steel (HSS) is a vital tool material, accounting for 45% of global cutting-tool sales — and 85% of complex multi-edge tools such as gear hobs and broaches. It combines red hardness, wear resistance, impact resistance and heat-treatability, and can be shaped in the annealed state then hardened by quench and temper — advantages that cemented-carbide and cermet tools lack. By process, HSS splits into conventional cast/forged and powder-metallurgy (PM) types. Cast HSS inevitably suffers coarse structure, segregation and anisotropy; PM-HSS fundamentally avoids coarse carbides, giving fine, uniform, isotropic structure — a milestone in HSS history. Yet China long lacked the capability to produce high-performance PM-HSS. Commercial PM-HSS appeared in the 1970s via gas-atomization+HIP, spray forming, and supersolidus liquid-phase sintering — each with trade-offs in cost, pollution, alloying limits and density. Sharpen’s non-atomization ball-milling route is exciting for domestic high-performance PM-HSS: it uses non-atomized ball-milled mixed powder as feedstock, allowing almost unrestricted alloy additions, and achieves near-net-shape preforms in one step via solid-state vacuum-activated sintering, followed by heat treatment.

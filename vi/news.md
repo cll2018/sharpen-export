@@ -2,128 +2,151 @@
 layout: page.njk
 lang: vi
 permalink: /vi/news/
-title: "Tin tuc"
-description: "Phòng tin tức của Changsha Sharpen New Materials: tin công ty, thông tin ngành và các phát triển tiên phong."
+title: "Tin tức"
+description: "Changsha Sharpen New Materials: tin doanh nghiệp, xu hướng ngành và các đột phá công nghệ."
 ---
 
-# Phòng tin tức
+# Tín hiệu và tin tức
 
-## Tin công ty
+## Tin doanh nghiệp
 
-### Được đưa vào danh sách doanh nghiệp vừa và nhỏ dựa trên công nghệ đợt 1 năm 2024 của tỉnh Hồ Nam
-*Ngày: 16-08-2024*
+### Listed in Hunan’s 2024 First Batch of Technology-Based SMEs
+*Công bố: 2024-08-16*
 
-Sharpen một lần nữa được phê duyệt vào danh sách doanh nghiệp vừa và nhỏ dựa trên công nghệ (sci-tech SMEs) đợt 1 năm 2024 của tỉnh Hồ Nam, ghi nhận sự tăng trưởng dựa trên đổi mới sáng tạo và tài sản trí tuệ của chúng tôi.
+Sharpen was again approved for Hunan Province’s 2024 first batch of sci-tech SMEs, recognizing our innovation- and IP-driven growth.
 
-Tỉnh Hồ Nam vừa công bố danh sách đợt 1 năm 2024 về kế hoạch các doanh nghiệp vừa và nhỏ dựa trên công nghệ, và Sharpen một lần nữa được phê duyệt đưa vào danh sách. Các doanh nghiệp vừa và nhỏ dựa trên công nghệ là xương sống của đổi mới, dựa vào nhân sự khoa học và kỹ thuật để tiến hành R&D, có được tài sản trí tuệ độc lập và biến đổi chúng thành các sản phẩm hoặc dịch vụ công nghệ cao cho sự tăng trưởng ổn định và vững chắc. Họ đóng vai trò then chốt trong phát triển kinh tế, việc làm và tiến bộ khoa học, và hưởng sự hỗ trợ chính sách từ quốc gia và địa phương. Được thành lập năm 2013, Changsha Sharpen New Materials là doanh nghiệp công nghệ cao quốc gia tích hợp R&D, chế tạo, bán hàng và dịch vụ trong lĩnh vực vật liệu mới bằng kim loại học bột — một doanh nghiệp chuyên biệt & đổi mới sáng tạo "Gigants nhỏ" (Little Giant) của Hồ Nam, một thí điểm chế tạo thông minh của Changsha, một doanh nghiệp vật liệu mới của Hồ Nam và một trong số các doanh nghiệp vừa và nhỏ đổi mới sáng tạo đầu tiên của tỉnh Hồ Nam. Được hậu thuẫn bởi nhóm nghiên cứu tiến sĩ do Giáo sư He Yuehui của Đại học Trung Nam (Central South University) dẫn đầu, chúng tôi cam kết giải quyết các vấn đề "điểm nghẽn" (chokepoint) về vật liệu mới và thực hiện việc thay thế trong nước các sản phẩm nhập khẩu.
+Hunan Province recently published its 2024 first batch of planned technology-based SMEs, and Sharpen was again approved for inclusion. Technology-based SMEs are a backbone of innovation, relying on scientific and technical personnel to conduct R&D, obtain independent IP, and turn it into high-tech products or services for steady, robust growth. They play a key role in economic development, employment and scientific progress, and enjoy national and local policy support. Founded in 2013, Changsha Sharpen New Materials is a national high-tech enterprise integrating R&D, manufacturing, sales and service in powder-metallurgy new materials — a Hunan “Little Giant” specialized & innovative enterprise, a Changsha intelligent-manufacturing pilot, a Hunan new-materials enterprise and one of Hunan’s first innovative SMEs. Backed by the doctoral team led by Prof. He Yuehui of Central South University, we are committed to solving “chokepoint” new-material problems and realizing domestic substitution of imported products.
 
-### Quan hệ đối tác đầu tư chiến lược với Tập đoàn Đầu tư Futian Xingye
-*Ngày: 19-07-2023*
+### Strategic Investment Partnership with Futian Xingye Investment Group
+*Công bố: 2023-07-19*
 
-Vào ngày 17 tháng 7 năm 2023, đội ngũ của Giáo sư He Yuehui đã ký kết thỏa thuận đầu tư chiến lược với Tập đoàn Đầu tư Futian Xingye, kết hợp R&D công nghệ sâu với các nguồn lực thị trường và vốn mạnh mẽ.
+On July 17, 2023, Prof. He Yuehui’s team signed a strategic investment agreement with Futian Xingye Investment Group, combining deep-tech R&D with strong market and capital resources.
 
-Vào ngày 17 tháng 7 năm 2023, do chuyên gia kỹ thuật chính, Giáo sư He Yuehui, dẫn đầu, Sharpen đã chính thức đạt được sự hợp tác đầu tư chiến lược với Tập đoàn Đầu tư Futian Xingye và tổ chức lễ ký kết. Lãnh đạo của cả hai bên đã tham dự. Giáo sư He cho biết mối quan hệ đối tác này là cơ hội lịch sử cho đội ngũ và công ty, và bày tỏ sự tự tin rằng bằng cách hợp sức với Futian — nơi ông chủ tịch Hu Sheng mang đến kinh nghiệm thị trường phong phú và tiềm lực tài chính mạnh mẽ — hai bên sẽ đạt được sự phát triển chiến thắng cùng có lợi và vượt bậc. Sau một thập niên xây dựng hệ thống sản phẩm siêu cứng và công nghệ PM-HSS, sự hợp tác của Sharpen với Futian là một sự tích hợp sâu "mạnh-mạnh" hướng tới tăng trưởng chung.
+On July 17, 2023, led by chief technical expert Prof. He Yuehui, Sharpen formally reached a strategic investment cooperation with Futian Xingye Investment Group and held a signing ceremony. Leaders from both sides attended. Prof. He said the partnership is a historic opportunity for the team and the company, and expressed confidence that by combining forces with Futian — whose chairman Hu Sheng brings rich market experience and strong financial strength — the two sides will achieve win-win, leapfrog development. After a decade building its ultra-hard products and PM-HSS technology system, Sharpen’s cooperation with Futian is a “strong-with-strong” deep integration aimed at joint growth.
 
-### Được trao danh hiệu doanh nghiệp vừa và nhỏ "Chuyên biệt & Đổi mới" (Little Giant) năm 2023 của tỉnh Hồ Nam
-*Ngày: 15-04-2023*
+### Awarded the 2023 Hunan “Specialized & Innovative” SME Title
+*Công bố: 2023-04-15*
 
-Sharpen được trao danh hiệu doanh nghiệp vừa và nhỏ chuyên biệt, tinh luyện, khác biệt & đổi mới sáng tạo ("Little Giant") của tỉnh Hồ Nam năm 2023.
+Sharpen received the 2023 Hunan Province specialized, refined, differentiated & innovative (“Little Giant”) SME designation.
 
-### Giáo sư He Yuehui được liệt kê trong Top 2% Nhà khoa học Thế giới năm 2022
-*Ngày: 01-12-2022*
+### Prof. He Yuehui Named Among the World’s Top 2% Scientists 2022
+*Công bố: 2022-12-01*
 
-Chuyên gia kỹ thuật chính của chúng tôi, Giáo sư He Yuehui, được liệt kê trong bảng xếp hạng top 2% nhà khoa học toàn cầu năm 2022 do Đại học Stanford và Elsevier công bố.
+Our chief technical expert, Prof. He Yuehui, was listed in the 2022 global top 2% scientists ranking published by Stanford University and Elsevier.
 
-### Giáo sư He Yuehui nhận "Giải Thành tựu - Chuyển đổi Vật liệu Mới"
-*Ngày: 14-11-2019*
+### Prof. He Yuehui Receives the “New Materials Achievement-Transformation Award”
+*Công bố: 2019-11-14*
 
-Tại Hội nghị Phát triển Công nghiệp Vật liệu Mới Trung Quốc lần thứ 2, Giáo sư He đã nhận giải thưởng chuyển đổi thành tựu đầu tiên cho nghiên cứu và công nghiệp hóa hợp chất intermetallic (liên kim).
+At the 2nd China New Materials Industry Development Conference, Prof. He received the inaugural achievement-transformation award for his intermetallic-compound research and industrialization.
 
-Tại lễ khai mạc Hội nghị Phát triển Công nghiệp Vật liệu Mới Trung Quốc lần thứ 2 (14 tháng 11 năm 2019), Giáo sư He Yuehui đã nhận "Giải Thành tựu - Chuyển đổi Vật liệu Mới" lần đầu tiên. Nghiên cứu của Giáo sư He tập trung vào các hợp chất intermetallic, áp dụng khái niệm này để nâng cấp các vật liệu truyền thống và vượt bậc hiệu năng vật liệu. Dựa trên các phát minh về vật liệu xốp và sản xuất sạch, ông đã sáng lập Công nghệ Yitai Chengdu, tạo ra giá trị kinh tế hàng tỷ. Ông là người tiên phong trong việc chuẩn bị và ứng dụng cermet tại Trung Quốc, sáng lập Công ty Vật liệu Mới Meshray Chengdu (cermet dựa trên Ti(C,N), được sử dụng bởi Chery và nhiều hãng khác), và đồng phát triển dây kim cương với Asahi Diamond của Nhật Bản, cho phép xử lý wafer pin mặt trời sạch và chi phí thấp. Năm 2017, ông đồng sáng lập Changsha Diale New Material (đăng trên sàn giao dịch ChiNext). Ông cũng sáng lập Sharpen và các công ty công nghệ cao khác, tạo ra giá trị xã hội hàng trăm triệu nhân dân tệ hàng năm.
+At the opening of the 2nd China New Materials Industry Development Conference (Nov 14, 2019), Prof. He Yuehui received the inaugural “New Materials Achievement-Transformation Award.” Prof. He’s research focuses on intermetallic compounds, applying the concept to upgrade traditional materials and leapfrog material performance. Building on porous-material and clean-production inventions, he founded Chengdu Yitai Technology, creating billions in economic value. He pioneered cermet preparation and application in China, founded Chengdu Meshray New Materials (Ti(C,N)-based cermet, used by Chery and others), and co-developed diamond wire with Japan’s Asahi Diamond, enabling clean, low-cost solar-wafer processing. In 2017 he co-founded Changsha Diale New Material (listed on the ChiNext). He also founded Sharpen and other high-tech firms, creating hundreds of millions of yuan in annual social value.
 
-### Sharpen tại CIMT2017
-*Ngày: 22-04-2017*
+### Sharpen at CIMT2017
+*Công bố: 2017-04-22*
 
-Sharpen đã trưng bày tại Triển lãm máy công cụ quốc tế Trung Quốc lần thứ 15 (CIMT2017), giới thiệu các chi tiết SAP PM-HSS và vòng đá/CBN gắn kết cermet.
+Sharpen exhibited at the 15th China International Machine Tool Show (CIMT2017), showcasing SAP PM-HSS parts and cermet-bond diamond/CBN wheels.
 
-Triển lãm máy công cụ quốc tế Trung Quốc lần thứ 15 (CIMT2017) được tổ chức từ ngày 17 đến 22 tháng 4 năm 2017, với Sharpen trưng bày tại gian hàng W7-418. Giáo sư He Yuehui đã dẫn dắt các đội ngũ R&D tiến sĩ và bán hàng. Sharpen đã giới thiệu các chi tiết tạo hình SAP PM-HSS — ren, mũi khoan, dao phay đầu, mảnh dao, ổ van, trụ dẫn khuôn — và các vòng đá/CBN gắn kết cermet cho công cụ cắt siêu cứng và các vật liệu cứng-brittle như sapphire và zirconia. Phụ thuộc vào nhập khẩu từ lâu, Sharpen đã xây dựng công nghệ chuẩn bị lõi độc quyền để nội địa hóa cả vòng PM-HSS và vòng mài siêu mài mòn, cung cấp giải pháp toàn bộ dòng sản phẩm cho các nhà sản xuất.
+The 15th China International Machine Tool Show (CIMT2017) was held April 17–22, 2017, with Sharpen exhibiting at booth W7-418. Prof. He Yuehui led the doctoral R&D and sales teams. Sharpen showcased SAP PM-HSS formed parts — taps, drills, end mills, inserts, valve seats, mold guide posts — and cermet-bond diamond/CBN wheels for ultra-hard rotary tools and hard-brittle materials such as sapphire and zirconia. Long dependent on imports, Sharpen has built proprietary core preparation technology to localize both PM-HSS and superabrasive wheels, offering full-series solutions to manufacturers.
 
-### Sharpen tại Diễn đàn vỏ điện thoại bằng Kim loại học bột / Gốm sứ lần thứ 2
-*Ngày: 17-03-2017*
+### Sharpen at the 2nd PM / Ceramic Phone-Shell Forum
+*Công bố: 2017-03-17*
 
-Giáo sư He đã trình bày các giải pháp vòng đánh bóng zirconia hiệu suất cao, thúc đẩy vai trò của Sharpen trong gia công linh kiện điện thoại gốm sứ.
+Prof. He presented high-efficiency zirconia polishing wheel solutions, advancing Sharpen’s role in ceramic phone-component machining.
 
-Vào ngày 17 tháng 3 năm 2017, Sharpen được mời tham gia Diễn đàn Công nghệ & Ứng dụng vỏ điện thoại bằng Kim loại học bột / Gốm sứ lần thứ 2 tại Thâm Quyến. Giáo sư He đã trình bày về các vòng đánh bóng zirconia có hiệu suất và độ chính xác cao. Dựa trên lý thuyết liên kết hợp chất intermetallic và hơn 3.000 lần thử nghiệm công thức pha, Sharpen đã phát triển một giải pháp chín muồi cho mặt lưng điện thoại gốm zirconia và wafer nhận diện vân tay, cải thiện đáng kể hiệu suất gia công và giảm chi phí cho khách hàng, thúc đẩy ứng dụng quy mô của công ty trong gia công linh kiện điện thoại gốm sứ.
+On March 17, 2017, Sharpen was invited to the 2nd Powder Metallurgy / Ceramic Phone-Shell Technology & Application Forum in Shenzhen. Prof. He presented on high-efficiency, high-precision zirconia polishing wheels. Drawing on intermetallic-compound bond theory and more than 3,000 formulation trials, Sharpen developed a mature solution for zirconia ceramic phone back-plates and fingerprint-recognition wafers that greatly improves machining efficiency and lowers cost for customers, advancing the company’s scale application in ceramic phone-component machining.
 
-### Sharpen tại SIMM 2014 (Thâm Quyến)
-*Ngày: 28-03-2014*
+### Sharpen at SIMM 2014 (Shenzhen)
+*Công bố: 2014-03-28*
 
-Sharpen ra mắt các vòng đá và CBN gắn kết cermet hiệu năng cao tại Triển lãm Cơ khí và Sản xuất Máy móc Quốc tế Thâm Quyến lần thứ 15.
+Sharpen debuted high-performance cermet-bond diamond and CBN wheels at the 15th Shenzhen International Machinery Manufacturing Exhibition.
 
-Vào ngày 28 tháng 3 năm 2014, chủ tịch và các quản lý bán hàng của Sharpen đã trưng bày các vòng đá và CBN hiệu năng cao đặc trưng của công ty tại Triển lãm Cơ khí và Sản xuất Máy móc Quốc tế Thâm Quyến lần thứ 15. Được dẫn dắt bởi một nhân vật hàng đầu trong lĩnh vực siêu mài mòn của Trung Quốc, đội ngũ R&D của Sharpen giữ nhiều quyền tài sản trí tuệ độc lập và sản xuất các vòng đá và CBN gắn kết cermet chất lượng thế giới, thay thế hoàn toàn các tương đương nhập khẩu, với khả năng cung cấp các giải pháp mài hoàn chỉnh cho công cụ và thân xoay carbide và HSS. Các vòng gắn kết cermet mới đã thu hút sự chú ý rộng rãi từ các nhà xử lý carbide nhờ khả năng tự mài sắc, giữ hình dạng và dễ chỉnh tua. Giáo sư He đã có một bài giảng được đón nhận nhiệt tình về hệ thống cermet Ti(C,N) mới và các vòng đá của nó.
+On March 28, 2014, Sharpen’s chairman and sales managers exhibited the company’s flagship high-performance diamond and CBN wheels at the 15th Shenzhen International Machinery Manufacturing Exhibition. Led by a top figure in China’s superabrasive field, Sharpen’s R&D team holds multiple independent IP rights and produces world-class cermet-bond diamond and CBN wheels that fully replace imported equivalents, with the strength to deliver complete grinding solutions for carbide and HSS tools. The new cermet-bond wheels drew wide attention from carbide processors for their self-sharpening, shape retention and easy dressing. Prof. He gave a well-received lecture on a new Ti(C,N) cermet system and its diamond wheels.
 
-### Thành công của vòng mài tay tại một doanh nghiệp ở Chu Châu
-*Ngày: 07-11-2016*
+### Success of Manual-Grinder Wheels at a Zhuzhou Enterprise
+*Công bố: 2016-11-07*
 
-Các vòng gắn kết cermet của chúng tôi đã thay thế các vòng gắn kết nhựa (resin) tại một nhà sản xuất lớn ở Chu Châu, tăng tuổi thọ vòng ~30 lần mà không cần chỉnh tua.
+Our cermet-bond wheels replaced resin-bond wheels at a major Zhuzhou manufacturer, boosting wheel life ~30x with no dressing needed.
 
-### Các vòng đá & CBN gắn kết cermet Ø400mm 1A1 vào sản xuất hàng loạt
-*Ngày: 01-01-2014*
+### Ø400mm 1A1 Cermet-Bond Diamond & CBN Wheels in Batch Production
+*Công bố: 2014-01-01*
 
-Sharpen đạt được sản xuất hàng loạt các vòng đá và CBN gắn kết cermet Ø400mm 1A1, đánh dấu một mốc quan trọng trong R&D vòng cao cấp trong nước.
+Sharpen achieved batch production of Ø400mm 1A1 cermet-bond diamond and CBN wheels, marking a milestone in domestic high-end wheel R&D.
 
-Sharpen đã phát triển thành công và đưa vào sản xuất hàng loạt các vòng đá và CBN gắn kết cermet Ø400mm 1A1 cho thị trường. Tiếp nối việc phát triển các vòng mài đứng và mài mặt gắn kết cermet (Ø300mm, dày 20mm) vào tháng 7 năm 2013 và các vòng cho HSS, titan và hợp kim siêu vào tháng 10 năm 2013, đội ngũ đã phát triển các vòng Ø400mm 1A1 vào tháng 11 năm 2013 và bắt đầu sản xuất hàng loạt vào tháng 1 năm 2014. Điều này chứng minh khả năng toàn quy trình độc quyền của Sharpen trong các vòng đá/CBN gắn kết cermet hiệu năng cao và gia công rãnh sâu của thân xoay HSS.
+Sharpen successfully developed and put into batch production Ø400mm 1A1 cermet-bond diamond and CBN wheels for the market. Following the July 2013 development of cermet-bond vertical- and surface-grinding wheels (Ø300mm, 20mm thick) and October 2013 wheels for HSS, titanium and superalloys, the team developed the Ø400mm 1A1 wheels in November 2013 and began batch production in January 2014. This demonstrates Sharpen’s proprietary, full-process capability in high-performance cermet-bond diamond/CBN wheels and strong-grooving of HSS rotary bodies.
 
 ## Tin ngành
 
-### Vòng mài nhám mịn 30000# đế SiC trong nước đầu tiên của Trung Quốc
-*Ngày: 07-06-2024*
+### China’s First Domestic 30000# SiC Substrate Fine-Grinding Wheel
+*Công bố: 2024-06-07*
 
-Sharpen đã phát triển vòng mài nhám mịn 30000# đầu tiên tại quốc gia này cho các đế SiC, cho phép làm mỏng wafer với tổn hại thấp và năng suất cao.
+Sharpen developed the country’s first 30000# fine-grinding wheel for SiC substrates, enabling low-damage, high-throughput wafer thinning.
 
-Một bước quan trọng trong sản xuất SiC là xử lý đế — cắt, làm mỏng và đánh bóng. Việc làm mỏng được thực hiện chủ yếu bằng mài và chà xát (thô và mịn). Các vòng làm mỏng wafer SiC và công nghệ mài do Sharpen tự phát triển giải quyết cơ chế hư hỏng wafer và cung cấp việc làm mỏng với tốc độ cắt bỏ cao và tổn hại thấp từ mài thô đến mài mịn. Được thành lập năm 2013, Sharpen là doanh nghiệp công nghệ cao quốc gia trong vật liệu mới kim loại học bột, một "Gigants nhỏ" của Hồ Nam, và một thí điểm chế tạo thông minh của Changsha, do đội ngũ tiến sĩ của Giáo sư He Yuehui dẫn đầu, cam kết thay thế trong nước các sản phẩm nhập khẩu.
+A core step in SiC production is substrate processing — slicing, thinning and polishing. Thinning is achieved mainly by grinding and lapping (rough and fine). Sharpen’s self-developed SiC wafer thinning wheels and grinding technology address wafer damage mechanisms and deliver low-damage, high-removal-rate thinning from rough to fine grinding. Founded in 2013, Sharpen is a national high-tech enterprise in powder-metallurgy new materials, a Hunan “Little Giant”, and a Changsha intelligent-manufacturing pilot, led by Prof. He Yuehui’s doctoral team, committed to domestic substitution of imported products.
 
-### Sharpen phát triển tấm dẫn nhiệt hợp kim siêu TiNiCo cho nóng uốn 3D
-*Ngày: 28-11-2017*
+### Sharpen Develops TiNiCo Superalloy Heat Spreader for 3D Hot-Bending
+*Công bố: 2017-11-28*
 
-Sharpen đã phát triển thành công tấm dẫn nhiệt hợp kim siêu TiNiCo được sử dụng trong máy nóng uốn kính vỏ 3D.
+Sharpen successfully developed the TiNiCo superalloy heat spreader used in 3D cover-glass hot-bending machines.
 
-### Bước đột phá trong việc sử dụng vòng tại một khách hàng ở Thượng Hải
-*Ngày: 07-11-2016*
+### Breakthrough in Wheel Use at a Shanghai Customer
+*Công bố: 2016-11-07*
 
-Một khách hàng ở Thượng Hải sử dụng vòng đá của chúng tôi để sản xuất hàng loạt dao phay đầu vát 3 rãnh, tăng tốc độ chạy >30% so với một thương hiệu Hàn Quốc.
+A Shanghai customer uses our diamond wheels to batch-produce 3-flute taper end mills, raising feed speed >30% vs a Korean brand.
 
-Changsha Sharpen là nhà cung cấp công nghệ cao chuyên biệt các giải pháp hệ thống mài chất lượng cao, tốc độ cao với tài sản trí tuệ độc quyền toàn diện, cung cấp các giải pháp đánh bóng hoàn chỉnh cho công cụ xoay và mảnh dao carbide và HSS. Một khách hàng ở Thượng Hải hiện sử dụng vòng đá của Sharpen để sản xuất hàng loạt dao phay đầu vát 3 rãnh (Ø28mm, chiều dài rãnh 50mm); các dao phay đạt độ sâu cắt đơn đến 5,5mm, và tốc độ chạy trung bình của vòng cao hơn hơn 30% so với một thương hiệu Hàn Quốc nhất định. Chất liên kết đặc biệt độc quyền của Sharpen mang lại cho vòng đá của họ những lợi thế rõ rệt: khả năng chứa phoi cao và cường độ xoay; tự mài sắc và giữ hình dạng cao; lõi nhẹ, dẫn nhiệt cao, chống ăn mòn; liên kết luyện kim hoàn toàn giữa lớp và lõi cho độ ổn định giao diện cao; và các thuộc tính vật lý - cơ học tương hợp chặt chẽ.
+Changsha Sharpen is a specialized high-tech provider of high-speed, high-quality grinding-system solutions with full independent IP, offering complete polishing solutions for carbide and HSS rotary tools and inserts. A Shanghai customer now uses Sharpen diamond wheels to batch-produce 3-flute tapered end mills (Ø28mm, 50mm flute length); the mills reach up to 5.5mm single-edge depth of cut, and the wheel’s average feed speed is more than 30% higher than a certain Korean brand. Sharpen’s proprietary special bond gives its diamond wheels clear advantages: high chip accommodation and rotary strength; high self-sharpening and shape retention; a light, high-thermal-conductivity, corrosion-resistant core; full metallurgical bonding between layer and core for high interface stability; and closely matched physico-mechanical properties.
 
-### Các chế độ hỏng của công cụ CNC và các biện pháp đối phó
-*Ngày: 07-11-2016*
+### Failure Modes of CNC Tools and Countermeasures
+*Công bố: 2016-11-07*
 
-Một cái nhìn tổng quan kỹ thuật về các chế độ hỏng của công cụ CNC — mòn sườn, mòn máng, biến dạng dẻo, dính phoi — và cách giảm thiểu chúng.
+A technical overview of CNC tool failure modes — flank wear, crater wear, plastic deformation, built-up edge — and how to mitigate them.
 
-Công cụ hỏng khi bị mòn vượt quá giới hạn, vỡ mẻ hoặc biến dạng dẻo, mất khả năng cắt hoặc không đảm bảo chất lượng. Các chế độ hỏng chính và các biện pháp đối phó: 1. Mòn sườn (ma sát cơ học) — sử dụng vật liệu công cụ chống mòn hơn, giảm tốc độ cắt, tăng lượng chạy dao, tăng góc thoát. 2. Mòn máng ở cạnh cắt chính — giảm tốc độ/dao, sử dụng vật liệu chống mòn, tăng góc vát. 3. Mòn máng (ma sát + khuếch tán trên mặt vát) — giảm tốc độ/dao, sử dụng carbide phủ. 4. Biến dạng dẻo (nhiệt độ/c ứng suất cao) — giảm tốc độ/dao, sử dụng vật liệu có độ bền mòn cao, độ dẫn nhiệt cao. 5. Dính phoi (dính vào phôi) — tăng tốc độ, sử dụng carbide/cermet phủ có lực bám thấp, phun dung dịch làm mát. 6. Vỡ mẻ cạnh (các vết máng nhỏ không đồng đều) — giảm lượng chạy dao lúc bắt đầu, chọn vật liệu dẻo hơn và cạnh mạnh hơn.
+Tool failure occurs when a tool wears beyond a limit, chips or plastically deforms, losing its cutting ability or failing to guarantee quality. Main failure modes and countermeasures: 1. Flank wear (mechanical friction) — use more wear-resistant tool material, lower cutting speed, raise feed, increase clearance angle. 2. Notch wear at the main cutting edge — lower speed/feed, use wear-resistant material, increase rake angle. 3. Crater wear (friction + diffusion on the rake face) — lower speed/feed, use coated carbide. 4. Plastic deformation (high temp/stress) — lower speed/feed, use high-wear-resistance, high-thermal-conductivity material. 5. Built-up edge (workpiece adhesion) — raise speed, use coated carbide/cermet with low affinity, apply coolant. 6. Edge chipping (small non-uniform notches) — lower feed at start, choose tougher material and stronger edge.
 
-### Xu hướng chế tạo đặt ra yêu cầu cao hơn cho vật liệu mài
-*Ngày: 07-11-2016*
+### Manufacturing Trends Raise the Bar for Abrasives
+*Công bố: 2016-11-07*
 
-Các sản phẩm siêu mài mòn ngày càng đáp ứng được các yêu cầu mài khắt khe; các định dạng mài mòn mới mở rộng phạm vi ứng dụng.
+Superabrasive products increasingly meet demanding grinding needs; new abrasive formats expand application scope.
 
-Xem xét sự phát triển của mài, gia công trong tương lai sẽ đòi hỏi nhiều hơn từ vật liệu mài, và các sản phẩm siêu mài mòn chính xác đáp ứng những nhu cầu mới này. Ví dụ, CBN mang lại độ ổn định nhiệt tuyệt vời, độ cứng và độ chống mòn cao, cho phép tốc độ vòng cao, hiệu suất cao và tuổi thọ dài — lý tưởng cho HSS, thép ổ, thép không gỉ và gang lạnh. Công cụ siêu mài mòn sử dụng bột kim loại, oxit kim loại hoặc CBN làm chất độn với chất liên kết nhựa, thủy tinh hoặc kim loại; kết quả chính xác cao, hiệu suất cao của chúng được công nhận rộng rãi. Các định dạng mới — mài mòn gốm vi tinh thể, mài mòn vỏ kim cương, đai đánh bóng màng polyester — mở rộng hơn nữa các lợi thế và phạm vi ứng dụng của mài.
+Looking at grinding development, future machining will demand more of abrasives, and superabrasive products precisely meet these new needs. CBN, for example, offers excellent thermal stability, high hardness and wear resistance, enabling high wheel speed, high efficiency and long life — ideal for HSS, bearing steel, stainless and chilled cast iron. Superabrasive tools use metal powder, metal oxide or CBN as filler with resin, vitrified or metal bonds; their high-precision, high-efficiency results are widely recognized. New formats — microcrystalline ceramic abrasives, diamond-shell abrasives, polyester-film polishing belts — further extend the advantages and application scope of grinding.
 
-### Mẹo bảo quản sản phẩm kim cương
-*Ngày: 07-11-2016*
+### Storage Tips for Diamond Products
+*Công bố: 2016-11-07*
 
-Hướng dẫn về việc lưu trữ vòng kim cương — tránh lăn, va đập, độ ẩm và hóa chất có hại; tuân thủ hạn sử dụng.
+Guidance on storing diamond wheels — avoid rolling, impact, moisture and harmful chemicals; observe expiry.
 
-Khi lưu trữ, các vòng kim cương không được phép lăn (để tránh nứt và hư hỏng bề mặt) và không được phép chịu rung động mạnh hoặc va đập. Các vòng không được giữ quá thời hạn hợp lệ; các vòng gắn kết nhựa hoặc cao su lưu trữ quá một năm phải vượt qua thử nghiệm quay trước khi sử dụng. Khu vực lưu trữ phải khô, ở nhiệt độ phù hợp và được cách ly khỏi các hóa chất khác để ngăn độ ẩm, đóng băng, quá nóng hoặc ăn mòn làm giảm cường độ.
+In storage, diamond wheels must not be rolled (to avoid cracks and surface damage) and must not be subjected to strong vibration or impact. Wheels should not be kept beyond their valid period; resin- or rubber-bond wheels stored over a year must pass a spin test before use. Storage areas should be dry, at suitable temperature, and segregated from other chemicals to prevent moisture, freezing, overheating or corrosive attack that reduces strength.
 
-### Ngành công cụ cắt của Trung Quốc có thể phát triển bền vững như thế nào
-*Ngày: 07-11-2016*
+### How China’s Cutting-Tool Industry Can Develop Sustainably
+*Công bố: 2016-11-07*
 
-Các góc nhìn về con đường phát triển bền vững cho ngành công cụ cắt của Trung Quốc.
+Perspectives on the sustainable-development path for China’s cutting-tool industry.
 
-### Phạm vi ứng dụng sản phẩm
-*Ngày: 07-11-2016*
+### Product Application Scope
+*Công bố: 2016-11-07*
 
-Nơi vòng đá và CBN được áp dụng — công cụ carbide, sapphire, mảnh dao cermet (kim cương); HSS, thép tôi cứng, phôi đúc (CBN).
+Where diamond and CBN wheels apply — carbide tools, sapphire, cermet inserts (diamond); HSS, hardened steel, cast parts (CBN).
 
-Vòng đá phù hợp cho: 1) Công cụ, thân xoay, khuôn và các bộ phận mòn làm bằng carbide; 2) Khối và wafer sapphire, chà xát/đánh bóng; 3) Mảnh dao cermet. Vòng CBN phù hợp cho: 1) Công cụ cắt, đồ gá và khuôn bằng HSS và thép hợp kim cao; 2) Các bộ phận thép tôi
+Diamond wheels are suitable for: 1) Tools, rotary bodies, molds and wear parts made of carbide; 2) Sapphire ingots and wafer lapping/polishing; 3) Cermet inserts. CBN wheels are suitable for: 1) HSS and high-alloy steel cutting tools, fixtures and molds; 2) Hardened-steel parts and machine beds; 3) High-hardness, high-alloy castings such as cylinder liners and wear parts.
+
+## Công nghệ tiên tiến
+
+### Sharpen phát triển phôi mài chính xác cho tấm SiC bán dẫn thế hệ thứ ba
+*Công bố: 2026-01-01*
+
+![Sharpen phát triển phôi mài chính xác cho tấm SiC bán dẫn thế hệ thứ ba](/assets/img/sic-wafer.jpg)
+
+Sharpen’s self-developed SiC fine-grinding diamond wheel with a lightweight metal-oxide cermet bond reaches 30000# grit, surface roughness under 2 nm, and is already serving several Chinese SiC substrate processors.
+
+As the semiconductor industry upgrades to third-generation materials, silicon carbide (SiC) wafers — with their high thermal conductivity and high breakdown voltage — deliver outstanding performance under extreme high-temperature, high-voltage and high-frequency conditions, and are poised to reshape the multi-trillion-dollar EV, photovoltaic and energy-storage markets. The grinding of hard, brittle SiC wafers has long been one of the "chokepoint" technologies in China’s semiconductor supply chain. After more than a decade of R&D in advanced materials, Sharpen’s team has achieved a major breakthrough in SiC wafer grinding. Its self-developed core product — a fine-grinding diamond wheel for SiC wafer thinning — meets the industry’s key specifications. The team uses a light-metal-oxide intermetallic composite as the diamond wheel’s bonding phase, delivering high sharpness, fast grinding at high feed rates, and avoiding metal-ion contamination; an ultra-high-porosity self-pore-forming technique gives the wheel superior chip-accommodation and chip-removal capability, avoiding clogging and workpiece surface burn; and the 30000# extra-fine diamond abrasive ensures excellent grinding quality with an ultra-smooth finished surface, keeping SiC surface roughness under 2 nm. The wheel’s performance is outstanding and stable, with no chipping or tooth-breakage even under long-term use. The product is mainly used for thinning of SiC substrates, back-thinning of SiC devices, discrete devices, and thinning of IC substrate wafers and as-grown silicon wafers. Sharpen’s SiC wafer thinning wheel series now serves several domestic third-generation semiconductor SiC substrate processors, with customized turnkey solutions provided. In this technology and innovation offensive over semiconductor wafer thinning wheels, Sharpen has cut through a series of key technical challenges with tenacity and relentless innovation, successfully scaling up production of semiconductor wafer thinning wheels and providing solid technical support for the development of China’s semiconductor industry.
+
+### TiNiCo Superalloy Heat Spreader for 3D Hot-Bending
+*Công bố: 2017-11-28*
+
+Sharpen’s TiNiCo superalloy heat spreader enables uniform, high-flatness heating for 3D glass hot-bending molds.
+
+### Introduction to SAP Powder Metallurgy High-Speed Steel
+*Công bố: 2017-03-24*
+
+An overview of PM-HSS vs conventional HSS and Sharpen’s non-atomization ball-milling route enabling domestic high-performance PM-HSS.
+
+High-speed steel (HSS) is a vital tool material, accounting for 45% of global cutting-tool sales — and 85% of complex multi-edge tools such as gear hobs and broaches. It combines red hardness, wear resistance, impact resistance and heat-treatability, and can be shaped in the annealed state then hardened by quench and temper — advantages that cemented-carbide and cermet tools lack. By process, HSS splits into conventional cast/forged and powder-metallurgy (PM) types. Cast HSS inevitably suffers coarse structure, segregation and anisotropy; PM-HSS fundamentally avoids coarse carbides, giving fine, uniform, isotropic structure — a milestone in HSS history. Yet China long lacked the capability to produce high-performance PM-HSS. Commercial PM-HSS appeared in the 1970s via gas-atomization+HIP, spray forming, and supersolidus liquid-phase sintering — each with trade-offs in cost, pollution, alloying limits and density. Sharpen’s non-atomization ball-milling route is exciting for domestic high-performance PM-HSS: it uses non-atomized ball-milled mixed powder as feedstock, allowing almost unrestricted alloy additions, and achieves near-net-shape preforms in one step via solid-state vacuum-activated sintering, followed by heat treatment.

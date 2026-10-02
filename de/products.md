@@ -113,10 +113,10 @@ description: "Changsha Sharpen New Materials – starre Nutbacken, Schleifscheib
     <h2>Stahlgebundener Hartmetall</h2>
     <p>Stahlgebundener Hartmetall für Werkzeuge und anspruchsvolle Verschleißteile — im geglühten Zustand direkt dreh- und frästeilig, schweiß- und schmiedbar ohne Spezialausrüstung, geeignet für komplexe Formen. Nach Härten erreichbare Festigkeit von HRC 60–70, Verschleißbeständigkeit nahe an Hochcobalt-Hartmetall bei deutlich höherer Zähigkeit und Schlagzähigkeit als herkömmlicher Hartmetall. Anpassbar auf Verschleiß-, Korrosions- und Hitzewiderstand; über den gesamten Lebenszyklus deutlich günstiger als konventioneller Legierungs-Werkzeugstahl, Werkzeuglebensdauer um ein- bis zweistellig höher, deutlich weniger Umrichtzeiten.</p>
     <ul class="specs">
-      <li>Applications: cold-extrusion, cold-heading and blanking/punching dies, firebrick shaping molds; replaces YG20-type carbide in high-load die cores.</li>
-      <li>Cutting tools: carbide and high-speed-steel tooling for titanium and nickel alloys, rock-boring and geological-drilling tools.</li>
-      <li>Wear parts: rollers, nozzles, bearings; high-grade grades used in aerospace and submarine-navigation components.</li>
-      <li>Support for diamond/CBN grinding-wheel fixtures and CBN-mill-forming jigs; meets accuracy and wear requirements.</li>
+      <li>Anwendungen: Kaltfließpress-, Kaltschmied- und Stanz-/Prägeleisten, Brandform-Formen für Schamott; ersetzt YG20-Hartmetall in hochbelasteten Stanzkernen.</li>
+      <li>Schneidwerkzeuge: Hartmetall- und HSS-Werkzeuge für Titan- und Nickellegierungen, Tiefbohr- und geologische Bohrwerkzeuge.</li>
+      <li>Verschleißteile: Rollen, Düsen, Lager; Hochwertigkeits-Güten für Luftfahrt- und U-Boot-Navigationskomponenten.</li>
+      <li>Haltevorrichtungen für Diamant-/CBN-Schleifscheiben und CBN-Fräsform-Jigs; erfüllt Genauigkeits- und Verschleißanforderungen.</li>
     </ul>
     <div class="pb-cta"><a class="btn btn-primary" href="/de/contact/">Angebot anfordern</a></div>
   </div>

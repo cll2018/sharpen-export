@@ -113,10 +113,10 @@ description: "창사 샤펜 뉴 머티리얼스(Changsha Sharpen New Materials) 
     <h2>강결 경질합금</h2>
     <p>강결 경질합금(시멘테이트)은 공구와 가혹한 내마모 부품에 적합——회화 상태 그대로 CNC, 밀링, 드릴링 가공이 가능하며, 단조 및 용접도 지원하며, 특수 장비 없이 복잡한 성형이 가능합니다. 질화 후 경도는 HRC 60–70에 달하며, 내마모성은 고코발트 경질합금에 근접하지만 일반 경질합금보다 훨씬 높은 인성과 충격 저항성을 발휘합니다. 접합상 강재 조정을 통해 내마모, 내부식, 내열 등 특수 성능을 달성할 수 있으며, 전체 수명 사이클 원가는 일반 합금 금강을 크게 하회하고, 금형 수명은 10~수십 배 향상되어 금형 교환 가동 중단 시간을 대폭 줄입니다.</p>
     <ul class="specs">
-      <li>Applications: cold-extrusion, cold-heading and blanking/punching dies, firebrick shaping molds; replaces YG20-type carbide in high-load die cores.</li>
-      <li>Cutting tools: carbide and high-speed-steel tooling for titanium and nickel alloys, rock-boring and geological-drilling tools.</li>
-      <li>Wear parts: rollers, nozzles, bearings; high-grade grades used in aerospace and submarine-navigation components.</li>
-      <li>Support for diamond/CBN grinding-wheel fixtures and CBN-mill-forming jigs; meets accuracy and wear requirements.</li>
+      <li>용도: 콜드-외압, 콜드-두이핑, 프레스/펀칭 다이, 내화물 성형 몰드; 고하중 다이 코어에서 YG20형 세라멘트 카바이드를 대체.</li>
+      <li>절삭 공구: 타이타늄·니켈 합금용 카바이드 및 HSS 공구, 암석 굴진 및 지질 시추 공구.</li>
+      <li>마모 부품: 롤러, 노즐, 베어링; 고급 등급은 항공우주 및 잠수함 내비게이션 부품에 사용.</li>
+      <li>다이아몬드/CBN 연마 휠 픽스처 및 CBN 밀-포밍 지그 지원; 정밀도와 내마모 요건 충족.</li>
     </ul>
     <div class="pb-cta"><a class="btn btn-primary" href="/ko/contact/">견적 요청</a></div>
   </div>

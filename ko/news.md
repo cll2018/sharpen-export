@@ -3,131 +3,150 @@ layout: page.njk
 lang: ko
 permalink: /ko/news/
 title: "뉴스"
-description: "창사 샤벤 신소재 뉴스룸: 회사 소식, 산업 인사이트 및 최첨단 동향."
+description: "Changsha Sharpen New Materials: 기업 뉴스, 업계 동향, 기술 개발 현황."
 ---
 
 # 뉴스룸
 
-## 회사 소식
+## 기업 뉴스
 
-### 후난성 2024년 1차 기술 기반 중견기업(SME)에 선정
-*날짜: 2024-08-16*
+### Listed in Hunan’s 2024 First Batch of Technology-Based SMEs
+*게시일: 2024-08-16*
 
-샤벤(Sharpen)은 후난성 2024년 1차 과학기술 중견기업(SME)으로 재승인되었으며, 이는 우리의 혁신 및 지적 재산(IP) 주도 성장을 인정받은 것입니다.
+Sharpen was again approved for Hunan Province’s 2024 first batch of sci-tech SMEs, recognizing our innovation- and IP-driven growth.
 
-후난성은 최근 2024년 1차 계획된 기술 기반 중견기업 명단을 발표했으며, 샤벤은 다시 한번 선정되었습니다. 기술 기반 중견기업은 혁신의 핵심 축으로, 과학기술 인력을 통해 R&D를 수행하고 독립적인 IP를 취득하여 이를 고부가가치 제품이나 서비스로 전환하여 안정적이고 탄탄한 성장을 이끌어냅니다. 이들은 경제 발전, 고용 및 과학 진보에서 핵심적인 역할을 수행하며 국가 및 지역 정책 지원을 받습니다. 2013년 설립된 창사 샤벤 신소재는 분말 야금 신소재 분야에서 연구개발, 제조, 판매 및 서비스를 통합한 국가급 하이테크 기업으로, 후난성 '리틀 재인(소형 전문 혁신 기업)', 창사지능 제조 파일럿 기업, 후난 신소재 기업 및 후난 첫 번째 혁신 중견기업 중 하나입니다. 중남부대학교(Chinada University of Technology) 희 웨후이(He Yuehui) 교수가 이끄는 박사 연구팀의 지원을 바탕으로, 우리는 '목젖(chokepoint, 기술적 병목)' 신소재 문제를 해결하고 수입 제품의 국산화 대체를 실현하는 것에 전념하고 있습니다.
+Hunan Province recently published its 2024 first batch of planned technology-based SMEs, and Sharpen was again approved for inclusion. Technology-based SMEs are a backbone of innovation, relying on scientific and technical personnel to conduct R&D, obtain independent IP, and turn it into high-tech products or services for steady, robust growth. They play a key role in economic development, employment and scientific progress, and enjoy national and local policy support. Founded in 2013, Changsha Sharpen New Materials is a national high-tech enterprise integrating R&D, manufacturing, sales and service in powder-metallurgy new materials — a Hunan “Little Giant” specialized & innovative enterprise, a Changsha intelligent-manufacturing pilot, a Hunan new-materials enterprise and one of Hunan’s first innovative SMEs. Backed by the doctoral team led by Prof. He Yuehui of Central South University, we are committed to solving “chokepoint” new-material problems and realizing domestic substitution of imported products.
 
-### 푸젠 쉅예(성업) 투자 그룹과의 전략적 투자 파트너십 체결
-*날짜: 2023-07-19*
+### Strategic Investment Partnership with Futian Xingye Investment Group
+*게시일: 2023-07-19*
 
-2023년 7월 17일, 희 웨후이 교수 팀은 푸젠 쉅예 투자 그룹과 전략적 투자 협정을 체결하여 딥테크 R&D와 강력한 시장 및 자본 자원을 결합했습니다.
+On July 17, 2023, Prof. He Yuehui’s team signed a strategic investment agreement with Futian Xingye Investment Group, combining deep-tech R&D with strong market and capital resources.
 
-2023년 7월 17일, 총괄 기술 전문가인 희 웨후이 교수와 함께 샤벤은 푸젠 쉅예 투자 그룹과 전략적 투자 협력을 공식적으로 체결하고 서명식을 가졌습니다. 양측의 주요 인사들이 참석했습니다. 희 교수는 이번 파트너십이 팀과 회사에 역사적인 기회이며, 푸젠(회장 후 쉹/Hu Sheng은 풍부한 시장 경험과 강력한 재무 역량을 보유하고 있음)과의 힘을 결합함으로써 양측이 윈윈하고 도약적인 발전을 이루기에 자신 있다고 밝혔습니다. 10년 동안 초경 제품과 PM-HSS(분말 야금 고속강) 기술 시스템을 구축해온 샤벤의 푸젠과의 협력은 "강자가 강자와의 협력"을 통한 공동 성장을 목표로 하는 심층 통합입니다.
+On July 17, 2023, led by chief technical expert Prof. He Yuehui, Sharpen formally reached a strategic investment cooperation with Futian Xingye Investment Group and held a signing ceremony. Leaders from both sides attended. Prof. He said the partnership is a historic opportunity for the team and the company, and expressed confidence that by combining forces with Futian — whose chairman Hu Sheng brings rich market experience and strong financial strength — the two sides will achieve win-win, leapfrog development. After a decade building its ultra-hard products and PM-HSS technology system, Sharpen’s cooperation with Futian is a “strong-with-strong” deep integration aimed at joint growth.
 
-### 2023년 후난성 '전문화·精緻화·차별화·혁신화(소형 전문 혁신 기업)' 중견기업 선정
-*날짜: 2023-04-15*
+### Awarded the 2023 Hunan “Specialized & Innovative” SME Title
+*게시일: 2023-04-15*
 
-샤벤은 2023년 후난성 전문, 정밀, 차별화 및 혁신("리틀 재인") 중견기업 지정서를 받았습니다.
+Sharpen received the 2023 Hunan Province specialized, refined, differentiated & innovative (“Little Giant”) SME designation.
 
-### 희 웨후이 교수, 2022년 세계 상위 2% 과학자 명단에 등재
-*날짜: 2022-12-01*
+### Prof. He Yuehui Named Among the World’s Top 2% Scientists 2022
+*게시일: 2022-12-01*
 
-우리 총괄 기술 전문가인 희 웨후이 교수는 스탠퍼드 대학교와 엘스비어가 발표한 2022년 글로벌 상위 2% 과학자 랭킹에 등재되었습니다.
+Our chief technical expert, Prof. He Yuehui, was listed in the 2022 global top 2% scientists ranking published by Stanford University and Elsevier.
 
-### 희 웨후이 교수, '신소재 성과-전환상' 수상
-*날짜: 2019-11-14*
+### Prof. He Yuehui Receives the “New Materials Achievement-Transformation Award”
+*게시일: 2019-11-14*
 
-제2차 중국 신소재 산업 개발 회의에서, 희 교수는 금속간 화합물 연구와 산업화에 대한 공로로 첫 성과-전환상을 수상했습니다.
+At the 2nd China New Materials Industry Development Conference, Prof. He received the inaugural achievement-transformation award for his intermetallic-compound research and industrialization.
 
-제2차 중국 신소재 산업 개발 회의 개막식(2019년 11월 14일)에서 희 웨후이 교수는 최초의 "신소재 성과-전환상"을 수상했습니다. 희 교수의 연구는 금속간 화합물에 초점을 맞추며, 이 개념을 적용하여 전통적인 소재를 업그레이드하고 소재 성능을 도약적으로 향상시킵니다. 다공성 소재와 청정 생산 발명을 기반으로 선두 기업인 쩨둬 이타이 테크놀로지(Chengdu Yitai Technology)를 설립하여 수조 원 규모의 경제적 가치를 창출했습니다. 그는 중국에서 세라믹 금속(cermet)의 제조와 적용을 선두적으로 장려했으며, 초창기 기업인 쩨둬 머스레이 신소재(Chengdu Meshray New Materials, Ti(C,N)-기반 세라믹 금속, 처리(Chery) 등 업체가 사용)를 설립했습니다. 또한 일본 아사히 다이아몬드(Asahi Diamond)와 함께 다이아몬드 와이어를 공동 개발하여 청정하고 저비용인 태양광 웨이퍼 가공을 가능하게 했습니다. 2017년에는 창사 디알레 신소재(Changsha Diale New Material, 차이나 A-주[ChiNext] 상장)를 공동 설립했습니다. 또한 샤벤 등 하이테크 기업을 설립하여 연례 사회적 가치로 수억 원 규모를 창출했습니다.
+At the opening of the 2nd China New Materials Industry Development Conference (Nov 14, 2019), Prof. He Yuehui received the inaugural “New Materials Achievement-Transformation Award.” Prof. He’s research focuses on intermetallic compounds, applying the concept to upgrade traditional materials and leapfrog material performance. Building on porous-material and clean-production inventions, he founded Chengdu Yitai Technology, creating billions in economic value. He pioneered cermet preparation and application in China, founded Chengdu Meshray New Materials (Ti(C,N)-based cermet, used by Chery and others), and co-developed diamond wire with Japan’s Asahi Diamond, enabling clean, low-cost solar-wafer processing. In 2017 he co-founded Changsha Diale New Material (listed on the ChiNext). He also founded Sharpen and other high-tech firms, creating hundreds of millions of yuan in annual social value.
 
-### 샤벤, CIMT2017 출품
-*날짜: 2017-04-22*
+### Sharpen at CIMT2017
+*게시일: 2017-04-22*
 
-샤벤은 제15회 중국 국제 기계 공구 박람회(CIMT2017)에 참가하여 SAP PM-HSS 부품과 세라믹 금속 접합 다이아몬드/CBN 마모용 롤을 선보였습니다.
+Sharpen exhibited at the 15th China International Machine Tool Show (CIMT2017), showcasing SAP PM-HSS parts and cermet-bond diamond/CBN wheels.
 
-제15회 중국 국제 기계 공구 박람회(CIMT2017)는 2017년 4월 17일부터 22일까지 열렸으며, 샤벤은 부스 W7-418에 출품했습니다. 희 웨후이 교수가 박사 연구개발 및 영업팀을 이끌었습니다. 샤벤은 SAP PM-HSS 성형 부품(탭, 드릴, 엔드 밀, 인서트, 밸브 시트, 금형 가이드 포스트) 및 초경 회전 공구와 사파이어와 지르코니아와 같은 경질 및 취성 소재를 위한 세라믹 금속 접합 다이아몬드/CBN 마모용 롤을 전시했습니다. 오랫동안 수입에 의존해 온 샤벤은 독자적인 핵심 제조 기술을 구축하여 PM-HSS와 초경 마모용 롤 모두를 국산화했으며, 제조업체에게 전 시리즈 솔루션을 제공합니다.
+The 15th China International Machine Tool Show (CIMT2017) was held April 17–22, 2017, with Sharpen exhibiting at booth W7-418. Prof. He Yuehui led the doctoral R&D and sales teams. Sharpen showcased SAP PM-HSS formed parts — taps, drills, end mills, inserts, valve seats, mold guide posts — and cermet-bond diamond/CBN wheels for ultra-hard rotary tools and hard-brittle materials such as sapphire and zirconia. Long dependent on imports, Sharpen has built proprietary core preparation technology to localize both PM-HSS and superabrasive wheels, offering full-series solutions to manufacturers.
 
-### 샤벤, 제2회 분말 야금/세라믹 휴대폰 케이스 포럼 참가
-*날짜: 2017-03-17*
+### Sharpen at the 2nd PM / Ceramic Phone-Shell Forum
+*게시일: 2017-03-17*
 
-희 교수는 고효율 지르코니아 광택 마모용 롤 솔루션을 발표하며, 샤벤의 세라믹 휴대폰 부품 가공에서의 역할을 강화했습니다.
+Prof. He presented high-efficiency zirconia polishing wheel solutions, advancing Sharpen’s role in ceramic phone-component machining.
 
-2017년 3월 17일, 샤벤은 선전에서 열린 제2회 분말 야금/세라믹 휴대폰 케이스 기술 및 응용 포럼에 초청받았습니다. 희 교수는 고효율 및 정밀 지르코니아 광택 마모용 롤에 대해 발표했습니다. 금속간 화합물 본드 이론과 3,000회 이상의 배합 시험을 바탕으로, 샤벤은 지르코니아 세라믹 휴대폰 후면 커버 및 지문 인식 웨이퍼를 위한 성숙한 솔루션을 개발하여 고객의 가공 효율을 크게 향상시키고 비용을 절감함으로써, 회사의 세라믹 휴대폰 부품 가공에서의 대규모 적용을 추진했습니다.
+On March 17, 2017, Sharpen was invited to the 2nd Powder Metallurgy / Ceramic Phone-Shell Technology & Application Forum in Shenzhen. Prof. He presented on high-efficiency, high-precision zirconia polishing wheels. Drawing on intermetallic-compound bond theory and more than 3,000 formulation trials, Sharpen developed a mature solution for zirconia ceramic phone back-plates and fingerprint-recognition wafers that greatly improves machining efficiency and lowers cost for customers, advancing the company’s scale application in ceramic phone-component machining.
 
-### 샤벤, SIMM 2014(선전) 참가
-*날짜: 2014-03-28*
+### Sharpen at SIMM 2014 (Shenzhen)
+*게시일: 2014-03-28*
 
-샤벤은 제15회 선전 국제 기계 제조 박람회에서 고성능 세라믹 금속 접합 다이아몬드와 CBN 마모용 롤을 처음으로 선보였습니다.
+Sharpen debuted high-performance cermet-bond diamond and CBN wheels at the 15th Shenzhen International Machinery Manufacturing Exhibition.
 
-2014년 3월 28일, 샤벤의 의장과 영업 매니저들은 제15회 선전 국제 기계 제조 박람회에서 회사의 주력 제품인 고성능 다이아몬드 및 CBN 마모용 롤을 전시했습니다. 중국 초경 분야의 선두 주자가 이끄는 샤벤의 R&D 팀은 다수의 독립적 IP 권리를 보유하고 있으며, 수입품과 완전히 대체 가능한 세계 최급의 세라믹 금속 접합 다이아몬드와 CBN 마모용 롤을 생산합니다. 또한 탄화물 및 HSS 공구를 위한 완전한 연마 솔루션을 제공하는 역량을 갖추고 있습니다. 새로운 세라믹 금속 접합 마모용 롤은 자기 연마, 형태 유지 및 쉬운 연마(dressing) 기능으로 탄화물 가공업체들의 큰 관심을 받았습니다. 희 교수는 새로운 Ti(C,N) 세라믹 금속 시스템과 그 다이아몬드 마모용 롤에 대한 강의를 잘 받는 것으로 마무리했습니다.
+On March 28, 2014, Sharpen’s chairman and sales managers exhibited the company’s flagship high-performance diamond and CBN wheels at the 15th Shenzhen International Machinery Manufacturing Exhibition. Led by a top figure in China’s superabrasive field, Sharpen’s R&D team holds multiple independent IP rights and produces world-class cermet-bond diamond and CBN wheels that fully replace imported equivalents, with the strength to deliver complete grinding solutions for carbide and HSS tools. The new cermet-bond wheels drew wide attention from carbide processors for their self-sharpening, shape retention and easy dressing. Prof. He gave a well-received lecture on a new Ti(C,N) cermet system and its diamond wheels.
 
-### 주조(주주) 지역 기업에서 수동 연마용 마모용 롤의 성공
-*날짜: 2016-11-07*
+### Success of Manual-Grinder Wheels at a Zhuzhou Enterprise
+*게시일: 2016-11-07*
 
-우리의 세라믹 금속 접합 마모용 롤은 주조 지역의 주요 제조업체에서 레진 접합 마모용 롤을 대체했으며, 연마가 필요 없이 롤 수명을 약 30배 향상시켰습니다.
+Our cermet-bond wheels replaced resin-bond wheels at a major Zhuzhou manufacturer, boosting wheel life ~30x with no dressing needed.
 
-### Ø400mm 1A1 세라믹 금속 접합 다이아몬드 및 CBN 마모용 롤의 양산
-*날짜: 2014-01-01*
+### Ø400mm 1A1 Cermet-Bond Diamond & CBN Wheels in Batch Production
+*게시일: 2014-01-01*
 
-샤벤은 Ø400mm 1A1 세라믹 금속 접합 다이아몬드 및 CBN 마모용 롤의 양산에 성공하여, 국산 고급 마모용 롤 R&D의 이정표를 달성했습니다.
+Sharpen achieved batch production of Ø400mm 1A1 cermet-bond diamond and CBN wheels, marking a milestone in domestic high-end wheel R&D.
 
-샤벤은 시장에서 양산할 수 있는 Ø400mm 1A1 세라믹 금속 접합 다이아몬드 및 CBN 마모용 롤 개발에 성공했습니다. 2013년 7월에 세라믹 금속 접합 직각 및 표면 연마 롤(Ø300mm, 두께 20mm)과 2013년 10월에 HSS, 티타늄 및 초합금을 위한 마모용 롤 개발 이후, 팀은 2013년 11월에 Ø400mm 1A1 마모용 롤을 개발하고 2014년 1월에 양산을 시작했습니다. 이는 샤벤이 고성능 세라믹 금속 접합 다이아몬드/CBN 마모용 롤에서 독자적인 전 공정 능력을 갖추고, HSS 회전체 연마에서 강력한 경쟁력을 가졌음을 보여줍니다.
+Sharpen successfully developed and put into batch production Ø400mm 1A1 cermet-bond diamond and CBN wheels for the market. Following the July 2013 development of cermet-bond vertical- and surface-grinding wheels (Ø300mm, 20mm thick) and October 2013 wheels for HSS, titanium and superalloys, the team developed the Ø400mm 1A1 wheels in November 2013 and began batch production in January 2014. This demonstrates Sharpen’s proprietary, full-process capability in high-performance cermet-bond diamond/CBN wheels and strong-grooving of HSS rotary bodies.
 
-## 산업 뉴스
+## 업종 뉴스
 
-### 중국 최초의 국산 30000# SiC 기판 세밀 연마용 롤
-*날짜: 2024-06-07*
+### China’s First Domestic 30000# SiC Substrate Fine-Grinding Wheel
+*게시일: 2024-06-07*
 
-샤벤은 SiC 기판을 위한 국가 최초의 30000# 세밀 연마용 롤을 개발하여, 웨이퍼의 손상 최소화 및 고처리량 얇게 깎기(thinning)를 가능하게 했습니다.
+Sharpen developed the country’s first 30000# fine-grinding wheel for SiC substrates, enabling low-damage, high-throughput wafer thinning.
 
-SiC 생산의 핵심 단계는 기판 가공입니다 — 절단, 얇게 깎기(thinning) 및 연마. 얇게 깎기는 주로 연마와 lap(rough and fine)으로 수행됩니다. 샤벤의 자체 개발 SiC 웨이퍼 얇게 깎기 마모용 롤과 연마 기술은 웨이퍼 손상 메커니즘을 해결하고, 거친 연마에서 세밀 연마에 이르기까지 손상 최소화와 고 제거율(thinning rate)을 제공합니다. 2013년에 설립된 샤벤은 분말 야금 신소재 분야의 국가 하이테크 기업, 후난성 "리틀 재인", 창사지능 제조 파일럿으로, 희 웨후이 교수의 박사 팀이 이끄며 수입 제품의 국산화 대체에 전념하고 있습니다.
+A core step in SiC production is substrate processing — slicing, thinning and polishing. Thinning is achieved mainly by grinding and lapping (rough and fine). Sharpen’s self-developed SiC wafer thinning wheels and grinding technology address wafer damage mechanisms and deliver low-damage, high-removal-rate thinning from rough to fine grinding. Founded in 2013, Sharpen is a national high-tech enterprise in powder-metallurgy new materials, a Hunan “Little Giant”, and a Changsha intelligent-manufacturing pilot, led by Prof. He Yuehui’s doctoral team, committed to domestic substitution of imported products.
 
-### 샤벤, 3D 열 굽힘용 TiNiCo 초합금 열 확산판 개발
-*날짜: 2017-11-28*
+### Sharpen Develops TiNiCo Superalloy Heat Spreader for 3D Hot-Bending
+*게시일: 2017-11-28*
 
-샤벤은 3D 커버 글래스 열 굽힘 기계에 사용되는 TiNiCo 초합금 열 확산판 개발에 성공했습니다.
+Sharpen successfully developed the TiNiCo superalloy heat spreader used in 3D cover-glass hot-bending machines.
 
-### 상하이 고객사의 마모용 롤 사용에서 돌파구
-*날짜: 2016-11-07*
+### Breakthrough in Wheel Use at a Shanghai Customer
+*게시일: 2016-11-07*
 
-상하이의 고객이 우리의 다이아몬드 마모용 롤을 사용하여 3-플루트 테이퍼 엔드 밀을 양산하며, 특정 한국 브랜드보다 절삭 진급 속도(feed speed)를 30% 이상 높였습니다.
+A Shanghai customer uses our diamond wheels to batch-produce 3-flute taper end mills, raising feed speed >30% vs a Korean brand.
 
-창사 샤벤은 완전한 독립적 IP를 갖춘 고속 고품질 연마 시스템 솔루션의 전문 하이테크 제공자로서, 탄화물 및 HSS 회전 공구와 인서트를 위한 완전한 광택 솔루션을 제공합니다. 상하이의 고객은 이제 샤벤의 다이아몬드 마모용 롤을 사용하여 3-플루트 테이퍼 엔드 밀(Ø28mm, 플루트 길이 50mm)을 양산하고 있습니다; 이 밀은 단일 엣지 절삭 깊이가 최대 5.5mm에 도달하며, 마모용 롤의 평균 절삭 진급 속도는 특정 한국 브랜드보다 30% 이상 높습니다. 샤벤의 독창적인 특수 본드는 다이아몬드 마모용 롤에 명확한 우위를 부여합니다: 칩 수납 능력과 회전 강도의 향상; 자가 연마와 형태 유지력의 향상; 가볍고 열전도율이 높으며 부식에 저항적인 코어; 층과 코어 간의 완전한 유체 접합으로 높은 인터페이스 안정성; 그리고 밀접하게 매칭된 물리-기계적 특성.
+Changsha Sharpen is a specialized high-tech provider of high-speed, high-quality grinding-system solutions with full independent IP, offering complete polishing solutions for carbide and HSS rotary tools and inserts. A Shanghai customer now uses Sharpen diamond wheels to batch-produce 3-flute tapered end mills (Ø28mm, 50mm flute length); the mills reach up to 5.5mm single-edge depth of cut, and the wheel’s average feed speed is more than 30% higher than a certain Korean brand. Sharpen’s proprietary special bond gives its diamond wheels clear advantages: high chip accommodation and rotary strength; high self-sharpening and shape retention; a light, high-thermal-conductivity, corrosion-resistant core; full metallurgical bonding between layer and core for high interface stability; and closely matched physico-mechanical properties.
 
-### CNC 공구의 고장 모드와 대책
-*날짜: 2016-11-07*
+### Failure Modes of CNC Tools and Countermeasures
+*게시일: 2016-11-07*
 
-CNC 공구의 고장 모드 — 측면 마모, 크레이터 마모, 소성 변형, 용착(Built-up edge) — 및 이를 완화하는 방법에 대한 기술 개요.
+A technical overview of CNC tool failure modes — flank wear, crater wear, plastic deformation, built-up edge — and how to mitigate them.
 
-공구가 한계를 초과하여 마모되거나, 깨지거나, 소성 변형될 때 공구 고장이 발생하며, 이는 절삭 능력을 잃거나 품질을 보장하지 못하게 됩니다. 주요 고장 모드와 대책: 1. 측면 마모(기계적 마찰) — 더 내마모성 공구 소재 사용, 절삭 속도 하향, 진급 상승, 탈부각각(청각) 증가. 2. 메인 절삭 엣지의 노치 마모 — 속도/진급 하향, 내마모 소재 사용, 전각(rake angle) 증가. 3. 크레이터 마모(전면의 마찰 + 확산) — 속도/진급 하향, 코팅된 탄화물 사용. 4. 소성 변형(고온/고응력) — 속도/진급 하향, 높은 내마모성 및 열전도율 소재 사용. 5. 용착(작업물 부착) — 속도 상승, 낮은 친화력을 가진 코팅 탄화물/세라믹 금속 사용, 냉각 윤활유 적용. 6. 엣지 깨짐(작고 불균일한 노치) — 시작 시 진급 하향, 더 인성 있는 소재와 강한 엣지 선택.
+Tool failure occurs when a tool wears beyond a limit, chips or plastically deforms, losing its cutting ability or failing to guarantee quality. Main failure modes and countermeasures: 1. Flank wear (mechanical friction) — use more wear-resistant tool material, lower cutting speed, raise feed, increase clearance angle. 2. Notch wear at the main cutting edge — lower speed/feed, use wear-resistant material, increase rake angle. 3. Crater wear (friction + diffusion on the rake face) — lower speed/feed, use coated carbide. 4. Plastic deformation (high temp/stress) — lower speed/feed, use high-wear-resistance, high-thermal-conductivity material. 5. Built-up edge (workpiece adhesion) — raise speed, use coated carbide/cermet with low affinity, apply coolant. 6. Edge chipping (small non-uniform notches) — lower feed at start, choose tougher material and stronger edge.
 
-### 제조 트렌드가 마모재 기준을 높이다
-*날짜: 2016-11-07*
+### Manufacturing Trends Raise the Bar for Abrasives
+*게시일: 2016-11-07*
 
-초경성 제품이 점점 더 까다로운 연마 요구사항을 충족시키고 있으며, 새로운 마모재 형상이 응용 범위를 확장하고 있습니다.
+Superabrasive products increasingly meet demanding grinding needs; new abrasive formats expand application scope.
 
-연마 개발을 살펴보면, 미래의 가공은 마모재에 더 많은 것을 요구할 것이며, 초경성 제품은 이러한 새로운 요구사항을 정확히 충족시킵니다. 예를 들어 CBN은 탁월한 열 안정성, 높은 경도 및 내마모성을 제공하여 높은 롤 속도, 높은 효율 및 긴 수명을 가능하게 하며 — HSS, 베어링 강, 스테인리스 및 냉간 주철에 이상적입니다. 초경성 공구는 레진, 유리화 또는 금속 본드와 함께 금속 분말, 산화물 금속 또는 CBN을 충전물로 사용합니다; 그 높은 정밀도 및 고효율 결과는 광범위하게 인정받고 있습니다. 새로운 형상 — 결정 성 세라믹 마모재, 다이아몬드 쉘 마모재, 폴리에스터 필름 광택 벨트 — 연마의 장점과 응용 범위를 더욱 확장합니다.
+Looking at grinding development, future machining will demand more of abrasives, and superabrasive products precisely meet these new needs. CBN, for example, offers excellent thermal stability, high hardness and wear resistance, enabling high wheel speed, high efficiency and long life — ideal for HSS, bearing steel, stainless and chilled cast iron. Superabrasive tools use metal powder, metal oxide or CBN as filler with resin, vitrified or metal bonds; their high-precision, high-efficiency results are widely recognized. New formats — microcrystalline ceramic abrasives, diamond-shell abrasives, polyester-film polishing belts — further extend the advantages and application scope of grinding.
 
-### 다이아몬드 제품 보관 팁
-*날짜: 2016-11-07*
+### Storage Tips for Diamond Products
+*게시일: 2016-11-07*
 
-다이아몬드 마모용 롤 보관 지침 — 구름, 충격, 습기 및 유해 화학물질 회피; 유통기한 준수.
+Guidance on storing diamond wheels — avoid rolling, impact, moisture and harmful chemicals; observe expiry.
 
-보관 시, 다이아몬드 마모용 롤은 구르지 않아야 합니다(균열 및 표면 손상을 방지하기 위해) 그리고 강한 진동이나 충격에 노출되어서는 안 됩니다. 마모용 롤은 유효 기간을 초과하여 보관해서는 안 됩니다; 1년 이상 보관된 레진 또는 고무 본드 마모용 롤은 사용 전 회전 테스트를 통과해야 합니다. 보관 영역은 건조하고 적절한 온도여야 하며, 습기, 동결, 과열 또는 부식 공격으로 강도가 약화되는 것을 방지하기 위해 다른 화학물질과 분리되어야 합니다.
+In storage, diamond wheels must not be rolled (to avoid cracks and surface damage) and must not be subjected to strong vibration or impact. Wheels should not be kept beyond their valid period; resin- or rubber-bond wheels stored over a year must pass a spin test before use. Storage areas should be dry, at suitable temperature, and segregated from other chemicals to prevent moisture, freezing, overheating or corrosive attack that reduces strength.
 
-### 중국 절삭 공구 산업의 지속 가능한 개발 방법
-*날짜: 2016-11-07*
+### How China’s Cutting-Tool Industry Can Develop Sustainably
+*게시일: 2016-11-07*
 
-중국 절삭 공구 산업의 지속 가능한 발전 경로에 대한 관점.
+Perspectives on the sustainable-development path for China’s cutting-tool industry.
 
-### 제품 응용 범위
-*날짜: 2016-11-07*
+### Product Application Scope
+*게시일: 2016-11-07*
 
-다이아몬드 및 CBN 마모용 롤이 적용되는 분야 — 탄화물 공구, 사파이어, 세라믹 금속 인서트(다이아몬드); HSS, 냉각 강, 주철(CBN).
+Where diamond and CBN wheels apply — carbide tools, sapphire, cermet inserts (diamond); HSS, hardened steel, cast parts (CBN).
 
-다이아몬드 마모용 롤은 다음에 적합합니다: 1) 탄화물 재료로 만든 공구, 회전체, 금형 및 마모 부품; 2) 사파잉 인고트 및 웨이퍼 lap/광택; 3) 세라믹 금속 인서트. CBN 마모용 롤은 다음에 적합합니다: 1) HSS 및 고용량 합금 강 절삭 공구, 집게, 금형; 2) 냉각강 부품 및 기계 베드; 3) 실린더 라이너 및 마모 부품과 같은 고경도, 고용량 합금 주조물.
+Diamond wheels are suitable for: 1) Tools, rotary bodies, molds and wear parts made of carbide; 2) Sapphire ingots and wafer lapping/polishing; 3) Cermet inserts. CBN wheels are suitable for: 1) HSS and high-alloy steel cutting tools, fixtures and molds; 2) Hardened-steel parts and machine beds; 3) High-hardness, high-alloy castings such as cylinder liners and wear parts.
 
-## 산업 최첨단 동향
+## 산업 최전선
 
-### 3D 열 굽힘용 TiNi
+### Sharpen, 3세대 반도체 SiC 웨이퍼 정밀 연마 휠 개발
+*게시일: 2026-01-01*
+
+![Sharpen, 3세대 반도체 SiC 웨이퍼 정밀 연마 휠 개발](/assets/img/sic-wafer.jpg)
+
+Sharpen’s self-developed SiC fine-grinding diamond wheel with a lightweight metal-oxide cermet bond reaches 30000# grit, surface roughness under 2 nm, and is already serving several Chinese SiC substrate processors.
+
+As the semiconductor industry upgrades to third-generation materials, silicon carbide (SiC) wafers — with their high thermal conductivity and high breakdown voltage — deliver outstanding performance under extreme high-temperature, high-voltage and high-frequency conditions, and are poised to reshape the multi-trillion-dollar EV, photovoltaic and energy-storage markets. The grinding of hard, brittle SiC wafers has long been one of the "chokepoint" technologies in China’s semiconductor supply chain. After more than a decade of R&D in advanced materials, Sharpen’s team has achieved a major breakthrough in SiC wafer grinding. Its self-developed core product — a fine-grinding diamond wheel for SiC wafer thinning — meets the industry’s key specifications. The team uses a light-metal-oxide intermetallic composite as the diamond wheel’s bonding phase, delivering high sharpness, fast grinding at high feed rates, and avoiding metal-ion contamination; an ultra-high-porosity self-pore-forming technique gives the wheel superior chip-accommodation and chip-removal capability, avoiding clogging and workpiece surface burn; and the 30000# extra-fine diamond abrasive ensures excellent grinding quality with an ultra-smooth finished surface, keeping SiC surface roughness under 2 nm. The wheel’s performance is outstanding and stable, with no chipping or tooth-breakage even under long-term use. The product is mainly used for thinning of SiC substrates, back-thinning of SiC devices, discrete devices, and thinning of IC substrate wafers and as-grown silicon wafers. Sharpen’s SiC wafer thinning wheel series now serves several domestic third-generation semiconductor SiC substrate processors, with customized turnkey solutions provided. In this technology and innovation offensive over semiconductor wafer thinning wheels, Sharpen has cut through a series of key technical challenges with tenacity and relentless innovation, successfully scaling up production of semiconductor wafer thinning wheels and providing solid technical support for the development of China’s semiconductor industry.
+
+### TiNiCo Superalloy Heat Spreader for 3D Hot-Bending
+*게시일: 2017-11-28*
+
+Sharpen’s TiNiCo superalloy heat spreader enables uniform, high-flatness heating for 3D glass hot-bending molds.
+
+### Introduction to SAP Powder Metallurgy High-Speed Steel
+*게시일: 2017-03-24*
+
+An overview of PM-HSS vs conventional HSS and Sharpen’s non-atomization ball-milling route enabling domestic high-performance PM-HSS.
+
+High-speed steel (HSS) is a vital tool material, accounting for 45% of global cutting-tool sales — and 85% of complex multi-edge tools such as gear hobs and broaches. It combines red hardness, wear resistance, impact resistance and heat-treatability, and can be shaped in the annealed state then hardened by quench and temper — advantages that cemented-carbide and cermet tools lack. By process, HSS splits into conventional cast/forged and powder-metallurgy (PM) types. Cast HSS inevitably suffers coarse structure, segregation and anisotropy; PM-HSS fundamentally avoids coarse carbides, giving fine, uniform, isotropic structure — a milestone in HSS history. Yet China long lacked the capability to produce high-performance PM-HSS. Commercial PM-HSS appeared in the 1970s via gas-atomization+HIP, spray forming, and supersolidus liquid-phase sintering — each with trade-offs in cost, pollution, alloying limits and density. Sharpen’s non-atomization ball-milling route is exciting for domestic high-performance PM-HSS: it uses non-atomized ball-milled mixed powder as feedstock, allowing almost unrestricted alloy additions, and achieves near-net-shape preforms in one step via solid-state vacuum-activated sintering, followed by heat treatment.

@@ -113,10 +113,10 @@ description: "長沙シャーペン新材料 — 高強度溝研ぎ砥石、半�
     <h2>鋼結硬质合金</h2>
     <p>鋼結硬質合金（セメタクト）は工具や過酷な耐摩耗部品向け——焼きなまし状態のまま旋盤・フライス・ドリリング加工でき、Forge ならびに溶接が可能、特殊設備なしで複雑な成形に対応。焼入れ後は HRC 60–70 を達成し、耐摩耗性は高コバルト超硬合金に近く、一般的な超硬合金よりはるかに高い靭性と耐衝撃性を発揮。接着相鋼材の調整により耐摩耗・耐腐食・耐熱などをカスタマイズでき、ライフサイクルコストは通常の合金モールド鋼を大きく下回り、型寿命は10〜数十倍向上、型替え停止時間を大幅に短縮します。</p>
     <ul class="specs">
-      <li>Applications: cold-extrusion, cold-heading and blanking/punching dies, firebrick shaping molds; replaces YG20-type carbide in high-load die cores.</li>
-      <li>Cutting tools: carbide and high-speed-steel tooling for titanium and nickel alloys, rock-boring and geological-drilling tools.</li>
-      <li>Wear parts: rollers, nozzles, bearings; high-grade grades used in aerospace and submarine-navigation components.</li>
-      <li>Support for diamond/CBN grinding-wheel fixtures and CBN-mill-forming jigs; meets accuracy and wear requirements.</li>
+      <li>用途：冷間押出し、冷間鍛打、ブラント/パンチ金型、耐火レン形成型金型；高負荷の金型コアでYG20型超硬合金に置き換え。</li>
+      <li>切削工具：チタン・ニッケル合金向けの超硬・高速度鋼工具、岩盤ボーリング・地質ドリリング工具。</li>
+      <li>耐磨耗部品：ローラー、ノズル、ベアリング；高グレード品は宇宙航空・潜水艦ナビゲーション部品に使用。</li>
+      <li>ダイヤモンド/CBN砥石のホルダーとCBNミルフォーミング治具のサポート；精度・耐摩耗要件を満たす。</li>
     </ul>
     <div class="pb-cta"><a class="btn btn-primary" href="/ja/contact/">見積依頼</a></div>
   </div>

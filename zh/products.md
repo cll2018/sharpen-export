@@ -113,10 +113,10 @@ description: "长沙市萨普新材料有限公司的强力开槽砂轮、半导
     <h2>钢结硬质合金</h2>
     <p>钢结硬质合金面向刀具与苛刻耐磨件——退火态可直接车、铣、钻加工，支持锻造与焊接、无需特殊设备即可完成复杂成型。淬硬后硬度可达 HRC 60–70，耐磨性接近高钴硬质合金，韧性远优于普通硬质合金、抗冲击更强。可通过调整粘结相钢材获得耐磨、耐腐蚀、耐热等特殊性能，全生命周期成本远低于常规合金模具钢，模具寿命可提升十几至几十倍、大幅减少换模停机时间。</p>
     <ul class="specs">
-      <li>Applications: cold-extrusion, cold-heading and blanking/punching dies, firebrick shaping molds; replaces YG20-type carbide in high-load die cores.</li>
-      <li>Cutting tools: carbide and high-speed-steel tooling for titanium and nickel alloys, rock-boring and geological-drilling tools.</li>
-      <li>Wear parts: rollers, nozzles, bearings; high-grade grades used in aerospace and submarine-navigation components.</li>
-      <li>Support for diamond/CBN grinding-wheel fixtures and CBN-mill-forming jigs; meets accuracy and wear requirements.</li>
+      <li>应用：冷挤压、冷镦及落料/冲孔模具、耐火砖成型模具；替代 YG20 型硬质合金用于高载荷模具芯。</li>
+      <li>切削刀具：用于钛合金与镍合金、岩芯钻探及地质钻探的硬质合金与高速钢刀具。</li>
+      <li>耐磨件：辊轮、喷嘴、轴承；高等级牌号用于航空航天及潜艇导航部件。</li>
+      <li>金刚石/CBN 砂轮夹具及 CBN 铣削成型工装支撑；满足精度与耐磨要求。</li>
     </ul>
     <div class="pb-cta"><a class="btn btn-primary" href="/zh/contact/">获取报价</a></div>
   </div>
