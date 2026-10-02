@@ -61,6 +61,20 @@ module.exports = {
   // --- Resources --------------------------------------------------------
   brochure: "/assets/img/brochure.pdf", // company brochure (migrated from old site)
 
+  // --- Search engine verification ----------------------------------------
+  // Google Search Console "Meta tag" verification. Paste the full
+  // <meta ...> tag content Google gives you in the Setup screen, e.g.
+  //   google-site-verification=XXXXXXXXXXXXXXXX
+  // and the raw name/value here. It is rendered into every page's <head>
+  // (base.njk). Leave "" until you grab the code from GSC.
+  gscVerifyMeta: "", // e.g. '<meta name="google-site-verification" content="...">'
+  // Baidu "index.html" / "dns verification" code (ziyuan.baidu.com).
+  // When Baidu gives you an "HTML tag" verification string, put it here;
+  // when it gives a file+token, put it in functions/verify/baidu.js instead.
+  baiduVerifyMeta: "",
+  // Bing Webmaster "meta tag" verification (optional, shared with Yandex/Ecosia).
+  bingVerifyMeta: "",
+
   // --- Social / extras (optional) ---------------------------------------
   linkedin: "", // TODO: optional
   youtube: "",
