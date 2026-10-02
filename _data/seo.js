@@ -75,6 +75,14 @@ const robots = [
   "# Block only the Decap CMS admin from being indexed",
   "Disallow: /admin/",
   "",
+  "# --- AI / LLM content signals (owner wants AI to freely read & use the site) ---",
+  "# Cloudflare's managed robots defaults these to no; we override to yes so",
+  "# search AI (Perplexity/ChatGPT) and training crawlers can all use the content.",
+  "Content-Signal: search=yes,ai-train=yes,use=reference",
+  "# llms.txt is served at /llms.txt — plain-language AI-readable index",
+  "Sitemap: " + DOMAIN + "/llms.txt",
+  "Sitemap: " + DOMAIN + "/sitemap.xml",
+  "",
   "# Owner policy: explicitly ALLOW every public crawler (incl. AI agents)",
   "# so nothing is blocked by Cloudflare's managed-robots. Per-agent blocks",
   "# below win over Cloudflare's Disallow for the same agent.",
@@ -91,8 +99,10 @@ const robots = [
   "User-agent: *",
   "Allow: /",
   "Disallow: /admin/",
+  "Content-Signal: search=yes,ai-train=yes,use=reference",
   "",
   "Sitemap: " + DOMAIN + "/sitemap.xml",
+  "Sitemap: " + DOMAIN + "/llms.txt",
 ]).join("\n");
 
 module.exports = { sitemap: urls, robots, buildTime: BUILD_TIME, domain: DOMAIN };
