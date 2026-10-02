@@ -38,26 +38,61 @@ for (const l of site.langs) {
 
 // robots.txt body (served at /robots.txt).
 // NOTE: Cloudflare's managed robots appends a block that Disallow `/` for many
-// AI crawlers AND for Baiduspider. Our site explicitly wants Baidu / 360 /
-// Sogou to index (Chinese-market SEO), so we add per-agent Allow rules after
-// the cloudflare block. robots.txt is order-insensitive per agent block, and
-// an agent's own rules override the wildcard, so these win for those agents.
+// AI crawlers (GPTBot, ClaudeBot, Bytespider, PetalBot, KimiBot, CCBot,
+// Amazonbot, Applebot-Extended, Diffbot, Google-Extended, GoogleOther,
+// ommgili, anthropic-ai, cohere-ai, MistralAI-*, meta-external*, qualified-bot,
+// semrush, firecrawl, perplexity, hugging, cohere, etc.) AND for Baiduspider.
+//
+// The owner wants ALL of these to freely crawl the public site, so after the
+// Cloudflare block we re-allow every one of them explicitly. robots.txt rule:
+// an agent's own User-agent block wins over the wildcard `*`, and the LAST
+// block for a given agent wins, so these override Cloudflare's Disallow.
+// Only /admin/ stays blocked (the Decap CMS login UI is not public).
+//
+// The Cloudflare robots section lists these exact agent strings; we mirror it.
+const CRAWLERS = [
+  // Chinese-market search engines (owner wants Baidu/360/Sogou indexation)
+  "Baiduspider", "360bot", "Sogou",
+  // Major search / social crawlers
+  "Googlebot", "Bingbot", "YandexBot", "Applebot", "DuckDuckBot", "BraveBot",
+  "SemrushBot", "AhrefsBot", "DuckDuckBot", "MojeekBot",
+  // AI training / agent crawlers that Cloudflare blocks by default — we allow
+  "Amazonbot", "Applebot-Extended", "Bytespider", "CCBot", "ClaudeBot",
+  "Diffbot", "Google-Extended", "GPTBot", "omgili", "anthropic-ai",
+  "Claude-Web", "cohere-ai", "MistralAI-Training", "meta-externalagent",
+  "GoogleOther", "Google-Agent", "meta-externalfetcher",
+  "Perplexity-User", "FireCrawl", "FirecrawlAgent", "KimiBot", "Kimi-User",
+  "Amazon-User", "Amzn-User", "Retool", "Instapaper", "ChathiveCrawler",
+  "HuggingCrawler", "cohere-ai", "Cotoyogi", "ICC-Crawler", "atlassian-bot",
+  "FishBot", "BorderxBot", "NavuBot", "SemrushBot-SWA", "WARDBot",
+  "magpie-crawler", "CitibotSiteCrawler", "PetallBot", "AwarioSmartBot",
+  "AwarioRssBot", "Google-CloudVertexBot", "QualifiedBot", "Qwant", "Naver",
+];
+
 const robots = [
   "User-agent: *",
   "Allow: /",
-  "# Block the Decap CMS admin from being indexed",
+  "# Block only the Decap CMS admin from being indexed",
   "Disallow: /admin/",
   "",
-  "# Explicitly allow Chinese-market search crawlers (overrides any Cloudflare",
-  "# managed-robots Disallow for these agents).",
-  "User-agent: Baiduspider",
+  "# Owner policy: explicitly ALLOW every public crawler (incl. AI agents)",
+  "# so nothing is blocked by Cloudflare's managed-robots. Per-agent blocks",
+  "# below win over Cloudflare's Disallow for the same agent.",
+].concat(
+  CRAWLERS.flatMap((ua) => [
+    "User-agent: " + ua,
+    "Allow: /",
+    "Disallow: /admin/",
+    "",
+  ])
+).concat([
+  "# Catch-all for any crawler not explicitly listed above:",
+  "# allow it but keep the Decap CMS admin out of the index.",
+  "User-agent: *",
   "Allow: /",
-  "User-agent: 360bot",
-  "Allow: /",
-  "User-agent: Sogou",
-  "Allow: /",
+  "Disallow: /admin/",
   "",
   "Sitemap: " + DOMAIN + "/sitemap.xml",
-].join("\n");
+]).join("\n");
 
 module.exports = { sitemap: urls, robots, buildTime: BUILD_TIME, domain: DOMAIN };
