@@ -3,6 +3,12 @@ const site = require("./_data/site.js");
 const langCodes = site.langs.map((l) => l.code);
 
 module.exports = function (eleventyConfig) {
+  // Load build-time SEO data (sitemap URL list + robots body).
+  const seo = require("./_data/seo.js");
+  eleventyConfig.addGlobalData("sitemap", seo.sitemap);
+  eleventyConfig.addGlobalData("robots", seo.robots);
+  eleventyConfig.addGlobalData("seoDomain", seo.domain);
+
   // Static assets + the CMS admin + the AI chat settings file.
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("admin");
