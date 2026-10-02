@@ -32,14 +32,16 @@
 
 ## 2. Bing Webmaster Tools（同时驱动 Yandex / Ecosia）
 
-Bing 给的验证串形如 `ms=xxxxxxxxxxxx` 或 `bingsp-site-verification=xxxx`。
+Bing 给的验证串有两种：TXT（`ms=...`）或 **CNAME 别名记录**。你当前这条是 **CNAME**：
 
-| 类型 | 名称 | 内容 |
+| 类型 | 名称（子域） | 指向 / 值 |
 |------|------|------|
-| TXT  | `ms` | `ms=把Bing给的码粘贴在这`（或按提示主机记录名） |
+| CNAME | `8cbed92e5e67f8673771e5f0b8af5b1c` | `verify.bing.com` |
+
+> 在 Cloudflare：DNS → 记录 → Add record → 类型 **CNAME**、名称填 `8cbed92e5e67f8673771e5f0b8af5b1c`、目标/指向填 `verify.bing.com`（省掉前缀子域即可，CF 会自动拼 `.sapu-cn.online`）。
 
 - 入口：https://www.bing.com/webmasters → 添加站点 → `https://www.sapu-cn.online`
-- 选 "DNS record" 复制 Bing 给的码，填 Cloudflare TXT。
+- 选 "DNS record"，复制 Bing 给的 CNAME（名称 + verify.bing.com），加到 Cloudflare。
 - 验证后 Indexing → Sitemaps → 提交 `https://www.sapu-cn.online/sitemap.xml`。
 - 用同一 Bing 账号登录 **Yandex Webmaster**（https://yandex.com/webmasters）提交同一 sitemap。
 

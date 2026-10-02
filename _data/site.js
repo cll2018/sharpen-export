@@ -35,6 +35,28 @@ module.exports = {
   defaultLang: "en",
   fallbackLang: "en",
 
+  // --- Localized brand / title (used for <title> suffix + per-page) -----
+  // Each language gets its OWN company name so the title is not diluted by
+  // the English "Changsha Sharpen New Materials Co., Ltd." (SEO issue).
+  // `titleSuffix` is appended to the page title; `localDesc` is the
+  // localized meta description fallback (used when a page has none).
+  brandPerLang: {
+    en:    { suffix: "Changsha Sharpen New Materials",      desc: "Diamond & CBN grinding wheels, PM high-speed steel, TiNiCo heat spreaders and SiC wafer thinning wheels — a global B2B manufacturer based in Changsha, China.", title: "Home" },
+    zh:    { suffix: "长沙市萨普新材料",                      desc: "金刚石/CBN砂轮、粉末冶金高速钢、TiNiCo超合金均热板与碳化硅晶圆减薄砂轮，总部位于中国长沙的国家高新技术企业。", title: "首页" },
+    "zh-tw":{ suffix: "長沙市薩普新材料",                     desc: "鑽石/CBN砂輪、粉末冶金高速鋼、TiNiCo超合金均熱板與碳化矽晶圓減薄砂輪，總部位於中國長沙。", title: "首頁" },
+    de:    { suffix: "Changsha Sharpen Neue Werkstoffe",      desc: "Diamant- & CBN-Schleifscheiben, PM-HSS, TiNiCo-Wärmeleiter und SiC-Wafer-Dünnschliff — globaler B2B-Hersteller aus Changsha.", title: "Startseite" },
+    ja:    { suffix: "長沙 Sharpen 新素材",                    desc: "ダイヤモンド/CBN砥石、粉末冶金高速度鋼、TiNiCo放熱板、SiCウェーハ研削。中国長沙のグローバルB2Bメーカー。", title: "ホーム" },
+    ko:    { suffix: "장사 샤펜 신소재",                       desc: "다이아몬드·CBN 연마 휠, PM 고속강, TiNiCo 히트 스프리더, SiC 웨이퍼 씬닝 — 중국 장사의 글로벌 B2B 제조업체.", title: "홈" },
+    ru:    { suffix: "Чанша Sharpen новые материалы",         desc: "Алмазные и CBN круги, ПМ БРС, TiNiCo радиаторы, круги для тонирования SiC-пластин — глобальный B2B-производитель из Чанша, Китай.", title: "Главная" },
+    es:    { suffix: "Changsha Sharpen Nuevos Materiales",    desc: "Ruedas de diamante y CBN, acero rápido PM, disipadores TiNiCo y ruedas de delgado de obleas SiC — fabricante B2B global en Changsha, China.", title: "Inicio" },
+    pt:    { suffix: "Changsha Sharpen Novos Materiais",      desc: "Roda de diamante e CBN, aço rápido PM, dissipador TiNiCo e roda de delgado de wafer SiC — fabricante B2B global de Changsha, China.", title: "Início" },
+    fr:    { suffix: "Changsha Sharpen Nouveaux Matériaux",   desc: "Meules diamant et CBN, acier rapide PM, dissipateur TiNiCo, meules d'amincissement de wafer SiC — fabricant B2B mondial de Changsha, Chine.", title: "Accueil" },
+    it:    { suffix: "Changsha Sharpen Nuovi Materiali",      desc: "Mole diamantate e CBN, acciaio rapido PM, dissipatore TiNiCo, mole di decapaggio wafer SiC — produttore B2B globale di Changsha, Cina.", title: "Home" },
+    tr:    { suffix: "Changsha Sharpen Yeni Malzemeler",      desc: "Elmas ve CBN taşları, PM HSS, TiNiCo ısı dağıtıcı, SiC wafer inceltme taşları — Changsha merkezli global B2B üretici.", title: "Ana Sayfa" },
+    ar:    { suffix: "تشانغشا شاربين المواد الجديدة",          desc: "أقراص صنفرة بالماس وCBN، فولاذ قص سريع PM، مُشتّتات حرارة TiNiCo، وأقراص ترقّق رقائق SiC — مصنّع B2B عالمي من تشانغشا، الصين.", title: "الرئيسية" },
+    vi:    { suffix: "Changsha Sharpen Vật Liệu Mới",         desc: "Phôi mài kim cương & CBN, thép tốc độ cao PM, tản nhiệt TiNiCo, phôi mài mỏng wafer SiC — nhà sản xuất B2B toàn cầu từ Trường Sa.", title: "Trang chủ" },
+  },
+
   // --- Languages (see table above) --------------------------------------
   langs,
 
