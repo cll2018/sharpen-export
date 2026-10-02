@@ -116,7 +116,7 @@
     <div class="container header-inner">
       <a class="brand" href="{{ ('/' + lang + '/') | langUrl(lang) }}">
         <span class="brand-name">{{ site.shortName }}</span>
-        <span class="brand-sub">{{ site.nameZh if (lang and lang.startsWith('zh')) else site.name }}</span>
+        <span class="brand-sub">{{ site.nameZh if lang == 'zh' else (site.nameZhTw if lang == 'zh-tw' else site.name) }}</span>
       </a>
       <nav class="main-nav" aria-label="Primary">
         {% for item in site.nav %}
@@ -133,7 +133,8 @@
           </select>
         </label>
         <a class="btn btn-whatsapp" href="https://wa.me/{{ site.whatsapp }}" target="_blank" rel="noopener">WhatsApp</a>
-        <button id="chat-toggle" class="btn btn-chat" type="button" aria-expanded="false">💬 AI Chat</button>
+        {% set fh = site.footerPerLang[lang] or site.footerPerLang[site.defaultLang] %}
+        <button id="chat-toggle" class="btn btn-chat" type="button" aria-expanded="false">💬 {{ fh.aiBtn }}</button>
       </div>
     </div>
   </header>
@@ -143,21 +144,22 @@
   </main>
 
   <footer class="site-footer">
+    {% set f = site.footerPerLang[lang] or site.footerPerLang[site.defaultLang] %}
     <div class="container footer-inner">
       <div>
-        <h3>{{ site.nameZh if lang == 'zh' else site.name }}</h3>
-        <p>{{ site.addressZh if (lang and lang.startsWith('zh')) else site.address }}</p>
+        <h3>{{ site.nameZh if lang == 'zh' else (site.nameZhTw if lang == 'zh-tw' else site.name) }}</h3>
+        <p>{{ site.addressZh if lang == 'zh' else (site.addressZhTw if lang == 'zh-tw' else site.address) }}</p>
         <p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a> · Tel: {{ site.phone }}</p>
         <p>WeChat: {{ site.wechat }}</p>
       </div>
       <div>
-        <h3>{{ '实时询盘' if lang == 'zh' else 'Real-time Inquiry' }}</h3>
+        <h3>{{ f.inquiry }}</h3>
         <p><a href="https://wa.me/{{ site.whatsapp }}" target="_blank" rel="noopener">WhatsApp: +86 186 5687 1390</a></p>
-        <p><button id="chat-toggle-2" class="link-btn" type="button">💬 {{ 'AI 在线咨询' if lang == 'zh' else 'AI Chat' }}</button></p>
-        <p><a href="{{ ('/' + lang + '/contact/') | langUrl(lang) }}">{{ '提交询盘 / RFQ' if lang == 'zh' else 'Submit RFQ' }}</a></p>
+        <p><button id="chat-toggle-2" class="link-btn" type="button">💬 {{ f.aiBtn }}</button></p>
+        <p><a href="{{ ('/' + lang + '/contact/') | langUrl(lang) }}">{{ f.rfq }}</a></p>
       </div>
       <div>
-        <h3>{{ '快速链接' if lang == 'zh' else 'Quick Links' }}</h3>
+        <h3>{{ f.quickLinks }}</h3>
         <ul>
           {% for item in site.nav %}
           <li><a href="{{ item | navUrl(lang) }}">{{ item | navLabel(lang) }}</a></li>
@@ -166,7 +168,7 @@
       </div>
     </div>
     <div class="container copyright">
-      © {{ site.name }}. {{ '保留所有权利。' if (lang and lang.startsWith('zh')) else 'All rights reserved.' }}
+      © {{ site.name }}. {{ f.rights }}
     </div>
   </footer>
 
@@ -176,7 +178,7 @@
   <!-- AI Chat widget (primary real-time channel) -->
   <div id="chat-panel" class="chat-panel" hidden>
     <div class="chat-head">
-      <span>{{ 'AI 在线客服' if lang == 'zh' else 'AI Sales Assistant' }}</span>
+      <span>{{ f.chatPanel }}</span>
       <span class="chat-head-btns">
         <button id="chat-min" class="chat-min" type="button" aria-label="Minimize">—</button>
         <button id="chat-close" class="chat-close" type="button" aria-label="Close">×</button>
@@ -185,13 +187,13 @@
     <div id="chat-body" class="chat-body">
       <div id="chat-log" class="chat-log"></div>
       <form id="chat-form" class="chat-form">
-        <input id="chat-input" type="text" autocomplete="off" placeholder="{{ '输入您的问题…' if lang == 'zh' else 'Type your question…' }}" />
-        <button type="submit">{{ '发送' if lang == 'zh' else 'Send' }}</button>
+        <input id="chat-input" type="text" autocomplete="off" placeholder="{{ f.chatInput }}" />
+        <button type="submit">{{ f.chatSend }}</button>
       </form>
     </div>
   </div>
 
-  <script>window.__sharpenWhatsapp = "{{ site.whatsapp }}";</script>
+  <script>window.__sharpenWhatsapp = "{{ site.whatsapp }}"; window.__sharpenChatWelcome = {{ f.chatWelcome | tojson | safe }};</script>
   <script src="/assets/js/main.js"></script>
   <script src="/assets/js/chat.js"></script>
 </body>

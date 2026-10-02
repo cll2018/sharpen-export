@@ -47,7 +47,9 @@ module.exports = function (eleventyConfig) {
     return item[lang] || item.en;
   });
   eleventyConfig.addFilter("navLabel", function (item, lang) {
-    if (lang && lang.indexOf("zh") === 0 && item.zhLabel) return item.zhLabel;
+    if (lang === "zh-tw" && item.zhTwLabel) return item.zhTwLabel;
+    if (lang === "zh" && item.zhLabel) return item.zhLabel;
+    if (lang && item.labels && item.labels[lang]) return item.labels[lang];
     return item.label;
   });
 

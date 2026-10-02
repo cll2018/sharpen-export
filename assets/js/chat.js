@@ -25,9 +25,10 @@
     if (log && !log.dataset.greeted) {
       log.dataset.greeted = "1";
       addBot(
-        document.documentElement.lang === "zh"
+        window.__sharpenChatWelcome ||
+        (document.documentElement.lang === "zh"
           ? "您好！我是萨普的 AI 销售助手，请问有什么可以帮您？（产品、规格、交期、报价都可以问）"
-          : "Hi! I'm Sharpen's AI assistant. Ask me about products, specs, lead time or quotes."
+          : "Hi! I'm Sharpen's AI assistant. Ask me about products, specs, lead time or quotes.")
       );
     }
     if (input) input.focus();
