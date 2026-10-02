@@ -37,11 +37,25 @@ for (const l of site.langs) {
 }
 
 // robots.txt body (served at /robots.txt).
+// NOTE: Cloudflare's managed robots appends a block that Disallow `/` for many
+// AI crawlers AND for Baiduspider. Our site explicitly wants Baidu / 360 /
+// Sogou to index (Chinese-market SEO), so we add per-agent Allow rules after
+// the cloudflare block. robots.txt is order-insensitive per agent block, and
+// an agent's own rules override the wildcard, so these win for those agents.
 const robots = [
   "User-agent: *",
   "Allow: /",
   "# Block the Decap CMS admin from being indexed",
   "Disallow: /admin/",
+  "",
+  "# Explicitly allow Chinese-market search crawlers (overrides any Cloudflare",
+  "# managed-robots Disallow for these agents).",
+  "User-agent: Baiduspider",
+  "Allow: /",
+  "User-agent: 360bot",
+  "Allow: /",
+  "User-agent: Sogou",
+  "Allow: /",
   "",
   "Sitemap: " + DOMAIN + "/sitemap.xml",
 ].join("\n");
