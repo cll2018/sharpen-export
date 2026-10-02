@@ -42,7 +42,7 @@ module.exports = {
   email: "changliangliang@sapu-cn.online",
   phone: "+86-731-82225958",
   wechat: "sapu2023", // WeChat ID
-  whatsapp: "8613800000000", // TODO: digits only, e.g. 8613800000000 (no +) — replace with real number
+  whatsapp: "8618656871390", // digits only, e.g. 8613800000000 (no +)
   address: "No. 68, Zhuyun Road, Yuelu District, Changsha, Hunan, China",
   addressZh: "中国湖南省长沙市岳麓区竹韵路68号",
 
@@ -50,7 +50,9 @@ module.exports = {
   // 1) Tawk.to live chat — RECEIVE visitor messages in the Tawk dashboard /
   //    mobile app. Free. Get the Property ID from https://tawk.to and put it
   //    below (or edit it in the Decap CMS backend). When set, base.njk loads it.
-  tawkPropertyId: "YOUR_TAWK_PROPERTY_ID",
+  // Tawk.to live chat — RECEIVE visitor messages in the Tawk dashboard / mobile app.
+  // Value is the full embed path "propertyId/widgetId" from your Tawk install snippet.
+  tawkPropertyId: "6abf1e38b91309344d32ec0e/1k3t8s3es",
   // 2) Web3Forms: free, no-backend form-to-email. Get a key at
   //    https://web3forms.com and put it below; the RFQ form emails you.
   web3formsKey: "YOUR_WEB3FORMS_KEY",
