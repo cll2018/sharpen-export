@@ -10,43 +10,35 @@ description: "Changsha Sharpen New Materials: أخبار الشركة، اتجا
 
 ## أخبار الشركة
 
-### Listed in Hunan’s 2024 First Batch of Technology-Based SMEs
+### أُدرجت في الدفعة الأولى من الشركات التكنولوجية بهونان 2024
 *نُشر في: 2024-08-16*
 
-Sharpen was again approved for Hunan Province’s 2024 first batch of sci-tech SMEs, recognizing our innovation- and IP-driven growth.
+أُدرجت شركة شاربين مرة أخرى ضمن الدفعة الأولى من الشركات الصغيرة والمتوسطة المعتمدة على التقنية في هونان 2024، بما يعترف بنموها المبني على الابتكار والملكية الفكرية.
 
-Hunan Province recently published its 2024 first batch of planned technology-based SMEs, and Sharpen was again approved for inclusion. Technology-based SMEs are a backbone of innovation, relying on scientific and technical personnel to conduct R&D, obtain independent IP, and turn it into high-tech products or services for steady, robust growth. They play a key role in economic development, employment and scientific progress, and enjoy national and local policy support. Founded in 2013, Changsha Sharpen New Materials is a national high-tech enterprise integrating R&D, manufacturing, sales and service in powder-metallurgy new materials — a Hunan “Little Giant” specialized & innovative enterprise, a Changsha intelligent-manufacturing pilot, a Hunan new-materials enterprise and one of Hunan’s first innovative SMEs. Backed by the doctoral team led by Prof. He Yuehui of Central South University, we are committed to solving “chokepoint” new-material problems and realizing domestic substitution of imported products.
-
-### Strategic Investment Partnership with Futian Xingye Investment Group
+### شراكة استثمارية استراتيجية مع فوطيان شينغية
 *نُشر في: 2023-07-19*
 
-On July 17, 2023, Prof. He Yuehui’s team signed a strategic investment agreement with Futian Xingye Investment Group, combining deep-tech R&D with strong market and capital resources.
+في يوليو 2023، بقيادة كبير الخبراء التقنيين البروفيسور هو يويهوي، أبرمت شاربين شراكة استثمارية استراتيجية مع مجموعة فوطيان شينغية وأجريت مراسم التوقيع.
 
-On July 17, 2023, led by chief technical expert Prof. He Yuehui, Sharpen formally reached a strategic investment cooperation with Futian Xingye Investment Group and held a signing ceremony. Leaders from both sides attended. Prof. He said the partnership is a historic opportunity for the team and the company, and expressed confidence that by combining forces with Futian — whose chairman Hu Sheng brings rich market experience and strong financial strength — the two sides will achieve win-win, leapfrog development. After a decade building its ultra-hard products and PM-HSS technology system, Sharpen’s cooperation with Futian is a “strong-with-strong” deep integration aimed at joint growth.
-
-### Awarded the 2023 Hunan “Specialized & Innovative” SME Title
+### تسمية “متخصصة ومبتكرة” لمقاطعة هونان 2023
 *نُشر في: 2023-04-15*
 
-Sharpen received the 2023 Hunan Province specialized, refined, differentiated & innovative (“Little Giant”) SME designation.
+في عام 2023، نالت شاربين تسمية “متخصصة، مصنّفة، متميزة ومبتكرة” ضمن الشركات الصغيرة والمتوسطة لمقاطعة هونان.
 
-### Prof. He Yuehui Named Among the World’s Top 2% Scientists 2022
+### البروفيسور هو يويهوي ضمن أعلى 2% من العلماء 2022
 *نُشر في: 2022-12-01*
 
-Our chief technical expert, Prof. He Yuehui, was listed in the 2022 global top 2% scientists ranking published by Stanford University and Elsevier.
+أُدرج البروفيسور هو يويهوي ضمن قائمة العلماء الأبرز (أعلى 2%) حول العالم التي أصدرها جامعة ستانفورد وإلسفير بناءً على بيانات الاستشهادات.
 
-### Prof. He Yuehui Receives the “New Materials Achievement-Transformation Award”
+### البروفيسور هو يويهوي ينال “جائزة تحويل إنجازات المواد الجديدة”
 *نُشر في: 2019-11-14*
 
-At the 2nd China New Materials Industry Development Conference, Prof. He received the inaugural achievement-transformation award for his intermetallic-compound research and industrialization.
+في 14 نوفمبر 2019، نال البروفيسور هو يويهوي جائزة “تحوّل إنجازات المواد الجديدة” في ثاني مؤتمر على التنمية الصناعية للمواد الجديدة في الصين.
 
-At the opening of the 2nd China New Materials Industry Development Conference (Nov 14, 2019), Prof. He Yuehui received the inaugural “New Materials Achievement-Transformation Award.” Prof. He’s research focuses on intermetallic compounds, applying the concept to upgrade traditional materials and leapfrog material performance. Building on porous-material and clean-production inventions, he founded Chengdu Yitai Technology, creating billions in economic value. He pioneered cermet preparation and application in China, founded Chengdu Meshray New Materials (Ti(C,N)-based cermet, used by Chery and others), and co-developed diamond wire with Japan’s Asahi Diamond, enabling clean, low-cost solar-wafer processing. In 2017 he co-founded Changsha Diale New Material (listed on the ChiNext). He also founded Sharpen and other high-tech firms, creating hundreds of millions of yuan in annual social value.
-
-### Sharpen at CIMT2017
+### شاربين في معرض CIMT2017
 *نُشر في: 2017-04-22*
 
-Sharpen exhibited at the 15th China International Machine Tool Show (CIMT2017), showcasing SAP PM-HSS parts and cermet-bond diamond/CBN wheels.
-
-The 15th China International Machine Tool Show (CIMT2017) was held April 17–22, 2017, with Sharpen exhibiting at booth W7-418. Prof. He Yuehui led the doctoral R&D and sales teams. Sharpen showcased SAP PM-HSS formed parts — taps, drills, end mills, inserts, valve seats, mold guide posts — and cermet-bond diamond/CBN wheels for ultra-hard rotary tools and hard-brittle materials such as sapphire and zirconia. Long dependent on imports, Sharpen has built proprietary core preparation technology to localize both PM-HSS and superabrasive wheels, offering full-series solutions to manufacturers.
+في المعرض الصيني الدولي الخامس عشر لآلات الآلات (CIMT2017) الذي عُقد من 17 إلى 22 أبريل 2017، عرضت شاربين منتجاتها في الجناح W7-418.
 
 ### Sharpen at the 2nd PM / Ceramic Phone-Shell Forum
 *نُشر في: 2017-03-17*

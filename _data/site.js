@@ -30,7 +30,7 @@ module.exports = {
   name: "Changsha Sharpen New Materials Co., Ltd.",
   nameZh: "长沙市萨普新材料有限公司",
   shortName: "Sharpen",
-  domain: "sapu-cn.online", // used for canonical / hreflang absolute URLs
+  domain: "www.sapu-cn.online", // used for canonical / hreflang absolute URLs (www is the served/301 target)
   logo: "/assets/img/logo.png",
   defaultLang: "en",
   fallbackLang: "en",

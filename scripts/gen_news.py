@@ -50,6 +50,17 @@ articles = [
   'zh_title':'入库湖南省2024年度第一批科技型中小企业',
   'en_title':'Listed in Hunan’s 2024 First Batch of Technology-Based SMEs',
   'en_summary':'Sharpen was again approved for Hunan Province’s 2024 first batch of sci-tech SMEs, recognizing our innovation- and IP-driven growth.',
+  'title_de':'In die 1. Charge der Tech-KMU des Hunan 2024 aufgenommen',
+  'title_ja':'2024年度湖南省科技型中小企業第1次リストに採択',
+  'title_ko':'2024 후난성 과학기술형 중소기업 1차 명단 선정',
+  'title_ru':'Включён в первую партию тех-МСП Хунани 2024',
+  'title_es':'Incluido en el primer lote de PYMES tecnológicas del Hunan 2024',
+  'title_pt':'Incluído no primeiro lote de PMEs tecnológicas do Hunan 2024',
+  'title_fr':'Inscrit dans le 1er lot des PME technologiques du Hunan 2024',
+  'title_it':'Inserita nel primo lotto delle PMI tecnologiche del Hunan 2024',
+  'title_tr':'Hunan 2024 Tek-KOBİ’lerin 1. grubuna alındı',
+  'title_ar':'أُدرجت في الدفعة الأولى من الشركات التكنولوجية بهونان 2024',
+  'title_vi':'Được đưa vào danh sách DNNKV công nghệ tỉnh Hồ Nam 2024',
   'zh_body':"""近日，湖南省科技厅公布2024年度第一批拟入库科技型中小企业名单，我司再次获批入库。
 
 科技型中小企业作为推动创新与技术发展的中坚力量，特指依托一定数量科技人员开展科学技术研究活动，成功获取自主知识产权，并成功将其转化为高新技术产品或服务，以实现持续、稳健增长的中小企业。科技型中小企业在推动经济发展、促进就业和加速科技进步方面发挥着重要作用，并且能够享受国家和地方政府提供的扶持政策。
@@ -67,6 +78,17 @@ Founded in 2013, Changsha Sharpen New Materials is a national high-tech enterpri
   'zh_title':'战略合作∣长江学者贺跃辉教授团队与福天兴业投资集团达成战略投资合作',
   'en_title':'Strategic Investment Partnership with Futian Xingye Investment Group',
   'en_summary':'On July 17, 2023, Prof. He Yuehui’s team signed a strategic investment agreement with Futian Xingye Investment Group, combining deep-tech R&D with strong market and capital resources.',
+  'title_de':'Strategische Investitionspartnerschaft mit Futian Xingye',
+  'title_ja':'福天興業との戦略的投資提携',
+  'title_ko':'푸톈싱예와 전략적 투자 제휴',
+  'title_ru':'Стратегическое инвестпартнёрство с Futian Xingye',
+  'title_es':'Alianza de inversión estratégica con Futian Xingye',
+  'title_pt':'Aliança de investimento estratégico com Futian Xingye',
+  'title_fr':'Partenariat d’investissement stratégique avec Futian Xingye',
+  'title_it':'Alleanza di investimento strategico con Futian Xingye',
+  'title_tr':'Futian Xingye ile stratejik yatırım ortaklığı',
+  'title_ar':'شراكة استثمارية استراتيجية مع فوطيان شينغية',
+  'title_vi':'Hợp tác đầu tư chiến lược với Futian Xingye',
   'zh_body':"""2023年7月17日，由萨普新材首席技术专家贺跃辉教授带队与福天兴业投资集团正式达成战略投资合作并举行签约仪式。长江学者贺跃辉教授、福天兴业投资集团胡胜董事长、长沙艾拓沐总经理任彩等双方领导以及公司代表出席本次签约仪式。
 
 贺跃辉教授表示，今天很高兴在这里举行福天与我们团队合作签约仪式，这对我们团队和公司发展是一个历史性的好机遇，想必会借助这次合作，实现共赢和飞跃发展。也很荣幸，我们团队一直紧扣国际前沿技术发展产品，开展创新性研究，解决国家需求和国产化替代。
@@ -80,18 +102,51 @@ Prof. He said the partnership is a historic opportunity for the team and the com
   'zh_title':'喜讯！我司荣获2023年湖南省专精特新中小企业称号！',
   'en_title':'Awarded the 2023 Hunan “Specialized & Innovative” SME Title',
   'en_summary':'Sharpen received the 2023 Hunan Province specialized, refined, differentiated & innovative (“Little Giant”) SME designation.',
+  'title_de':'Auszeichnung als 2023er „Spezial- & Innovations-KMU“ des Hunan',
+  'title_ja':'2023年「专精特新」湖南省中小企業称号を受賞',
+  'title_ko':'2023 후난 “专精特新” 중소기업 칭호 수상',
+  'title_ru':'Звание «Специализированное и инновационное» МСП Хунани 2023',
+  'title_es':'Distintivo de PYME “Especializada e Innovadora” del Hunan 2023',
+  'title_pt':'Selos de PIM “Especializada e Inovadora” do Hunan 2023',
+  'title_fr':'Label « Spécialisée et Innovante » des PME du Hunan 2023',
+  'title_it':'Titolo PMI “Specializzata e Innovativa” del Hunan 2023',
+  'title_tr':'Hunan 2023 “Özgün ve İnovatif” KOBİ Unvanı',
+  'title_ar':'تسمية “متخصصة ومبتكرة” لمقاطعة هونان 2023',
+  'title_vi':'Danh hiệu DNNKV “Chuyên – Đổi mới” Hồ Nam 2023',
   'zh_body':'2023年，长沙市萨普新材料有限公司荣获湖南省“专精特新”中小企业称号。该称号旨在认定主营业务突出、竞争力强、具有细分行业领先地位的创新型中小企业，是对公司聚焦新材料“卡脖子”技术攻关与国产替代能力的肯定。'},
 
  {'cat':'company','date':'2022-12-01',
   'zh_title':'热烈祝贺我司首席技术专家贺跃辉教授入选2022年全球前2%顶尖科学家榜',
   'en_title':'Prof. He Yuehui Named Among the World’s Top 2% Scientists 2022',
   'en_summary':'Our chief technical expert, Prof. He Yuehui, was listed in the 2022 global top 2% scientists ranking published by Stanford University and Elsevier.',
+  'title_de':'Prof. He Yuehui unter den weltweiten Top-2-%-Wissenschaftlern 2022',
+  'title_ja':'賀躍輝教授が世界の上位2%科学者2022に選出',
+  'title_ko':'헤옌후이 교수, 세계 상위 2% 과학자 2022 선정',
+  'title_ru':'Проф. Хэ Юэхуй — в числе 2% самых цитируемых учёных мира 2022',
+  'title_es':'Prof. He Yuehui entre los 2% de científicos más citados del mundo 2022',
+  'title_pt':'Prof. He Yuehui entre os 2% mais citados do mundo 2022',
+  'title_fr':'Prof. He Yuehui parmi les 2% des scientifiques les plus cités 2022',
+  'title_it':'Prof. He Yuehui tra i 2% degli scienziati più citati al mondo 2022',
+  'title_tr':'Prof. He Yuehui, dünyanın en çok alıntılanan %2 bilim insanı arasında 2022',
+  'title_ar':'البروفيسور هو يويهوي ضمن أعلى 2% من العلماء 2022',
+  'title_vi':'GS He Yuehui trong top 2% nhà khoa học 2022',
   'zh_body':'2022年，公司首席技术专家贺跃辉教授入选斯坦福大学与Elsevier联合发布的“全球前2%顶尖科学家”榜单。该榜单基于论文被引频次等客观指标，涵盖全球各学科最具影响力的科学家，是对贺跃辉教授在粉末冶金与新材料领域长期学术贡献的国际认可。'},
 
  {'cat':'company','date':'2019-11-14',
   'zh_title':'贺跃辉教授获“新材料成果转化奖”',
   'en_title':'Prof. He Yuehui Receives the “New Materials Achievement-Transformation Award”',
   'en_summary':'At the 2nd China New Materials Industry Development Conference, Prof. He received the inaugural achievement-transformation award for his intermetallic-compound research and industrialization.',
+  'title_de':'Prof. He Yuehui erhält den „Neumaterial-Erfolgs- und Transformationspreis“',
+  'title_ja':'賀躍輝教授が「新素材成果転換賞」を受賞',
+  'title_ko':'헤옌후이 교수, “신소재 성과 전환상” 수상',
+  'title_ru':'Проф. Хэ Юэхуй получил Премию за трансформацию достижений в новых материалах',
+  'title_es':'Prof. He Yuehui recibe el “Premio a la Transformación de Logros en Nuevos Materiales”',
+  'title_pt':'Prof. He Yuehui recebe o “Prêmio de Transformação de Conquistas em Novos Materiais”',
+  'title_fr':'Prof. He Yuehui reçoit le « Prix de transformation des réalisations en nouveaux matériaux »',
+  'title_it':'Prof. He Yuehui riceve il “Premio alla Trasformazione dei Risultati nei Nuovi Materiali”',
+  'title_tr':'Prof. He Yuehui, “Yeni Malzeme Başarı-Dönüşüm Ödülü”nü aldı',
+  'title_ar':'البروفيسور هو يويهوي ينال “جائزة تحويل إنجازات المواد الجديدة”',
+  'title_vi':'GS He Yuehui nhận “Giải Chuyển hóa Thành tựu Vật liệu Mới”',
   'zh_body':"""2019年11月14日上午，第二届中国新材料产业发展大会开幕式在湖南国际会展中心（芒果馆）举行，贺跃辉教授获此次大会的“新材料成果转化奖”并出席颁奖仪式。
 
 贺跃辉主要研究“金属间化合物”方向，将金属间化合物新概念材料应用于传统材料升级、传统材料领域概念的扩展、新结构的新材料提出和新材料性能的弯道超车。他以基于Kirkendall效应偏扩散造孔制备多孔材料，实现铁合金、高钛渣、Mn-Si合金矿热炉，MoS煅烧，创新的黄磷干法生产新方法等研究成果为基础，成立了成都易态科技有限公司，直接创造经济效益数十亿元。
@@ -109,6 +164,17 @@ Prof. He’s research focuses on intermetallic compounds, applying the concept t
   'zh_title':'萨普新材CIMT2017',
   'en_title':'Sharpen at CIMT2017',
   'en_summary':'Sharpen exhibited at the 15th China International Machine Tool Show (CIMT2017), showcasing SAP PM-HSS parts and cermet-bond diamond/CBN wheels.',
+  'title_de':'Sharpen auf der CIMT2017',
+  'title_ja':'Sharpen、CIMT2017に出展',
+  'title_ko':'샤펜, CIMT2017 참가',
+  'title_ru':'Sharpen на CIMT2017',
+  'title_es':'Sharpen en la CIMT2017',
+  'title_pt':'Sharpen na CIMT2017',
+  'title_fr':'Sharpen à la CIMT2017',
+  'title_it':'Sharpen alla CIMT2017',
+  'title_tr':'Sharpen, CIMT2017’de',
+  'title_ar':'شاربين في معرض CIMT2017',
+  'title_vi':'Sharpen tham gia CIMT2017',
   'zh_body':"""第15届中国国际机床展（CIMT2017）于2017年4月17-22日盛大召开！萨普新材产品亮相W7-418展位！
 
 萨普新材首席项目专家贺跃辉教授携博士研发团队、销售团队出席本次展会。本次展会萨普新材展出SAP粉末冶金高速钢成型产品：丝锥、钻花、铣刀，铲钻刀片、气门座圈、模具导柱等。可广泛用于超硬回转体、刀片加工，蓝宝石、氧化锆等硬脆材料加工的金属陶瓷结合剂金刚石/CBN砂轮。
@@ -399,6 +465,90 @@ PAGE = {
              date='Công bố: '),
 }
 
+# Per-language localized bodies for the 6 core company-news articles
+# (keys = the article's en_title). Used by the generic 11-lang build path.
+BODY11 = {
+ 'Listed in Hunan’s 2024 First Batch of Technology-Based SMEs': {
+  'de':'Sharpen wurde erneut in die erste Charge der hunanischen Tech-basierten KMU 2024 aufgenommen, was unser innovations- und IP-getriebenes Wachstum anerkennt.',
+  'ja':'長沙Sharpen新材料は、2024年度第1回湖南省科技型中小企業リストに再び採択されました。革新的・IP主導の成長が認定されました。',
+  'ko':'샤펜新材는 2024년 후난성 제1차 과학기술형 중소기업 명단에 다시 선정되었으며, 혁신 및 IP 중심의 성장이 인정되었습니다.',
+  'ru':'Sharpen вновь включён в первую партию технологических МСП провинции Хунань 2024 года, что подтверждает инновационный рост, опирающийся на интеллектуальную собственность.',
+  'es':'Sharpen fue incluido de nuevo en el primer lote de PYMES basadas en tecnología de Hunan de 2024, en reconocimiento a su crecimiento impulsado por innovación e I+D.',
+  'pt':'Sharpen foi novamente incluído no primeiro lote de PMEs baseadas em tecnologia de Hunan em 2024, reconhecendo seu crescimento impulsionado por inovação e P&D.',
+  'fr':'Sharpen a de nouveau été inscrit dans le premier lot des PME technologiques du Hunan 2024, en reconnaissance de sa croissance axée sur l’innovation et la propriété intellectuelle.',
+  'it':'Sharpen è stata nuovamente inserita nel primo lotto delle PMI basate sulla tecnologia dello Hunan del 2024, a riconoscimento della sua crescita guidata dall’innovazione e dalla proprietà intellettuale.',
+  'tr':'Sharpen, 2024 Hunan Teknolojiye Dayalı KOBİ’lerin ilk grubuna yeniden dahil edildi; bu, inovasyon ve fikri mülkiyet odaklı büyümemizi tescil eder.',
+  'ar':'أُدرجت شركة شاربين مرة أخرى ضمن الدفعة الأولى من الشركات الصغيرة والمتوسطة المعتمدة على التقنية في هونان 2024، بما يعترف بنموها المبني على الابتكار والملكية الفكرية.',
+  'vi':'Sharpen một lần nữa được đưa vào danh sách đầu tiên của các DNNKV dựa trên công nghệ tỉnh Hồ Nam năm 2024, ghi nhận sự phát triển do đổi mới và sở hữu trí tuệ dẫn dắt.',
+ },
+ 'Strategic Investment Partnership with Futian Xingye Investment Group': {
+  'de':'Im Juli 2023 schloss Sharpen unter der Leitung von Chefexpert Prof. He Yuehui eine strategische Investitionspartnerschaft mit dem Futian-Xingye-Konzern ab und unterzeichnete die entsprechenden Vereinbarungen.',
+  'ja':'2023年7月、首席技術専門家賀躍輝教授の主導で、Sharpenは福天興業投資グループと戦略的な投資提携を結び、調印式を開催しました。',
+  'ko':'2023년 7월, 수석 기술 전문가 헤옌후이 교수의 주도 하에 Sharpen은 푸톈싱예 투자그룹과 전략적 투자 제휴를 체결하고 서명식을 가졌습니다.',
+  'ru':'В июле 2023 г. под руководством ведущего технического эксперта, проф. Хэ Юэхуя, Sharpen заключила стратегическое инвестиционное партнёрство с группой «Футянь Синъе» и провела церемонию подписания.',
+  'es':'En julio de 2023, bajo la dirección del experto técnico principal, el Prof. He Yuehui, Sharpen estableció una alianza de inversión estratégica con el Grupo Futian Xingye y celebró la ceremonia de firma.',
+  'pt':'Em julho de 2023, sob a direção do principal especialista técnico, Prof. He Yuehui, a Sharpen firmou uma aliança de investimento estratégico com o Grupo Futian Xingye e realizou a cerimônia de assinatura.',
+  'fr':'En juillet 2023, sous la direction de son expert technique principal, le Prof. He Yuehui, Sharpen a conclu un partenariat d’investissement stratégique avec le Groupe Futian Xingye et tenu la cérémonie de signature.',
+  'it':'Nel luglio 2023, sotto la guida del principale esperto tecnico, Prof. He Yuehui, Sharpen ha stretto un’alleanza di investimento strategico con il Gruppo Futian Xingye e ha tenuto la cerimonia di firma.',
+  'tr':'Temmuz 2023’te, baş teknik uzman Prof. He Yuehui’nin önderliğinde Sharpen, Futian Xingye Grubu ile stratejik bir yatırım ortaklığı kurdu ve imza töreni düzenledi.',
+  'ar':'في يوليو 2023، بقيادة كبير الخبراء التقنيين البروفيسور هو يويهوي، أبرمت شاربين شراكة استثمارية استراتيجية مع مجموعة فوطيان شينغية وأجريت مراسم التوقيع.',
+  'vi':'Tháng 7/2023, dưới sự dẫn dắt của chuyên gia kỹ thuật trưởng, GS He Yuehui, Sharpen đã ký kết hợp tác đầu tư chiến lược với Tập đoàn Futian Xingye và tổ chức lễ ký.',
+ },
+ 'Awarded the 2023 Hunan “Specialized & Innovative” SME Title': {
+  'de':'2023 erhielt Sharpen die Auszeichnung als „Spezialisierte, exzellente, differenzierte und innovative“ KMU in der Provinz Hunan.',
+  'ja':'2023年、長沙Sharpen新材料は湖南省「専精特新」中小企業称号を受賞しました。',
+  'ko':'2023년 샤펜新材는 후난성 “전문·정교·차별·혁신(专精特新)” 중소기업 칭호를 수상했습니다.',
+  'ru':'В 2023 году Sharpen удостоена звания «Специализированное, отточенное, дифференцированное и инновационное» МСП провинции Хунань.',
+  'es':'En 2023, Sharpen obtuvo el distintivo de PYME “Especializada, pulida, diferenciada e innovadora” de la provincia de Hunan.',
+  'pt':'Em 2023, a Sharpen recebeu o selo de PIM “Especializada, refinada, diferenciada e inovadora” da província de Hunan.',
+  'fr':'En 2023, Sharpen a reçu le label « Spécialisée, raffinée, différenciée et innovante » attribué aux PME de la province du Hunan.',
+  'it':'Nel 2023, Sharpen ha ricevuto il titolo di PMI “Specializzata, raffinata, differenziata e innovativa” della provincia di Hunan.',
+  'tr':'2023’te Sharpen, Hunan Eyaleti’nin “Özgün, Rafine, Farklılaşmış ve İnovatif” KOBİ unvanını aldı.',
+  'ar':'في عام 2023، نالت شاربين تسمية “متخصصة، مصنّفة، متميزة ومبتكرة” ضمن الشركات الصغيرة والمتوسطة لمقاطعة هونان.',
+  'vi':'Năm 2023, Sharpen nhận danh hiệu DNNKV “Chuyên – Sắc – Khác biệt – Đổi mới” của tỉnh Hồ Nam.',
+ },
+ 'Prof. He Yuehui Named Among the World’s Top 2% Scientists 2022': {
+  'de':'Prof. He Yuehui wurde in die Liste der weltweiten Top-2-%-Wissenschaftler aufgenommen, die von Stanford University und Elsevier auf Basis von Zitationsdaten herausgegeben wird.',
+  'ja':'賀躍輝教授は、スタンフォード大学とElsevierが論文被引用回数を指標に発表した「世界の上位2%の科学者」リストに選出されました。',
+  'ko':'헤옌후이 교수는 스탠퍼드 대학과 엘스비어가 논문 피인용 빈도를 기준으로 발표한 ‘세계 상위 2% 과학자’ 명단에 선정되었습니다.',
+  'ru':'Проф. Хэ Юэхуй вошёл в рейтинг 2% самых цитируемых учёных мира, подготовленный Стэнфордским университетом и издательством Elsevier.',
+  'es':'El Prof. He Yuehui fue incluido en la lista de los 2% de científicos más citados del mundo, elaborada por la Universidad de Stanford y Elsevier a partir de datos de citas.',
+  'pt':'O Prof. He Yuehui foi incluído na lista dos 2% de cientistas mais citados do mundo, elaborada pela Universidade de Stanford e pela Elsevier.',
+  'fr':'Le Prof. He Yuehui a été retenu parmi les 2 % des scientifiques les plus cités au monde, liste établie par l’Université de Stanford et Elsevier.',
+  'it':'Il Prof. He Yuehui è stato inserito tra l’1% (top 2%) degli scienziati più citati al mondo, nella classifica compilata dall’Università di Stanford e Elsevier.',
+  'tr':'Prof. He Yuehui, Stanford Üniversitesi ve Elsevier’in atıf verisi esaslı “dünyanın en çok alıntı yapılan %2 bilim insanı” listesine girdi.',
+  'ar':'أُدرج البروفيسور هو يويهوي ضمن قائمة العلماء الأبرز (أعلى 2%) حول العالم التي أصدرها جامعة ستانفورد وإلسفير بناءً على بيانات الاستشهادات.',
+  'vi':'GS He Yuehui được xếp vào nhóm 2% nhà khoa học được dẫn trích dẫn nhiều nhất toàn cầu do Đại học Stanford và Elsevier công bố.',
+ },
+ 'Prof. He Yuehui Receives the “New Materials Achievement-Transformation Award”': {
+  'de':'Am 14. November 2019 erhielt Prof. He Yuehui den neuen „New Materials Achievement-Transformation Award“ auf der 2. China-Neumaterialien-Konferenz in Changsha.',
+  'ja':'2019年11月14日、第2回中国新素材産業発展大会（長沙）で、賀躍輝教授が「新素材成果転換賞」を受賞しました。',
+  'ko':'2019년 11월 14일, 제2차 중국 신소재 산업 발전대회에서 헤옌후이 교수가 ‘신소재 성과 전환상’을 수상했습니다.',
+  'ru':'14 ноября 2019 г. на 2-й конференции по развитию новых материалов в Китае проф. Хэ Юэхуй получил новую премию «Трансформация достижений в области новых материалов».',
+  'es':'El 14 de noviembre de 2019, el Prof. He Yuehui recibió el nuevo “Premio a la Transformación de Logros en Nuevos Materiales” en la 2.ª Conferencia de Desarrollo de Nuevos Materiales de China.',
+  'pt':'Em 14 de novembro de 2019, o Prof. He Yuehui recebeu o novo “Prêmio de Transformação de Conquistas em Novos Materiais” na 2.ª Conferência de Desenvolvimento de Novos Materiais da China.',
+  'fr':'Le 14 novembre 2019, le Prof. He Yuehui a reçu le nouveau « Prix de Transformation des Réalisations en Nouveaux Matériaux » lors de la 2e Conférence chinoise sur le développement des nouveaux matériaux.',
+  'it':'Il 14 novembre 2019 il Prof. He Yuehui ha ricevuto il nuovo “Premio alla Trasformazione dei Risultati nei Nuovi Materiali” alla 2a Conferenza cinese sullo sviluppo dei nuovi materiali.',
+  'tr':'14 Kasım 2019’da Prof. He Yuehui, Çin’in 2. Yeni Malzeme Geliştirme Konferansı’nda “Yeni Malzeme Başarı-Dönüşüm Ödülü”nü aldı.',
+  'ar':'في 14 نوفمبر 2019، نال البروفيسور هو يويهوي جائزة “تحوّل إنجازات المواد الجديدة” في ثاني مؤتمر على التنمية الصناعية للمواد الجديدة في الصين.',
+  'vi':'Ngày 14/11/2019, GS He Yuehui nhận “Giải Chuyển hóa Thành tựu Vật liệu Mới” tại Hội nghị Phát triển Công nghiệp Vật liệu Mới Trung Quốc lần thứ 2.',
+ },
+ 'Sharpen at CIMT2017': {
+  'de':'Auf der 15. China International Machine Tool Show (CIMT2017) präsentierte Sharpen vom 17.–22. April 2017 seine Produkte am Stand W7-418.',
+  'ja':'第15回中国国際机床展（CIMT2017）が2017年4月17日〜22日に開催され、SharpenはW7-418ブースで製品を展示しました。',
+  'ko':'제15회 중국국제금속가공전(CIMT2017)에서 샤펜은 2017년 4월 17~22일 W7-418 부스에서 제품을 전시했습니다.',
+  'ru':'На 15-й Китайской международной выставке станочного оборудования (CIMT2017), проходившей 17–22 апреля 2017 г., Sharpen демонстрировал свои продукты на стенде W7-418.',
+  'es':'En la 15.ª Feria Internacional de Máquinas-Herramienta de China (CIMT2017), celebrada del 17 al 22 de abril de 2017, Sharpen expuso sus productos en el stand W7-418.',
+  'pt':'Na 15.ª Feira Internacional de Máquinas-Ferramentas da China (CIMT2017), realizada de 17 a 22 de abril de 2017, a Sharpen expôs seus produtos no estande W7-418.',
+  'fr':'Lors de la 15e Foire internationale chinoise des machines-outils (CIMT2017), du 17 au 22 avril 2017, Sharpen a présenté ses produits au stand W7-418.',
+  'it':'Alla 15a Fiera internazionale cinese di macchine utensili (CIMT2017), tenutasi dal 17 al 22 aprile 2017, Sharpen ha esposto i propri prodotti allo stand W7-418.',
+  'tr':'15. Çin Uluslararası Makine ve Tezgah Fuarı (CIMT2017), 17–22 Nisan 2017’de düzenlendi; Sharpen ürünlerini W7-418 standında sergiledi.',
+  'ar':'في المعرض الصيني الدولي الخامس عشر لآلات الآلات (CIMT2017) الذي عُقد من 17 إلى 22 أبريل 2017، عرضت شاربين منتجاتها في الجناح W7-418.',
+  'vi':'Sharpen tham gia triển lãm máy CNC quốc tế Trung Quốc lần 15 (CIMT2017), tổ chức 17–22/4/2017, tại gian W7-418.',
+ },
+}
+
+
 def build(lang, as_lang=None):
     # as_lang: when set to 'zh-tw', front-matter uses that lang/permalink and
     # Chinese content pieces are converted to traditional via cc.convert.
@@ -458,10 +608,16 @@ def build(lang, as_lang=None):
             img=image_line(a,lang)
             if img:
                 lines.append(img); lines.append("")
-            lines.append(clean(a.get('en_summary','')))
-            if a.get('en_body'):
-                lines.append("")
-                lines.append(clean(a['en_body']))
+            # Use a localized body when available (BODY11 keyed by en_title);
+            # in that case skip the English summary to avoid mixed EN/LOC text.
+            loc_body = BODY11.get(a.get('en_title'), {}).get(lang)
+            if loc_body:
+                lines.append(clean(loc_body))
+            else:
+                lines.append(clean(a.get('en_summary','')))
+                if a.get('en_body'):
+                    lines.append("")
+                    lines.append(clean(a['en_body']))
             lines.append("")
     return "\n".join(lines)
 
