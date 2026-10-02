@@ -5,6 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{{ site.name }}</title>
   <meta name="description" content="{{ site.name }} — diamond/CBN grinding wheels, powder metallurgy high-speed steel, TiNiCo superalloy heat spreaders." />
+  {% if site.baiduVerifyMeta %}
+  {{ site.baiduVerifyMeta | safe }}
+  {% endif %}
+  {% if site.sogouVerifyMeta %}
+  {{ site.sogouVerifyMeta | safe }}
+  {% endif %}
   <link rel="canonical" href="https://{{ site.domain }}/" />
   {% for l in site.langs %}
   <link rel="alternate" hreflang="{{ l.code }}" href="https://{{ site.domain }}/{{ l.code }}/" />
