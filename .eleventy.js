@@ -14,6 +14,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("data");
   eleventyConfig.addPassthroughCopy("llms.txt");
+  // Root favicon.ico — browsers/crawlers auto-request /favicon.ico; serving a
+  // real file here turns the default 404 into a 200 and avoids console/audit noise.
+  eleventyConfig.addPassthroughCopy("favicon.ico");
 
   // Keep build/runtime helpers out of the output.
   eleventyConfig.ignores.add("README.md");
