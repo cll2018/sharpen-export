@@ -6,6 +6,9 @@ backend:
   name: github
   repo: cll2018/sharpen-export
   branch: main
+  base_url: https://www.sapu-cn.online
+  auth_endpoint: decap/auth
+  site_url: https://www.sapu-cn.online
   squash_merges: true
 
 # Allow local testing via `npx decap-server` (set local_backend: true).
