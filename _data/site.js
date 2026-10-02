@@ -71,7 +71,7 @@ module.exports = {
   // Baidu "index.html" / "dns verification" code (ziyuan.baidu.com).
   // When Baidu gives you an "HTML tag" verification string, put it here;
   // when it gives a file+token, put it in functions/verify/baidu.js instead.
-  baiduVerifyMeta: "",
+  baiduVerifyMeta: '<meta name="baidu-site-verification" content="codeva-IZs3s0286F" />',
   // Bing Webmaster "meta tag" verification (optional, shared with Yandex/Ecosia).
   bingVerifyMeta: "",
 
