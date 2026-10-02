@@ -72,6 +72,8 @@ module.exports = {
   // When Baidu gives you an "HTML tag" verification string, put it here;
   // when it gives a file+token, put it in functions/verify/baidu.js instead.
   baiduVerifyMeta: '<meta name="baidu-site-verification" content="codeva-IZs3s0286F" />',
+  // Sogou site verification (zhanzhang.sogou.com).
+  sogouVerifyMeta: '<meta name="sogou_site_verification" content="8L1sQH0SpY" />',
   // Bing Webmaster "meta tag" verification (optional, shared with Yandex/Ecosia).
   bingVerifyMeta: "",
 
