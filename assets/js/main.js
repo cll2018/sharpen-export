@@ -1,7 +1,29 @@
-// Site interactions: RFQ form submission (Cloudflare Function /rfq -> email)
+// Site interactions: RFQ form submission (EmailJS -> changliangliang@sapu-cn.online)
 // + mobile nav.
+//
+// EmailJS config (fill in after https://emailjs.com / https://formspark.io).
+// FREE: 200 requests/month — plenty for a B2B inquiry site.
 (function () {
   "use strict";
+
+  // ----- EmailJS config (replace with your real values) -----
+  var EMAILJS_SERVICE_ID = "YOUR_SERVICE_ID";    // e.g. "default_service"
+  var EMAILJS_TEMPLATE_ID = "YOUR_TEMPLATE_ID";   // e.g. "template_rfqa1b2c"
+  var EMAILJS_PUBLIC_KEY = "YOUR_PUBLIC_KEY";     // e.g. "AbCdEfGhIjKl"
+
+  var INBOX = "changliangliang@sapu-cn.online";
+  var WHATSAPP = "https://wa.me/8618656871390";
+
+  function configured() {
+    return (
+      EMAILJS_SERVICE_ID &&
+      EMAILJS_TEMPLATE_ID &&
+      EMAILJS_PUBLIC_KEY &&
+      EMAILJS_SERVICE_ID.indexOf("YOUR_") !== 0 &&
+      EMAILJS_TEMPLATE_ID.indexOf("YOUR_") !== 0 &&
+      EMAILJS_PUBLIC_KEY.indexOf("YOUR_") !== 0
+    );
+  }
 
   document.addEventListener("DOMContentLoaded", function () {
     var form = document.getElementById("rfqForm");
@@ -12,7 +34,7 @@
       "Thanks! Your inquiry has been sent. We'll reply shortly.";
     var errText =
       form.dataset.err ||
-      "Something went wrong. Please email us directly or use WhatsApp.";
+      "Something went wrong. Please email " + INBOX + " or use WhatsApp.";
 
     form.addEventListener("submit", function (e) {
       e.preventDefault();
@@ -23,55 +45,63 @@
       var prevLabel = btn ? btn.textContent : "";
       if (btn) { btn.disabled = true; btn.textContent = "提交中…"; }
 
-      fetch("/rfq", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload),
-      })
-        .then(function (r) { return r.json(); })
-        .then(function (res) {
-          if (res && res.ok) {
+      function showOk(html) { msg.className = "form-msg ok"; msg.innerHTML = html; }
+      function showErr(text) { msg.className = "form-msg err"; msg.textContent = text; }
+      function done() { if (btn) { btn.disabled = false; btn.textContent = prevLabel; } }
+
+      var lead =
+        '<div style="margin-top:8px;display:flex;gap:8px;flex-wrap:wrap">' +
+        '<a class="btn btn-primary" style="text-decoration:none" target="_blank" rel="noopener" href="mailto:' + INBOX + '?subject=' +
+        encodeURIComponent("[Sharpen 询盘] " + (payload.name || "") + " — " + (payload.product || "RFQ")) +
+        ' body=' +
+        encodeURIComponent(
+          "姓名: " + (payload.name || "") + "\n公司: " + (payload.company || "") +
+          "\n邮箱: " + (payload.email || "") + "\n国家: " + (payload.country || "") +
+          "\n意向产品: " + (payload.product || "") + "\n留言: " + (payload.message || "")
+        ) + '">📧 发邮件到 ' + INBOX + '</a>' +
+        '<a class="btn" style="text-decoration:none;background:#25d366;color:#fff" target="_blank" rel="noopener" href="' + WHATSAPP + '">💬 WhatsApp</a></div>';
+
+      if (!configured()) {
+        showOk("询盘已生成邮件草稿，点击下方按钮即可完成发送：" + lead);
+        return;
+      }
+
+      // Load EmailJS if not present
+      if (!window.emailjs) {
+        var s = document.createElement("script");
+        s.src = "https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js";
+        s.async = true;
+        s.onload = function () { doSend(); };
+        s.onerror = function () {
+          showErr(errText);
+          done();
+        };
+        document.head.appendChild(s);
+      } else {
+        doSend();
+      }
+
+      function doSend() {
+        window.emailjs.init(EMAILJS_PUBLIC_KEY);
+        window.emailjs
+          .send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, {
+            from_name: payload.name || "",
+            from_email: payload.email || "",
+            company: payload.company || "",
+            country: payload.country || "",
+            product: payload.product || "",
+            message: payload.message || "",
+            to: INBOX,
+          })
+          .then(function () {
             form.reset();
-            if (res.delivered === "email" || res.delivered === "archived") {
-              msg.className = "form-msg ok";
-              msg.innerHTML =
-                (res.note ? res.note + " " : "") + okText;
-              msg.innerHTML = okText;
-              if (res.delivered === "archived" && res.note) {
-                msg.innerHTML =
-                  res.note + " <br><small>（可直接邮件：" +
-                  (res.to || "changliangliang@sapu-cn.online") +
-                  " 或 WhatsApp）</small>";
-              }
-            } else if (res.delivered === "mailto" && res.mailto) {
-              // Email Worker / R2 未配置 —— 引导访客用自带邮件客户端
-              msg.className = "form-msg ok";
-              msg.innerHTML =
-                "我们已为您生成邮件草稿，点击下方按钮即可完成发送：" +
-                '<div style="margin-top:8px;display:flex;gap:8px;flex-wrap:wrap">' +
-                '<a class="btn btn-primary" style="text-decoration:none" href="' +
-                res.mailto + '">📧 打开邮件发送给 ' +
-                (res.to || "changliangliang@sapu-cn.online") +
-                "</a>" +
-                '<a class="btn" style="text-decoration:none;background:#25d366;color:#fff" target="_blank" rel="noopener" href="' +
-                (res.whatsapp || "https://wa.me/8618656871390") +
-                '">💬 或 WhatsApp</a></div>';
-            } else {
-              msg.className = "form-msg ok";
-              msg.textContent = okText;
-            }
-          } else {
-            msg.className = "form-msg err";
-            msg.textContent = (res && res.error) || errText;
-          }
-        })
-        .catch(function () {
-          msg.className = "form-msg err";
-          msg.textContent = errText;
-        })
-        .finally(function () {
-          if (btn) { btn.disabled = false; btn.textContent = prevLabel; }
-        });
+            showOk(okText);
+          })
+          .catch(function (err) {
+            showErr("提交未成功，请改用邮件或 WhatsApp：" + lead + (err && err.message ? "（" + err.message + "）" : ""));
+          })
+          .finally(done);
+      }
     });
   });
 })();
