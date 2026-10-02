@@ -6,15 +6,20 @@
   "use strict";
 
   var panel = document.getElementById("chat-panel");
+  var body = document.getElementById("chat-body");
   var log = document.getElementById("chat-log");
   var form = document.getElementById("chat-form");
   var input = document.getElementById("chat-input");
   var toggles = ["chat-toggle", "chat-toggle-2", "chat-toggle-3"];
   var history = [];
+  var minBtn = document.getElementById("chat-min");
 
   function openChat() {
     if (!panel) return;
     panel.hidden = false;
+    // re-expand a collapsed panel
+    if (body) body.classList.remove("is-collapsed");
+    if (minBtn) minBtn.textContent = "—";
     var t = document.getElementById("chat-toggle");
     if (t) t.setAttribute("aria-expanded", "true");
     if (log && !log.dataset.greeted) {
@@ -33,6 +38,13 @@
     var t = document.getElementById("chat-toggle");
     if (t) t.setAttribute("aria-expanded", "false");
   }
+  function toggleMin() {
+    if (!panel || !body) return;
+    var collapsed = body.classList.toggle("is-collapsed");
+    if (minBtn) minBtn.textContent = collapsed ? "+" : "—";
+    if (!collapsed && input) input.focus();
+  }
+  if (minBtn) minBtn.addEventListener("click", toggleMin);
   function addMsg(text, who) {
     var el = document.createElement("div");
     el.className = "chat-msg " + who;

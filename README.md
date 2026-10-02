@@ -11,10 +11,12 @@ built to deploy on **Cloudflare Pages** with a **Decap CMS** backend and an
   (each is one row in `_data/site.js` — add/remove freely).
 - **Real-time inquiry stack**:
   1. **AI Chat** (primary) — a chat widget that calls `/ai-chat` (a Cloudflare
-     Pages Function) which proxies any OpenAI-compatible LLM.
+     Pages Function) which proxies any OpenAI-compatible LLM. The dialog can be
+     **minimized** (collapse) and **closed** (hide) and reopened any time.
   2. **WhatsApp** floating button.
   3. **RFQ form** (Web3Forms, no backend) that emails inquiries to you.
-  4. *Optional* Tawk.to live chat.
+  4. *Optional* Tawk.to live chat (currently off; re-enable by restoring the
+     embed block in `_includes/base.njk` and setting `tawkPropertyId`).
 - **Decap CMS** at `/admin/` so non-technical staff can edit pages **and** the
   AI chat settings from a browser.
 
@@ -39,15 +41,18 @@ npm run build      # outputs to _site/
   - `apiBaseUrl` — any OpenAI-compatible endpoint, e.g.
     - OpenAI: `https://api.openai.com/v1`
     - DeepSeek: `https://api.deepseek.com/v1`
+    - Agnes: `https://api.agnes-ai.cn/v1`
     - OpenRouter / Groq / your self-hosted endpoint
-  - `model` — e.g. `gpt-4o-mini` or `deepseek-chat`
+  - `model` — e.g. `gpt-4o-mini`, `deepseek-chat`, or `agnes-3.0-flash`
   - `systemPrompt` — who the bot is / how to answer
 - **Secret API key** is **never** in the repo. Set it as a Cloudflare Pages
-  environment variable: `AI_LLM_API_KEY = sk-...`
+  environment variable: `AI_LLM_API_KEY = <your key>`
   (Dashboard → Pages → Settings → Environment variables → Production).
 - The chat widget (`assets/js/chat.js`) and `functions/ai-chat.js` read this
-  config at runtime. If AI is disabled or errors, it gracefully falls back to
-  "leave your WhatsApp/email" lead capture.
+  config at runtime. The dialog can be **minimized** (header “—”) and **closed**
+  (header “×”), and reopened via the header “💬 AI Chat”, the footer “AI Chat”,
+  or any “chat-toggle-3” button. If AI is disabled or errors, it gracefully
+  falls back to "leave your WhatsApp/email" lead capture.
 
 ## 3) Localize the other languages
 English + Chinese are fully written. The other 11 languages ship as English

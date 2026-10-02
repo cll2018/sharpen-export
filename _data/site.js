@@ -47,19 +47,16 @@ module.exports = {
   addressZh: "中国湖南省长沙市岳麓区竹韵路68号",
 
   // --- Real-time inquiry -------------------------------------------------
-  // 1) Tawk.to live chat — RECEIVE visitor messages in the Tawk dashboard /
-  //    mobile app. Free. Get the Property ID from https://tawk.to and put it
-  //    below (or edit it in the Decap CMS backend). When set, base.njk loads it.
-  // Tawk.to live chat — RECEIVE visitor messages in the Tawk dashboard / mobile app.
-  // Value is the full embed path "propertyId/widgetId" from your Tawk install snippet.
-  tawkPropertyId: "6abf1e38b91309344d32ec0e/1k3t8s3es",
-  // 2) Web3Forms: free, no-backend form-to-email. Get a key at
-  //    https://web3forms.com and put it below; the RFQ form emails you.
-  web3formsKey: "YOUR_WEB3FORMS_KEY",
-  // 3) Built-in AI chat (primary auto-reply channel). Configuration lives in
+  // 1) Built-in AI chat (primary auto-reply channel). Configuration lives in
   //    data/settings.json (editable in the Decap CMS backend); the secret API
   //    key lives in a Cloudflare Pages env var AI_LLM_API_KEY.
   aiChatPath: "/ai-chat",
+  // 2) Web3Forms: free, no-backend form-to-email. Get a key at
+  //    https://web3forms.com and put it below; the RFQ form emails you.
+  web3formsKey: "YOUR_WEB3FORMS_KEY",
+  // 3) Tawk.to live chat is no longer used. To re-enable it later, put your
+  //    full "propertyId/widgetId" below and restore the embed block in base.njk.
+  tawkPropertyId: "YOUR_TAWK_PROPERTY_ID",
 
   // --- Resources --------------------------------------------------------
   brochure: "/assets/img/brochure.pdf", // company brochure (migrated from old site)
