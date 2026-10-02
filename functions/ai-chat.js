@@ -43,7 +43,7 @@ export async function onRequestPost({ request, env }) {
 
   const systemPrompt =
     (settings.systemPrompt || "") +
-    `\n\nRespond in the language code: ${lang}.`;
+    `\n\nLANGUAGE RULE: Reply in the same language the user used (detect from the user's last message). Never reply with a canned greeting or self-introduction. Answer their specific question in 1-4 short sentences.`;
 
   try {
     const upstream = await fetch(settings.apiBaseUrl + "/chat/completions", {

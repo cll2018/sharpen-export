@@ -66,8 +66,10 @@ h1, h2, h3 { line-height: 1.25; color: var(--blue-dark); }
 .hero h1 { color: #fff; font-size: 40px; margin: 0 0 14px; }
 .hero .lead { font-size: 19px; max-width: 720px; opacity: 0.95; }
 .hero-cta { margin-top: 26px; display: flex; gap: 14px; flex-wrap: wrap; }
-.hero .btn-outline { color: var(--blue); border-color: var(--blue); background: #fff; }
-.hero .btn-outline:hover { background: var(--soft); text-decoration: none; }
+.hero .btn-solid { background: var(--orange); color: #fff; border-color: var(--orange); font-weight: 700; }
+.hero .btn-solid:hover { background: #d3681f; text-decoration: none; }
+.hero .btn-solid + .btn-solid { background: #fff; color: var(--blue-dark); border-color: #fff; }
+.hero .btn-solid + .btn-solid:hover { background: var(--soft); text-decoration: none; }
 
 /* Sections */
 .features { padding: 56px 20px; }
