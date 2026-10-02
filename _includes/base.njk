@@ -21,7 +21,7 @@
     <div class="container header-inner">
       <a class="brand" href="{{ ('/' + lang + '/') | langUrl(lang) }}">
         <span class="brand-name">{{ site.shortName }}</span>
-        <span class="brand-sub">{{ site.nameZh if lang == 'zh' else site.name }}</span>
+        <span class="brand-sub">{{ site.nameZh if (lang and lang.startsWith('zh')) else site.name }}</span>
       </a>
       <nav class="main-nav" aria-label="Primary">
         {% for item in site.nav %}
@@ -51,7 +51,7 @@
     <div class="container footer-inner">
       <div>
         <h3>{{ site.nameZh if lang == 'zh' else site.name }}</h3>
-        <p>{{ site.addressZh if lang == 'zh' else site.address }}</p>
+        <p>{{ site.addressZh if (lang and lang.startsWith('zh')) else site.address }}</p>
         <p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a> · Tel: {{ site.phone }}</p>
         <p>WeChat: {{ site.wechat }}</p>
       </div>
@@ -71,7 +71,7 @@
       </div>
     </div>
     <div class="container copyright">
-      © {{ site.name }}. {{ '保留所有权利。' if lang == 'zh' else 'All rights reserved.' }}
+      © {{ site.name }}. {{ '保留所有权利。' if (lang and lang.startsWith('zh')) else 'All rights reserved.' }}
     </div>
   </footer>
 

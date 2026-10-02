@@ -40,7 +40,7 @@ module.exports = function (eleventyConfig) {
     return item[lang] || item.en;
   });
   eleventyConfig.addFilter("navLabel", function (item, lang) {
-    if (lang === "zh" && item.zhLabel) return item.zhLabel;
+    if (lang && lang.indexOf("zh") === 0 && item.zhLabel) return item.zhLabel;
     return item.label;
   });
 

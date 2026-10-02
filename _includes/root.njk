@@ -22,6 +22,8 @@
     .lang-card:hover { border-color:#c8102e; color:#c8102e; transform:translateY(-2px); box-shadow:0 6px 18px rgba(0,0,0,.06); }
     .lang-card small { display:block; font-weight:400; color:#76828f; margin-top:6px; font-size:.78rem; line-height:1.3; }
     .root-foot { text-align:center; color:#9aa4ad; font-size:.82rem; padding-bottom:40px; }
+    .geo-note { max-width:680px; margin:0 auto 18px; padding:12px 16px; border:1px dashed #c8102e; border-radius:10px; background:#fff7f8; color:#16335b; font-size:.95rem; line-height:1.6; }
+    .geo-note a { color:#c8102e; font-weight:600; }
   </style>
 </head>
 <body>
@@ -30,6 +32,7 @@
     <h1>Global Supplier of Advanced Grinding &amp; Materials</h1>
     <div class="names">{{ site.name }}<br />{{ site.nameZh }}</div>
     <div class="hint">Please choose your language / 请选择语言</div>
+    <div id="geo-note" class="geo-note" style="display:none"></div>
   </div>
 
   <div class="lang-grid">
@@ -44,14 +47,80 @@
     (function () {
       var supported = [{% for l in site.langs %}"{{ l.code }}",{% endfor %}];
       var def = "{{ site.defaultLang }}";
-      var nav = (navigator.language || def).toLowerCase();
-      var code = def;
-      for (var i = 0; i < supported.length; i++) {
-        var c = supported[i];
-        if (nav === c || nav.indexOf(c + "-") === 0) { code = c; break; }
+
+      // Country (ISO-3166 alpha-2) -> language. Covers the product/market fit.
+      var geoMap = {
+        CN:"zh", TW:"zh-tw", HK:"zh-tw", MO:"zh-tw", SG:"zh", MY:"zh",
+        DE:"de", AT:"de", CH:"de", LI:"de", LU:"de", BE:"de",
+        JP:"ja", KR:"ko",
+        RU:"ru", BY:"ru", KZ:"ru",
+        ES:"es", AR:"es", MX:"es", CL:"es", CO:"es", PE:"es", UY:"es", VE:"es", EC:"es", BO:"es", PY:"es", CR:"es", PA:"es",
+        PT:"pt", BR:"pt", AO:"pt", MZ:"pt",
+        FR:"fr", MC:"fr",
+        IT:"it", SM:"it", VA:"it",
+        TR:"tr",
+        SA:"ar", AE:"ar", EG:"ar", JO:"ar", KW:"ar", QA:"ar", BH:"ar", OM:"ar", IQ:"ar",
+        DZ:"ar", MA:"ar", TN:"ar", LB:"ar", SY:"ar", YE:"ar", PS:"ar", LY:"ar", SD:"ar",
+        VN:"vi"
+      };
+
+      function pick(navLang, country) {
+        if (country && geoMap[country]) return geoMap[country];
+        var nav = (navLang || def).toLowerCase();
+        for (var i = 0; i < supported.length; i++) {
+          var c = supported[i];
+          if (nav === c || nav.indexOf(c + "-") === 0) return c;
+        }
+        if (nav.indexOf("zh") === 0) return "zh";
+        return def;
       }
-      if (code === def && (nav.indexOf("zh") === 0)) code = "zh";
-      window.location.replace("/" + code + "/");
+
+      function go(lang) {
+        try { localStorage.setItem("sharpen_lang", lang); } catch (e) {}
+        window.location.replace("/" + lang + "/");
+      }
+
+      // 1) Respect a previous manual choice.
+      var manual = null;
+      try { manual = localStorage.getItem("sharpen_lang"); } catch (e) {}
+      if (manual && supported.indexOf(manual) >= 0) { go(manual); return; }
+
+      // 2) Start from browser language, then refine with geo country.
+      var detected = pick(navigator.language, "");
+
+      function offer(lang) {
+        if (lang === def) { go(lang); return; }
+        var note = document.getElementById("geo-note");
+        if (!note) { go(lang); return; }
+        note.style.display = "block";
+        note.innerHTML =
+          '检测到您可能来自 <b>' + lang + '</b> 区域，<span id="cd">4</span> 秒后跳转到对应语言。' +
+          ' <a href="#" id="geo-cancel">取消</a> · <a href="/' + lang + '/">立即前往</a>';
+        var secs = 4;
+        var timer = setInterval(function () {
+          secs--;
+          if (secs <= 0) { clearInterval(timer); go(lang); }
+          else { var cd = document.getElementById("cd"); if (cd) cd.textContent = secs; }
+        }, 1000);
+        var cancel = document.getElementById("geo-cancel");
+        if (cancel) cancel.onclick = function (e) {
+          e.preventDefault(); clearInterval(timer); note.style.display = "none";
+        };
+      }
+
+      // 3) Geo detection via Cloudflare edge (same-origin, no extra service).
+      try {
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", "/cdn-cgi/trace", true);
+        xhr.timeout = 1200;
+        xhr.onload = function () {
+          var country = "";
+          try { var m = xhr.responseText.match(/loc=([A-Z]{2})/); if (m) country = m[1]; } catch (e) {}
+          offer(pick(navigator.language, country));
+        };
+        xhr.onerror = xhr.ontimeout = function () { offer(detected); };
+        xhr.send();
+      } catch (e) { offer(detected); }
     })();
   </script>
 </body>

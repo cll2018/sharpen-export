@@ -3,32 +3,33 @@ layout: page.njk
 lang: zh
 permalink: /zh/products/
 title: "产品中心"
-description: "长沙市萨普新材料有限公司的金刚石砂轮、立方氮化硼砂轮、粉末冶金高速钢与TiNiCo超合金均热板。"
+description: "长沙市萨普新材料有限公司的强力开槽砂轮、半导体LED芯片背减薄砂轮盘、粉末冶金高速钢、TiNiCo超合金均热板、碳化硅晶圆减薄砂轮与光伏硅锭磨方倒角砂轮。"
 ---
 
-<div class="product-block" id="diamond-wheels">
+<div class="product-block" id="strong-grooving-wheels">
   <div class="pb-img" style="background-image:url('/assets/img/diamond-wheels.jpg')"></div>
   <div>
-    <h2>金刚石砂轮</h2>
-    <p>面向硬脆材料（蓝宝石、氧化锆、硬质合金、PCD、PCBN）开发的高性能金刚石砂轮。具有高锋利度、高保型性、易修整、使用寿命长等优点，特别适合加工直径 10mm 以上的大尺寸硬质合金与粉末冶金高速钢回转体刀具，以及 Ti(C,N) 金属陶瓷刀具、PCD/PCBN 刀片等难加工材料。</p>
+    <h2>强力开槽砂轮</h2>
+    <p>萨普新材通过自主研发，攻克结合剂与金刚石/CBN 磨粒结合时的技术难题，率先在国内研制出均质金属陶瓷结合剂，替代高端进口砂轮。SAP 强力开槽砂轮兼具金属砂轮和陶瓷砂轮的优势，具有高自锐性、高锋利度、高保型性、易修整等优点，特别适合用于硬质合金、高速钢及金属陶瓷回转体刀具及刀片的高效率加工。</p>
     <ul class="specs">
-      <li>结合剂：树脂 / 金属 / 陶瓷</li>
-      <li>应用：蓝宝石、陶瓷、硬质合金、PCD/PCBN</li>
-      <li>特点：高锋利度、易修整、寿命长</li>
+      <li>砂轮工作面自洽造孔、高出刃高度</li>
+      <li>工作层自主出刃自锐，高保型性与易修复性耦合</li>
+      <li>高强度冶金结合，内界面液相全平衡扩散整体成型</li>
     </ul>
     <div class="pb-cta"><a class="btn btn-primary" href="/zh/contact/">获取报价</a></div>
   </div>
 </div>
 
-<div class="product-block" id="cbn-wheels">
-  <div class="pb-img" style="background-image:url('/assets/img/cbn-wheels.jpg')"></div>
+<div class="product-block" id="led-backgrinding-wheels">
+  <div class="pb-img" style="background-image:url('/assets/img/wafer-backgrind.jpg')"></div>
   <div>
-    <h2>立方氮化硼砂轮</h2>
-    <p>立方氮化硼（CBN）砂轮，适用于高速钢、铸铁及其他难磨硬金属。高温磨削稳定，磨损小，表面质量优。</p>
+    <h2>半导体LED芯片背减薄砂轮盘</h2>
+    <p>LED 芯片背减薄砂轮盘应用于蓝宝石、SiC 等超硬半导体材料的精密磨削，如 LED 蓝宝石衬底片背减薄、SiC 衬底片、GaAs 衬底片等磨削减薄。采用具有金属键和共价键的金属材料作为砂轮粘结剂，制备的金刚石砂轮性能优异。</p>
     <ul class="specs">
-      <li>结合剂：电镀 / 金属 / 树脂</li>
-      <li>应用：高速钢、淬硬钢、铸铁</li>
-      <li>特点：热稳定性高、寿命长</li>
+      <li>自锐性：保持砂轮锋利度，高切削能力</li>
+      <li>高保型性：使用寿命长</li>
+      <li>易修型：可低转速修型；高容屑排屑</li>
+      <li>低划伤率，低破片率</li>
     </ul>
     <div class="pb-cta"><a class="btn btn-primary" href="/zh/contact/">获取报价</a></div>
   </div>
@@ -37,12 +38,13 @@ description: "长沙市萨普新材料有限公司的金刚石砂轮、立方氮
 <div class="product-block" id="pm-high-speed-steel">
   <div class="pb-img" style="background-image:url('/assets/img/pm-steel.jpg')"></div>
   <div>
-    <h2>粉末冶金高速钢（SAP PM HSS）</h2>
-    <p>SAP 粉末冶金高速钢，碳化物分布均匀、晶粒细小，具有高硬度、高韧性与红硬性，适用于切削刀具、拉刀及精密轧辊。</p>
+    <h2>粉末冶金高速钢</h2>
+    <p>SAP 系列粉末冶金高速钢产品主要用于高端工模具行业，替代进口材料。采用新型粉末冶金工艺，只需极少量机加工，即可获得满足各种形状和尺寸需求的工模具产品。除粉末冶金高速钢材料之外，SAP 系列工模具材料还涵盖模具钢、高铬不锈高速钢、高钒高速钢、钛镍高速钢、TiC/TiCN 钢结硬质合金、Fe-Cr/Fe-Mn/Ni-Cr 钢结硬质合金等多个系列。</p>
     <ul class="specs">
-      <li>工艺：惰性气体雾化 + 热等静压</li>
-      <li>应用：切削刀具、轧辊、冲头</li>
-      <li>特点：碳化物均匀、韧性高</li>
+      <li>可近净成型制备复杂工件，支持形状定制，减少加工成本</li>
+      <li>低杂质含量（O≤60ppm，S≤80ppm，P≤50ppm）</li>
+      <li>突破传统熔炼法的合金化限制，成分调节方便</li>
+      <li>擅长制备超硬硬质相强化粉末冶金高速钢</li>
     </ul>
     <div class="pb-cta"><a class="btn btn-primary" href="/zh/contact/">获取报价</a></div>
   </div>
@@ -52,11 +54,39 @@ description: "长沙市萨普新材料有限公司的金刚石砂轮、立方氮
   <div class="pb-img" style="background-image:url('/assets/img/tinico.jpg')"></div>
   <div>
     <h2>TiNiCo 超合金均热板</h2>
-    <p>TiNiCo 超合金均热板，用于 3D 玻璃热弯模具与半导体热管理，具有加热均匀、平面度高、使用寿命长的特点。</p>
+    <p>TiNiCo 超合金均热板用于 3D 手机盖板玻璃热弯模具与半导体热管理，具有加热均匀、平面度高、使用寿命长的特点，支持非标定制尺寸，是替代进口热弯模具均热板的关键材料。</p>
     <ul class="specs">
-      <li>应用：3D 手机盖板玻璃热弯、热管理</li>
-      <li>特点：温度均匀、平面度高</li>
+      <li>应用：3D 玻璃热弯模具、半导体热管理</li>
+      <li>特点：温度均匀、平面度高、寿命长</li>
       <li>支持非标定制尺寸</li>
+    </ul>
+    <div class="pb-cta"><a class="btn btn-primary" href="/zh/contact/">获取报价</a></div>
+  </div>
+</div>
+
+<div class="product-block" id="sic-wafer-wheels">
+  <div class="pb-img" style="background-image:url('/assets/img/sic-wafer.jpg')"></div>
+  <div>
+    <h2>碳化硅晶圆减薄砂轮</h2>
+    <p>我司自主研发的 SiC 晶圆减薄砂轮，采用具有金属键和共价键的单一均质金属陶瓷（金属间化合物）材料作为金刚石砂轮粘结剂，实现自锐性（锋利度）、保型性（长寿命）与高切削速率的综合性能平衡。</p>
+    <ul class="specs">
+      <li>粗磨减薄：金刚石粒度 2000#，可大进给磨削，TTV&lt;2&nbsp;μm</li>
+      <li>精磨 30000# 减薄砂轮：AFM 光洁度 2nm 以下，损伤层 0.4–0.6&nbsp;μm</li>
+      <li>适用设备：Disco、东京精密、特思迪、中电科等</li>
+    </ul>
+    <div class="pb-cta"><a class="btn btn-primary" href="/zh/contact/">获取报价</a></div>
+  </div>
+</div>
+
+<div class="product-block" id="pv-ingot-wheels">
+  <div class="pb-img" style="background-image:url('/assets/img/pv-ingot.jpg')"></div>
+  <div>
+    <h2>光伏硅锭磨方倒角砂轮</h2>
+    <p>光伏硅锭磨方倒角砂轮用于开方后硅锭的磨方与倒角加工，去除锯痕及表面损伤层，提升后道加工效率与良率。</p>
+    <ul class="specs">
+      <li>去除开方后锯痕及表面损伤层，达到平坦度与平行度</li>
+      <li>去除粗磨痕迹，达到相应光洁度</li>
+      <li>使用寿命长、表面光洁度高、稳定性好</li>
     </ul>
     <div class="pb-cta"><a class="btn btn-primary" href="/zh/contact/">获取报价</a></div>
   </div>
