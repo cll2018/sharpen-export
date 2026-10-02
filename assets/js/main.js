@@ -6,10 +6,11 @@
 (function () {
   "use strict";
 
-  // ----- EmailJS config (replace with your real values) -----
-  var EMAILJS_SERVICE_ID = "YOUR_SERVICE_ID";    // e.g. "default_service"
-  var EMAILJS_TEMPLATE_ID = "YOUR_TEMPLATE_ID";   // e.g. "template_rfqa1b2c"
-  var EMAILJS_PUBLIC_KEY = "YOUR_PUBLIC_KEY";     // e.g. "AbCdEfGhIjKl"
+  // ----- EmailJS config -----
+  var EMAILJS_SERVICE_ID = "sapu";                       // 你在 EmailJS 里配的服务 ID
+  var EMAILJS_TEMPLATE_ID = "YOUR_TEMPLATE_ID";           // 在 EmailJS 后台 "Templates" 里复制 template_xxx
+  var EMAILJS_PUBLIC_KEY = "xc4UpP8S4E-QHoSpw";          // 你的 public key
+  var EMAILJS_PRIVATE_KEY = "3YHHysFfcXfWrkRykjy6m";     // private key, 仅本地保留
 
   var INBOX = "changliangliang@sapu-cn.online";
   var WHATSAPP = "https://wa.me/8618656871390";
