@@ -12,6 +12,7 @@
   {{ site.sogouVerifyMeta | safe }}
   {% endif %}
   <link rel="canonical" href="https://{{ site.domain }}/" />
+  <link rel="llms.txt" href="/llms.txt" />
   {% for l in site.langs %}
   <link rel="alternate" hreflang="{{ l.code }}" href="https://{{ site.domain }}/{{ l.code }}/" />
   {% endfor %}
