@@ -17,6 +17,9 @@
   {% if site.baiduVerifyMeta %}
   {{ site.baiduVerifyMeta | safe }}
   {% endif %}
+  {% if site.sogouVerifyMeta %}
+  {{ site.sogouVerifyMeta | safe }}
+  {% endif %}
   <link rel="canonical" href="{{ page.url | absUrl(site.domain) }}" />
   {% for l in site.langs %}
   <link rel="alternate" hreflang="{{ l.code }}" href="{{ page.url | langUrl(l.code) | absUrl(site.domain) }}" />
