@@ -8,7 +8,7 @@
   <meta name="description" content="{{ description or bp.desc }}" />
   <meta name="keywords" content="{{ title | keywordsFor(lang) }}" />
   <meta name="author" content="{{ site.name }}" />
-  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1" />
+  <meta name="robots" content="{{ page.robots or 'index,follow,max-image-preview:large,max-snippet:-1' }}" />
   {% if site.gscVerifyMeta %}
   {{ site.gscVerifyMeta | safe }}
   {% endif %}
@@ -30,29 +30,33 @@
   <link rel="alternate" hreflang="{{ l.code }}" href="{{ page.url | langUrl(l.code) | absUrl(site.domain) }}" />
   {% endfor %}
   <link rel="alternate" hreflang="x-default" href="{{ '/en/' | absUrl(site.domain) }}" />
-  <meta property="og:title" content="{{ title }} — {{ site.name }}" />
-  <meta property="og:description" content="{{ description or 'Industrial grinding & advanced materials manufacturer.' }}" />
+  <meta property="og:title" content="{{ title }} — {{ bp.suffix }}" />
+  <meta property="og:description" content="{{ description or bp.desc }}" />
   <meta property="og:type" content="{{ 'product' if page.url | urlFilter('products') else 'website' }}" />
   <meta property="og:url" content="{{ page.url | absUrl(site.domain) }}" />
   <meta property="og:image" content="{{ '/assets/img/logo.png' | absUrl(site.domain) }}" />
-  <meta property="og:site_name" content="{{ site.name }}" />
+  <meta property="og:site_name" content="{{ bp.suffix }}" />
   {% set ogLoc = {zh:'zh_CN','zh-tw':'zh_TW'}[lang] or lang %}
   <meta property="og:locale" content="{{ ogLoc }}" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="{{ title }} — {{ site.name }}" />
-  <meta name="twitter:description" content="{{ description or 'Industrial grinding & advanced materials manufacturer.' }}" />
+  <meta name="twitter:title" content="{{ title }} — {{ bp.suffix }}" />
+  <meta name="twitter:description" content="{{ description or bp.desc }}" />
   <meta name="twitter:image" content="{{ '/assets/img/logo.png' | absUrl(site.domain) }}" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Organization",
+        "@type": ["Organization","LocalBusiness"],
         "@id": "https://{{ site.domain | safe }}/org",
         "name": "{{ site.name | safe }}",
         "alternateName": "{{ site.nameZh | safe }}",
         "url": "https://{{ site.domain | safe }}/en/",
         "logo": "https://{{ site.domain | safe }}/assets/img/logo.png",
+        "telephone": "{{ site.phone | safe }}",
+        "email": "{{ site.email | safe }}",
+        "priceRange": "$$",
+        "areaServed": ["CN","DE","JP","KR","US","BR","Global"],
         "contactPoint": { "@type": "ContactPoint", "telephone": "{{ site.phone | safe }}", "email": "{{ site.email | safe }}", "contactType": "sales", "areaServed": "Worldwide" },
         "address": { "@type": "PostalAddress", "streetAddress": "{{ site.address | safe }}", "addressCountry": "CN", "addressLocality": "Changsha", "addressRegion": "Hunan" }
       },
