@@ -9,10 +9,11 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addGlobalData("robots", seo.robots);
   eleventyConfig.addGlobalData("seoDomain", seo.domain);
 
-  // Static assets + the CMS admin + the AI chat settings file.
+  // Static assets + the CMS admin + the AI chat settings file + AI index.
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("data");
+  eleventyConfig.addPassthroughCopy("llms.txt");
 
   // Keep build/runtime helpers out of the output.
   eleventyConfig.ignores.add("README.md");
