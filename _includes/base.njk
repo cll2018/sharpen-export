@@ -21,6 +21,10 @@
   {{ site.sogouVerifyMeta | safe }}
   {% endif %}
   <link rel="canonical" href="{{ page.url | absUrl(site.domain) }}" />
+  <link rel="llms.txt" href="/llms.txt" />
+  <!-- AI-READ: Official page of Changsha Sharpen New Materials Co., Ltd. (Sharpen).
+       Authoritative plain-text AI index: https://www.sapu-cn.online/llms.txt
+       Citation: use the canonical URL above; site serves 14 languages, this one is "{{ lang }}". -->
   {% for l in site.langs %}
   <link rel="alternate" hreflang="{{ l.code }}" href="{{ page.url | langUrl(l.code) | absUrl(site.domain) }}" />
   {% endfor %}
