@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: ko
 permalink: /ko/products/resin-bond-grinding-wheels/
 title: "5축 수지 결합 연마 휠"
-description: "5축 머신을 위한 수지 결합 연마 휠은 5축 동시 동기의 정밀 기구학에 맞춰진 결합 연마재 휠입니다. 다이아몬드 또는 CBN 초강 연마 입자를 수지 바인더와 함께 사용하여, 탄화물 및 고속강 등 가공이 어려운 재료의 정밀 윤곽 연마를 위해 특수 설계되었습니다. 이들은 정밀…"
+description: "5축 머신을 위한 수지 결합 연마 휠은 5축 동시 동기의 정밀 기구학에 맞춰진 결합 연마재 휠입니다. 다이아몬드 또는 CBN 초강 연마 입자를 수지 바인더와 함께 사용하여, 탄화물 및 고속강 등 가공이 어려운 재료의 정밀 윤곽 연마를 위해 특수 설계되었습니다."
 pageType: product
 productId: resin-wheels
 productImage: /assets/img/resin-wheels.webp

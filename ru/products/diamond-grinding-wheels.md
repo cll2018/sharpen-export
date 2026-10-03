@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: ru
 permalink: /ru/products/diamond-grinding-wheels/
 title: "Долговечные круги для подрезания"
-description: "Благодаря собственным НИОКР компания Sharpen решила проблему адгезии между связкой и абразивами из алмаза/КБН и первой в Китае разработала гомогенную…"
+description: "Благодаря собственным НИОКР компания Sharpen решила проблему адгезии между связкой и абразивами из алмаза/КБН и первой в Китае разработала гомогенную церметную связку, заменяющую высококачественные импортные круги."
 pageType: product
 productId: strong-grooving-wheels
 productImage: /assets/img/diamond-wheels.webp

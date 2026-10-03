@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: it
 permalink: /it/products/wafer-back-grinding-wheels/
 title: "Mole per Retro-Messura di Wafer per Semiconduttori e LED"
-description: "Queste mole al diamante sono progettate per la levigatura di precisione di materiali semiconduttori ultra-duri — sottileggimento retrostante di substrati…"
+description: "Queste mole al diamante sono progettate per la levigatura di precisione di materiali semiconduttori ultra-duri — sottileggimento retrostante di substrati"
 pageType: product
 productId: led-backgrinding-wheels
 productImage: /assets/img/wafer-backgrind.webp

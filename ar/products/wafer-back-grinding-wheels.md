@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: ar
 permalink: /ar/products/wafer-back-grinding-wheels/
 title: "عجلات صنفرة خلفية لألواح أشباه الموصلات والألواح الدقيقة (LED)"
-description: "هذه العجلات الماسية مصممة لصنفرة المواد فائقة الصلابة في أشباه الموصلات بدقة — ترقيق الخلفي للأسطح الزجاجية وسبائك الكاربيد السيليكوني (SiC)، صنفرة خلفية…"
+description: "هذه العجلات الماسية مصممة لصنفرة المواد فائقة الصلابة في أشباه الموصلات بدقة — ترقيق الخلفي للأسطح الزجاجية وسبائك الكاربيد السيليكوني (SiC)، صنفرة خلفية لأسطح الألواح الدقيقة (LED)، وصنفرة لأسطح Sica وGaAs."
 pageType: product
 productId: led-backgrinding-wheels
 productImage: /assets/img/wafer-backgrind.webp

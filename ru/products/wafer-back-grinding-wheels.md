@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: ru
 permalink: /ru/products/wafer-back-grinding-wheels/
 title: "Круги для обратной шлифовки кристаллов полупроводников и светодиодов"
-description: "Эти алмазные круги предназначены для прецизионного шлифования сверхтвердых полупроводниковых материалов — тонирования подложек из сапфира и SiC с обратной…"
+description: "Эти алмазные круги предназначены для прецизионного шлифования сверхтвердых полупроводниковых материалов — тонирования подложек из сапфира и SiC с обратной"
 pageType: product
 productId: led-backgrinding-wheels
 productImage: /assets/img/wafer-backgrind.webp

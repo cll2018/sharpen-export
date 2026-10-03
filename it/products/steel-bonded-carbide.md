@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: it
 permalink: /it/products/steel-bonded-carbide/
 title: "Carburo con lega di acciaio"
-description: "Carburo con lega di acciaio (cementato) per utensili e parti soggette a severa usura: lavorabile allo stato ricotto, compatibile con fucinatura e…"
+description: "Carburo con lega di acciaio (cementato) per utensili e parti soggette a severa usura: lavorabile allo stato ricotto, compatibile con fucinatura e saldatura senza attrezzature speciali, e in grado di formare geometrie complesse."
 pageType: product
 productId: steel-bonded-carbide
 productImage: /assets/img/steel-bonded-carbide.webp

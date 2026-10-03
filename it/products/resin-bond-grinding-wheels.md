@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: it
 permalink: /it/products/resin-bond-grinding-wheels/
 title: "Mole di Levigatura a Resina per Cinque Assi"
-description: "Le mole di levigatura a resina per macchine a 5 assi sono mole abrasive con legante adatte alla cinematica di alta precisione del movimento simultaneo a 5…"
+description: "Le mole di levigatura a resina per macchine a 5 assi sono mole abrasive con legante adatte alla cinematica di alta precisione del movimento simultaneo a 5 assi."
 pageType: product
 productId: resin-wheels
 productImage: /assets/img/resin-wheels.webp

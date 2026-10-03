@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: ko
 permalink: /ko/products/pm-high-speed-steel/
 title: "분말야금 고속강(PM High-Speed Steel)"
-description: "SAP 시리즈 분말야금 고속강은 수입 제품 대체재로서 고급 공구 및 금형 산업에 공급됩니다. 새로운 분말야금 공정으로 최소한의 가공만으로도 어떤 형상이나 크기의 공구/금형 부품을 제공할 수 있습니다. PM-HSS를 넘어 SAP 공구/금형 소재 라인업에는 금형강, 고크롬…"
+description: "SAP 시리즈 분말야금 고속강은 수입 제품 대체재로서 고급 공구 및 금형 산업에 공급됩니다. 새로운 분말야금 공정으로 최소한의 가공만으로도 어떤 형상이나 크기의 공구/금형 부품을 제공할 수 있습니다."
 pageType: product
 productId: pm-high-speed-steel
 productImage: /assets/img/pm-steel.webp

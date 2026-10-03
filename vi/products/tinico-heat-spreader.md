@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: vi
 permalink: /vi/products/tinico-heat-spreader/
 title: "Vật Liệu Dẫn Nhiệt Siêu Hợp Kim TiNiCo"
-description: "Vật liệu dẫn nhiệt siêu hợp kim TiNiCo được sử dụng trong khuôn ép nóng kính màn hình 3D và quản lý nhiệt bán dẫn. Nó mang lại sự gia nhiệt đồng đều, độ…"
+description: "Vật liệu dẫn nhiệt siêu hợp kim TiNiCo được sử dụng trong khuôn ép nóng kính màn hình 3D và quản lý nhiệt bán dẫn."
 pageType: product
 productId: tinico-heat-spreader
 productImage: /assets/img/tinico.webp

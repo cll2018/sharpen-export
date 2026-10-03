@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: ru
 permalink: /ru/products/tinico-heat-spreader/
 title: "Теплораспределитель из сверхсплава TiNiCo"
-description: "Теплораспределитель из сверхсплава TiNiCo используется в формах для горячего изгиба 3D-закаленного стекла и в термическом управлении полупроводниковых…"
+description: "Теплораспределитель из сверхсплава TiNiCo используется в формах для горячего изгиба 3D-закаленного стекла и в термическом управлении полупроводниковых устройств."
 pageType: product
 productId: tinico-heat-spreader
 productImage: /assets/img/tinico.webp

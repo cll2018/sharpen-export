@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: tr
 permalink: /tr/products/wafer-back-grinding-wheels/
 title: "Yarı İletken & LED Wafer Arka Zımparalama Tekerlekleri"
-description: "Bu elmas tekerlekler, ultra sert yarı iletken malzemelerin hassas zımparalanması için tasarlanmıştır — safir ve SiC taban inceltme, LED safir taban arka…"
+description: "Bu elmas tekerlekler, ultra sert yarı iletken malzemelerin hassas zımparalanması için tasarlanmıştır — safir ve SiC taban inceltme, LED safir taban arka zımparalama, SiC ve GaAs taban zımparalama."
 pageType: product
 productId: led-backgrinding-wheels
 productImage: /assets/img/wafer-backgrind.webp

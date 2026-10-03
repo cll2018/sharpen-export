@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: en
 permalink: /en/products/pm-high-speed-steel/
 title: "Powder Metallurgy High-Speed Steel"
-description: "The SAP series of PM high-speed steel serves the high-end tool &amp; die industry as an import substitute. A novel powder-metallurgy process needs only…"
+description: "The SAP series of PM high-speed steel serves the high-end tool &amp; die industry as an import substitute."
 pageType: product
 productId: pm-high-speed-steel
 productImage: /assets/img/pm-steel.webp

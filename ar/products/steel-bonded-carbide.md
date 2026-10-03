@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: ar
 permalink: /ar/products/steel-bonded-carbide/
 title: "كربيد مربوط بالصلب"
-description: "كربيد مربوط بالصلب (سمنتاد) لأدوات التصنيع ومكونات التآكل الشديدة — يمكن تشغيله في الحالة المُمهَدة على آلة CNC أو fresing أو التثقيب، وهو متوافق مع الصب…"
+description: "كربيد مربوط بالصلب (سمنتاد) لأدوات التصنيع ومكونات التآكل الشديدة — يمكن تشغيله في الحالة المُمهَدة على آلة CNC أو fresing أو التثقيب، وهو متوافق مع الصب والسَواء، ويمكن تشكيل الهياكل المعقدة دون معدات خاصة."
 pageType: product
 productId: steel-bonded-carbide
 productImage: /assets/img/steel-bonded-carbide.webp

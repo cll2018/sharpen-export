@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: tr
 permalink: /tr/products/steel-bonded-carbide/
 title: "Çelik bağlı sert alaşım"
-description: "Çelik bağlı sert alaşım (simentant) takımlar ve sert aşınma parçaları için: tavlanmış halde CNC, freze, delik işlemeye uygundur; döküm ve kaynak için özel…"
+description: "Çelik bağlı sert alaşım (simentant) takımlar ve sert aşınma parçaları için: tavlanmış halde CNC, freze, delik işlemeye uygundur; döküm ve kaynak için özel ekipman gerektirmez, karmaşık şekillerin oluşturulmasına imkân verir."
 pageType: product
 productId: steel-bonded-carbide
 productImage: /assets/img/steel-bonded-carbide.webp

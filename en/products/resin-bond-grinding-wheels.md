@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: en
 permalink: /en/products/resin-bond-grinding-wheels/
 title: "Five-Axis Resin-Bond Grinding Wheels"
-description: "Resin-bond grinding wheels for 5-axis machines are bonded-abrasive wheels matched to the high-precision kinematics of 5-axis simultaneous motion. Using a…"
+description: "Resin-bond grinding wheels for 5-axis machines are bonded-abrasive wheels matched to the high-precision kinematics of 5-axis simultaneous motion."
 pageType: product
 productId: resin-wheels
 productImage: /assets/img/resin-wheels.webp

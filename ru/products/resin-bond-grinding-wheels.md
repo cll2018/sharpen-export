@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: ru
 permalink: /ru/products/resin-bond-grinding-wheels/
 title: "Пятисосный абразивный круг на эпоксидной связке"
-description: "Абразивные круги на эпоксидной связке для 5-осовых станков — это абразивные круги на связке, подобранные под высокоточную кинематику 5-осового…"
+description: "Абразивные круги на эпоксидной связке для 5-осовых станков — это абразивные круги на связке, подобранные под высокоточную кинематику 5-осового одновременного движения."
 pageType: product
 productId: resin-wheels
 productImage: /assets/img/resin-wheels.webp

@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: es
 permalink: /es/products/pv-ingot-squaring-wheels/
 title: "Piedras de Cuadrado y Chanfrado de Lingotes de Silicio Fotovoltaico"
-description: "Estas piedras se utilizan para el cuadrado y chanfrado de lingotes de silicio fotovoltaico tras el recorte, eliminando las marcas de sierra y las capas de…"
+description: "Estas piedras se utilizan para el cuadrado y chanfrado de lingotes de silicio fotovoltaico tras el recorte,"
 pageType: product
 productId: pv-ingot-wheels
 productImage: /assets/img/pv-ingot.webp

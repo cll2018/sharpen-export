@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: tr
 permalink: /tr/products/tinico-heat-spreader/
 title: "TiNiCo Süper Alaşım Isı Dağıtıcısı"
-description: "TiNiCo süper alaşım ısı dağıtıcısı, 3D kaplama camı sıcak bükme kalıpları ve yarı iletken termal yönetiminde kullanılır. Düzgün ısıtma, yüksek düzlük ve…"
+description: "TiNiCo süper alaşım ısı dağıtıcısı, 3D kaplama camı sıcak bükme kalıpları ve yarı iletken termal yönetiminde kullanılır."
 pageType: product
 productId: tinico-heat-spreader
 productImage: /assets/img/tinico.webp

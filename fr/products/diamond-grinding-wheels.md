@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: fr
 permalink: /fr/products/diamond-grinding-wheels/
 title: "Meules de cannelage robustes"
-description: "Grâce à ses activités internes de R&D, Sharpen a résolu le défi lié à l'adhérence entre le liant et les abrasifs au diamant/CBN, devenant ainsi le premier…"
+description: "Grâce à ses activités internes de R&D, Sharpen a résolu le défi lié à l'adhérence entre le liant et les abrasifs au diamant/CBN,"
 pageType: product
 productId: strong-grooving-wheels
 productImage: /assets/img/diamond-wheels.webp

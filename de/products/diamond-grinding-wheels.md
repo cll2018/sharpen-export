@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: de
 permalink: /de/products/diamond-grinding-wheels/
 title: "Starre Nutbacken"
-description: "Durch die eigene Forschung und Entwicklung hat Sharpen die Bindungsproblematik zwischen Bindeharz und Diamant/CBN-Schleifkorn gelöst und in China als…"
+description: "Durch die eigene Forschung und Entwicklung hat Sharpen die Bindungsproblematik zwischen Bindeharz und Diamant/CBN-Schleifkorn gelöst und in China als"
 pageType: product
 productId: strong-grooving-wheels
 productImage: /assets/img/diamond-wheels.webp

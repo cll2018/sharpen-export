@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: en
 permalink: /en/products/steel-bonded-carbide/
 title: "Steel-Bonded Carbide"
-description: "Steel-bonded carbide (cemented carbide) for tooling and demanding wear parts — machinable in the annealed condition, forgeable and weldable without…"
+description: "Steel-bonded carbide (cemented carbide) for tooling and demanding wear parts — machinable in the annealed condition, forgeable and weldable without special equipment, with a hardened range of HRC 60–70."
 pageType: product
 productId: steel-bonded-carbide
 productImage: /assets/img/steel-bonded-carbide.webp

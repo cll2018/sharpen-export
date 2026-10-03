@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: en
 permalink: /en/products/sic-wafer-thinning-wheels/
 title: "Silicon Carbide (SiC) Wafer Thinning Wheels"
-description: "Our self-developed SiC wafer thinning wheels use a single homogeneous intermetallic cermet bond for the diamond wheel, balancing self-sharpening…"
+description: "Our self-developed SiC wafer thinning wheels use a single homogeneous intermetallic cermet bond for the diamond wheel,"
 pageType: product
 productId: sic-wafer-wheels
 productImage: /assets/img/sic-wafer.webp

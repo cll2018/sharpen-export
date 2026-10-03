@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: ko
 permalink: /ko/products/steel-bonded-carbide/
 title: "강결 경질합금"
-description: "강결 경질합금(시멘테이트)은 공구와 가혹한 내마모 부품에 적합——회화 상태 그대로 CNC, 밀링, 드릴링 가공이 가능하며, 단조 및 용접도 지원하며, 특수 장비 없이 복잡한 성형이 가능합니다. 질화 후 경도는 HRC 60–70에 달하며, 내마모성은 고코발트 경질합금에…"
+description: "강결 경질합금(시멘테이트)은 공구와 가혹한 내마모 부품에 적합——회화 상태 그대로 CNC, 밀링, 드릴링 가공이 가능하며, 단조 및 용접도 지원하며, 특수 장비 없이 복잡한 성형이 가능합니다."
 pageType: product
 productId: steel-bonded-carbide
 productImage: /assets/img/steel-bonded-carbide.webp

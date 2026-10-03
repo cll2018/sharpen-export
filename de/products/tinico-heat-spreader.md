@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: de
 permalink: /de/products/tinico-heat-spreader/
 title: "TiNiCo-Superalloy-Wärmespreizer"
-description: "Der TiNiCo-Superalloy-Wärmespreizer wird in 3D-Abdeckglas-Hotbending-Formen und im thermischen Management von Halbleitern eingesetzt. Er liefert…"
+description: "Der TiNiCo-Superalloy-Wärmespreizer wird in 3D-Abdeckglas-Hotbending-Formen und im thermischen Management von Halbleitern eingesetzt."
 pageType: product
 productId: tinico-heat-spreader
 productImage: /assets/img/tinico.webp

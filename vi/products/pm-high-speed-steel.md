@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: vi
 permalink: /vi/products/pm-high-speed-steel/
 title: "Thép Tốc Độ Cao Kim Loại Bột"
-description: "Loài thép tốc độ cao PM SAP phục vụ ngành công nghiệp dụng cụ & khuôn cao cấp như một giải pháp thay thế hàng nhập khẩu. Quy trình kim loại bột mới chỉ…"
+description: "Loài thép tốc độ cao PM SAP phục vụ ngành công nghiệp dụng cụ & khuôn cao cấp như một giải pháp thay thế hàng nhập khẩu."
 pageType: product
 productId: pm-high-speed-steel
 productImage: /assets/img/pm-steel.webp

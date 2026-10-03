@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: zh-tw
 permalink: /zh-tw/products/steel-bonded-carbide/
 title: "鋼結硬質合金"
-description: "鋼結硬質合金面向刀具與苛刻耐磨件——退火態可直接車、銑、鑽加工，支援鍛造與焊接、無需特殊設備即可完成複雜成型。淬硬後硬度可達 HRC 60–70，耐磨性接近高鈷硬質合金，韌性遠優於普通硬質合金、抗衝擊更強。可通過調整黏結相鋼材獲得耐磨、耐腐蝕、耐熱等特殊性能，全生命週期成本遠低於常規合金模具鋼，模具壽命可提升…"
+description: "鋼結硬質合金面向刀具與苛刻耐磨件——退火態可直接車、銑、鑽加工，支援鍛造與焊接、無需特殊設備即可完成複雜成型。淬硬後硬度可達 HRC 60–70，耐磨性接近高鈷硬質合金，韌性遠優於普通硬質合金、抗衝擊更強。"
 pageType: product
 productId: steel-bonded-carbide
 productImage: /assets/img/steel-bonded-carbide.webp

@@ -72,7 +72,15 @@
         "url": "https://{{ site.domain | safe }}/en/",
         "name": "{{ site.name | safe }}",
         "inLanguage": {{ site.langs | map('code') | tojson | safe }},
-        "publisher": { "@id": "https://{{ site.domain | safe }}/org" }
+        "publisher": { "@id": "https://{{ site.domain | safe }}/org" },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://{{ site.domain | safe }}/{{ lang | safe }}/search/?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
       },
       {
         "@type": "BreadcrumbList",

@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: ar
 permalink: /ar/products/resin-bond-grinding-wheels/
 title: "عجلات صنفرة برابطة راتنجية لخمس محاور"
-description: "عجلات صنفرة برابطة راتنجية لآلات ذات خمس محاور هي عجلات صنفرة برابطة مطابقة للحركة الحركية عالية الدقة للحركة المتزامنة لخمس محاور. باستخدام رابطة راتنجية…"
+description: "عجلات صنفرة برابطة راتنجية لآلات ذات خمس محاور هي عجلات صنفرة برابطة مطابقة للحركة الحركية عالية الدقة للحركة المتزامنة لخمس محاور."
 pageType: product
 productId: resin-wheels
 productImage: /assets/img/resin-wheels.webp

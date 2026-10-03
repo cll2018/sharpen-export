@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: ru
 permalink: /ru/products/sic-wafer-thinning-wheels/
 title: "Круги для тонкошлифования кристаллов карбида кремния (SiC)"
-description: "Наши самостоятельно разработанные круги для тонкошлифования кристаллов SiC используют единую гомогенную интерметаллическую церметную связку для алмазного…"
+description: "Наши самостоятельно разработанные круги для тонкошлифования кристаллов SiC используют единую гомогенную интерметаллическую церметную связку для алмазного"
 pageType: product
 productId: sic-wafer-wheels
 productImage: /assets/img/sic-wafer.webp

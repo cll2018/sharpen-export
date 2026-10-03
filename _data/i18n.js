@@ -14,6 +14,12 @@ module.exports = {
     "why2": "High-sharpness, shape-retentive, long-life precision abrasives",
     "why3": "Serving semiconductor, sapphire, carbide and 3D-glass thermal markets",
     "why4": "Hunan specialized & innovative SME / tech SME",
+    "search_title": "Search",
+    "search_ph": "Search products and news",
+    "search_go": "Search",
+    "search_found": "results found",
+    "search_none": "No results found",
+
   },
   "zh": {
     "view": "查看产品",
@@ -27,6 +33,12 @@ module.exports = {
     "why2": "高锋利度、高保型性、长寿命的精密磨具",
     "why3": "服务于半导体、蓝宝石、硬质合金、3D 玻璃热弯等高端制造",
     "why4": "湖南省专精特新中小企业 / 科技型中小企业",
+    "search_title": "搜索",
+    "search_ph": "搜索产品和新闻",
+    "search_go": "搜索",
+    "search_found": "条结果",
+    "search_none": "没有找到相关结果",
+
   },
   "zh-tw": {
     "view": "查看產品",
@@ -40,6 +52,12 @@ module.exports = {
     "why2": "高鋒利度、高保型性、長壽命的精密磨具",
     "why3": "服務於半導體、藍寶石、硬質合金、3D 玻璃熱彎等高端製造",
     "why4": "湖南省專精特新中小企業 / 科技型中小企業",
+    "search_title": "搜尋",
+    "search_ph": "搜尋產品和新聞",
+    "search_go": "搜尋",
+    "search_found": "條結果",
+    "search_none": "沒有找到相關結果",
+
   },
   "de": {
     "view": "Produkte ansehen",
@@ -53,6 +71,12 @@ module.exports = {
     "why2": "Präzisionsschleifmittel mit hoher Schärfe, Formstabilität und langer Lebensdauer",
     "why3": "Bedient Halbleiter-, Saphir-, Karbid- und 3D-Glas-Thermomärkte",
     "why4": "Forschungs- und Innovations-KMU aus der Provinz Hunan",
+    "search_title": "Suche",
+    "search_ph": "Produkte und Neuigkeiten suchen",
+    "search_go": "Suchen",
+    "search_found": "Ergebnisse gefunden",
+    "search_none": "Keine Ergebnisse gefunden",
+
   },
   "ja": {
     "view": "製品を見る",
@@ -66,6 +90,12 @@ module.exports = {
     "why2": "高切れ・高保形性・長寿命の精密研摩材",
     "why3": "半導体・サファイア・硬質合金・3Dガラス熱曲げなど先端製造に対応",
     "why4": "湖南省の専門・精・新・独企業 / 科技型中小企業",
+    "search_title": "検索",
+    "search_ph": "製品・ニュースを検索",
+    "search_go": "検索",
+    "search_found": "件の結果",
+    "search_none": "結果が見つかりません",
+
   },
   "ko": {
     "view": "제품 보기",
@@ -79,6 +109,12 @@ module.exports = {
     "why2": "높은 절삭성·형상 유지성·장수명의 정밀 연마재",
     "why3": "반도체·사파이어·세라믹·3D 유리 열곡 등 첨단 제조 대응",
     "why4": "훈난성 특화·혁신 중소기업 / 기술형 중소기업",
+    "search_title": "검색",
+    "search_ph": "제품 및 뉴스 검색",
+    "search_go": "검색",
+    "search_found": "개 결과",
+    "search_none": "결과가 없습니다",
+
   },
   "ru": {
     "view": "Продукция",
@@ -92,6 +128,12 @@ module.exports = {
     "why2": "Высокоточные абразивы с высокой остротой, формостойкостью и сроком службы",
     "why3": "Работа с полупроводниками, сапфиром, карбидом и 3D-стеклом",
     "why4": "МСП с высокой специализацией и инновациями (Хунань)",
+    "search_title": "Поиск",
+    "search_ph": "Поиск по продуктам и новостям",
+    "search_go": "Найти",
+    "search_found": "результатов найдено",
+    "search_none": "Ничего не найдено",
+
   },
   "es": {
     "view": "Ver productos",
@@ -105,6 +147,12 @@ module.exports = {
     "why2": "Abrasivos de precisión de alta dureza, retención de forma y larga vida",
     "why3": "Atendiendo mercados de semiconductores, zafiro, carburo y vidrio 3D",
     "why4": "PYME especializada e innovadora de Hunan",
+    "search_title": "Búsqueda",
+    "search_ph": "Buscar productos y noticias",
+    "search_go": "Buscar",
+    "search_found": "resultados encontrados",
+    "search_none": "No se encontraron resultados",
+
   },
   "pt": {
     "view": "Ver produtos",
@@ -118,6 +166,12 @@ module.exports = {
     "why2": "Abrasivos de precisão de alta dureza, retenção de forma e longa vida",
     "why3": "Atendendo mercados de semicondutores, zafiro, carbeto e vidro 3D",
     "why4": "PME especializada e inovadora de Hunan",
+    "search_title": "Pesquisa",
+    "search_ph": "Pesquisar produtos e notícias",
+    "search_go": "Pesquisar",
+    "search_found": "resultados encontrados",
+    "search_none": "Nenhum resultado encontrado",
+
   },
   "fr": {
     "view": "Voir les produits",
@@ -131,6 +185,12 @@ module.exports = {
     "why2": "Abrasifs de précision à haute dureté, rétention de forme et longue durée de vie",
     "why3": "Servant les marchés des semi-conducteurs, du saphir, du carbure et du verre 3D",
     "why4": "PME spécialisée et innovante de Hunan",
+    "search_title": "Recherche",
+    "search_ph": "Rechercher produits et actualités",
+    "search_go": "Rechercher",
+    "search_found": "résultats trouvés",
+    "search_none": "Aucun résultat trouvé",
+
   },
   "it": {
     "view": "Vedi prodotti",
@@ -144,6 +204,12 @@ module.exports = {
     "why2": "Abrasivi di precisione ad alta durezza, ritenzione della forma e lunga durata",
     "why3": "Servire i mercati di semiconduttori, zaffiro, carburo e vetro 3D",
     "why4": "PMI specializzata e innovativa di Hunan",
+    "search_title": "Ricerca",
+    "search_ph": "Cerca prodotti e notizie",
+    "search_go": "Cerca",
+    "search_found": "risultati trovati",
+    "search_none": "Nessun risultato trovato",
+
   },
   "tr": {
     "view": "Ürünler",
@@ -157,6 +223,12 @@ module.exports = {
     "why2": "Yüksek keskinlik, şekil koruma ve uzun ömürlü hassas zımparalar",
     "why3": "Yarı iletken, safir, karbür ve 3D cam termal piyasalara hizmet",
     "why4": "Hunan'ın özelleşmiş ve yenilikçi KOBİ'si",
+    "search_title": "Arama",
+    "search_ph": "Ürün ve haberlerde ara",
+    "search_go": "Ara",
+    "search_found": "sonuç bulundu",
+    "search_none": "Sonuç bulunamadı",
+
   },
   "ar": {
     "view": "عرض المنتجات",
@@ -170,6 +242,12 @@ module.exports = {
     "why2": "مواد صقل عالية الدقة عالية الحدة، تحافظ على الشكل، طويلة العمر",
     "why3": "خدمة أسواق أشباه الموصلات، الياقوت، كربيد والحراريات ثلاثية الأبعاد",
     "why4": "شركة صغيرة ومتوسطة متخصصة في هنان",
+    "search_title": "بحث",
+    "search_ph": "ابحث في المنتجات والأخبار",
+    "search_go": "بحث",
+    "search_found": "نتائج",
+    "search_none": "لم يتم العثور على نتائج",
+
   },
   "vi": {
     "view": "Xem sản phẩm",
@@ -183,5 +261,11 @@ module.exports = {
     "why2": "Vật liệu mài chính xác cao, độ sắc cao, giữ hình, tuổi thọ dài",
     "why3": "Phục vụ thị trường bán dẫn, sapphire, carbide và thủy tinh 3D",
     "why4": "Doanh nghiệp vừa và nhỏ đặc thù và đổi mới của Hunan",
+    "search_title": "Tìm kiếm",
+    "search_ph": "Tìm kiếm sản phẩm và tin tức",
+    "search_go": "Tìm",
+    "search_found": "kết quả",
+    "search_none": "Không tìm thấy kết quả",
+
   },
 };

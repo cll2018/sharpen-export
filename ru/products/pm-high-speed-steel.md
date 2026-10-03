@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: ru
 permalink: /ru/products/pm-high-speed-steel/
 title: "Быстрорежущая сталь порошковой металлургии"
-description: "Серия PM быстрорежущей стали SAP служит отраслям высококачественного инструмента и оснастки как замена импорту. Новое порошковое металлургическое…"
+description: "Серия PM быстрорежущей стали SAP служит отраслям высококачественного инструмента и оснастки как замена импорту."
 pageType: product
 productId: pm-high-speed-steel
 productImage: /assets/img/pm-steel.webp

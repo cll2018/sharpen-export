@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: fr
 permalink: /fr/products/steel-bonded-carbide/
 title: "Carbure lié à la base acier"
-description: "Carbure lié à la base acier (cémenté) pour outillage et pièces à usure sévère: usinable à l'état recuit, compatible avec la forge et le soudage sans…"
+description: "Carbure lié à la base acier (cémenté) pour outillage et pièces à usure sévère: usinable à l'état recuit, compatible avec la forge et le soudage sans équipements spéciaux, capable de former des géométries complexes."
 pageType: product
 productId: steel-bonded-carbide
 productImage: /assets/img/steel-bonded-carbide.webp

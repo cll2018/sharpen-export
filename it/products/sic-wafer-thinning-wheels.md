@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: it
 permalink: /it/products/sic-wafer-thinning-wheels/
 title: "Mole per Sottileggimento di Wafer in Carburo di Silicio (SiC)"
-description: "Le nostre mole auto-sviluppate per il sottileggimento di wafer in SiC utilizzano una lega cermet intermetallo omogenea singola per la mola al diamante,…"
+description: "Le nostre mole auto-sviluppate per il sottileggimento di wafer in SiC utilizzano una lega cermet intermetallo omogenea singola per la mola al diamante,"
 pageType: product
 productId: sic-wafer-wheels
 productImage: /assets/img/sic-wafer.webp

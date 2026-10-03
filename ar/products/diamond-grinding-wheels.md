@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: ar
 permalink: /ar/products/diamond-grinding-wheels/
 title: "عجلات شدّ قوية"
-description: "من خلال البحث والتطوير الداخليين، حلّت شركة شاربِن مشكلة الالتصاق بين الروابط وأجسام الصنفرة الماسية أو كاربايد البورون النيتريد (CBN)، وكانت أول شركة في…"
+description: "من خلال البحث والتطوير الداخليين، حلّت شركة شاربِن مشكلة الالتصاق بين الروابط وأجسام الصنفرة الماسية أو كاربايد البورون النيتريد (CBN)، وكانت أول شركة في الصين تطوّر رابطة سيرميت متجانسة تستبدل العجلات المستوردة عالية النهاية."
 pageType: product
 productId: strong-grooving-wheels
 productImage: /assets/img/diamond-wheels.webp

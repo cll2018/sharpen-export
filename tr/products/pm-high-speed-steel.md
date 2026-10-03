@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: tr
 permalink: /tr/products/pm-high-speed-steel/
 title: "Toz Metalurji Yüksek Hızlı Çelik"
-description: "SAP serisi toz metalurji (PM) yüksek hızlı çelik, ithalatı yerli üretimle ikame etmek için üst segment kalıp ve kesici alet endüstrisine hizmet eder. Yeni…"
+description: "SAP serisi toz metalurji (PM) yüksek hızlı çelik, ithalatı yerli üretimle ikame etmek için üst segment kalıp ve kesici alet endüstrisine hizmet eder."
 pageType: product
 productId: pm-high-speed-steel
 productImage: /assets/img/pm-steel.webp

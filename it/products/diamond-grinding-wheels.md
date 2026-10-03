@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: it
 permalink: /it/products/diamond-grinding-wheels/
 title: "Mole a Graffio di Alta Resistenza"
-description: "Grazie alla ricerca e sviluppo interni, Sharpen ha risolto la sfida della legatura tra legante e abrasivi al diamante/CBN ed è stata la prima in Cina a…"
+description: "Grazie alla ricerca e sviluppo interni, Sharpen ha risolto la sfida della legatura tra legante e abrasivi al diamante/CBN ed è stata la prima in Cina a"
 pageType: product
 productId: strong-grooving-wheels
 productImage: /assets/img/diamond-wheels.webp

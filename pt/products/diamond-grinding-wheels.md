@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: pt
 permalink: /pt/products/diamond-grinding-wheels/
 title: "Rodas de Serragem de Rasgo Fortes"
-description: "Através de P&D interno, a Sharpen resolveu o desafio de ligação entre o ligante e os abrasivos diamante/CBN e foi a primeira na China a desenvolver um…"
+description: "Através de P&D interno, a Sharpen resolveu o desafio de ligação entre o ligante e os abrasivos diamante/CBN e foi a primeira na China a desenvolver um ligante cermet homogêneo que substitui rodas importadas de alta gama."
 pageType: product
 productId: strong-grooving-wheels
 productImage: /assets/img/diamond-wheels.webp

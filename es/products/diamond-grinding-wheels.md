@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: es
 permalink: /es/products/diamond-grinding-wheels/
 title: "Piedras de Canelado Resistentes"
-description: "Mediante I+D interna, Sharpen resolvió el desafío de unión entre el aglutinante y los abrasivos de diamante/CBN, y fue la primera empresa en China en…"
+description: "Mediante I+D interna, Sharpen resolvió el desafío de unión entre el aglutinante y los abrasivos de diamante/CBN,"
 pageType: product
 productId: strong-grooving-wheels
 productImage: /assets/img/diamond-wheels.webp

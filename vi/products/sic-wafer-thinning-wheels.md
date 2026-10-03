@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: vi
 permalink: /vi/products/sic-wafer-thinning-wheels/
 title: "Bánh Mài Mỏng Hóa Wafer Carbide Silic (SiC)"
-description: "Bánh mài mỏng hóa wafer SiC do chúng tôi tự phát triển sử dụng lớp liên kết cermet trung gian đồng nhất đơn cho bánh kim cương, cân bằng giữa tự mài sắc…"
+description: "Bánh mài mỏng hóa wafer SiC do chúng tôi tự phát triển sử dụng lớp liên kết cermet trung gian đồng nhất đơn cho bánh kim cương,"
 pageType: product
 productId: sic-wafer-wheels
 productImage: /assets/img/sic-wafer.webp

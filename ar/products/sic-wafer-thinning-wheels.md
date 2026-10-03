@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: ar
 permalink: /ar/products/sic-wafer-thinning-wheels/
 title: "عجلات ترقيق ألواح الكاربيد السيليكوني (SiC)"
-description: "تستخدم عجلات ترقيق ألواح SiC التي طورناها ذاتيًا رابطة سيرميت متجانسة معدنية أحادية للعجلة الماسية، مما يوفر توازنًا بين قدرة حدة الانتظام الذاتية…"
+description: "تستخدم عجلات ترقيق ألواح SiC التي طورناها ذاتيًا رابطة سيرميت متجانسة معدنية أحادية للعجلة الماسية، مما يوفر توازنًا بين قدرة حدة الانتظام الذاتية"
 pageType: product
 productId: sic-wafer-wheels
 productImage: /assets/img/sic-wafer.webp

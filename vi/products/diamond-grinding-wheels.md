@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: vi
 permalink: /vi/products/diamond-grinding-wheels/
 title: "Bánh Mài Rãnh Cứng"
-description: "Nhờ nghiên cứu và phát triển nội bộ, Sharpen đã giải quyết thách thức liên kết giữa lớp nền và chất mài mòn kim cương/CBN, trở thành đơn vị đầu tiên tại…"
+description: "Nhờ nghiên cứu và phát triển nội bộ, Sharpen đã giải quyết thách thức liên kết giữa lớp nền và chất mài mòn kim cương/CBN,"
 pageType: product
 productId: strong-grooving-wheels
 productImage: /assets/img/diamond-wheels.webp

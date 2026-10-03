@@ -47,14 +47,37 @@ def first_paragraph(html):
     return txt.replace("\n", " ").strip()
 
 
+# Sentence-ending punctuation, Latin + CJK. Used to cut descriptions at a
+# real sentence/clause boundary instead of mid-word followed by "…" — a
+# truncated fragment makes Google rewrite the snippet and looks broken in
+# Product schema.
+_SENT_END = ".!?。！？"
+_CLAUSE_END = ";,，、；"
+
 def make_desc(txt, limit=155):
     if len(txt) <= limit:
         return txt
     cut = txt[:limit]
+    # 1) Prefer the last full-sentence end inside the limit.
+    sp = max(cut.rfind(ch) for ch in _SENT_END)
+    if sp >= int(limit * 0.4):
+        return cut[: sp + 1].rstrip()
+    # 2) Otherwise extend just past the limit to the next sentence end
+    #    rather than cutting the sentence in half.
+    m = re.search(r"[.!?。]", txt[limit : limit + 80])
+    if m:
+        return txt[: limit + m.end()].strip()
+    # 3) Otherwise the last clause boundary (comma/semicolon) inside the limit.
+    sp = max(cut.rfind(ch) for ch in _CLAUSE_END)
+    if sp >= int(limit * 0.5):
+        return cut[: sp + 1].rstrip()
+    # 4) Degenerate single long sentence: word-boundary cut when possible,
+    #    otherwise hard cut; strip dangling punctuation either way. No "…" —
+    #    a clean fragment beats a broken one.
     sp = cut.rfind(" ")
-    if sp > limit * 0.6:
+    if sp > int(limit * 0.6):
         cut = cut[:sp]
-    return cut.rstrip() + "…"
+    return cut.rstrip(" \t" + _SENT_END + _CLAUSE_END + "-–—")
 
 
 def yaml_str(s):

@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: zh
 permalink: /zh/products/resin-bond-grinding-wheels/
 title: "五轴磨床用树脂砂轮"
-description: "五轴磨床用树脂砂轮是适配五轴联动高精度运动特性的专用固结磨具，以树脂为结合剂，搭配金刚石或 CBN 超硬磨料，专为硬质合金、高速钢等难加工材料的复杂型面磨削设计，是数控刀具精密制造的核心耗材。可直接匹配瓦尔特、安卡、哈斯马格等进口五轴数控工具磨床及各类国产五轴磨床，用于整体硬质合金铣刀、钻头、铰刀、PCD/P…"
+description: "五轴磨床用树脂砂轮是适配五轴联动高精度运动特性的专用固结磨具，以树脂为结合剂，搭配金刚石或 CBN 超硬磨料，专为硬质合金、高速钢等难加工材料的复杂型面磨削设计，是数控刀具精密制造的核心耗材。"
 pageType: product
 productId: resin-wheels
 productImage: /assets/img/resin-wheels.webp

@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: ru
 permalink: /ru/products/steel-bonded-carbide/
 title: "Сталепромежиточный твердосплав"
-description: "Сталепромежиточный твердосплав для инструмента и агрессивных износостойких деталей — обрабатывается токарной/фрезерной/сверлильной обработкой в отожжённом…"
+description: "Сталепромежиточный твердосплав для инструмента и агрессивных износостойких деталей — обрабатывается токарной/фрезерной/сверлильной обработкой в отожжённом"
 pageType: product
 productId: steel-bonded-carbide
 productImage: /assets/img/steel-bonded-carbide.webp

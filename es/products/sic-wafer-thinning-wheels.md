@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: es
 permalink: /es/products/sic-wafer-thinning-wheels/
 title: "Piedras de Adelgazamiento de Obletas de Carburo de Silicio (SiC)"
-description: "Nuestras piedras de adelgazamiento de obletas de SiC, desarrolladas internamente, utilizan una unión de cermet intermetálico homogénea para la piedra de…"
+description: "Nuestras piedras de adelgazamiento de obletas de SiC, desarrolladas internamente,"
 pageType: product
 productId: sic-wafer-wheels
 productImage: /assets/img/sic-wafer.webp

@@ -1,9 +1,37 @@
 // Compute sitemap URL list + robots.txt content as build-time data so the
 // Eleventy templates render them verbatim without hand-maintained dates.
 const site = require("../_data/site.js");
+const { execSync } = require("child_process");
 
-// ISO build timestamp (used for sitemap lastmod).
+// ISO build timestamp (diagnostics only — NOT a blanket sitemap lastmod).
 const BUILD_TIME = new Date().toISOString().slice(0, 10);
+
+// Per-page lastmod = date of the last git commit touching the page source
+// file. A blanket build-date lastmod on every URL is ignored by Google,
+// so report real dates and omit lastmod when it cannot be determined.
+// Dates are collected with ONE git log pass (newest-first) and mapped to
+// source files — 490 individual git calls would be far too slow.
+function gitLastmods(relPaths) {
+  const map = {};
+  try {
+    // No path filter: 490 quoted paths exceed the Windows command-line
+    // length limit. The whole-repo log is small enough to parse fully;
+    // unrelated files are simply never looked up in the map.
+    const out = execSync(
+      'git log --format="COMMIT%x09%cs" --name-only',
+      { cwd: __dirname + "/..", stdio: ["ignore", "pipe", "ignore"], timeout: 120000, maxBuffer: 64 * 1024 * 1024 }
+    ).toString();
+    let cur = null;
+    for (const line of out.split(/\r?\n/)) {
+      if (line.indexOf("COMMIT\t") === 0) { cur = line.slice(8); continue; }
+      const f = line.trim();
+      if (f && !(f in map)) map[f] = cur; // first hit = newest commit
+    }
+  } catch (e) {
+    /* no git available: every lastmod stays undefined and is omitted */
+  }
+  return map;
+}
 
 const DOMAIN = "https://" + site.domain;
 
@@ -24,6 +52,7 @@ const PAGES = [
   { seg: "about", priority: "0.7", changefreq: "monthly", images: ["/assets/img/pm-steel.webp"] },
   { seg: "news", priority: "0.7", changefreq: "daily", images: ["/assets/img/news-company.png"] },
   { seg: "contact", priority: "0.7", changefreq: "monthly", images: ["/assets/img/news-industry.png"] },
+  { seg: "search", priority: "0.3", changefreq: "monthly", images: ["/assets/img/logo.png"] },
   { seg: "privacy", priority: "0.4", changefreq: "yearly", images: ["/assets/img/logo.png"] },
 ];
 
@@ -38,7 +67,7 @@ for (const l of site.langs) {
     const path = pageUrl(l.code, p.seg);
     urls.push({
       loc: DOMAIN + path,
-      lastmod: BUILD_TIME,
+      src: l.code + "/" + (p.seg ? p.seg : "index") + ".md",
       changefreq: p.changefreq,
       priority: p.priority,
       images: p.images.map((i) => DOMAIN + i),
@@ -56,7 +85,7 @@ for (const l of site.langs) {
     if (!slug) continue;
     urls.push({
       loc: DOMAIN + "/" + l.code + "/products/" + slug + "/",
-      lastmod: BUILD_TIME,
+      src: l.code + "/products/" + slug + ".md",
       changefreq: "weekly",
       priority: "0.8",
       images: [DOMAIN + p.image],
@@ -75,7 +104,7 @@ for (const l of NEWS_LANGS) {
     const title = NEWS_SLUGS[slug][l] || NEWS_SLUGS[slug].en;
     urls.push({
       loc: DOMAIN + "/" + l + "/news/" + slug + "/",
-      lastmod: BUILD_TIME,
+      src: l + "/news/" + slug + ".md",
       changefreq: "monthly",
       priority: "0.6",
       images: [DOMAIN + "/assets/img/logo.png"],
@@ -84,6 +113,14 @@ for (const l of NEWS_LANGS) {
   }
 }
 
+// Resolve lastmod dates with ONE batched git log pass now that every URL
+// has been collected; pages without a resolvable date get no lastmod at
+// all (honest) rather than a fake build-date.
+const LASTMODS = gitLastmods(urls.map((u) => u.src));
+for (const u of urls) {
+  u.lastmod = LASTMODS[u.src] || null;
+  delete u.src;
+}
 // robots.txt body (served at /robots.txt).
 //
 // Owner policy: allow EVERY crawler (search engines and AI/LLM agents) to read

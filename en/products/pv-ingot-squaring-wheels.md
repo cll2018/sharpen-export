@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: en
 permalink: /en/products/pv-ingot-squaring-wheels/
 title: "Photovoltaic Silicon Ingot Squaring & Chamfering Wheels"
-description: "These wheels are used for squaring and chamfering of PV silicon ingots after cropping, removing saw marks and surface damage layers to improve downstream…"
+description: "These wheels are used for squaring and chamfering of PV silicon ingots after cropping, removing saw marks and surface damage layers to improve downstream efficiency and yield."
 pageType: product
 productId: pv-ingot-wheels
 productImage: /assets/img/pv-ingot.webp

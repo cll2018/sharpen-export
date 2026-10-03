@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: fr
 permalink: /fr/products/tinico-heat-spreader/
 title: "Diffuseurs de chaleur en super-alliage TiNiCo"
-description: "Les diffuseurs de chaleur en super-alliage TiNiCo sont utilisés dans les moules de flexion thermique pour verres 3D et la gestion thermique des…"
+description: "Les diffuseurs de chaleur en super-alliage TiNiCo sont utilisés dans les moules de flexion thermique pour verres 3D et la gestion thermique des semi-conducteurs."
 pageType: product
 productId: tinico-heat-spreader
 productImage: /assets/img/tinico.webp

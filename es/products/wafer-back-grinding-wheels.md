@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: es
 permalink: /es/products/wafer-back-grinding-wheels/
 title: "Piedras de Rectificado Posterior de Obletas para Semiconductores y LED"
-description: "Estas piedras de diamante están diseñadas para el rectificado de precisión de materiales semiconductores de extrema dureza: adelgazamiento posterior de…"
+description: "Estas piedras de diamante están diseñadas para el rectificado de precisión de materiales semiconductores de extrema dureza: adelgazamiento posterior de"
 pageType: product
 productId: led-backgrinding-wheels
 productImage: /assets/img/wafer-backgrind.webp

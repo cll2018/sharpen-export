@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: it
 permalink: /it/products/tinico-heat-spreader/
 title: "Dissipatore di Calore in Superlega TiNiCo"
-description: "Il dissipatore di calore in superlega TiNiCo è utilizzato in stampi per piegatura a caldo di vetro coprente 3D e nella gestione termica dei…"
+description: "Il dissipatore di calore in superlega TiNiCo è utilizzato in stampi per piegatura a caldo di vetro coprente 3D e nella gestione termica dei semiconduttori."
 pageType: product
 productId: tinico-heat-spreader
 productImage: /assets/img/tinico.webp

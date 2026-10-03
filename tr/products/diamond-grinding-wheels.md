@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: tr
 permalink: /tr/products/diamond-grinding-wheels/
 title: "Güçlü Çelik Tekerlekleri"
-description: "Yerleşik Ar-Ge çalışmaları yoluyla, Sharpen, bağdayan ve elmas/CBN aşındırıcılar arasındaki yapışma sorununu çözdü ve Çin'de ithal üst segment…"
+description: "Yerleşik Ar-Ge çalışmaları yoluyla, Sharpen, bağdayan ve elmas/CBN aşındırıcılar arasındaki yapışma sorununu çözdü ve Çin'de ithal üst segment tekerleklerin yerini alan homojen bir seramik-metal (cermet) bağı geliştiren ilk firma oldu."
 pageType: product
 productId: strong-grooving-wheels
 productImage: /assets/img/diamond-wheels.webp

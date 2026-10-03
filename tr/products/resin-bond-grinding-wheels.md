@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: tr
 permalink: /tr/products/resin-bond-grinding-wheels/
 title: "Beş Eksenli Reçine Bağlı Zımparalama Tekerlekleri"
-description: "5 eksenli makineler için reçine bağlı zımparalama tekerlekleri, 5 eksenli eşzamanlı hareketin yüksek hassasiyet kinematiğine uyarlanmış bağlı aşındırıcı…"
+description: "5 eksenli makineler için reçine bağlı zımparalama tekerlekleri, 5 eksenli eşzamanlı hareketin yüksek hassasiyet kinematiğine uyarlanmış bağlı aşındırıcı tekerleklerdir."
 pageType: product
 productId: resin-wheels
 productImage: /assets/img/resin-wheels.webp

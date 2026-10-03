@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: en
 permalink: /en/products/tinico-heat-spreader/
 title: "TiNiCo Superalloy Heat Spreader"
-description: "The TiNiCo superalloy heat spreader is used in 3D cover-glass hot-bending molds and semiconductor thermal management. It delivers uniform heating, high…"
+description: "The TiNiCo superalloy heat spreader is used in 3D cover-glass hot-bending molds and semiconductor thermal management."
 pageType: product
 productId: tinico-heat-spreader
 productImage: /assets/img/tinico.webp

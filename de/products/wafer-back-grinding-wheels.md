@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: de
 permalink: /de/products/wafer-back-grinding-wheels/
 title: "Schleifscheiben für die Rückseitenbearbeitung von Halbleiter- & LED-Wafern"
-description: "Diese Diamantscheiben sind für das Präzisionsschleifen extrem harter Halbleitermaterialien entwickelt worden – Rückschliff von Saphir- und SiC-Substraten,…"
+description: "Diese Diamantscheiben sind für das Präzisionsschleifen extrem harter Halbleitermaterialien entwickelt worden – Rückschliff von Saphir- und SiC-Substraten,"
 pageType: product
 productId: led-backgrinding-wheels
 productImage: /assets/img/wafer-backgrind.webp

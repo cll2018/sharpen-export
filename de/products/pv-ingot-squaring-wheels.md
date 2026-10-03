@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: de
 permalink: /de/products/pv-ingot-squaring-wheels/
 title: "Schleifscheiben für die Rechteck- und Bockbearbeitung von PV-Siliziumbarren"
-description: "Diese Schleifscheiben werden für die Rechteck- und Bockbearbeitung von PV-Siliziumbarren nach dem Zuschneiden verwendet, um Sägespuren und…"
+description: "Diese Schleifscheiben werden für die Rechteck- und Bockbearbeitung von PV-Siliziumbarren nach dem Zuschneiden verwendet,"
 pageType: product
 productId: pv-ingot-wheels
 productImage: /assets/img/pv-ingot.webp

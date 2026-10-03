@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: de
 permalink: /de/products/steel-bonded-carbide/
 title: "Stahlgebundener Hartmetall"
-description: "Stahlgebundener Hartmetall für Werkzeuge und anspruchsvolle Verschleißteile — im geglühten Zustand direkt dreh- und frästeilig, schweiß- und schmiedbar…"
+description: "Stahlgebundener Hartmetall für Werkzeuge und anspruchsvolle Verschleißteile — im geglühten Zustand direkt dreh- und frästeilig, schweiß- und schmiedbar ohne Spezialausrüstung, geeignet für komplexe Formen."
 pageType: product
 productId: steel-bonded-carbide
 productImage: /assets/img/steel-bonded-carbide.webp

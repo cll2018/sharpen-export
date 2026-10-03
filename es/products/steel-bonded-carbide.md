@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: es
 permalink: /es/products/steel-bonded-carbide/
 title: "Carburo con ligante de acero"
-description: "Carburo con ligante de acero (cementado) para herramienta y piezas con desgaste severo: mecanizable en estado temple-anodizado, compatible con forja y…"
+description: "Carburo con ligante de acero (cementado) para herramienta y piezas con desgaste severo: mecanizable en estado temple-anodizado, compatible con forja y soldadura sin equipos especiales, y capaz de formar geometrías complejas."
 pageType: product
 productId: steel-bonded-carbide
 productImage: /assets/img/steel-bonded-carbide.webp

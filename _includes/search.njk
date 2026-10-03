@@ -1,0 +1,74 @@
+---
+layout: base.njk
+---
+{% set s = i18n[lang] or i18n[site.fallbackLang] %}
+{% set plist = products[lang] or products[site.fallbackLang] %}
+<section class="container page">
+  <h1>{{ s.search_title }}</h1>
+  <form id="site-search" role="search" action="/{{ lang }}/search/" method="get" class="search-form">
+    <input type="search" name="q" id="search-q" value="" placeholder="{{ s.search_ph }}" aria-label="{{ s.search_ph }}" />
+    <button type="submit" class="btn btn-primary">{{ s.search_go }}</button>
+  </form>
+  <p id="search-status" data-label="{{ s.search_found }}" data-none="{{ s.search_none }}" aria-live="polite"></p>
+  <ul id="search-results" class="search-results"></ul>
+</section>
+<script type="application/json" id="search-index">
+[
+{%- for p in plist -%}
+{"title": {{ p.name | tojson | safe }}, "url": "/{{ lang }}/products/{{ productSlugs[p.id] }}/", "text": {{ p.summary | tojson | safe }}}{{ "," if not loop.last }}
+{%- endfor -%}
+{%- if newsSlugs and plist -%},{%- endif -%}
+{%- for slug, t in newsSlugs -%}
+{"title": {{ (t[lang] or t.en) | tojson | safe }}, "url": "/{{ lang }}/news/{{ slug }}/", "text": ""}{{ "," if not loop.last }}
+{%- endfor -%}
+]
+</script>
+<script>
+(function () {
+  var idx = [];
+  try { idx = JSON.parse(document.getElementById('search-index').textContent); } catch (e) { return; }
+  var form = document.getElementById('site-search');
+  var input = document.getElementById('search-q');
+  var list = document.getElementById('search-results');
+  var status = document.getElementById('search-status');
+  function norm(x) { return (x || '').toLowerCase(); }
+  function run(q) {
+    q = (q || '').trim();
+    list.innerHTML = '';
+    if (!q) { status.textContent = ''; return; }
+    var phrase = norm(q);
+    var terms = phrase.split(/\s+/);
+    var hits = idx.filter(function (e) {
+      var hay = norm(e.title + ' ' + e.text);
+      // Whole-phrase substring (works for CJK queries without spaces) OR
+      // every whitespace-separated term present (works for Latin queries).
+      return hay.indexOf(phrase) !== -1 || terms.every(function (t) { return hay.indexOf(t) !== -1; });
+    });
+    if (hits.length) {
+      status.textContent = hits.length + ' ' + status.getAttribute('data-label');
+    } else {
+      status.textContent = status.getAttribute('data-none');
+    }
+    hits.forEach(function (e) {
+      var li = document.createElement('li');
+      var a = document.createElement('a');
+      a.href = e.url;
+      a.textContent = e.title;
+      var p = document.createElement('p');
+      p.textContent = e.text;
+      li.appendChild(a);
+      li.appendChild(p);
+      list.appendChild(li);
+    });
+  }
+  var q = '';
+  try { q = new URLSearchParams(location.search).get('q') || ''; } catch (e) {}
+  if (q) { input.value = q; run(q); }
+  form.addEventListener('submit', function (ev) {
+    ev.preventDefault();
+    var v = input.value;
+    try { history.replaceState(null, '', '?q=' + encodeURIComponent(v)); } catch (e) {}
+    run(v);
+  });
+})();
+</script>

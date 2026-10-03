@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: pt
 permalink: /pt/products/pv-ingot-squaring-wheels/
 title: "Rodas de Quadratura & Chanfuração de Lingotes de Silício Fotovoltaico"
-description: "Estas rodas são usadas para a quadratura e chanfuração de lingotes de silício PV após o corte, removendo marcas de serra e camadas de dano da superfície…"
+description: "Estas rodas são usadas para a quadratura e chanfuração de lingotes de silício PV após o corte, removendo marcas de serra e camadas de dano da superfície para melhorar a eficiência e o rendimento a jusante."
 pageType: product
 productId: pv-ingot-wheels
 productImage: /assets/img/pv-ingot.webp

@@ -3,7 +3,7 @@ layout: product-detail.njk
 lang: pt
 permalink: /pt/products/sic-wafer-thinning-wheels/
 title: "Rodas de Finamento de Wafers de Carboneto de Silício (SiC)"
-description: "Nossas rodas de finamento de wafers de SiC desenvolvidas internamente usam um ligante cermet intermetálico homogêneo único para a roda de diamante,…"
+description: "Nossas rodas de finamento de wafers de SiC desenvolvidas internamente usam um ligante cermet intermetálico homogêneo único para a roda de diamante,"
 pageType: product
 productId: sic-wafer-wheels
 productImage: /assets/img/sic-wafer.webp

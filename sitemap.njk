@@ -7,7 +7,7 @@ permalink: /sitemap.xml
 {% for u in sitemap %}
   <url>
     <loc>{{ u.loc }}</loc>
-    <lastmod>{{ u.lastmod }}</lastmod>
+    {% if u.lastmod %}<lastmod>{{ u.lastmod }}</lastmod>{% endif %}
     <changefreq>{{ u.changefreq }}</changefreq>
     <priority>{{ u.priority }}</priority>
     {% for img in u.images %}
