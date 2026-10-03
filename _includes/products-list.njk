@@ -1,0 +1,57 @@
+---
+layout: base.njk
+---
+{% block content %}
+{#
+  Dynamic product index.
+
+  Renders each product detail page's own body (the same product-block markup
+  gen_product_pages.py emits) in the curated order defined by _data/products.js,
+  so a product page added through the CMS shows up here automatically.
+
+  Two adjustments are applied to the detail body so the index matches the markup
+  the old generated listing had:
+    1. the anchor id (productId) is injected — product detail bodies omit it,
+       while RFQ / nav links use /<lang>/products/#<id>;
+    2. the product name is injected as <h2> as the first child of the inner
+       block. The detail page itself renders an <h1> from front matter, so the
+       heading must only be added here. Both replacements are no-ops if the body
+       was written with different indentation, which degrades gracefully.
+#}
+{% set langCode = lang or site.defaultLang %}
+{% set items = [] %}
+{% for item in collections.all %}
+  {% if item.data.lang == langCode and item.data.productId %}
+    {% set _ = items.push(item) %}
+  {% endif %}
+{% endfor %}
+{% set curatedIds = [] %}
+{% for p in (products[langCode] or []) %}
+  {% set _ = curatedIds.push(p.id) %}
+{% endfor %}
+{% macro productBlock(item) %}
+  {#- assignment-form set: never passes through the output stream, so the raw
+      body HTML is preserved; escaping is applied explicitly where needed. -#}
+  {%- set ptitle = item.data.title
+        | replace("&", "&amp;") | replace("<", "&lt;")
+        | replace(">", "&gt;") | replace('"', "&quot;") -%}
+  {%- set out = item.templateContent
+        | replace('<div class="product-block">',
+                  '<div class="product-block" id="' ~ item.data.productId ~ '">') -%}
+  {%- set out = out
+        | replace('  <div>\n    <p>', '  <div>\n    <h2>' ~ ptitle ~ '</h2>\n    <p>')
+        | replace('  <div>\n  <p>', '  <div>\n  <h2>' ~ ptitle ~ '</h2>\n  <p>') -%}
+  {{- out | safe -}}
+{% endmacro %}
+<section class="container page">
+  <h1>{{ title }}</h1>
+  {% for pid in curatedIds %}
+    {% for item in items %}
+      {% if item.data.productId == pid %}{{ productBlock(item) }}{% endif %}
+    {% endfor %}
+  {% endfor %}
+  {% for item in items %}
+    {% if item.data.productId not in curatedIds %}{{ productBlock(item) }}{% endif %}
+  {% endfor %}
+</section>
+{% endblock %}

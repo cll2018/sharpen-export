@@ -156,3 +156,997 @@ collections:
           - { name: model, label: "Model", widget: string, hint: "e.g. gpt-4o-mini / deepseek-chat" }
           - { name: systemPrompt, label: "System Prompt", widget: text }
           - { name: fallbackMessage, label: "Fallback Message", widget: text }
+
+  # ---- 新闻文章 · English（可新增/编辑/删除）----
+  - name: "news-en"
+    label: "新闻文章 · English"
+    label_new: "新增新闻 · English"
+    folder: "en/news"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    sortable_fields: ["newsDate", "title"]
+    view_filters:
+      - { label: "全部栏目", field: "newsSection", pattern: ".*" }
+      - {{ label: "Company News", field: "newsSection", pattern: "Company News" }}
+      - {{ label: "Industry News", field: "newsSection", pattern: "Industry News" }}
+      - {{ label: "Industry Frontier", field: "newsSection", pattern: "Industry Frontier" }}
+    fields:
+      - { label: "发布日期", name: "newsDate", widget: "string", required: false,
+          pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
+          hint: "格式 YYYY-MM-DD，例 2026-10-03。留空则列表不显示日期；排序按日期由新到旧。" }
+      - { label: "栏目", name: "newsSection", widget: "select",
+          options: ["Company News", "Industry News", "Industry Frontier"], default: "Company News" }
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "SEO 描述", name: "description", widget: "text",
+          hint: "列表页卡片摘要与搜索结果摘要，写 1-2 句。" }
+      - { label: "URL Slug", name: "newsSlug", widget: "string",
+          hint: "小写英文，用短横线分隔，例 tinico-heat-spreader-dev；建议与文件名保持一致。" }
+      - { label: "正文", name: "body", widget: "markdown" }
+      - { label: "版式", name: "layout", widget: "hidden", default: "news-detail.njk" }
+      - { label: "语言代码", name: "lang", widget: "hidden", default: "en" }
+
+  # ---- 产品介绍 · English（可新增/编辑）----
+  - name: "products-en"
+    label: "产品介绍 · English"
+    label_new: "新增产品 · English"
+    folder: "en/products"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    sortable_fields: ["title"]
+    fields:
+      - { label: "产品名称", name: "title", widget: "string" }
+      - { label: "SEO 描述", name: "description", widget: "text",
+          hint: "写 1-2 句，用于搜索结果摘要。" }
+      - { label: "产品锚点 ID", name: "productId", widget: "string",
+          hint: "小写英文短横线，例 strong-grooving-wheels。产品列表的锚点链接会用到。" }
+      - { label: "产品图", name: "productImage", widget: "image", required: false,
+          hint: "先在媒体库上传，再选择文件。" }
+      - label: "产品详情 HTML"
+        name: "body"
+        widget: "code"
+        default: |
+          <div class="product-block">
+            <img class="pb-img" src="/assets/img/your-product.webp" alt="" loading="lazy" />
+            <div>
+              <h2>产品名称</h2>
+              <p>一段产品介绍。</p>
+              <ul class="specs">
+                <li>特点一</li>
+                <li>特点二</li>
+              </ul>
+              <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Request a quote</a></div>
+            </div>
+          </div>
+        hint: "请保留上面的 HTML 结构，只替换引号内的文字；图片地址填已上传的文件；联系按钮的路径必须是 /en/contact/。留空则产品列表不显示该产品。"
+      - { label: "版式", name: "layout", widget: "hidden", default: "product-detail.njk" }
+      - { label: "页面类型", name: "pageType", widget: "hidden", default: "product" }
+      - { label: "语言代码", name: "lang", widget: "hidden", default: "en" }
+
+  # ---- 新闻文章 · 中文（简体）（可新增/编辑/删除）----
+  - name: "news-zh"
+    label: "新闻文章 · 中文（简体）"
+    label_new: "新增新闻 · 中文（简体）"
+    folder: "zh/news"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    sortable_fields: ["newsDate", "title"]
+    view_filters:
+      - { label: "全部栏目", field: "newsSection", pattern: ".*" }
+      - {{ label: "公司新闻", field: "newsSection", pattern: "公司新闻" }}
+      - {{ label: "行业资讯", field: "newsSection", pattern: "行业资讯" }}
+      - {{ label: "行业前沿发展现状", field: "newsSection", pattern: "行业前沿发展现状" }}
+    fields:
+      - { label: "发布日期", name: "newsDate", widget: "string", required: false,
+          pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
+          hint: "格式 YYYY-MM-DD，例 2026-10-03。留空则列表不显示日期；排序按日期由新到旧。" }
+      - { label: "栏目", name: "newsSection", widget: "select",
+          options: ["公司新闻", "行业资讯", "行业前沿发展现状"], default: "公司新闻" }
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "SEO 描述", name: "description", widget: "text",
+          hint: "列表页卡片摘要与搜索结果摘要，写 1-2 句。" }
+      - { label: "URL Slug", name: "newsSlug", widget: "string",
+          hint: "小写英文，用短横线分隔，例 tinico-heat-spreader-dev；建议与文件名保持一致。" }
+      - { label: "正文", name: "body", widget: "markdown" }
+      - { label: "版式", name: "layout", widget: "hidden", default: "news-detail.njk" }
+      - { label: "语言代码", name: "lang", widget: "hidden", default: "zh" }
+
+  # ---- 产品介绍 · 中文（简体）（可新增/编辑）----
+  - name: "products-zh"
+    label: "产品介绍 · 中文（简体）"
+    label_new: "新增产品 · 中文（简体）"
+    folder: "zh/products"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    sortable_fields: ["title"]
+    fields:
+      - { label: "产品名称", name: "title", widget: "string" }
+      - { label: "SEO 描述", name: "description", widget: "text",
+          hint: "写 1-2 句，用于搜索结果摘要。" }
+      - { label: "产品锚点 ID", name: "productId", widget: "string",
+          hint: "小写英文短横线，例 strong-grooving-wheels。产品列表的锚点链接会用到。" }
+      - { label: "产品图", name: "productImage", widget: "image", required: false,
+          hint: "先在媒体库上传，再选择文件。" }
+      - label: "产品详情 HTML"
+        name: "body"
+        widget: "code"
+        default: |
+          <div class="product-block">
+            <img class="pb-img" src="/assets/img/your-product.webp" alt="" loading="lazy" />
+            <div>
+              <h2>产品名称</h2>
+              <p>一段产品介绍。</p>
+              <ul class="specs">
+                <li>特点一</li>
+                <li>特点二</li>
+              </ul>
+              <div class="pb-cta"><a class="btn btn-primary" href="/zh/contact/">索取报价</a></div>
+            </div>
+          </div>
+        hint: "请保留上面的 HTML 结构，只替换引号内的文字；图片地址填已上传的文件；联系按钮的路径必须是 /zh/contact/。留空则产品列表不显示该产品。"
+      - { label: "版式", name: "layout", widget: "hidden", default: "product-detail.njk" }
+      - { label: "页面类型", name: "pageType", widget: "hidden", default: "product" }
+      - { label: "语言代码", name: "lang", widget: "hidden", default: "zh" }
+
+  # ---- 新闻文章 · 繁體中文（可新增/编辑/删除）----
+  - name: "news-zh-tw"
+    label: "新闻文章 · 繁體中文"
+    label_new: "新增新闻 · 繁體中文"
+    folder: "zh-tw/news"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    sortable_fields: ["newsDate", "title"]
+    view_filters:
+      - { label: "全部栏目", field: "newsSection", pattern: ".*" }
+      - {{ label: "公司新聞", field: "newsSection", pattern: "公司新聞" }}
+      - {{ label: "行業資訊", field: "newsSection", pattern: "行業資訊" }}
+      - {{ label: "行業前沿發展現狀", field: "newsSection", pattern: "行業前沿發展現狀" }}
+    fields:
+      - { label: "发布日期", name: "newsDate", widget: "string", required: false,
+          pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
+          hint: "格式 YYYY-MM-DD，例 2026-10-03。留空则列表不显示日期；排序按日期由新到旧。" }
+      - { label: "栏目", name: "newsSection", widget: "select",
+          options: ["公司新聞", "行業資訊", "行業前沿發展現狀"], default: "公司新聞" }
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "SEO 描述", name: "description", widget: "text",
+          hint: "列表页卡片摘要与搜索结果摘要，写 1-2 句。" }
+      - { label: "URL Slug", name: "newsSlug", widget: "string",
+          hint: "小写英文，用短横线分隔，例 tinico-heat-spreader-dev；建议与文件名保持一致。" }
+      - { label: "正文", name: "body", widget: "markdown" }
+      - { label: "版式", name: "layout", widget: "hidden", default: "news-detail.njk" }
+      - { label: "语言代码", name: "lang", widget: "hidden", default: "zh-tw" }
+
+  # ---- 产品介绍 · 繁體中文（可新增/编辑）----
+  - name: "products-zh-tw"
+    label: "产品介绍 · 繁體中文"
+    label_new: "新增产品 · 繁體中文"
+    folder: "zh-tw/products"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    sortable_fields: ["title"]
+    fields:
+      - { label: "产品名称", name: "title", widget: "string" }
+      - { label: "SEO 描述", name: "description", widget: "text",
+          hint: "写 1-2 句，用于搜索结果摘要。" }
+      - { label: "产品锚点 ID", name: "productId", widget: "string",
+          hint: "小写英文短横线，例 strong-grooving-wheels。产品列表的锚点链接会用到。" }
+      - { label: "产品图", name: "productImage", widget: "image", required: false,
+          hint: "先在媒体库上传，再选择文件。" }
+      - label: "产品详情 HTML"
+        name: "body"
+        widget: "code"
+        default: |
+          <div class="product-block">
+            <img class="pb-img" src="/assets/img/your-product.webp" alt="" loading="lazy" />
+            <div>
+              <h2>产品名称</h2>
+              <p>一段产品介绍。</p>
+              <ul class="specs">
+                <li>特点一</li>
+                <li>特点二</li>
+              </ul>
+              <div class="pb-cta"><a class="btn btn-primary" href="/zh-tw/contact/">索取報價</a></div>
+            </div>
+          </div>
+        hint: "请保留上面的 HTML 结构，只替换引号内的文字；图片地址填已上传的文件；联系按钮的路径必须是 /zh-tw/contact/。留空则产品列表不显示该产品。"
+      - { label: "版式", name: "layout", widget: "hidden", default: "product-detail.njk" }
+      - { label: "页面类型", name: "pageType", widget: "hidden", default: "product" }
+      - { label: "语言代码", name: "lang", widget: "hidden", default: "zh-tw" }
+
+  # ---- 新闻文章 · Deutsch（可新增/编辑/删除）----
+  - name: "news-de"
+    label: "新闻文章 · Deutsch"
+    label_new: "新增新闻 · Deutsch"
+    folder: "de/news"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    sortable_fields: ["newsDate", "title"]
+    view_filters:
+      - { label: "全部栏目", field: "newsSection", pattern: ".*" }
+      - {{ label: "Unternehmensnachrichten", field: "newsSection", pattern: "Unternehmensnachrichten" }}
+      - {{ label: "Branchennews", field: "newsSection", pattern: "Branchennews" }}
+      - {{ label: "Technologietrends", field: "newsSection", pattern: "Technologietrends" }}
+    fields:
+      - { label: "发布日期", name: "newsDate", widget: "string", required: false,
+          pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
+          hint: "格式 YYYY-MM-DD，例 2026-10-03。留空则列表不显示日期；排序按日期由新到旧。" }
+      - { label: "栏目", name: "newsSection", widget: "select",
+          options: ["Unternehmensnachrichten", "Branchennews", "Technologietrends"], default: "Unternehmensnachrichten" }
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "SEO 描述", name: "description", widget: "text",
+          hint: "列表页卡片摘要与搜索结果摘要，写 1-2 句。" }
+      - { label: "URL Slug", name: "newsSlug", widget: "string",
+          hint: "小写英文，用短横线分隔，例 tinico-heat-spreader-dev；建议与文件名保持一致。" }
+      - { label: "正文", name: "body", widget: "markdown" }
+      - { label: "版式", name: "layout", widget: "hidden", default: "news-detail.njk" }
+      - { label: "语言代码", name: "lang", widget: "hidden", default: "de" }
+
+  # ---- 产品介绍 · Deutsch（可新增/编辑）----
+  - name: "products-de"
+    label: "产品介绍 · Deutsch"
+    label_new: "新增产品 · Deutsch"
+    folder: "de/products"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    sortable_fields: ["title"]
+    fields:
+      - { label: "产品名称", name: "title", widget: "string" }
+      - { label: "SEO 描述", name: "description", widget: "text",
+          hint: "写 1-2 句，用于搜索结果摘要。" }
+      - { label: "产品锚点 ID", name: "productId", widget: "string",
+          hint: "小写英文短横线，例 strong-grooving-wheels。产品列表的锚点链接会用到。" }
+      - { label: "产品图", name: "productImage", widget: "image", required: false,
+          hint: "先在媒体库上传，再选择文件。" }
+      - label: "产品详情 HTML"
+        name: "body"
+        widget: "code"
+        default: |
+          <div class="product-block">
+            <img class="pb-img" src="/assets/img/your-product.webp" alt="" loading="lazy" />
+            <div>
+              <h2>产品名称</h2>
+              <p>一段产品介绍。</p>
+              <ul class="specs">
+                <li>特点一</li>
+                <li>特点二</li>
+              </ul>
+              <div class="pb-cta"><a class="btn btn-primary" href="/de/contact/">Angebot anfordern</a></div>
+            </div>
+          </div>
+        hint: "请保留上面的 HTML 结构，只替换引号内的文字；图片地址填已上传的文件；联系按钮的路径必须是 /de/contact/。留空则产品列表不显示该产品。"
+      - { label: "版式", name: "layout", widget: "hidden", default: "product-detail.njk" }
+      - { label: "页面类型", name: "pageType", widget: "hidden", default: "product" }
+      - { label: "语言代码", name: "lang", widget: "hidden", default: "de" }
+
+  # ---- 新闻文章 · 日本語（可新增/编辑/删除）----
+  - name: "news-ja"
+    label: "新闻文章 · 日本語"
+    label_new: "新增新闻 · 日本語"
+    folder: "ja/news"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    sortable_fields: ["newsDate", "title"]
+    view_filters:
+      - { label: "全部栏目", field: "newsSection", pattern: ".*" }
+      - {{ label: "企業ニュース", field: "newsSection", pattern: "企業ニュース" }}
+      - {{ label: "業界動向", field: "newsSection", pattern: "業界動向" }}
+      - {{ label: "業界最前線", field: "newsSection", pattern: "業界最前線" }}
+    fields:
+      - { label: "发布日期", name: "newsDate", widget: "string", required: false,
+          pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
+          hint: "格式 YYYY-MM-DD，例 2026-10-03。留空则列表不显示日期；排序按日期由新到旧。" }
+      - { label: "栏目", name: "newsSection", widget: "select",
+          options: ["企業ニュース", "業界動向", "業界最前線"], default: "企業ニュース" }
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "SEO 描述", name: "description", widget: "text",
+          hint: "列表页卡片摘要与搜索结果摘要，写 1-2 句。" }
+      - { label: "URL Slug", name: "newsSlug", widget: "string",
+          hint: "小写英文，用短横线分隔，例 tinico-heat-spreader-dev；建议与文件名保持一致。" }
+      - { label: "正文", name: "body", widget: "markdown" }
+      - { label: "版式", name: "layout", widget: "hidden", default: "news-detail.njk" }
+      - { label: "语言代码", name: "lang", widget: "hidden", default: "ja" }
+
+  # ---- 产品介绍 · 日本語（可新增/编辑）----
+  - name: "products-ja"
+    label: "产品介绍 · 日本語"
+    label_new: "新增产品 · 日本語"
+    folder: "ja/products"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    sortable_fields: ["title"]
+    fields:
+      - { label: "产品名称", name: "title", widget: "string" }
+      - { label: "SEO 描述", name: "description", widget: "text",
+          hint: "写 1-2 句，用于搜索结果摘要。" }
+      - { label: "产品锚点 ID", name: "productId", widget: "string",
+          hint: "小写英文短横线，例 strong-grooving-wheels。产品列表的锚点链接会用到。" }
+      - { label: "产品图", name: "productImage", widget: "image", required: false,
+          hint: "先在媒体库上传，再选择文件。" }
+      - label: "产品详情 HTML"
+        name: "body"
+        widget: "code"
+        default: |
+          <div class="product-block">
+            <img class="pb-img" src="/assets/img/your-product.webp" alt="" loading="lazy" />
+            <div>
+              <h2>产品名称</h2>
+              <p>一段产品介绍。</p>
+              <ul class="specs">
+                <li>特点一</li>
+                <li>特点二</li>
+              </ul>
+              <div class="pb-cta"><a class="btn btn-primary" href="/ja/contact/">お見積り依頼</a></div>
+            </div>
+          </div>
+        hint: "请保留上面的 HTML 结构，只替换引号内的文字；图片地址填已上传的文件；联系按钮的路径必须是 /ja/contact/。留空则产品列表不显示该产品。"
+      - { label: "版式", name: "layout", widget: "hidden", default: "product-detail.njk" }
+      - { label: "页面类型", name: "pageType", widget: "hidden", default: "product" }
+      - { label: "语言代码", name: "lang", widget: "hidden", default: "ja" }
+
+  # ---- 新闻文章 · 한국어（可新增/编辑/删除）----
+  - name: "news-ko"
+    label: "新闻文章 · 한국어"
+    label_new: "新增新闻 · 한국어"
+    folder: "ko/news"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    sortable_fields: ["newsDate", "title"]
+    view_filters:
+      - { label: "全部栏目", field: "newsSection", pattern: ".*" }
+      - {{ label: "기업 뉴스", field: "newsSection", pattern: "기업 뉴스" }}
+      - {{ label: "업종 뉴스", field: "newsSection", pattern: "업종 뉴스" }}
+      - {{ label: "산업 최전선", field: "newsSection", pattern: "산업 최전선" }}
+    fields:
+      - { label: "发布日期", name: "newsDate", widget: "string", required: false,
+          pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
+          hint: "格式 YYYY-MM-DD，例 2026-10-03。留空则列表不显示日期；排序按日期由新到旧。" }
+      - { label: "栏目", name: "newsSection", widget: "select",
+          options: ["기업 뉴스", "업종 뉴스", "산업 최전선"], default: "기업 뉴스" }
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "SEO 描述", name: "description", widget: "text",
+          hint: "列表页卡片摘要与搜索结果摘要，写 1-2 句。" }
+      - { label: "URL Slug", name: "newsSlug", widget: "string",
+          hint: "小写英文，用短横线分隔，例 tinico-heat-spreader-dev；建议与文件名保持一致。" }
+      - { label: "正文", name: "body", widget: "markdown" }
+      - { label: "版式", name: "layout", widget: "hidden", default: "news-detail.njk" }
+      - { label: "语言代码", name: "lang", widget: "hidden", default: "ko" }
+
+  # ---- 产品介绍 · 한국어（可新增/编辑）----
+  - name: "products-ko"
+    label: "产品介绍 · 한국어"
+    label_new: "新增产品 · 한국어"
+    folder: "ko/products"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    sortable_fields: ["title"]
+    fields:
+      - { label: "产品名称", name: "title", widget: "string" }
+      - { label: "SEO 描述", name: "description", widget: "text",
+          hint: "写 1-2 句，用于搜索结果摘要。" }
+      - { label: "产品锚点 ID", name: "productId", widget: "string",
+          hint: "小写英文短横线，例 strong-grooving-wheels。产品列表的锚点链接会用到。" }
+      - { label: "产品图", name: "productImage", widget: "image", required: false,
+          hint: "先在媒体库上传，再选择文件。" }
+      - label: "产品详情 HTML"
+        name: "body"
+        widget: "code"
+        default: |
+          <div class="product-block">
+            <img class="pb-img" src="/assets/img/your-product.webp" alt="" loading="lazy" />
+            <div>
+              <h2>产品名称</h2>
+              <p>一段产品介绍。</p>
+              <ul class="specs">
+                <li>特点一</li>
+                <li>特点二</li>
+              </ul>
+              <div class="pb-cta"><a class="btn btn-primary" href="/ko/contact/">견적 요청</a></div>
+            </div>
+          </div>
+        hint: "请保留上面的 HTML 结构，只替换引号内的文字；图片地址填已上传的文件；联系按钮的路径必须是 /ko/contact/。留空则产品列表不显示该产品。"
+      - { label: "版式", name: "layout", widget: "hidden", default: "product-detail.njk" }
+      - { label: "页面类型", name: "pageType", widget: "hidden", default: "product" }
+      - { label: "语言代码", name: "lang", widget: "hidden", default: "ko" }
+
+  # ---- 新闻文章 · Русский（可新增/编辑/删除）----
+  - name: "news-ru"
+    label: "新闻文章 · Русский"
+    label_new: "新增新闻 · Русский"
+    folder: "ru/news"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    sortable_fields: ["newsDate", "title"]
+    view_filters:
+      - { label: "全部栏目", field: "newsSection", pattern: ".*" }
+      - {{ label: "Корпоративные новости", field: "newsSection", pattern: "Корпоративные новости" }}
+      - {{ label: "Отраслевые новости", field: "newsSection", pattern: "Отраслевые новости" }}
+      - {{ label: "Технологии передового края", field: "newsSection", pattern: "Технологии передового края" }}
+    fields:
+      - { label: "发布日期", name: "newsDate", widget: "string", required: false,
+          pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
+          hint: "格式 YYYY-MM-DD，例 2026-10-03。留空则列表不显示日期；排序按日期由新到旧。" }
+      - { label: "栏目", name: "newsSection", widget: "select",
+          options: ["Корпоративные новости", "Отраслевые новости", "Технологии передового края"], default: "Корпоративные новости" }
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "SEO 描述", name: "description", widget: "text",
+          hint: "列表页卡片摘要与搜索结果摘要，写 1-2 句。" }
+      - { label: "URL Slug", name: "newsSlug", widget: "string",
+          hint: "小写英文，用短横线分隔，例 tinico-heat-spreader-dev；建议与文件名保持一致。" }
+      - { label: "正文", name: "body", widget: "markdown" }
+      - { label: "版式", name: "layout", widget: "hidden", default: "news-detail.njk" }
+      - { label: "语言代码", name: "lang", widget: "hidden", default: "ru" }
+
+  # ---- 产品介绍 · Русский（可新增/编辑）----
+  - name: "products-ru"
+    label: "产品介绍 · Русский"
+    label_new: "新增产品 · Русский"
+    folder: "ru/products"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    sortable_fields: ["title"]
+    fields:
+      - { label: "产品名称", name: "title", widget: "string" }
+      - { label: "SEO 描述", name: "description", widget: "text",
+          hint: "写 1-2 句，用于搜索结果摘要。" }
+      - { label: "产品锚点 ID", name: "productId", widget: "string",
+          hint: "小写英文短横线，例 strong-grooving-wheels。产品列表的锚点链接会用到。" }
+      - { label: "产品图", name: "productImage", widget: "image", required: false,
+          hint: "先在媒体库上传，再选择文件。" }
+      - label: "产品详情 HTML"
+        name: "body"
+        widget: "code"
+        default: |
+          <div class="product-block">
+            <img class="pb-img" src="/assets/img/your-product.webp" alt="" loading="lazy" />
+            <div>
+              <h2>产品名称</h2>
+              <p>一段产品介绍。</p>
+              <ul class="specs">
+                <li>特点一</li>
+                <li>特点二</li>
+              </ul>
+              <div class="pb-cta"><a class="btn btn-primary" href="/ru/contact/">Запросить цену</a></div>
+            </div>
+          </div>
+        hint: "请保留上面的 HTML 结构，只替换引号内的文字；图片地址填已上传的文件；联系按钮的路径必须是 /ru/contact/。留空则产品列表不显示该产品。"
+      - { label: "版式", name: "layout", widget: "hidden", default: "product-detail.njk" }
+      - { label: "页面类型", name: "pageType", widget: "hidden", default: "product" }
+      - { label: "语言代码", name: "lang", widget: "hidden", default: "ru" }
+
+  # ---- 新闻文章 · Español（可新增/编辑/删除）----
+  - name: "news-es"
+    label: "新闻文章 · Español"
+    label_new: "新增新闻 · Español"
+    folder: "es/news"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    sortable_fields: ["newsDate", "title"]
+    view_filters:
+      - { label: "全部栏目", field: "newsSection", pattern: ".*" }
+      - {{ label: "Noticias de empresa", field: "newsSection", pattern: "Noticias de empresa" }}
+      - {{ label: "Noticias del sector", field: "newsSection", pattern: "Noticias del sector" }}
+      - {{ label: "Fronteras tecnológicas", field: "newsSection", pattern: "Fronteras tecnológicas" }}
+    fields:
+      - { label: "发布日期", name: "newsDate", widget: "string", required: false,
+          pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
+          hint: "格式 YYYY-MM-DD，例 2026-10-03。留空则列表不显示日期；排序按日期由新到旧。" }
+      - { label: "栏目", name: "newsSection", widget: "select",
+          options: ["Noticias de empresa", "Noticias del sector", "Fronteras tecnológicas"], default: "Noticias de empresa" }
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "SEO 描述", name: "description", widget: "text",
+          hint: "列表页卡片摘要与搜索结果摘要，写 1-2 句。" }
+      - { label: "URL Slug", name: "newsSlug", widget: "string",
+          hint: "小写英文，用短横线分隔，例 tinico-heat-spreader-dev；建议与文件名保持一致。" }
+      - { label: "正文", name: "body", widget: "markdown" }
+      - { label: "版式", name: "layout", widget: "hidden", default: "news-detail.njk" }
+      - { label: "语言代码", name: "lang", widget: "hidden", default: "es" }
+
+  # ---- 产品介绍 · Español（可新增/编辑）----
+  - name: "products-es"
+    label: "产品介绍 · Español"
+    label_new: "新增产品 · Español"
+    folder: "es/products"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    sortable_fields: ["title"]
+    fields:
+      - { label: "产品名称", name: "title", widget: "string" }
+      - { label: "SEO 描述", name: "description", widget: "text",
+          hint: "写 1-2 句，用于搜索结果摘要。" }
+      - { label: "产品锚点 ID", name: "productId", widget: "string",
+          hint: "小写英文短横线，例 strong-grooving-wheels。产品列表的锚点链接会用到。" }
+      - { label: "产品图", name: "productImage", widget: "image", required: false,
+          hint: "先在媒体库上传，再选择文件。" }
+      - label: "产品详情 HTML"
+        name: "body"
+        widget: "code"
+        default: |
+          <div class="product-block">
+            <img class="pb-img" src="/assets/img/your-product.webp" alt="" loading="lazy" />
+            <div>
+              <h2>产品名称</h2>
+              <p>一段产品介绍。</p>
+              <ul class="specs">
+                <li>特点一</li>
+                <li>特点二</li>
+              </ul>
+              <div class="pb-cta"><a class="btn btn-primary" href="/es/contact/">Solicitar presupuesto</a></div>
+            </div>
+          </div>
+        hint: "请保留上面的 HTML 结构，只替换引号内的文字；图片地址填已上传的文件；联系按钮的路径必须是 /es/contact/。留空则产品列表不显示该产品。"
+      - { label: "版式", name: "layout", widget: "hidden", default: "product-detail.njk" }
+      - { label: "页面类型", name: "pageType", widget: "hidden", default: "product" }
+      - { label: "语言代码", name: "lang", widget: "hidden", default: "es" }
+
+  # ---- 新闻文章 · Português（可新增/编辑/删除）----
+  - name: "news-pt"
+    label: "新闻文章 · Português"
+    label_new: "新增新闻 · Português"
+    folder: "pt/news"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    sortable_fields: ["newsDate", "title"]
+    view_filters:
+      - { label: "全部栏目", field: "newsSection", pattern: ".*" }
+      - {{ label: "Notícias da empresa", field: "newsSection", pattern: "Notícias da empresa" }}
+      - {{ label: "Notícias do setor", field: "newsSection", pattern: "Notícias do setor" }}
+      - {{ label: "Fronteras tecnológicas", field: "newsSection", pattern: "Fronteras tecnológicas" }}
+    fields:
+      - { label: "发布日期", name: "newsDate", widget: "string", required: false,
+          pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
+          hint: "格式 YYYY-MM-DD，例 2026-10-03。留空则列表不显示日期；排序按日期由新到旧。" }
+      - { label: "栏目", name: "newsSection", widget: "select",
+          options: ["Notícias da empresa", "Notícias do setor", "Fronteras tecnológicas"], default: "Notícias da empresa" }
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "SEO 描述", name: "description", widget: "text",
+          hint: "列表页卡片摘要与搜索结果摘要，写 1-2 句。" }
+      - { label: "URL Slug", name: "newsSlug", widget: "string",
+          hint: "小写英文，用短横线分隔，例 tinico-heat-spreader-dev；建议与文件名保持一致。" }
+      - { label: "正文", name: "body", widget: "markdown" }
+      - { label: "版式", name: "layout", widget: "hidden", default: "news-detail.njk" }
+      - { label: "语言代码", name: "lang", widget: "hidden", default: "pt" }
+
+  # ---- 产品介绍 · Português（可新增/编辑）----
+  - name: "products-pt"
+    label: "产品介绍 · Português"
+    label_new: "新增产品 · Português"
+    folder: "pt/products"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    sortable_fields: ["title"]
+    fields:
+      - { label: "产品名称", name: "title", widget: "string" }
+      - { label: "SEO 描述", name: "description", widget: "text",
+          hint: "写 1-2 句，用于搜索结果摘要。" }
+      - { label: "产品锚点 ID", name: "productId", widget: "string",
+          hint: "小写英文短横线，例 strong-grooving-wheels。产品列表的锚点链接会用到。" }
+      - { label: "产品图", name: "productImage", widget: "image", required: false,
+          hint: "先在媒体库上传，再选择文件。" }
+      - label: "产品详情 HTML"
+        name: "body"
+        widget: "code"
+        default: |
+          <div class="product-block">
+            <img class="pb-img" src="/assets/img/your-product.webp" alt="" loading="lazy" />
+            <div>
+              <h2>产品名称</h2>
+              <p>一段产品介绍。</p>
+              <ul class="specs">
+                <li>特点一</li>
+                <li>特点二</li>
+              </ul>
+              <div class="pb-cta"><a class="btn btn-primary" href="/pt/contact/">Solicitar orçamento</a></div>
+            </div>
+          </div>
+        hint: "请保留上面的 HTML 结构，只替换引号内的文字；图片地址填已上传的文件；联系按钮的路径必须是 /pt/contact/。留空则产品列表不显示该产品。"
+      - { label: "版式", name: "layout", widget: "hidden", default: "product-detail.njk" }
+      - { label: "页面类型", name: "pageType", widget: "hidden", default: "product" }
+      - { label: "语言代码", name: "lang", widget: "hidden", default: "pt" }
+
+  # ---- 新闻文章 · Français（可新增/编辑/删除）----
+  - name: "news-fr"
+    label: "新闻文章 · Français"
+    label_new: "新增新闻 · Français"
+    folder: "fr/news"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    sortable_fields: ["newsDate", "title"]
+    view_filters:
+      - { label: "全部栏目", field: "newsSection", pattern: ".*" }
+      - {{ label: "Actualités de l’entreprise", field: "newsSection", pattern: "Actualités de l’entreprise" }}
+      - {{ label: "Actualités du secteur", field: "newsSection", pattern: "Actualités du secteur" }}
+      - {{ label: "Frontières technologiques", field: "newsSection", pattern: "Frontières technologiques" }}
+    fields:
+      - { label: "发布日期", name: "newsDate", widget: "string", required: false,
+          pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
+          hint: "格式 YYYY-MM-DD，例 2026-10-03。留空则列表不显示日期；排序按日期由新到旧。" }
+      - { label: "栏目", name: "newsSection", widget: "select",
+          options: ["Actualités de l’entreprise", "Actualités du secteur", "Frontières technologiques"], default: "Actualités de l’entreprise" }
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "SEO 描述", name: "description", widget: "text",
+          hint: "列表页卡片摘要与搜索结果摘要，写 1-2 句。" }
+      - { label: "URL Slug", name: "newsSlug", widget: "string",
+          hint: "小写英文，用短横线分隔，例 tinico-heat-spreader-dev；建议与文件名保持一致。" }
+      - { label: "正文", name: "body", widget: "markdown" }
+      - { label: "版式", name: "layout", widget: "hidden", default: "news-detail.njk" }
+      - { label: "语言代码", name: "lang", widget: "hidden", default: "fr" }
+
+  # ---- 产品介绍 · Français（可新增/编辑）----
+  - name: "products-fr"
+    label: "产品介绍 · Français"
+    label_new: "新增产品 · Français"
+    folder: "fr/products"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    sortable_fields: ["title"]
+    fields:
+      - { label: "产品名称", name: "title", widget: "string" }
+      - { label: "SEO 描述", name: "description", widget: "text",
+          hint: "写 1-2 句，用于搜索结果摘要。" }
+      - { label: "产品锚点 ID", name: "productId", widget: "string",
+          hint: "小写英文短横线，例 strong-grooving-wheels。产品列表的锚点链接会用到。" }
+      - { label: "产品图", name: "productImage", widget: "image", required: false,
+          hint: "先在媒体库上传，再选择文件。" }
+      - label: "产品详情 HTML"
+        name: "body"
+        widget: "code"
+        default: |
+          <div class="product-block">
+            <img class="pb-img" src="/assets/img/your-product.webp" alt="" loading="lazy" />
+            <div>
+              <h2>产品名称</h2>
+              <p>一段产品介绍。</p>
+              <ul class="specs">
+                <li>特点一</li>
+                <li>特点二</li>
+              </ul>
+              <div class="pb-cta"><a class="btn btn-primary" href="/fr/contact/">Demander un devis</a></div>
+            </div>
+          </div>
+        hint: "请保留上面的 HTML 结构，只替换引号内的文字；图片地址填已上传的文件；联系按钮的路径必须是 /fr/contact/。留空则产品列表不显示该产品。"
+      - { label: "版式", name: "layout", widget: "hidden", default: "product-detail.njk" }
+      - { label: "页面类型", name: "pageType", widget: "hidden", default: "product" }
+      - { label: "语言代码", name: "lang", widget: "hidden", default: "fr" }
+
+  # ---- 新闻文章 · Italiano（可新增/编辑/删除）----
+  - name: "news-it"
+    label: "新闻文章 · Italiano"
+    label_new: "新增新闻 · Italiano"
+    folder: "it/news"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    sortable_fields: ["newsDate", "title"]
+    view_filters:
+      - { label: "全部栏目", field: "newsSection", pattern: ".*" }
+      - {{ label: "Notizie aziendali", field: "newsSection", pattern: "Notizie aziendali" }}
+      - {{ label: "Notizie del settore", field: "newsSection", pattern: "Notizie del settore" }}
+      - {{ label: "Frontiere tecnologiche", field: "newsSection", pattern: "Frontiere tecnologiche" }}
+    fields:
+      - { label: "发布日期", name: "newsDate", widget: "string", required: false,
+          pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
+          hint: "格式 YYYY-MM-DD，例 2026-10-03。留空则列表不显示日期；排序按日期由新到旧。" }
+      - { label: "栏目", name: "newsSection", widget: "select",
+          options: ["Notizie aziendali", "Notizie del settore", "Frontiere tecnologiche"], default: "Notizie aziendali" }
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "SEO 描述", name: "description", widget: "text",
+          hint: "列表页卡片摘要与搜索结果摘要，写 1-2 句。" }
+      - { label: "URL Slug", name: "newsSlug", widget: "string",
+          hint: "小写英文，用短横线分隔，例 tinico-heat-spreader-dev；建议与文件名保持一致。" }
+      - { label: "正文", name: "body", widget: "markdown" }
+      - { label: "版式", name: "layout", widget: "hidden", default: "news-detail.njk" }
+      - { label: "语言代码", name: "lang", widget: "hidden", default: "it" }
+
+  # ---- 产品介绍 · Italiano（可新增/编辑）----
+  - name: "products-it"
+    label: "产品介绍 · Italiano"
+    label_new: "新增产品 · Italiano"
+    folder: "it/products"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    sortable_fields: ["title"]
+    fields:
+      - { label: "产品名称", name: "title", widget: "string" }
+      - { label: "SEO 描述", name: "description", widget: "text",
+          hint: "写 1-2 句，用于搜索结果摘要。" }
+      - { label: "产品锚点 ID", name: "productId", widget: "string",
+          hint: "小写英文短横线，例 strong-grooving-wheels。产品列表的锚点链接会用到。" }
+      - { label: "产品图", name: "productImage", widget: "image", required: false,
+          hint: "先在媒体库上传，再选择文件。" }
+      - label: "产品详情 HTML"
+        name: "body"
+        widget: "code"
+        default: |
+          <div class="product-block">
+            <img class="pb-img" src="/assets/img/your-product.webp" alt="" loading="lazy" />
+            <div>
+              <h2>产品名称</h2>
+              <p>一段产品介绍。</p>
+              <ul class="specs">
+                <li>特点一</li>
+                <li>特点二</li>
+              </ul>
+              <div class="pb-cta"><a class="btn btn-primary" href="/it/contact/">Richiedi un preventivo</a></div>
+            </div>
+          </div>
+        hint: "请保留上面的 HTML 结构，只替换引号内的文字；图片地址填已上传的文件；联系按钮的路径必须是 /it/contact/。留空则产品列表不显示该产品。"
+      - { label: "版式", name: "layout", widget: "hidden", default: "product-detail.njk" }
+      - { label: "页面类型", name: "pageType", widget: "hidden", default: "product" }
+      - { label: "语言代码", name: "lang", widget: "hidden", default: "it" }
+
+  # ---- 新闻文章 · Türkçe（可新增/编辑/删除）----
+  - name: "news-tr"
+    label: "新闻文章 · Türkçe"
+    label_new: "新增新闻 · Türkçe"
+    folder: "tr/news"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    sortable_fields: ["newsDate", "title"]
+    view_filters:
+      - { label: "全部栏目", field: "newsSection", pattern: ".*" }
+      - {{ label: "Şirket haberleri", field: "newsSection", pattern: "Şirket haberleri" }}
+      - {{ label: "Sektör haberleri", field: "newsSection", pattern: "Sektör haberleri" }}
+      - {{ label: "Teknoloji gelişmeleri", field: "newsSection", pattern: "Teknoloji gelişmeleri" }}
+    fields:
+      - { label: "发布日期", name: "newsDate", widget: "string", required: false,
+          pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
+          hint: "格式 YYYY-MM-DD，例 2026-10-03。留空则列表不显示日期；排序按日期由新到旧。" }
+      - { label: "栏目", name: "newsSection", widget: "select",
+          options: ["Şirket haberleri", "Sektör haberleri", "Teknoloji gelişmeleri"], default: "Şirket haberleri" }
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "SEO 描述", name: "description", widget: "text",
+          hint: "列表页卡片摘要与搜索结果摘要，写 1-2 句。" }
+      - { label: "URL Slug", name: "newsSlug", widget: "string",
+          hint: "小写英文，用短横线分隔，例 tinico-heat-spreader-dev；建议与文件名保持一致。" }
+      - { label: "正文", name: "body", widget: "markdown" }
+      - { label: "版式", name: "layout", widget: "hidden", default: "news-detail.njk" }
+      - { label: "语言代码", name: "lang", widget: "hidden", default: "tr" }
+
+  # ---- 产品介绍 · Türkçe（可新增/编辑）----
+  - name: "products-tr"
+    label: "产品介绍 · Türkçe"
+    label_new: "新增产品 · Türkçe"
+    folder: "tr/products"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    sortable_fields: ["title"]
+    fields:
+      - { label: "产品名称", name: "title", widget: "string" }
+      - { label: "SEO 描述", name: "description", widget: "text",
+          hint: "写 1-2 句，用于搜索结果摘要。" }
+      - { label: "产品锚点 ID", name: "productId", widget: "string",
+          hint: "小写英文短横线，例 strong-grooving-wheels。产品列表的锚点链接会用到。" }
+      - { label: "产品图", name: "productImage", widget: "image", required: false,
+          hint: "先在媒体库上传，再选择文件。" }
+      - label: "产品详情 HTML"
+        name: "body"
+        widget: "code"
+        default: |
+          <div class="product-block">
+            <img class="pb-img" src="/assets/img/your-product.webp" alt="" loading="lazy" />
+            <div>
+              <h2>产品名称</h2>
+              <p>一段产品介绍。</p>
+              <ul class="specs">
+                <li>特点一</li>
+                <li>特点二</li>
+              </ul>
+              <div class="pb-cta"><a class="btn btn-primary" href="/tr/contact/">Teklif isteyin</a></div>
+            </div>
+          </div>
+        hint: "请保留上面的 HTML 结构，只替换引号内的文字；图片地址填已上传的文件；联系按钮的路径必须是 /tr/contact/。留空则产品列表不显示该产品。"
+      - { label: "版式", name: "layout", widget: "hidden", default: "product-detail.njk" }
+      - { label: "页面类型", name: "pageType", widget: "hidden", default: "product" }
+      - { label: "语言代码", name: "lang", widget: "hidden", default: "tr" }
+
+  # ---- 新闻文章 · العربية（可新增/编辑/删除）----
+  - name: "news-ar"
+    label: "新闻文章 · العربية"
+    label_new: "新增新闻 · العربية"
+    folder: "ar/news"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    sortable_fields: ["newsDate", "title"]
+    view_filters:
+      - { label: "全部栏目", field: "newsSection", pattern: ".*" }
+      - {{ label: "أخبار الشركة", field: "newsSection", pattern: "أخبار الشركة" }}
+      - {{ label: "أخبار القطاع", field: "newsSection", pattern: "أخبار القطاع" }}
+      - {{ label: "تقنيات السانك", field: "newsSection", pattern: "تقنيات السانك" }}
+    fields:
+      - { label: "发布日期", name: "newsDate", widget: "string", required: false,
+          pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
+          hint: "格式 YYYY-MM-DD，例 2026-10-03。留空则列表不显示日期；排序按日期由新到旧。" }
+      - { label: "栏目", name: "newsSection", widget: "select",
+          options: ["أخبار الشركة", "أخبار القطاع", "تقنيات السانك"], default: "أخبار الشركة" }
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "SEO 描述", name: "description", widget: "text",
+          hint: "列表页卡片摘要与搜索结果摘要，写 1-2 句。" }
+      - { label: "URL Slug", name: "newsSlug", widget: "string",
+          hint: "小写英文，用短横线分隔，例 tinico-heat-spreader-dev；建议与文件名保持一致。" }
+      - { label: "正文", name: "body", widget: "markdown" }
+      - { label: "版式", name: "layout", widget: "hidden", default: "news-detail.njk" }
+      - { label: "语言代码", name: "lang", widget: "hidden", default: "ar" }
+
+  # ---- 产品介绍 · العربية（可新增/编辑）----
+  - name: "products-ar"
+    label: "产品介绍 · العربية"
+    label_new: "新增产品 · العربية"
+    folder: "ar/products"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    sortable_fields: ["title"]
+    fields:
+      - { label: "产品名称", name: "title", widget: "string" }
+      - { label: "SEO 描述", name: "description", widget: "text",
+          hint: "写 1-2 句，用于搜索结果摘要。" }
+      - { label: "产品锚点 ID", name: "productId", widget: "string",
+          hint: "小写英文短横线，例 strong-grooving-wheels。产品列表的锚点链接会用到。" }
+      - { label: "产品图", name: "productImage", widget: "image", required: false,
+          hint: "先在媒体库上传，再选择文件。" }
+      - label: "产品详情 HTML"
+        name: "body"
+        widget: "code"
+        default: |
+          <div class="product-block">
+            <img class="pb-img" src="/assets/img/your-product.webp" alt="" loading="lazy" />
+            <div>
+              <h2>产品名称</h2>
+              <p>一段产品介绍。</p>
+              <ul class="specs">
+                <li>特点一</li>
+                <li>特点二</li>
+              </ul>
+              <div class="pb-cta"><a class="btn btn-primary" href="/ar/contact/">اطلب عرض سعر</a></div>
+            </div>
+          </div>
+        hint: "请保留上面的 HTML 结构，只替换引号内的文字；图片地址填已上传的文件；联系按钮的路径必须是 /ar/contact/。留空则产品列表不显示该产品。"
+      - { label: "版式", name: "layout", widget: "hidden", default: "product-detail.njk" }
+      - { label: "页面类型", name: "pageType", widget: "hidden", default: "product" }
+      - { label: "语言代码", name: "lang", widget: "hidden", default: "ar" }
+
+  # ---- 新闻文章 · Tiếng Việt（可新增/编辑/删除）----
+  - name: "news-vi"
+    label: "新闻文章 · Tiếng Việt"
+    label_new: "新增新闻 · Tiếng Việt"
+    folder: "vi/news"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    sortable_fields: ["newsDate", "title"]
+    view_filters:
+      - { label: "全部栏目", field: "newsSection", pattern: ".*" }
+      - {{ label: "Tin doanh nghiệp", field: "newsSection", pattern: "Tin doanh nghiệp" }}
+      - {{ label: "Tin ngành", field: "newsSection", pattern: "Tin ngành" }}
+      - {{ label: "Công nghệ tiên tiến", field: "newsSection", pattern: "Công nghệ tiên tiến" }}
+    fields:
+      - { label: "发布日期", name: "newsDate", widget: "string", required: false,
+          pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
+          hint: "格式 YYYY-MM-DD，例 2026-10-03。留空则列表不显示日期；排序按日期由新到旧。" }
+      - { label: "栏目", name: "newsSection", widget: "select",
+          options: ["Tin doanh nghiệp", "Tin ngành", "Công nghệ tiên tiến"], default: "Tin doanh nghiệp" }
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "SEO 描述", name: "description", widget: "text",
+          hint: "列表页卡片摘要与搜索结果摘要，写 1-2 句。" }
+      - { label: "URL Slug", name: "newsSlug", widget: "string",
+          hint: "小写英文，用短横线分隔，例 tinico-heat-spreader-dev；建议与文件名保持一致。" }
+      - { label: "正文", name: "body", widget: "markdown" }
+      - { label: "版式", name: "layout", widget: "hidden", default: "news-detail.njk" }
+      - { label: "语言代码", name: "lang", widget: "hidden", default: "vi" }
+
+  # ---- 产品介绍 · Tiếng Việt（可新增/编辑）----
+  - name: "products-vi"
+    label: "产品介绍 · Tiếng Việt"
+    label_new: "新增产品 · Tiếng Việt"
+    folder: "vi/products"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    sortable_fields: ["title"]
+    fields:
+      - { label: "产品名称", name: "title", widget: "string" }
+      - { label: "SEO 描述", name: "description", widget: "text",
+          hint: "写 1-2 句，用于搜索结果摘要。" }
+      - { label: "产品锚点 ID", name: "productId", widget: "string",
+          hint: "小写英文短横线，例 strong-grooving-wheels。产品列表的锚点链接会用到。" }
+      - { label: "产品图", name: "productImage", widget: "image", required: false,
+          hint: "先在媒体库上传，再选择文件。" }
+      - label: "产品详情 HTML"
+        name: "body"
+        widget: "code"
+        default: |
+          <div class="product-block">
+            <img class="pb-img" src="/assets/img/your-product.webp" alt="" loading="lazy" />
+            <div>
+              <h2>产品名称</h2>
+              <p>一段产品介绍。</p>
+              <ul class="specs">
+                <li>特点一</li>
+                <li>特点二</li>
+              </ul>
+              <div class="pb-cta"><a class="btn btn-primary" href="/vi/contact/">Yêu cầu báo giá</a></div>
+            </div>
+          </div>
+        hint: "请保留上面的 HTML 结构，只替换引号内的文字；图片地址填已上传的文件；联系按钮的路径必须是 /vi/contact/。留空则产品列表不显示该产品。"
+      - { label: "版式", name: "layout", widget: "hidden", default: "product-detail.njk" }
+      - { label: "页面类型", name: "pageType", widget: "hidden", default: "product" }
+      - { label: "语言代码", name: "lang", widget: "hidden", default: "vi" }

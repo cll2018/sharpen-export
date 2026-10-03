@@ -1,12 +1,82 @@
 <!doctype html>
-<html>
+<html lang="zh-CN">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="robots" content="noindex" />
-  <title>Sharpen CMS</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Sharpen CMS 管理后台</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      margin: 0;
+      min-height: 100dvh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font: 16px/1.7 system-ui, -apple-system, "Segoe UI", "PingFang SC",
+            "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      background: #f5f7fa;
+      color: #1f2933;
+    }
+    .panel {
+      max-width: 34rem;
+      padding: 2rem 2.25rem;
+      text-align: center;
+    }
+    .spinner {
+      width: 34px; height: 34px;
+      margin: 0 auto 1.25rem;
+      border: 3px solid #d3dae3;
+      border-top-color: #0b4f8a;
+      border-radius: 50%;
+      animation: spin 0.9s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @media (prefers-reduced-motion: reduce) {
+      .spinner { animation: none; }
+    }
+    h1 { font-size: 1.15rem; margin: 0 0 0.5rem; }
+    p { margin: 0.4rem 0; color: #52606d; font-size: 0.92rem; }
+    code {
+      background: #e4e9f0; padding: 0.1em 0.4em; border-radius: 4px;
+      font-size: 0.88em;
+    }
+    a { color: #0b4f8a; }
+    .err h1 { color: #a4262c; }
+  </style>
 </head>
 <body>
-  <script src="https://unpkg.com/decap-cms@^3.3.3/dist/decap-cms.js"></script>
+  <!--
+    Loading placeholder. Decap CMS mounts into the document body and replaces
+    this node on success, so it only stays visible if the CMS fails to boot.
+    The CMS bundle is served from this origin (/admin/decap-cms.js) instead of
+    a public CDN (unpkg) so the backend loads reliably from mainland China.
+  -->
+  <div class="panel" id="cms-boot">
+    <div class="spinner" aria-hidden="true"></div>
+    <h1>正在加载管理后台…</h1>
+    <p>首次加载需下载约 5&nbsp;MB 的 CMS 程序，请稍候。</p>
+    <p>若 20 秒后仍停留在此页，请访问
+      <a href="/admin/publish.html">多语言一键发布</a>，
+      或查看浏览器控制台错误。</p>
+  </div>
+
+  <script src="/admin/decap-cms.js"></script>
+  <script>
+    // If the CMS has not replaced the boot panel by now, surface a real
+    // diagnostic message instead of leaving the user with a blank page.
+    setTimeout(function () {
+      var boot = document.getElementById('cms-boot');
+      if (!boot || !document.body.contains(boot)) return; // CMS mounted OK
+      boot.className = 'panel err';
+      boot.innerHTML =
+        '<h1>管理后台加载失败</h1>' +
+        '<p>程序文件未能正常启动。请确认网络可访问 ' +
+        '<code>https://www.sapu-cn.online/admin/decap-cms.js</code>，' +
+        '然后按 Ctrl+F5 强制刷新。</p>' +
+        '<p>仍有问题？可用 <a href="/admin/publish.html">多语言一键发布</a> ' +
+        '直接新增新闻与产品。</p>';
+    }, 20000);
+  </script>
 </body>
 </html>

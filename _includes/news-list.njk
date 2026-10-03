@@ -1,0 +1,78 @@
+---
+layout: base.njk
+---
+{% block content %}
+{#
+  Dynamic news index.
+
+  Articles are read from the Eleventy collection instead of pre-generated HTML,
+  so an article added through the CMS — or through /admin/publish.html, which
+  writes all 14 languages in one commit — appears here automatically, in every
+  language, without running a generator script.
+
+  SECTION_ORDER below reproduces the editorial group order that the previous
+  gen_news_pages.py output used. Sections added later (a new newsSection value
+  typed in the CMS) are appended after the known ones, newest first, so the page
+  keeps working without a code change.
+#}
+{% set langCode = lang or site.defaultLang %}
+{% set SECTION_ORDER = {
+  "en": ["Company News", "Industry News", "Industry Frontier"],
+  "zh": ["公司新闻", "行业资讯", "行业前沿发展现状"],
+  "zh-tw": ["公司新聞", "行業資訊", "行業前沿發展現狀"],
+  "de": ["Unternehmensnachrichten", "Branchennews", "Technologietrends"],
+  "ja": ["企業ニュース", "業界動向", "業界最前線"],
+  "ko": ["기업 뉴스", "업종 뉴스", "산업 최전선"],
+  "ru": ["Корпоративные новости", "Отраслевые новости", "Технологии передового края"],
+  "es": ["Noticias de empresa", "Noticias del sector", "Fronteras tecnológicas"],
+  "pt": ["Notícias da empresa", "Notícias do setor", "Fronteras tecnológicas"],
+  "fr": ["Actualités de l’entreprise", "Actualités du secteur", "Frontières technologiques"],
+  "it": ["Notizie aziendali", "Notizie del settore", "Frontiere tecnologiche"],
+  "tr": ["Şirket haberleri", "Sektör haberleri", "Teknoloji gelişmeleri"],
+  "ar": ["أخبار الشركة", "أخبار القطاع", "تقنيات السانك"],
+  "vi": ["Tin doanh nghiệp", "Tin ngành", "Công nghệ tiên tiến"]
+} %}
+{% set articles = [] %}
+{% for item in collections.all %}
+  {% if item.data.lang == langCode and item.data.newsSlug %}
+    {% set _ = articles.push(item) %}
+  {% endif %}
+{% endfor %}
+{% set articles = articles | sort(attribute="data.newsDate", reverse=true) %}
+{% set known = SECTION_ORDER[langCode] or [] %}
+{% set order = [] %}
+{% for sec in known %}
+  {% set inSection = [] %}
+  {% for a in articles %}
+    {% if (a.data.newsSection or "") == sec %}{% set _ = inSection.push(a) %}{% endif %}
+  {% endfor %}
+  {% if inSection.length %}{% set _ = order.push(sec) %}{% endif %}
+{% endfor %}
+{% for a in articles %}
+  {% set sec = a.data.newsSection or "" %}
+  {% if sec and sec not in order %}{% set _ = order.push(sec) %}{% endif %}
+{% endfor %}
+<section class="container page">
+  <h1>{{ title }}</h1>
+  {% for sec in order %}
+  {% set items = [] %}
+  {% for a in articles %}
+    {% if (a.data.newsSection or "") == sec %}{% set _ = items.push(a) %}{% endif %}
+  {% endfor %}
+  <div class="news-group">
+    <h2>{{ sec }}</h2>
+    <div class="news-grid">
+      {% for a in items %}
+      <article class="news-card">
+        <h3 class="news-card-title"><a href="{{ a.url }}">{{ a.data.title }}</a></h3>
+        {% if a.data.newsDate %}
+        <p class="news-card-date">{{ a.data.newsDate }}</p>
+        {% endif %}
+        <p class="news-card-desc">{{ a.data.description }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</section>
+{% endblock %}

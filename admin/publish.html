@@ -1,0 +1,667 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="noindex, nofollow" />
+<title>多语言一键发布 · Sharpen CMS</title>
+<style>
+  :root {
+    --brand: #0b4f8a; --ink: #1f2933; --muted: #52606d; --line: #d9e0e8;
+    --soft: #f5f7fa; --ok: #1a7f4b; --warn: #a4262c; --bg: #f5f7fa;
+    color-scheme: light dark;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 15px/1.65 system-ui, -apple-system, "Segoe UI", "PingFang SC",
+          "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  }
+  .wrap { max-width: 60rem; margin: 0 auto; padding: 1.5rem 1.25rem 4rem; }
+  header.page-head { display: flex; flex-wrap: wrap; gap: .75rem; align-items: baseline;
+    justify-content: space-between; margin-bottom: 1rem; }
+  h1 { font-size: 1.35rem; margin: 0; }
+  h2 { font-size: 1.02rem; margin: 1.75rem 0 .6rem; padding-bottom: .35rem;
+       border-bottom: 1px solid var(--line); }
+  .sub { color: var(--muted); font-size: .86rem; margin: .25rem 0 0; }
+  a { color: var(--brand); }
+  .card { background: #fff; border: 1px solid var(--line); border-radius: 10px;
+          padding: 1.1rem 1.25rem; margin-bottom: 1rem; }
+  .grid { display: grid; gap: .85rem; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); }
+  label { display: block; font-weight: 600; font-size: .88rem; margin-bottom: .25rem; }
+  .hint { font-weight: 400; color: var(--muted); font-size: .8rem; margin-top: .2rem; }
+  input[type=text], input[type=date], select, textarea {
+    width: 100%; padding: .5rem .6rem; font: inherit; color: inherit;
+    background: #fff; border: 1px solid var(--line); border-radius: 6px;
+  }
+  textarea { min-height: 7.5rem; resize: vertical; }
+  textarea.code { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: .86rem; }
+  :focus-visible { outline: 3px solid #7fb2e5; outline-offset: 1px; }
+  fieldset { border: 1px solid var(--line); border-radius: 8px; padding: .8rem .9rem; margin: 0 0 .85rem; }
+  legend { font-weight: 600; font-size: .88rem; padding: 0 .3rem; }
+  .row { display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; }
+  .btn { appearance: none; border: 1px solid var(--brand); background: var(--brand); color: #fff;
+         font: inherit; font-weight: 600; padding: .55rem 1.1rem; border-radius: 6px; cursor: pointer; }
+  .btn.secondary { background: #fff; color: var(--brand); }
+  .btn:disabled { opacity: .55; cursor: not-allowed; }
+  .status { padding: .7rem .85rem; border-radius: 6px; font-size: .9rem; margin: .85rem 0 0;
+            border: 1px solid var(--line); background: var(--soft); }
+  .status.ok { border-color: #a9d8bf; background: #eefaf3; color: var(--ok); }
+  .status.err { border-color: #e2b4b7; background: #fdf0f1; color: var(--warn); }
+  .status.busy { border-color: #b9d3ee; background: #eff6fd; color: var(--brand); }
+  table { width: 100%; border-collapse: collapse; font-size: .86rem; }
+  th, td { text-align: left; padding: .42rem .5rem; border-bottom: 1px solid var(--line);
+           vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; white-space: nowrap; }
+  td.t { min-width: 14rem; }
+  .pill { display: inline-block; font-size: .74rem; padding: .1rem .45rem; border-radius: 999px;
+          background: #e7eef6; color: var(--brand); margin-left: .3rem; }
+  .mono { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: .84rem; }
+  details summary { cursor: pointer; font-size: .88rem; color: var(--brand); }
+  .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="page-head">
+    <div>
+      <h1>多语言一键发布</h1>
+      <p class="sub">一次填写 → 自动翻译 14 个语种 → 一次提交到 GitHub → Cloudflare 自动重建上线。
+        新增的新闻会同时出现在 14 个语言的新闻列表，新增的产品会出现在 14 个语言的产品中心。</p>
+    </div>
+    <a href="/admin/">← 返回管理后台</a>
+  </header>
+
+  <div id="auth" class="status busy">正在检查 GitHub 登录状态…</div>
+
+  <form id="form" novalidate>
+    <fieldset>
+      <legend>1 · 内容类型</legend>
+      <div class="grid">
+        <div>
+          <label for="kind">类型</label>
+          <select id="kind" name="kind">
+            <option value="news">新闻文章</option>
+            <option value="product">产品介绍</option>
+          </select>
+        </div>
+        <div>
+          <label for="sourceLang">以哪个语种撰写（其余 13 种自动翻译）</label>
+          <select id="sourceLang" name="sourceLang"></select>
+        </div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>2 · 标识与日期</legend>
+      <div class="grid">
+        <div>
+          <label for="slug">URL 标识（slug）<span class="hint">小写英文 + 短横线</span></label>
+          <input type="text" id="slug" name="slug" placeholder="tinico-heat-spreader-dev" required
+                 pattern="[a-z0-9]+(-[a-z0-9]+)*" />
+          <p class="hint">用于网址：/&lt;语种&gt;/news/&lt;slug&gt;/。填一次，14 个语种共用。</p>
+        </div>
+        <div id="dateWrap">
+          <label for="newsDate">发布日期</label>
+          <input type="date" id="newsDate" name="newsDate" />
+        </div>
+        <div id="productIdWrap" hidden>
+          <label for="productId">产品锚点 ID</label>
+          <input type="text" id="productId" name="productId" placeholder="留空则与 slug 相同" />
+        </div>
+        <div id="sectionWrap">
+          <label for="section">栏目</label>
+          <select id="section" name="section"></select>
+        </div>
+        <div id="imageWrap" hidden>
+          <label for="productImage">产品图路径<span class="hint">先在后台媒体库上传</span></label>
+          <input type="text" id="productImage" name="productImage" placeholder="/assets/img/your-product.webp" />
+        </div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>3 · 内容（用你选择的源语种填写）</legend>
+      <div class="grid">
+        <div>
+          <label for="title">标题 <span class="hint">必填</span></label>
+          <input type="text" id="title" name="title" required />
+        </div>
+      </div>
+      <div style="margin-top:.85rem">
+        <label for="description">摘要（SEO 描述，1-2 句）</label>
+        <textarea id="description" name="description" rows="2"></textarea>
+      </div>
+      <div id="bodyWrap" style="margin-top:.85rem">
+        <label for="body">正文<span class="hint">纯文本会用空行分段自动包成 &lt;p&gt;；也可直接粘贴 HTML</span></label>
+        <textarea id="body" name="body" rows="8"></textarea>
+      </div>
+      <div id="featuresWrap" hidden style="margin-top:.85rem">
+        <label for="features">产品卖点<span class="hint">每行一条，建议 3-5 条</span></label>
+        <textarea id="features" name="features" rows="5" placeholder="每行一条卖点"></textarea>
+      </div>
+    </fieldset>
+
+    <div class="row">
+      <button type="button" class="btn" id="translateBtn">① 生成 14 语种</button>
+      <button type="button" class="btn" id="commitBtn" disabled>② 确认发布到 GitHub</button>
+      <span class="sub" id="progress" aria-live="polite"></span>
+    </div>
+  </form>
+
+  <div id="status" class="status" role="status" hidden></div>
+
+  <section id="previewWrap" hidden>
+    <h2>翻译预览（发布前请核对）</h2>
+    <div class="card">
+      <table id="preview">
+        <thead><tr><th>语种</th><th>标题</th><th>摘要</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <details class="card">
+      <summary>查看将要写入的文件（<span id="fileCount">0</span> 个）</summary>
+      <div id="files" style="margin-top:.6rem"></div>
+    </details>
+  </section>
+
+  <section id="resultWrap" hidden>
+    <h2>发布结果</h2>
+    <div class="card" id="result"></div>
+  </section>
+
+  <details class="card" style="margin-top:1.5rem">
+    <summary>登录问题？改用其他 GitHub 令牌</summary>
+    <div style="margin-top:.6rem">
+      <label for="manualToken">GitHub 访问令牌（仅本次使用，不会保存）</label>
+      <input type="text" id="manualToken" placeholder="ghp_… / github_pat_…" />
+      <p class="hint">令牌需具备该仓库的写权限。粘贴后 <button type="button" class="btn secondary" id="useTokenBtn"
+        style="padding:.2rem .6rem;font-size:.85rem">使用此令牌</button></p>
+    </div>
+  </details>
+</div>
+
+<script>
+"use strict";
+const REPO = "cll2018/sharpen-export";
+const BRANCH = "main";
+const LANGS = [
+  ["en", "English"], ["zh", "中文（简体）"], ["zh-tw", "繁體中文"], ["de", "Deutsch"],
+  ["ja", "日本語"], ["ko", "한국어"], ["ru", "Русский"], ["es", "Español"],
+  ["pt", "Português"], ["fr", "Français"], ["it", "Italiano"], ["tr", "Türkçe"],
+  ["ar", "العربية"], ["vi", "Tiếng Việt"],
+];
+const CTA = {
+  en: "Request a quote", zh: "索取报价", "zh-tw": "索取報價", de: "Angebot anfordern",
+  ja: "お見積り依頼", ko: "견적 요청", ru: "Запросить цену", es: "Solicitar presupuesto",
+  pt: "Solicitar orçamento", fr: "Demander un devis", it: "Richiedi un preventivo",
+  tr: "Teklif isteyin", ar: "اطلب عرض سعر", vi: "Yêu cầu báo giá",
+};
+const SECTIONS = {
+  en: ["Company News", "Industry News", "Industry Frontier"],
+  zh: ["公司新闻", "行业资讯", "行业前沿发展现状"],
+  "zh-tw": ["公司新聞", "行業資訊", "行業前沿發展現狀"],
+  de: ["Unternehmensnachrichten", "Branchennews", "Technologietrends"],
+  ja: ["企業ニュース", "業界動向", "業界最前線"],
+  ko: ["기업 뉴스", "업종 뉴스", "산업 최전선"],
+  ru: ["Корпоративные новости", "Отраслевые новости", "Технологии передового края"],
+  es: ["Noticias de empresa", "Noticias del sector", "Fronteras tecnológicas"],
+  pt: ["Notícias da empresa", "Notícias do setor", "Fronteras tecnológicas"],
+  fr: ["Actualités de l’entreprise", "Actualités du secteur", "Frontières technologiques"],
+  it: ["Notizie aziendali", "Notizie del settore", "Frontiere tecnologiche"],
+  tr: ["Şirket haberleri", "Sektör haberleri", "Teknoloji gelişmeleri"],
+  ar: ["أخبار الشركة", "أخبار القطاع", "تقنيات السانك"],
+  vi: ["Tin doanh nghiệp", "Tin ngành", "Công nghệ tiên tiến"],
+};
+
+const $ = (id) => document.getElementById(id);
+let token = null;
+let draft = null; // { kind, slug, files[], results }
+
+/* ---------------- auth ---------------- */
+function tokenFromCms() {
+  for (const key of ["decap-cms-user", "netlify-cms-user"]) {
+    try {
+      const raw = localStorage.getItem(key);
+      if (!raw) continue;
+      const obj = JSON.parse(raw);
+      if (obj && obj.token) return obj.token;
+    } catch (e) { /* ignore */ }
+  }
+  return null;
+}
+async function tokenFromCmsApi() {
+  try {
+    if (window.CMS && typeof window.CMS.getToken === "function") {
+      const t = await window.CMS.getToken();
+      if (t) return t;
+    }
+  } catch (e) { /* ignore */ }
+  return null;
+}
+function setAuth(msg, cls) {
+  const el = $("auth");
+  el.className = "status " + (cls || "");
+  el.textContent = msg;
+}
+async function initAuth() {
+  token = tokenFromCms() || (await tokenFromCmsApi());
+  if (token) {
+    setAuth("✓ 已检测到 GitHub 登录状态，可以直接发布。", "ok");
+    return;
+  }
+  setAuth("未检测到后台登录状态。请先打开 /admin/ 用 GitHub 登录；也可以在页面最下方粘贴一个令牌。", "err");
+}
+
+/* ---------------- helpers ---------------- */
+function setStatus(msg, cls) {
+  const el = $("status");
+  el.hidden = !msg;
+  el.className = "status " + (cls || "");
+  el.textContent = msg || "";
+}
+function setProgress(t) { $("progress").textContent = t || ""; }
+
+function yamlStr(s) { return JSON.stringify(String(s == null ? "" : s)); }
+function htmlAttr(s) {
+  return String(s == null ? "" : s)
+    .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+}
+function textToHtml(t) {
+  const s = String(t || "").trim();
+  if (!s) return "";
+  if (/<[a-z][\s\S]*>/i.test(s)) return s; // already HTML
+  return s.split(/\n{2,}/).map((p) => "<p>" + p.replace(/\n/g, "<br>") + "</p>").join("\n");
+}
+function today() {
+  const d = new Date();
+  const p = (n) => String(n).padStart(2, "0");
+  return d.getFullYear() + "-" + p(d.getMonth() + 1) + "-" + p(d.getDate());
+}
+
+async function gh(path, options) {
+  const res = await fetch("https://api.github.com/repos/" + REPO + path, Object.assign({
+    headers: {
+      Authorization: "Bearer " + token,
+      Accept: "application/vnd.github+json",
+      "Content-Type": "application/json",
+    },
+  }, options || {}));
+  if (res.status === 204) return null;
+  const data = await res.json().catch(() => null);
+  if (!res.ok) {
+    const msg = (data && data.message) || ("HTTP " + res.status);
+    const e = new Error(msg); e.status = res.status; throw e;
+  }
+  return data;
+}
+
+/* ---------------- translation ---------------- */
+async function translateOne(target, payload) {
+  const res = await fetch("/translate", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(Object.assign({ lang: target }, payload)),
+  });
+  const data = await res.json().catch(() => null);
+  if (!res.ok || !data || !data.ok) {
+    throw new Error((data && data.error) || ("HTTP " + res.status));
+  }
+  return data;
+}
+
+async function runTranslate(payload) {
+  const targets = LANGS.map((l) => l[0]).filter((c) => c !== payload.sourceLang);
+  const results = {};
+  results[payload.sourceLang] = {
+    title: payload.title, description: payload.description,
+    body: payload.body, features: payload.features, section: payload.section,
+  };
+  const failures = [];
+  let done = 0;
+  const CONCURRENCY = 4;
+  let cursor = 0;
+  async function worker() {
+    while (cursor < targets.length) {
+      const lang = targets[cursor++];
+      try {
+        const r = await translateOne(lang, payload);
+        results[lang] = r;
+      } catch (e) {
+        failures.push(lang + "：" + e.message);
+        results[lang] = null; // filled in below
+      }
+      done++;
+      setProgress("翻译中 " + done + " / " + targets.length);
+    }
+  }
+  await Promise.all(Array.from({ length: CONCURRENCY }, worker));
+  // A failed language falls back to the source text so the page is never empty;
+  // the operator can then fix that single language in the CMS.
+  for (const lang of targets) {
+    if (!results[lang]) {
+      results[lang] = {
+        title: payload.title, description: payload.description, body: payload.body,
+        features: payload.features, section: payload.section, fallback: true,
+      };
+    }
+  }
+  return { results, failures };
+}
+
+/* ---------------- file builders ---------------- */
+function buildNewsFiles(ctx) {
+  const files = [];
+  for (const [lang] of LANGS) {
+    const r = ctx.results[lang];
+    let desc = r.description || "";
+    // The Chinese editions carry the publication date inside the description,
+    // matching the existing articles on the site.
+    if ((lang === "zh" || lang === "zh-tw") && desc && !/^\*發?布日期/.test(desc)) {
+      const label = lang === "zh" ? "发布日期" : "發布日期";
+      desc = "*" + label + "：" + ctx.date + "* " + desc;
+    }
+    const fm = [
+      "---",
+      "layout: news-detail.njk",
+      "lang: " + lang,
+      "permalink: /" + lang + "/news/" + ctx.slug + "/",
+      "title: " + yamlStr(r.title),
+      "description: " + yamlStr(desc),
+      "pageType: news",
+      "newsSlug: " + ctx.slug,
+      "newsDate: \"" + ctx.date + "\"",
+      "newsSection: " + yamlStr(r.section || SECTIONS[lang][0]),
+      "---",
+      "",
+    ].join("\n");
+    files.push({ path: lang + "/news/" + ctx.slug + ".md", content: fm + textToHtml(r.body) + "\n" });
+  }
+  return files;
+}
+
+function buildProductFiles(ctx) {
+  const files = [];
+  for (const [lang] of LANGS) {
+    const r = ctx.results[lang];
+    const feats = (r.features && r.features.length ? r.features : ctx.features) || [];
+    const li = feats.map((f) => "      <li>" + htmlAttr(f) + "</li>").join("\n");
+    const body = [
+      '<div class="product-block">',
+      '  <img class="pb-img" src="' + htmlAttr(ctx.image) + '" alt="' + htmlAttr(r.title) + '" loading="lazy" />',
+      "  <div>",
+      "    <p>" + htmlAttr(r.description) + "</p>",
+      '    <ul class="specs">',
+      li,
+      "    </ul>",
+      '    <div class="pb-cta"><a class="btn btn-primary" href="/' + lang + '/contact/">' + CTA[lang] + "</a></div>",
+      "  </div>",
+      "</div>",
+      "",
+    ].join("\n");
+    const fm = [
+      "---",
+      "layout: product-detail.njk",
+      "lang: " + lang,
+      "permalink: /" + lang + "/products/" + ctx.slug + "/",
+      "title: " + yamlStr(r.title),
+      "description: " + yamlStr(r.description || ""),
+      "pageType: product",
+      "productId: " + ctx.productId,
+      "productImage: " + yamlStr(ctx.image),
+      "---",
+      "",
+    ].join("\n");
+    files.push({ path: lang + "/products/" + ctx.slug + ".md", content: fm + body });
+  }
+  return files;
+}
+
+/** Insert the product into _data/products.js for every language (curated order). */
+async function patchProductsJs(ctx) {
+  const res = await fetch("/_data/products.js", { cache: "no-store" });
+  if (!res.ok) throw new Error("无法读取 _data/products.js");
+  let text = await res.text();
+  const entry = (lang) => {
+    const r = ctx.results[lang];
+    return [
+      "    {",
+      '      "id": ' + JSON.stringify(ctx.productId) + ",",
+      '      "name": ' + JSON.stringify(r.title) + ",",
+      '      "summary": ' + JSON.stringify(r.description || "") + ",",
+      '      "image": ' + JSON.stringify(ctx.image),
+      "    }",
+    ].join("\n");
+  };
+  for (const [lang] of LANGS) {
+    const key = '"' + lang + '": [';
+    const at = text.indexOf(key);
+    if (at === -1) throw new Error("products.js 中未找到语言 " + lang);
+    // find the matching ] for this array, honouring strings.
+    // Start ON the opening "[" (it is the last char of `key`) so depth reaches 1.
+    let i = at + key.length - 1, depth = 0, inStr = false, esc = false, close = -1;
+    for (; i < text.length; i++) {
+      const ch = text[i];
+      if (esc) { esc = false; continue; }
+      if (ch === "\\") { esc = true; continue; }
+      if (ch === '"') { inStr = !inStr; continue; }
+      if (inStr) continue;
+      if (ch === "[") depth++;
+      else if (ch === "]") { depth--; if (depth === 0) { close = i; break; } }
+    }
+    if (close === -1) throw new Error("products.js 解析失败（" + lang + "）");
+    // already listed for this language? then leave it alone
+    if (text.slice(at, close).indexOf('"' + ctx.productId + '"') !== -1) continue;
+    const before = text.slice(0, close);
+    const trimmed = before.replace(/\s+$/, "");
+    const needsComma = trimmed.endsWith("}");
+    text = before.replace(/\s+$/, "") + (needsComma ? ",\n" : "\n") + entry(lang) + "\n  " + text.slice(close);
+  }
+  return { path: "_data/products.js", content: text };
+}
+
+/** Register the article in _data/newsSlugs.json so it lands in sitemap.xml. */
+async function patchNewsSlugs(ctx) {
+  const res = await fetch("/_data/newsSlugs.json", { cache: "no-store" });
+  if (!res.ok) throw new Error("无法读取 _data/newsSlugs.json");
+  const data = await res.json();
+  const entry = {};
+  for (const [lang] of LANGS) entry[lang] = ctx.results[lang].title;
+  data[ctx.slug] = entry;
+  const ordered = {};
+  Object.keys(data).sort().forEach((k) => { ordered[k] = data[k]; });
+  return { path: "_data/newsSlugs.json", content: JSON.stringify(ordered, null, 2) + "\n" };
+}
+
+/* ---------------- commit ---------------- */
+async function existingPaths(paths) {
+  const found = [];
+  await Promise.all(paths.map(async (p) => {
+    const r = await fetch("https://api.github.com/repos/" + REPO + "/contents/" + p + "?ref=" + BRANCH, {
+      headers: { Authorization: "Bearer " + token, Accept: "application/vnd.github+json" },
+    });
+    if (r.status === 200) found.push(p);
+  }));
+  return found;
+}
+
+async function commit(files, message) {
+  const ref = await gh("/git/ref/heads/" + BRANCH);
+  const base = ref.object.sha;
+  const tree = await gh("/git/trees", {
+    method: "POST",
+    body: JSON.stringify({
+      base_tree: base,
+      tree: files.map((f) => ({ path: f.path, mode: "100644", type: "blob", content: f.content })),
+    }),
+  });
+  const commit = await gh("/git/commits", {
+    method: "POST",
+    body: JSON.stringify({ message, tree: tree.sha, parents: [base] }),
+  });
+  await gh("/git/refs/heads/" + BRANCH, {
+    method: "PATCH",
+    body: JSON.stringify({ sha: commit.sha, force: false }),
+  });
+  return commit.sha;
+}
+
+/* ---------------- UI ---------------- */
+function fillLangSelects() {
+  $("sourceLang").innerHTML = LANGS.map(([c, n], i) =>
+    '<option value="' + c + '"' + (c === "zh" ? " selected" : "") + ">" + n + "</option>").join("");
+  const syncSections = () => {
+    const list = SECTIONS[$("sourceLang").value] || SECTIONS.en;
+    $("section").innerHTML = list.map((s) => '<option value="' + s + '">' + s + "</option>").join("");
+  };
+  $("sourceLang").addEventListener("change", syncSections);
+  syncSections();
+}
+
+function syncKindFields() {
+  const isProduct = $("kind").value === "product";
+  $("dateWrap").hidden = isProduct;
+  $("sectionWrap").hidden = isProduct;
+  $("bodyWrap").hidden = isProduct;
+  $("productIdWrap").hidden = !isProduct;
+  $("imageWrap").hidden = !isProduct;
+  $("featuresWrap").hidden = !isProduct;
+}
+
+function renderPreview(ctx) {
+  const tb = $("preview").querySelector("tbody");
+  tb.innerHTML = "";
+  for (const [lang, name] of LANGS) {
+    const r = ctx.results[lang];
+    const tr = document.createElement("tr");
+    tr.innerHTML =
+      "<td>" + name + (lang === ctx.sourceLang ? '<span class="pill">源语种</span>' : "") +
+      (r.fallback ? '<span class="pill">未翻译</span>' : "") + "</td>" +
+      '<td class="t">' + htmlAttr(r.title) + "</td>" +
+      "<td>" + htmlAttr((r.description || "").slice(0, 160)) + "</td>";
+    tb.appendChild(tr);
+  }
+  $("fileCount").textContent = ctx.files.length;
+  $("files").innerHTML = ctx.files.map((f) =>
+    '<details><summary class="mono">' + f.path + "</summary><pre class=\"mono\" style=\"white-space:pre-wrap\">" +
+    htmlAttr(f.content.length > 1600 ? f.content.slice(0, 1600) + "\n… (truncated)" : f.content) +
+    "</pre></details>").join("");
+  $("previewWrap").hidden = false;
+}
+
+function readForm() {
+  const kind = $("kind").value;
+  const slug = $("slug").value.trim();
+  if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(slug)) {
+    throw new Error("slug 只能使用小写字母、数字和短横线，例如 tinico-heat-spreader-dev");
+  }
+  const title = $("title").value.trim();
+  if (!title) throw new Error("请填写标题");
+  const payload = {
+    kind: kind,
+    sourceLang: $("sourceLang").value,
+    title: title,
+    description: $("description").value.trim(),
+    body: kind === "news" ? $("body").value.trim() : "",
+    features: kind === "product"
+      ? $("features").value.split("\n").map((s) => s.trim()).filter(Boolean)
+      : [],
+    section: kind === "news" ? $("section").value : "",
+  };
+  if (kind === "news" && !payload.body) throw new Error("请填写新闻正文");
+  if (kind === "product" && !payload.features.length) throw new Error("请至少填写一条产品卖点");
+  const ctx = {
+    kind: kind,
+    slug: slug,
+    sourceLang: payload.sourceLang,
+    date: $("newsDate").value || today(),
+    productId: ($("productId").value.trim() || slug).replace(/[^a-z0-9-]/g, "-"),
+    image: $("productImage").value.trim() || "/assets/img/" + slug + ".webp",
+    results: null,
+    files: [],
+  };
+  return { payload, ctx };
+}
+
+$("kind").addEventListener("change", syncKindFields);
+
+$("translateBtn").addEventListener("click", async () => {
+  let payload, ctx;
+  try { ({ payload, ctx } = readForm()); }
+  catch (e) { setStatus(e.message, "err"); return; }
+  $("translateBtn").disabled = true;
+  $("commitBtn").disabled = true;
+  setStatus("正在调用翻译接口，请稍候…", "busy");
+  setProgress("翻译中 0 / 13");
+  try {
+    const { results, failures } = await runTranslate(payload);
+    ctx.results = results;
+    ctx.files = ctx.kind === "news" ? buildNewsFiles(ctx) : buildProductFiles(ctx);
+    draft = ctx;
+    renderPreview(ctx);
+    if (failures.length) {
+      setStatus("部分语种翻译失败，已回退为源语种内容（发布后可在后台单独修改）：" + failures.join("；"), "err");
+    } else {
+      setStatus("14 个语种已生成完毕，请核对下方预览，确认无误后点击「② 确认发布到 GitHub」。", "ok");
+    }
+    $("commitBtn").disabled = false;
+  } catch (e) {
+    setStatus("翻译失败：" + e.message, "err");
+  } finally {
+    $("translateBtn").disabled = false;
+    setProgress("");
+  }
+});
+
+$("commitBtn").addEventListener("click", async () => {
+  if (!draft) return;
+  if (!token) { setStatus("缺少 GitHub 令牌，无法发布。", "err"); return; }
+  $("commitBtn").disabled = true;
+  $("translateBtn").disabled = true;
+  try {
+    setStatus("正在检查是否已存在同名文件…", "busy");
+    const extra = [];
+    if (draft.kind === "news") extra.push(await patchNewsSlugs(draft));
+    else extra.push(await patchProductsJs(draft));
+    const all = draft.files.concat(extra);
+    const clash = await existingPaths(all.map((f) => f.path));
+    if (clash.length) {
+      setStatus("以下文件已存在，为避免覆盖已中止发布：" + clash.join("、") +
+        "。请换一个 slug，或先在后台删除旧内容。", "err");
+      return;
+    }
+    setStatus("正在提交 " + all.length + " 个文件到 GitHub…", "busy");
+    const kindLabel = draft.kind === "news" ? "新闻" : "产品";
+    const sha = await commit(all, "content: 一键发布" + kindLabel + " " + draft.slug + "（14 语种）");
+    const first = "/" + draft.sourceLang + "/" + (draft.kind === "news" ? "news/" : "products/") + draft.slug + "/";
+    $("result").innerHTML =
+      "<p>✓ 已提交 <span class=\"mono\">" + sha.slice(0, 7) + "</span>，共 " + all.length +
+      " 个文件。" + (extra.length ? "（含索引数据 " + extra[0].path + "）" : "") + "</p>" +
+      "<p>Cloudflare 将在 1-2 分钟内自动重建上线，随后可访问：<a href=\"" + first + "\">" + first + "</a></p>" +
+      "<p class=\"sub\">提示：14 个语种页面地址为 /&lt;语种&gt;/" +
+      (draft.kind === "news" ? "news/" : "products/") + draft.slug + "/</p>";
+    $("resultWrap").hidden = false;
+    setStatus("发布成功。", "ok");
+  } catch (e) {
+    setStatus("发布失败：" + e.message, "err");
+  } finally {
+    $("commitBtn").disabled = false;
+    $("translateBtn").disabled = false;
+  }
+});
+
+$("useTokenBtn").addEventListener("click", () => {
+  const v = $("manualToken").value.trim();
+  if (!v) { setStatus("请先粘贴令牌。", "err"); return; }
+  token = v;
+  $("manualToken").value = "";
+  setAuth("✓ 已使用本次输入的令牌（未保存）。", "ok");
+});
+
+fillLangSelects();
+syncKindFields();
+$("newsDate").value = today();
+initAuth();
+</script>
+</body>
+</html>
