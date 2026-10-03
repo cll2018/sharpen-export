@@ -1,15 +1,24 @@
 // Cloudflare Pages Function: POST /translate
-// Translates one content item (news article or product) into ONE target language
-// for the "publish in all languages" page at /admin/publish.html.
+// Translates one content item (news article or product) for the "publish in all
+// languages" page at /admin/publish.html.
+//
+// Design notes:
+//  - Security mirrors functions/ai-chat.js: non-secret config (apiBaseUrl / model)
+//    lives in data/settings.json, the secret key is read from the Pages env var
+//    AI_LLM_API_KEY and never leaves the server. Same-origin POSTs only, with a
+//    payload cap, so it cannot be abused as an open translation proxy.
+//  - MODE "all" (preferred): translates into every target language in ONE upstream
+//    request. The configured provider rate-limits by request count, so 13
+//    separate calls frequently fail with 502; a single call avoids that entirely.
+//  - MODE "single": one language per request, used as a fallback to fill in any
+//    language the combined response missed.
 //
 // Security model (mirrors functions/ai-chat.js):
 //   - Non-secret config (apiBaseUrl / model) lives in data/settings.json.
-//   - The secret API key is read from the Cloudflare Pages env var AI_LLM_API_KEY
-//     and never leaves the server.
-//   - The endpoint only accepts same-origin POSTs and caps the payload size, so
-//     it cannot be used as an open translation proxy for third parties.
+//   - The secret API key is read from the Cloudflare Pages env var AI_LLM_API_KEY.
+//   - Only same-origin POSTs with a bounded payload are accepted.
 
-const MAX_BODY = 24_000; // chars of source text we accept
+const MAX_BODY = 24_000; // chars of source text accepted
 
 const LANG_NAMES = {
   en: "English (US)",
@@ -27,6 +36,21 @@ const LANG_NAMES = {
   ar: "Arabic",
   vi: "Vietnamese",
 };
+
+// Established product terminology for this site. Translating these words with a
+// generic dictionary produces bad results (e.g. 金刚石砂轮 -> "diamond paste"),
+// so the required renderings are pinned here and echoed back in the prompt.
+const GLOSSARY = [
+  ["金刚石砂轮", "diamond grinding wheel", "Diamantscheibe", "ダイヤモンド砥石", "다이아몬드 휠", "алмазный круг", "rueda de diamante", "roda de diamante", "meule diamant", "mole per diamante", "elmas taş", "قرص الماس", "đĩa mài kim cương"],
+  ["CBN砂轮", "CBN grinding wheel", "CBN-Schleifscheibe", "CBN砥石", "CBN 휠", "CBN круг", "rueda CBN", "roda CBN", "meule CBN", "mole CBN", "CBN taş", "قرص CBN", "đĩa mài CBN"],
+  ["硬质合金", "cemented carbide", "Hartmetall", "超硬合金", "탄화강", "твердосплав", "carburo", "carboneto", "carbure", "carburo", "sert metal", "كربيد", "carbide cứng"],
+  ["金属陶瓷结合剂", "cermet bond", "Keramikmetallbindung", "セラミックメタルバインド", "서멧 결합제", "керамико-металлическая связка", "aglutinante cermet", "aglutinante cermet", "liant cermet", "legante cermet", "seramik metal bağlayıcı", "رابطة سيرميت", "chất kết dính cermet"],
+  ["树脂结合剂", "resin bond", "Kunstharzbindung", "樹脂バインド", "수지 결합제", "смоляная связка", "aglutinante de resina", "aglutinante de resina", "liant résine", "legante resinosa", "reçine bağlayıcı", "رابط راتنجي", "chất kết dính nhựa"],
+  ["碳化硅晶圆减薄砂轮", "SiC wafer thinning wheel", "SiC-Wafer-Dünnschliff", "SiCウェーハ研削", "SiC 웨이퍼 씬닝", "SiC пластины", "rueda de adelgazado de obleas SiC", "roda de desbaste de wafer SiC", "meule d'amincissement de wafer SiC", "mola di assottigliamento wafer SiC", "SiC wafer inceltme", "عجلة ترقيم رقائق SiC", "đĩa mài mỏng wafer SiC"],
+  ["粉末冶金高速钢", "powder metallurgy high-speed steel", "Pulvermetallurgie-Schnellstahl", "粉末冶金高速度鋼", "분말야금 고속강", "порошковая быстрорежущая сталь", "acero rápido de metalurgia de polvos", "aço rápido de metalurgia de pó", "acier rapide à métallurgie des poudres", "acciaio rapido da metallurgia delle polveri", "toz metalurjisi yüksek hızlı çelik", "فولاذ عالي السرKata من المساحيق", "thép tốc độ cao luyện bột"],
+  ["均热板", "heat spreader", "Wärmeleiter", "放熱板", "히트 스프리더", "радиатор", "disipador de calor", "dissipador de calor", "conducteur thermique", "dispersione di calore", "ısı yayıcı", "موصل حراري", "tản nhiệt"],
+  ["五轴数控磨削", "five-axis CNC grinding", "5-Achs-CNC-Schliff", "5軸NC研削", "5축 CNC 연삭", "5-осевое фрезерование", "rectificado CNC de 5 ejes", "retificação CNC de 5 eixos", "rectification CNC 5 axes", "rettifica CNC a 5 assi", "5 eksenli CNC taşlama", "الطحن CNC بخمسة محاور", "mài CNC 5 trục"],
+];
 
 function json(data, status = 200) {
   return new Response(JSON.stringify(data), {
@@ -50,64 +74,157 @@ function extractJson(text) {
   }
   const start = raw.indexOf("{");
   if (start === -1) return null;
-  let depth = 0;
-  let inStr = false;
-  let esc = false;
+  let depth = 0, inStr = false, esc = false;
   for (let i = start; i < raw.length; i++) {
     const ch = raw[i];
-    if (esc) {
-      esc = false;
-      continue;
-    }
-    if (ch === "\\") {
-      esc = true;
-      continue;
-    }
+    if (esc) { esc = false; continue; }
+    if (ch === "\\") { esc = true; continue; }
     if (ch === '"') inStr = !inStr;
     if (inStr) continue;
     if (ch === "{") depth++;
     else if (ch === "}") {
       depth--;
       if (depth === 0) {
-        try {
-          return JSON.parse(raw.slice(start, i + 1));
-        } catch {
-          return null;
-        }
+        try { return JSON.parse(raw.slice(start, i + 1)); } catch { return null; }
       }
     }
   }
   return null;
 }
 
-function buildPrompt(kind, sourceLang, item) {
-  const target = LANG_NAMES[item.lang] || item.lang;
-  const common = [
-    `Translate the following ${kind === "product" ? "product" : "news article"} content from ${LANG_NAMES[sourceLang] || sourceLang} into ${target}.`,
-    "Rules:",
-    "- Keep the meaning, technical terms and all numbers/dates/proper nouns accurate.",
-    "- Do NOT add commentary, do NOT summarise, do NOT omit sentences.",
-    "- Keep any HTML tags, markdown syntax and entities exactly as they are (only translate the human-readable text between them).",
-    "- Use natural, professional wording for an industrial manufacturing B2B website.",
+function glossaryBlock(sourceLang) {
+  const si = LANGS.indexOf(sourceLang);
+  const lines = [];
+  for (const row of GLOSSARY) {
+    const [zh, en, de, ja, ko, ru, es, pt, fr, it, tr, ar, vi] = row;
+    const names = [en, de, ja, ko, ru, es, pt, fr, it, tr, ar, vi];
+    const targets = [];
+    for (const code of ["en", "de", "ja", "ko", "ru", "es", "pt", "fr", "it", "tr", "ar", "vi"]) {
+      const idx = ["en", "de", "ja", "ko", "ru", "es", "pt", "fr", "it", "tr", "ar", "vi"].indexOf(code);
+      if (code === sourceLang) continue;
+      targets.push(LANG_NAMES[code] + " = " + names[idx]);
+    }
+    lines.push("- " + zh + " → " + targets.join("; "));
+    if (si === -1) break; // only need the Chinese column as the key when source is zh
+  }
+  return lines.join("\n");
+}
+
+function fidelityRules(sourceLang) {
+  return [
+    "- TRANSLATE FAITHFULLY AND LITERALLY. Do not add, remove, summarize, explain, embellish or comment. Do not invent facts, dates, numbers or product claims.",
+    "- Keep every number, date, unit, model name and proper noun exactly as written in the source.",
+    "- Keep all HTML tags, markdown syntax and entities exactly as they are; translate only the human-readable text between them.",
+    "- Keep the tone of a professional industrial-manufacturing B2B website.",
+    "- Use the pinned terminology below for these industry terms, so that the wording matches the rest of the website:",
+    glossaryBlock(sourceLang),
+  ].join("\n");
+}
+
+function sourcePayload(kind, item) {
+  const p = { title: item.title || "", description: item.description || "" };
+  if (kind === "product") p.features = Array.isArray(item.features) ? item.features : [];
+  else p.body = item.body || "";
+  if (kind === "news" && item.section) p.section_label_to_translate = item.section;
+  return p;
+}
+
+function buildAllPrompt(kind, sourceLang, item, targets) {
+  const perLang = kind === "product"
+    ? '"title": "...", "description": "...", "features": ["...", "..."]'
+    : '"title": "...", "description": "...", "body": "..."' + (item.section ? ', "section": "..."' : "");
+  return [
+    `Translate this ${kind === "product" ? "product entry" : "news article"} from ${LANG_NAMES[sourceLang] || sourceLang} into these ${targets.length} languages: ` +
+      targets.map((c) => `${c} (${LANG_NAMES[c]})`).join(", ") + ".",
+    "",
+    fidelityRules(sourceLang),
     kind === "product"
-      ? "- \"features\" is a list of short bullet points; translate each bullet separately and return the same number of bullets."
-      : "- \"body\" may contain HTML (<p>, <ul>, <li>, <strong>); keep the tags and translate only the text.",
-    kind === "news" && item.section
-      ? "- Also translate the news section label into \"" + target + "\" and return it as \"section\"."
-      : "",
-    'Reply with ONLY a JSON object, no prose and no code fence: {"title": "...", "description": "..."' +
-      (kind === "product" ? ', "features": ["...", "..."]' : ', "body": "..."') +
-      (kind === "news" && item.section ? ', "section": "..."' : "") +
-      "}",
-  ];
-  const payload = {
-    title: item.title || "",
-    description: item.description || "",
+      ? '- "features" is a list of short bullets: translate each bullet separately and return exactly the same number of bullets.'
+      : '- "body" may contain HTML (<p>, <ul>, <li>, <strong>): keep the tags, translate only the text.' +
+        (item.section ? ' Also translate the news section label and return it as "section".' : ""),
+    "",
+    "Reply with ONLY a JSON object mapping each language code to its translation, no prose and no code fence:",
+    '{ "' + targets[0] + '": { ' + perLang + ' }, "' + targets[targets.length - 1] + '": { ' + perLang + ' }, ... }',
+    "",
+    "SOURCE JSON:",
+    JSON.stringify(sourcePayload(kind, item), null, 1),
+  ].join("\n");
+}
+
+function buildOnePrompt(kind, sourceLang, item, target) {
+  const perLang = kind === "product"
+    ? '"title": "...", "description": "...", "features": ["...", "..."]'
+    : '"title": "...", "description": "...", "body": "..."' + (item.section ? ', "section": "..."' : "");
+  return [
+    `Translate this ${kind === "product" ? "product entry" : "news article"} from ${LANG_NAMES[sourceLang] || sourceLang} into ${LANG_NAMES[target] || target}.`,
+    "",
+    fidelityRules(sourceLang),
+    kind === "product"
+      ? '- "features" is a list of short bullets: translate each bullet separately and return exactly the same number of bullets.'
+      : '- "body" may contain HTML (<p>, <ul>, <li>, <strong>): keep the tags, translate only the text.' +
+        (item.section ? ' Also translate the news section label and return it as "section".' : ""),
+    "",
+    "Reply with ONLY a JSON object, no prose and no code fence: { " + perLang + " }",
+    "",
+    "SOURCE JSON:",
+    JSON.stringify(sourcePayload(kind, item), null, 1),
+  ].join("\n");
+}
+
+async function callModel(settings, apiKey, prompt, maxTokens) {
+  const upstream = await fetch((settings.apiBaseUrl || "").replace(/\/$/, "") + "/chat/completions", {
+    method: "POST",
+    headers: { "Content-Type": "application/json", Authorization: "Bearer " + apiKey },
+    body: JSON.stringify({
+      model: settings.model || "gpt-4o-mini",
+      temperature: 0.1,
+      max_tokens: maxTokens || 4000,
+      messages: [
+        {
+          role: "system",
+          content:
+            "You are a meticulous technical translator for a Chinese industrial manufacturer " +
+            "(grinding wheels, CBN wheels, cemented carbide, PM high-speed steel, SiC wafer " +
+            "grinding, TiNiCo heat spreaders). You translate literally, you never add or remove " +
+            "information, and you always answer with a single valid JSON object and nothing else.",
+        },
+        { role: "user", content: prompt },
+      ],
+    }),
+  });
+  if (!upstream.ok) {
+    const err = new Error("LLM HTTP " + upstream.status);
+    err.retryable = true;
+    throw err;
+  }
+  const data = await upstream.json();
+  const content = data.choices && data.choices[0] && data.choices[0].message
+    ? data.choices[0].message.content
+    : "";
+  const parsed = extractJson(content);
+  if (!parsed) {
+    const err = new Error("model reply was not valid JSON");
+    err.retryable = true;
+    throw err;
+  }
+  return parsed;
+}
+
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+function pickLang(raw, kind, item, fallbackSection) {
+  const out = {
+    title: String((raw && raw.title) || ""),
+    description: String((raw && raw.description) || ""),
   };
-  if (kind === "product") payload.features = Array.isArray(item.features) ? item.features : [];
-  else payload.body = item.body || "";
-  if (kind === "news" && item.section) payload.section_label_to_translate = item.section;
-  return common.filter(Boolean).join("\n") + "\n\nSOURCE JSON:\n" + JSON.stringify(payload, null, 1);
+  if (!out.title) return null;
+  if (kind === "product") {
+    out.features = Array.isArray(raw.features) ? raw.features.map(String) : [];
+  } else {
+    out.body = String((raw && raw.body) || "");
+    if (fallbackSection) out.section = String(raw.section || fallbackSection);
+  }
+  return out;
 }
 
 export async function onRequestPost({ request, env }) {
@@ -128,33 +245,29 @@ export async function onRequestPost({ request, env }) {
   const kind = body.kind === "product" ? "product" : "news";
   const sourceLang = typeof body.sourceLang === "string" ? body.sourceLang : "zh";
   const item = {
-    lang: typeof body.lang === "string" ? body.lang : "",
     title: typeof body.title === "string" ? body.title : "",
     description: typeof body.description === "string" ? body.description : "",
     body: typeof body.body === "string" ? body.body : "",
     features: Array.isArray(body.features) ? body.features : [],
     section: typeof body.section === "string" ? body.section : "",
   };
+  if (!item.title) return json({ ok: false, error: "title is required" }, 400);
 
-  if (!LANG_NAMES[item.lang]) {
-    return json({ ok: false, error: "unsupported target language: " + item.lang }, 400);
-  }
-  if (item.lang === sourceLang) {
-    return json({ ok: true, lang: item.lang, passthrough: true, ...item });
-  }
   const sourceSize = item.title.length + item.description.length + item.body.length +
     item.features.join("").length;
-  if (!item.title) {
-    return json({ ok: false, error: "title is required" }, 400);
-  }
   if (sourceSize > MAX_BODY) {
     return json(
-      { ok: false, error: `source content is too long (${sourceSize} chars, limit ${MAX_BODY}). Shorten the article or translate it in the CMS per language.` },
+      { ok: false, error: `source content is too long (${sourceSize} chars, limit ${MAX_BODY}). Shorten it or translate that language in the CMS.` },
       413
     );
   }
 
-  // Non-secret LLM config, editable from the CMS.
+  const mode = body.mode === "single" ? "single" : "all";
+  const requested = Array.isArray(body.langs) ? body.langs : (body.lang ? [body.lang] : []);
+  const targets = [...new Set(requested)]
+    .filter((c) => LANG_NAMES[c] && c !== sourceLang);
+  if (!targets.length) return json({ ok: true, results: {} });
+
   let settings;
   try {
     settings = await fetch(new URL(request.url).origin + "/data/settings.json").then((r) => r.json());
@@ -163,67 +276,56 @@ export async function onRequestPost({ request, env }) {
   }
   const apiKey = env.AI_LLM_API_KEY;
   if (!apiKey) {
-    return json(
-      { ok: false, error: "AI_LLM_API_KEY is not set on this Cloudflare Pages project" },
-      500
-    );
+    return json({ ok: false, error: "AI_LLM_API_KEY is not set on this Cloudflare Pages project" }, 500);
   }
 
-  const prompt = buildPrompt(kind, sourceLang, item);
-  let lastErr = "unknown error";
-  for (let attempt = 1; attempt <= 2; attempt++) {
-    try {
-      const upstream = await fetch((settings.apiBaseUrl || "").replace(/\/$/, "") + "/chat/completions", {
-        method: "POST",
-        headers: { "Content-Type": "application/json", Authorization: "Bearer " + apiKey },
-        body: JSON.stringify({
-          model: settings.model || "gpt-4o-mini",
-          temperature: 0.2,
-          messages: [
-            {
-              role: "system",
-              content:
-                "You are a professional technical translator for a Chinese industrial manufacturer " +
-                "(grinding wheels, PM high-speed steel, TiNiCo heat spreaders). You always answer with a single valid JSON object and nothing else.",
-            },
-            { role: "user", content: prompt },
-          ],
-        }),
-      });
-      if (!upstream.ok) {
-        lastErr = "LLM HTTP " + upstream.status;
-        continue;
+  const results = {};
+  const errors = {};
+
+  if (mode === "all") {
+    const prompt = buildAllPrompt(kind, sourceLang, item, targets);
+    const maxTokens = Math.min(16000, 1200 + Math.ceil(sourceSize * 0.9 * targets.length / 2.2));
+    let lastErr = "unknown error";
+    for (let attempt = 1; attempt <= 2; attempt++) {
+      try {
+        const parsed = await callModel(settings, apiKey, prompt, maxTokens);
+        for (const lang of targets) {
+          const picked = pickLang(parsed[lang], kind, item, item.section);
+          if (picked) results[lang] = picked;
+          else errors[lang] = "missing in combined response";
+        }
+        if (Object.keys(results).length) break;
+        lastErr = "combined response had no usable entries";
+      } catch (e) {
+        lastErr = String(e && e.message ? e.message : e).slice(0, 160);
       }
-      const data = await upstream.json();
-      const content =
-        data.choices && data.choices[0] && data.choices[0].message
-          ? data.choices[0].message.content
-          : "";
-      const parsed = extractJson(content);
-      if (!parsed || !parsed.title) {
-        lastErr = "model reply was not valid JSON";
-        continue;
-      }
-      const out = {
-        ok: true,
-        lang: item.lang,
-        title: String(parsed.title),
-        description: String(parsed.description || ""),
-      };
-      if (kind === "product") {
-        out.features = Array.isArray(parsed.features)
-          ? parsed.features.map(String)
-          : item.features.slice();
-      } else {
-        out.body = typeof parsed.body === "string" ? parsed.body : item.body;
-        if (item.section) out.section = String(parsed.section || item.section);
-      }
-      return json(out);
-    } catch (e) {
-      lastErr = String(e && e.message ? e.message : e).slice(0, 160);
+      if (attempt < 2) await sleep(1500);
     }
+    if (!Object.keys(results).length) {
+      return json({ ok: false, error: lastErr, mode }, 502);
+    }
+  } else {
+    const lang = targets[0];
+    let lastErr = "unknown error";
+    for (let attempt = 1; attempt <= 3; attempt++) {
+      try {
+        const parsed = await callModel(settings, apiKey, buildOnePrompt(kind, sourceLang, item, lang), 4000);
+        const picked = pickLang(parsed, kind, item, item.section);
+        if (picked) {
+          results[lang] = picked;
+          lastErr = "";
+          break;
+        }
+        lastErr = "reply had no title";
+      } catch (e) {
+        lastErr = String(e && e.message ? e.message : e).slice(0, 160);
+      }
+      if (attempt < 3) await sleep(2000 * attempt); // back off: the provider rate-limits
+    }
+    if (!results[lang]) return json({ ok: false, lang, error: lastErr, mode }, 502);
   }
-  return json({ ok: false, lang: item.lang, error: lastErr }, 502);
+
+  return json({ ok: true, mode, results, errors });
 }
 
 export async function onRequestOptions() {

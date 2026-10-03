@@ -297,17 +297,35 @@ async function gh(path, options) {
 }
 
 /* ---------------- translation ---------------- */
-async function translateOne(target, payload) {
+// The configured LLM provider rate-limits by request count, so the primary path
+// is ONE request for all 13 languages. Only languages missing from that combined
+// answer are retried individually, slowly.
+async function translateAll(payload, targets) {
   const res = await fetch("/translate", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(Object.assign({ lang: target }, payload)),
+    body: JSON.stringify(Object.assign({ mode: "all", langs: targets }, payload)),
   });
   const data = await res.json().catch(() => null);
   if (!res.ok || !data || !data.ok) {
     throw new Error((data && data.error) || ("HTTP " + res.status));
   }
-  return data;
+  return data.results || {};
+}
+
+async function translateOne(target, payload) {
+  const res = await fetch("/translate", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(Object.assign({ mode: "single", lang: target }, payload)),
+  });
+  const data = await res.json().catch(() => null);
+  if (!res.ok || !data || !data.ok) {
+    throw new Error((data && data.error) || ("HTTP " + res.status));
+  }
+  const r = data.results && data.results[target];
+  if (!r) throw new Error("empty reply");
+  return r;
 }
 
 async function runTranslate(payload) {
@@ -318,25 +336,33 @@ async function runTranslate(payload) {
     body: payload.body, features: payload.features, section: payload.section,
   };
   const failures = [];
-  let done = 0;
-  const CONCURRENCY = 4;
-  let cursor = 0;
-  async function worker() {
-    while (cursor < targets.length) {
-      const lang = targets[cursor++];
+
+  let combinedOk = false;
+  try {
+    setProgress("正在一次性翻译 " + targets.length + " 个语种…");
+    const got = await translateAll(payload, targets);
+    Object.assign(results, got);
+    combinedOk = true;
+  } catch (e) {
+    setProgress("批量翻译未成功（" + e.message + "），改为逐语种重试…");
+  }
+
+  const missing = targets.filter((t) => !results[t]);
+  if (missing.length) {
+    let i = 0;
+    for (const lang of missing) {
+      i++;
+      setProgress("补齐语种 " + i + " / " + missing.length + "（" + lang + "）");
       try {
-        const r = await translateOne(lang, payload);
-        results[lang] = r;
+        results[lang] = await translateOne(lang, payload);
       } catch (e) {
         failures.push(lang + "：" + e.message);
-        results[lang] = null; // filled in below
       }
-      done++;
-      setProgress("翻译中 " + done + " / " + targets.length);
+      if (i < missing.length) await new Promise((r) => setTimeout(r, 2500));
     }
   }
-  await Promise.all(Array.from({ length: CONCURRENCY }, worker));
-  // A failed language falls back to the source text so the page is never empty;
+
+  // Anything still missing falls back to the source text so no page is empty;
   // the operator can then fix that single language in the CMS.
   for (const lang of targets) {
     if (!results[lang]) {
@@ -344,9 +370,10 @@ async function runTranslate(payload) {
         title: payload.title, description: payload.description, body: payload.body,
         features: payload.features, section: payload.section, fallback: true,
       };
+      if (!failures.some((f) => f.startsWith(lang))) failures.push(lang + "：未翻译");
     }
   }
-  return { results, failures };
+  return { results, failures, combinedOk };
 }
 
 /* ---------------- file builders ---------------- */
