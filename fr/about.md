@@ -6,7 +6,7 @@ title: "À propos de nous"
 description: "Changsha Sharpen New Materials Co., Ltd. — entreprise nationale high-tech, « Petit Géant » spécialisé et innovant de la province du Hunan, soutenue par une équipe de Changjiang Scholars ; meules diamant/CBN, acier à outils haute vitesse par pulvérisation métallurgique, dissipateurs de chaleur TiNiCo."
 ---
 
-# À propos de Sharpen New Materials
+<!-- DE-DUPED: leading H1 removed, template renders <h1> -->
 
 Changsha Sharpen New Materials Co., Ltd. (长沙市萨普新材料有限公司), fondée en 2013, est dédiée au domaine des nouveaux matériaux de métallurgie des poudres. Nous sommes une entreprise nationale high-tech intégrée combinant R&D, fabrication, ventes et service technique — une entreprise « Petit Géant » spécialisée et innovante de la province du Hunan, une entreprise technologique et innovante nationale, et une entreprise pilote de fabrication intelligente à Changsha.
 

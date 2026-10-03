@@ -6,7 +6,7 @@ title: "News"
 description: "Changsha Sharpen New Materials: Unternehmensnews, Branchen- und Technologietrends."
 ---
 
-# Presse & Newsroom
+<!-- DE-DUPED: leading H1 removed, template renders <h1> -->
 
 ## Unternehmensnachrichten
 

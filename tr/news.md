@@ -6,7 +6,7 @@ title: "Haberler"
 description: "Changsha Sharpen New Materials: şirket haberleri, sektör trendleri ve teknoloji gelişmeleri."
 ---
 
-# Haber merkezi
+<!-- DE-DUPED: leading H1 removed, template renders <h1> -->
 
 ## Şirket haberleri
 

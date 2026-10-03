@@ -6,7 +6,7 @@ title: "الأخبار"
 description: "Changsha Sharpen New Materials: أخبار الشركة، اتجاهات الصناعة، والتطورات التكنولوجية."
 ---
 
-# مركز الأخبار
+<!-- DE-DUPED: leading H1 removed, template renders <h1> -->
 
 ## أخبار الشركة
 

@@ -6,7 +6,7 @@ title: "Tin tức"
 description: "Changsha Sharpen New Materials: tin doanh nghiệp, xu hướng ngành và các đột phá công nghệ."
 ---
 
-# Tín hiệu và tin tức
+<!-- DE-DUPED: leading H1 removed, template renders <h1> -->
 
 ## Tin doanh nghiệp
 

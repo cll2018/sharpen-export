@@ -6,7 +6,7 @@ title: "회사 소개"
 description: "창사 샤퍼펜 신소재 유한공사 — 국가 하이테크 기업, 후난 성 특화 혁신 '작은 거인' 기업, 장강 학자 팀 후원; 다이아몬드/CBN 바라구, PM 고속강, TiNiCo 히트 스프레더."
 ---
 
-# 샤퍼펜 신소재 소개
+<!-- DE-DUPED: leading H1 removed, template renders <h1> -->
 
 창사 샤퍼펜 신소재 유한공사(Changsha Sharpen New Materials Co., Ltd.)는 2013년에 설립되었으며 분말 야금 신소재 분야에 전념하고 있습니다. 당사는 R&D, 제조, 판매 및 기술 서비스를 결합한 통합 국가 하이테크 기업으로, 후난 성 특화 혁신 "작은 거인(Little Giant)" 기업, 국가 기술 기반 혁신 기업, 창사 지능형 제조 시범 기업입니다.
 

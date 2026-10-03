@@ -6,7 +6,7 @@ title: "Sobre Nós"
 description: "Changsha Sharpen New Materials Co., Ltd. — empresa nacional de alta tecnologia, 'Pequeno Gigante' especializado e inovador de Hunan, apoiada por uma equipe de Acadêmicos Changjiang; esmeril de diamante/CBN, aço rápido PM, dissipadores de calor TiNiCo."
 ---
 
-# Sobre a Sharpen New Materials
+<!-- DE-DUPED: leading H1 removed, template renders <h1> -->
 
 A Changsha Sharpen New Materials Co., Ltd. (长沙市萨普新材料有限公司) foi fundada em 2013 e está dedicada ao campo de novos materiais de metalurgia de pós. Somos uma empresa nacional de alta tecnologia integrada, combinando P&D, manufatura, vendas e serviço técnico — uma empresa 'Pequeno Gigante' especializada e inovadora da Província de Hunan, uma empresa de base tecnológica e inovadora a nível nacional e uma empresa-piloto de manufatura inteligente de Changsha.
 

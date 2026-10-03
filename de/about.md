@@ -6,7 +6,7 @@ title: "Über uns"
 description: "Changsha Sharpen New Materials Co., Ltd. — National Hightech-Unternehmen, spezialisierter innovativer 'Kleiner Riese' von Hunan, getragen von einem Changjiang-Scholars-Team; Diamant-/CBN-Schleifscheiben, PM-HSS, TiNiCo-Wärmeleitplatten."
 ---
 
-# Über Sharpen New Materials
+<!-- DE-DUPED: leading H1 removed, template renders <h1> -->
 
 Changsha Sharpen New Materials Co., Ltd. (长沙市萨普新材料有限公司) wurde 2013 gegründet und ist dem Bereich neue Pulvermetallurgie-Materialien gewidmet. Wir sind ein integriertes National Hightech-Unternehmen, das Forschung und Entwicklung, Fertigung, Vertrieb und technischen Service kombiniert — ein spezialisierter und innovativer "Kleiner Riese"-Betrieb der Provinz Hunan, ein nationales technologiebasiertes innovatives Unternehmen und ein Pilotbetrieb für intelligente Fertigung in Changsha.
 

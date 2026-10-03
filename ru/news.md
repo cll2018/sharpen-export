@@ -6,7 +6,7 @@ title: "Новости"
 description: "Changsha Sharpen New Materials: корпоративные новости, отраслевые обзоры и технологические тенденции."
 ---
 
-# Новостной центр
+<!-- DE-DUPED: leading H1 removed, template renders <h1> -->
 
 ## Корпоративные новости
 
