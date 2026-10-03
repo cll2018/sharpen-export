@@ -41,6 +41,8 @@ const LANG_NAMES = {
 // generic dictionary produces bad results (e.g. 金刚石砂轮 -> "diamond paste"),
 // so the required renderings are pinned here and echoed back in the prompt.
 const GLOSSARY = [
+  ["萨普新材", "Sharpen New Materials", "Sharpen New Materials", "サプ新材", "사프신재", "SAP New Materials", "Sharpen New Materials", "Sharpen New Materials", "Sharpen New Materials", "Sharpen New Materials", "Sharpen New Materials", "سابو للمواد الجديدة", "Sharpen New Materials"],
+  ["长沙市萨普新材料有限公司", "Changsha Sharpen New Materials Co., Ltd.", "Changsha Sharpen New Materials Co., Ltd.", "長沙サプ新材料有限公司", "창사 사프 신소재 유한회사", "ООО «Чанша Сап Новые Материалы»", "Changsha Sharpen New Materials Co., Ltd.", "Changsha Sharpen New Materials Co., Ltd.", "Changsha Sharpen New Materials Co., Ltd.", "Changsha Sharpen New Materials Co., Ltd.", "Changsha Sharpen New Materials Co., Ltd.", "تشانغشا سابو للمواد الجديدة المحدودة", "Changsha Sharpen New Materials Co., Ltd."],
   ["金刚石砂轮", "diamond grinding wheel", "Diamantscheibe", "ダイヤモンド砥石", "다이아몬드 휠", "алмазный круг", "rueda de diamante", "roda de diamante", "meule diamant", "mole per diamante", "elmas taş", "قرص الماس", "đĩa mài kim cương"],
   ["CBN砂轮", "CBN grinding wheel", "CBN-Schleifscheibe", "CBN砥石", "CBN 휠", "CBN круг", "rueda CBN", "roda CBN", "meule CBN", "mole CBN", "CBN taş", "قرص CBN", "đĩa mài CBN"],
   ["硬质合金", "cemented carbide", "Hartmetall", "超硬合金", "탄화강", "твердосплав", "carburo", "carboneto", "carbure", "carburo", "sert metal", "كربيد", "carbide cứng"],

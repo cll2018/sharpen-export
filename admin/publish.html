@@ -373,6 +373,21 @@ async function runTranslate(payload) {
       if (!failures.some((f) => f.startsWith(lang))) failures.push(lang + "：未翻译");
     }
   }
+  // If the model left the news section label untranslated (returns the source
+  // label), map it to the target language's known section name by position.
+  if (payload.kind === "news" && payload.section) {
+    const srcSections = SECTIONS[payload.sourceLang] || SECTIONS.en;
+    const srcIdx = srcSections.indexOf(payload.section);
+    if (srcIdx >= 0) {
+      for (const lang of targets) {
+        const r = results[lang];
+        if (r && (!r.section || r.section === payload.section)) {
+          const list = SECTIONS[lang] || SECTIONS.en;
+          if (list[srcIdx]) r.section = list[srcIdx];
+        }
+      }
+    }
+  }
   return { results, failures, combinedOk };
 }
 
