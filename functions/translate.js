@@ -92,20 +92,21 @@ function extractJson(text) {
   return null;
 }
 
+// Column order inside each GLOSSARY row: index 0 is the Chinese term, then
+// en, de, ja, ko, ru, es, pt, fr, it, tr, ar, vi.
+const GLOSSARY_LANGS = ["en", "de", "ja", "ko", "ru", "es", "pt", "fr", "it", "tr", "ar", "vi"];
+
 function glossaryBlock(sourceLang) {
-  const si = LANGS.indexOf(sourceLang);
   const lines = [];
   for (const row of GLOSSARY) {
-    const [zh, en, de, ja, ko, ru, es, pt, fr, it, tr, ar, vi] = row;
-    const names = [en, de, ja, ko, ru, es, pt, fr, it, tr, ar, vi];
+    const zh = row[0];
     const targets = [];
-    for (const code of ["en", "de", "ja", "ko", "ru", "es", "pt", "fr", "it", "tr", "ar", "vi"]) {
-      const idx = ["en", "de", "ja", "ko", "ru", "es", "pt", "fr", "it", "tr", "ar", "vi"].indexOf(code);
+    for (let i = 0; i < GLOSSARY_LANGS.length; i++) {
+      const code = GLOSSARY_LANGS[i];
       if (code === sourceLang) continue;
-      targets.push(LANG_NAMES[code] + " = " + names[idx]);
+      targets.push(LANG_NAMES[code] + " = " + row[i + 1]);
     }
     lines.push("- " + zh + " → " + targets.join("; "));
-    if (si === -1) break; // only need the Chinese column as the key when source is zh
   }
   return lines.join("\n");
 }
