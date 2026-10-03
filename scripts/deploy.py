@@ -15,7 +15,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 API = "https://api.github.com/repos/" + REPO
 
 EXCLUDE_DIRS = {".git", "node_modules", "_site", ".workbuddy", "envs", "venv", "__pycache__"}
-EXCLUDE_FILES = {".DS_Store", "Thumbs.db", "desktop.ini"}
+EXCLUDE_FILES = {".DS_Store", "Thumbs.db", "desktop.ini", "deploy.log"}
 
 ssl_ctx = ssl.create_default_context()
 ssl_ctx.check_hostname = False

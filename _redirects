@@ -1,0 +1,20 @@
+# Cloudflare Pages redirects (served from the build output root).
+# 301s turn known-bad URLs into their canonical targets so crawl reports and
+# any external links that copied old URLs land on real pages.
+
+# --- Localized product-listing slugs (guessed by some SEO tools; the site
+# --- intentionally uses one uniform English URL segment per page type) ---
+/de/produkte/     /de/products/  301
+/es/productos/    /es/products/  301
+/pt/produtos/     /pt/products/  301
+/it/prodotti/     /it/products/  301
+/fr/produits/     /fr/products/  301
+
+# --- Product-detail slugs published in the early llms.txt before the real
+# --- per-product pages existed (externally indexed; redirect to the live page)
+/en/products/diamond-wheels/  /en/products/diamond-grinding-wheels/     301
+/en/products/cbn-wheels/      /en/products/resin-bond-grinding-wheels/  301
+/en/products/sic-wafer/       /en/products/sic-wafer-thinning-wheels/   301
+/en/products/pm-steel/        /en/products/pm-high-speed-steel/         301
+/en/products/tinico/          /en/products/tinico-heat-spreader/        301
+/en/products/pv-ingot/        /en/products/pv-ingot-squaring-wheels/    301
