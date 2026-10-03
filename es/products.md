@@ -16,7 +16,7 @@ description: "Changsha Sharpen New Materials — piedras de canelado resistentes
       <li>Autorectificación autónoma con alta retención de forma y facilidad de reparación acopladas</li>
       <li>Unión metalúrgica de alta resistencia mediante formación integral de difusión en equilibrio</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Solicitar una cotización</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/es/contact/">Solicitar una cotización</a></div>
   </div>
 </div>
 
@@ -31,7 +31,7 @@ description: "Changsha Sharpen New Materials — piedras de canelado resistentes
       <li>Fácil afilado a baja velocidad; alta capacidad de retención y evacuación de viruta</li>
       <li>Bajo índice de arañazos y baja tasa de rotura de obletas</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Solicitar una cotización</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/es/contact/">Solicitar una cotización</a></div>
   </div>
 </div>
 
@@ -46,7 +46,7 @@ description: "Changsha Sharpen New Materials — piedras de canelado resistentes
       <li>Rompe los límites de aleación de la fusión convencional; fácil ajuste de composición</li>
       <li>Acero rápido PM reforzado con fase ultra dura y resistente</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Solicitar una cotización</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/es/contact/">Solicitar una cotización</a></div>
   </div>
 </div>
 
@@ -60,7 +60,7 @@ description: "Changsha Sharpen New Materials — piedras de canelado resistentes
       <li>Temperatura uniforme, alta planitud, larga vida útil</li>
       <li>Admite tamaños personalizados no estándar</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Solicitar una cotización</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/es/contact/">Solicitar una cotización</a></div>
   </div>
 </div>
 
@@ -74,7 +74,7 @@ description: "Changsha Sharpen New Materials — piedras de canelado resistentes
       <li>Rectificado fino a 30000#: rugosidad AFM inferior a 2&nbsp;nm, capa de daño de 0,4–0,6&nbsp;μm</li>
       <li>Compatible con equipos de Disco, Tokyo Seimitsu, TSD, CETC, entre otros</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Solicitar una cotización</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/es/contact/">Solicitar una cotización</a></div>
   </div>
 </div>
 
@@ -88,7 +88,7 @@ description: "Changsha Sharpen New Materials — piedras de canelado resistentes
       <li>Elimina las marcas de rectificado grueso hasta el acabado requerido</li>
       <li>Larga vida útil, alta calidad superficial y rendimiento estable</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Solicitar una cotización</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/es/contact/">Solicitar una cotización</a></div>
   </div>
 </div>
 
@@ -104,7 +104,7 @@ description: "Changsha Sharpen New Materials — piedras de canelado resistentes
       <li>Excelente calidad superficial: la elasticidad de la unión de resina mejora la rugosidad; el acabado Ra puede alcanzar 0,4&nbsp;μm, cumpliendo el requisito de filo de alto brillo de las herramientas CNC</li>
       <li>Alta capacidad de personalización: la formulación de resina, el tamaño del grano y la concentración se ajustan según la potencia de la máquina y el material; rectificado no estándar según plano o muestra, diámetros exteriores Φ50–Φ200&nbsp;mm, formas perfiladas como 1A1, 1V1, 11V9, 12V9</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Solicitar una cotización</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/es/contact/">Solicitar una cotización</a></div>
   </div>
 </div>
 <div class="product-block" id="steel-bonded-carbide">

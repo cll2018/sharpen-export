@@ -16,7 +16,7 @@ description: "창사 샤펜 뉴 머티리얼스(Changsha Sharpen New Materials) 
       <li>자가 선예화 기능으로 형상 유지력 및 쉬운 보수를 결합</li>
       <li>완전한 평형 확산 통합 성형을 통한 고강도 금속학 결합</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">견적 요청</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/ko/contact/">견적 요청</a></div>
   </div>
 </div>
 
@@ -31,7 +31,7 @@ description: "창사 샤펜 뉴 머티리얼스(Changsha Sharpen New Materials) 
       <li>저속에서 쉬운 보수; 높은 이물 보유 및 배출 능력</li>
       <li>낮은 스크래치 발생률 및 웨이퍼 파손률</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">견적 요청</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/ko/contact/">견적 요청</a></div>
   </div>
 </div>
 
@@ -46,7 +46,7 @@ description: "창사 샤펜 뉴 머티리얼스(Changsha Sharpen New Materials) 
       <li>전통적인 용융의 합금화 한계를 돌파; 조성 조절 용이</li>
       <li>초경도 상 강화 분말야금 고속강의 뛰어난 강도</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">견적 요청</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/ko/contact/">견적 요청</a></div>
   </div>
 </div>
 
@@ -60,7 +60,7 @@ description: "창사 샤펜 뉴 머티리얼스(Changsha Sharpen New Materials) 
       <li>균일한 온도, 높은 평탄도, 긴 수명</li>
       <li>비표준 커스텀 크기 지원</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">견적 요청</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/ko/contact/">견적 요청</a></div>
   </div>
 </div>
 
@@ -74,7 +74,7 @@ description: "창사 샤펜 뉴 머티리얼스(Changsha Sharpen New Materials) 
       <li>30000#에서 정밀 연마: AFM 거칠기 2&nbsp;nm 미만, 손상층 0.4–0.6&nbsp;μm</li>
       <li>디스코(Disco), 도쿄 세이지쓰(Tokyo Seimitsu), TSD, CETC 등 장비와 호환</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">견적 요청</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/ko/contact/">견적 요청</a></div>
   </div>
 </div>
 
@@ -88,7 +88,7 @@ description: "창사 샤펜 뉴 머티리얼스(Changsha Sharpen New Materials) 
       <li>필요한 마무리 품질까지 칩 연마 자국 제거</li>
       <li>긴 수명, 높은 표면 품질 및 안정적인 성능</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">견적 요청</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/ko/contact/">견적 요청</a></div>
   </div>
 </div>
 
@@ -104,7 +104,7 @@ description: "창사 샤펜 뉴 머티리얼스(Changsha Sharpen New Materials) 
       <li>탁월한 표면 품질: 수지 바인더 탄성으로 거칠기 개선; 마무리 Ra 0.4&nbsp;μm 달성 가능, CNC 공구의 고품질 엣지 요구사항 충족</li>
       <li>강력한 커스터마이징: 머신 출력 및 재료에 따라 수지 배합, 입자 크기 및 농도 조정; 도면/샘플 기준 비표준 연마 제작, 외경 Φ50–Φ200&nbsp;mm, 1A1, 1V1, 11V9, 12V9 등 프로파일 형상</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">견적 요청</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/ko/contact/">견적 요청</a></div>
   </div>
 </div>
 <div class="product-block" id="steel-bonded-carbide">

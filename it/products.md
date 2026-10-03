@@ -16,7 +16,7 @@ description: "Changsha Sharpen New Materials — mole a graffio di alta resisten
       <li>Autoaffilatura autonoma con elevata ritenzione della forma e facile riparazione</li>
       <li>Legante metallurgico ad alta resistenza mediante formatura integrale per diffusione di equilibrio</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Richiedi un preventivo</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/it/contact/">Richiedi un preventivo</a></div>
   </div>
 </div>
 
@@ -31,7 +31,7 @@ description: "Changsha Sharpen New Materials — mole a graffio di alta resisten
       <li>Facile rettificazione a bassa velocità; alto assorbimento ed evacuazione dei trucioli</li>
       <li>Basso tasso di graffiature e basso tasso di rottura dei wafer</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Richiedi un preventivo</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/it/contact/">Richiedi un preventivo</a></div>
   </div>
 </div>
 
@@ -46,7 +46,7 @@ description: "Changsha Sharpen New Materials — mole a graffio di alta resisten
       <li>Supa i limiti di lega della fusione convenzionale; facile regolazione della composizione</li>
       <li>Elevata resistenza dell'HSS in metallurgia delle polveri rinforzato con fasi ultra-dure</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Richiedi un preventivo</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/it/contact/">Richiedi un preventivo</a></div>
   </div>
 </div>
 
@@ -60,7 +60,7 @@ description: "Changsha Sharpen New Materials — mole a graffio di alta resisten
       <li>Temperatura uniforme, alta piattezza, lunga durata</li>
       <li>Supportate dimensioni personalizzate non standard</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Richiedi un preventivo</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/it/contact/">Richiedi un preventivo</a></div>
   </div>
 </div>
 
@@ -74,7 +74,7 @@ description: "Changsha Sharpen New Materials — mole a graffio di alta resisten
       <li>Levigatura fine a 30000#: rugosità AFM inferiore a 2&nbsp;nm, strato di danno 0.4–0.6&nbsp;μm</li>
       <li>Compatibile con attrezzature Disco, Tokyo Seimitsu, TSD, CETC e altre</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Richiedi un preventivo</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/it/contact/">Richiedi un preventivo</a></div>
   </div>
 </div>
 
@@ -88,7 +88,7 @@ description: "Changsha Sharpen New Materials — mole a graffio di alta resisten
       <li>Rimozione delle marche di levigatura grezza fino alla finitura richiesta</li>
       <li>Lunga durata, elevata qualità superficiale e prestazioni stabili</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Richiedi un preventivo</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/it/contact/">Richiedi un preventivo</a></div>
   </div>
 </div>
 
@@ -104,7 +104,7 @@ description: "Changsha Sharpen New Materials — mole a graffio di alta resisten
       <li>Eccellente qualità superficiale: l'elasticità del legante a resina migliora la rugosità; la finitura Ra può raggiungere 0.4&nbsp;μm, soddisfacendo il requisito di filo ad alto lucido degli utensili CNC</li>
       <li>Forti possibilità di personalizzazione: la formulazione della resina, la dimensione del grana e la concentrazione sono regolate in base alla potenza della macchina e al materiale; levigatura non standard su disegno / su campione, diametri esterni Φ50–Φ200&nbsp;mm, forme profilate come 1A1, 1V1, 11V9, 12V9</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Richiedi un preventivo</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/it/contact/">Richiedi un preventivo</a></div>
   </div>
 </div>
 <div class="product-block" id="steel-bonded-carbide">

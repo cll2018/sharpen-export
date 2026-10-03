@@ -16,7 +16,7 @@ description: "Changsha Sharpen New Materials – starre Nutbacken, Schleifscheib
       <li>Autonome Selbstschärfe bei hoher Formbeständigkeit und einfacher Instandsetzung</li>
       <li>Hohe Bindungsstärke durch volles Gleichgewichts-Diffusions-Integralformgebungsverfahren</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Angebot anfordern</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/de/contact/">Angebot anfordern</a></div>
   </div>
 </div>
 
@@ -31,7 +31,7 @@ description: "Changsha Sharpen New Materials – starre Nutbacken, Schleifscheib
       <li>Einfache Nachschleifung bei niedriger Drehzahl; hohe Spanaufnahme und -abfuhr</li>
       <li>Niedrige Kratzerrate und niedrige Bruchrate der Wafer</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Angebot anfordern</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/de/contact/">Angebot anfordern</a></div>
   </div>
 </div>
 
@@ -46,7 +46,7 @@ description: "Changsha Sharpen New Materials – starre Nutbacken, Schleifscheib
       <li>Überwindet die Legierungsgrenzen des konventionellen Gießens; einfache Zusammensetzungseinstellung</li>
       <li>Starke Pulvermetallurgie-Schnellaustahl mit ultra-harten Phasen-Aushärtung</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Angebot anfordern</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/de/contact/">Angebot anfordern</a></div>
   </div>
 </div>
 
@@ -60,7 +60,7 @@ description: "Changsha Sharpen New Materials – starre Nutbacken, Schleifscheib
       <li>Gleichmäßige Temperatur, hohe Ebenheit, lange Lebensdauer</li>
       <li>Nicht-Standard-Größenanpassungen unterstützt</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Angebot anfordern</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/de/contact/">Angebot anfordern</a></div>
   </div>
 </div>
 
@@ -74,7 +74,7 @@ description: "Changsha Sharpen New Materials – starre Nutbacken, Schleifscheib
       <li>Feinschliff bei 30000#: AFM-Rauheit unter 2&nbsp;nm, Schädigungsschicht 0,4–0,6&nbsp;μm</li>
       <li>Kompatibel mit Disco, Tokyo Seimitsu, TSD, CETC und anderen Geräten</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Angebot anfordern</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/de/contact/">Angebot anfordern</a></div>
   </div>
 </div>
 
@@ -88,7 +88,7 @@ description: "Changsha Sharpen New Materials – starre Nutbacken, Schleifscheib
       <li>Entfernung von Rohschliffspuren bis zur gewünschten Oberflächenqualität</li>
       <li>Lange Lebensdauer, hohe Oberflächenqualität und stabile Leistung</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Angebot anfordern</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/de/contact/">Angebot anfordern</a></div>
   </div>
 </div>
 
@@ -104,7 +104,7 @@ description: "Changsha Sharpen New Materials – starre Nutbacken, Schleifscheib
       <li>Exzellente Oberflächenqualität: Die Elastizität der Harzbindung verbessert die Rauheit; die Oberflächenrauheit kann Ra bis 0,4&nbsp;μm erreichen und erfüllt die Hochglanzkantenanforderungen von CNC-Werkzeugen</li>
       <li>Starke Anpassungsfähigkeit: Rezeptur des Harzes, Korngöße und Konzentration werden gemäß Maschinenleistung und Material abgestimmt; gefertigt nach Zeichnung / Muster für nicht-Standard-Schleifen, Außendurchmesser Φ50–Φ200&nbsp;mm, Profilformen wie 1A1, 1V1, 11V9, 12V9</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Angebot anfordern</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/de/contact/">Angebot anfordern</a></div>
   </div>
 </div>
 <div class="product-block" id="steel-bonded-carbide">

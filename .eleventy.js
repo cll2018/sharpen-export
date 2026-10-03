@@ -47,9 +47,29 @@ module.exports = function (eleventyConfig) {
     return "https://" + domain + url;
   });
 
-  // Pick a nav URL / label for the active language (falls back to English).
+  // Pick a nav URL for the active language.
+  //
+  // Root cause of "picking a language then clicking the menu bounces back to
+  // English": the nav items in site.js only carry `en`/`zh`/`zh-tw` URL keys,
+  // so `item[lang] || item.en` silently fell back to the English URL for every
+  // other language. Deriving the URL from `item.key` + the language code makes
+  // every language's nav point at its OWN pages (single source of truth: the
+  // /<lang>/<key>/ URL scheme used throughout the site). The `home` key maps to
+  // the bare /<lang>/ index; every other key (products/about/news/contact)
+  // maps to /<lang>/<key>/.
+  const navUrlByKey = {
+    home: (code) => "/" + code + "/",
+    products: (code) => "/" + code + "/products/",
+    about: (code) => "/" + code + "/about/",
+    news: (code) => "/" + code + "/news/",
+    contact: (code) => "/" + code + "/contact/",
+  };
   eleventyConfig.addFilter("navUrl", function (item, lang) {
-    return item[lang] || item.en;
+    const code = lang || site.defaultLang;
+    const builder = navUrlByKey[item.key];
+    if (builder) return builder(code);
+    // fallback: keep the legacy per-language URL map if someone adds a new key
+    return item[code] || item[site.fallbackLang] || item.en;
   });
   eleventyConfig.addFilter("navLabel", function (item, lang) {
     if (lang === "zh-tw" && item.zhTwLabel) return item.zhTwLabel;

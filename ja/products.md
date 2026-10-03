@@ -16,7 +16,7 @@ description: "長沙シャーペン新材料 — 高強度溝研ぎ砥石、半�
       <li>高い形状維持性と簡単修理を伴う自律的な自己研削性</li>
       <li>完全平衡拡散一体化形成による高強度冶金結合</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">見積依頼</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/ja/contact/">見積依頼</a></div>
   </div>
 </div>
 
@@ -31,7 +31,7 @@ description: "長沙シャーペン新材料 — 高強度溝研ぎ砥石、半�
       <li>低速での簡単ドレッシング；高い排屑能力と搬送性</li>
       <li>低スクリュー率と低ウェーハ割れ率</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">見積依頼</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/ja/contact/">見積依頼</a></div>
   </div>
 </div>
 
@@ -46,7 +46,7 @@ description: "長沙シャーペン新材料 — 高強度溝研ぎ砥石、半�
       <li>従来の溶解の合金化限界を突破；組成調整が容易</li>
       <li>超硬質相強化による粉末冶金高速鋼の強度</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">見積依頼</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/ja/contact/">見積依頼</a></div>
   </div>
 </div>
 
@@ -60,7 +60,7 @@ description: "長沙シャーペン新材料 — 高強度溝研ぎ砥石、半�
       <li>温度均一、高平面度、長寿命</li>
       <li>非標準カスタムサイズに対応</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">見積依頼</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/ja/contact/">見積依頼</a></div>
   </div>
 </div>
 
@@ -74,7 +74,7 @@ description: "長沙シャーペン新材料 — 高強度溝研ぎ砥石、半�
       <li>30000#での精研削：AFM粗さ2&nbsp;nm未満、損傷層0.4–0.6&nbsp;μm</li>
       <li>ディスコ、東京精密、TSD、CETCなどの機器と互換性あり</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">見積依頼</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/ja/contact/">見積依頼</a></div>
   </div>
 </div>
 
@@ -88,7 +88,7 @@ description: "長沙シャーペン新材料 — 高強度溝研ぎ砥石、半�
       <li>必要仕上げまでの粗研削痕を除去</li>
       <li>長寿命、高表面品質、安定した性能</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">見積依頼</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/ja/contact/">見積依頼</a></div>
   </div>
 </div>
 
@@ -104,7 +104,7 @@ description: "長沙シャーペン新材料 — 高強度溝研ぎ砥石、半�
       <li>優れた表面品質：樹脂結合の弾力性が粗さを改善；仕上げRaは0.4&nbsp;μmに達し、CNC工具の高グロスエッジ要件を満たします</li>
       <li>高いカスタマイズ可能性：樹脂処方、粒径、濃度をマシン出力と材料に合わせて調整；図面基準/サンプル基準の非標準研削、外径Φ50–Φ200&nbsp;mm、1A1、1V1、11V9、12V9などのプロファイル形状</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">見積依頼</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/ja/contact/">見積依頼</a></div>
   </div>
 </div>
 <div class="product-block" id="steel-bonded-carbide">

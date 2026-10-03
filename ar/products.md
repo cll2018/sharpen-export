@@ -16,7 +16,7 @@ description: "شانغشا شاربِن للمواد الجديدة — عجلا
       <li>قدرة ذاتية على حدة الانتظام مع الحفاظ على الشكل وإمكانية الصيانة السهلة</li>
       <li>رابطة معدنية قوية من خلال التشكيل التكاملية المتكاملة بالتوازن</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">طلب عرض سعر</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/ar/contact/">طلب عرض سعر</a></div>
   </div>
 </div>
 
@@ -31,7 +31,7 @@ description: "شانغشا شاربِن للمواد الجديدة — عجلا
       <li>صيانة سهلة عند سرعة منخفضة؛ سعة عالية لاستيعاب وإخراج القطع الأثرية</li>
       <li>معدل خدش منخفض ومعدل كسر للألواح منخفض</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">طلب عرض سعر</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/ar/contact/">طلب عرض سعر</a></div>
   </div>
 </div>
 
@@ -46,7 +46,7 @@ description: "شانغشا شاربِن للمواد الجديدة — عجلا
       <li>تجاوز حدود السبائك في الصهر التقليدي؛ سهولة ضبط التركيب الكيميائي</li>
       <li>متين بفولاذ القص السريع المعالج بالمسحوق المعزز بالطور الفائق الصلابة</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">طلب عرض سعر</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/ar/contact/">طلب عرض سعر</a></div>
   </div>
 </div>
 
@@ -60,7 +60,7 @@ description: "شانغشا شاربِن للمواد الجديدة — عجلا
       <li>درجة حرارة منتظمة، استواء عالي، عمر طويل</li>
       <li>دعم الأحجام المخصصة غير القياسية</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">طلب عرض سعر</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/ar/contact/">طلب عرض سعر</a></div>
   </div>
 </div>
 
@@ -74,7 +74,7 @@ description: "شانغشا شاربِن للمواد الجديدة — عجلا
       <li>صنفرة دقيق عند 30000#: خشونة AFM أقل من 2&nbsp;nm، طبقة تلف 0.4–0.6&nbsp;μm</li>
       <li>متوافق مع أجهزة Disco وTokyo Seimitsu وTSD وCETC وغيرها</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">طلب عرض سعر</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/ar/contact/">طلب عرض سعر</a></div>
   </div>
 </div>
 
@@ -88,7 +88,7 @@ description: "شانغشا شاربِن للمواد الجديدة — عجلا
       <li>إزالة علامات الصنفرة الخشن حتى التشطيب المطلوب</li>
       <li>عمر طويل، جودة سطح عالية، أداء مستقر</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">طلب عرض سعر</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/ar/contact/">طلب عرض سعر</a></div>
   </div>
 </div>
 
@@ -104,7 +104,7 @@ description: "شانغشا شاربِن للمواد الجديدة — عجلا
       <li>جودة سطح ممتازة: مرونة رابطة الراتنج تحسّن الخشونة؛ يمكن أن تصل قيمة التشطيب Ra إلى 0.4&nbsp;μm، تلبي متطلبات الحافة عالية اللمعان للأدوات الصناعية</li>
       <li>قابلية تخصيص قوية: تركيب الراتنج وحجم الجسيمات وتركيزها يتم ضبطها حسب قوة المعدة والمادة؛ صنفرة غير قياسية حسب المخطط/عينة، أقطار خارجية Φ50–Φ200&nbsp;mm، أشكال منحنى مثل 1A1، 1V1، 11V9، 12V9</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">طلب عرض سعر</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/ar/contact/">طلب عرض سعر</a></div>
   </div>
 </div>
 <div class="product-block" id="steel-bonded-carbide">

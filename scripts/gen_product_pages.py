@@ -95,6 +95,10 @@ def generate():
             img = img_m.group(1) if img_m else "/assets/img/logo.png"
             desc = make_desc(first_paragraph(inner))
             body = '<div class="product-block">\n' + inner + "\n</div>"
+            # Fix any CTA that points at another language's contact page
+            # (e.g. a stale /en/contact/) to THIS language's own contact page.
+            # Single replacement — safe to run after fix_cta_links.py too.
+            body = body.replace('href="/en/contact/"', 'href="/%s/contact/"' % lang_fm)
             out = []
             out.append("---")
             out.append("layout: product-detail.njk")

@@ -16,7 +16,7 @@ description: "Changsha Sharpen New Materials — rodas de serra de rasgo fortes,
       <li>Auto-reafiamento autônomo com retenção de forma alta acoplada e reparo fácil</li>
       <li>Ligante metalúrgico de alta resistência por formação integral de difusão de equilíbrio total</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Solicitar cotação</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/pt/contact/">Solicitar cotação</a></div>
   </div>
 </div>
 
@@ -31,7 +31,7 @@ description: "Changsha Sharpen New Materials — rodas de serra de rasgo fortes,
       <li>Retífica fácil a baixa velocidade; alta acomodação e evacuação de limalha</li>
       <li>Baixa taxa de arranhões e baixa taxa de quebra de wafers</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Solicitar cotação</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/pt/contact/">Solicitar cotação</a></div>
   </div>
 </div>
 
@@ -46,7 +46,7 @@ description: "Changsha Sharpen New Materials — rodas de serra de rasgo fortes,
       <li>Quebra os limites de liga de fusão convencional; ajuste de composição fácil</li>
       <li>Força do aço rápido de metalurgia do pó reforçado por fase ultra-dura</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Solicitar cotação</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/pt/contact/">Solicitar cotação</a></div>
   </div>
 </div>
 
@@ -60,7 +60,7 @@ description: "Changsha Sharpen New Materials — rodas de serra de rasgo fortes,
       <li>Temperatura uniforme, alta planicidade, longa vida</li>
       <li>Tamanhos personalizados não padronizados suportados</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Solicitar cotação</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/pt/contact/">Solicitar cotação</a></div>
   </div>
 </div>
 
@@ -74,7 +74,7 @@ description: "Changsha Sharpen New Materials — rodas de serra de rasgo fortes,
       <li>Desbaste fino em 30000#: rugosidade AFM abaixo de 2&nbsp;nm, camada de dano 0,4–0,6&nbsp;μm</li>
       <li>Compatível com equipamentos Disco, Tokyo Seimitsu, TSD, CETC e outros</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Solicitar cotação</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/pt/contact/">Solicitar cotação</a></div>
   </div>
 </div>
 
@@ -88,7 +88,7 @@ description: "Changsha Sharpen New Materials — rodas de serra de rasgo fortes,
       <li>Remove marcas de desbaste bruto até o acabamento necessário</li>
       <li>Longa vida, alta qualidade de superfície e desempenho estável</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Solicitar cotação</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/pt/contact/">Solicitar cotação</a></div>
   </div>
 </div>
 
@@ -104,7 +104,7 @@ description: "Changsha Sharpen New Materials — rodas de serra de rasgo fortes,
       <li>Excelente qualidade de superfície: a elasticidade do ligante resinoso melhora a rugosidade; o acabamento Ra pode atingir 0,4&nbsp;μm, atendendo ao requisito de borda de alto brilho de ferramentas CNC</li>
       <li>Alta capacidade de personalização: formulação resínica, tamanho do grão e concentração são ajustados conforme a potência da máquina e o material; retífica não padronizada sob desenho / sob amostra, diâmetros externos Φ50–Φ200&nbsp;mm, formas perfisadas como 1A1, 1V1, 11V9, 12V9</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Solicitar cotação</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/pt/contact/">Solicitar cotação</a></div>
   </div>
 </div>
 <div class="product-block" id="steel-bonded-carbide">

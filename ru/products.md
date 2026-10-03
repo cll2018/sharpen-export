@@ -16,7 +16,7 @@ description: "Changsha Sharpen New Materials — долговечные круг
       <li>Автономная самозаточка с совмещением высокого удержания формы и легкой реставрации</li>
       <li>Высокопрочная металлургическая связка за счет полного равновесного диффузионного интегрального формирования</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Запросить расчет</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/ru/contact/">Запросить расчет</a></div>
   </div>
 </div>
 
@@ -31,7 +31,7 @@ description: "Changsha Sharpen New Materials — долговечные круг
       <li>Легкая правка на низкой скорости; высокая вместимость и отвод стружки</li>
       <li>Низкий процент царапин и низкий процент ломки кристаллов</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Запросить расчет</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/ru/contact/">Запросить расчет</a></div>
   </div>
 </div>
 
@@ -46,7 +46,7 @@ description: "Changsha Sharpen New Materials — долговечные круг
       <li>Преодоление ограничений по легированию, свойственных традиционному плавильному производству; легкая корректировка состава</li>
       <li>Прочность сверхтвердых фаз в УМПС-БРС</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Запросить расчет</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/ru/contact/">Запросить расчет</a></div>
   </div>
 </div>
 
@@ -60,7 +60,7 @@ description: "Changsha Sharpen New Materials — долговечные круг
       <li>Равномерная температура, высокая плоскостность, длительный срок службы</li>
       <li>Поддержка нестандартных размеров по индивидуальному заказу</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Запросить расчет</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/ru/contact/">Запросить расчет</a></div>
   </div>
 </div>
 
@@ -74,7 +74,7 @@ description: "Changsha Sharpen New Materials — долговечные круг
       <li>Тонкое шлифование зерном 30000#: шероховатость AFM ниже 2&nbsp;nm, слой повреждений 0,4–0,6&nbsp;μm</li>
       <li>Совместимость с оборудованием Disco, Tokyo Seimitsu, TSD, CETC и других производителей</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Запросить расчет</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/ru/contact/">Запросить расчет</a></div>
   </div>
 </div>
 
@@ -88,7 +88,7 @@ description: "Changsha Sharpen New Materials — долговечные круг
       <li>Удаляет следы чернового шлифования до требуемого качества обработки</li>
       <li>Долгий срок службы, высокое качество поверхности и стабильные характеристики</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Запросить расчет</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/ru/contact/">Запросить расчет</a></div>
   </div>
 </div>
 
@@ -104,7 +104,7 @@ description: "Changsha Sharpen New Materials — долговечные круг
       <li>Отличное качество поверхности: эластичность эпоксидной связки улучшает шероховатость; обработанная поверхность Ra может достигать 0,4&nbsp;μm, что соответствует высокому требования к полированности кромки для ЧПУ-инструмента</li>
       <li>Высокая настраиваемость: формула связки, размер и концентрация зерна настраиваются под мощность станка и материал; изготовление по чертежу/образцу нестандартного шлифования, наружные диаметры Φ50–Φ200&nbsp;мм, профилированные формы, такие как 1A1, 1V1, 11V9, 12V9</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Запросить расчет</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/ru/contact/">Запросить расчет</a></div>
   </div>
 </div>
 <div class="product-block" id="steel-bonded-carbide">

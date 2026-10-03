@@ -16,7 +16,7 @@ description: "Changsha Sharpen New Materials — güçlü çelik tekerlekleri, y
       <li>Kusursuz form korunumu ve kolay onarım eşleşen otomatik keskinleştirme</li>
       <li>Tam denge-difüzyonlu bütünleşik şekillendirme ile yüksek dayanımlı metalürjik bağ</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Teklif iste</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/tr/contact/">Teklif iste</a></div>
   </div>
 </div>
 
@@ -31,7 +31,7 @@ description: "Changsha Sharpen New Materials — güçlü çelik tekerlekleri, y
       <li>Düşük hızda kolay zımparalama; yüksek talaş barındırma ve tahliye</li>
       <li>Düşük çizilme oranı ve düşük wafer kırılma oranı</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Teklif iste</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/tr/contact/">Teklif iste</a></div>
   </div>
 </div>
 
@@ -46,7 +46,7 @@ description: "Changsha Sharpen New Materials — güçlü çelik tekerlekleri, y
       <li>Geleneksel ergitmenin alaşımlama sınırlarını kırar; kolay kompozisyon ayarlaması</li>
       <li>Ultrasarı faz güçlendirilmiş PM yüksek hızlı çelikte güçlü</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Teklif iste</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/tr/contact/">Teklif iste</a></div>
   </div>
 </div>
 
@@ -60,7 +60,7 @@ description: "Changsha Sharpen New Materials — güçlü çelik tekerlekleri, y
       <li>Düzgün sıcaklık, yüksek düzlük, uzun ömür</li>
       <li>Standart dışı özel boyutlar desteklenir</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Teklif iste</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/tr/contact/">Teklif iste</a></div>
   </div>
 </div>
 
@@ -74,7 +74,7 @@ description: "Changsha Sharpen New Materials — güçlü çelik tekerlekleri, y
       <li>30000# ince zımparalama: AFM pürüzlülüğü 2&nbsp;nm'nin altında, hasar katmanı 0,4–0,6&nbsp;μm</li>
       <li>Disco, Tokyo Seimitsu, TSD, CETC ve diğer ekipmanlarla uyumlu</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Teklif iste</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/tr/contact/">Teklif iste</a></div>
   </div>
 </div>
 
@@ -88,7 +88,7 @@ description: "Changsha Sharpen New Materials — güçlü çelik tekerlekleri, y
       <li>Gerekli bitişe kadar kaba zımparalama izlerini kaldırır</li>
       <li>Uzun ömür, yüksek yüzey kalitesi ve kararlı performans</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Teklif iste</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/tr/contact/">Teklif iste</a></div>
   </div>
 </div>
 
@@ -104,7 +104,7 @@ description: "Changsha Sharpen New Materials — güçlü çelik tekerlekleri, y
       <li>Mükemmel yüzey kalitesi: reçine bağ elastikiyeti pürüzlülüğü iyileştirir; bitiş Ra değeri 0,4&nbsp;μm'ye ulaşabilir, CNC kesici aletlerin yüksek parlaklık kenar gereksinimini karşılar</li>
       <li>Güçlü özelleştirilebilirlik: reçine formülü, tane boyutu ve konsantrasyonu, makine gücüne ve malzemeye göre ayarlanır; çizeye göre / örneğe göre standart dışı zımparalama, dış çaplar Φ50–Φ200&nbsp;mm, 1A1, 1V1, 11V9, 12V9 gibi profille şekiller</li>
     </ul>
-    <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Teklif iste</a></div>
+    <div class="pb-cta"><a class="btn btn-primary" href="/tr/contact/">Teklif iste</a></div>
   </div>
 </div>
 <div class="product-block" id="steel-bonded-carbide">
