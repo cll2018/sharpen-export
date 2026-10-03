@@ -64,6 +64,23 @@ for (const l of site.langs) {
   }
 }
 
+// Per-article news detail pages (en + zh have hand-written bodies, 21 each).
+const NEWS_SLUGS = require("./newsSlugs.json");
+const NEWS_LANGS = ["en", "zh"];
+for (const l of NEWS_LANGS) {
+  for (const slug of Object.keys(NEWS_SLUGS)) {
+    const title = NEWS_SLUGS[slug][l] || NEWS_SLUGS[slug].en;
+    urls.push({
+      loc: DOMAIN + "/" + l + "/news/" + slug + "/",
+      lastmod: BUILD_TIME,
+      changefreq: "monthly",
+      priority: "0.6",
+      images: [DOMAIN + "/assets/img/logo.png"],
+      title: (NEWS_SLUGS[slug] && NEWS_SLUGS[slug][l] ? NEWS_SLUGS[slug][l] : NEWS_SLUGS[slug].en) + " – " + site.shortName,
+    });
+  }
+}
+
 // robots.txt body (served at /robots.txt).
 // NOTE: Cloudflare's managed robots appends a block that Disallow `/` for many
 // AI crawlers (GPTBot, ClaudeBot, Bytespider, PetalBot, KimiBot, CCBot,

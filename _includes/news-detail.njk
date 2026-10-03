@@ -1,0 +1,20 @@
+---
+layout: base.njk
+---
+{% set s = i18n[lang] or i18n[site.fallbackLang] %}
+{% block content %}
+<section class="container page news-detail">
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="{{ ('/' + lang + '/') | langUrl(lang) }}">{{ site.nav[0] | navLabel(lang) }}</a>
+    <span class="sep" aria-hidden="true">›</span>
+    <a href="{{ ('/' + lang + '/news/') | langUrl(lang) }}">{{ site.nav[3] | navLabel(lang) }}</a>
+    <span class="sep" aria-hidden="true">›</span>
+    <span aria-current="page">{{ title }}</span>
+  </nav>
+  <h1>{{ title }}</h1>
+  {% if newsDate %}
+  <p class="news-meta">{{ newsDate }}</p>
+  {% endif %}
+  {{ content | safe }}
+</section>
+{% endblock %}

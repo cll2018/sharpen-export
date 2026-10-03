@@ -39,7 +39,7 @@
   <meta property="og:type" content="{{ 'product' if pageType == 'product' else 'website' }}" />
   <meta property="og:url" content="{{ page.url | absUrl(site.domain) }}" />
   {% set ogImg = '/assets/img/logo.png' %}
-  {% if productImage %}{% set ogImg = productImage %}{% elif page.url | urlFilter('products') %}{% set ogImg = ((products[lang] or products[site.fallbackLang])[0].image) %}{% endif %}
+  {% if productImage %}{% set ogImg = productImage %}{% elif newsImage %}{% set ogImg = newsImage %}{% elif page.url | urlFilter('products') %}{% set ogImg = ((products[lang] or products[site.fallbackLang])[0].image) %}{% endif %}
   <meta property="og:image" content="{{ ogImg | absUrl(site.domain) }}" />
   <meta property="og:site_name" content="{{ bp.suffix }}" />
   {% set ogLoc = {zh:'zh_CN','zh-tw':'zh_TW'}[lang] or lang %}
@@ -88,6 +88,9 @@
           ,{ "@type": "ListItem", "position": 2, "name": "About", "item": "https://{{ site.domain | safe }}/{{ lang | safe }}/about/" }
           {% elif page.url | urlFilter('news') %}
           ,{ "@type": "ListItem", "position": 2, "name": "News", "item": "https://{{ site.domain | safe }}/{{ lang | safe }}/news/" }
+          {% if pageType == 'news' %}
+          ,{ "@type": "ListItem", "position": 3, "name": {{ title | tojson | safe }}, "item": "https://{{ site.domain | safe }}/{{ lang | safe }}/news/{{ newsSlug | safe }}/" }
+          {% endif %}
           {% elif page.url | urlFilter('contact') %}
           ,{ "@type": "ListItem", "position": 2, "name": "Contact", "item": "https://{{ site.domain | safe }}/{{ lang | safe }}/contact/" }
           {% endif %}
@@ -133,6 +136,21 @@
     "sku": "{{ productId | safe }}",
     "brand": { "@type": "Brand", "name": "{{ site.shortName | safe }}" },
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://{{ site.domain | safe }}/{{ lang | safe }}/products/{{ productSlugs[productId] | safe }}/" }
+  }
+  </script>
+  {% endif %}
+  {% if pageType == 'news' %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": {{ title | tojson | safe }},
+    "description": {{ description | tojson | safe }},
+    "datePublished": {{ newsDate | tojson | safe }},
+    "image": [{{ newsImage | default('/assets/img/logo.png') | tojson | safe }}],
+    "author": { "@type": "Organization", "name": "{{ site.shortName | safe }}" },
+    "publisher": { "@type": "Organization", "name": "{{ site.shortName | safe }}", "logo": { "@type": "ImageObject", "url": "https://{{ site.domain | safe }}/assets/img/logo.png" } },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://{{ site.domain | safe }}/{{ lang | safe }}/news/{{ newsSlug | safe }}/" }
   }
   </script>
   {% endif %}
