@@ -108,7 +108,7 @@ pageType: news
   <h2>Industry Frontier</h2>
   <div class="news-grid">
     <article class="news-card">
-      <img class="news-card-img" src="/assets/img/sic-wafer.jpg" alt="Sharpen Debuts Third-Generation Semiconductor SiC Wafer Fine-Grinding Diamond Wheel" loading="lazy" />
+      <img class="news-card-img" src="/assets/img/sic-wafer.webp" alt="Sharpen Debuts Third-Generation Semiconductor SiC Wafer Fine-Grinding Diamond Wheel" loading="lazy" />
       <h3 class="news-card-title"><a href="/en/news/sic-fine-grinding-wheel-3rdgen/">Sharpen Debuts Third-Generation Semiconductor SiC Wafer Fine-Grinding Diamond Wheel</a></h3>
       <p class="news-card-date">2026-01-01</p>
       <p class="news-card-desc">Sharpen’s self-developed SiC fine-grinding diamond wheel with a lightweight metal-oxide cermet bond reaches 30000# grit, surface roughness under 2…</p>

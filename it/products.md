@@ -7,7 +7,7 @@ description: "Changsha Sharpen New Materials — mole a graffio di alta resisten
 ---
 
 <div class="product-block" id="strong-grooving-wheels">
-  <img class="pb-img" src="/assets/img/diamond-wheels.jpg" alt="Mole a Graffio di Alta Resistenza" loading="lazy" />
+  <img class="pb-img" src="/assets/img/diamond-wheels.webp" alt="Mole a Graffio di Alta Resistenza" loading="lazy" />
   <div>
     <h2>Mole a Graffio di Alta Resistenza</h2>
     <p>Grazie alla ricerca e sviluppo interni, Sharpen ha risolto la sfida della legatura tra legante e abrasivi al diamante/CBN ed è stata la prima in Cina a sviluppare una lega cermet omogenea che sostituisce le mole importate di fascia alta. Le mole a graffio di alta resistenza SAP combinano i vantaggi delle mole metalliche e vetrose — autoaffilatura elevata, alta affilatura, eccellente ritenzione della forma e facile rettificazione — ideali per la lavorazione efficiente di utensili rotanti e inserti in carburo, acciaio ad alta velocità e cermet.</p>
@@ -21,7 +21,7 @@ description: "Changsha Sharpen New Materials — mole a graffio di alta resisten
 </div>
 
 <div class="product-block" id="led-backgrinding-wheels">
-  <img class="pb-img" src="/assets/img/wafer-backgrind.jpg" alt="Mole per Retro-Messura di Wafer per Semiconduttori e LED" loading="lazy" />
+  <img class="pb-img" src="/assets/img/wafer-backgrind.webp" alt="Mole per Retro-Messura di Wafer per Semiconduttori e LED" loading="lazy" />
   <div>
     <h2>Mole per Retro-Messura di Wafer per Semiconduttori e LED</h2>
     <p>Queste mole al diamante sono progettate per la levigatura di precisione di materiali semiconduttori ultra-duri — sottileggimento retrostante di substrati in zaffiro e SiC, retro-levigatura di substrati in zaffiro per LED, levigatura di substrati in SiC e GaAs. Un legame metallico/covalente metallico garantisce un'eccellente performance della mola.</p>
@@ -36,7 +36,7 @@ description: "Changsha Sharpen New Materials — mole a graffio di alta resisten
 </div>
 
 <div class="product-block" id="pm-high-speed-steel">
-  <img class="pb-img" src="/assets/img/pm-steel.jpg" alt="Acciaio ad Alta Velocità per Metallurgia delle Polveri" loading="lazy" />
+  <img class="pb-img" src="/assets/img/pm-steel.webp" alt="Acciaio ad Alta Velocità per Metallurgia delle Polveri" loading="lazy" />
   <div>
     <h2>Acciaio ad Alta Velocità per Metallurgia delle Polveri</h2>
     <p>La serie SAP di acciaio HSS in metallurgia delle polveri serve l'industria di punta per stampi e utensili come sostituto alle importazioni. Un nuovo processo di metallurgia delle polveri richiede solo una lavorazione minima per fornire componenti per stampi e utensili in qualsiasi forma e dimensione. Oltre all'HSS-PM, la famiglia di materiali per stampi e utensili SAP include anche acciaio per stampi, HSS acciaio inox alto-cromo, HSS ad alto vanadio, HSS Ti-Ni, carburi legati con acciaio TiC/TiCN, e carburi legati con acciaio Fe-Cr / Fe-Mn / Ni-Cr.</p>
@@ -51,7 +51,7 @@ description: "Changsha Sharpen New Materials — mole a graffio di alta resisten
 </div>
 
 <div class="product-block" id="tinico-heat-spreader">
-  <img class="pb-img" src="/assets/img/tinico.jpg" alt="Dissipatore di Calore in Superlega TiNiCo" loading="lazy" />
+  <img class="pb-img" src="/assets/img/tinico.webp" alt="Dissipatore di Calore in Superlega TiNiCo" loading="lazy" />
   <div>
     <h2>Dissipatore di Calore in Superlega TiNiCo</h2>
     <p>Il dissipatore di calore in superlega TiNiCo è utilizzato in stampi per piegatura a caldo di vetro coprente 3D e nella gestione termica dei semiconduttori. Offre riscaldamento uniforme, alta piattezza e lunga durata di servizio, supporta dimensioni personalizzate non standard ed è un materiale chiave per la sostituzione dei dissipatori di calore degli stampi per piegatura a caldo importati.</p>
@@ -65,7 +65,7 @@ description: "Changsha Sharpen New Materials — mole a graffio di alta resisten
 </div>
 
 <div class="product-block" id="sic-wafer-wheels">
-  <img class="pb-img" src="/assets/img/sic-wafer.jpg" alt="Mole per Sottileggimento di Wafer in Carburo di Silicio (SiC)" loading="lazy" />
+  <img class="pb-img" src="/assets/img/sic-wafer.webp" alt="Mole per Sottileggimento di Wafer in Carburo di Silicio (SiC)" loading="lazy" />
   <div>
     <h2>Mole per Sottileggimento di Wafer in Carburo di Silicio (SiC)</h2>
     <p>Le nostre mole auto-sviluppate per il sottileggimento di wafer in SiC utilizzano una lega cermet intermetallo omogenea singola per la mola al diamante, bilanciando l'autoaffilatura (acuità), la ritenzione della forma (lunga durata) e l'elevato tasso di rimozione del materiale attraverso la formazione di pori auto-generata sulla superficie della mola.</p>
@@ -79,7 +79,7 @@ description: "Changsha Sharpen New Materials — mole a graffio di alta resisten
 </div>
 
 <div class="product-block" id="pv-ingot-wheels">
-  <img class="pb-img" src="/assets/img/pv-ingot.jpg" alt="Mole per Squadratura e Smussatura di Lingotti di Silicio Fotovoltaici" loading="lazy" />
+  <img class="pb-img" src="/assets/img/pv-ingot.webp" alt="Mole per Squadratura e Smussatura di Lingotti di Silicio Fotovoltaici" loading="lazy" />
   <div>
     <h2>Mole per Squadratura e Smussatura di Lingotti di Silicio Fotovoltaici</h2>
     <p>Queste mole sono utilizzate per la squadratura e smussatura dei lingotti di silicio PV dopo la potatura, rimuovendo le marche di segatura e gli strati di danno superficiale per migliorare l'efficienza e il rendimento a valle.</p>
@@ -93,7 +93,7 @@ description: "Changsha Sharpen New Materials — mole a graffio di alta resisten
 </div>
 
 <div class="product-block" id="resin-wheels">
-  <img class="pb-img" src="/assets/img/resin-wheels.png" alt="Mole di Levigatura a Resina per Cinque Assi" loading="lazy" />
+  <img class="pb-img" src="/assets/img/resin-wheels.webp" alt="Mole di Levigatura a Resina per Cinque Assi" loading="lazy" />
   <div>
     <h2>Mole di Levigatura a Resina per Cinque Assi</h2>
     <p>Le mole di levigatura a resina per macchine a 5 assi sono mole abrasive con legante adatte alla cinematica di alta precisione del movimento simultaneo a 5 assi. Utilizzando un legante a resina con grani superabrasivi in diamante o CBN, sono progettate specificamente per la levigatura di contorno di precisione di materiali difficili da lavorare come carburo e acciaio ad alta velocità e costituiscono il consumabile principale della produzione di utensili CNC di precisione. Si integrano direttamente nelle levigatrici a 5 assi importate (Walter, Aka, Hardinge/Hass e altre) nonché nelle levigatrici a 5 assi nazionali, per la fresatura, la retro-levigatura e la smussatura degli angoli inferiori di punte, frese, alesatori e inserti PCD/PCBN in carburo massiccio, e per la levigatura di contorno complessa di pezzi in acciaio ad alta velocità, acciaio inox e cermet.</p>
@@ -108,7 +108,7 @@ description: "Changsha Sharpen New Materials — mole a graffio di alta resisten
   </div>
 </div>
 <div class="product-block" id="steel-bonded-carbide">
-  <img class="pb-img" src="/assets/img/steel-bonded-carbide.png" alt="Carburo con lega di acciaio" loading="lazy" />
+  <img class="pb-img" src="/assets/img/steel-bonded-carbide.webp" alt="Carburo con lega di acciaio" loading="lazy" />
   <div>
     <h2>Carburo con lega di acciaio</h2>
     <p>Carburo con lega di acciaio (cementato) per utensili e parti soggette a severa usura: lavorabile allo stato ricotto, compatibile con fucinatura e saldatura senza attrezzature speciali, e in grado di formare geometrie complesse. Dopo la tempra la durezza può raggiungere HRC 60–70; la resistenza all'usura è paragonabile a quella del carburo ad alto contenuto di cobalto, e la tenacità e la resistenza agli urti sono nettamente superiori al carburo convenzionale. La selezione dell'acciaio di lega consente di ottenere prestazioni specifiche (usura, corrosione, calore); il costo del ciclo di vita è molto inferiore rispetto agli acciai da stampo comuni, e la vita degli utensili si moltiplica di 10–20 volte, riducendo notevolmente i tempi di fermo.</p>

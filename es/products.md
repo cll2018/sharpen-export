@@ -7,7 +7,7 @@ description: "Changsha Sharpen New Materials — piedras de canelado resistentes
 ---
 
 <div class="product-block" id="strong-grooving-wheels">
-  <img class="pb-img" src="/assets/img/diamond-wheels.jpg" alt="Piedras de Canelado Resistentes" loading="lazy" />
+  <img class="pb-img" src="/assets/img/diamond-wheels.webp" alt="Piedras de Canelado Resistentes" loading="lazy" />
   <div>
     <h2>Piedras de Canelado Resistentes</h2>
     <p>Mediante I+D interna, Sharpen resolvió el desafío de unión entre el aglutinante y los abrasivos de diamante/CBN, y fue la primera empresa en China en desarrollar una unión de cermet homogénea que reemplaza a las piedras de importación de gama alta. Las piedras de canelado resistentes SAP combinan las ventajas de las piedras metálicas y vítreas: alta autorrectificación, alta agudeza, excelente retención de forma y fácil afilado, ideales para el mecanizado eficiente de herramientas rotatorias de carburo y cermet y insertos de acero rápido.</p>
@@ -21,7 +21,7 @@ description: "Changsha Sharpen New Materials — piedras de canelado resistentes
 </div>
 
 <div class="product-block" id="led-backgrinding-wheels">
-  <img class="pb-img" src="/assets/img/wafer-backgrind.jpg" alt="Piedras de Rectificado Posterior de Obletas para Semiconductores y LED" loading="lazy" />
+  <img class="pb-img" src="/assets/img/wafer-backgrind.webp" alt="Piedras de Rectificado Posterior de Obletas para Semiconductores y LED" loading="lazy" />
   <div>
     <h2>Piedras de Rectificado Posterior de Obletas para Semiconductores y LED</h2>
     <p>Estas piedras de diamante están diseñadas para el rectificado de precisión de materiales semiconductores de extrema dureza: adelgazamiento posterior de sustratos de zafiro y SiC, rectificado posterior de sustratos de zafiro para LED, y rectificado de sustratos de SiC y GaAs. Una unión metálica/covalente metálica ofrece un rendimiento excelente de la piedra.</p>
@@ -36,7 +36,7 @@ description: "Changsha Sharpen New Materials — piedras de canelado resistentes
 </div>
 
 <div class="product-block" id="pm-high-speed-steel">
-  <img class="pb-img" src="/assets/img/pm-steel.jpg" alt="Acero Rápido de Metalurgia de Polvo" loading="lazy" />
+  <img class="pb-img" src="/assets/img/pm-steel.webp" alt="Acero Rápido de Metalurgia de Polvo" loading="lazy" />
   <div>
     <h2>Acero Rápido de Metalurgia de Polvo</h2>
     <p>La serie SAP de acero rápido de metalurgia de polvo (PM) sirve a la industria de herramientas y matrices de gama alta como sustituto de importación. Un novedoso proceso de metalurgia de polvo requiere solo un mecanizado mínimo para entregar piezas de herramientas/matrices de cualquier forma y tamaño. Más allá del PM-HSS, la familia de materiales de herramientas/matrices SAP también cubre acero para matrices, acero rápido de alto cromo inoxidable, acero rápido de alto vanadio, acero rápido Ti-Ni, carburos de TiC/TiCN aglutinados en acero y carburos de Fe-Cr / Fe-Mn / Ni-Cr aglutinados en acero.</p>
@@ -51,7 +51,7 @@ description: "Changsha Sharpen New Materials — piedras de canelado resistentes
 </div>
 
 <div class="product-block" id="tinico-heat-spreader">
-  <img class="pb-img" src="/assets/img/tinico.jpg" alt="Difusor de Calor de Superaleación TiNiCo" loading="lazy" />
+  <img class="pb-img" src="/assets/img/tinico.webp" alt="Difusor de Calor de Superaleación TiNiCo" loading="lazy" />
   <div>
     <h2>Difusor de Calor de Superaleación TiNiCo</h2>
     <p>El difusor de calor de superaleación TiNiCo se utiliza en moldes de doblado en caliente de cristal de cobertura 3D y en la gestión térmica de semiconductores. Ofrece calentamiento uniforme, alta planitud y una larga vida útil, admite tamaños personalizados no estándar y es un material clave de sustitución nacional para los difusores de calor de moldes de doblado en caliente importados.</p>
@@ -65,7 +65,7 @@ description: "Changsha Sharpen New Materials — piedras de canelado resistentes
 </div>
 
 <div class="product-block" id="sic-wafer-wheels">
-  <img class="pb-img" src="/assets/img/sic-wafer.jpg" alt="Piedras de Adelgazamiento de Obletas de Carburo de Silicio (SiC)" loading="lazy" />
+  <img class="pb-img" src="/assets/img/sic-wafer.webp" alt="Piedras de Adelgazamiento de Obletas de Carburo de Silicio (SiC)" loading="lazy" />
   <div>
     <h2>Piedras de Adelgazamiento de Obletas de Carburo de Silicio (SiC)</h2>
     <p>Nuestras piedras de adelgazamiento de obletas de SiC, desarrolladas internamente, utilizan una unión de cermet intermetálico homogénea para la piedra de diamante, equilibrando la autorrectificación (agudeza), la retención de forma (larga vida) y la alta tasa de eliminación de material mediante la formación autoinducida de poros en la cara de la piedra.</p>
@@ -79,7 +79,7 @@ description: "Changsha Sharpen New Materials — piedras de canelado resistentes
 </div>
 
 <div class="product-block" id="pv-ingot-wheels">
-  <img class="pb-img" src="/assets/img/pv-ingot.jpg" alt="Piedras de Cuadrado y Chanfrado de Lingotes de Silicio Fotovoltaico" loading="lazy" />
+  <img class="pb-img" src="/assets/img/pv-ingot.webp" alt="Piedras de Cuadrado y Chanfrado de Lingotes de Silicio Fotovoltaico" loading="lazy" />
   <div>
     <h2>Piedras de Cuadrado y Chanfrado de Lingotes de Silicio Fotovoltaico</h2>
     <p>Estas piedras se utilizan para el cuadrado y chanfrado de lingotes de silicio fotovoltaico tras el recorte, eliminando las marcas de sierra y las capas de daño superficiales para mejorar la eficiencia y el rendimiento de los procesos posteriores.</p>
@@ -93,7 +93,7 @@ description: "Changsha Sharpen New Materials — piedras de canelado resistentes
 </div>
 
 <div class="product-block" id="resin-wheels">
-  <img class="pb-img" src="/assets/img/resin-wheels.png" alt="Piedras de Rectificado de Resina de Cinco Ejes" loading="lazy" />
+  <img class="pb-img" src="/assets/img/resin-wheels.webp" alt="Piedras de Rectificado de Resina de Cinco Ejes" loading="lazy" />
   <div>
     <h2>Piedras de Rectificado de Resina de Cinco Ejes</h2>
     <p>Las piedras de rectificado de resina para máquinas de 5 ejes son piedras abrasivas aglutinadas adaptadas a la cinemática de alta precisión del movimiento simultáneo de 5 ejes. Utilizando una unión de resina con granos superabrasivos de diamante o CBN, están diseñadas específicamente para el rectificado de contorno de precisión de materiales difíciles de mecanizar, como carburo y acero rápido, y son el consumible principal en la fabricación de herramientas CNC de precisión. Se insertan directamente en rectificadoras de herramientas de 5 ejes importadas (Walter, Aka, Hardinge/Hass y otras) y en rectificadoras nacionales de 5 ejes, para el canelado, ahuecado y mecanizado de la esquina inferior de brocas de carburo sólido, barrenos y insertos de PCD/PCBN, y para el rectificado de contorno complejo de piezas de acero rápido, acero inoxidable y cermet.</p>
@@ -108,7 +108,7 @@ description: "Changsha Sharpen New Materials — piedras de canelado resistentes
   </div>
 </div>
 <div class="product-block" id="steel-bonded-carbide">
-  <img class="pb-img" src="/assets/img/steel-bonded-carbide.png" alt="Carburo con ligante de acero" loading="lazy" />
+  <img class="pb-img" src="/assets/img/steel-bonded-carbide.webp" alt="Carburo con ligante de acero" loading="lazy" />
   <div>
     <h2>Carburo con ligante de acero</h2>
     <p>Carburo con ligante de acero (cementado) para herramienta y piezas con desgaste severo: mecanizable en estado temple-anodizado, compatible con forja y soldadura sin equipos especiales, y capaz de formar geometrías complejas. Tras el templado la dureza puede alcanzar HRC 60–70, la resistencia al desgaste es comparable a la del carburo de alto cobalto y su tenacidad y resistencia a los impactos son muy superiores a las del carburo convencional. Permite obtener prestaciones específicas (desgaste, corrosión, calor) mediante la selección del acero de ligante; el coste total de vida útil es mucho menor que el de los aceros de molde habituales, y la vida de las herramientas se multiplica de 10 a 20 veces, reduciendo notablemente el tiempo de parada.</p>

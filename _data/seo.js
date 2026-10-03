@@ -21,7 +21,7 @@ const PRODUCTS_ALL = require("./products");
 const PAGES = [
   { seg: "", priority: "1.0", changefreq: "weekly", images: ["/assets/img/logo.png"] },
   { seg: "products", priority: "0.9", changefreq: "weekly", images: PRODUCT_IMAGES },
-  { seg: "about", priority: "0.7", changefreq: "monthly", images: ["/assets/img/pm-steel.jpg"] },
+  { seg: "about", priority: "0.7", changefreq: "monthly", images: ["/assets/img/pm-steel.webp"] },
   { seg: "news", priority: "0.7", changefreq: "daily", images: ["/assets/img/news-company.png"] },
   { seg: "contact", priority: "0.7", changefreq: "monthly", images: ["/assets/img/news-industry.png"] },
 ];
@@ -64,9 +64,11 @@ for (const l of site.langs) {
   }
 }
 
-// Per-article news detail pages (en + zh have hand-written bodies, 21 each).
+// Per-article news detail pages — every language now carries a hand-written
+// body (21 articles each), and newsSlugs.json holds the localized title for
+// all 14 languages, so we emit one URL per article per language.
 const NEWS_SLUGS = require("./newsSlugs.json");
-const NEWS_LANGS = ["en", "zh"];
+const NEWS_LANGS = site.langs.map((l) => l.code);
 for (const l of NEWS_LANGS) {
   for (const slug of Object.keys(NEWS_SLUGS)) {
     const title = NEWS_SLUGS[slug][l] || NEWS_SLUGS[slug].en;

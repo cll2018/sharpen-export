@@ -90,7 +90,7 @@ pageType: news
   <h2>行业前沿发展现状</h2>
   <div class="news-grid">
     <article class="news-card">
-      <img class="news-card-img" src="/assets/img/sic-wafer.jpg" alt="萨普新材研究出第三代半导体SiC片精磨砂轮" loading="lazy" />
+      <img class="news-card-img" src="/assets/img/sic-wafer.webp" alt="萨普新材研究出第三代半导体SiC片精磨砂轮" loading="lazy" />
       <h3 class="news-card-title"><a href="/zh/news/sic-fine-grinding-wheel-3rdgen/">萨普新材研究出第三代半导体SiC片精磨砂轮</a></h3>
       <p class="news-card-desc">*发布日期：2026-01-01* 在半导体行业向第三代半导体材料升级的浪潮中，碳化硅晶圆因具备高热导率、高击穿电压等优异性能，在高温、高压、高频等极端工况下展现出显著优势，有望重塑新能源汽车、光伏、储能等万亿级市场。随着以碳化硅为代表的第三代半导体材料兴起，碳化硅等高硬度、高脆性晶圆加工技术一直是…</p>
     </article>

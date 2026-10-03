@@ -7,7 +7,7 @@ description: "长沙市萨普新材料有限公司的强力开槽砂轮、半导
 ---
 
 <div class="product-block" id="strong-grooving-wheels">
-  <img class="pb-img" src="/assets/img/diamond-wheels.jpg" alt="强力开槽砂轮" loading="lazy" />
+  <img class="pb-img" src="/assets/img/diamond-wheels.webp" alt="强力开槽砂轮" loading="lazy" />
   <div>
     <h2>强力开槽砂轮</h2>
     <p>萨普新材通过自主研发，攻克结合剂与金刚石/CBN 磨粒结合时的技术难题，率先在国内研制出均质金属陶瓷结合剂，替代高端进口砂轮。SAP 强力开槽砂轮兼具金属砂轮和陶瓷砂轮的优势，具有高自锐性、高锋利度、高保型性、易修整等优点，特别适合用于硬质合金、高速钢及金属陶瓷回转体刀具及刀片的高效率加工。</p>
@@ -21,7 +21,7 @@ description: "长沙市萨普新材料有限公司的强力开槽砂轮、半导
 </div>
 
 <div class="product-block" id="led-backgrinding-wheels">
-  <img class="pb-img" src="/assets/img/wafer-backgrind.jpg" alt="半导体LED芯片背减薄砂轮盘" loading="lazy" />
+  <img class="pb-img" src="/assets/img/wafer-backgrind.webp" alt="半导体LED芯片背减薄砂轮盘" loading="lazy" />
   <div>
     <h2>半导体LED芯片背减薄砂轮盘</h2>
     <p>LED 芯片背减薄砂轮盘应用于蓝宝石、SiC 等超硬半导体材料的精密磨削，如 LED 蓝宝石衬底片背减薄、SiC 衬底片、GaAs 衬底片等磨削减薄。采用具有金属键和共价键的金属材料作为砂轮粘结剂，制备的金刚石砂轮性能优异。</p>
@@ -36,7 +36,7 @@ description: "长沙市萨普新材料有限公司的强力开槽砂轮、半导
 </div>
 
 <div class="product-block" id="pm-high-speed-steel">
-  <img class="pb-img" src="/assets/img/pm-steel.jpg" alt="粉末冶金高速钢" loading="lazy" />
+  <img class="pb-img" src="/assets/img/pm-steel.webp" alt="粉末冶金高速钢" loading="lazy" />
   <div>
     <h2>粉末冶金高速钢</h2>
     <p>SAP 系列粉末冶金高速钢产品主要用于高端工模具行业，替代进口材料。采用新型粉末冶金工艺，只需极少量机加工，即可获得满足各种形状和尺寸需求的工模具产品。除粉末冶金高速钢材料之外，SAP 系列工模具材料还涵盖模具钢、高铬不锈高速钢、高钒高速钢、钛镍高速钢、TiC/TiCN 钢结硬质合金、Fe-Cr/Fe-Mn/Ni-Cr 钢结硬质合金等多个系列。</p>
@@ -51,7 +51,7 @@ description: "长沙市萨普新材料有限公司的强力开槽砂轮、半导
 </div>
 
 <div class="product-block" id="tinico-heat-spreader">
-  <img class="pb-img" src="/assets/img/tinico.jpg" alt="TiNiCo 超合金均热板" loading="lazy" />
+  <img class="pb-img" src="/assets/img/tinico.webp" alt="TiNiCo 超合金均热板" loading="lazy" />
   <div>
     <h2>TiNiCo 超合金均热板</h2>
     <p>TiNiCo 超合金均热板用于 3D 手机盖板玻璃热弯模具与半导体热管理，具有加热均匀、平面度高、使用寿命长的特点，支持非标定制尺寸，是替代进口热弯模具均热板的关键材料。</p>
@@ -65,7 +65,7 @@ description: "长沙市萨普新材料有限公司的强力开槽砂轮、半导
 </div>
 
 <div class="product-block" id="sic-wafer-wheels">
-  <img class="pb-img" src="/assets/img/sic-wafer.jpg" alt="碳化硅晶圆减薄砂轮" loading="lazy" />
+  <img class="pb-img" src="/assets/img/sic-wafer.webp" alt="碳化硅晶圆减薄砂轮" loading="lazy" />
   <div>
     <h2>碳化硅晶圆减薄砂轮</h2>
     <p>我司自主研发的 SiC 晶圆减薄砂轮，采用具有金属键和共价键的单一均质金属陶瓷（金属间化合物）材料作为金刚石砂轮粘结剂，实现自锐性（锋利度）、保型性（长寿命）与高切削速率的综合性能平衡。</p>
@@ -79,7 +79,7 @@ description: "长沙市萨普新材料有限公司的强力开槽砂轮、半导
 </div>
 
 <div class="product-block" id="pv-ingot-wheels">
-  <img class="pb-img" src="/assets/img/pv-ingot.jpg" alt="光伏硅锭磨方倒角砂轮" loading="lazy" />
+  <img class="pb-img" src="/assets/img/pv-ingot.webp" alt="光伏硅锭磨方倒角砂轮" loading="lazy" />
   <div>
     <h2>光伏硅锭磨方倒角砂轮</h2>
     <p>光伏硅锭磨方倒角砂轮用于开方后硅锭的磨方与倒角加工，去除锯痕及表面损伤层，提升后道加工效率与良率。</p>
@@ -93,7 +93,7 @@ description: "长沙市萨普新材料有限公司的强力开槽砂轮、半导
 </div>
 
 <div class="product-block" id="resin-wheels">
-  <img class="pb-img" src="/assets/img/resin-wheels.png" alt="五轴磨床用树脂砂轮" loading="lazy" />
+  <img class="pb-img" src="/assets/img/resin-wheels.webp" alt="五轴磨床用树脂砂轮" loading="lazy" />
   <div>
     <h2>五轴磨床用树脂砂轮</h2>
     <p>五轴磨床用树脂砂轮是适配五轴联动高精度运动特性的专用固结磨具，以树脂为结合剂，搭配金刚石或 CBN 超硬磨料，专为硬质合金、高速钢等难加工材料的复杂型面磨削设计，是数控刀具精密制造的核心耗材。可直接匹配瓦尔特、安卡、哈斯马格等进口五轴数控工具磨床及各类国产五轴磨床，用于整体硬质合金铣刀、钻头、铰刀、PCD/PCBN 刀片的开槽、铲背、清根等工序，也能完成高速钢、不锈钢、金属陶瓷等工件的复杂型面精密磨削。</p>
@@ -108,7 +108,7 @@ description: "长沙市萨普新材料有限公司的强力开槽砂轮、半导
   </div>
 </div>
 <div class="product-block" id="steel-bonded-carbide">
-  <img class="pb-img" src="/assets/img/steel-bonded-carbide.png" alt="钢结硬质合金" loading="lazy" />
+  <img class="pb-img" src="/assets/img/steel-bonded-carbide.webp" alt="钢结硬质合金" loading="lazy" />
   <div>
     <h2>钢结硬质合金</h2>
     <p>钢结硬质合金面向刀具与苛刻耐磨件——退火态可直接车、铣、钻加工，支持锻造与焊接、无需特殊设备即可完成复杂成型。淬硬后硬度可达 HRC 60–70，耐磨性接近高钴硬质合金，韧性远优于普通硬质合金、抗冲击更强。可通过调整粘结相钢材获得耐磨、耐腐蚀、耐热等特殊性能，全生命周期成本远低于常规合金模具钢，模具寿命可提升十几至几十倍、大幅减少换模停机时间。</p>
