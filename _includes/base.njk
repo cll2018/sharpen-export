@@ -6,7 +6,7 @@
   {% set bp = (site.brandPerLang[lang] or site.brandPerLang[site.defaultLang]) %}
   <title>{{ title }} — {{ bp.suffix }}</title>
   <meta name="description" content="{{ description or bp.desc }}" />
-  <meta name="keywords" content="{{ title | keywordsFor(lang) }}" />
+  <meta name="keywords" content="{% if keywords %}{{ keywords | join(', ') }}{% else %}{{ title | keywordsFor(lang) }}{% endif %}" />
   <meta name="author" content="{{ site.name }}" />
   <meta name="robots" content="{{ page.robots or 'index,follow,max-image-preview:large,max-snippet:-1' }}" />
   {% if site.gscVerifyMeta %}
