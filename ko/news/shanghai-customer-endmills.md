@@ -2,7 +2,7 @@
 layout: news-detail.njk
 lang: ko
 permalink: /ko/news/shanghai-customer-endmills/
-title: "Breakthrough in Wheel Use at a Shanghai Customer"
+title: "상하이 고객사의 휠 사용 성공 돌파"
 description: "A Shanghai customer uses our diamond wheels to batch-produce 3-flute taper end mills, raising feed speed >30% vs a Korean brand. Changsha Sharpen is…"
 pageType: news
 newsSlug: shanghai-customer-endmills

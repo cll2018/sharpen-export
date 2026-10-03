@@ -2,7 +2,7 @@
 layout: news-detail.njk
 lang: de
 permalink: /de/news/manufacturing-trends-abrasives/
-title: "Manufacturing Trends Raise the Bar for Abrasives"
+title: "Fertigungstrends erhöhen die Anforderungen an Schleifmittel"
 description: "Superabrasive products increasingly meet demanding grinding needs; new abrasive formats expand application scope. Looking at grinding development,…"
 pageType: news
 newsSlug: manufacturing-trends-abrasives

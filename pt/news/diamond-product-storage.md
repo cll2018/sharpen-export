@@ -2,7 +2,7 @@
 layout: news-detail.njk
 lang: pt
 permalink: /pt/news/diamond-product-storage/
-title: "Storage Tips for Diamond Products"
+title: "Dicas de armazenamento para produtos de diamante"
 description: "Guidance on storing diamond wheels — avoid rolling, impact, moisture and harmful chemicals; observe expiry. In storage, diamond wheels must not be…"
 pageType: news
 newsSlug: diamond-product-storage

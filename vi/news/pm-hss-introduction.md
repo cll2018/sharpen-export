@@ -2,7 +2,7 @@
 layout: news-detail.njk
 lang: vi
 permalink: /vi/news/pm-hss-introduction/
-title: "Introduction to SAP Powder Metallurgy High-Speed Steel"
+title: "Giới thiệu thép tốc độ cao luyện kim bột SAP"
 description: "An overview of PM-HSS vs conventional HSS and Sharpen’s non-atomization ball-milling route enabling domestic high-performance PM-HSS. High-speed…"
 pageType: news
 newsSlug: pm-hss-introduction

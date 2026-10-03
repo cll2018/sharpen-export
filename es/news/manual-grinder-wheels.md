@@ -2,7 +2,7 @@
 layout: news-detail.njk
 lang: es
 permalink: /es/news/manual-grinder-wheels/
-title: "Success of Manual-Grinder Wheels at a Zhuzhou Enterprise"
+title: "Éxito de las muelas para rectificadoras manuales en una empresa de Zhuzhou"
 description: "Our cermet-bond wheels replaced resin-bond wheels at a major Zhuzhou manufacturer, boosting wheel life ~30x with no dressing needed."
 pageType: news
 newsSlug: manual-grinder-wheels

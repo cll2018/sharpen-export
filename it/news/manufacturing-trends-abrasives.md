@@ -2,7 +2,7 @@
 layout: news-detail.njk
 lang: it
 permalink: /it/news/manufacturing-trends-abrasives/
-title: "Manufacturing Trends Raise the Bar for Abrasives"
+title: "Le tendenze manifatturiere alzano l'asticella per gli abrasivi"
 description: "Superabrasive products increasingly meet demanding grinding needs; new abrasive formats expand application scope. Looking at grinding development,…"
 pageType: news
 newsSlug: manufacturing-trends-abrasives

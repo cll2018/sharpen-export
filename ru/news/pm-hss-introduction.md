@@ -2,7 +2,7 @@
 layout: news-detail.njk
 lang: ru
 permalink: /ru/news/pm-hss-introduction/
-title: "Introduction to SAP Powder Metallurgy High-Speed Steel"
+title: "Введение в порошковую металлургию быстрорежущей стали SAP"
 description: "An overview of PM-HSS vs conventional HSS and Sharpen’s non-atomization ball-milling route enabling domestic high-performance PM-HSS. High-speed…"
 pageType: news
 newsSlug: pm-hss-introduction

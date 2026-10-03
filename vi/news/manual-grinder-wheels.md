@@ -2,7 +2,7 @@
 layout: news-detail.njk
 lang: vi
 permalink: /vi/news/manual-grinder-wheels/
-title: "Success of Manual-Grinder Wheels at a Zhuzhou Enterprise"
+title: "Thành công của bánh mài máy mài thủ công tại doanh nghiệp Chu Châu"
 description: "Our cermet-bond wheels replaced resin-bond wheels at a major Zhuzhou manufacturer, boosting wheel life ~30x with no dressing needed."
 pageType: news
 newsSlug: manual-grinder-wheels

@@ -2,7 +2,7 @@
 layout: news-detail.njk
 lang: es
 permalink: /es/news/tinico-hot-bending-frontier/
-title: "TiNiCo Superalloy Heat Spreader for 3D Hot-Bending"
+title: "Disipador de superaleación TiNiCo para el plegado en caliente 3D"
 description: "Sharpen’s TiNiCo superalloy heat spreader enables uniform, high-flatness heating for 3D glass hot-bending molds."
 pageType: news
 newsSlug: tinico-hot-bending-frontier

@@ -2,7 +2,7 @@
 layout: news-detail.njk
 lang: fr
 permalink: /fr/news/cnc-tool-failure-modes/
-title: "Failure Modes of CNC Tools and Countermeasures"
+title: "Modes de défaillance des outils CNC et contre-mesures"
 description: "A technical overview of CNC tool failure modes — flank wear, crater wear, plastic deformation, built-up edge — and how to mitigate them. Tool failure…"
 pageType: news
 newsSlug: cnc-tool-failure-modes

@@ -2,7 +2,7 @@
 layout: news-detail.njk
 lang: tr
 permalink: /tr/news/tinico-heat-spreader-dev/
-title: "Sharpen Develops TiNiCo Superalloy Heat Spreader for 3D Hot-Bending"
+title: "Sharpen, 3D sıcak bükme için TiNiCo süperalaşım ısı dağıtıcı geliştirdi"
 description: "Sharpen successfully developed the TiNiCo superalloy heat spreader used in 3D cover-glass hot-bending machines."
 pageType: news
 newsSlug: tinico-heat-spreader-dev

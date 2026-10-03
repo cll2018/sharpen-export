@@ -42,22 +42,22 @@ pageType: news
       <p class="news-card-desc">Lors de la 15e Foire internationale chinoise des machines-outils (CIMT2017), du 17 au 22 avril 2017, Sharpen a présenté ses produits au stand W7-418.</p>
     </article>
     <article class="news-card">
-      <h3 class="news-card-title"><a href="/fr/news/ceramic-phone-shell-forum-2017/">Sharpen at the 2nd PM / Ceramic Phone-Shell Forum</a></h3>
+      <h3 class="news-card-title"><a href="/fr/news/ceramic-phone-shell-forum-2017/">Sharpen au 2e forum PM / boîtiers de téléphone en céramique</a></h3>
       <p class="news-card-date">2017-03-17</p>
       <p class="news-card-desc">Prof. He presented high-efficiency zirconia polishing wheel solutions, advancing Sharpen’s role in ceramic phone-component machining. On March 17,…</p>
     </article>
     <article class="news-card">
-      <h3 class="news-card-title"><a href="/fr/news/simm2014/">Sharpen at SIMM 2014 (Shenzhen)</a></h3>
+      <h3 class="news-card-title"><a href="/fr/news/simm2014/">Sharpen à SIMM 2014 (Shenzhen)</a></h3>
       <p class="news-card-date">2014-03-28</p>
       <p class="news-card-desc">Sharpen debuted high-performance cermet-bond diamond and CBN wheels at the 15th Shenzhen International Machinery Manufacturing Exhibition. On March…</p>
     </article>
     <article class="news-card">
-      <h3 class="news-card-title"><a href="/fr/news/manual-grinder-wheels/">Success of Manual-Grinder Wheels at a Zhuzhou Enterprise</a></h3>
+      <h3 class="news-card-title"><a href="/fr/news/manual-grinder-wheels/">Succès des meules pour rectifieuses manuelles dans une entreprise de Zhuzhou</a></h3>
       <p class="news-card-date">2016-11-07</p>
       <p class="news-card-desc">Our cermet-bond wheels replaced resin-bond wheels at a major Zhuzhou manufacturer, boosting wheel life ~30x with no dressing needed.</p>
     </article>
     <article class="news-card">
-      <h3 class="news-card-title"><a href="/fr/news/o400-1a1-batch-production/">Ø400mm 1A1 Cermet-Bond Diamond &amp; CBN Wheels in Batch Production</a></h3>
+      <h3 class="news-card-title"><a href="/fr/news/o400-1a1-batch-production/">Meules diamant et CBN à liant cermet 1A1 de Ø400mm en production de série</a></h3>
       <p class="news-card-date">2014-01-01</p>
       <p class="news-card-desc">Sharpen achieved batch production of Ø400mm 1A1 cermet-bond diamond and CBN wheels, marking a milestone in domestic high-end wheel R&amp;D. Sharpen…</p>
     </article>
@@ -65,42 +65,42 @@ pageType: news
   <h2>Actualités du secteur</h2>
   <div class="news-grid">
     <article class="news-card">
-      <h3 class="news-card-title"><a href="/fr/news/first-30000-sic-fine-grinding/">China’s First Domestic 30000# SiC Substrate Fine-Grinding Wheel</a></h3>
+      <h3 class="news-card-title"><a href="/fr/news/first-30000-sic-fine-grinding/">Première meule de finition pour substrats SiC 30000# nationale en Chine</a></h3>
       <p class="news-card-date">2024-06-07</p>
       <p class="news-card-desc">Sharpen developed the country’s first 30000# fine-grinding wheel for SiC substrates, enabling low-damage, high-throughput wafer thinning. A core step…</p>
     </article>
     <article class="news-card">
-      <h3 class="news-card-title"><a href="/fr/news/tinico-heat-spreader-dev/">Sharpen Develops TiNiCo Superalloy Heat Spreader for 3D Hot-Bending</a></h3>
+      <h3 class="news-card-title"><a href="/fr/news/tinico-heat-spreader-dev/">Sharpen développe un dissipateur de chaleur en superalliage TiNiCo pour le cintrage à chaud 3D</a></h3>
       <p class="news-card-date">2017-11-28</p>
       <p class="news-card-desc">Sharpen successfully developed the TiNiCo superalloy heat spreader used in 3D cover-glass hot-bending machines.</p>
     </article>
     <article class="news-card">
-      <h3 class="news-card-title"><a href="/fr/news/shanghai-customer-endmills/">Breakthrough in Wheel Use at a Shanghai Customer</a></h3>
+      <h3 class="news-card-title"><a href="/fr/news/shanghai-customer-endmills/">Percée dans l&#x27;utilisation des meules chez un client de Shanghai</a></h3>
       <p class="news-card-date">2016-11-07</p>
       <p class="news-card-desc">A Shanghai customer uses our diamond wheels to batch-produce 3-flute taper end mills, raising feed speed &gt;30% vs a Korean brand. Changsha Sharpen is…</p>
     </article>
     <article class="news-card">
-      <h3 class="news-card-title"><a href="/fr/news/cnc-tool-failure-modes/">Failure Modes of CNC Tools and Countermeasures</a></h3>
+      <h3 class="news-card-title"><a href="/fr/news/cnc-tool-failure-modes/">Modes de défaillance des outils CNC et contre-mesures</a></h3>
       <p class="news-card-date">2016-11-07</p>
       <p class="news-card-desc">A technical overview of CNC tool failure modes — flank wear, crater wear, plastic deformation, built-up edge — and how to mitigate them. Tool failure…</p>
     </article>
     <article class="news-card">
-      <h3 class="news-card-title"><a href="/fr/news/manufacturing-trends-abrasives/">Manufacturing Trends Raise the Bar for Abrasives</a></h3>
+      <h3 class="news-card-title"><a href="/fr/news/manufacturing-trends-abrasives/">Les tendances de fabrication relèvent l&#x27;exigence pour les abrasifs</a></h3>
       <p class="news-card-date">2016-11-07</p>
       <p class="news-card-desc">Superabrasive products increasingly meet demanding grinding needs; new abrasive formats expand application scope. Looking at grinding development,…</p>
     </article>
     <article class="news-card">
-      <h3 class="news-card-title"><a href="/fr/news/diamond-product-storage/">Storage Tips for Diamond Products</a></h3>
+      <h3 class="news-card-title"><a href="/fr/news/diamond-product-storage/">Conseils de stockage pour les produits diamant</a></h3>
       <p class="news-card-date">2016-11-07</p>
       <p class="news-card-desc">Guidance on storing diamond wheels — avoid rolling, impact, moisture and harmful chemicals; observe expiry. In storage, diamond wheels must not be…</p>
     </article>
     <article class="news-card">
-      <h3 class="news-card-title"><a href="/fr/news/cutting-tool-industry-sustainable/">How China’s Cutting-Tool Industry Can Develop Sustainably</a></h3>
+      <h3 class="news-card-title"><a href="/fr/news/cutting-tool-industry-sustainable/">Comment l&#x27;industrie chinoise de l&#x27;outil de coupe peut se développer durablement</a></h3>
       <p class="news-card-date">2016-11-07</p>
       <p class="news-card-desc">Perspectives on the sustainable-development path for China’s cutting-tool industry.</p>
     </article>
     <article class="news-card">
-      <h3 class="news-card-title"><a href="/fr/news/product-application-scope/">Product Application Scope</a></h3>
+      <h3 class="news-card-title"><a href="/fr/news/product-application-scope/">Domaine d&#x27;application des produits</a></h3>
       <p class="news-card-date">2016-11-07</p>
       <p class="news-card-desc">Where diamond and CBN wheels apply — carbide tools, sapphire, cermet inserts (diamond); HSS, hardened steel, cast parts (CBN). Diamond wheels are…</p>
     </article>
@@ -114,12 +114,12 @@ pageType: news
       <p class="news-card-desc">Sharpen’s self-developed SiC fine-grinding diamond wheel with a lightweight metal-oxide cermet bond reaches 30000# grit, surface roughness under 2…</p>
     </article>
     <article class="news-card">
-      <h3 class="news-card-title"><a href="/fr/news/tinico-hot-bending-frontier/">TiNiCo Superalloy Heat Spreader for 3D Hot-Bending</a></h3>
+      <h3 class="news-card-title"><a href="/fr/news/tinico-hot-bending-frontier/">Dissipateur de chaleur en superalliage TiNiCo pour le cintrage à chaud 3D</a></h3>
       <p class="news-card-date">2017-11-28</p>
       <p class="news-card-desc">Sharpen’s TiNiCo superalloy heat spreader enables uniform, high-flatness heating for 3D glass hot-bending molds.</p>
     </article>
     <article class="news-card">
-      <h3 class="news-card-title"><a href="/fr/news/pm-hss-introduction/">Introduction to SAP Powder Metallurgy High-Speed Steel</a></h3>
+      <h3 class="news-card-title"><a href="/fr/news/pm-hss-introduction/">Introduction à l&#x27;acier rapide de métallurgie des poudres SAP</a></h3>
       <p class="news-card-date">2017-03-24</p>
       <p class="news-card-desc">An overview of PM-HSS vs conventional HSS and Sharpen’s non-atomization ball-milling route enabling domestic high-performance PM-HSS. High-speed…</p>
     </article>

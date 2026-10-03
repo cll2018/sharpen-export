@@ -2,7 +2,7 @@
 layout: news-detail.njk
 lang: de
 permalink: /de/news/product-application-scope/
-title: "Product Application Scope"
+title: "Produktanwendungsbereich"
 description: "Where diamond and CBN wheels apply — carbide tools, sapphire, cermet inserts (diamond); HSS, hardened steel, cast parts (CBN). Diamond wheels are…"
 pageType: news
 newsSlug: product-application-scope

@@ -2,7 +2,7 @@
 layout: news-detail.njk
 lang: vi
 permalink: /vi/news/o400-1a1-batch-production/
-title: "Ø400mm 1A1 Cermet-Bond Diamond & CBN Wheels in Batch Production"
+title: "Bánh mài kim cương và CBN liên kết xê-ramen 1A1 Ø400mm sản xuất hàng loạt"
 description: "Sharpen achieved batch production of Ø400mm 1A1 cermet-bond diamond and CBN wheels, marking a milestone in domestic high-end wheel R&D. Sharpen…"
 pageType: news
 newsSlug: o400-1a1-batch-production

@@ -2,7 +2,7 @@
 layout: news-detail.njk
 lang: tr
 permalink: /tr/news/manual-grinder-wheels/
-title: "Success of Manual-Grinder Wheels at a Zhuzhou Enterprise"
+title: "Zhuzhou'daki bir işletmede manuel taşlama tezgâhı taşlarının başarısı"
 description: "Our cermet-bond wheels replaced resin-bond wheels at a major Zhuzhou manufacturer, boosting wheel life ~30x with no dressing needed."
 pageType: news
 newsSlug: manual-grinder-wheels
