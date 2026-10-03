@@ -13,7 +13,7 @@ Usage: python scripts/fix_h1_about_news.py
 import os, re, glob
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-MARKER = "<!-- DE-DUPED: leading H1 removed, template renders <h1> -->"
+MARKER = "<!-- DE-DUPED: leading single-level heading removed (template owns the page title) -->"
 
 
 def process(path):

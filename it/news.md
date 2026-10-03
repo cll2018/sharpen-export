@@ -6,7 +6,7 @@ title: "Notizie"
 description: "Changsha Sharpen New Materials: notizie aziendali, tendenze di settore e sviluppi tecnologici."
 ---
 
-<!-- DE-DUPED: leading H1 removed, template renders <h1> -->
+<!-- DE-DUPED: leading single-level heading removed (template owns the page title) -->
 
 ## Notizie aziendali
 

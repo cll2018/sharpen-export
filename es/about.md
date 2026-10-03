@@ -6,7 +6,7 @@ title: "Quiénes Somos"
 description: "Changsha Sharpen New Materials Co., Ltd. — empresa nacional de alta tecnología, 'Pequeño Gigante' especializado e innovador de Hunan, respaldada por un equipo de Doctores del Yangtsé; rodas de diamante/CBN, acero rapid de metalurgia de polvos, disipadores de calor de TiNiCo."
 ---
 
-<!-- DE-DUPED: leading H1 removed, template renders <h1> -->
+<!-- DE-DUPED: leading single-level heading removed (template owns the page title) -->
 
 Changsha Sharpen New Materials Co., Ltd. (长沙市萨普新材料有限公司) fue fundada en 2013 y se dedica al campo de los nuevos materiales de metalurgia de polvos. Somos una empresa nacional de alta tecnología integrada que combina I+D, fabricación, ventas y servicio técnico — una empresa "Pequeño Gigante" especializada e innovadora de la Provincia de Hunan, una empresa nacional basada en tecnología e innovación, y una empresa piloto de manufactura inteligente de Changsha.
 

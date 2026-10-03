@@ -6,7 +6,7 @@ title: "会社概要"
 description: " Changsha Sharpen New Materials Co., Ltd. — 国家ハイテク企業、湖南省の専門・イノベーティブ「little giant」企業、長江学者チームが支援；ダイヤモンド/CBN砥石、粉末冶金高速鋼、TiNiCoヒートスプレッダ。"
 ---
 
-<!-- DE-DUPED: leading H1 removed, template renders <h1> -->
+<!-- DE-DUPED: leading single-level heading removed (template owns the page title) -->
 
 Changsha Sharpen New Materials Co., Ltd.（長沙市サプ新素材有限公司）は2013年に設立され、粉末冶金新素材分野に専心しています。私たちは研究開発、製造、販売、技術サービスを統合した国家ハイテク企業であり、湖南省の専門・イノベーティブ「little giant」企業、国家技術ベース型イノベーション企業、そして長沙市のスマート製造パイロット企業です。
 

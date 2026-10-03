@@ -6,7 +6,7 @@ title: "新聞中心"
 description: "長沙市薩普新材料有限公司新聞中心：公司新聞、行業資訊與行業前沿發展現狀。"
 ---
 
-<!-- DE-DUPED: leading H1 removed, template renders <h1> -->
+<!-- DE-DUPED: leading single-level heading removed (template owns the page title) -->
 
 ## 公司新聞
 

@@ -6,7 +6,7 @@ title: "Về Chúng Tôi"
 description: "Công ty TNHH Nguyên liệu mới Changsha Sharpen — doanh nghiệp công nghệ cao cấp quốc gia, doanh nghiệp vừa và nhỏ đặc thù & đổi mới sáng tạo của tỉnh Hồ Nam ('Little Giant'), được hỗ trợ bởi đội ngũ học giả Changjiang; đá mài kim cương/CBN, thép gió luyện kim bột, dàn nhiệt TiNiCo."
 ---
 
-<!-- DE-DUPED: leading H1 removed, template renders <h1> -->
+<!-- DE-DUPED: leading single-level heading removed (template owns the page title) -->
 
 Công ty TNHH Nguyên liệu mới Changsha Sharpen (长沙市萨普新材料有限公司) được thành lập năm 2013 và chuyên tâm vào lĩnh vực nguyên liệu mới luyện kim bột. Chúng tôi là doanh nghiệp công nghệ cao cấp quốc gia tích hợp R&D, sản xuất, kinh doanh và dịch vụ kỹ thuật — một doanh nghiệp "Little Giant" đặc thù & đổi mới sáng tạo của tỉnh Hồ Nam, doanh nghiệp kỹ thuật và đổi mới sáng tạo cấp quốc gia, và doanh nghiệp thí điểm sản xuất thông minh của thành phố Trường Sa.
 

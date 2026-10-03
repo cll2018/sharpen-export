@@ -6,7 +6,7 @@ title: "Hakkımızda"
 description: "Changsha Sharpen New Materials Co., Ltd. — ulusal yüksek teknoloji işletmesi, Hunan'ın uzmanlaşmış ve yenilikçi 'Küçük Dev' şirketi; Changjiang Bilgeliği ekibi tarafından desteklenmektedir; elmas/CBN taşları, PM yüksek hız çeliği, TiNiCo ısı dağıtımcıları."
 ---
 
-<!-- DE-DUPED: leading H1 removed, template renders <h1> -->
+<!-- DE-DUPED: leading single-level heading removed (template owns the page title) -->
 
 Changsha Sharpen New Materials Co., Ltd. (长沙市萨普新材料有限公司) 2013 yılında kurulmuş olup toz metalurjisi yeni malzemeler alanında hizmet vermektedir. Ar-Ge, üretim, satış ve teknik servisi birleştiren bütünleşik bir ulusal yüksek teknoloji işletmesiyiz; Hunan Eyaleti'nde uzmanlaşmış ve yenilikçi "Küçük Dev" (Little Giant) işletme, ulusal teknoloji tabanlı ve yenilikçi işletme ile Changsha akıllı üretim pilot işletmesi statülerini taşımaktayız.
 

@@ -6,7 +6,7 @@ title: "关于我们"
 description: '长沙市萨普新材料有限公司——依托长江学者创新团队的先进材料制造商，专注高性能磨具与先进合金，国家高新技术企业、湖南省专精特新"小巨人"。'
 ---
 
-<!-- DE-DUPED: leading H1 removed, template renders <h1> -->
+<!-- DE-DUPED: leading single-level heading removed (template owns the page title) -->
 
 长沙市萨普新材料有限公司成立于 2013 年，深耕粉末冶金新材料领域，是一家集研发、生产、销售与技术服务为一体的国家高新技术企业，也是湖南省专精特新"小巨人"企业、长沙市智能制造试点企业、湖南省新材料企业、湖南省第一批创新型中小企业。
 

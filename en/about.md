@@ -6,7 +6,7 @@ title: "About Us"
 description: "Changsha Sharpen New Materials Co., Ltd. — national high-tech enterprise, Hunan specialized & innovative 'Little Giant', backed by a Changjiang Scholars team; diamond/CBN wheels, PM high-speed steel, TiNiCo heat spreaders."
 ---
 
-<!-- DE-DUPED: leading H1 removed, template renders <h1> -->
+<!-- DE-DUPED: leading single-level heading removed (template owns the page title) -->
 
 Changsha Sharpen New Materials Co., Ltd. (长沙市萨普新材料有限公司) was founded in 2013 and is dedicated to the field of powder metallurgy new materials. We are an integrated national high-tech enterprise combining R&D, manufacturing, sales and technical service — a Hunan Province specialized & innovative "Little Giant" enterprise, a national technology-based and innovative enterprise, and a Changsha intelligent-manufacturing pilot enterprise.
 
