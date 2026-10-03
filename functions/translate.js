@@ -113,7 +113,9 @@ function glossaryBlock(sourceLang) {
 
 function fidelityRules(sourceLang) {
   return [
-    "- TRANSLATE FAITHFULLY AND LITERALLY. Do not add, remove, summarize, explain, embellish or comment. Do not invent facts, dates, numbers or product claims.",
+    "- TRANSLATE FAITHFULLY AND LITERALLY. Do not add, remove, summarize, explain, embellish or comment. Do not invent facts, dates, numbers, adjectives or product claims.",
+    "- Do NOT add adjectives, qualifiers or details that are not present in the source (e.g. if the source says \"new grinding wheel\", do not write \"new ultra-thin large-sized wheel\").",
+    "- Translate every word, but add no words. If a technical term has a pinned rendering below, use exactly that rendering.",
     "- Keep every number, date, unit, model name and proper noun exactly as written in the source.",
     "- Keep all HTML tags, markdown syntax and entities exactly as they are; translate only the human-readable text between them.",
     "- Keep the tone of a professional industrial-manufacturing B2B website.",
@@ -186,8 +188,10 @@ async function callModel(settings, apiKey, prompt, maxTokens) {
           content:
             "You are a meticulous technical translator for a Chinese industrial manufacturer " +
             "(grinding wheels, CBN wheels, cemented carbide, PM high-speed steel, SiC wafer " +
-            "grinding, TiNiCo heat spreaders). You translate literally, you never add or remove " +
-            "information, and you always answer with a single valid JSON object and nothing else.",
+            "grinding, TiNiCo heat spreaders). You translate literally and faithfully: you " +
+            "translate every word, add no words, drop no words, and never add adjectives, " +
+            "qualifiers, numbers or product details that are not in the source. You always " +
+            "answer with a single valid JSON object and nothing else.",
         },
         { role: "user", content: prompt },
       ],
