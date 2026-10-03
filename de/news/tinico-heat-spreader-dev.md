@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: de
 permalink: /de/news/tinico-heat-spreader-dev/
 title: "Sharpen entwickelt TiNiCo-Superlegierungs-Wärmeverteiler für 3D-Heißbiegen"
-description: "Sharpen successfully developed the TiNiCo superalloy heat spreader used in 3D cover-glass hot-bending machines."
+description: "Sharpen entwickelte erfolgreich den TiNiCo-Superlegierungs-Wärmeverteiler, der in 3D-Abdeckglas-Heißbiegemaschinen eingesetzt wird."
 pageType: news
 newsSlug: tinico-heat-spreader-dev
 newsSection: "Branchennews"

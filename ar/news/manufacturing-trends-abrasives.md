@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ar
 permalink: /ar/news/manufacturing-trends-abrasives/
 title: "اتجاهات التصنيع ترفع سقف المتطلبات للمنتجات الكاشطة"
-description: "Superabrasive products increasingly meet demanding grinding needs; new abrasive formats expand application scope. Looking at grinding development,…"
+description: "تلبي المنتجات فائقة الصلابة الاحتياجات المتزايدة الصعبة للطحن؛ وتوسّع الأشكال الجديدة للمنتجات الكاشطة نطاق التطبيق. بالنظر إلى تطور الطحن، سيتطلب التشغيل المستقبلي المزيد من المواد الكاشطة، وتلبي…"
 pageType: news
 newsSlug: manufacturing-trends-abrasives
 newsSection: "أخبار القطاع"

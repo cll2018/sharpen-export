@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: es
 permalink: /es/news/cnc-tool-failure-modes/
 title: "Modos de fallo de las herramientas CNC y contramedidas"
-description: "A technical overview of CNC tool failure modes — flank wear, crater wear, plastic deformation, built-up edge — and how to mitigate them. Tool failure…"
+description: "Una visión técnica de los modos de fallo de las herramientas CNC — desgaste de flanco, desgaste por cráter, deformación plástica, borde de aportación — y cómo mitigarlos. El fallo de la herramienta…"
 pageType: news
 newsSlug: cnc-tool-failure-modes
 newsSection: "Noticias del sector"

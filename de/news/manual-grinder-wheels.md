@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: de
 permalink: /de/news/manual-grinder-wheels/
 title: "Erfolg der Manuell-Schleifscheiben bei einem Unternehmen in Zhuzhou"
-description: "Our cermet-bond wheels replaced resin-bond wheels at a major Zhuzhou manufacturer, boosting wheel life ~30x with no dressing needed."
+description: "Unsere cermet-gebundenen Schleifscheiben ersetzten harzgebundene Schleifscheiben bei einem großen Hersteller in Zhuzhou und verlängerten die Standzeit der Scheibe um das ~30-Fache, ohne dass ein…"
 pageType: news
 newsSlug: manual-grinder-wheels
 newsSection: "Unternehmensnachrichten"

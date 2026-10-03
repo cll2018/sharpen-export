@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ja
 permalink: /ja/news/diamond-product-storage/
 title: "ダイヤモンド製品の保管のヒント"
-description: "Guidance on storing diamond wheels — avoid rolling, impact, moisture and harmful chemicals; observe expiry. In storage, diamond wheels must not be…"
+description: "ダイヤモンド砥石の保管のガイダンス——転がし、衝撃、湿気、有害化学品を避け、有効期限を守る。保管時、ダイヤモンド砥石は転がしてはならず（亀裂や表面損傷を避けるため）、強い振動や衝撃を受けてはなりません。砥石は有効期間を超えて保管してはいけません。1年以上保管されたレジン結合やゴム結合の砥石は、使用前に回転試験に合格しなければなりません。保管場所は乾燥して適温であり、他の化学品から隔離して、強度を低…"
 pageType: news
 newsSlug: diamond-product-storage
 newsSection: "業界動向"

@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ru
 permalink: /ru/news/o400-1a1-batch-production/
 title: "Серийное производство алмазных и CBN кругов Ø400мм 1А1 на металлокерамической связке"
-description: "Sharpen achieved batch production of Ø400mm 1A1 cermet-bond diamond and CBN wheels, marking a milestone in domestic high-end wheel R&D. Sharpen…"
+description: "Sharpen достигла серийного производства алмазных и CBN кругов Ø400мм 1А1 на металлокерамической (cermet) связке, что стало вехой в отечественных НИОКР высококачественных кругов. Sharpen успешно…"
 pageType: news
 newsSlug: o400-1a1-batch-production
 newsSection: "Корпоративные новости"

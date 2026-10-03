@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: vi
 permalink: /vi/news/manufacturing-trends-abrasives/
 title: "Xu hướng sản xuất nâng cao tiêu chuẩn cho vật liệu mài"
-description: "Superabrasive products increasingly meet demanding grinding needs; new abrasive formats expand application scope. Looking at grinding development,…"
+description: "Các sản phẩm siêu mài mòn ngày càng đáp ứng các nhu cầu mài khắt khe; các định dạng vật liệu mài mới mở rộng phạm vi ứng dụng. Nhìn vào sự phát triển của mài, gia công trong tương lai sẽ đòi hỏi…"
 pageType: news
 newsSlug: manufacturing-trends-abrasives
 newsSection: "Tin ngành"

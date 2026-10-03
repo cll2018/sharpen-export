@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: vi
 permalink: /vi/news/o400-1a1-batch-production/
 title: "Bánh mài kim cương và CBN liên kết xê-ramen 1A1 Ø400mm sản xuất hàng loạt"
-description: "Sharpen achieved batch production of Ø400mm 1A1 cermet-bond diamond and CBN wheels, marking a milestone in domestic high-end wheel R&D. Sharpen…"
+description: "Sharpen đã đạt được sản xuất hàng loạt bánh mài kim cương và CBN 1A1 Ø400mm liên kết xê-ramen, đánh dấu cột mốc trong R&D bánh mài cao cấp trong nước. Sharpen đã phát triển thành công và đưa vào sản…"
 pageType: news
 newsSlug: o400-1a1-batch-production
 newsSection: "Tin doanh nghiệp"

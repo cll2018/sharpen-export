@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: tr
 permalink: /tr/news/pm-hss-introduction/
 title: "SAP toz metalurjisi yüksek hızlı çeliğine giriş"
-description: "An overview of PM-HSS vs conventional HSS and Sharpen’s non-atomization ball-milling route enabling domestic high-performance PM-HSS. High-speed…"
+description: "Geleneksel HSS'e karşı PM-HSS'e ve Sharpen'in yerli yüksek performanslı PM-HSS'i mümkün kılan atomizasyonsuz bilyalı öğütme yoluna genel bakış. Yüksek hızlı çelik (HSS), dünya kesici takım…"
 pageType: news
 newsSlug: pm-hss-introduction
 newsSection: "Teknoloji gelişmeleri"

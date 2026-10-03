@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: vi
 permalink: /vi/news/tinico-hot-bending-frontier/
 title: "Tản nhiệt hợp kim siêu TiNiCo cho uốn nóng 3D"
-description: "Sharpen’s TiNiCo superalloy heat spreader enables uniform, high-flatness heating for 3D glass hot-bending molds."
+description: "Tản nhiệt hợp kim siêu TiNiCo của Sharpen cho phép gia nhiệt đồng đều, độ phẳng cao cho khuôn uốn nóng kính 3D."
 pageType: news
 newsSlug: tinico-hot-bending-frontier
 newsSection: "Công nghệ tiên tiến"

@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: de
 permalink: /de/news/pm-hss-introduction/
 title: "Einführung in den PM-Hochgeschwindigkeitsstahl von SAP"
-description: "An overview of PM-HSS vs conventional HSS and Sharpen’s non-atomization ball-milling route enabling domestic high-performance PM-HSS. High-speed…"
+description: "Ein Überblick über PM-HSS gegenüber konventionellem HSS und Sharpenes nicht-atomisierendem Kugelmühlverfahren, das einheimisches hochleistungsfähiges PM-HSS ermöglicht. Hochgeschwindigkeitsstahl…"
 pageType: news
 newsSlug: pm-hss-introduction
 newsSection: "Technologietrends"

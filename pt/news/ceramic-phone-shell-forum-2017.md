@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: pt
 permalink: /pt/news/ceramic-phone-shell-forum-2017/
 title: "Sharpen no 2.º Fórum de PM e Carcasas de Telefone em Cerâmica"
-description: "Prof. He presented high-efficiency zirconia polishing wheel solutions, advancing Sharpen’s role in ceramic phone-component machining. On March 17,…"
+description: "O prof. He apresentou soluções de rebolos polidores de zircônia de alta eficiência, reforçando o papel da Sharpen na usinagem de componentes de telefone em cerâmica. Em 17 de março de 2017, a Sharpen…"
 pageType: news
 newsSlug: ceramic-phone-shell-forum-2017
 newsSection: "Notícias da empresa"

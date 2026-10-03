@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ru
 permalink: /ru/news/ceramic-phone-shell-forum-2017/
 title: "Sharpen на 2-м форуме по PM и керамическим корпусам для телефонов"
-description: "Prof. He presented high-efficiency zirconia polishing wheel solutions, advancing Sharpen’s role in ceramic phone-component machining. On March 17,…"
+description: "Проф. Хэ представил высокоэффективные решения на основе полировальных кругов из цирконии, укрепив роль Sharpen в обработке керамических компонентов телефонов. 17 марта 2017 года Sharpen была…"
 pageType: news
 newsSlug: ceramic-phone-shell-forum-2017
 newsSection: "Корпоративные новости"

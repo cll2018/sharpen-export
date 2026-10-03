@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: pt
 permalink: /pt/news/shanghai-customer-endmills/
 title: "Avanço no uso de rodas em um cliente de Xangai"
-description: "A Shanghai customer uses our diamond wheels to batch-produce 3-flute taper end mills, raising feed speed >30% vs a Korean brand. Changsha Sharpen is…"
+description: "Um cliente de Xangai usa nossas rodas de diamante para produzir em série fresas de topo cônica de 3 flautas, elevando a velocidade de avanço em mais de 30% em relação a uma marca coreana. A Changsha…"
 pageType: news
 newsSlug: shanghai-customer-endmills
 newsSection: "Notícias do setor"

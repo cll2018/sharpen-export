@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: vi
 permalink: /vi/news/manual-grinder-wheels/
 title: "Thành công của bánh mài máy mài thủ công tại doanh nghiệp Chu Châu"
-description: "Our cermet-bond wheels replaced resin-bond wheels at a major Zhuzhou manufacturer, boosting wheel life ~30x with no dressing needed."
+description: "Bánh mài liên kết xê-ramen của chúng tôi đã thay thế bánh mài liên kết nhựa tại một nhà sản xuất lớn ở Chu Châu, nâng tuổi thọ bánh mài lên khoảng 30 lần mà không cần dressing."
 pageType: news
 newsSlug: manual-grinder-wheels
 newsSection: "Tin doanh nghiệp"

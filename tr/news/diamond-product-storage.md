@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: tr
 permalink: /tr/news/diamond-product-storage/
 title: "Elmas ürünler için saklama ipuçları"
-description: "Guidance on storing diamond wheels — avoid rolling, impact, moisture and harmful chemicals; observe expiry. In storage, diamond wheels must not be…"
+description: "Elmas taşlarının saklanmasına ilişkin rehber — yuvarlamaktan, darbeden, nemden ve zararlı kimyasallardan kaçının; son kullanma tarihine uyun. Depolama sırasında elmas taşları yuvarlanmamalıdır…"
 pageType: news
 newsSlug: diamond-product-storage
 newsSection: "Sektör haberleri"

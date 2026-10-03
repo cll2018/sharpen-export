@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: fr
 permalink: /fr/news/tinico-hot-bending-frontier/
 title: "Dissipateur de chaleur en superalliage TiNiCo pour le cintrage à chaud 3D"
-description: "Sharpen’s TiNiCo superalloy heat spreader enables uniform, high-flatness heating for 3D glass hot-bending molds."
+description: "Le dissipateur de chaleur en superalliage TiNiCo de Sharpen permet un chauffage uniforme et de haute planéité pour les moules de cintrage à chaud du verre 3D."
 pageType: news
 newsSlug: tinico-hot-bending-frontier
 newsSection: "Fronières technologiques"

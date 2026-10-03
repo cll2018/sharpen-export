@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ru
 permalink: /ru/news/manual-grinder-wheels/
 title: "Успех ручных шлифовальных кругов на предприятии в Чжучжоу"
-description: "Our cermet-bond wheels replaced resin-bond wheels at a major Zhuzhou manufacturer, boosting wheel life ~30x with no dressing needed."
+description: "Наши круги на металлокерамической (cermet) связке заменили круги на смоляной связке на крупном предприятии в Чжучжоу, увеличив срок службы круга примерно в 30 раз без необходимости правки."
 pageType: news
 newsSlug: manual-grinder-wheels
 newsSection: "Корпоративные новости"

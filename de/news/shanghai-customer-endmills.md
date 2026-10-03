@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: de
 permalink: /de/news/shanghai-customer-endmills/
 title: "Durchbruch bei der Radnutzung bei einem Shanghai-Kunden"
-description: "A Shanghai customer uses our diamond wheels to batch-produce 3-flute taper end mills, raising feed speed >30% vs a Korean brand. Changsha Sharpen is…"
+description: "Ein Shanghai-Kunde verwendet unsere Diamantschleifscheiben zur Serienfertigung von 3-Schnecken-Schaftfräsern mit Steigungswinkel und steigert dabei die Vorschubgeschwindigkeit um über 30 % gegenüber…"
 pageType: news
 newsSlug: shanghai-customer-endmills
 newsSection: "Branchennews"

@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: tr
 permalink: /tr/news/cutting-tool-industry-sustainable/
 title: "Çin'in kesici takım endüstrisi nasıl sürdürülebilir gelişebilir"
-description: "Perspectives on the sustainable-development path for China’s cutting-tool industry."
+description: "Çin'in kesici takım endüstrisinin sürdürülebilir kalkınma yoluna ilişkin görüşler."
 pageType: news
 newsSlug: cutting-tool-industry-sustainable
 newsSection: "Sektör haberleri"

@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ar
 permalink: /ar/news/shanghai-customer-endmills/
 title: "اختراق في استخدام العجلات لدى عميل في شنغهاي"
-description: "A Shanghai customer uses our diamond wheels to batch-produce 3-flute taper end mills, raising feed speed >30% vs a Korean brand. Changsha Sharpen is…"
+description: "يستخدم أحد عملاء شنغهاي عجلات الماس الخاصة بنا لإنتاج قاطعات نهاية مخروطية بثلاثة ألسنة بكميات كبيرة، مما يرفع سرعة التغذية بأكثر من 30% مقارنة بعلامة تجارية كورية. تُعد Changsha Sharpen مزوداً…"
 pageType: news
 newsSlug: shanghai-customer-endmills
 newsSection: "أخبار القطاع"

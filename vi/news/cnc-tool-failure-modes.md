@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: vi
 permalink: /vi/news/cnc-tool-failure-modes/
 title: "Các dạng hỏng của dụng cụ CNC và biện pháp khắc phục"
-description: "A technical overview of CNC tool failure modes — flank wear, crater wear, plastic deformation, built-up edge — and how to mitigate them. Tool failure…"
+description: "Tổng quan kỹ thuật về các dạng hỏng của dụng cụ CNC—mòn mặt lưng, mòn hố, biến dạng dẻo, cạnh tích tụ—và cách khắc phục. Dụng cụ hỏng khi bị mòn vượt quá giới hạn, mẻ hoặc biến dạng dẻo, làm mất khả…"
 pageType: news
 newsSlug: cnc-tool-failure-modes
 newsSection: "Tin ngành"

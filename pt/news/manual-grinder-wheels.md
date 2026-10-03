@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: pt
 permalink: /pt/news/manual-grinder-wheels/
 title: "Sucesso das rodas para retificadoras manuais em uma empresa de Zhuzhou"
-description: "Our cermet-bond wheels replaced resin-bond wheels at a major Zhuzhou manufacturer, boosting wheel life ~30x with no dressing needed."
+description: "Nossas rodas com liga cermet substituíram as de liga de resina em um grande fabricante de Zhuzhou, aumentando a vida útil da roda cerca de 30 vezes sem necessidade de dressagem."
 pageType: news
 newsSlug: manual-grinder-wheels
 newsSection: "Notícias da empresa"

@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: de
 permalink: /de/news/product-application-scope/
 title: "Produktanwendungsbereich"
-description: "Where diamond and CBN wheels apply — carbide tools, sapphire, cermet inserts (diamond); HSS, hardened steel, cast parts (CBN). Diamond wheels are…"
+description: "Wo Diamant- und CBN-Schleifscheiben eingesetzt werden — Hartmetallwerkzeuge, Saphir, Cermet-Inserts (Diamant); HSS, gehärteter Stahl, Gussteile (CBN). Diamantschleifscheiben eignen sich für: 1)…"
 pageType: news
 newsSlug: product-application-scope
 newsSection: "Branchennews"

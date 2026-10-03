@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: it
 permalink: /it/news/tinico-heat-spreader-dev/
 title: "Sharpen sviluppa uno spreader di calore in superlega TiNiCo per la piegatura a caldo 3D"
-description: "Sharpen successfully developed the TiNiCo superalloy heat spreader used in 3D cover-glass hot-bending machines."
+description: "Sharpen ha sviluppato con successo lo spreader di calore in superlega TiNiCo utilizzato nelle macchine per piegatura a caldo di vetro di copertura 3D."
 pageType: news
 newsSlug: tinico-heat-spreader-dev
 newsSection: "Notizie del settore"

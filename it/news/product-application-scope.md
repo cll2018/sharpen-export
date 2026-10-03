@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: it
 permalink: /it/news/product-application-scope/
 title: "Ambito di applicazione dei prodotti"
-description: "Where diamond and CBN wheels apply — carbide tools, sapphire, cermet inserts (diamond); HSS, hardened steel, cast parts (CBN). Diamond wheels are…"
+description: "Dove si applicano le mole diamantate e CBN — utensili in carburo, zaffiro, inserti cermet (diamante); HSS, acciaio temprato, parti fuse (CBN). Le mole diamantate sono adatte per: 1) utensili, corpi…"
 pageType: news
 newsSlug: product-application-scope
 newsSection: "Notizie del settore"

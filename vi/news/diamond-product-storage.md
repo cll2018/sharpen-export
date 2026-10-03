@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: vi
 permalink: /vi/news/diamond-product-storage/
 title: "Mẹo bảo quản sản phẩm kim cương"
-description: "Guidance on storing diamond wheels — avoid rolling, impact, moisture and harmful chemicals; observe expiry. In storage, diamond wheels must not be…"
+description: "Hướng dẫn bảo quản bánh mài kim cương—tránh lăn, va đập, độ ẩm và hóa chất có hại; tuân thủ hạn sử dụng. Khi bảo quản, bánh mài kim cương không được lăn (để tránh nứt và hư hại bề mặt) và không được…"
 pageType: news
 newsSlug: diamond-product-storage
 newsSection: "Tin ngành"

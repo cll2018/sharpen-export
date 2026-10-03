@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: it
 permalink: /it/news/manufacturing-trends-abrasives/
 title: "Le tendenze manifatturiere alzano l'asticella per gli abrasivi"
-description: "Superabrasive products increasingly meet demanding grinding needs; new abrasive formats expand application scope. Looking at grinding development,…"
+description: "I prodotti superabrasivi soddisfano sempre più le esigenti necessità di rettifica; i nuovi formati di abrasivi ampliano l'ambito di applicazione. Osservando lo sviluppo della rettifica, la…"
 pageType: news
 newsSlug: manufacturing-trends-abrasives
 newsSection: "Notizie del settore"

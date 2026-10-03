@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ja
 permalink: /ja/news/tinico-hot-bending-frontier/
 title: "3Dホットベンディング用TiNiCo超合金均熱板"
-description: "Sharpen’s TiNiCo superalloy heat spreader enables uniform, high-flatness heating for 3D glass hot-bending molds."
+description: "SharpenのTiNiCo超合金均熱板は、3Dガラスホットベンディング金型に対して均一で高平面度の加熱を実現します."
 pageType: news
 newsSlug: tinico-hot-bending-frontier
 newsSection: "業界最前線"

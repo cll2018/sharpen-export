@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: it
 permalink: /it/news/shanghai-customer-endmills/
 title: "Svolta nell'uso delle mole presso un cliente di Shanghai"
-description: "A Shanghai customer uses our diamond wheels to batch-produce 3-flute taper end mills, raising feed speed >30% vs a Korean brand. Changsha Sharpen is…"
+description: "Un cliente di Shanghai utilizza le nostre mole diamantate per produrre in serie frese a fondo conico a 3 taglienti, aumentando la velocità di avanzamento di oltre il 30 % rispetto a un marchio…"
 pageType: news
 newsSlug: shanghai-customer-endmills
 newsSection: "Notizie del settore"

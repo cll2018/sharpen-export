@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: it
 permalink: /it/news/diamond-product-storage/
 title: "Consigli di stoccaggio per i prodotti in diamante"
-description: "Guidance on storing diamond wheels — avoid rolling, impact, moisture and harmful chemicals; observe expiry. In storage, diamond wheels must not be…"
+description: "Indicazioni per lo stoccaggio delle mole diamantate — evitare il rotolamento, gli urti, l'umidità e i prodotti chimici nocivi; rispettare la scadenza. Durante lo stoccaggio, le mole diamantate non…"
 pageType: news
 newsSlug: diamond-product-storage
 newsSection: "Notizie del settore"

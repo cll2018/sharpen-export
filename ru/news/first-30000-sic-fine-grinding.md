@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ru
 permalink: /ru/news/first-30000-sic-fine-grinding/
 title: "Первая в Китае отечественная тонкошлифовальная круг для SiC-подложек 30000#"
-description: "Sharpen developed the country’s first 30000# fine-grinding wheel for SiC substrates, enabling low-damage, high-throughput wafer thinning. A core step…"
+description: "Sharpen разработала первый в стране тонкошлифовальный круг 30000# для SiC-подложек, обеспечивающий малоповреждающее утонение пластин с высокой производительностью. Ключевым этапом производства SiC…"
 pageType: news
 newsSlug: first-30000-sic-fine-grinding
 newsSection: "Отраслевые новости"

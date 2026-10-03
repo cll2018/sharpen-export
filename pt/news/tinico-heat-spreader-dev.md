@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: pt
 permalink: /pt/news/tinico-heat-spreader-dev/
 title: "Sharpen desenvolve dissipador de superliga TiNiCo para dobra a quente 3D"
-description: "Sharpen successfully developed the TiNiCo superalloy heat spreader used in 3D cover-glass hot-bending machines."
+description: "A Sharpen desenvolveu com sucesso o dissipador de superliga TiNiCo utilizado em máquinas de dobra a quente de capa de vidro 3D."
 pageType: news
 newsSlug: tinico-heat-spreader-dev
 newsSection: "Notícias do setor"

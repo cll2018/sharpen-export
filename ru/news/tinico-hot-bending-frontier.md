@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ru
 permalink: /ru/news/tinico-hot-bending-frontier/
 title: "Теплораспределитель из суперсаплава TiNiCo для 3D-горячего гиба"
-description: "Sharpen’s TiNiCo superalloy heat spreader enables uniform, high-flatness heating for 3D glass hot-bending molds."
+description: "Теплораспределитель из суперсплава TiNiCo от Sharpen обеспечивает равномерный нагрев с высокой плоскостностью для пресс-форм горячего гиба 3D-стекла."
 pageType: news
 newsSlug: tinico-hot-bending-frontier
 newsSection: "Технологии передового края"

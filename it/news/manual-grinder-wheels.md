@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: it
 permalink: /it/news/manual-grinder-wheels/
 title: "Successo delle mole per rettificatrici manuali presso un'azienda di Zhuzhou"
-description: "Our cermet-bond wheels replaced resin-bond wheels at a major Zhuzhou manufacturer, boosting wheel life ~30x with no dressing needed."
+description: "Le nostre mole con legante cermet hanno sostituito le mole a legante resina presso un importante produttore di Zhuzhou, moltiplicando la vita della mola di ~30 volte senza necessità di dressatura."
 pageType: news
 newsSlug: manual-grinder-wheels
 newsSection: "Notizie aziendali"

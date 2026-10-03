@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ja
 permalink: /ja/news/manufacturing-trends-abrasives/
 title: "製造業の動向が研削工具への要求を高める"
-description: "Superabrasive products increasingly meet demanding grinding needs; new abrasive formats expand application scope. Looking at grinding development,…"
+description: "超硬研磨製品はますます厳しい研削ニーズを満たし、新しい研磨材フォーマットが適用範囲を広げています。研削の発展を見ると、将来の加工は研磨材により多くを要求し、超硬研磨製品はまさにこれらの新たなニーズに応えます。例えばCBNは優れた熱安定性、高硬度、耐磨耗性を備え、高周速・高效率・長寿命を可能にし、HSS、軸受鋼、ステンレス、チルド鋳鉄に最適です。超硬研磨工具は、金属粉末、金属酸化物、またはCBNをフ…"
 pageType: news
 newsSlug: manufacturing-trends-abrasives
 newsSection: "業界動向"

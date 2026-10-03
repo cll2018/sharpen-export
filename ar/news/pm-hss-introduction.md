@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ar
 permalink: /ar/news/pm-hss-introduction/
 title: "مقدمة في فولاذ السرعة العالي لصناعة المساحيق من SAP"
-description: "An overview of PM-HSS vs conventional HSS and Sharpen’s non-atomization ball-milling route enabling domestic high-performance PM-HSS. High-speed…"
+description: "نظرة عامة على PM-HSS مقابل HSS التقليدي، وطريق Sharpen للطحن بالكرات غير المُذرّي الذي يمكّن من إنتاج PM-HSS محلي عالي الأداء. يُعد الفولاذ عالي السرعة (HSS) مادة أداة حيوية، حيث يمثّل 45% من مبيعات…"
 pageType: news
 newsSlug: pm-hss-introduction
 newsSection: "تقنيات السانك"

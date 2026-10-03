@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ja
 permalink: /ja/news/ceramic-phone-shell-forum-2017/
 title: "Sharpen、第2回 PM／セラミック携帯ケースフォーラムに出展"
-description: "Prof. He presented high-efficiency zirconia polishing wheel solutions, advancing Sharpen’s role in ceramic phone-component machining. On March 17,…"
+description: "何教授は高効率なジルコニア研磨ホイールソリューションを発表し、セラミック携帯電話部品加工におけるSharpenの役割を推進しました。2017年3月17日、Sharpenは深センで開催された第2回粉末冶金／セラミック携帯電話ケース技術・応用フォーラムに招待されました。何教授は高効率・高精度のジルコニア研磨ホイールについて講演しました。金属間化合物結合理論と3,000回以上の配合試験に基づき、Shar…"
 pageType: news
 newsSlug: ceramic-phone-shell-forum-2017
 newsSection: "企業ニュース"

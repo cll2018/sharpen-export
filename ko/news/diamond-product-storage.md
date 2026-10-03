@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ko
 permalink: /ko/news/diamond-product-storage/
 title: "다이아몬드 제품 보관 요령"
-description: "Guidance on storing diamond wheels — avoid rolling, impact, moisture and harmful chemicals; observe expiry. In storage, diamond wheels must not be…"
+description: "다이아몬드 휠 보관 가이드—굴림, 충격, 습기, 유해 화학물질을 피하고 유효기간을 지킨다. 보관 시 다이아몬드 휠은 굴려서는 안 되며(균열과 표면 손상을 피하기 위해), 강한 진동이나 충격을 받아서도 안 됩니다. 휠은 유효기간을 초과하여 보관해서는 안 됩니다. 1년 이상 보관된 레진 결합이나 고무 결합 휠은 사용 전 회전 시험을 통과해야 합니다. 보관…"
 pageType: news
 newsSlug: diamond-product-storage
 newsSection: "업종 뉴스"

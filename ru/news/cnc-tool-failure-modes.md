@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ru
 permalink: /ru/news/cnc-tool-failure-modes/
 title: "Виды отказов CNC-инструмента и меры противодействия"
-description: "A technical overview of CNC tool failure modes — flank wear, crater wear, plastic deformation, built-up edge — and how to mitigate them. Tool failure…"
+description: "Технический обзор видов отказов CNC-инструмента — износ по задней поверхности, лункообразный износ, пластическая деформация, нарост на режущей кромке — и способов их устранения. Отказ инструмента…"
 pageType: news
 newsSlug: cnc-tool-failure-modes
 newsSection: "Отраслевые новости"

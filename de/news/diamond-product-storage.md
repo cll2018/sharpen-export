@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: de
 permalink: /de/news/diamond-product-storage/
 title: "Lagerungstipps für Diamantprodukte"
-description: "Guidance on storing diamond wheels — avoid rolling, impact, moisture and harmful chemicals; observe expiry. In storage, diamond wheels must not be…"
+description: "Hinweise zur Lagerung von Diamantschleifscheiben — kein Rollen, Stoß, Feuchtigkeit und schädliche Chemikalien; Verfallsdatum beachten. Bei der Lagerung dürfen Diamantschleifscheiben nicht gerollt…"
 pageType: news
 newsSlug: diamond-product-storage
 newsSection: "Branchennews"

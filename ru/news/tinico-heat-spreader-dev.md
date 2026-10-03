@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ru
 permalink: /ru/news/tinico-heat-spreader-dev/
 title: "Sharpen разработала теплораспределитель из суперсаплава TiNiCo для 3D-горячего гиба"
-description: "Sharpen successfully developed the TiNiCo superalloy heat spreader used in 3D cover-glass hot-bending machines."
+description: "Sharpen успешно разработала теплораспределитель из суперсплава TiNiCo, применяемый в машинах для горячего гиба 3D-крышек из стекла."
 pageType: news
 newsSlug: tinico-heat-spreader-dev
 newsSection: "Отраслевые новости"

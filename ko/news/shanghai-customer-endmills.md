@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ko
 permalink: /ko/news/shanghai-customer-endmills/
 title: "상하이 고객사의 휠 사용 성공 돌파"
-description: "A Shanghai customer uses our diamond wheels to batch-produce 3-flute taper end mills, raising feed speed >30% vs a Korean brand. Changsha Sharpen is…"
+description: "상하이의 한 고객사는 당사의 다이아몬드 휠을 사용하여 3날 테이퍼 엔드밀을 양산하며, 특정 한국 브랜드 대비 송급 속도를 30% 이상 높였습니다. 창사 Sharpen은 완전한 독자 지식재산권을 갖춘 고속·고품질 연삭 시스템 솔루션 전문 하이테크 공급업체로, 초경 및 HSS 회전 공구와 인서트를 위한 완전한 연마 솔루션을 제공합니다. 상하이의 한 고객사는…"
 pageType: news
 newsSlug: shanghai-customer-endmills
 newsSection: "업종 뉴스"

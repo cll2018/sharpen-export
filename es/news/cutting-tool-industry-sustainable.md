@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: es
 permalink: /es/news/cutting-tool-industry-sustainable/
 title: "Cómo puede desarrollarse de forma sostenible la industria de herramientas de corte de China"
-description: "Perspectives on the sustainable-development path for China’s cutting-tool industry."
+description: "Perspectivas sobre la vía de desarrollo sostenible de la industria de herramientas de corte de China."
 pageType: news
 newsSlug: cutting-tool-industry-sustainable
 newsSection: "Noticias del sector"

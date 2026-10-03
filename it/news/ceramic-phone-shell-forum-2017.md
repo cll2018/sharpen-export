@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: it
 permalink: /it/news/ceramic-phone-shell-forum-2017/
 title: "Sharpen al 2° forum sulla PM / involucri telefonici in ceramica"
-description: "Prof. He presented high-efficiency zirconia polishing wheel solutions, advancing Sharpen’s role in ceramic phone-component machining. On March 17,…"
+description: "Il prof. He ha presentato soluzioni di mole lucidatrici in zirconia ad alta efficienza, rafforzando il ruolo di Sharpen nella lavorazione di componenti telefonici in ceramica. Il 17 marzo 2017,…"
 pageType: news
 newsSlug: ceramic-phone-shell-forum-2017
 newsSection: "Notizie aziendali"

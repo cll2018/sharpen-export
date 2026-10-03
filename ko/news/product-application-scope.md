@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ko
 permalink: /ko/news/product-application-scope/
 title: "제품 적용 범위"
-description: "Where diamond and CBN wheels apply — carbide tools, sapphire, cermet inserts (diamond); HSS, hardened steel, cast parts (CBN). Diamond wheels are…"
+description: "다이아몬드 및 CBN 휠의 적용 범위—초경 공구, 사파이어, 세라메트 인서트(다이아몬드); HSS, 경화강, 주조품(CBN). 다이아몬드 휠은 다음에 적합합니다: 1) 초경으로 만든 공구, 회전체, 금형, 내마모 부품; 2) 사파이어 잉곳 및 웨이퍼 래핑／연마; 3) 세라메트 인서트. CBN 휠은 다음에 적합합니다: 1) HSS 및 고합금강 절삭 공구,…"
 pageType: news
 newsSlug: product-application-scope
 newsSection: "업종 뉴스"

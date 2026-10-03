@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ko
 permalink: /ko/news/manufacturing-trends-abrasives/
 title: "제조업 동향이 연마재에 대한 기준을 높이다"
-description: "Superabrasive products increasingly meet demanding grinding needs; new abrasive formats expand application scope. Looking at grinding development,…"
+description: "초연마 제품은 점점 까다로운 연삭 요구를 충족하며, 새로운 연마재 형식이 적용 범위를 확장하고 있습니다. 연삭 발전을 보면 미래 가공은 연마재에 더 많은 것을 요구할 것이며, 초연마 제품은 바로 이러한 새로운 요구를 충족합니다. 예를 들어 CBN은 우수한 열 안정성, 고경도, 내마모성을 제공하여 고휠 속도, 고효율, 장수명을 가능케 하며, HSS,…"
 pageType: news
 newsSlug: manufacturing-trends-abrasives
 newsSection: "업종 뉴스"

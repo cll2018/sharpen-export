@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: pt
 permalink: /pt/news/pm-hss-introduction/
 title: "Introdução ao aço rápido de metalurgia do pó SAP"
-description: "An overview of PM-HSS vs conventional HSS and Sharpen’s non-atomization ball-milling route enabling domestic high-performance PM-HSS. High-speed…"
+description: "Uma visão geral de PM-HSS versus HSS convencional e a rota de moagem de bolas sem atomização da Sharpen que viabiliza PM-HSS de alta performance nacional. O aço rápido (HSS) é um material de…"
 pageType: news
 newsSlug: pm-hss-introduction
 newsSection: "Frentes tecnológicas"

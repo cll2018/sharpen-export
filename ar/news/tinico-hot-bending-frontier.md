@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ar
 permalink: /ar/news/tinico-hot-bending-frontier/
 title: "مشتت حرارة من سبيكة TiNiCo الفائقة للثني الساخن ثلاثي الأبعاد"
-description: "Sharpen’s TiNiCo superalloy heat spreader enables uniform, high-flatness heating for 3D glass hot-bending molds."
+description: "يمكّن مشتت الحرارة من سبيكة TiNiCo الفائقة من شركة Sharpen من تسخين موحد وعالي التسطيح لقوالب الثني الساخن للزجاج ثلاثي الأبعاد."
 pageType: news
 newsSlug: tinico-hot-bending-frontier
 newsSection: "تقنيات السانك"

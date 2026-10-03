@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: tr
 permalink: /tr/news/product-application-scope/
 title: "Ürün uygulama kapsamı"
-description: "Where diamond and CBN wheels apply — carbide tools, sapphire, cermet inserts (diamond); HSS, hardened steel, cast parts (CBN). Diamond wheels are…"
+description: "Elmas ve CBN taşlarının uygulandığı yerler — karbür takımlar, safir, sermet uçlar (elmas); HSS, sertleştirilmiş çelik, döküm parçalar (CBN). Elmas taşları şunlar için uygundur: 1) karbürden yapılmış…"
 pageType: news
 newsSlug: product-application-scope
 newsSection: "Sektör haberleri"

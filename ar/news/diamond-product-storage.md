@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ar
 permalink: /ar/news/diamond-product-storage/
 title: "نصائح تخزين للمنتجات الماسية"
-description: "Guidance on storing diamond wheels — avoid rolling, impact, moisture and harmful chemicals; observe expiry. In storage, diamond wheels must not be…"
+description: "إرشادات تخزين عجلات الماس—تجنب التدحرج، والصدمات، والرطوبة، والمواد الكيميائية الضارة؛ والالتزام بصلاحية الاستخدام. أثناء التخزين، يجب ألا تُتدحرج عجلات الماس (تجنباً للشقوق والتلف السطحي) ولا يجوز…"
 pageType: news
 newsSlug: diamond-product-storage
 newsSection: "أخبار القطاع"

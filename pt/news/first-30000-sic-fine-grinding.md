@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: pt
 permalink: /pt/news/first-30000-sic-fine-grinding/
 title: "Primeira roda de retificação fina para substratos SiC 30000# nacional da China"
-description: "Sharpen developed the country’s first 30000# fine-grinding wheel for SiC substrates, enabling low-damage, high-throughput wafer thinning. A core step…"
+description: "A Sharpen desenvolveu a primeira roda de retificação fina 30000# do país para substratos SiC, permitindo o afinamento de bolachas de alto rendimento e baixo dano. Uma etapa central na produção de SiC…"
 pageType: news
 newsSlug: first-30000-sic-fine-grinding
 newsSection: "Notícias do setor"

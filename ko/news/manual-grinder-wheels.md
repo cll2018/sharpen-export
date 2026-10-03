@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ko
 permalink: /ko/news/manual-grinder-wheels/
 title: "주저우 기업에서의 수동 연마기용 휠 성공 사례"
-description: "Our cermet-bond wheels replaced resin-bond wheels at a major Zhuzhou manufacturer, boosting wheel life ~30x with no dressing needed."
+description: "당사의 세라메트 결합 휠은 주저우의 대형 제조사에서 레진 결합 휠을 대체하여, 드레싱 없이도 휠 수명을 약 30배 향상시켰습니다."
 pageType: news
 newsSlug: manual-grinder-wheels
 newsSection: "기업 뉴스"

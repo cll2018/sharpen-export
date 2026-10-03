@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ja
 permalink: /ja/news/o400-1a1-batch-production/
 title: "Ø400mm 1A1 金属セラミック結合剤ダイヤモンド・CBN砥石の量産"
-description: "Sharpen achieved batch production of Ø400mm 1A1 cermet-bond diamond and CBN wheels, marking a milestone in domestic high-end wheel R&D. Sharpen…"
+description: "SharpenはØ400mm 1A1サーメット結合ダイヤモンド・CBN砥石の量産を達成し、国内のハイエンド砥石研究開発におけるマイルストーンとなりました。Sharpenは市場向けにØ400mm 1A1サーメット結合ダイヤモンド・CBN砥石を開発し、量産に投入することに成功しました。2013年7月のサーメット結合立軸・平面研削砥石（Ø300mm、厚さ20mm）の開発、2013年10月のHSS・チタン…"
 pageType: news
 newsSlug: o400-1a1-batch-production
 newsSection: "企業ニュース"

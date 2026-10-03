@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ko
 permalink: /ko/news/cnc-tool-failure-modes/
 title: "CNC 공구의 고장 형태 및 대책"
-description: "A technical overview of CNC tool failure modes — flank wear, crater wear, plastic deformation, built-up edge — and how to mitigate them. Tool failure…"
+description: "CNC 공구의 고장 형태—플랭크 마모, 크레이터 마모, 소성 변형, 구성 인선—와 그 대책에 대한 기술적 개요입니다. 공구는 마모가 한계를 넘거나, 치핑되거나, 소성 변형되어 절삭 능력을 잃거나 품질을 보장하지 못할 때 고장합니다. 주요 고장 형태와 대책: 1. 플랭크 마모(기계적 마찰)—더 내마모성 공구 재료를 사용하고, 절삭 속도를 낮추며, 송급을…"
 pageType: news
 newsSlug: cnc-tool-failure-modes
 newsSection: "업종 뉴스"

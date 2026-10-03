@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: fr
 permalink: /fr/news/shanghai-customer-endmills/
 title: "Percée dans l'utilisation des meules chez un client de Shanghai"
-description: "A Shanghai customer uses our diamond wheels to batch-produce 3-flute taper end mills, raising feed speed >30% vs a Korean brand. Changsha Sharpen is…"
+description: "Un client de Shanghai utilise nos meules diamant pour produire en série des fraises à bout conique à 3 taillants, augmentant la vitesse d'avance de plus de 30 % par rapport à une marque coréenne.…"
 pageType: news
 newsSlug: shanghai-customer-endmills
 newsSection: "Actualités du secteur"

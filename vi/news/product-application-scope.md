@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: vi
 permalink: /vi/news/product-application-scope/
 title: "Phạm vi ứng dụng sản phẩm"
-description: "Where diamond and CBN wheels apply — carbide tools, sapphire, cermet inserts (diamond); HSS, hardened steel, cast parts (CBN). Diamond wheels are…"
+description: "Phạm vi ứng dụng của bánh mài kim cương và CBN—dụng cụ hợp kim cứng, sapphire, mảnh cermet (kim cương); HSS, thép tôi, chi tiết đúc (CBN). Bánh mài kim cương phù hợp với: 1) dụng cụ, thân quay, khuôn…"
 pageType: news
 newsSlug: product-application-scope
 newsSection: "Tin ngành"

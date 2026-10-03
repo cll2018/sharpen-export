@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ar
 permalink: /ar/news/cutting-tool-industry-sustainable/
 title: "كيف يمكن لصناعة أدوات القطع في الصين أن تتطور بشكل مستدام"
-description: "Perspectives on the sustainable-development path for China’s cutting-tool industry."
+description: "رؤى حول مسار التنمية المستدامة لصناعة أدوات القطع في الصين."
 pageType: news
 newsSlug: cutting-tool-industry-sustainable
 newsSection: "أخبار القطاع"

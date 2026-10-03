@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ar
 permalink: /ar/news/product-application-scope/
 title: "نطاق تطبيق المنتجات"
-description: "Where diamond and CBN wheels apply — carbide tools, sapphire, cermet inserts (diamond); HSS, hardened steel, cast parts (CBN). Diamond wheels are…"
+description: "أين تُطبَّق عجلات الماس وCBN—أدوات الكربيد، والياقوت، وقِطع السيرميت (الماس)؛ وHSS، والفولاذ المُصلّد، وقطع الصب (CBN). تتناسب عجلات الماس مع: 1) الأدوات، والأجسام الدوّارة، والقوالب، وقطع التآكل…"
 pageType: news
 newsSlug: product-application-scope
 newsSection: "أخبار القطاع"

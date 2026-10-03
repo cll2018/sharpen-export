@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: es
 permalink: /es/news/tinico-heat-spreader-dev/
 title: "Sharpen desarrolla un disipador de superaleación TiNiCo para el plegado en caliente 3D"
-description: "Sharpen successfully developed the TiNiCo superalloy heat spreader used in 3D cover-glass hot-bending machines."
+description: "Sharpen desarrolló con éxito el disipador de superaleación TiNiCo utilizado en las máquinas de plegado en caliente de cubierta de vidrio 3D."
 pageType: news
 newsSlug: tinico-heat-spreader-dev
 newsSection: "Noticias del sector"

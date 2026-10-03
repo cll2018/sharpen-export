@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ru
 permalink: /ru/news/manufacturing-trends-abrasives/
 title: "Тенденции производства повышают планку для абразивов"
-description: "Superabrasive products increasingly meet demanding grinding needs; new abrasive formats expand application scope. Looking at grinding development,…"
+description: "Продукция из сверхабразивов всё больше отвечает высоким требованиям шлифования; новые форматы абразивов расширяют область применения. Глядя на развитие шлифования, будущая обработка будет предъявлять…"
 pageType: news
 newsSlug: manufacturing-trends-abrasives
 newsSection: "Отраслевые новости"

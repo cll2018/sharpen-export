@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: de
 permalink: /de/news/o400-1a1-batch-production/
 title: "Ø400mm 1A1 Cermet-gebundene Diamant- und CBN-Schleifscheiben in Serienfertigung"
-description: "Sharpen achieved batch production of Ø400mm 1A1 cermet-bond diamond and CBN wheels, marking a milestone in domestic high-end wheel R&D. Sharpen…"
+description: "Sharpen erreichte die Serienfertigung von Ø400mm 1A1 cermet-gebundenen Diamant- und CBN-Schleifscheiben und markierte damit einen Meilenstein in der inländischen F&E für hochwertige Schleifscheiben.…"
 pageType: news
 newsSlug: o400-1a1-batch-production
 newsSection: "Unternehmensnachrichten"

@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ar
 permalink: /ar/news/ceramic-phone-shell-forum-2017/
 title: "Sharpen في المنتدى الثاني لصناعة المساحيق والمحافظ الخزفية للهواتف"
-description: "Prof. He presented high-efficiency zirconia polishing wheel solutions, advancing Sharpen’s role in ceramic phone-component machining. On March 17,…"
+description: "قدّم البروفيسور هي حلولاً عالية الكفاءة لعجلات تلميع الزركونيا، مما عزز دور Sharpen في تشغيل مكونات الهواتف الخزفية. في 17 مارس 2017، دُعيت Sharpen إلى المنتدى الثاني للميتالورجيا المسحوقية /…"
 pageType: news
 newsSlug: ceramic-phone-shell-forum-2017
 newsSection: "أخبار الشركة"

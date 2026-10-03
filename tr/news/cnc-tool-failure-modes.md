@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: tr
 permalink: /tr/news/cnc-tool-failure-modes/
 title: "CNC takımlarının arıza modları ve karşı önlemler"
-description: "A technical overview of CNC tool failure modes — flank wear, crater wear, plastic deformation, built-up edge — and how to mitigate them. Tool failure…"
+description: "CNC takımlarının arıza modlarına — yan yüzey aşınması, krater aşınması, plastik deformasyon, birikmiş kenar — ve bunların nasıl azaltılacağına dair teknik bir genel bakış. Takım arızası, bir takım…"
 pageType: news
 newsSlug: cnc-tool-failure-modes
 newsSection: "Sektör haberleri"

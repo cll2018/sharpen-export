@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: de
 permalink: /de/news/manufacturing-trends-abrasives/
 title: "Fertigungstrends erhöhen die Anforderungen an Schleifmittel"
-description: "Superabrasive products increasingly meet demanding grinding needs; new abrasive formats expand application scope. Looking at grinding development,…"
+description: "Superabrasivprodukte erfüllen zunehmend anspruchsvolle Schleifbedürfnisse; neue Schleifmittelformate erweitern den Anwendungsbereich. Betrachtet man die Schleifentwicklung, wird die zukünftige…"
 pageType: news
 newsSlug: manufacturing-trends-abrasives
 newsSection: "Branchennews"

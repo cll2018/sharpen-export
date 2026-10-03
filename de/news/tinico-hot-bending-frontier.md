@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: de
 permalink: /de/news/tinico-hot-bending-frontier/
 title: "TiNiCo-Superlegierungs-Wärmeverteiler für 3D-Heißbiegen"
-description: "Sharpen’s TiNiCo superalloy heat spreader enables uniform, high-flatness heating for 3D glass hot-bending molds."
+description: "Sharpenes TiNiCo-Superlegierungs-Wärmeverteiler ermöglicht eine gleichmäßige, hochplanare Beheizung für 3D-Glas-Heißbiegematrizen."
 pageType: news
 newsSlug: tinico-hot-bending-frontier
 newsSection: "Technologietrends"

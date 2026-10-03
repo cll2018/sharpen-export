@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ar
 permalink: /ar/news/cnc-tool-failure-modes/
 title: "أنماط فشل أدوات CNC وإجراءات المواجهة"
-description: "A technical overview of CNC tool failure modes — flank wear, crater wear, plastic deformation, built-up edge — and how to mitigate them. Tool failure…"
+description: "نظرة فنية عامة على أنماط فشل أدوات CNC—تآكل الوجه الخلفي، وتآكل الفوهة، والتشوه البلاستيكي، والحافة المتراكمة—وکيفية التخفيف منها. يحدث فشل الأداة عندما يتآكل الأداة متجاوزاً حداً، أو يتكسر، أو يتشوه…"
 pageType: news
 newsSlug: cnc-tool-failure-modes
 newsSection: "أخبار القطاع"

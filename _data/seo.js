@@ -24,6 +24,7 @@ const PAGES = [
   { seg: "about", priority: "0.7", changefreq: "monthly", images: ["/assets/img/pm-steel.webp"] },
   { seg: "news", priority: "0.7", changefreq: "daily", images: ["/assets/img/news-company.png"] },
   { seg: "contact", priority: "0.7", changefreq: "monthly", images: ["/assets/img/news-industry.png"] },
+  { seg: "privacy", priority: "0.4", changefreq: "yearly", images: ["/assets/img/logo.png"] },
 ];
 
 function pageUrl(lang, seg) {

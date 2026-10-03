@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ar
 permalink: /ar/news/first-30000-sic-fine-grinding/
 title: "أول حجر صقل دقيق للركائز SiC 30000# محلي الصنع في الصين"
-description: "Sharpen developed the country’s first 30000# fine-grinding wheel for SiC substrates, enabling low-damage, high-throughput wafer thinning. A core step…"
+description: "طوّرت Sharpen أول حجر صقل دقيق 30000# في البلاد للركائز SiC، مما يتيح تنحيف الويفر منخفض الضرر وعالي الإنتاجية. تتمثل إحدى الخطوات الأساسية في إنتاج SiC بمعالجة الركيزة—التقطيع، والتنحيف، والصقل.…"
 pageType: news
 newsSlug: first-30000-sic-fine-grinding
 newsSection: "أخبار القطاع"

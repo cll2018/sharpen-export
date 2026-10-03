@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ko
 permalink: /ko/news/first-30000-sic-fine-grinding/
 title: "중국 최초 국산 30000# SiC 기판 정밀 연삭 휠"
-description: "Sharpen developed the country’s first 30000# fine-grinding wheel for SiC substrates, enabling low-damage, high-throughput wafer thinning. A core step…"
+description: "Sharpen은 중국 최초의 국산 30000# SiC 기판 정밀 연삭 휠을 개발하여 저손상·고처리량 웨이퍼 박화를 가능케 했습니다. SiC 생산의 핵심 공정은 기판 가공—슬라이싱, 박화, 연마입니다. 박화는 주로 연삭과 래핑(조·정)으로 이루어집니다. Sharpen이 자체 개발한 SiC 웨이퍼 박화 휠과 연삭 기술은 웨이퍼 손상 메커니즘을 다루며…"
 pageType: news
 newsSlug: first-30000-sic-fine-grinding
 newsSection: "업종 뉴스"

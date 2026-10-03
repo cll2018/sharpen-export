@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ru
 permalink: /ru/news/product-application-scope/
 title: "Область применения продукции"
-description: "Where diamond and CBN wheels apply — carbide tools, sapphire, cermet inserts (diamond); HSS, hardened steel, cast parts (CBN). Diamond wheels are…"
+description: "Где применяются алмазные и CBN круги — твердосплавные инструменты, сапфир, пластины из кермета (алмаз); HSS, закалённая сталь, литые детали (CBN). Алмазные круги подходят для: 1) инструментов,…"
 pageType: news
 newsSlug: product-application-scope
 newsSection: "Отраслевые новости"

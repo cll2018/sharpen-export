@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ja
 permalink: /ja/news/manual-grinder-wheels/
 title: "株洲の企業における手動研削盤用砥石の成功"
-description: "Our cermet-bond wheels replaced resin-bond wheels at a major Zhuzhou manufacturer, boosting wheel life ~30x with no dressing needed."
+description: "当社のサーメット結合砥石は株洲の大手メーカーでレジン結合砥石を置き換え、目直しが不要なまま砥石寿命を約30倍に向上させました."
 pageType: news
 newsSlug: manual-grinder-wheels
 newsSection: "企業ニュース"

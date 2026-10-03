@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: tr
 permalink: /tr/news/tinico-hot-bending-frontier/
 title: "3D sıcak bükme için TiNiCo süperalaşım ısı dağıtıcı"
-description: "Sharpen’s TiNiCo superalloy heat spreader enables uniform, high-flatness heating for 3D glass hot-bending molds."
+description: "Sharpen'in TiNiCo süperalaşım ısı dağıtıcısı, 3D cam sıcak bükme kalıpları için düzgün ve yüksek düzlemsellikte ısıtma sağlar."
 pageType: news
 newsSlug: tinico-hot-bending-frontier
 newsSection: "Teknoloji gelişmeleri"

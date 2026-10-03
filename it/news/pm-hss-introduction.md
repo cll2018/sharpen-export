@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: it
 permalink: /it/news/pm-hss-introduction/
 title: "Introduzione all'acciaio rapido di metallurgia delle polveri SAP"
-description: "An overview of PM-HSS vs conventional HSS and Sharpen’s non-atomization ball-milling route enabling domestic high-performance PM-HSS. High-speed…"
+description: "Una panoramica di PM-HSS rispetto all'HSS convenzionale e alla via di macinazione a sfere senza atomizzazione di Sharpen che consente un PM-HSS ad alte prestazioni nazionale. L'acciaio rapido (HSS) è…"
 pageType: news
 newsSlug: pm-hss-introduction
 newsSection: "Frontiere tecnologiche"

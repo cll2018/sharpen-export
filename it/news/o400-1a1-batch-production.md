@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: it
 permalink: /it/news/o400-1a1-batch-production/
 title: "Mole diamantate e CBN con legante cermet 1A1 da Ø400mm in produzione di serie"
-description: "Sharpen achieved batch production of Ø400mm 1A1 cermet-bond diamond and CBN wheels, marking a milestone in domestic high-end wheel R&D. Sharpen…"
+description: "Sharpen ha raggiunto la produzione di serie di mole diamantate e CBN 1A1 da Ø400mm con legante cermet, segnando una tappa fondamentale nella R&D nazionale delle mole di alta gamma. Sharpen ha…"
 pageType: news
 newsSlug: o400-1a1-batch-production
 newsSection: "Notizie aziendali"

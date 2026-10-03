@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ru
 permalink: /ru/news/cutting-tool-industry-sustainable/
 title: "Как устойчиво развиваться китайской отрасли режущего инструмента"
-description: "Perspectives on the sustainable-development path for China’s cutting-tool industry."
+description: "Взгляд на путь устойчивого развития китайской отрасли режущего инструмента."
 pageType: news
 newsSlug: cutting-tool-industry-sustainable
 newsSection: "Отраслевые новости"

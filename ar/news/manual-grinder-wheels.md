@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ar
 permalink: /ar/news/manual-grinder-wheels/
 title: "نجاح عجلات الطحن اليدوية في شركة بمدينة تشوتشو"
-description: "Our cermet-bond wheels replaced resin-bond wheels at a major Zhuzhou manufacturer, boosting wheel life ~30x with no dressing needed."
+description: "استبدلت عجلاتنا المربوطة برابطة سيرميت عجلات مربوطة برابطة راتنجية لدى مصنّع كبير في تشوتشو، مما رفع عمر العجلة بنحو 30 ضعفاً دون الحاجة إلى تسوية."
 pageType: news
 newsSlug: manual-grinder-wheels
 newsSection: "أخبار الشركة"

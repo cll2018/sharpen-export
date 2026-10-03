@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ru
 permalink: /ru/news/diamond-product-storage/
 title: "Советы по хранению алмазной продукции"
-description: "Guidance on storing diamond wheels — avoid rolling, impact, moisture and harmful chemicals; observe expiry. In storage, diamond wheels must not be…"
+description: "Рекомендации по хранению алмазных кругов — избегать перекатывания, ударов, влаги и вредных химикатов; соблюдать срок годности. При хранении алмазные круги нельзя перекатывать (во избежание трещин и…"
 pageType: news
 newsSlug: diamond-product-storage
 newsSection: "Отраслевые новости"

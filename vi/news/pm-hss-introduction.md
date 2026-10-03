@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: vi
 permalink: /vi/news/pm-hss-introduction/
 title: "Giới thiệu thép tốc độ cao luyện kim bột SAP"
-description: "An overview of PM-HSS vs conventional HSS and Sharpen’s non-atomization ball-milling route enabling domestic high-performance PM-HSS. High-speed…"
+description: "Tổng quan về PM-HSS so với HSS truyền thống và quy trình nghiền bi không nguyên tử hóa của Sharpen giúp tạo ra PM-HSS hiệu suất cao nội địa. Thép tốc độ cao (HSS) là vật liệu dụng cụ thiết yếu, chiếm…"
 pageType: news
 newsSlug: pm-hss-introduction
 newsSection: "Công nghệ tiên tiến"

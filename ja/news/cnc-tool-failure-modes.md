@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ja
 permalink: /ja/news/cnc-tool-failure-modes/
 title: "CNC工具の故障形態と対策"
-description: "A technical overview of CNC tool failure modes — flank wear, crater wear, plastic deformation, built-up edge — and how to mitigate them. Tool failure…"
+description: "CNC工具の故障形態——逃げ面摩耗、クレータ摩耗、塑性変形、構成刃先——とその対策の技術的概要です。工具は、摩耗が限度を超えたり、チッピングしたり、塑性変形したりして切削能力を失うか、品質を保証できなくなったときに故障します。主な故障形態と対策：1. 逃げ面摩耗（機械的摩擦）——より耐摩耗性の工具材を使い、切削速度を下げ、送りを上げ、すくい角を大きくする。2.…"
 pageType: news
 newsSlug: cnc-tool-failure-modes
 newsSection: "業界動向"

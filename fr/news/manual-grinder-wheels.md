@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: fr
 permalink: /fr/news/manual-grinder-wheels/
 title: "Succès des meules pour rectifieuses manuelles dans une entreprise de Zhuzhou"
-description: "Our cermet-bond wheels replaced resin-bond wheels at a major Zhuzhou manufacturer, boosting wheel life ~30x with no dressing needed."
+description: "Nos meules à liant cermet ont remplacé les meules à liant résine chez un grand fabricant de Zhuzhou, multipliant la durée de vie de la meule par ~30 sans besoin de dressage."
 pageType: news
 newsSlug: manual-grinder-wheels
 newsSection: "Actualités de l’entreprise"

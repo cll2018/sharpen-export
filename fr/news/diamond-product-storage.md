@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: fr
 permalink: /fr/news/diamond-product-storage/
 title: "Conseils de stockage pour les produits diamant"
-description: "Guidance on storing diamond wheels — avoid rolling, impact, moisture and harmful chemicals; observe expiry. In storage, diamond wheels must not be…"
+description: "Conseils de stockage des meules diamant — éviter le roulage, les chocs, l'humidité et les produits chimiques nocifs ; respecter la date de péremption. Au stockage, les meules diamant ne doivent pas…"
 pageType: news
 newsSlug: diamond-product-storage
 newsSection: "Actualités du secteur"
