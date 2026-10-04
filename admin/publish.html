@@ -308,7 +308,9 @@ async function translateAll(payload, targets) {
   });
   const data = await res.json().catch(() => null);
   if (!res.ok || !data || !data.ok) {
-    throw new Error((data && data.error) || ("HTTP " + res.status));
+    const e = new Error((data && data.error) || ("HTTP " + res.status));
+    e.rateLimited = !!(data && data.rateLimited) || /\b429\b/.test(e.message);
+    throw e;
   }
   return data.results || {};
 }
@@ -321,7 +323,9 @@ async function translateOne(target, payload) {
   });
   const data = await res.json().catch(() => null);
   if (!res.ok || !data || !data.ok) {
-    throw new Error((data && data.error) || ("HTTP " + res.status));
+    const e = new Error((data && data.error) || ("HTTP " + res.status));
+    e.rateLimited = !!(data && data.rateLimited) || /\b429\b/.test(e.message);
+    throw e;
   }
   const r = data.results && data.results[target];
   if (!r) throw new Error("empty reply");
@@ -345,13 +349,14 @@ async function runTranslate(payload) {
     Object.assign(results, got);
     combinedOk = true;
   } catch (e) {
-    // A 429 is a quota problem on the provider side. Fanning out to a dozen more
-    // requests immediately cannot succeed and only deepens the rate limit, so
-    // stop here and tell the operator to wait instead of burning the quota.
-    rateLimited = /\b429\b/.test(e.message);
+    // A 429, or the local per-minute budget in functions/_lib/rate-limit.js, is
+    // a quota problem on the provider side. Fanning out to a dozen more requests
+    // immediately cannot succeed and only deepens the limit, so stop here and
+    // tell the operator to wait instead of burning the quota.
+    rateLimited = !!(e && e.rateLimited);
     setProgress(
       rateLimited
-        ? "上游接口限流（429）。已停止逐语种重试以免加剧，请等约 1 分钟后重新点击「① 生成 14 语种」。"
+        ? "上游接口限流（每分钟 20 次已用尽）。已停止逐语种重试以免加剧，请等约 1 分钟后重新点击「① 生成 14 语种」。"
         : "批量翻译未成功（" + e.message + "），改为逐语种重试…"
     );
   }

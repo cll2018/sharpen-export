@@ -7,6 +7,7 @@
 // Fallback: if SMTP send fails, return a mailto: link so the lead is never lost.
 
 import { connect } from "node:tls";
+import { checkRfqLimit, clientIpHash, recordRfq } from "./_lib/rate-limit.js";
 
 const TO = "changliangliang@sapu-cn.online";
 const FROM = "changliangliang@sapu-cn.online";
@@ -40,9 +41,32 @@ export async function onRequestPost({ request, env }) {
     return json({ ok: true, delivered: "none" }, 200);
   }
 
+  // Abuse control: cap submissions per IP so a bot cannot hammer the form (and
+  // the sales inbox). Only a salted hash of the address is ever stored.
+  // Deliberately fails open — see functions/_lib/rate-limit.js. Checked before
+  // validation, but only *recorded* after a real submission, so a visitor who
+  // mistypes the form does not burn their own allowance.
+  const ipHash = await clientIpHash(env, request);
+  const limit = await checkRfqLimit(env, ipHash);
+  if (!limit.allowed) {
+    return json(
+      {
+        ok: false,
+        blocked: true,
+        reason: limit.reason,
+        retryAfterSeconds: limit.retryAfterSeconds,
+        error: "提交过于频繁，已被临时拦截。请稍后再试，或直接发邮件 / WhatsApp 联系我们。",
+      },
+      429,
+      limit.retryAfterSeconds ? { "Retry-After": String(limit.retryAfterSeconds) } : null
+    );
+  }
+
   if (!email || !message) {
     return json({ ok: false, error: "请至少填写邮箱和留言。" }, 400);
   }
+
+  await recordRfq(env, ipHash);
 
   const ts = new Date().toISOString();
   const subject = `[Sharpen 询盘] ${name || email} — ${product || "RFQ"}`;
@@ -175,9 +199,12 @@ function str(v) {
 function esc(s) {
   return String(s || "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 }
-function json(obj, status) {
+function json(obj, status, extraHeaders) {
   return new Response(JSON.stringify(obj), {
     status,
-    headers: { "Content-Type": "application/json", "Cache-Control": "no-store" },
+    headers: Object.assign(
+      { "Content-Type": "application/json", "Cache-Control": "no-store" },
+      extraHeaders || {}
+    ),
   });
 }

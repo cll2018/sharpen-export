@@ -10,6 +10,8 @@
 // Swap apiBaseUrl + model to use DeepSeek, OpenRouter, Groq, a self-hosted
 // endpoint, etc. — anything that speaks /v1/chat/completions.
 
+import { takeLlmSlot } from "./_lib/rate-limit.js";
+
 const FALLBACK = {
   reply:
     "Thanks for your message! Our sales team will reply shortly. For immediate help, reach us on WhatsApp or submit an RFQ form.",
@@ -44,6 +46,16 @@ export async function onRequestPost({ request, env }) {
   const systemPrompt =
     (settings.systemPrompt || "") +
     `\n\nLANGUAGE RULE: Reply in the same language the user used (detect from the user's last message). Never reply with a canned greeting or self-introduction. Answer their specific question in 1-4 short sentences.`;
+
+  // /ai-chat and /translate draw on the same 20 requests/minute key, so they
+  // share one budget (see functions/_lib/rate-limit.js). When it is spent we send
+  // nothing upstream and fall back immediately — the provider would answer 429
+  // anyway, and that 429 used to be invisible here because this handler swallows
+  // every error.
+  const slot = await takeLlmSlot(env);
+  if (!slot.allowed) {
+    return json({ ...FALLBACK, rateLimited: true }, 200);
+  }
 
   try {
     const upstream = await fetch(settings.apiBaseUrl + "/chat/completions", {

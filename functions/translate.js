@@ -17,6 +17,9 @@
 //   - Non-secret config (apiBaseUrl / model) lives in data/settings.json.
 //   - The secret API key is read from the Cloudflare Pages env var AI_LLM_API_KEY.
 //   - Only same-origin POSTs with a bounded payload are accepted.
+//   - Upstream calls draw on the shared per-minute budget in ./_lib/rate-limit.js.
+
+import { takeLlmSlot } from "./_lib/rate-limit.js";
 
 const MAX_BODY = 24_000; // chars of source text accepted
 
@@ -202,7 +205,25 @@ function buildOnePrompt(kind, sourceLang, item, target, glossary) {
   ].join("\n");
 }
 
-async function callModel(settings, apiKey, prompt, maxTokens) {
+async function callModel(settings, apiKey, prompt, maxTokens, env) {
+  // Every upstream request draws on the shared 20-per-minute budget, INCLUDING
+  // the retries below. That is the point: the provider's limit is per API key,
+  // not per user request, so a retry storm is exactly what trips the 429.
+  const slot = await takeLlmSlot(env);
+  if (!slot.allowed) {
+    const err = new Error(
+      "上游接口本分钟调用额度已用完（上限 " +
+        slot.limit +
+        " 次/分钟），约 " +
+        slot.retryAfterSeconds +
+        " 秒后自动恢复，请稍后再试。"
+    );
+    // Retrying immediately cannot help; the window has to roll over first.
+    err.retryable = false;
+    err.budgetExhausted = true;
+    throw err;
+  }
+
   const upstream = await fetch((settings.apiBaseUrl || "").replace(/\/$/, "") + "/chat/completions", {
     method: "POST",
     headers: { "Content-Type": "application/json", Authorization: "Bearer " + apiKey },
@@ -368,9 +389,10 @@ export async function onRequestPost({ request, env }) {
     const prompt = buildAllPrompt(kind, sourceLang, item, targets, glossary);
     const maxTokens = Math.min(16000, 1200 + Math.ceil(sourceSize * 0.9 * targets.length / 2.2));
     let lastErr = "unknown error";
+    let rateLimited = false;
     for (let attempt = 1; attempt <= 2; attempt++) {
       try {
-        const parsed = await callModel(settings, apiKey, prompt, maxTokens);
+        const parsed = await callModel(settings, apiKey, prompt, maxTokens, env);
         for (const lang of targets) {
           const picked = pickLang(parsed[lang], kind, item, item.section);
           if (picked) results[lang] = picked;
@@ -381,18 +403,21 @@ export async function onRequestPost({ request, env }) {
       } catch (e) {
         lastErr = String(e && e.message ? e.message : e).slice(0, 240);
         console.warn("[translate] mode=all attempt " + attempt + " failed: " + lastErr);
+        if (e && (e.budgetExhausted || e.status === 429)) rateLimited = true;
+        if (e && e.retryable === false) break;
         if (attempt < 2) await sleep(retryDelay(e, 1500));
       }
     }
     if (!Object.keys(results).length) {
-      return fail(lastErr, { mode, languages: targets.length });
+      return fail(lastErr, { mode, languages: targets.length, rateLimited });
     }
   } else {
     const lang = targets[0];
     let lastErr = "unknown error";
+    let rateLimited = false;
     for (let attempt = 1; attempt <= 3; attempt++) {
       try {
-        const parsed = await callModel(settings, apiKey, buildOnePrompt(kind, sourceLang, item, lang, glossary), 4000);
+        const parsed = await callModel(settings, apiKey, buildOnePrompt(kind, sourceLang, item, lang, glossary), 4000, env);
         const picked = pickLang(parsed, kind, item, item.section);
         if (picked) {
           results[lang] = picked;
@@ -403,11 +428,13 @@ export async function onRequestPost({ request, env }) {
       } catch (e) {
         lastErr = String(e && e.message ? e.message : e).slice(0, 240);
         console.warn("[translate] mode=single lang=" + lang + " attempt " + attempt + " failed: " + lastErr);
+        if (e && (e.budgetExhausted || e.status === 429)) rateLimited = true;
+        if (e && e.retryable === false) break;
         // back off: the provider rate-limits by request count
         if (attempt < 3) await sleep(retryDelay(e, 2000 * attempt));
       }
     }
-    if (!results[lang]) return fail(lastErr, { mode, lang });
+    if (!results[lang]) return fail(lastErr, { mode, lang, rateLimited });
   }
 
   return json({ ok: true, mode, results, errors });
