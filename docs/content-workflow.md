@@ -54,9 +54,10 @@ GitHub Action「i18n sync (中文 → 其余 13 语种)」
   1. 找出这次改了哪些 zh/ 文件、data/i18n.json、data/site.json
   2. 调用 LLM 翻译成其余 13 个语种
   3. 结构字段（permalink / lang / productId / 图片路径 等）按语种自动改好
-  4. 维护索引数据：_data/newsSlugs.json、_data/productOrder.json、_data/productSlugs.json
-  5. 重新生成 _data/products.js（首页与产品列表卡片）
-  6. 校验产出的页面（标题 / permalink / lang 齐全）后提交回 main
+  4. 本地化一致性检查：语种专属的 site.* 变量、正文站内链接
+  5. 维护索引数据：_data/newsSlugs.json、_data/productOrder.json、_data/productSlugs.json
+  6. 重新生成 _data/products.js（首页与产品列表卡片）
+  7. 校验产出的页面（标题 / permalink / lang 齐全）后提交回 main
         │
         ▼
 Cloudflare Pages 自动重建 → 1~2 分钟后 14 个语种全部更新
@@ -65,6 +66,25 @@ Cloudflare Pages 自动重建 → 1~2 分钟后 14 个语种全部更新
 工作流文件：`.github/workflows/i18n-sync.yml`
 翻译脚本：`scripts/i18n-sync.mjs`
 术语表（中英德日… 统一说法）：`data/translation-glossary.json`
+
+### 第 4 步「本地化一致性检查」做什么
+
+有两件事属于**机械改写**而不是翻译，所以不依赖中文是否改动，每次同步都会重做一遍：
+
+- **语种专属的站点变量**：中文页面写 `{{ site.addressZh }}` / `{{ site.nameZh }}`，
+  其余语种必须换成 `{{ site.address }}` / `{{ site.name }}`，
+  繁体中文换成 `{{ site.addressZhTw }}` / `{{ site.nameZhTw }}`。
+- **正文里的站内链接**：中文正文写的 `/zh/contact/` 之类，要改成读者所在语种的
+  `/<语种>/contact/`。
+
+每次同步都重跑，是为了让**历史遗留和被手工改过的文件能自己纠正**——
+例如 `zh-tw/contact.md` 曾一直用着 `{{ site.addressZh }}`，
+于是繁体页面显示的是简体地址；这种情况会被自动发现并修好。
+
+> 顺带一提：脚本会**保留文件原本的换行风格**（仓库里大多数文件是 LF，
+> 但每个语种的 5 个单页文件早年是以 CRLF 提交的）。
+> 若强行统一成 LF，会把「改一个词」变成「整个文件重写」，
+> 提交记录就没法看了。
 
 ### 术语一致性
 
@@ -108,6 +128,7 @@ Cloudflare Pages 自动重建 → 1~2 分钟后 14 个语种全部更新
 | 中文已发布，但其它语种没变 | 打开 GitHub → Actions →「i18n sync」看运行日志；也可以在 Actions 页面手动 Run workflow |
 | 某个语种翻译失败 | 日志里会有 `::warning::`；该语种保持原内容不会写坏，重跑一次即可 |
 | 翻译用词不对 | 改 `data/translation-glossary.json` 里的术语，然后手动 Run workflow |
+| 某个语种的联系方式 / 站内链接不对 | 手动 Run workflow 即可，第 4 步会自动纠正并留一条提交记录 |
 | 想检查改动是否合理 | 看 GitHub 上那次 `i18n: sync 13 languages from zh [i18n-sync]` 提交的 diff |
 
 工作流的运行前提是仓库里配置了 Actions 密钥 `AI_LLM_API_KEY`
