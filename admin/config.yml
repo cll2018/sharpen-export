@@ -170,9 +170,9 @@ collections:
     sortable_fields: ["newsDate", "title"]
     view_filters:
       - { label: "全部栏目", field: "newsSection", pattern: ".*" }
-      - {{ label: "Company News", field: "newsSection", pattern: "Company News" }}
-      - {{ label: "Industry News", field: "newsSection", pattern: "Industry News" }}
-      - {{ label: "Industry Frontier", field: "newsSection", pattern: "Industry Frontier" }}
+      - { label: "Company News", field: "newsSection", pattern: "Company News" }
+      - { label: "Industry News", field: "newsSection", pattern: "Industry News" }
+      - { label: "Industry Frontier", field: "newsSection", pattern: "Industry Frontier" }
     fields:
       - { label: "发布日期", name: "newsDate", widget: "string", required: false,
           pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
@@ -241,9 +241,9 @@ collections:
     sortable_fields: ["newsDate", "title"]
     view_filters:
       - { label: "全部栏目", field: "newsSection", pattern: ".*" }
-      - {{ label: "公司新闻", field: "newsSection", pattern: "公司新闻" }}
-      - {{ label: "行业资讯", field: "newsSection", pattern: "行业资讯" }}
-      - {{ label: "行业前沿发展现状", field: "newsSection", pattern: "行业前沿发展现状" }}
+      - { label: "公司新闻", field: "newsSection", pattern: "公司新闻" }
+      - { label: "行业资讯", field: "newsSection", pattern: "行业资讯" }
+      - { label: "行业前沿发展现状", field: "newsSection", pattern: "行业前沿发展现状" }
     fields:
       - { label: "发布日期", name: "newsDate", widget: "string", required: false,
           pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
@@ -312,9 +312,9 @@ collections:
     sortable_fields: ["newsDate", "title"]
     view_filters:
       - { label: "全部栏目", field: "newsSection", pattern: ".*" }
-      - {{ label: "公司新聞", field: "newsSection", pattern: "公司新聞" }}
-      - {{ label: "行業資訊", field: "newsSection", pattern: "行業資訊" }}
-      - {{ label: "行業前沿發展現狀", field: "newsSection", pattern: "行業前沿發展現狀" }}
+      - { label: "公司新聞", field: "newsSection", pattern: "公司新聞" }
+      - { label: "行業資訊", field: "newsSection", pattern: "行業資訊" }
+      - { label: "行業前沿發展現狀", field: "newsSection", pattern: "行業前沿發展現狀" }
     fields:
       - { label: "发布日期", name: "newsDate", widget: "string", required: false,
           pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
@@ -383,9 +383,9 @@ collections:
     sortable_fields: ["newsDate", "title"]
     view_filters:
       - { label: "全部栏目", field: "newsSection", pattern: ".*" }
-      - {{ label: "Unternehmensnachrichten", field: "newsSection", pattern: "Unternehmensnachrichten" }}
-      - {{ label: "Branchennews", field: "newsSection", pattern: "Branchennews" }}
-      - {{ label: "Technologietrends", field: "newsSection", pattern: "Technologietrends" }}
+      - { label: "Unternehmensnachrichten", field: "newsSection", pattern: "Unternehmensnachrichten" }
+      - { label: "Branchennews", field: "newsSection", pattern: "Branchennews" }
+      - { label: "Technologietrends", field: "newsSection", pattern: "Technologietrends" }
     fields:
       - { label: "发布日期", name: "newsDate", widget: "string", required: false,
           pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
@@ -454,9 +454,9 @@ collections:
     sortable_fields: ["newsDate", "title"]
     view_filters:
       - { label: "全部栏目", field: "newsSection", pattern: ".*" }
-      - {{ label: "企業ニュース", field: "newsSection", pattern: "企業ニュース" }}
-      - {{ label: "業界動向", field: "newsSection", pattern: "業界動向" }}
-      - {{ label: "業界最前線", field: "newsSection", pattern: "業界最前線" }}
+      - { label: "企業ニュース", field: "newsSection", pattern: "企業ニュース" }
+      - { label: "業界動向", field: "newsSection", pattern: "業界動向" }
+      - { label: "業界最前線", field: "newsSection", pattern: "業界最前線" }
     fields:
       - { label: "发布日期", name: "newsDate", widget: "string", required: false,
           pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
@@ -525,9 +525,9 @@ collections:
     sortable_fields: ["newsDate", "title"]
     view_filters:
       - { label: "全部栏目", field: "newsSection", pattern: ".*" }
-      - {{ label: "기업 뉴스", field: "newsSection", pattern: "기업 뉴스" }}
-      - {{ label: "업종 뉴스", field: "newsSection", pattern: "업종 뉴스" }}
-      - {{ label: "산업 최전선", field: "newsSection", pattern: "산업 최전선" }}
+      - { label: "기업 뉴스", field: "newsSection", pattern: "기업 뉴스" }
+      - { label: "업종 뉴스", field: "newsSection", pattern: "업종 뉴스" }
+      - { label: "산업 최전선", field: "newsSection", pattern: "산업 최전선" }
     fields:
       - { label: "发布日期", name: "newsDate", widget: "string", required: false,
           pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
@@ -596,9 +596,9 @@ collections:
     sortable_fields: ["newsDate", "title"]
     view_filters:
       - { label: "全部栏目", field: "newsSection", pattern: ".*" }
-      - {{ label: "Корпоративные новости", field: "newsSection", pattern: "Корпоративные новости" }}
-      - {{ label: "Отраслевые новости", field: "newsSection", pattern: "Отраслевые новости" }}
-      - {{ label: "Технологии передового края", field: "newsSection", pattern: "Технологии передового края" }}
+      - { label: "Корпоративные новости", field: "newsSection", pattern: "Корпоративные новости" }
+      - { label: "Отраслевые новости", field: "newsSection", pattern: "Отраслевые новости" }
+      - { label: "Технологии передового края", field: "newsSection", pattern: "Технологии передового края" }
     fields:
       - { label: "发布日期", name: "newsDate", widget: "string", required: false,
           pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
@@ -667,9 +667,9 @@ collections:
     sortable_fields: ["newsDate", "title"]
     view_filters:
       - { label: "全部栏目", field: "newsSection", pattern: ".*" }
-      - {{ label: "Noticias de empresa", field: "newsSection", pattern: "Noticias de empresa" }}
-      - {{ label: "Noticias del sector", field: "newsSection", pattern: "Noticias del sector" }}
-      - {{ label: "Fronteras tecnológicas", field: "newsSection", pattern: "Fronteras tecnológicas" }}
+      - { label: "Noticias de empresa", field: "newsSection", pattern: "Noticias de empresa" }
+      - { label: "Noticias del sector", field: "newsSection", pattern: "Noticias del sector" }
+      - { label: "Fronteras tecnológicas", field: "newsSection", pattern: "Fronteras tecnológicas" }
     fields:
       - { label: "发布日期", name: "newsDate", widget: "string", required: false,
           pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
@@ -738,9 +738,9 @@ collections:
     sortable_fields: ["newsDate", "title"]
     view_filters:
       - { label: "全部栏目", field: "newsSection", pattern: ".*" }
-      - {{ label: "Notícias da empresa", field: "newsSection", pattern: "Notícias da empresa" }}
-      - {{ label: "Notícias do setor", field: "newsSection", pattern: "Notícias do setor" }}
-      - {{ label: "Fronteras tecnológicas", field: "newsSection", pattern: "Fronteras tecnológicas" }}
+      - { label: "Notícias da empresa", field: "newsSection", pattern: "Notícias da empresa" }
+      - { label: "Notícias do setor", field: "newsSection", pattern: "Notícias do setor" }
+      - { label: "Fronteras tecnológicas", field: "newsSection", pattern: "Fronteras tecnológicas" }
     fields:
       - { label: "发布日期", name: "newsDate", widget: "string", required: false,
           pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
@@ -809,9 +809,9 @@ collections:
     sortable_fields: ["newsDate", "title"]
     view_filters:
       - { label: "全部栏目", field: "newsSection", pattern: ".*" }
-      - {{ label: "Actualités de l’entreprise", field: "newsSection", pattern: "Actualités de l’entreprise" }}
-      - {{ label: "Actualités du secteur", field: "newsSection", pattern: "Actualités du secteur" }}
-      - {{ label: "Frontières technologiques", field: "newsSection", pattern: "Frontières technologiques" }}
+      - { label: "Actualités de l’entreprise", field: "newsSection", pattern: "Actualités de l’entreprise" }
+      - { label: "Actualités du secteur", field: "newsSection", pattern: "Actualités du secteur" }
+      - { label: "Frontières technologiques", field: "newsSection", pattern: "Frontières technologiques" }
     fields:
       - { label: "发布日期", name: "newsDate", widget: "string", required: false,
           pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
@@ -880,9 +880,9 @@ collections:
     sortable_fields: ["newsDate", "title"]
     view_filters:
       - { label: "全部栏目", field: "newsSection", pattern: ".*" }
-      - {{ label: "Notizie aziendali", field: "newsSection", pattern: "Notizie aziendali" }}
-      - {{ label: "Notizie del settore", field: "newsSection", pattern: "Notizie del settore" }}
-      - {{ label: "Frontiere tecnologiche", field: "newsSection", pattern: "Frontiere tecnologiche" }}
+      - { label: "Notizie aziendali", field: "newsSection", pattern: "Notizie aziendali" }
+      - { label: "Notizie del settore", field: "newsSection", pattern: "Notizie del settore" }
+      - { label: "Frontiere tecnologiche", field: "newsSection", pattern: "Frontiere tecnologiche" }
     fields:
       - { label: "发布日期", name: "newsDate", widget: "string", required: false,
           pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
@@ -951,9 +951,9 @@ collections:
     sortable_fields: ["newsDate", "title"]
     view_filters:
       - { label: "全部栏目", field: "newsSection", pattern: ".*" }
-      - {{ label: "Şirket haberleri", field: "newsSection", pattern: "Şirket haberleri" }}
-      - {{ label: "Sektör haberleri", field: "newsSection", pattern: "Sektör haberleri" }}
-      - {{ label: "Teknoloji gelişmeleri", field: "newsSection", pattern: "Teknoloji gelişmeleri" }}
+      - { label: "Şirket haberleri", field: "newsSection", pattern: "Şirket haberleri" }
+      - { label: "Sektör haberleri", field: "newsSection", pattern: "Sektör haberleri" }
+      - { label: "Teknoloji gelişmeleri", field: "newsSection", pattern: "Teknoloji gelişmeleri" }
     fields:
       - { label: "发布日期", name: "newsDate", widget: "string", required: false,
           pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
@@ -1022,9 +1022,9 @@ collections:
     sortable_fields: ["newsDate", "title"]
     view_filters:
       - { label: "全部栏目", field: "newsSection", pattern: ".*" }
-      - {{ label: "أخبار الشركة", field: "newsSection", pattern: "أخبار الشركة" }}
-      - {{ label: "أخبار القطاع", field: "newsSection", pattern: "أخبار القطاع" }}
-      - {{ label: "تقنيات السانك", field: "newsSection", pattern: "تقنيات السانك" }}
+      - { label: "أخبار الشركة", field: "newsSection", pattern: "أخبار الشركة" }
+      - { label: "أخبار القطاع", field: "newsSection", pattern: "أخبار القطاع" }
+      - { label: "تقنيات السانك", field: "newsSection", pattern: "تقنيات السانك" }
     fields:
       - { label: "发布日期", name: "newsDate", widget: "string", required: false,
           pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
@@ -1093,9 +1093,9 @@ collections:
     sortable_fields: ["newsDate", "title"]
     view_filters:
       - { label: "全部栏目", field: "newsSection", pattern: ".*" }
-      - {{ label: "Tin doanh nghiệp", field: "newsSection", pattern: "Tin doanh nghiệp" }}
-      - {{ label: "Tin ngành", field: "newsSection", pattern: "Tin ngành" }}
-      - {{ label: "Công nghệ tiên tiến", field: "newsSection", pattern: "Công nghệ tiên tiến" }}
+      - { label: "Tin doanh nghiệp", field: "newsSection", pattern: "Tin doanh nghiệp" }
+      - { label: "Tin ngành", field: "newsSection", pattern: "Tin ngành" }
+      - { label: "Công nghệ tiên tiến", field: "newsSection", pattern: "Công nghệ tiên tiến" }
     fields:
       - { label: "发布日期", name: "newsDate", widget: "string", required: false,
           pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
