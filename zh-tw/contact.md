@@ -39,7 +39,7 @@ description: "聯繫長沙市薩普新材料有限公司，獲取金剛石/CBN�
     <p><strong>郵箱：</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
     <p><strong>電話：</strong> {{ site.phone }}</p>
     <p><strong>微信：</strong> {{ site.wechat }}</p>
-    <p><strong>地址：</strong> {{ site.addressZh }}</p>
+    <p><strong>地址：</strong> {{ site.addressZhTw }}</p>
     <p style="margin-top:18px"><a class="btn btn-chat" href="#" onclick="document.getElementById('chat-toggle').click();return false;">💬 AI 在線客服（即時）</a></p>
   </div>
 </div>
