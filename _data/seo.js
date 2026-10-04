@@ -23,7 +23,8 @@ function gitLastmods(relPaths) {
     ).toString();
     let cur = null;
     for (const line of out.split(/\r?\n/)) {
-      if (line.indexOf("COMMIT\t") === 0) { cur = line.slice(8); continue; }
+      const PREFIX = "COMMIT\t"; // C O M M I T \t == 7 chars
+      if (line.indexOf(PREFIX) === 0) { cur = line.slice(PREFIX.length); continue; }
       const f = line.trim();
       if (f && !(f in map)) map[f] = cur; // first hit = newest commit
     }
