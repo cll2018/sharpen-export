@@ -338,17 +338,26 @@ async function runTranslate(payload) {
   const failures = [];
 
   let combinedOk = false;
+  let rateLimited = false;
   try {
     setProgress("正在一次性翻译 " + targets.length + " 个语种…");
     const got = await translateAll(payload, targets);
     Object.assign(results, got);
     combinedOk = true;
   } catch (e) {
-    setProgress("批量翻译未成功（" + e.message + "），改为逐语种重试…");
+    // A 429 is a quota problem on the provider side. Fanning out to a dozen more
+    // requests immediately cannot succeed and only deepens the rate limit, so
+    // stop here and tell the operator to wait instead of burning the quota.
+    rateLimited = /\b429\b/.test(e.message);
+    setProgress(
+      rateLimited
+        ? "上游接口限流（429）。已停止逐语种重试以免加剧，请等约 1 分钟后重新点击「① 生成 14 语种」。"
+        : "批量翻译未成功（" + e.message + "），改为逐语种重试…"
+    );
   }
 
   const missing = targets.filter((t) => !results[t]);
-  if (missing.length) {
+  if (missing.length && !rateLimited) {
     let i = 0;
     for (const lang of missing) {
       i++;

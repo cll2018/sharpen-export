@@ -226,8 +226,28 @@ async function callModel(settings, apiKey, prompt, maxTokens) {
     }),
   });
   if (!upstream.ok) {
-    const err = new Error("LLM HTTP " + upstream.status);
+    // Surface WHY. The provider explains a rate limit in the response body, and
+    // without it every failure reaches the operator as an identical opaque error.
+    let detail = "";
+    try {
+      detail = (await upstream.text()).replace(/\s+/g, " ").trim().slice(0, 240);
+    } catch {
+      /* an unreadable body still leaves us the status code */
+    }
+    const err = new Error(
+      "LLM HTTP " + upstream.status + (detail ? " — " + detail : "")
+    );
     err.retryable = true;
+    err.status = upstream.status;
+    const retryAfter = Number(upstream.headers.get("retry-after"));
+    if (Number.isFinite(retryAfter) && retryAfter > 0) {
+      err.retryAfterMs = Math.min(retryAfter * 1000, 8000);
+    } else if (upstream.status === 429) {
+      // No hint from the provider: back off hard instead of hammering a quota
+      // that is already exhausted — retrying fast is what turns one 429 into a
+      // storm of them, which is exactly how this endpoint used to fail.
+      err.retryAfterMs = 6000;
+    }
     throw err;
   }
   const data = await upstream.json();
@@ -244,6 +264,28 @@ async function callModel(settings, apiKey, prompt, maxTokens) {
 }
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+/**
+ * How long to wait before the next attempt. The provider rate-limits by request
+ * count and may state a Retry-After; when it does, waiting that long is the only
+ * thing that actually helps. Otherwise fall back to a plain backoff.
+ */
+function retryDelay(err, fallbackMs) {
+  const hinted = err && err.retryAfterMs;
+  return hinted > 0 ? hinted : fallbackMs;
+}
+
+/**
+ * Application failures are reported as HTTP 200 with `ok:false` on purpose.
+ * This zone has origin_error_page_pass_thru=off, so Cloudflare swaps any 5xx
+ * body coming back from Pages for its own "502 Bad gateway" page — the operator
+ * then only ever sees "HTTP 502" instead of the real reason. A 200 that carries
+ * ok:false is the only shape that survives all the way to the admin screen.
+ * The admin page already treats `!res.ok || !data.ok` as a failure.
+ */
+function fail(error, extra) {
+  return json(Object.assign({ ok: false, error }, extra || {}), 200);
+}
 
 function pickLang(raw, kind, item, fallbackSection) {
   const out = {
@@ -262,9 +304,13 @@ function pickLang(raw, kind, item, fallbackSection) {
 
 export async function onRequestPost({ request, env }) {
   // Same-origin only: this Function translates content for our own admin page.
+  // A MISSING Origin used to be waved through, which left this endpoint as an
+  // open translation proxy for anyone with an HTTP client — and the LLM key
+  // behind it has a tight request quota, so abuse surfaces as site-wide 429s.
+  // Browsers always send Origin on a POST, so requiring it costs us nothing.
   const origin = request.headers.get("Origin");
   const host = new URL(request.url).host;
-  if (origin && !origin.includes(host)) {
+  if (!origin || !origin.includes(host)) {
     return json({ ok: false, error: "cross-origin requests are not allowed" }, 403);
   }
 
@@ -305,14 +351,14 @@ export async function onRequestPost({ request, env }) {
   try {
     settings = await fetch(new URL(request.url).origin + "/data/settings.json").then((r) => r.json());
   } catch {
-    return json({ ok: false, error: "could not load data/settings.json" }, 500);
+    return fail("could not load data/settings.json");
   }
   // Shared terminology with scripts/i18n-sync.mjs; falls back to the inline
   // table inside this file when the JSON cannot be read.
   const glossary = await loadGlossary(new URL(request.url).origin);
   const apiKey = env.AI_LLM_API_KEY;
   if (!apiKey) {
-    return json({ ok: false, error: "AI_LLM_API_KEY is not set on this Cloudflare Pages project" }, 500);
+    return fail("AI_LLM_API_KEY is not set on this Cloudflare Pages project");
   }
 
   const results = {};
@@ -333,12 +379,13 @@ export async function onRequestPost({ request, env }) {
         if (Object.keys(results).length) break;
         lastErr = "combined response had no usable entries";
       } catch (e) {
-        lastErr = String(e && e.message ? e.message : e).slice(0, 160);
+        lastErr = String(e && e.message ? e.message : e).slice(0, 240);
+        console.warn("[translate] mode=all attempt " + attempt + " failed: " + lastErr);
+        if (attempt < 2) await sleep(retryDelay(e, 1500));
       }
-      if (attempt < 2) await sleep(1500);
     }
     if (!Object.keys(results).length) {
-      return json({ ok: false, error: lastErr, mode }, 502);
+      return fail(lastErr, { mode, languages: targets.length });
     }
   } else {
     const lang = targets[0];
@@ -354,11 +401,13 @@ export async function onRequestPost({ request, env }) {
         }
         lastErr = "reply had no title";
       } catch (e) {
-        lastErr = String(e && e.message ? e.message : e).slice(0, 160);
+        lastErr = String(e && e.message ? e.message : e).slice(0, 240);
+        console.warn("[translate] mode=single lang=" + lang + " attempt " + attempt + " failed: " + lastErr);
+        // back off: the provider rate-limits by request count
+        if (attempt < 3) await sleep(retryDelay(e, 2000 * attempt));
       }
-      if (attempt < 3) await sleep(2000 * attempt); // back off: the provider rate-limits
     }
-    if (!results[lang]) return json({ ok: false, lang, error: lastErr, mode }, 502);
+    if (!results[lang]) return fail(lastErr, { mode, lang });
   }
 
   return json({ ok: true, mode, results, errors });
