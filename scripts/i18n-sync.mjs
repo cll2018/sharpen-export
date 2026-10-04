@@ -347,6 +347,80 @@ function localizeForLang(text, lang) {
   return localizeLinks(remapSiteVars(text, lang), lang);
 }
 
+/* ===================== localization consistency pass ===================== */
+// Picking the right site.* variable per language and pointing internal links at
+// the reader's own language are mechanical rewrites, not translations. Applying
+// them only when the Chinese source happens to change leaves legacy or
+// hand-edited target files wrong indefinitely — zh-tw/contact.md kept rendering
+// {{ site.addressZh }} (the simplified address) with the traditional field
+// sitting unused in data/site.json. Re-assert the invariant on every run so the
+// pipeline heals those files by itself.
+
+function walkMarkdown(dir) {
+  const out = [];
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const p = path.join(dir, entry.name);
+    if (entry.isDirectory()) out.push(...walkMarkdown(p));
+    else if (entry.name.endsWith(".md")) out.push(p);
+  }
+  return out;
+}
+
+function enforceLocalization() {
+  const corrected = [];
+  for (const lang of TARGETS) {
+    if (!fs.existsSync(lang)) continue;
+    for (const file of walkMarkdown(lang)) {
+      const rel = file.split(path.sep).join("/");
+      const text = fs.readFileSync(file, "utf8");
+      const localized = localizeForLang(text, lang);
+      if (localized === text) continue;
+      const next = normalizeEol(localized, text.includes("\r\n") ? "\r\n" : "\n");
+      if (next === text) continue;
+      for (const [before, after] of changedSpans(text, next)) {
+        console.log(`  ${rel}: ${before} → ${after}`);
+      }
+      corrected.push(rel);
+      written.push(rel);
+      if (!DRY) fs.writeFileSync(file, next, "utf8");
+    }
+  }
+  console.log(`localization pass: ${corrected.length} file(s) corrected`);
+  return corrected;
+}
+
+// Make the file internally consistent without changing the line ending style it
+// already uses. Most of the repository is LF, but the five single-page files in
+// each language directory (index/contact/news/products/privacy) were committed as
+// CRLF by earlier tooling; rewriting those as LF would turn a one-word change
+// into a whole-file diff, which makes the bot's commits impossible to review.
+function normalizeEol(text, eol) {
+  return String(text).replace(/\r\n?/g, "\n").replace(/\n/g, eol);
+}
+
+// Report just the differing spans so the log stays readable.
+function changedSpans(before, after) {
+  const spans = [];
+  const seen = new Set();
+  const grab = (re) => (t) => [...t.matchAll(re)].map((m) => m[0]);
+  const patterns = [
+    /\{\{\s*site\.[A-Za-z0-9_]+\s*\}\}/g,
+    /(?:href|src)\s*=\s*["']\/[a-z-]+\/[^"']*["']/g,
+  ];
+  for (const re of patterns) {
+    const b = grab(re)(before);
+    const a = grab(re)(after);
+    if (b.length !== a.length) continue;
+    for (let i = 0; i < b.length; i++) {
+      if (b[i] !== a[i] && !seen.has(b[i] + "→" + a[i])) {
+        seen.add(b[i] + "→" + a[i]);
+        spans.push([b[i], a[i]]);
+      }
+    }
+  }
+  return spans.length ? spans : [["(content drift)", "(re-aligned)"]];
+}
+
 /* ========================= md sync ========================= */
 const written = [];
 const removedFiles = [];
@@ -427,9 +501,10 @@ async function syncMarkdown(rel) {
     }
 
     const body = tr.body != null ? tr.body : (existing ? exBody : fm.body);
-    // The repo stores LF (core.autocrlf normalises on commit); keep every file
-    // we produce pure-LF so diffs stay readable and endings stay consistent.
-    const content = `---\n${headLines.join("\n")}\n---\n${body}`.replace(/\r\n?/g, "\n");
+    // Keep the produced file internally consistent, but keep the line endings the
+    // file already had rather than forcing LF — see normalizeEol for why.
+    const eol = existing && existing.includes("\r\n") ? "\r\n" : "\n";
+    const content = normalizeEol(`---\n${headLines.join("\n")}\n---\n${body}`, eol);
 
     if (existing === content) continue;
     written.push(outRel);
@@ -640,6 +715,10 @@ async function main() {
       warn(`${rel}: ${String(e.message || e).slice(0, 200)}`);
     }
   }
+
+  console.log("");
+  console.log("localization consistency pass:");
+  enforceLocalization();
 
   await syncI18n();
   await syncSite();
