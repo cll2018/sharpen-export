@@ -18,6 +18,27 @@
 
 > 因为开启了「编辑工作流」，保存后会先进入草稿，点 **Publish** 才真正上线。
 
+### 谁能登录（登录白名单）
+
+本站的 GitHub OAuth App 是公开的，任何人点「Login with GitHub」都能走到 GitHub 的
+授权页 —— **授权页本身不是门**。真正的门在 `functions/decap/auth/callback.js`：
+拿到令牌后会用令牌问 GitHub「你是谁」，只有当登录名出现在环境变量
+`GITHUB_ALLOWED_LOGINS` 里，才把令牌交给后台；否则**拒绝**（并把刚签发的令牌立刻吊销）。
+
+| 项目 | 值 |
+| --- | --- |
+| Cloudflare Pages 环境变量 | `GITHUB_ALLOWED_LOGINS` |
+| 当前值 | `cll2018`（多个账号用英文逗号分隔，如 `cll2018,someone-else`） |
+| 生效范围 | production 与 preview 两套都要配（项目级变量分两套） |
+
+要点：
+
+- **变量为空 / 未设置时，校验会被跳过**，行为退回改动前的样子 ——
+  所以这个变量只可能收紧权限，不会把你自己锁在门外。
+- 被拒绝的人看到的是「GitHub 账号 @xxx 不在本后台的登录白名单内」，
+  后台登录页也会同时弹出这条原因，不会一直转圈。
+- 换人维护时：改这个环境变量即可，不用改代码。改完 Cloudflare 会重新部署一次。
+
 ---
 
 ## 2. 各菜单能改什么
@@ -130,6 +151,13 @@ Cloudflare Pages 自动重建 → 1~2 分钟后 14 个语种全部更新
 | 翻译用词不对 | 改 `data/translation-glossary.json` 里的术语，然后手动 Run workflow |
 | 某个语种的联系方式 / 站内链接不对 | 手动 Run workflow 即可，第 4 步会自动纠正并留一条提交记录 |
 | 想检查改动是否合理 | 看 GitHub 上那次 `i18n: sync 13 languages from zh [i18n-sync]` 提交的 diff |
+| 一键发布页提示「上游接口限流（429）」 | 大模型接口按次数限流。等约 1 分钟再点「① 生成 14 语种」；不要连续狂点，重试太快只会加剧限流 |
+| 后台登录被拒，提示账号不在白名单 | 改 Cloudflare Pages 环境变量 `GITHUB_ALLOWED_LOGINS`（见第 1 节） |
+
+> 说明：本站 zone 的 `origin_error_page_pass_thru` 为 `off`，Cloudflare 会把
+> Pages 返回的 5xx 正文替换成它自己的「502 Bad gateway」页。所以
+> `/translate` 一律用 `HTTP 200 + ok:false` 报告失败，这样后台能看到**真实原因**
+> 而不是一句没有信息量的 502。
 
 工作流的运行前提是仓库里配置了 Actions 密钥 `AI_LLM_API_KEY`
 （与 Cloudflare Pages 上同名环境变量一致），已配置完成。
