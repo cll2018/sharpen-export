@@ -1,0 +1,62 @@
+name: i18n sync (中文 → 其余 13 语种)
+
+# 中文是唯一的内容源。任何一次改动 zh/ 目录、data/i18n.json 或 data/site.json
+# 的推送，都会在这里自动翻译成其余 13 种语言、重新生成索引数据，并提交回 main。
+# 提交信息带 [i18n-sync] 标记，配合下面的 paths 过滤，不会造成循环触发。
+#
+# 需要在仓库 Settings → Secrets and variables → Actions 中配置：
+#   AI_LLM_API_KEY  —— 与 Cloudflare Pages 上同名环境变量一致
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "zh/**"
+      - "data/i18n.json"
+      - "data/site.json"
+  workflow_dispatch:
+
+concurrency:
+  group: i18n-sync
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    if: ${{ !contains(github.event.head_commit.message, '[i18n-sync]') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (full history for git-based change detection)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Translate changes from Chinese into the other 13 languages
+        env:
+          AI_LLM_API_KEY: ${{ secrets.AI_LLM_API_KEY }}
+          BEFORE_SHA: ${{ github.event.before }}
+          AFTER_SHA: ${{ github.sha }}
+        run: node scripts/i18n-sync.mjs
+
+      - name: Regenerate derived data (home/product cards)
+        run: python3 scripts/gen_products_data.py
+
+      - name: Commit and push
+        run: |
+          git config user.name  "sapu-i18n-bot"
+          git config user.email "i18n-bot@sapu-cn.online"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+            exit 0
+          fi
+          git commit -m "i18n: sync 13 languages from zh [i18n-sync]"
+          git pull --rebase --no-edit origin main || true
+          git push

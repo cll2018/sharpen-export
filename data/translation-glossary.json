@@ -1,0 +1,324 @@
+{
+  "_comment": "Single source of truth for translation terminology. Consumed by scripts/i18n-sync.mjs (GitHub Action) and functions/translate.js (CMS publish page).",
+  "langNames": {
+    "en": "English (US)",
+    "zh": "Simplified Chinese",
+    "zh-tw": "Traditional Chinese (Taiwan)",
+    "de": "German",
+    "ja": "Japanese",
+    "ko": "Korean",
+    "ru": "Russian",
+    "es": "Spanish",
+    "pt": "Portuguese",
+    "fr": "French",
+    "it": "Italian",
+    "tr": "Turkish",
+    "ar": "Arabic",
+    "vi": "Vietnamese"
+  },
+  "glossaryLangs": [
+    "en",
+    "de",
+    "ja",
+    "ko",
+    "ru",
+    "es",
+    "pt",
+    "fr",
+    "it",
+    "tr",
+    "ar",
+    "vi"
+  ],
+  "glossary": [
+    [
+      "萨普新材",
+      "Sharpen New Materials",
+      "Sharpen New Materials",
+      "サプ新材",
+      "사프신재",
+      "SAP New Materials",
+      "Sharpen New Materials",
+      "Sharpen New Materials",
+      "Sharpen New Materials",
+      "Sharpen New Materials",
+      "Sharpen New Materials",
+      "سابو للمواد الجديدة",
+      "Sharpen New Materials"
+    ],
+    [
+      "长沙市萨普新材料有限公司",
+      "Changsha Sharpen New Materials Co., Ltd.",
+      "Changsha Sharpen New Materials Co., Ltd.",
+      "長沙サプ新材料有限公司",
+      "창사 사프 신소재 유한회사",
+      "ООО «Чанша Сап Новые Материалы»",
+      "Changsha Sharpen New Materials Co., Ltd.",
+      "Changsha Sharpen New Materials Co., Ltd.",
+      "Changsha Sharpen New Materials Co., Ltd.",
+      "Changsha Sharpen New Materials Co., Ltd.",
+      "Changsha Sharpen New Materials Co., Ltd.",
+      "تشانغشا سابو للمواد الجديدة المحدودة",
+      "Changsha Sharpen New Materials Co., Ltd."
+    ],
+    [
+      "金刚石砂轮",
+      "diamond grinding wheel",
+      "Diamantscheibe",
+      "ダイヤモンド砥石",
+      "다이아몬드 휠",
+      "алмазный круг",
+      "rueda de diamante",
+      "roda de diamante",
+      "meule diamant",
+      "mole per diamante",
+      "elmas taş",
+      "قرص الماس",
+      "đĩa mài kim cương"
+    ],
+    [
+      "CBN砂轮",
+      "CBN grinding wheel",
+      "CBN-Schleifscheibe",
+      "CBN砥石",
+      "CBN 휠",
+      "CBN круг",
+      "rueda CBN",
+      "roda CBN",
+      "meule CBN",
+      "mole CBN",
+      "CBN taş",
+      "قرص CBN",
+      "đĩa mài CBN"
+    ],
+    [
+      "硬质合金",
+      "cemented carbide",
+      "Hartmetall",
+      "超硬合金",
+      "탄화강",
+      "твердосплав",
+      "carburo",
+      "carboneto",
+      "carbure",
+      "carburo",
+      "sert metal",
+      "كربيد",
+      "carbide cứng"
+    ],
+    [
+      "金属陶瓷结合剂",
+      "cermet bond",
+      "Keramikmetallbindung",
+      "セラミックメタルバインド",
+      "서멧 결합제",
+      "керамико-металлическая связка",
+      "aglutinante cermet",
+      "aglutinante cermet",
+      "liant cermet",
+      "legante cermet",
+      "seramik metal bağlayıcı",
+      "رابطة سيرميت",
+      "chất kết dính cermet"
+    ],
+    [
+      "树脂结合剂",
+      "resin bond",
+      "Kunstharzbindung",
+      "樹脂バインド",
+      "수지 결합제",
+      "смоляная связка",
+      "aglutinante de resina",
+      "aglutinante de resina",
+      "liant résine",
+      "legante resinosa",
+      "reçine bağlayıcı",
+      "رابط راتنجي",
+      "chất kết dính nhựa"
+    ],
+    [
+      "碳化硅晶圆减薄砂轮",
+      "SiC wafer thinning wheel",
+      "SiC-Wafer-Dünnschliff",
+      "SiCウェーハ研削",
+      "SiC 웨이퍼 씬닝",
+      "SiC пластины",
+      "rueda de adelgazado de obleas SiC",
+      "roda de desbaste de wafer SiC",
+      "meule d'amincissement de wafer SiC",
+      "mola di assottigliamento wafer SiC",
+      "SiC wafer inceltme",
+      "عجلة ترقيم رقائق SiC",
+      "đĩa mài mỏng wafer SiC"
+    ],
+    [
+      "粉末冶金高速钢",
+      "powder metallurgy high-speed steel",
+      "Pulvermetallurgie-Schnellstahl",
+      "粉末冶金高速度鋼",
+      "분말야금 고속강",
+      "порошковая быстрорежущая сталь",
+      "acero rápido de metalurgia de polvos",
+      "aço rápido de metalurgia de pó",
+      "acier rapide à métallurgie des poudres",
+      "acciaio rapido da metallurgia delle polveri",
+      "toz metalurjisi yüksek hızlı çelik",
+      "فولاذ عالي السرعة من المساحيق",
+      "thép tốc độ cao luyện bột"
+    ],
+    [
+      "均热板",
+      "heat spreader",
+      "Wärmeleiter",
+      "放熱板",
+      "히트 스프리더",
+      "радиатор",
+      "disipador de calor",
+      "dissipador de calor",
+      "conducteur thermique",
+      "dispersione di calore",
+      "ısı yayıcı",
+      "موصل حراري",
+      "tản nhiệt"
+    ],
+    [
+      "五轴数控磨削",
+      "five-axis CNC grinding",
+      "5-Achs-CNC-Schliff",
+      "5軸NC研削",
+      "5축 CNC 연삭",
+      "5-осевое фрезерование",
+      "rectificado CNC de 5 ejes",
+      "retificação CNC de 5 eixos",
+      "rectification CNC 5 axes",
+      "rettifica CNC a 5 assi",
+      "5 eksenli CNC taşlama",
+      "الطحن CNC بخمسة محاور",
+      "mài CNC 5 trục"
+    ]
+  ],
+  "cta": {
+    "en": "Request a quote",
+    "zh": "索取报价",
+    "zh-tw": "索取報價",
+    "de": "Angebot anfordern",
+    "ja": "お見積り依頼",
+    "ko": "견적 요청",
+    "ru": "Запросить цену",
+    "es": "Solicitar presupuesto",
+    "pt": "Solicitar orçamento",
+    "fr": "Demander un devis",
+    "it": "Richiedi un preventivo",
+    "tr": "Teklif isteyin",
+    "ar": "اطلب عرض سعر",
+    "vi": "Yêu cầu báo giá"
+  },
+  "sections": {
+    "en": [
+      "Company News",
+      "Industry News",
+      "Industry Frontier"
+    ],
+    "zh": [
+      "公司新闻",
+      "行业资讯",
+      "行业前沿发展现状"
+    ],
+    "zh-tw": [
+      "公司新聞",
+      "行業資訊",
+      "行業前沿發展現狀"
+    ],
+    "de": [
+      "Unternehmensnachrichten",
+      "Branchennews",
+      "Technologietrends"
+    ],
+    "ja": [
+      "企業ニュース",
+      "業界動向",
+      "業界最前線"
+    ],
+    "ko": [
+      "기업 뉴스",
+      "업종 뉴스",
+      "산업 최전선"
+    ],
+    "ru": [
+      "Корпоративные новости",
+      "Отраслевые новости",
+      "Технологии передового края"
+    ],
+    "es": [
+      "Noticias de empresa",
+      "Noticias del sector",
+      "Fronteras tecnológicas"
+    ],
+    "pt": [
+      "Notícias da empresa",
+      "Notícias do setor",
+      "Fronteras tecnológicas"
+    ],
+    "fr": [
+      "Actualités de l’entreprise",
+      "Actualités du secteur",
+      "Frontières technologiques"
+    ],
+    "it": [
+      "Notizie aziendali",
+      "Notizie del settore",
+      "Frontiere tecnologiche"
+    ],
+    "tr": [
+      "Şirket haberleri",
+      "Sektör haberleri",
+      "Teknoloji gelişmeleri"
+    ],
+    "ar": [
+      "أخبار الشركة",
+      "أخبار القطاع",
+      "تقنيات السانك"
+    ],
+    "vi": [
+      "Tin doanh nghiệp",
+      "Tin ngành",
+      "Công nghệ tiên tiến"
+    ]
+  },
+  "glossaryExtra": {
+    "萨普新材": {
+      "zh-tw": "薩普新材"
+    },
+    "长沙市萨普新材料有限公司": {
+      "zh-tw": "長沙市薩普新材料有限公司"
+    },
+    "金刚石砂轮": {
+      "zh-tw": "鑽石砂輪"
+    },
+    "CBN砂轮": {
+      "zh-tw": "CBN砂輪"
+    },
+    "硬质合金": {
+      "zh-tw": "硬質合金"
+    },
+    "金属陶瓷结合剂": {
+      "zh-tw": "金屬陶瓷結合劑"
+    },
+    "树脂结合剂": {
+      "zh-tw": "樹脂結合劑"
+    },
+    "碳化硅晶圆减薄砂轮": {
+      "zh-tw": "碳化矽晶圓減薄砂輪"
+    },
+    "粉末冶金高速钢": {
+      "zh-tw": "粉末冶金高速鋼"
+    },
+    "均热板": {
+      "zh-tw": "均熱板"
+    },
+    "五轴数控磨削": {
+      "zh-tw": "五軸數控磨削"
+    }
+  },
+  "glossaryFixedArabic": 1
+}
