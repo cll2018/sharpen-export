@@ -4,6 +4,7 @@ lang: fr
 permalink: /fr/products/sic-wafer-thinning-wheels/
 title: "Meules d'amincissement de wafers en carbure de silicium (SiC)"
 description: "Nos meules d'amincissement de wafers SiC développées en interne utilisent un liant céramique intermétallique homogène unique pour la meule au diamant,"
+summary: "Meules d'amincissement de plaques SiC auto-développées utilisant un liant intermétallique céramétique homogène. Rectification grossière à 2000# avec avance élevée ; rectification fine à 30000# avec rugosité AFM <2 nm — augmentant le rendement et réduisant le coût de polissage."
 pageType: product
 productId: sic-wafer-wheels
 productImage: /assets/img/sic-wafer.webp

@@ -4,6 +4,7 @@ lang: ja
 permalink: /ja/products/pv-ingot-squaring-wheels/
 title: "光電シリコン丸鋼の四角出し・角抜き砥石"
 description: "これらの砥石は、光電シリコン丸鋼のカット後、ノコ目と表面損傷層を除去し、四角出しと角抜きを行うために使用され、下流プロセスの効率と歩留まりを向上させます。"
+summary: "イノートの四面整形後の saw マークや表面損傷を除去し、平面度、直交性、および求められる表面状態を実現する砥石。長寿命、高い表面品質、安定した性能を特徴としています。"
 pageType: product
 productId: pv-ingot-wheels
 productImage: /assets/img/pv-ingot.webp

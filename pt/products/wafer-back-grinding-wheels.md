@@ -4,6 +4,7 @@ lang: pt
 permalink: /pt/products/wafer-back-grinding-wheels/
 title: "Rodas de Desbaste Posterior de Wafers para Semicondutores & LED"
 description: "Estas rodas de diamante são fabricadas para o desbaste de precisão de materiais semicondutores ultra-duros — finamento posterior de substratos de safira e"
+summary: "Rendas de diamante para retificação de precisão de materiais ultraduros de semicondutores — retassamento posterior de substratos de safira, SiC e GaAs para dispositivos LED e de potência. Autoafiamento, alta retenção de forma, baixa arranhadura e baixas taxas de quebra."
 pageType: product
 productId: led-backgrinding-wheels
 productImage: /assets/img/wafer-backgrind.webp

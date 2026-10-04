@@ -4,6 +4,7 @@ lang: ja
 permalink: /ja/products/resin-bond-grinding-wheels/
 title: "5軸樹脂接着砥石"
 description: "5軸マシン用の樹脂接着砥石は、5軸同時運動の高精度運動学に適合した接着砥石です。樹脂結合でダイヤモンドまたはCBN超硬粒子を使用し、硬質合金や高速鋼などの加工困難材料の精密プロファイル研削用に設計されており、精密CNC工具製造のコア消耗品です。"
+summary: "ダイヤモンドまたはCBN超砥粒を備えたレジン結合砥石。超硬や高速度鋼の5軸ツール研削に使用され、高い表面精度、自己鋭磨き性、高い切削速度、長い砥ぎ調整サイクルを実現し、CNC切削工具に適用されます。"
 pageType: product
 productId: resin-wheels
 productImage: /assets/img/resin-wheels.webp

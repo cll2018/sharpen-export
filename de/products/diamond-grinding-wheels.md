@@ -4,6 +4,7 @@ lang: de
 permalink: /de/products/diamond-grinding-wheels/
 title: "Starre Nutbacken"
 description: "Durch die eigene Forschung und Entwicklung hat Sharpen die Bindungsproblematik zwischen Bindeharz und Diamant/CBN-Schleifkorn gelöst und in China als"
+summary: "SAP Starke Schlitzradscheiben verbinden die Vorteile von Metall- und Vitrifziertragscheiben – hohe Selbstschärfung, hohe Schärfe, exzellente Formstabilität und leichtes Nachschärfen – für die effiziente Bearbeitung von Hartmetall-, HSS- und Cermet-Rotationsschneidwerkzeugen und -Leisten."
 pageType: product
 productId: strong-grooving-wheels
 productImage: /assets/img/diamond-wheels.webp

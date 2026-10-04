@@ -4,6 +4,7 @@ lang: en
 permalink: /en/products/resin-bond-grinding-wheels/
 title: "Five-Axis Resin-Bond Grinding Wheels"
 description: "Resin-bond grinding wheels for 5-axis machines are bonded-abrasive wheels matched to the high-precision kinematics of 5-axis simultaneous motion."
+summary: "Resin-bond wheels with diamond or CBN superabrasive grains for 5-axis tool grinding of carbide and HSS — high surface accuracy, self-sharpening, high material removal and long dressing cycles for CNC cutting tools."
 pageType: product
 productId: resin-wheels
 productImage: /assets/img/resin-wheels.webp

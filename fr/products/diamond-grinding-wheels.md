@@ -4,6 +4,7 @@ lang: fr
 permalink: /fr/products/diamond-grinding-wheels/
 title: "Meules de cannelage robustes"
 description: "Grâce à ses activités internes de R&D, Sharpen a résolu le défi lié à l'adhérence entre le liant et les abrasifs au diamant/CBN,"
+summary: "Les meules de rainurage renforcées SAP combinent les avantages des meules métalliques et vitrifiées — auto-rehaussage élevé, acuité élevée, excellente conservation de forme et dressage facile — pour l'usinage efficace de fraises et plaquettes en carbure, HSS et céramétique."
 pageType: product
 productId: strong-grooving-wheels
 productImage: /assets/img/diamond-wheels.webp

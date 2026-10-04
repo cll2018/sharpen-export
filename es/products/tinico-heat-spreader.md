@@ -4,6 +4,7 @@ lang: es
 permalink: /es/products/tinico-heat-spreader/
 title: "Difusor de Calor de Superaleación TiNiCo"
 description: "El difusor de calor de superaleación TiNiCo se utiliza en moldes de doblado en caliente de cristal de cobertura 3D y en la gestión térmica de semiconductores."
+summary: "Dispersor de calor de superaleación TiNiCo para moldes de doblado en caliente de vidrio 3D y gestión térmica de semiconductores —calentamiento uniforme, alta planitud y larga vida útil."
 pageType: product
 productId: tinico-heat-spreader
 productImage: /assets/img/tinico.webp

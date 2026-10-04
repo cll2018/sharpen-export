@@ -4,6 +4,7 @@ lang: fr
 permalink: /fr/products/resin-bond-grinding-wheels/
 title: "Meules de rectification à liant résine pour 5 axes"
 description: "Les meules de rectification à liant résine pour machines à 5 axes sont des meules abrasives à liant adaptées à la cinématique de haute précision du mouvement simultané 5 axes."
+summary: "Meules à liant résine avec grains superabrasifs au diamant ou CBN pour la rectification 5 axes de l'outillage en carbure et HSS — haute précision de surface, auto-rehaussage, haute capacité de coup et longs cycles de dressage pour les outils de coupe CNC."
 pageType: product
 productId: resin-wheels
 productImage: /assets/img/resin-wheels.webp

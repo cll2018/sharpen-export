@@ -4,6 +4,7 @@ lang: zh
 permalink: /zh/products/sic-wafer-thinning-wheels/
 title: "碳化硅晶圆减薄砂轮"
 description: "我司自主研发的 SiC 晶圆减薄砂轮，采用具有金属键和共价键的单一均质金属陶瓷（金属间化合物）材料作为金刚石砂轮粘结剂，实现自锐性（锋利度）、保型性（长寿命）与高切削速率的综合性能平衡。"
+summary: "采用单一均质金属陶瓷（金属间化合物）结合剂的金刚石砂轮；粗磨 2000# 大进给高效，精磨 30000# 光洁度 2nm 以下，大大减少后道抛光量、提升良率。"
 pageType: product
 productId: sic-wafer-wheels
 productImage: /assets/img/sic-wafer.webp

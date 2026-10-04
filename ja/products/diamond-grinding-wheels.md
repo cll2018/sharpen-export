@@ -4,6 +4,7 @@ lang: ja
 permalink: /ja/products/diamond-grinding-wheels/
 title: "高強度溝研ぎ砥石"
 description: "社内R&Dにより、シャーペンは金属結合とダイヤモンド/CBN研磨材間の接着課題を解決し、高級輸入砥石を代替する均一な金属間化合物（サーメット）結合を中国で初めて開発しました。"
+summary: "SAPの強度高め溝取り輪は、金属結合輪と焼結結合輪の利点を兼ね備えています。自己鋭磨き性、高 sharpness、優れた形状保持性、および砥ぎ調整の容易さを特徴とし、超硬、高速度鋼（HSS）、セラメット製の旋削工具やインサートの効率的な加工に使用されます。"
 pageType: product
 productId: strong-grooving-wheels
 productImage: /assets/img/diamond-wheels.webp

@@ -4,6 +4,7 @@ lang: de
 permalink: /de/products/sic-wafer-thinning-wheels/
 title: "Schleifscheiben für die Verdünnung von Siliziumkarbid (SiC) Wafern"
 description: "Unsere selbst entwickelten SiC-Wafer-Dünnbearbeitungsscheiben verwenden ein einziges homogenes intermetallisches Kerametal-Bindeharz für die"
+summary: "Entwickelte SiC-Wafer-Dünnschliff Scheiben mit homogenem intermetallischem Cermet-Bindemittel. Grobschliff bei 2000# mit hohem Vorschub; Feinschliff bei 30000# mit <2 nm AFM-Rauheit – steigert den Ertrag und senkt die Polierkosten."
 pageType: product
 productId: sic-wafer-wheels
 productImage: /assets/img/sic-wafer.webp

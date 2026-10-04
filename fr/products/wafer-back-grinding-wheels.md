@@ -4,6 +4,7 @@ lang: fr
 permalink: /fr/products/wafer-back-grinding-wheels/
 title: "Meules de rectification arrière pour substrats et wafers de semi-conducteurs et LED"
 description: "Ces meules au diamant sont conçues pour l'usinage de précision de matériaux semi-conducteurs ultradurs — amincissement de face arrière de substrats en"
+summary: "Meules au diamant pour le rectification de précision des matériaux de semi-conducteurs ultradurs — amincissement arrière de substrats en saphir, SiC et GaAs pour LED et dispositifs de puissance. Auto-rehaussage, conservation de forme élevée, faible rayure et taux de casse faible."
 pageType: product
 productId: led-backgrinding-wheels
 productImage: /assets/img/wafer-backgrind.webp

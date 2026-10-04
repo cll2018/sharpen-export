@@ -4,6 +4,7 @@ lang: zh
 permalink: /zh/products/tinico-heat-spreader/
 title: "TiNiCo 超合金均热板"
 description: "TiNiCo 超合金均热板用于 3D 手机盖板玻璃热弯模具与半导体热管理，具有加热均匀、平面度高、使用寿命长的特点，支持非标定制尺寸，是替代进口热弯模具均热板的关键材料。"
+summary: "用于 3D 玻璃热弯模具与半导体热管理，加热均匀、平面度高、使用寿命长，支持非标定制尺寸。"
 pageType: product
 productId: tinico-heat-spreader
 productImage: /assets/img/tinico.webp

@@ -4,6 +4,7 @@ lang: vi
 permalink: /vi/products/wafer-back-grinding-wheels/
 title: "Bánh Mài Mặt Sau Wafer Bán Dẫn & LED"
 description: "Các bánh mài kim cương này được thiết kế cho việc mài chính xác các vật liệu bán dẫn siêu cứng — mỏng hóa mặt sau chất nền sapphire và SiC, mài mặt sau chất nền sapphire LED, mài chất nền SiC và GaAs."
+summary: "Phôi mài kim cương cho việc mài chính xác các vật liệu bán dẫn siêu cứng — làm mỏng mặt lưng của đế sapphire, SiC và GaAs cho LED và thiết bị công suất. Tự sắc, giữ hình dạng cao, tỷ lệ vết xước và tỷ lệ vỡ thấp."
 pageType: product
 productId: led-backgrinding-wheels
 productImage: /assets/img/wafer-backgrind.webp

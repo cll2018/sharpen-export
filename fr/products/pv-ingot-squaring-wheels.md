@@ -4,6 +4,7 @@ lang: fr
 permalink: /fr/products/pv-ingot-squaring-wheels/
 title: "Meules de dressage et chanfreinage pour lingots de silicium photovoltaïque"
 description: "Ces meules sont utilisées pour le dressage et le chanfreinage des lingots de silicium PV après trépannage,"
+summary: "Meules qui éliminent les marques de scie et les dommages de surface après l'équarrissage du lingot, assurant planéité, parallélisme et finition requise — longue durée de vie, haute qualité de surface et performance stable."
 pageType: product
 productId: pv-ingot-wheels
 productImage: /assets/img/pv-ingot.webp

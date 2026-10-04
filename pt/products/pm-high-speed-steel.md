@@ -4,6 +4,7 @@ lang: pt
 permalink: /pt/products/pm-high-speed-steel/
 title: "Aço Rápido de Metalurgia do Pó"
 description: "A série SAP de aço rápido de metalurgia do pó serve a indústria de alto padrão de ferramentas e moldes como substituto de importação."
+summary: "Aço rápido de metalurgia do pó SAP para aplicações de alto padrão de ferramentas e moldes, substituindo materiais importados. Peças de forma próxima do estado final, baixo teor de impurezas e uma família estendida de aços de ferramentas e moldes."
 pageType: product
 productId: pm-high-speed-steel
 productImage: /assets/img/pm-steel.webp

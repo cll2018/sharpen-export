@@ -4,6 +4,7 @@ lang: pt
 permalink: /pt/products/resin-bond-grinding-wheels/
 title: "Rodas de Retífica de Ligante Resinoso para Cinco Eixos"
 description: "Rodas de retífica de ligante resinoso para máquinas de 5 eixos são rodas de abrasivo ligado adequadas à cinemática de alta precisão do movimento simultâneo de 5 eixos."
+summary: "Rendas de liga de resina com grãos superabrasivos de diamante ou CBN para retificação de ferramentas de cinco eixos em cromo duro e aço rápido — alta precisão superficial, autoafiamento, alto remoção de material e longos ciclos de manutenção para ferramentas de corte CNC."
 pageType: product
 productId: resin-wheels
 productImage: /assets/img/resin-wheels.webp

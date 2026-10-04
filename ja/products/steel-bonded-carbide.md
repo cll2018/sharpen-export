@@ -4,6 +4,7 @@ lang: ja
 permalink: /ja/products/steel-bonded-carbide/
 title: "鋼結硬质合金"
 description: "鋼結硬質合金（セメタクト）は工具や過酷な耐摩耗部品向け——焼きなまし状態のまま旋盤・フライス・ドリリング加工でき、Forge ならびに溶接が可能、特殊設備なしで複雑な成形に対応。焼入れ後は HRC 60–70 を達成し、耐摩耗性は高コバルト超硬合金に近く、一般的な超硬合金よりはるかに高い靭性と耐衝撃性を発揮。"
+summary: "工具・高荷重耐磨部材向け。焼きなまし状態でも切削・锻造・溶接加工が可能、HRC 60–70 まで高硬度化でき、コバルト高配合硬质合金に匹敵する耐摩耗性と高い靭性を兼ね備え、合金型鋼より全ライフコストを大幅に削減します。"
 pageType: product
 productId: steel-bonded-carbide
 productImage: /assets/img/steel-bonded-carbide.webp

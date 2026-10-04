@@ -4,6 +4,7 @@ lang: tr
 permalink: /tr/products/pv-ingot-squaring-wheels/
 title: "Fotovoltaik Silisyum Ingot Kareleştirme & Kenarleme Tekerlekleri"
 description: "Bu tekerlekler, kırpma işleminden sonra PV silisyum ingotların kareleştirilmesi ve kenarlanmasında kullanılır; testere izlerini ve yüzey hasar katmanlarını kaldırarak aşağı akış verimliliğini ve verimini artırır."
+summary: "Külüt çekme sonrası testere izlerini ve yüzey hasarlarını kaldırarak düzlemsellik, paralellik ve gerekli yüzeyi elde eden taşlar — uzun ömür, yüksek yüzey kalitesi ve stabil performans."
 pageType: product
 productId: pv-ingot-wheels
 productImage: /assets/img/pv-ingot.webp

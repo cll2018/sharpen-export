@@ -2,8 +2,9 @@
 layout: product-detail.njk
 lang: zh-tw
 permalink: /zh-tw/products/sic-wafer-thinning-wheels/
-title: "碳化硅晶圓減薄砂輪"
+title: "碳化矽晶圓減薄砂輪"
 description: "我司自主研發的 SiC 晶圓減薄砂輪，採用具有金屬鍵和共價鍵的單一均質金屬陶瓷（金屬間化合物）材料作爲金剛石砂輪粘結劑，實現自銳性（鋒利度）、保型性（長壽命）與高切削速率的綜合性能平衡。"
+summary: "採用單一均質金屬陶瓷（金屬間化合物）結合劑的鑽石砂輪；粗磨 2000# 大進給高效，精磨 30000# 光潔度 2nm 以下，大大減少後道拋光量、提升良率。"
 pageType: product
 productId: sic-wafer-wheels
 productImage: /assets/img/sic-wafer.webp

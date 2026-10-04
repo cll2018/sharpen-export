@@ -4,6 +4,7 @@ lang: en
 permalink: /en/products/diamond-grinding-wheels/
 title: "Strong Grooving Wheels"
 description: "Through in-house R&D, Sharpen solved the bonding challenge between bond and diamond/CBN abrasives, and was the first in China to develop a homogeneous cermet bond that replaces high-end imported wheels."
+summary: "SAP strong grooving wheels combine the advantages of metal and vitrified wheels — high self-sharpening, high sharpness, excellent shape retention and easy dressing — for efficient machining of carbide, HSS and cermet rotary tools and inserts."
 pageType: product
 productId: strong-grooving-wheels
 productImage: /assets/img/diamond-wheels.webp

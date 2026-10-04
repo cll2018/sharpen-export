@@ -4,6 +4,7 @@ lang: it
 permalink: /it/products/diamond-grinding-wheels/
 title: "Mole a Graffio di Alta Resistenza"
 description: "Grazie alla ricerca e sviluppo interni, Sharpen ha risolto la sfida della legatura tra legante e abrasivi al diamante/CBN ed è stata la prima in Cina a"
+summary: "SAP strong grooving wheels combine the advantages of metal and vitrified wheels — high self-sharpening, high sharpness, excellent shape retention and easy dressing — for efficient machining of carbide, HSS and cermet rotary tools and inserts."
 pageType: product
 productId: strong-grooving-wheels
 productImage: /assets/img/diamond-wheels.webp

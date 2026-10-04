@@ -4,6 +4,7 @@ lang: ko
 permalink: /ko/products/pv-ingot-squaring-wheels/
 title: "태양광(PV) 실리콘 잉곳 네모내기 및 사선 깎기 휠"
 description: "이 휠들은 절단(cropping) 후 PV 실리콘 잉곳의 네모내기 및 사선 깎기(chamfering)에 사용되며, 절단 자국 및 표면 손상층을 제거하여 하류 효율과 수율을 개선합니다."
+summary: "잉곳 스쿼링 후 소각 표시 및 표면 손상을 제거하는 휠로, 필요한 평탄도, 평행도, 마무리 품질을 달성합니다. 장수명, 높은 표면 품질, 안정된 성능을 특징으로 합니다."
 pageType: product
 productId: pv-ingot-wheels
 productImage: /assets/img/pv-ingot.webp

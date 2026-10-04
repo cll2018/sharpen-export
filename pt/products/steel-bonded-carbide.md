@@ -4,6 +4,7 @@ lang: pt
 permalink: /pt/products/steel-bonded-carbide/
 title: "Carbeto com ligação de aço"
 description: "Carbeto com ligação de aço (cementado) para ferramentas e peças de desgaste severo: usinável no estado de recozimento, compatível com forjamento e soldagem sem equipamentos especiais, e apto a formar geometrias complexas."
+summary: "Carbeto cimentado unido com aço para ferramentas e peças de desgaste severas — usinável, forjável e soldável no estado recozido, endurecido para HRC 60–70, combinando resistência ao desgaste do carbeto de cobalto alto com muito mais tenacidade e menor custo de vida útil."
 pageType: product
 productId: steel-bonded-carbide
 productImage: /assets/img/steel-bonded-carbide.webp

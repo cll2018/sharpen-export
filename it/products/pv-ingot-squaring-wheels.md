@@ -4,6 +4,7 @@ lang: it
 permalink: /it/products/pv-ingot-squaring-wheels/
 title: "Mole per Squadratura e Smussatura di Lingotti di Silicio Fotovoltaici"
 description: "Queste mole sono utilizzate per la squadratura e smussatura dei lingotti di silicio PV dopo la potatura, rimuovendo le marche di segatura e gli strati di danno superficiale per migliorare l'efficienza e il rendimento a valle."
+summary: "Wheels that remove saw marks and surface damage after ingot squaring, achieving flatness, parallelism and the required finish — long life, high surface quality and stable performance."
 pageType: product
 productId: pv-ingot-wheels
 productImage: /assets/img/pv-ingot.webp

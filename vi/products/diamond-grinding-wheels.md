@@ -4,6 +4,7 @@ lang: vi
 permalink: /vi/products/diamond-grinding-wheels/
 title: "Bánh Mài Rãnh Cứng"
 description: "Nhờ nghiên cứu và phát triển nội bộ, Sharpen đã giải quyết thách thức liên kết giữa lớp nền và chất mài mòn kim cương/CBN,"
+summary: "Phôi mài rãnh SAP Strong kết hợp các ưu điểm của phôi kim loại và phôi thủy tinh hóa — khả năng tự sắc cao, độ sắc bén cao, giữ hình dạng tuyệt vời và dễ đánh bóng — để gia công hiệu quả dụng cụ và chèn xoay bằng carbide, HSS và cermet."
 pageType: product
 productId: strong-grooving-wheels
 productImage: /assets/img/diamond-wheels.webp

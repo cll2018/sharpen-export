@@ -4,6 +4,7 @@ lang: ja
 permalink: /ja/products/wafer-back-grinding-wheels/
 title: "半導体・LEDウェーハバック研ぎ砥石"
 description: "これらのダイヤモンド砥石は、超硬質半導体材料の精密研削用に設計されており、サファイアやSiC基盤のバックスライス、LEDサファイア基盤のバック研削、SiCおよびGaAs基盤の研削に対応します。金属/共有金属結合により、優れた砥石性能を発揮します。"
+summary: "超硬半導体材料の精密研削用ダイヤモン砥石。サファイア、SiC、GaAs基体の背面研磨に使用され、LEDやパワーデバイスに適用されます。自己鋭磨き性、高い形状保持性、低い傷付き率、低い割れ率を特徴としています。"
 pageType: product
 productId: led-backgrinding-wheels
 productImage: /assets/img/wafer-backgrind.webp

@@ -4,6 +4,7 @@ lang: vi
 permalink: /vi/products/steel-bonded-carbide/
 title: "Thép kết hợp với hạt cứng"
 description: "Thép kết hợp với hạt cứng (cimented) cho dụng cụ và bộ phận mài mòn khắc nghiệt: có thể tiện, phay, khoan trực tiếp trong trạng thái đã thoái火, hỗ trợ rèn và hàn không cần thiết bị đặc biệt, tạo hình được các kết cấu phức tạp."
+summary: "Carbide kết dạng thép (cemented carbide) cho dụng cụ và bộ phận chịu mài mòn khắc nghiệt — gia công được ở trạng thái ủ, có thể rèn và hàn mà không cần thiết bị đặc biệt, tôi cứng tới HRC 60–70, kết hợp độ chống mài mòn của carbide cao coban với độ dẻo dai vượt trội và chi phí vòng đời thấp hơn."
 pageType: product
 productId: steel-bonded-carbide
 productImage: /assets/img/steel-bonded-carbide.webp

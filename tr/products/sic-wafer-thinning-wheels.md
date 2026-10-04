@@ -4,6 +4,7 @@ lang: tr
 permalink: /tr/products/sic-wafer-thinning-wheels/
 title: "Silikon Karbid (SiC) Wafer İnceltme Tekerlekleri"
 description: "Kendi geliştirdiğimiz SiC wafer inceltme tekerlekleri, elmas tekerlek için tek homojen intermetalik seramik-metal (cermet) bağı kullanır;"
+summary: "Homojen intermetalik seramik metalik bağ içeren, kendi geliştirmiş olduğumuz SiC wafer inceltme taşları. Yüksek besleme ile 2000# pürüz taşlama; <2 nm AFM pürüzlülük ile 30000# ince taşlama — verimi artırarak zımparalama maliyetini düşürür."
 pageType: product
 productId: sic-wafer-wheels
 productImage: /assets/img/sic-wafer.webp

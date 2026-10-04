@@ -4,6 +4,7 @@ lang: ja
 permalink: /ja/products/sic-wafer-thinning-wheels/
 title: "炭化シリコン（SiC）ウェーハ薄肉化砥石"
 description: "自社開発のSiCウェーハ薄肉化砥石は、ダイヤモンド砥石に単一均一な金属間化合物サーメット結合を使用し、自己空隙形成による自己研削性（鋭さ）、形状維持性（長寿命）、および高い切削能力のバランスを実現します。"
+summary: "独自開発した均一な中間金属結合材を使用したSiCウェーハ薄付け砥石。2000#での荒研削は高速送りに対応し、30000#での仕上げ研削はAFM粗さが2nm未満を実現し、歩留まり向上と研磨コスト削減に貢献します。"
 pageType: product
 productId: sic-wafer-wheels
 productImage: /assets/img/sic-wafer.webp

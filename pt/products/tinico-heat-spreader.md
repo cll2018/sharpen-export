@@ -4,6 +4,7 @@ lang: pt
 permalink: /pt/products/tinico-heat-spreader/
 title: "Dissipador de Calor de Superliga TiNiCo"
 description: "O dissipador de calor de superliga TiNiCo é usado em moldes de dobra a quente de vidro de proteção 3D e gestão térmica de semicondutores."
+summary: "Espalhador de calor de superliga TiNiCo para moldes de dobra a quente de vidro 3D e gestão térmica de semicondutores — aquecimento uniforme, alta planicidade e longa vida útil."
 pageType: product
 productId: tinico-heat-spreader
 productImage: /assets/img/tinico.webp

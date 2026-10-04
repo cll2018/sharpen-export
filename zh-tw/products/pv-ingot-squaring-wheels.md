@@ -2,8 +2,9 @@
 layout: product-detail.njk
 lang: zh-tw
 permalink: /zh-tw/products/pv-ingot-squaring-wheels/
-title: "光伏硅錠磨方倒角砂輪"
-description: "光伏硅錠磨方倒角砂輪用於開方後硅錠的磨方與倒角加工，去除鋸痕及表面損傷層，提升後道加工效率與良率。"
+title: "光伏矽錠磨方倒角砂輪"
+description: "光伏矽錠磨方倒角砂輪用於開方後矽錠的磨方與倒角加工，去除鋸痕及表面損傷層，提升後道加工效率與良率。"
+summary: "去除開方後鋸痕及表面損傷層，達到平坦度與平行度；去除粗磨痕跡達到相應光潔度；使用壽命長、表面光潔度高、穩定性好。"
 pageType: product
 productId: pv-ingot-wheels
 productImage: /assets/img/pv-ingot.webp

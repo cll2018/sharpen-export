@@ -4,6 +4,7 @@ lang: fr
 permalink: /fr/products/steel-bonded-carbide/
 title: "Carbure lié à la base acier"
 description: "Carbure lié à la base acier (cémenté) pour outillage et pièces à usure sévère: usinable à l'état recuit, compatible avec la forge et le soudage sans équipements spéciaux, capable de former des géométries complexes."
+summary: "Carbure cémentié lié à l'acier pour l'outillage et les pièces de wear exigeantes — usinable, forgeable et soudable à l'état recuit, durci jusqu'à HRC 60–70 ; combine la résistance à l'usure du carbure à haut cobalt avec une ténacité nettement supérieure et un coût total réduit."
 pageType: product
 productId: steel-bonded-carbide
 productImage: /assets/img/steel-bonded-carbide.webp

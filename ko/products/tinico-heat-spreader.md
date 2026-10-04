@@ -4,6 +4,7 @@ lang: ko
 permalink: /ko/products/tinico-heat-spreader/
 title: "TiNiCo 초합금 열 확산기"
 description: "TiNiCo 초합금 열 확산기는 3D 커버글라스 핫 벤딩 금형 및 반도체 열 관리에 사용됩니다. 균일한 가열, 높은 평탄도, 긴 수명을 제공하며, 비표준 커스텀 크기를 지원하고, 수입 핫 벤딩 금형 열 확산기의 중요한 국산 대체재입니다."
+summary: "3D 유리 핫벤딩 몰드 및 반도체 열 관리용 TiNiCo 초합금 히트 스프리더입니다. 균일한 가열, 높은 평탄도, 장기 사용 수명을 제공합니다."
 pageType: product
 productId: tinico-heat-spreader
 productImage: /assets/img/tinico.webp

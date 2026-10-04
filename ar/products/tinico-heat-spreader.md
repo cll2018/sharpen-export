@@ -4,6 +4,7 @@ lang: ar
 permalink: /ar/products/tinico-heat-spreader/
 title: "مبدّل حراري فائق من سبائك TiNiCo"
 description: "يُستخدم مبدّل الحرارة الفائق من سبائك TiNiCo في قوالب انحناء الزجاج ثلاثي الأبعاد الحارّة وإدارة الحرارة في أشباه الموصلات."
+summary: "منتشر حراري من سبيكة TiNiCo فائقة لأقواس بثق الزجاج ثلاثي الأبعاد بإدارة حرارية لأشباه الموصلات - تسخين متجانس، تسطح عالٍ وعمر خدمة طويل."
 pageType: product
 productId: tinico-heat-spreader
 productImage: /assets/img/tinico.webp

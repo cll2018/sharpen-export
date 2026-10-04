@@ -4,6 +4,7 @@ lang: ja
 permalink: /ja/products/tinico-heat-spreader/
 title: "TiNiCo超合金均熱板"
 description: "TiNiCo超合金均熱板は、3Dカバーガラスのホットベンディング型や半導体の熱管理に使用されます。均一加熱、高平面度、および長い使用寿命を提供し、非標準カスタムサイズに対応し、輸入されたホットベンディング型均熱板の国内代替の重要な材料です。"
+summary: "TiNiCo高温合金の放熱板は、3Dガラスの熱曲げ型や半導体の熱管理に使用されます。均一な加熱、高い平面度、および長い使用寿命を提供します。"
 pageType: product
 productId: tinico-heat-spreader
 productImage: /assets/img/tinico.webp

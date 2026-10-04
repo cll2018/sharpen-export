@@ -4,6 +4,7 @@ lang: tr
 permalink: /tr/products/resin-bond-grinding-wheels/
 title: "Beş Eksenli Reçine Bağlı Zımparalama Tekerlekleri"
 description: "5 eksenli makineler için reçine bağlı zımparalama tekerlekleri, 5 eksenli eşzamanlı hareketin yüksek hassasiyet kinematiğine uyarlanmış bağlı aşındırıcı tekerleklerdir."
+summary: "Seramik veya CBN süper aşındırıcı taneleri içeren, beş eksenli çelik ve HSS takım taşlaması için reçine bağlı taşlar — yüksek yüzey doğruluğu, kendini tuzlama, yüksek malzeme kaldırma ve CNC kesici takımlar için uzun taşlama döngüleri."
 pageType: product
 productId: resin-wheels
 productImage: /assets/img/resin-wheels.webp

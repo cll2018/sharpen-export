@@ -4,6 +4,7 @@ lang: de
 permalink: /de/products/resin-bond-grinding-wheels/
 title: "Fünfachsen-Resinbond-Schleifscheiben"
 description: "Resinbond-Schleifscheiben für 5-Achsen-Maschinen sind Hartmetall-Schleifscheiben, die auf die Hochpräzisionskinematik der 5-Achsen-Simultanbewegung abgestimmt sind."
+summary: "Harz-gebundene Scheiben mit Diamant- oder CBN-Hartmetallkörnchen für die 5-Achsen-Werkzeugbearbeitung von Hartmetall und HSS – hohe Oberflächengenauigkeit, Selbstschärfung, hohe Materialabtragungsleistung und lange Nachschärfintervalle für CNC-Schneidwerkzeuge."
 pageType: product
 productId: resin-wheels
 productImage: /assets/img/resin-wheels.webp

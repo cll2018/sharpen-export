@@ -4,6 +4,7 @@ lang: ko
 permalink: /ko/products/steel-bonded-carbide/
 title: "강결 경질합금"
 description: "강결 경질합금(시멘테이트)은 공구와 가혹한 내마모 부품에 적합——회화 상태 그대로 CNC, 밀링, 드릴링 가공이 가능하며, 단조 및 용접도 지원하며, 특수 장비 없이 복잡한 성형이 가능합니다."
+summary: "공구와 고하중 마모 부품을 위한 강결합 세멘테드 카바이드 —annealed 상태에서 가공/단조/용접 가능, HRC 60–70까지 경화되며 고코발트 카바이드에匹敵하는 내마모성과 훨씬 높은 인성을 제공해 합금 다이 스틸 대비 총 수명 비용을 크게 낮춥니다."
 pageType: product
 productId: steel-bonded-carbide
 productImage: /assets/img/steel-bonded-carbide.webp

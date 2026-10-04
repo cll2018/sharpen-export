@@ -2,8 +2,9 @@
 layout: product-detail.njk
 lang: en
 permalink: /en/products/wafer-back-grinding-wheels/
-title: "Semiconductor &amp; LED Wafer Back-Grinding Wheels"
+title: "Semiconductor & LED Wafer Back-Grinding Wheels"
 description: "These diamond wheels are built for precision grinding of ultra-hard semiconductor materials — sapphire and SiC substrate back-thinning, LED sapphire substrate back-grinding, SiC and GaAs substrate grinding."
+summary: "Diamond wheels for precision grinding of ultra-hard semiconductor materials — sapphire, SiC and GaAs substrate back-thinning for LED and power devices. Self-sharpening, high shape retention, low scratch and low breakage rates."
 pageType: product
 productId: led-backgrinding-wheels
 productImage: /assets/img/wafer-backgrind.webp

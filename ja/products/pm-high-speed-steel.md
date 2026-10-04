@@ -4,6 +4,7 @@ lang: ja
 permalink: /ja/products/pm-high-speed-steel/
 title: "粉末冶金高速鋼"
 description: "SAPシリーズの粉末冶金高速鋼（PM-HSS）は、輸入代替品として高級工具・金型産業を提供します。斬新な粉末冶金プロセスにより、極少の機械加工だけで任意の形状・サイズの工具/金型部品の製造が可能です。"
+summary: "SAPの粉末冶金高速度鋼は、高品質な工具・ダイ応用に特化し、輸入材の代替品として設計されています。近似的な形状の複雑部品の製造を可能にし、不純物含有量が低く、ツール／ダイ用鋼の拡張ラインナップを提供します。"
 pageType: product
 productId: pm-high-speed-steel
 productImage: /assets/img/pm-steel.webp

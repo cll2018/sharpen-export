@@ -4,6 +4,7 @@ lang: ko
 permalink: /ko/products/sic-wafer-thinning-wheels/
 title: "탄화규소(SiC) 웨이퍼 얇게 만들기 휠"
 description: "자체 개발한 SiC 웨이퍼 얇게 만들기 휠은 다이아몬드 휠에 단일 균일한 금속간 화합물 세라믹-금속 바인더를 사용하여, 휠 표면의 자가 기공 형성(self-pore-forming)을 통해 자가 선예화(날카로움), 형상 유지(긴 수명) 및 높은 재료 제거율을 균형 있게 구현합니다."
+summary: "균질 금속간 화합물 세라믹 코팅(bond)을 사용하는 자체 개발 SiC 웨이퍼 씬닝 휠입니다. 2000# 굵기 연마 및 고속 진급 연마, 30000# 정밀 연마(2 nm 이하 AFM 표면 조도)를 실현하여 수율을 높이고 폴리싱 비용을 절감합니다."
 pageType: product
 productId: sic-wafer-wheels
 productImage: /assets/img/sic-wafer.webp

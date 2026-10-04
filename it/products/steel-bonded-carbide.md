@@ -4,6 +4,7 @@ lang: it
 permalink: /it/products/steel-bonded-carbide/
 title: "Carburo con lega di acciaio"
 description: "Carburo con lega di acciaio (cementato) per utensili e parti soggette a severa usura: lavorabile allo stato ricotto, compatibile con fucinatura e saldatura senza attrezzature speciali, e in grado di formare geometrie complesse."
+summary: "Carburo sinterato legato all'acciaio per utensili e parti soggette a severo usura — lavorabile, forgiabile e saldabile nello stato ricotto, induribile a HRC 60–70, combina la resistenza all'usura del carburo alto-cobalto con tenacità nettamente maggiore e costo nel ciclo di vita inferiore."
 pageType: product
 productId: steel-bonded-carbide
 productImage: /assets/img/steel-bonded-carbide.webp

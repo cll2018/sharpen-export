@@ -4,6 +4,7 @@ lang: zh-tw
 permalink: /zh-tw/products/resin-bond-grinding-wheels/
 title: "五軸磨床用樹脂砂輪"
 description: "五軸磨床用樹脂砂輪是適配五軸聯動高精度運動特性的專用固結磨具，以樹脂為結合劑，搭配鑽石或 CBN 超硬磨料，專為硬質合金、高速鋼等難加工材料的複雜型面磨削設計，是數控刀具精密製造的核心耗材。"
+summary: "以樹脂為結合劑、配鑽石或 CBN 超硬磨料，適配五軸磨床高精度運動，專用於硬質合金、高速鋼等難加工材料的複雜型面精密磨削，是數控刀具製造的核心耗材。"
 pageType: product
 productId: resin-wheels
 productImage: /assets/img/resin-wheels.webp

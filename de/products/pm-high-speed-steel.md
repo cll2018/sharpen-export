@@ -4,6 +4,7 @@ lang: de
 permalink: /de/products/pm-high-speed-steel/
 title: "Pulvermetallurgie-Schnellaustahl"
 description: "Die SAP-Serie an PM-Schnellaustahl dient der hochmodernen Werkzeug- und Formenbauindustrie als Importsubstitution."
+summary: "SAP-PM-Hochgeschwindigkeitsstahl für hochwertige Werkzeug- und Stanzanwendungen, ersetzt importierte Materialien. Komplexe Nahe-Fertigungsformteile, niedriger Verunreinigungsgehalt und eine erweiterte Familie von Werkzeug- und Stanzstählen."
 pageType: product
 productId: pm-high-speed-steel
 productImage: /assets/img/pm-steel.webp

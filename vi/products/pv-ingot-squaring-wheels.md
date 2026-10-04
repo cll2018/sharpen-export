@@ -4,6 +4,7 @@ lang: vi
 permalink: /vi/products/pv-ingot-squaring-wheels/
 title: "Bánh Mài Vuông & Mài Vát Thỏi Silicon Quang Điện"
 description: "Các bánh này được sử dụng để mài vuông và mài vát thỏi silicon PV sau khi cắt xén, loại bỏ các vết cưa và lớp hư hỏng bề mặt nhằm cải thiện hiệu quả và năng suất của các công đoạn sau."
+summary: "Phôi loại bỏ vết cưa và hư hỏng bề mặt sau khi vát cạnh thỏi, đạt được độ phẳng, độ song song và độ hoàn thiện yêu cầu — tuổi thọ dài, chất lượng bề mặt cao và hiệu suất ổn định."
 pageType: product
 productId: pv-ingot-wheels
 productImage: /assets/img/pv-ingot.webp

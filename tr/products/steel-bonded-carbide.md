@@ -4,6 +4,7 @@ lang: tr
 permalink: /tr/products/steel-bonded-carbide/
 title: "Çelik bağlı sert alaşım"
 description: "Çelik bağlı sert alaşım (simentant) takımlar ve sert aşınma parçaları için: tavlanmış halde CNC, freze, delik işlemeye uygundur; döküm ve kaynak için özel ekipman gerektirmez, karmaşık şekillerin oluşturulmasına imkân verir."
+summary: "Kesici takım ve zor aşınma parçaları için çelik bağlı sementize krom — tavlalı durumda işlenebilir, dövülebilir ve kaynaklanabilir, HRC 60–70 sertleştirilir; yüksek kobalt karbür dayanıklılığını çok daha yüksek toklukla birleştirir ve yaşam döngüsü maliyetini düşürür."
 pageType: product
 productId: steel-bonded-carbide
 productImage: /assets/img/steel-bonded-carbide.webp

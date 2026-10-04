@@ -4,6 +4,7 @@ lang: pt
 permalink: /pt/products/diamond-grinding-wheels/
 title: "Rodas de Serragem de Rasgo Fortes"
 description: "Através de P&D interno, a Sharpen resolveu o desafio de ligação entre o ligante e os abrasivos diamante/CBN e foi a primeira na China a desenvolver um ligante cermet homogêneo que substitui rodas importadas de alta gama."
+summary: "As rendas de sulcamento fortes SAP combinam as vantagens de rendas metálicas e vitrificadas — autoafiamento alto, alta acuidade, excelente retenção de forma e fácil manutenção — para usinagem eficiente de ferramentas rotativas e inserts de cromo duro, aço rápido e cermet."
 pageType: product
 productId: strong-grooving-wheels
 productImage: /assets/img/diamond-wheels.webp

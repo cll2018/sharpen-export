@@ -4,6 +4,7 @@ lang: it
 permalink: /it/products/resin-bond-grinding-wheels/
 title: "Mole di Levigatura a Resina per Cinque Assi"
 description: "Le mole di levigatura a resina per macchine a 5 assi sono mole abrasive con legante adatte alla cinematica di alta precisione del movimento simultaneo a 5 assi."
+summary: "Resin-bond wheels with diamond or CBN superabrasive grains for 5-axis tool grinding of carbide and HSS — high surface accuracy, self-sharpening, high material removal and long dressing cycles for CNC cutting tools."
 pageType: product
 productId: resin-wheels
 productImage: /assets/img/resin-wheels.webp

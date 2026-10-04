@@ -4,6 +4,7 @@ lang: es
 permalink: /es/products/diamond-grinding-wheels/
 title: "Piedras de Canelado Resistentes"
 description: "Mediante I+D interna, Sharpen resolvió el desafío de unión entre el aglutinante y los abrasivos de diamante/CBN,"
+summary: "Las ruedas de estrías strong de SAP combinan las ventajas de las ruedas metálicas y vítreas —autoafilesado alto, alta agudeza, excelente retención de forma y facilidad de afilado— para el mecanizado eficiente de herramientas rotatorias y insertos de carburo, ACP (HSS) y cermet."
 pageType: product
 productId: strong-grooving-wheels
 productImage: /assets/img/diamond-wheels.webp

@@ -4,6 +4,7 @@ lang: zh
 permalink: /zh/products/wafer-back-grinding-wheels/
 title: "半导体LED芯片背减薄砂轮盘"
 description: "LED 芯片背减薄砂轮盘应用于蓝宝石、SiC 等超硬半导体材料的精密磨削，如 LED 蓝宝石衬底片背减薄、SiC 衬底片、GaAs 衬底片等磨削减薄。采用具有金属键和共价键的金属材料作为砂轮粘结剂，制备的金刚石砂轮性能优异。"
+summary: "应用于蓝宝石、SiC 等超硬半导体材料的精密磨削，如 LED 蓝宝石衬底片背减薄、SiC 衬底片、GaAs 衬底片等磨削减薄；自锐性好、保型性高、易修型、低划伤率、低破片率。"
 pageType: product
 productId: led-backgrinding-wheels
 productImage: /assets/img/wafer-backgrind.webp

@@ -4,6 +4,7 @@ lang: zh
 permalink: /zh/products/pv-ingot-squaring-wheels/
 title: "光伏硅锭磨方倒角砂轮"
 description: "光伏硅锭磨方倒角砂轮用于开方后硅锭的磨方与倒角加工，去除锯痕及表面损伤层，提升后道加工效率与良率。"
+summary: "去除开方后锯痕及表面损伤层，达到平坦度与平行度；去除粗磨痕迹达到相应光洁度；使用寿命长、表面光洁度高、稳定性好。"
 pageType: product
 productId: pv-ingot-wheels
 productImage: /assets/img/pv-ingot.webp

@@ -4,6 +4,7 @@ lang: es
 permalink: /es/products/pm-high-speed-steel/
 title: "Acero Rápido de Metalurgia de Polvo"
 description: "La serie SAP de acero rápido de metalurgia de polvo (PM) sirve a la industria de herramientas y matrices de gama alta como sustituto de importación."
+summary: "El acero rápido PM de SAP para aplicaciones de alto nivel en herramientas y moldes, que reemplaza materiales importados. Piezas complejas casi de forma neta, bajo contenido de impurezas y una familia ampliada de aceros de herramientas y moldes."
 pageType: product
 productId: pm-high-speed-steel
 productImage: /assets/img/pm-steel.webp

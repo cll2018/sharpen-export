@@ -4,6 +4,7 @@ lang: ar
 permalink: /ar/products/pm-high-speed-steel/
 title: "فولاذ القص السريع بالمعالجة بالمسحوق (Powder Metallurgy High-Speed Steel)"
 description: "سلسلة SAP من فولاذ القص السريع المعالج بالمسحوق تخدم صناعة الأدوات والقوالب عالية النهاية كبديل عن الاستيراد."
+summary: "الفولاذ عالي السرعة بـالفلزات المسحوقة (PM) من SAP لتطبيقات الأدوات والقوالب عالية الجودة، مع استبدال المواد المستوردة. قطع معقدة بأبعاد تقريبية (Near-net-shape)، محتوى منخفض من الشوائب، وعائلة موسعة من فحلي الأدوات والقوالب."
 pageType: product
 productId: pm-high-speed-steel
 productImage: /assets/img/pm-steel.webp

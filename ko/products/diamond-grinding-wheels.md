@@ -4,6 +4,7 @@ lang: ko
 permalink: /ko/products/diamond-grinding-wheels/
 title: "고강도 그루빙 휠"
 description: "샤펜(Sharpen)은 자체 연구개발을 통해 바인더와 다이아몬드/CBN 연마재 사이의 결합 문제를 해결했으며, 고급 수입 휠을 대체하는 균일한 세라믹-금속(serde) 바인더를 중국에서 최초로 개발했습니다."
+summary: "SAP 강력 그루빙 휠은 금속계 및 유리계 휠의 장점을 결합하여 높은 자체 연마성, 절단성, 우수한 형상 유지력 및 간단한 드레싱을 제공합니다. 이를 통해 카바이드, 고속강(HSS), 세라믹 코팅(cermet) 회전 공구 및 인서트를 효율적으로 가공할 수 있습니다."
 pageType: product
 productId: strong-grooving-wheels
 productImage: /assets/img/diamond-wheels.webp

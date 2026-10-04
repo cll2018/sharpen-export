@@ -4,6 +4,7 @@ lang: ko
 permalink: /ko/products/wafer-back-grinding-wheels/
 title: "반도체 및 LED 웨이퍼 백 그라인딩 휠"
 description: "이 다이아몬드 휠은 보석(Sapphire) 및 SiC 기판의 얇게 만들기, LED용 보석 기판 백 그라인딩, SiC 및 GaAs 기판 연마와 같이 초경도 반도체 재료의 정밀 연마를 위해 설계되었습니다. 금속성/공유 결합 금속성 바인더는 우수한 휠 성능을 제공합니다."
+summary: "LED 및 전력 장치용 다이아몬드 휠로, 사파이어, SiC, GaAs와 같은 초경 반도체 소재의 정밀 연마 및 백스리밍에 사용됩니다. 자체 연마성, 높은 형상 유지력, 낮은 스코치 및 파손률을 특징으로 합니다."
 pageType: product
 productId: led-backgrinding-wheels
 productImage: /assets/img/wafer-backgrind.webp

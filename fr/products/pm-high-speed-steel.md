@@ -4,6 +4,7 @@ lang: fr
 permalink: /fr/products/pm-high-speed-steel/
 title: "Acier à outillage haute vitesse par métallurgie des poudres"
 description: "La gamme SAP d'acier HSS par métallurgie des poudres s'adresse à l'industrie haut de gamme de l'outillage et des moules comme substitut aux produits importés."
+summary: "Acier à hautes vitesses par métallurgie des poudres SAP pour des applications haut de gamme en outillage et moues, remplaçant les matériaux importés. Pièces complexes à forme quasi nette, faible teneur en impuretés et famille étendue d'acières pour outillage/moues."
 pageType: product
 productId: pm-high-speed-steel
 productImage: /assets/img/pm-steel.webp

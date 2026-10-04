@@ -4,6 +4,7 @@ lang: es
 permalink: /es/products/resin-bond-grinding-wheels/
 title: "Piedras de Rectificado de Resina de Cinco Ejes"
 description: "Las piedras de rectificado de resina para máquinas de 5 ejes son piedras abrasivas aglutinadas adaptadas a la cinemática de alta precisión del movimiento simultáneo de 5 ejes."
+summary: "Ruedas de aglutinante de resina con granos superabrasivos de diamante o CBN para el rectificado de herramientas de cinco ejes de carburo y ACP (HSS) —alta precisión superficial, autoafilesado, alta remoción de material y ciclos largos de afilado para herramientas de corte CNC."
 pageType: product
 productId: resin-wheels
 productImage: /assets/img/resin-wheels.webp

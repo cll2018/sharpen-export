@@ -4,6 +4,7 @@ lang: zh
 permalink: /zh/products/diamond-grinding-wheels/
 title: "强力开槽砂轮"
 description: "萨普新材通过自主研发，攻克结合剂与金刚石/CBN 磨粒结合时的技术难题，率先在国内研制出均质金属陶瓷结合剂，替代高端进口砂轮。SAP 强力开槽砂轮兼具金属砂轮和陶瓷砂轮的优势，具有高自锐性、高锋利度、高保型性、易修整等优点，特别适合用于硬质合金、高速钢及金属陶瓷回转体刀具及刀片的高效率加工。"
+summary: "SAP 强力开槽砂轮兼具金属砂轮和陶瓷砂轮的优势，具有高自锐性、高锋利度、高保型性、易修整等优点，特别适合硬质合金、高速钢及金属陶瓷回转体刀具及刀片的高效率加工。"
 pageType: product
 productId: strong-grooving-wheels
 productImage: /assets/img/diamond-wheels.webp

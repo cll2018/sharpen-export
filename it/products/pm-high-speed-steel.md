@@ -4,6 +4,7 @@ lang: it
 permalink: /it/products/pm-high-speed-steel/
 title: "Acciaio ad Alta Velocità per Metallurgia delle Polveri"
 description: "La serie SAP di acciaio HSS in metallurgia delle polveri serve l'industria di punta per stampi e utensili come sostituto alle importazioni."
+summary: "SAP PM high-speed steel for high-end tool & die applications, replacing imported materials. Near-net-shape complex parts, low impurity content, and an extended family of tool/die steels."
 pageType: product
 productId: pm-high-speed-steel
 productImage: /assets/img/pm-steel.webp

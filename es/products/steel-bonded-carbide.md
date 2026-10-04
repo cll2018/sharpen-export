@@ -4,6 +4,7 @@ lang: es
 permalink: /es/products/steel-bonded-carbide/
 title: "Carburo con ligante de acero"
 description: "Carburo con ligante de acero (cementado) para herramienta y piezas con desgaste severo: mecanizable en estado temple-anodizado, compatible con forja y soldadura sin equipos especiales, y capaz de formar geometrías complejas."
+summary: "Carburo cementado unido con acero para herramientas y piezas de desgaste exigentes: mecanizable, forjable y soldable en estado recocido, endurecido a HRC 60–70; combina la resistencia al desgaste del carburo de cobalto alto con mucha mayor tenacidad y menor coste total."
 pageType: product
 productId: steel-bonded-carbide
 productImage: /assets/img/steel-bonded-carbide.webp

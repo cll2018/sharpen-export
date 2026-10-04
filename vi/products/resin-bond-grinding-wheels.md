@@ -4,6 +4,7 @@ lang: vi
 permalink: /vi/products/resin-bond-grinding-wheels/
 title: "Bánh Mài Liên Kết Nhựa 5 Trục"
 description: "Bánh mài liên kết nhựa cho máy 5 trục là bánh mài mòn liên kết phù hợp với học chuyển động động học độ chính xác cao của chuyển động đồng thời 5 trục."
+summary: "Phôi mài liên kết nhựa với hạt siêu mài mòn kim cương hoặc CBN cho việc mài dụng cụ năm trục bằng carbide và HSS — độ chính xác bề mặt cao, tự sắc, tốc độ cắt cao và chu kỳ đánh bóng dài cho dụng cụ cắt CNC."
 pageType: product
 productId: resin-wheels
 productImage: /assets/img/resin-wheels.webp
