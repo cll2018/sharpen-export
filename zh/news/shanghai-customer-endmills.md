@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: zh
 permalink: /zh/news/shanghai-customer-endmills/
 title: "公司砂轮使用取得新突破"
-description: "*发布日期：2016-11-07* 长沙萨普新材料有限公司，作为高速高品质磨削系统技术解决方案的供应商和服务商，拥有完全自主知识产权，是提供硬质合金和高速钢回转体及刃具等制品磨抛加工技术整体解决方案的专业化高技术企业。公司技术力量雄厚，产品开发能力强，技术工艺娴熟，工艺制品水平高。…"
+description: "*发布日期：2016-11-07* 长沙萨普新材料有限公司，作为高速高品质磨削系统技术解决方案的供应商和服务商，拥有完全自主知识产权，是提供硬质合金和高速钢回转体及刃具等制品磨抛加工技术整体解决方案的专业化高技术企业。公司技术力量雄厚，产品开发能力强，技术工艺娴熟，工艺制品水平高。"
 pageType: news
 newsSlug: shanghai-customer-endmills
 newsSection: "行业资讯"

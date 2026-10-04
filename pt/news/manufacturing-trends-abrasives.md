@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: pt
 permalink: /pt/news/manufacturing-trends-abrasives/
 title: "Tendências de fabricação elevam o nível dos abrasivos"
-description: "Os produtos superabrasivos atendem cada vez mais às exigentes necessidades de retificação; os novos formatos de abrasivos ampliam o escopo de aplicação. Observando o desenvolvimento da retificação, a…"
+description: "Os produtos superabrasivos atendem cada vez mais às exigentes necessidades de retificação; os novos formatos de abrasivos ampliam o escopo de aplicação."
 pageType: news
 newsSlug: manufacturing-trends-abrasives
 newsSection: "Notícias do setor"

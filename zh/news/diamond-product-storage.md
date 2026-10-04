@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: zh
 permalink: /zh/news/diamond-product-storage/
 title: "金刚石制品的储存技巧"
-description: "*发布日期：2016-11-07* 金刚石制品在储存中，不可滚动砂轮，以免造成裂纹、表面损伤，不可受强烈振动和冲击。滚轮制造精度高，采用内镀法工艺能够稳定生产高精度、复杂性面滚轮，使用寿命达到2～5万次。砂轮存放时间不应超过砂轮的有效期，树脂和橡胶结合剂的砂轮自出厂之日起，若存储时间超过一年，须经回…"
+description: "*发布日期：2016-11-07* 金刚石制品在储存中，不可滚动砂轮，以免造成裂纹、表面损伤，不可受强烈振动和冲击。滚轮制造精度高，采用内镀法工艺能够稳定生产高精度、复杂性面滚轮，使用寿命达到2～5万次。"
 pageType: news
 newsSlug: diamond-product-storage
 newsSection: "行业资讯"

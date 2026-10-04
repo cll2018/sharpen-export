@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: vi
 permalink: /vi/news/cnc-tool-failure-modes/
 title: "Các dạng hỏng của dụng cụ CNC và biện pháp khắc phục"
-description: "Tổng quan kỹ thuật về các dạng hỏng của dụng cụ CNC—mòn mặt lưng, mòn hố, biến dạng dẻo, cạnh tích tụ—và cách khắc phục. Dụng cụ hỏng khi bị mòn vượt quá giới hạn, mẻ hoặc biến dạng dẻo, làm mất khả…"
+description: "Tổng quan kỹ thuật về các dạng hỏng của dụng cụ CNC—mòn mặt lưng, mòn hố, biến dạng dẻo, cạnh tích tụ—và cách khắc phục."
 pageType: news
 newsSlug: cnc-tool-failure-modes
 newsSection: "Tin ngành"

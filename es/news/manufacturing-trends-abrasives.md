@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: es
 permalink: /es/news/manufacturing-trends-abrasives/
 title: "Las tendencias de fabricación elevan el listón para los abrasivos"
-description: "Los productos superabrasivos satisfacen cada vez más las exigentes necesidades de rectificado; los nuevos formatos de abrasivos amplían el ámbito de aplicación. Al observar el desarrollo del…"
+description: "Los productos superabrasivos satisfacen cada vez más las exigentes necesidades de rectificado; los nuevos formatos de abrasivos amplían el ámbito de aplicación."
 pageType: news
 newsSlug: manufacturing-trends-abrasives
 newsSection: "Noticias del sector"

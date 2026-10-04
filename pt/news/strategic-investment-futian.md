@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: pt
 permalink: /pt/news/strategic-investment-futian/
 title: "Aliança de investimento estratégico com Futian Xingye"
-description: "Em julho de 2023, sob a direção do principal especialista técnico, Prof. He Yuehui, a Sharpen firmou uma aliança de investimento estratégico com o…"
+description: "Em julho de 2023, sob a direção do principal especialista técnico, Prof."
 pageType: news
 newsSlug: strategic-investment-futian
 newsSection: "Notícias da empresa"

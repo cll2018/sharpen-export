@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: it
 permalink: /it/news/cnc-tool-failure-modes/
 title: "Modalità di guasto degli utensili CNC e contromisure"
-description: "Una panoramica tecnica delle modalità di guasto degli utensili CNC — usura di fiancata, usura a cratere, deformazione plastica, bordo di riporto — e come mitigarle. Il guasto dell'utensile si…"
+description: "Una panoramica tecnica delle modalità di guasto degli utensili CNC — usura di fiancata, usura a cratere, deformazione plastica, bordo di riporto — e come mitigarle."
 pageType: news
 newsSlug: cnc-tool-failure-modes
 newsSection: "Notizie del settore"

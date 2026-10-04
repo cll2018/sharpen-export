@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: pt
 permalink: /pt/news/strong-tech-sme-2024/
 title: "Incluído no primeiro lote de PMEs tecnológicas do Hunan 2024"
-description: "Sharpen foi novamente incluído no primeiro lote de PMEs baseadas em tecnologia de Hunan em 2024, reconhecendo seu crescimento impulsionado por…"
+description: "Sharpen foi novamente incluído no primeiro lote de PMEs baseadas em tecnologia de Hunan em 2024, reconhecendo seu crescimento impulsionado por inovação e P&D."
 pageType: news
 newsSlug: strong-tech-sme-2024
 newsSection: "Notícias da empresa"

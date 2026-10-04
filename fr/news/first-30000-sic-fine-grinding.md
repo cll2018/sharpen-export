@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: fr
 permalink: /fr/news/first-30000-sic-fine-grinding/
 title: "Première meule de finition pour substrats SiC 30000# nationale en Chine"
-description: "Sharpen a développé la première meule de finition 30000# du pays pour substrats SiC, permettant un amincissement de plaquettes à haut débit et à faible endommagement. Une étape clé de la production…"
+description: "Sharpen a développé la première meule de finition 30000# du pays pour substrats SiC, permettant un amincissement de plaquettes à haut débit et à faible endommagement."
 pageType: news
 newsSlug: first-30000-sic-fine-grinding
 newsSection: "Actualités du secteur"

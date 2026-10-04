@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ja
 permalink: /ja/news/first-30000-sic-fine-grinding/
 title: "中国初の国産 30000# SiC基板用精密研削砥石"
-description: "Sharpenは中国初の国産30000# SiC基板用精密研削砥石を開発し、低ダメージ・高スループットのウェハ薄化を実現しました。SiC生産の核心工程は基板加工——スライシング、薄化、ポリシングです。薄化は主に研削とラッピング（粗・精）によって達成されます。Sharpenが自社開発したSiCウェハ薄化砥石と研削技術は、ウェハのダメージメカニズムに対応し、粗研削から精研削まで低ダメージ・高除去率の薄…"
+description: "Sharpenは中国初の国産30000# SiC基板用精密研削砥石を開発し、低ダメージ・高スループットのウェハ薄化を実現しました。SiC生産の核心工程は基板加工——スライシング、薄化、ポリシングです。薄化は主に研削とラッピング（粗・精）によって達成されます。"
 pageType: news
 newsSlug: first-30000-sic-fine-grinding
 newsSection: "業界動向"

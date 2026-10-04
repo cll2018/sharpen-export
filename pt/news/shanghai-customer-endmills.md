@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: pt
 permalink: /pt/news/shanghai-customer-endmills/
 title: "Avanço no uso de rodas em um cliente de Xangai"
-description: "Um cliente de Xangai usa nossas rodas de diamante para produzir em série fresas de topo cônica de 3 flautas, elevando a velocidade de avanço em mais de 30% em relação a uma marca coreana. A Changsha…"
+description: "Um cliente de Xangai usa nossas rodas de diamante para produzir em série fresas de topo cônica de 3 flautas, elevando a velocidade de avanço em mais de 30% em relação a uma marca coreana."
 pageType: news
 newsSlug: shanghai-customer-endmills
 newsSection: "Notícias do setor"

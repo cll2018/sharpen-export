@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: de
 permalink: /de/news/strategic-investment-futian/
 title: "Strategische Investitionspartnerschaft mit Futian Xingye"
-description: "Im Juli 2023 schloss Sharpen unter der Leitung von Chefexpert Prof. He Yuehui eine strategische Investitionspartnerschaft mit dem…"
+description: "Im Juli 2023 schloss Sharpen unter der Leitung von Chefexpert Prof."
 pageType: news
 newsSlug: strategic-investment-futian
 newsSection: "Unternehmensnachrichten"

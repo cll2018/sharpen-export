@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: zh
 permalink: /zh/news/pm-hss-introduction/
 title: "SAP 粉末冶金高速钢简介"
-description: "*发布日期：2017-03-24* 高速钢是一种极其重要的刀具材料，占全世界刀具销售额的45%，其中占轮齿刀具和拉刀等复杂多刃刀具销售额的85%。它集聚优异的红硬性、耐磨性、抗冲击性和可热处理性于一体，可在软化退火态加工成型，再通过淬火、回火热处理析出大量二次碳化物，实现材料的硬化和强化，具有硬质合…"
+description: "*发布日期：2017-03-24* 高速钢是一种极其重要的刀具材料，占全世界刀具销售额的45%，其中占轮齿刀具和拉刀等复杂多刃刀具销售额的85%。"
 pageType: news
 newsSlug: pm-hss-introduction
 newsSection: "行业前沿发展现状"

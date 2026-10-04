@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: de
 permalink: /de/news/product-application-scope/
 title: "Produktanwendungsbereich"
-description: "Wo Diamant- und CBN-Schleifscheiben eingesetzt werden — Hartmetallwerkzeuge, Saphir, Cermet-Inserts (Diamant); HSS, gehärteter Stahl, Gussteile (CBN). Diamantschleifscheiben eignen sich für: 1)…"
+description: "Wo Diamant- und CBN-Schleifscheiben eingesetzt werden — Hartmetallwerkzeuge, Saphir, Cermet-Inserts (Diamant); HSS, gehärteter Stahl, Gussteile (CBN)."
 pageType: news
 newsSlug: product-application-scope
 newsSection: "Branchennews"

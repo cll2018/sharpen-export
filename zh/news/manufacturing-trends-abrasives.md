@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: zh
 permalink: /zh/news/manufacturing-trends-abrasives/
 title: "工业制造业的发展将对磨具行业提出更高要求"
-description: "*发布日期：2016-11-07* 纵观磨削领域的发展，未来磨削加工将对磨料磨具提出更高要求，从目前现状来判断，超硬制品恰恰满足这些新磨削需要。如CBN磨料具有良好热稳定性、硬度高、耐磨性好等特性，故其磨具磨削加工时线速度高、磨削效率高、磨具寿命也高，特别适宜加工高速钢、轴承钢、不锈钢、冷激铸铁等黑…"
+description: "*发布日期：2016-11-07* 纵观磨削领域的发展，未来磨削加工将对磨料磨具提出更高要求，从目前现状来判断，超硬制品恰恰满足这些新磨削需要。"
 pageType: news
 newsSlug: manufacturing-trends-abrasives
 newsSection: "行业资讯"

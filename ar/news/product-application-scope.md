@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ar
 permalink: /ar/news/product-application-scope/
 title: "نطاق تطبيق المنتجات"
-description: "أين تُطبَّق عجلات الماس وCBN—أدوات الكربيد، والياقوت، وقِطع السيرميت (الماس)؛ وHSS، والفولاذ المُصلّد، وقطع الصب (CBN). تتناسب عجلات الماس مع: 1) الأدوات، والأجسام الدوّارة، والقوالب، وقطع التآكل…"
+description: "أين تُطبَّق عجلات الماس وCBN—أدوات الكربيد، والياقوت، وقِطع السيرميت (الماس)؛ وHSS، والفولاذ المُصلّد، وقطع الصب (CBN)."
 pageType: news
 newsSlug: product-application-scope
 newsSection: "أخبار القطاع"

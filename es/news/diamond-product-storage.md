@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: es
 permalink: /es/news/diamond-product-storage/
 title: "Consejos de almacenamiento para productos de diamante"
-description: "Guía para almacenar ruedas de diamante — evitar rodar, impacto, humedad y químicos nocivos; observar la caducidad. En el almacenamiento, las ruedas de diamante no deben rodarse (para evitar grietas y…"
+description: "Guía para almacenar ruedas de diamante — evitar rodar, impacto, humedad y químicos nocivos; observar la caducidad."
 pageType: news
 newsSlug: diamond-product-storage
 newsSection: "Noticias del sector"

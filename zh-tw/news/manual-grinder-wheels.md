@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: zh-tw
 permalink: /zh-tw/news/manual-grinder-wheels/
 title: "薩普手動磨牀用砂輪推廣成功"
-description: "我公司開發出的手動磨牀用高性能金屬陶瓷粘接劑砂輪成功應用於株洲市某大型企業，替代了其原有樹脂結合劑砂輪，成功解決了原有砂輪帶來的砂輪消耗快、效率低及需要反覆修整的問題。在使用過程中，我公司的金屬陶瓷粘接劑砂輪充分體現出了高的切削力、耐磨性和自銳性，砂輪壽命提高30倍，且在磨削過程中無需修整，獲得了用…"
+description: "我公司開發出的手動磨牀用高性能金屬陶瓷粘接劑砂輪成功應用於株洲市某大型企業，替代了其原有樹脂結合劑砂輪，成功解決了原有砂輪帶來的砂輪消耗快、效率低及需要反覆修整的問題。"
 pageType: news
 newsSlug: manual-grinder-wheels
 newsSection: "公司新聞"

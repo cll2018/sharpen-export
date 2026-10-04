@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: en
 permalink: /en/news/strong-tech-sme-2024/
 title: "Listed in Hunan’s 2024 First Batch of Technology-Based SMEs"
-description: "Sharpen was again approved for Hunan Province’s 2024 first batch of sci-tech SMEs, recognizing our innovation- and IP-driven growth. Hunan Province…"
+description: "Sharpen was again approved for Hunan Province’s 2024 first batch of sci-tech SMEs, recognizing our innovation- and IP-driven growth."
 pageType: news
 newsSlug: strong-tech-sme-2024
 newsSection: "Company News"

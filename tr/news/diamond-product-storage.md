@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: tr
 permalink: /tr/news/diamond-product-storage/
 title: "Elmas ürünler için saklama ipuçları"
-description: "Elmas taşlarının saklanmasına ilişkin rehber — yuvarlamaktan, darbeden, nemden ve zararlı kimyasallardan kaçının; son kullanma tarihine uyun. Depolama sırasında elmas taşları yuvarlanmamalıdır…"
+description: "Elmas taşlarının saklanmasına ilişkin rehber — yuvarlamaktan, darbeden, nemden ve zararlı kimyasallardan kaçının; son kullanma tarihine uyun."
 pageType: news
 newsSlug: diamond-product-storage
 newsSection: "Sektör haberleri"

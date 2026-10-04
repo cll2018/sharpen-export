@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: it
 permalink: /it/news/product-application-scope/
 title: "Ambito di applicazione dei prodotti"
-description: "Dove si applicano le mole diamantate e CBN — utensili in carburo, zaffiro, inserti cermet (diamante); HSS, acciaio temprato, parti fuse (CBN). Le mole diamantate sono adatte per: 1) utensili, corpi…"
+description: "Dove si applicano le mole diamantate e CBN — utensili in carburo, zaffiro, inserti cermet (diamante); HSS, acciaio temprato, parti fuse (CBN)."
 pageType: news
 newsSlug: product-application-scope
 newsSection: "Notizie del settore"

@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ko
 permalink: /ko/news/o400-1a1-batch-production/
 title: "Ø400mm 1A1 세라메트 결합 다이아몬드 및 CBN 휠 양산"
-description: "Sharpen은 Ø400mm 1A1 세라메트 결합 다이아몬드 및 CBN 휠의 양산을 달성하여 국내 고급 휠 R&D의 이정표를 세웠습니다. Sharpen은 시장용 Ø400mm 1A1 세라메트 결합 다이아몬드 및 CBN 휠을 성공적으로 개발하고 양산에 투입했습니다. 2013년 7월 세라메트 결합 수직·표면 연삭 휠(Ø300mm, 두께 20mm) 개발과…"
+description: "Sharpen은 Ø400mm 1A1 세라메트 결합 다이아몬드 및 CBN 휠의 양산을 달성하여 국내 고급 휠 R&D의 이정표를 세웠습니다. Sharpen은 시장용 Ø400mm 1A1 세라메트 결합 다이아몬드 및 CBN 휠을 성공적으로 개발하고 양산에 투입했습니다."
 pageType: news
 newsSlug: o400-1a1-batch-production
 newsSection: "기업 뉴스"

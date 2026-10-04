@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: tr
 permalink: /tr/news/ceramic-phone-shell-forum-2017/
 title: "Sharpen, 2. PM / Seramik Telefon Kapağı Forumu'nda"
-description: "Prof. He, yüksek verimli zirkonya parlatma taşı çözümleri sunarak Sharpen'in seramik telefon bileşeni işleme alanındaki rolünü güçlendirdi. 17 Mart 2017'de Sharpen, Shenzhen'deki 2. Toz Metalurjisi /…"
+description: "Prof. He, yüksek verimli zirkonya parlatma taşı çözümleri sunarak Sharpen'in seramik telefon bileşeni işleme alanındaki rolünü güçlendirdi."
 pageType: news
 newsSlug: ceramic-phone-shell-forum-2017
 newsSection: "Şirket haberleri"

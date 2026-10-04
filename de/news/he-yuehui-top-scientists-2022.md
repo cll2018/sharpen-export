@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: de
 permalink: /de/news/he-yuehui-top-scientists-2022/
 title: "Prof. He Yuehui unter den weltweiten Top-2-%-Wissenschaftlern 2022"
-description: "Prof. He Yuehui wurde in die Liste der weltweiten Top-2-%-Wissenschaftler aufgenommen, die von Stanford University und Elsevier auf Basis von…"
+description: "Prof. He Yuehui wurde in die Liste der weltweiten Top-2-%-Wissenschaftler aufgenommen, die von Stanford University und Elsevier auf Basis von Zitationsdaten herausgegeben wird."
 pageType: news
 newsSlug: he-yuehui-top-scientists-2022
 newsSection: "Unternehmensnachrichten"

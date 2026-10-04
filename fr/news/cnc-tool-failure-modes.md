@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: fr
 permalink: /fr/news/cnc-tool-failure-modes/
 title: "Modes de défaillance des outils CNC et contre-mesures"
-description: "Un aperçu technique des modes de défaillance des outils CNC — usure de flanc, usure en cratère, déformation plastique, bordure d'arête — et comment les atténuer. La défaillance de l'outil survient…"
+description: "Un aperçu technique des modes de défaillance des outils CNC — usure de flanc, usure en cratère, déformation plastique, bordure d'arête — et comment les atténuer."
 pageType: news
 newsSlug: cnc-tool-failure-modes
 newsSection: "Actualités du secteur"

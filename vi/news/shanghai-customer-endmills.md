@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: vi
 permalink: /vi/news/shanghai-customer-endmills/
 title: "Đột phá trong sử dụng bánh mài tại khách hàng Thượng Hải"
-description: "Một khách hàng tại Thượng Hải sử dụng bánh mài kim cương của chúng tôi để sản xuất hàng loạt dao phay đuôi côn 3 me, nâng tốc độ tiến dao hơn 30% so với một thương hiệu Hàn Quốc. Changsha Sharpen là…"
+description: "Một khách hàng tại Thượng Hải sử dụng bánh mài kim cương của chúng tôi để sản xuất hàng loạt dao phay đuôi côn 3 me, nâng tốc độ tiến dao hơn 30% so với một thương hiệu Hàn Quốc."
 pageType: news
 newsSlug: shanghai-customer-endmills
 newsSection: "Tin ngành"

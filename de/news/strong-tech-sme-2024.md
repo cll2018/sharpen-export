@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: de
 permalink: /de/news/strong-tech-sme-2024/
 title: "In die 1. Charge der Tech-KMU des Hunan 2024 aufgenommen"
-description: "Sharpen wurde erneut in die erste Charge der hunanischen Tech-basierten KMU 2024 aufgenommen, was unser innovations- und IP-getriebenes Wachstum…"
+description: "Sharpen wurde erneut in die erste Charge der hunanischen Tech-basierten KMU 2024 aufgenommen, was unser innovations- und IP-getriebenes Wachstum anerkennt."
 pageType: news
 newsSlug: strong-tech-sme-2024
 newsSection: "Unternehmensnachrichten"

@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: tr
 permalink: /tr/news/strategic-investment-futian/
 title: "Futian Xingye ile stratejik yatırım ortaklığı"
-description: "Temmuz 2023’te, baş teknik uzman Prof. He Yuehui’nin önderliğinde Sharpen, Futian Xingye Grubu ile stratejik bir yatırım ortaklığı kurdu ve imza…"
+description: "Temmuz 2023’te, baş teknik uzman Prof. He Yuehui’nin önderliğinde Sharpen, Futian Xingye Grubu ile stratejik bir yatırım ortaklığı kurdu ve imza töreni düzenledi."
 pageType: news
 newsSlug: strategic-investment-futian
 newsSection: "Şirket haberleri"

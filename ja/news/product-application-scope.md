@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ja
 permalink: /ja/news/product-application-scope/
 title: "製品の適用範囲"
-description: "ダイヤモンドおよびCBN砥石の適用範囲——超硬工具、サファイア、サーメットインサート（ダイヤモンド）；HSS、焼入れ鋼、鋳造品（CBN）。ダイヤモンド砥石は以下に適しています：1) 超硬製の工具、回転体、金型、耐摩耗部品；2) サファイアインゴットおよびウェハのラッピング／ポリシング；3) サーメットインサート。CBN砥石は以下に適しています：1)…"
+description: "ダイヤモンドおよびCBN砥石の適用範囲——超硬工具、サファイア、サーメットインサート（ダイヤモンド）；HSS、焼入れ鋼、鋳造品（CBN）。"
 pageType: news
 newsSlug: product-application-scope
 newsSection: "業界動向"

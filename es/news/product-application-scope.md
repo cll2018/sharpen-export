@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: es
 permalink: /es/news/product-application-scope/
 title: "Ámbito de aplicación de productos"
-description: "Dónde se aplican las ruedas de diamante y CBN — herramientas de carburo, zafiro, insertos de cermet (diamante); HSS, acero endurecido, piezas de fundición (CBN). Las ruedas de diamante son adecuadas…"
+description: "Dónde se aplican las ruedas de diamante y CBN — herramientas de carburo, zafiro, insertos de cermet (diamante); HSS, acero endurecido, piezas de fundición (CBN)."
 pageType: news
 newsSlug: product-application-scope
 newsSection: "Noticias del sector"

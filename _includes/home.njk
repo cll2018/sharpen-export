@@ -19,7 +19,7 @@ layout: base.njk
     {% set plist = products[lang] or products[site.fallbackLang] %}
     {% for p in plist %}
     <article class="card">
-      <img class="card-img" src="{{ p.image }}" alt="{{ p.name }}" loading="lazy" />
+{% set _d = imageDims[p.image] %}<img class="card-img" src="{{ p.image }}" alt="{{ p.name }}"{% if _d %} width="{{ _d.w }}" height="{{ _d.h }}"{% endif %}{% if loop.first %} loading="eager" fetchpriority="high"{% else %} loading="lazy"{% endif %} />
       <h3>{{ p.name }}</h3>
       <p>{{ p.summary }}</p>
       <a class="card-link" href="{{ '/' + lang + '/products/' + productSlugs[p.id] + '/' }}">{{ s.learn }} →</a>

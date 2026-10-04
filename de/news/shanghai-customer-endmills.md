@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: de
 permalink: /de/news/shanghai-customer-endmills/
 title: "Durchbruch bei der Radnutzung bei einem Shanghai-Kunden"
-description: "Ein Shanghai-Kunde verwendet unsere Diamantschleifscheiben zur Serienfertigung von 3-Schnecken-Schaftfräsern mit Steigungswinkel und steigert dabei die Vorschubgeschwindigkeit um über 30 % gegenüber…"
+description: "Ein Shanghai-Kunde verwendet unsere Diamantschleifscheiben zur Serienfertigung von 3-Schnecken-Schaftfräsern mit Steigungswinkel und steigert dabei die Vorschubgeschwindigkeit um über 30 % gegenüber einer koreanischen Marke."
 pageType: news
 newsSlug: shanghai-customer-endmills
 newsSection: "Branchennews"

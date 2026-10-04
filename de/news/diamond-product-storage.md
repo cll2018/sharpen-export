@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: de
 permalink: /de/news/diamond-product-storage/
 title: "Lagerungstipps für Diamantprodukte"
-description: "Hinweise zur Lagerung von Diamantschleifscheiben — kein Rollen, Stoß, Feuchtigkeit und schädliche Chemikalien; Verfallsdatum beachten. Bei der Lagerung dürfen Diamantschleifscheiben nicht gerollt…"
+description: "Hinweise zur Lagerung von Diamantschleifscheiben — kein Rollen, Stoß, Feuchtigkeit und schädliche Chemikalien; Verfallsdatum beachten."
 pageType: news
 newsSlug: diamond-product-storage
 newsSection: "Branchennews"

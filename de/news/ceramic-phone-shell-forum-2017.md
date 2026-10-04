@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: de
 permalink: /de/news/ceramic-phone-shell-forum-2017/
 title: "Sharpen auf dem 2. PM-/Keramik-Handygehäuse-Forum"
-description: "Prof. He stellte hocheffiziente Zirkonia-Poliertopflösungen vor und festigte damit Sharpenes Rolle in der Bearbeitung keramischer Telefonkomponenten. Am 17. März 2017 wurde Sharpen zum 2. Forum für…"
+description: "Prof. He stellte hocheffiziente Zirkonia-Poliertopflösungen vor und festigte damit Sharpenes Rolle in der Bearbeitung keramischer Telefonkomponenten."
 pageType: news
 newsSlug: ceramic-phone-shell-forum-2017
 newsSection: "Unternehmensnachrichten"

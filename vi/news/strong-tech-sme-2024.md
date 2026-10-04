@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: vi
 permalink: /vi/news/strong-tech-sme-2024/
 title: "Được đưa vào danh sách DNNKV công nghệ tỉnh Hồ Nam 2024"
-description: "Sharpen một lần nữa được đưa vào danh sách đầu tiên của các DNNKV dựa trên công nghệ tỉnh Hồ Nam năm 2024, ghi nhận sự phát triển do đổi mới và sở…"
+description: "Sharpen một lần nữa được đưa vào danh sách đầu tiên của các DNNKV dựa trên công nghệ tỉnh Hồ Nam năm 2024, ghi nhận sự phát triển do đổi mới và sở hữu trí tuệ dẫn dắt."
 pageType: news
 newsSlug: strong-tech-sme-2024
 newsSection: "Tin doanh nghiệp"

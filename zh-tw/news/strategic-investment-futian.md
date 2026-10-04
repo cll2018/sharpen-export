@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: zh-tw
 permalink: /zh-tw/news/strategic-investment-futian/
 title: "戰略合作∣長江學者賀躍輝教授團隊與福天興業投資集團達成戰略投資合作"
-description: "2023年7月17日，由薩普新材首席技術專家賀躍輝教授帶隊與福天興業投資集團正式達成戰略投資合作並舉行簽約儀式。長江學者賀躍輝教授、福天興業投資集團胡勝董事長、長沙艾拓沐總經理任彩等雙方領導以及公司代表出席本次簽約儀式。…"
+description: "2023年7月17日，由薩普新材首席技術專家賀躍輝教授帶隊與福天興業投資集團正式達成戰略投資合作並舉行簽約儀式。長江學者賀躍輝教授、福天興業投資集團胡勝董事長、長沙艾拓沐總經理任彩等雙方領導以及公司代表出席本次簽約儀式。"
 pageType: news
 newsSlug: strategic-investment-futian
 newsSection: "公司新聞"

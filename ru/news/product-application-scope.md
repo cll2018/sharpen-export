@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ru
 permalink: /ru/news/product-application-scope/
 title: "Область применения продукции"
-description: "Где применяются алмазные и CBN круги — твердосплавные инструменты, сапфир, пластины из кермета (алмаз); HSS, закалённая сталь, литые детали (CBN). Алмазные круги подходят для: 1) инструментов,…"
+description: "Где применяются алмазные и CBN круги — твердосплавные инструменты, сапфир, пластины из кермета (алмаз); HSS, закалённая сталь, литые детали (CBN)."
 pageType: news
 newsSlug: product-application-scope
 newsSection: "Отраслевые новости"

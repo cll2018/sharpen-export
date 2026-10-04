@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: pt
 permalink: /pt/news/o400-1a1-batch-production/
 title: "Rodas de diamante e CBN com liga cermet 1A1 de Ø400mm em produção em série"
-description: "A Sharpen alcançou a produção em série de rodas de diamante e CBN 1A1 de Ø400mm com liga cermet, marcando um marco na P&D nacional de rodas de alta qualidade. A Sharpen desenvolveu com sucesso e…"
+description: "A Sharpen alcançou a produção em série de rodas de diamante e CBN 1A1 de Ø400mm com liga cermet, marcando um marco na P&D nacional de rodas de alta qualidade."
 pageType: news
 newsSlug: o400-1a1-batch-production
 newsSection: "Notícias da empresa"

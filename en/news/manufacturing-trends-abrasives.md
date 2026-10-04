@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: en
 permalink: /en/news/manufacturing-trends-abrasives/
 title: "Manufacturing Trends Raise the Bar for Abrasives"
-description: "Superabrasive products increasingly meet demanding grinding needs; new abrasive formats expand application scope. Looking at grinding development,…"
+description: "Superabrasive products increasingly meet demanding grinding needs; new abrasive formats expand application scope."
 pageType: news
 newsSlug: manufacturing-trends-abrasives
 newsSection: "Industry News"

@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: zh
 permalink: /zh/news/manual-grinder-wheels/
 title: "萨普手动磨床用砂轮推广成功"
-description: "*发布日期：2016-11-07* 我公司开发出的手动磨床用高性能金属陶瓷粘接剂砂轮成功应用于株洲市某大型企业，替代了其原有树脂结合剂砂轮，成功解决了原有砂轮带来的砂轮消耗快、效率低及需要反复修整的问题。在使用过程中，我公司的金属陶瓷粘接剂砂轮充分体现出了高的切削力、耐磨性和自锐性，砂轮寿命提高30…"
+description: "*发布日期：2016-11-07* 我公司开发出的手动磨床用高性能金属陶瓷粘接剂砂轮成功应用于株洲市某大型企业，替代了其原有树脂结合剂砂轮，成功解决了原有砂轮带来的砂轮消耗快、效率低及需要反复修整的问题。"
 pageType: news
 newsSlug: manual-grinder-wheels
 newsSection: "公司新闻"

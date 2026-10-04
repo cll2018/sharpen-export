@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: vi
 permalink: /vi/news/ceramic-phone-shell-forum-2017/
 title: "Sharpen tham gia Diễn đàn PM / Vỏ điện thoại gốm sứ lần thứ 2"
-description: "Giáo sư He đã trình bày các giải pháp đánh bóng bằng bánh mài zirconia hiệu suất cao, củng cố vai trò của Sharpen trong gia công linh kiện điện thoại gốm sứ. Ngày 17 tháng 3 năm 2017, Sharpen được…"
+description: "Giáo sư He đã trình bày các giải pháp đánh bóng bằng bánh mài zirconia hiệu suất cao, củng cố vai trò của Sharpen trong gia công linh kiện điện thoại gốm sứ."
 pageType: news
 newsSlug: ceramic-phone-shell-forum-2017
 newsSection: "Tin doanh nghiệp"

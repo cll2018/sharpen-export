@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: es
 permalink: /es/news/first-30000-sic-fine-grinding/
 title: "Primera muela de rectificado fino para sustratos SiC 30000# nacional de China"
-description: "Sharpen desarrolló la primera muela de rectificado fino 30000# del país para sustratos SiC, permitiendo un adelgazamiento de obleas de alto rendimiento y bajo daño. Un paso central en la producción…"
+description: "Sharpen desarrolló la primera muela de rectificado fino 30000# del país para sustratos SiC, permitiendo un adelgazamiento de obleas de alto rendimiento y bajo daño."
 pageType: news
 newsSlug: first-30000-sic-fine-grinding
 newsSection: "Noticias del sector"

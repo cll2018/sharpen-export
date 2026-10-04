@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: pt
 permalink: /pt/news/cnc-tool-failure-modes/
 title: "Modos de falha de ferramentas CNC e contramedidas"
-description: "Uma visão técnica dos modos de falha de ferramentas CNC — desgaste de flanco, desgaste por cratera, deformação plástica, aresta de aporte — e como mitigá-los. A falha da ferramenta ocorre quando uma…"
+description: "Uma visão técnica dos modos de falha de ferramentas CNC — desgaste de flanco, desgaste por cratera, deformação plástica, aresta de aporte — e como mitigá-los."
 pageType: news
 newsSlug: cnc-tool-failure-modes
 newsSection: "Notícias do setor"

@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: zh
 permalink: /zh/news/he-yuehui-award-2019/
 title: "贺跃辉教授获“新材料成果转化奖”"
-description: "*发布日期：2019-11-14* 2019年11月14日上午，第二届中国新材料产业发展大会开幕式在湖南国际会展中心（芒果馆）举行，贺跃辉教授获此次大会的“新材料成果转化奖”并出席颁奖仪式。…"
+description: "*发布日期：2019-11-14* 2019年11月14日上午，第二届中国新材料产业发展大会开幕式在湖南国际会展中心（芒果馆）举行，贺跃辉教授获此次大会的“新材料成果转化奖”并出席颁奖仪式。"
 pageType: news
 newsSlug: he-yuehui-award-2019
 newsSection: "公司新闻"

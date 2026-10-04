@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: de
 permalink: /de/news/pm-hss-introduction/
 title: "Einführung in den PM-Hochgeschwindigkeitsstahl von SAP"
-description: "Ein Überblick über PM-HSS gegenüber konventionellem HSS und Sharpenes nicht-atomisierendem Kugelmühlverfahren, das einheimisches hochleistungsfähiges PM-HSS ermöglicht. Hochgeschwindigkeitsstahl…"
+description: "Ein Überblick über PM-HSS gegenüber konventionellem HSS und Sharpenes nicht-atomisierendem Kugelmühlverfahren, das einheimisches hochleistungsfähiges PM-HSS ermöglicht."
 pageType: news
 newsSlug: pm-hss-introduction
 newsSection: "Technologietrends"

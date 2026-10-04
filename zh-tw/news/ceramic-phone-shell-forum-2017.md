@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: zh-tw
 permalink: /zh-tw/news/ceramic-phone-shell-forum-2017/
 title: "薩普公司應邀參會，將推動氧化鋯陶瓷磨拋領域的發展及其應用"
-description: "2017年3月17日由艾邦智造在深圳舉辦了《第二屆粉末冶金/手機陶瓷外殼技術與應用論壇暨展示會》，公司代表應邀參會。本次研討展示會主要圍繞金屬粉末注射成型及其相關技術應用、智能手機陶瓷外殼製造技術及其應用爲研討主題。…"
+description: "2017年3月17日由艾邦智造在深圳舉辦了《第二屆粉末冶金/手機陶瓷外殼技術與應用論壇暨展示會》，公司代表應邀參會。本次研討展示會主要圍繞金屬粉末注射成型及其相關技術應用、智能手機陶瓷外殼製造技術及其應用爲研討主題。"
 pageType: news
 newsSlug: ceramic-phone-shell-forum-2017
 newsSection: "公司新聞"

@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: fr
 permalink: /fr/news/pm-hss-introduction/
 title: "Introduction à l'acier rapide de métallurgie des poudres SAP"
-description: "Un aperçu de PM-HSS par rapport à l'HSS conventionnel et de la voie de broyage à billes sans atomisation de Sharpen permettant un PM-HSS haute performance national. L'acier rapide (HSS) est un…"
+description: "Un aperçu de PM-HSS par rapport à l'HSS conventionnel et de la voie de broyage à billes sans atomisation de Sharpen permettant un PM-HSS haute performance national."
 pageType: news
 newsSlug: pm-hss-introduction
 newsSection: "Fronières technologiques"

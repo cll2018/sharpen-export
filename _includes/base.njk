@@ -31,16 +31,19 @@
        Authoritative plain-text AI index: https://www.sapu-cn.online/llms.txt
        Citation: use the canonical URL above; site serves 14 languages, this one is "{{ lang }}". -->
   {% for l in site.langs %}
-  <link rel="alternate" hreflang="{{ l.code }}" href="{{ page.url | langUrl(l.code) | absUrl(site.domain) }}" />
+  {% set hl = { 'zh-tw': 'zh-TW' }[l.code] or l.code %}<link rel="alternate" hreflang="{{ hl }}" href="{{ page.url | langUrl(l.code) | absUrl(site.domain) }}" />
   {% endfor %}
   <link rel="alternate" hreflang="x-default" href="{{ '/en/' | absUrl(site.domain) }}" />
   <meta property="og:title" content="{{ title }} — {{ bp.suffix }}" />
   <meta property="og:description" content="{{ description or bp.desc }}" />
   <meta property="og:type" content="{{ 'product' if pageType == 'product' else 'website' }}" />
   <meta property="og:url" content="{{ page.url | absUrl(site.domain) }}" />
-  {% set ogImg = '/assets/img/logo.png' %}
+  {% set ogImg = '/assets/img/og-default.jpg' %}
   {% if productImage %}{% set ogImg = productImage %}{% elif newsImage %}{% set ogImg = newsImage %}{% elif page.url | urlFilter('products') %}{% set ogImg = ((products[lang] or products[site.fallbackLang])[0].image) %}{% endif %}
   <meta property="og:image" content="{{ ogImg | absUrl(site.domain) }}" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="{{ bp.suffix }}" />
   <meta property="og:site_name" content="{{ bp.suffix }}" />
   {% set ogLoc = {zh:'zh_CN','zh-tw':'zh_TW'}[lang] or lang %}
   <meta property="og:locale" content="{{ ogLoc }}" />
@@ -200,19 +203,19 @@
     {% set f = site.footerPerLang[lang] or site.footerPerLang[site.defaultLang] %}
     <div class="container footer-inner">
       <div>
-        <h3>{{ site.nameZh if lang == 'zh' else (site.nameZhTw if lang == 'zh-tw' else site.name) }}</h3>
+        <h2>{{ site.nameZh if lang == 'zh' else (site.nameZhTw if lang == 'zh-tw' else site.name) }}</h3>
         <p>{{ site.addressZh if lang == 'zh' else (site.addressZhTw if lang == 'zh-tw' else site.address) }}</p>
         <p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a> · Tel: {{ site.phone }}</p>
         <p>WeChat: {{ site.wechat }}</p>
       </div>
       <div>
-        <h3>{{ f.inquiry }}</h3>
+        <h2>{{ f.inquiry }}</h2>
         <p><a href="https://wa.me/{{ site.whatsapp }}" target="_blank" rel="noopener">WhatsApp: +86 186 5687 1390</a></p>
         <p><button id="chat-toggle-2" class="link-btn" type="button">💬 {{ f.aiBtn }}</button></p>
         <p><a href="{{ ('/' + lang + '/contact/') | langUrl(lang) }}">{{ f.rfq }}</a></p>
       </div>
       <div>
-        <h3>{{ f.quickLinks }}</h3>
+        <h2>{{ f.quickLinks }}</h2>
         <ul>
           {% for item in site.nav %}
           <li><a href="{{ item | navUrl(lang) }}">{{ item | navLabel(lang) }}</a></li>

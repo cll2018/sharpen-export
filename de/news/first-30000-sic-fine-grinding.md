@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: de
 permalink: /de/news/first-30000-sic-fine-grinding/
 title: "Chinas erste inländische 30000# SiC-Substrat-Feinschleifscheibe"
-description: "Sharpen entwickelte das erste 30000# Feinschleifrad des Landes für SiC-Substrate, das eine schädigungsarme, hochdurchsatzfähige Wafer-Dünnung ermöglicht. Ein Kernprozess der SiC-Produktion ist die…"
+description: "Sharpen entwickelte das erste 30000# Feinschleifrad des Landes für SiC-Substrate, das eine schädigungsarme, hochdurchsatzfähige Wafer-Dünnung ermöglicht."
 pageType: news
 newsSlug: first-30000-sic-fine-grinding
 newsSection: "Branchennews"

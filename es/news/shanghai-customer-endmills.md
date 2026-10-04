@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: es
 permalink: /es/news/shanghai-customer-endmills/
 title: "Avance en el uso de muelas en un cliente de Shanghái"
-description: "Un cliente de Shanghái utiliza nuestras ruedas de diamante para producir en serie fresas de extremo cónicas de 3 filos, elevando la velocidad de avance más de un 30 % frente a una marca coreana.…"
+description: "Un cliente de Shanghái utiliza nuestras ruedas de diamante para producir en serie fresas de extremo cónicas de 3 filos, elevando la velocidad de avance más de un 30 % frente a una marca coreana."
 pageType: news
 newsSlug: shanghai-customer-endmills
 newsSection: "Noticias del sector"

@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: fr
 permalink: /fr/news/o400-1a1-batch-production/
 title: "Meules diamant et CBN à liant cermet 1A1 de Ø400mm en production de série"
-description: "Sharpen a atteint la production de série de meules diamant et CBN 1A1 de Ø400mm à liant cermet, marquant une étape clé dans la R&D nationale des meules haut de gamme. Sharpen a développé avec succès…"
+description: "Sharpen a atteint la production de série de meules diamant et CBN 1A1 de Ø400mm à liant cermet, marquant une étape clé dans la R&D nationale des meules haut de gamme."
 pageType: news
 newsSlug: o400-1a1-batch-production
 newsSection: "Actualités de l’entreprise"

@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: zh-tw
 permalink: /zh-tw/news/shanghai-customer-endmills/
 title: "公司砂輪使用取得新突破"
-description: "長沙薩普新材料有限公司，作爲高速高品質磨削系統技術解決方案的供應商和服務商，擁有完全自主知識產權，是提供硬質合金和高速鋼迴轉體及刃具等製品磨拋加工技術整體解決方案的專業化高技術企業。公司技術力量雄厚，產品開發能力強，技術工藝嫺熟，工藝製品水平高。…"
+description: "長沙薩普新材料有限公司，作爲高速高品質磨削系統技術解決方案的供應商和服務商，擁有完全自主知識產權，是提供硬質合金和高速鋼迴轉體及刃具等製品磨拋加工技術整體解決方案的專業化高技術企業。公司技術力量雄厚，產品開發能力強，技術工藝嫺熟，工藝製品水平高。"
 pageType: news
 newsSlug: shanghai-customer-endmills
 newsSection: "行業資訊"

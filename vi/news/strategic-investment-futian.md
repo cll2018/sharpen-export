@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: vi
 permalink: /vi/news/strategic-investment-futian/
 title: "Hợp tác đầu tư chiến lược với Futian Xingye"
-description: "Tháng 7/2023, dưới sự dẫn dắt của chuyên gia kỹ thuật trưởng, GS He Yuehui, Sharpen đã ký kết hợp tác đầu tư chiến lược với Tập đoàn Futian Xingye và…"
+description: "Tháng 7/2023, dưới sự dẫn dắt của chuyên gia kỹ thuật trưởng, GS He Yuehui, Sharpen đã ký kết hợp tác đầu tư chiến lược với Tập đoàn Futian Xingye và tổ chức lễ ký."
 pageType: news
 newsSlug: strategic-investment-futian
 newsSection: "Tin doanh nghiệp"

@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: fr
 permalink: /fr/news/ceramic-phone-shell-forum-2017/
 title: "Sharpen au 2e forum PM / boîtiers de téléphone en céramique"
-description: "Le prof. He a présenté des solutions de meules de polissage en zircone à haute efficacité, renforçant le rôle de Sharpen dans l'usinage des composants de téléphone en céramique. Le 17 mars 2017,…"
+description: "Le prof. He a présenté des solutions de meules de polissage en zircone à haute efficacité, renforçant le rôle de Sharpen dans l'usinage des composants de téléphone en céramique."
 pageType: news
 newsSlug: ceramic-phone-shell-forum-2017
 newsSection: "Actualités de l’entreprise"

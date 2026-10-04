@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: tr
 permalink: /tr/news/manufacturing-trends-abrasives/
 title: "Üretim trendleri aşındırıcılar için çıtayı yükseltiyor"
-description: "Süperabrazi ürünleri giderek daha zorlayıcı taşlama ihtiyaçlarını karşılıyor; yeni abrasif formatları uygulama kapsamını genişletiyor. Taşlama gelişimine bakıldığında, gelecekteki işleme…"
+description: "Süperabrazi ürünleri giderek daha zorlayıcı taşlama ihtiyaçlarını karşılıyor; yeni abrasif formatları uygulama kapsamını genişletiyor."
 pageType: news
 newsSlug: manufacturing-trends-abrasives
 newsSection: "Sektör haberleri"

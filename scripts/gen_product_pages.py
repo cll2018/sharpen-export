@@ -33,8 +33,11 @@ def extract_blocks(md):
         rest = rest.rstrip()
         # drop the outer product-block closing </div></div>
         rest = re.sub(r"</div>\s*</div>\s*$", "", rest)
-        # drop the <h2> name — the detail page renders its own <h1>
-        rest = re.sub(r"<h2>[^<]*</h2>\s*", "", rest)
+        # drop ONLY the first <h2> (the product name — the detail page
+        # renders its own <h1>). Section headings like
+        # <h2>Specifications</h2> in the block body are content and must
+        # survive regeneration.
+        rest = re.sub(r"<h2>[^<]*</h2>\s*", "", rest, count=1)
         blocks.append((pid, rest))
     return blocks
 

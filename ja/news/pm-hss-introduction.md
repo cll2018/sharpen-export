@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ja
 permalink: /ja/news/pm-hss-introduction/
 title: "SAP 粉末冶金高速鋼の概要"
-description: "PM-HSSと従来のHSSの比較、およびSharpenの非雾化ボールミル法による国産高性能PM-HSSの概要です。ハイス（HSS）は重要な工具材料であり、世界の切削工具販売の45%（ギヤホブやブローチなどの複雑な多刃工具の85%）を占めます。赤熱硬度、耐摩耗性、耐衝撃性、熱処理性を兼ね備え、軟化焼なまし状態で成形し、その後焼入れ・焼戻しで硬化できるという、超硬やサーメット工具にはない利点があります…"
+description: "PM-HSSと従来のHSSの比較、およびSharpenの非雾化ボールミル法による国産高性能PM-HSSの概要です。ハイス（HSS）は重要な工具材料であり、世界の切削工具販売の45%（ギヤホブやブローチなどの複雑な多刃工具の85%）を占めます。"
 pageType: news
 newsSlug: pm-hss-introduction
 newsSection: "業界最前線"

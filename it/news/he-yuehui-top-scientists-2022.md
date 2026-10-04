@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: it
 permalink: /it/news/he-yuehui-top-scientists-2022/
 title: "Prof. He Yuehui tra i 2% degli scienziati più citati al mondo 2022"
-description: "Il Prof. He Yuehui è stato inserito tra l’1% (top 2%) degli scienziati più citati al mondo, nella classifica compilata dall’Università di Stanford e…"
+description: "Il Prof. He Yuehui è stato inserito tra l’1% (top 2%) degli scienziati più citati al mondo, nella classifica compilata dall’Università di Stanford e Elsevier."
 pageType: news
 newsSlug: he-yuehui-top-scientists-2022
 newsSection: "Notizie aziendali"

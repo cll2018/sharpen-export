@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: zh-tw
 permalink: /zh-tw/news/manufacturing-trends-abrasives/
 title: "工業製造業的發展將對磨具行業提出更高要求"
-description: "縱觀磨削領域的發展，未來磨削加工將對磨料磨具提出更高要求，從目前現狀來判斷，超硬製品恰恰滿足這些新磨削需要。如CBN磨料具有良好熱穩定性、硬度高、耐磨性好等特性，故其磨具磨削加工時線速度高、磨削效率高、磨具壽命也高，特別適宜加工高速鋼、軸承鋼、不鏽鋼、冷激鑄鐵等黑色金屬材料。…"
+description: "縱觀磨削領域的發展，未來磨削加工將對磨料磨具提出更高要求，從目前現狀來判斷，超硬製品恰恰滿足這些新磨削需要。如CBN磨料具有良好熱穩定性、硬度高、耐磨性好等特性，故其磨具磨削加工時線速度高、磨削效率高、磨具壽命也高，特別適宜加工高速鋼、軸承鋼、不鏽鋼、冷激鑄鐵等黑色金屬材料。"
 pageType: news
 newsSlug: manufacturing-trends-abrasives
 newsSection: "行業資訊"

@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ar
 permalink: /ar/news/o400-1a1-batch-production/
 title: "عجلات الماس وCBN بقطر 400 ملم 1A1 مربوطة بالميتال سيراميك في الإنتاج المتسلسل"
-description: "حققت Sharpen الإنتاج المتسلسل لعجلات الماس وCBN 1A1 بقطر 400 ملم مربوطة برابطة سيرميت، مما يمثّل معلماً في البحث والتطوير المحلي للعجلات عالية الجودة. نجحت Sharpen في تطوير عجلات الماس وCBN 1A1 بقطر…"
+description: "حققت Sharpen الإنتاج المتسلسل لعجلات الماس وCBN 1A1 بقطر 400 ملم مربوطة برابطة سيرميت، مما يمثّل معلماً في البحث والتطوير المحلي للعجلات عالية الجودة."
 pageType: news
 newsSlug: o400-1a1-batch-production
 newsSection: "أخبار الشركة"

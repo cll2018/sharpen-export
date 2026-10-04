@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: zh
 permalink: /zh/news/strategic-investment-futian/
 title: "战略合作∣长江学者贺跃辉教授团队与福天兴业投资集团达成战略投资合作"
-description: "*发布日期：2023-07-19* 2023年7月17日，由萨普新材首席技术专家贺跃辉教授带队与福天兴业投资集团正式达成战略投资合作并举行签约仪式。长江学者贺跃辉教授、福天兴业投资集团胡胜董事长、长沙艾拓沐总经理任彩等双方领导以及公司代表出席本次签约仪式。…"
+description: "*发布日期：2023-07-19* 2023年7月17日，由萨普新材首席技术专家贺跃辉教授带队与福天兴业投资集团正式达成战略投资合作并举行签约仪式。长江学者贺跃辉教授、福天兴业投资集团胡胜董事长、长沙艾拓沐总经理任彩等双方领导以及公司代表出席本次签约仪式。"
 pageType: news
 newsSlug: strategic-investment-futian
 newsSection: "公司新闻"

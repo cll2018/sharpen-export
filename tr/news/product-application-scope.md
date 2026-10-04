@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: tr
 permalink: /tr/news/product-application-scope/
 title: "Ürün uygulama kapsamı"
-description: "Elmas ve CBN taşlarının uygulandığı yerler — karbür takımlar, safir, sermet uçlar (elmas); HSS, sertleştirilmiş çelik, döküm parçalar (CBN). Elmas taşları şunlar için uygundur: 1) karbürden yapılmış…"
+description: "Elmas ve CBN taşlarının uygulandığı yerler — karbür takımlar, safir, sermet uçlar (elmas); HSS, sertleştirilmiş çelik, döküm parçalar (CBN)."
 pageType: news
 newsSlug: product-application-scope
 newsSection: "Sektör haberleri"

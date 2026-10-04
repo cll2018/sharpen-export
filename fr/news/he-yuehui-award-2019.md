@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: fr
 permalink: /fr/news/he-yuehui-award-2019/
 title: "Prof. He Yuehui reçoit le « Prix de transformation des réalisations en nouveaux matériaux »"
-description: "Le 14 novembre 2019, le Prof. He Yuehui a reçu le nouveau « Prix de Transformation des Réalisations en Nouveaux Matériaux » lors de la 2e Conférence…"
+description: "Le 14 novembre 2019, le Prof. He Yuehui a reçu le nouveau « Prix de Transformation des Réalisations en Nouveaux Matériaux » lors de la 2e Conférence chinoise sur le développement des nouveaux matériaux."
 pageType: news
 newsSlug: he-yuehui-award-2019
 newsSection: "Actualités de l’entreprise"

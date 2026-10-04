@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ja
 permalink: /ja/news/shanghai-customer-endmills/
 title: "上海の顧客における砥石使用の飛躍的進展"
-description: "上海のある顧客は当社のダイヤモンド砥石を使用して3枚刃テーパーエンドミルを量産し、ある韓国ブランドと比べて送り速度を30%以上向上させています。長沙Sharpenは、完全な独立知的財産を有する高速・高品質研削システムソリューションの専門ハイテクプロバイダーであり、超硬およびHSS回転工具とインサート向けの総合的な研磨ソリューションを提供しています。上海のある顧客は現在、Sharpenのダイヤモンド…"
+description: "上海のある顧客は当社のダイヤモンド砥石を使用して3枚刃テーパーエンドミルを量産し、ある韓国ブランドと比べて送り速度を30%以上向上させています。"
 pageType: news
 newsSlug: shanghai-customer-endmills
 newsSection: "業界動向"

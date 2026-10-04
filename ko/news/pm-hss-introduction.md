@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ko
 permalink: /ko/news/pm-hss-introduction/
 title: "SAP 분말야금 고속강 소개"
-description: "PM-HSS와 기존 HSS의 비교, 그리고 Sharpen의 비무화 볼밀 공정으로 가능해진 국산 고성능 PM-HSS 개요입니다. 고속도강(HSS)은 중요한 공구 재료로, 세계 절삭 공구 판매의 45%(기어 호브, 브로치 등 복잡한 다날 공구의 85%)를 차지합니다. 적열 경도, 내마모성, 내충격성, 열처리성을 갖추고, 연화 소둔 상태에서 성형한 뒤 담금질…"
+description: "PM-HSS와 기존 HSS의 비교, 그리고 Sharpen의 비무화 볼밀 공정으로 가능해진 국산 고성능 PM-HSS 개요입니다. 고속도강(HSS)은 중요한 공구 재료로, 세계 절삭 공구 판매의 45%(기어 호브, 브로치 등 복잡한 다날 공구의 85%)를 차지합니다."
 pageType: news
 newsSlug: pm-hss-introduction
 newsSection: "산업 최전선"

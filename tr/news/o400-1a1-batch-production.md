@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: tr
 permalink: /tr/news/o400-1a1-batch-production/
 title: "Ø400mm 1A1 sermet bağlı elmas ve CBN taşları seri üretimde"
-description: "Sharpen, Ø400mm 1A1 sermet bağlı elmas ve CBN taşlarının seri üretimini başararak yerli yüksek kaliteli taş Ar-Ge'sinde bir dönüm noktası oluşturdu. Sharpen, piyasa için Ø400mm 1A1 sermet bağlı elmas…"
+description: "Sharpen, Ø400mm 1A1 sermet bağlı elmas ve CBN taşlarının seri üretimini başararak yerli yüksek kaliteli taş Ar-Ge'sinde bir dönüm noktası oluşturdu."
 pageType: news
 newsSlug: o400-1a1-batch-production
 newsSection: "Şirket haberleri"

@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: de
 permalink: /de/news/manual-grinder-wheels/
 title: "Erfolg der Manuell-Schleifscheiben bei einem Unternehmen in Zhuzhou"
-description: "Unsere cermet-gebundenen Schleifscheiben ersetzten harzgebundene Schleifscheiben bei einem großen Hersteller in Zhuzhou und verlängerten die Standzeit der Scheibe um das ~30-Fache, ohne dass ein…"
+description: "Unsere cermet-gebundenen Schleifscheiben ersetzten harzgebundene Schleifscheiben bei einem großen Hersteller in Zhuzhou und verlängerten die Standzeit der Scheibe um das ~30-Fache, ohne dass ein Abrichten nötig war."
 pageType: news
 newsSlug: manual-grinder-wheels
 newsSection: "Unternehmensnachrichten"

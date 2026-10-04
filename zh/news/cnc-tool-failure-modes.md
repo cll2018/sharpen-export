@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: zh
 permalink: /zh/news/cnc-tool-failure-modes/
 title: "数控刀具的失效形式及对策"
-description: "*发布日期：2016-11-07* 在切削过程中，刀具磨损到一定限度，刀刃崩刃或破损，刀刃卷刃（塑变）时，刀具丧失其切削能力或无法保障加工质量，称之为刀具失效。 刀具破损的主要形式及产生原因和对策如下： 1.…"
+description: "*发布日期：2016-11-07* 在切削过程中，刀具磨损到一定限度，刀刃崩刃或破损，刀刃卷刃（塑变）时，刀具丧失其切削能力或无法保障加工质量，称之为刀具失效。 刀具破损的主要形式及产生原因和对策如下： 1. 后刀面磨损：由机械应力引起的出现在后刀面上的摩擦磨损。"
 pageType: news
 newsSlug: cnc-tool-failure-modes
 newsSection: "行业资讯"

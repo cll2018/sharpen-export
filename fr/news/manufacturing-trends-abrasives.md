@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: fr
 permalink: /fr/news/manufacturing-trends-abrasives/
 title: "Les tendances de fabrication relèvent l'exigence pour les abrasifs"
-description: "Les produits superabrasifs répondent de plus en plus aux besoins exigeants du rectifiage ; les nouveaux formats d'abrasifs élargissent le domaine d'application. En observant le développement du…"
+description: "Les produits superabrasifs répondent de plus en plus aux besoins exigeants du rectifiage ; les nouveaux formats d'abrasifs élargissent le domaine d'application."
 pageType: news
 newsSlug: manufacturing-trends-abrasives
 newsSection: "Actualités du secteur"

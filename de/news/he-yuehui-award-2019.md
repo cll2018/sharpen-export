@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: de
 permalink: /de/news/he-yuehui-award-2019/
 title: "Prof. He Yuehui erhält den „Neumaterial-Erfolgs- und Transformationspreis“"
-description: "Am 14. November 2019 erhielt Prof. He Yuehui den neuen „New Materials Achievement-Transformation Award“ auf der 2. China-Neumaterialien-Konferenz in…"
+description: "Am 14. November 2019 erhielt Prof. He Yuehui den neuen „New Materials Achievement-Transformation Award“ auf der 2."
 pageType: news
 newsSlug: he-yuehui-award-2019
 newsSection: "Unternehmensnachrichten"

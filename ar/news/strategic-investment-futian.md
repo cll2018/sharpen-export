@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: ar
 permalink: /ar/news/strategic-investment-futian/
 title: "شراكة استثمارية استراتيجية مع فوطيان شينغية"
-description: "في يوليو 2023، بقيادة كبير الخبراء التقنيين البروفيسور هو يويهوي، أبرمت شاربين شراكة استثمارية استراتيجية مع مجموعة فوطيان شينغية وأجريت مراسم…"
+description: "في يوليو 2023، بقيادة كبير الخبراء التقنيين البروفيسور هو يويهوي، أبرمت شاربين شراكة استثمارية استراتيجية مع مجموعة فوطيان شينغية وأجريت مراسم التوقيع."
 pageType: news
 newsSlug: strategic-investment-futian
 newsSection: "أخبار الشركة"

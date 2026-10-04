@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: it
 permalink: /it/news/strong-tech-sme-2024/
 title: "Inserita nel primo lotto delle PMI tecnologiche del Hunan 2024"
-description: "Sharpen è stata nuovamente inserita nel primo lotto delle PMI basate sulla tecnologia dello Hunan del 2024, a riconoscimento della sua crescita…"
+description: "Sharpen è stata nuovamente inserita nel primo lotto delle PMI basate sulla tecnologia dello Hunan del 2024, a riconoscimento della sua crescita guidata dall’innovazione e dalla proprietà intellettuale."
 pageType: news
 newsSlug: strong-tech-sme-2024
 newsSection: "Notizie aziendali"

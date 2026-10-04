@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: fr
 permalink: /fr/news/strong-tech-sme-2024/
 title: "Inscrit dans le 1er lot des PME technologiques du Hunan 2024"
-description: "Sharpen a de nouveau été inscrit dans le premier lot des PME technologiques du Hunan 2024, en reconnaissance de sa croissance axée sur l’innovation…"
+description: "Sharpen a de nouveau été inscrit dans le premier lot des PME technologiques du Hunan 2024, en reconnaissance de sa croissance axée sur l’innovation et la propriété intellectuelle."
 pageType: news
 newsSlug: strong-tech-sme-2024
 newsSection: "Actualités de l’entreprise"

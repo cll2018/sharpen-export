@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: en
 permalink: /en/news/he-yuehui-award-2019/
 title: "Prof. He Yuehui Receives the “New Materials Achievement-Transformation Award”"
-description: "At the 2nd China New Materials Industry Development Conference, Prof. He received the inaugural achievement-transformation award for his…"
+description: "At the 2nd China New Materials Industry Development Conference, Prof."
 pageType: news
 newsSlug: he-yuehui-award-2019
 newsSection: "Company News"

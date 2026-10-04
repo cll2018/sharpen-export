@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: en
 permalink: /en/news/first-30000-sic-fine-grinding/
 title: "China’s First Domestic 30000# SiC Substrate Fine-Grinding Wheel"
-description: "Sharpen developed the country’s first 30000# fine-grinding wheel for SiC substrates, enabling low-damage, high-throughput wafer thinning. A core step…"
+description: "Sharpen developed the country’s first 30000# fine-grinding wheel for SiC substrates, enabling low-damage, high-throughput wafer thinning."
 pageType: news
 newsSlug: first-30000-sic-fine-grinding
 newsSection: "Industry News"

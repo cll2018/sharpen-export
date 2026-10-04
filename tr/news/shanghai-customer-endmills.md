@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: tr
 permalink: /tr/news/shanghai-customer-endmills/
 title: "Shanghai'daki bir müşteride takım kullanımında atılım"
-description: "Bir Şanghay müşterisi, 3 ağızlı konik uç frezeleri seri üretmek için elmas taşlarımızı kullanıyor ve belirli bir Kore markasına kıyasla ilerleme hızını %30'un üzerinde artırıyor. Changsha Sharpen,…"
+description: "Bir Şanghay müşterisi, 3 ağızlı konik uç frezeleri seri üretmek için elmas taşlarımızı kullanıyor ve belirli bir Kore markasına kıyasla ilerleme hızını %30'un üzerinde artırıyor."
 pageType: news
 newsSlug: shanghai-customer-endmills
 newsSection: "Sektör haberleri"

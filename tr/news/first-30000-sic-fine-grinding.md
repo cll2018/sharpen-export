@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: tr
 permalink: /tr/news/first-30000-sic-fine-grinding/
 title: "Çin'in ilk yerli 30000# SiC altlık ince taşlama taşı"
-description: "Sharpen, ülkenin ilk 30000# SiC altlık ince taşlama taşını geliştirerek düşük hasarlı, yüksek verimli wafer inceltmeyi mümkün kıldı. SiC üretimindeki temel adım altlık işlemedir — dilimleme, inceltme…"
+description: "Sharpen, ülkenin ilk 30000# SiC altlık ince taşlama taşını geliştirerek düşük hasarlı, yüksek verimli wafer inceltmeyi mümkün kıldı."
 pageType: news
 newsSlug: first-30000-sic-fine-grinding
 newsSection: "Sektör haberleri"

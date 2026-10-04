@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: vi
 permalink: /vi/news/first-30000-sic-fine-grinding/
 title: "Bánh mài tinh chế rãnh SiC 30000# nội địa đầu tiên của Trung Quốc"
-description: "Sharpen đã phát triển bánh mài tinh chế 30000# đầu tiên của quốc gia cho rãnh SiC, cho phép mỏng hóa wafer thấp hư hại và năng suất cao. Một bước cốt lõi trong sản xuất SiC là xử lý rãnh—cắt lát,…"
+description: "Sharpen đã phát triển bánh mài tinh chế 30000# đầu tiên của quốc gia cho rãnh SiC, cho phép mỏng hóa wafer thấp hư hại và năng suất cao."
 pageType: news
 newsSlug: first-30000-sic-fine-grinding
 newsSection: "Tin ngành"

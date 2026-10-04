@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: pt
 permalink: /pt/news/product-application-scope/
 title: "Escopo de aplicação de produtos"
-description: "Onde se aplicam as rodas de diamante e CBN — ferramentas de metal duro, safira, insertos de cermet (diamante); HSS, aço temperado, peças de fundição (CBN). As rodas de diamante são adequadas para: 1)…"
+description: "Onde se aplicam as rodas de diamante e CBN — ferramentas de metal duro, safira, insertos de cermet (diamante); HSS, aço temperado, peças de fundição (CBN)."
 pageType: news
 newsSlug: product-application-scope
 newsSection: "Notícias do setor"

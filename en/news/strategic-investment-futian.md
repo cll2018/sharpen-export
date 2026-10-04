@@ -3,7 +3,7 @@ layout: news-detail.njk
 lang: en
 permalink: /en/news/strategic-investment-futian/
 title: "Strategic Investment Partnership with Futian Xingye Investment Group"
-description: "On July 17, 2023, Prof. He Yuehui’s team signed a strategic investment agreement with Futian Xingye Investment Group, combining deep-tech R&D with…"
+description: "On July 17, 2023, Prof. He Yuehui’s team signed a strategic investment agreement with Futian Xingye Investment Group, combining deep-tech R&D with strong market and capital resources."
 pageType: news
 newsSlug: strategic-investment-futian
 newsSection: "Company News"
