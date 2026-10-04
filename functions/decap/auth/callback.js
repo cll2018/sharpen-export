@@ -40,6 +40,48 @@ export async function onRequest({ request, env }) {
     );
   }
 
+  // ---- Login allow-list ---------------------------------------------------
+  // The OAuth App is public, so anybody can walk through the GitHub consent
+  // screen and come back with a valid token; the consent screen is not a gate.
+  // The gate is this list: the token is only handed to the CMS when the
+  // authenticated GitHub login is on it. Leaving GITHUB_ALLOWED_LOGINS unset
+  // preserves the previous behaviour, so a missing configuration can never
+  // lock the owner out.
+  const allowed = String(env.GITHUB_ALLOWED_LOGINS || "")
+    .split(",")
+    .map((s) => s.trim().toLowerCase())
+    .filter(Boolean);
+
+  if (allowed.length) {
+    const whoRes = await fetch("https://api.github.com/user", {
+      headers: {
+        Authorization: "Bearer " + token,
+        Accept: "application/vnd.github+json",
+        "User-Agent": "sapu-cms-auth",
+      },
+    });
+    if (!whoRes.ok) {
+      await revokeToken(env, token);
+      return denyPage(
+        "无法通过 GitHub 确认你的身份（GitHub API 返回 " +
+          whoRes.status +
+          "）。请稍后重试。"
+      );
+    }
+    const who = await whoRes.json();
+    const login = String((who && who.login) || "");
+    if (!allowed.includes(login.toLowerCase())) {
+      await revokeToken(env, token);
+      return denyPage(
+        "GitHub 账号 @" +
+          login +
+          " 不在本后台的登录白名单内，无法登录。 / The GitHub account @" +
+          login +
+          " is not on this CMS allow-list."
+      );
+    }
+  }
+
   const successMsg =
     "authorization:github:success:" +
     JSON.stringify({ token, provider: "github" });
@@ -76,6 +118,81 @@ export async function onRequest({ request, env }) {
   </script></head><body>Authorizing…</body></html>`;
 
   return new Response(html, {
+    headers: { "Content-Type": "text/html; charset=utf-8" },
+  });
+}
+
+// Best-effort revocation of a token that was just minted for an account we are
+// about to turn away — no reason to leave a live credential behind. Any failure
+// here is swallowed so it cannot change the response we already decided on.
+async function revokeToken(env, token) {
+  try {
+    await fetch(
+      "https://api.github.com/applications/" +
+        env.GITHUB_OAUTH_ID +
+        "/token",
+      {
+        method: "DELETE",
+        headers: {
+          Authorization:
+            "Basic " +
+            btoa(env.GITHUB_OAUTH_ID + ":" + env.GITHUB_OAUTH_SECRET),
+          Accept: "application/vnd.github+json",
+          "User-Agent": "sapu-cms-auth",
+        },
+        body: JSON.stringify({ access_token: token }),
+      }
+    );
+  } catch (e) {
+    // ignore
+  }
+}
+
+// Renders a denial page. It runs the very same postMessage handshake as the
+// success path — but delivers "authorization:github:error:{...}" — so the CMS
+// shows the reason instead of waiting forever for a token that never arrives.
+function denyPage(message) {
+  const errorMsg =
+    "authorization:github:error:" + JSON.stringify({ message });
+  const safeText = String(message)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+
+  const html = `<!doctype html><html><head><meta charset="utf-8">
+<title>Access denied</title>
+<style>
+  body { margin: 0; display: flex; min-height: 100vh; align-items: center; justify-content: center;
+         background: #101418; color: #e8eef5;
+         font: 15px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif; }
+  .card { max-width: 30rem; padding: 2rem 2.25rem; text-align: center; }
+  h1 { font-size: 1.125rem; margin: 0 0 .75rem; font-weight: 600; }
+  p { margin: 0 0 .5rem; color: #9fb0c0; }
+</style>
+</head><body><div class="card">
+  <h1>无法登录 / Access denied</h1>
+  <p>${safeText}</p>
+  <p>可关闭此窗口。 / You can close this window.</p>
+</div>
+<script>
+  (function () {
+    var errorMsg = ${JSON.stringify(errorMsg)};
+    if (!window.opener) return;
+    window.opener.postMessage("authorizing:github", window.location.origin);
+    var done = false;
+    window.addEventListener("message", function (e) {
+      if (done) return;
+      if (e.data === "authorizing:github") {
+        done = true;
+        window.opener.postMessage(errorMsg, e.origin);
+        window.close();
+      }
+    });
+  })();
+</script></body></html>`;
+
+  return new Response(html, {
+    status: 403,
     headers: { "Content-Type": "text/html; charset=utf-8" },
   });
 }
