@@ -19,48 +19,9 @@ public_folder: "/assets/img"
 publish_mode: editorial_workflow
 
 collections:
-  - name: "pages-en"
-    label: "Pages (English)"
-    files:
-      - name: home-en
-        label: "Home (EN)"
-        file: "en/index.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Description (SEO)", name: "description", widget: "text" }
-          - { label: "Hero Title", name: "heroTitle", widget: "string" }
-          - { label: "Hero Lead", name: "heroLead", widget: "text" }
-      - name: products-en
-        label: "Products (EN)"
-        file: "en/products.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Description (SEO)", name: "description", widget: "text" }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: about-en
-        label: "About (EN)"
-        file: "en/about.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Description (SEO)", name: "description", widget: "text" }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: contact-en
-        label: "Contact (EN)"
-        file: "en/contact.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Description (SEO)", name: "description", widget: "text" }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: news-en
-        label: "News (EN)"
-        file: "en/news.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Description (SEO)", name: "description", widget: "text" }
-          - { label: "Body", name: "body", widget: "markdown" }
-
   - name: "pages-zh"
     label: "Pages (中文)"
+    description: "内容源语种（简体中文）。在这里修改并发布后，GitHub Action 会自动把改动翻译同步到其余 13 个语种，无需手工处理其它语言。"
     files:
       - name: home-zh
         label: "首页 (ZH)"
@@ -70,6 +31,7 @@ collections:
           - { label: "描述 (SEO)", name: "description", widget: "text" }
           - { label: "横幅大标题", name: "heroTitle", widget: "string" }
           - { label: "横幅导语", name: "heroLead", widget: "text" }
+          - { label: "固定网址（由文件路径决定）", name: "permalink", widget: "hidden", default: "/zh/" }
       - name: products-zh
         label: "产品 (ZH)"
         file: "zh/products.md"
@@ -77,6 +39,7 @@ collections:
           - { label: "标题", name: "title", widget: "string" }
           - { label: "描述 (SEO)", name: "description", widget: "text" }
           - { label: "正文", name: "body", widget: "markdown" }
+          - { label: "固定网址（由文件路径决定）", name: "permalink", widget: "hidden", default: "/zh/products/" }
       - name: about-zh
         label: "关于我们 (ZH)"
         file: "zh/about.md"
@@ -84,6 +47,7 @@ collections:
           - { label: "标题", name: "title", widget: "string" }
           - { label: "描述 (SEO)", name: "description", widget: "text" }
           - { label: "正文", name: "body", widget: "markdown" }
+          - { label: "固定网址（由文件路径决定）", name: "permalink", widget: "hidden", default: "/zh/about/" }
       - name: contact-zh
         label: "联系我们 (ZH)"
         file: "zh/contact.md"
@@ -91,6 +55,7 @@ collections:
           - { label: "标题", name: "title", widget: "string" }
           - { label: "描述 (SEO)", name: "description", widget: "text" }
           - { label: "正文", name: "body", widget: "markdown" }
+          - { label: "固定网址（由文件路径决定）", name: "permalink", widget: "hidden", default: "/zh/contact/" }
       - name: news-zh
         label: "新闻 (ZH)"
         file: "zh/news.md"
@@ -98,144 +63,32 @@ collections:
           - { label: "标题", name: "title", widget: "string" }
           - { label: "描述 (SEO)", name: "description", widget: "text" }
           - { label: "正文", name: "body", widget: "markdown" }
+          - { label: "固定网址（由文件路径决定）", name: "permalink", widget: "hidden", default: "/zh/news/" }
 
-  - name: "pages-zh-tw"
-    label: "Pages (繁體中文)"
-    files:
-      - name: home-zh-tw
-        label: "首頁 (ZH-TW)"
-        file: "zh-tw/index.md"
+      - name: privacy-zh
+        label: "隐私政策 (页面)"
+        file: "zh/privacy.md"
         fields:
-          - { label: "標題", name: "title", widget: "string" }
-          - { label: "描述 (SEO)", name: "description", widget: "text" }
-          - { label: "橫幅大標題", name: "heroTitle", widget: "string" }
-          - { label: "橫幅導語", name: "heroLead", widget: "text" }
-      - name: products-zh-tw
-        label: "產品 (ZH-TW)"
-        file: "zh-tw/products.md"
-        fields:
-          - { label: "標題", name: "title", widget: "string" }
+          - { label: "标题", name: "title", widget: "string" }
           - { label: "描述 (SEO)", name: "description", widget: "text" }
           - { label: "正文", name: "body", widget: "markdown" }
-      - name: about-zh-tw
-        label: "關於我們 (ZH-TW)"
-        file: "zh-tw/about.md"
+          - { label: "固定网址（由文件路径决定）", name: "permalink", widget: "hidden", default: "/zh/privacy/" }
+      - name: search-zh
+        label: "搜索（搜索页）"
+        file: "zh/search.md"
         fields:
-          - { label: "標題", name: "title", widget: "string" }
+          - { label: "标题", name: "title", widget: "string" }
           - { label: "描述 (SEO)", name: "description", widget: "text" }
           - { label: "正文", name: "body", widget: "markdown" }
-      - name: contact-zh-tw
-        label: "聯絡我們 (ZH-TW)"
-        file: "zh-tw/contact.md"
-        fields:
-          - { label: "標題", name: "title", widget: "string" }
-          - { label: "描述 (SEO)", name: "description", widget: "text" }
-          - { label: "正文", name: "body", widget: "markdown" }
-      - name: news-zh-tw
-        label: "新聞 (ZH-TW)"
-        file: "zh-tw/news.md"
-        fields:
-          - { label: "標題", name: "title", widget: "string" }
-          - { label: "描述 (SEO)", name: "description", widget: "text" }
-          - { label: "正文", name: "body", widget: "markdown" }
-
-  # ---- AI chat settings: EDITABLE IN THE BACKEND ----
-  # Change model, API base URL (any OpenAI-compatible), system prompt, or
-  # enable/disable the bot here. The secret API key is NOT stored here — it
-  # lives in the Cloudflare Pages env var AI_LLM_API_KEY.
-  - name: "ai-settings"
-    label: "AI Chat Settings"
-    files:
-      - name: settings
-        label: "AI Chat Config"
-        file: "data/settings.json"
-        fields:
-          - { name: enabled, label: "Enable AI auto-reply", widget: boolean }
-          - { name: provider, label: "Provider", widget: string, hint: "openai-compatible" }
-          - { name: apiBaseUrl, label: "API Base URL", widget: string, hint: "e.g. https://api.openai.com/v1 or https://api.deepseek.com/v1" }
-          - { name: model, label: "Model", widget: string, hint: "e.g. gpt-4o-mini / deepseek-chat" }
-          - { name: systemPrompt, label: "System Prompt", widget: text }
-          - { name: fallbackMessage, label: "Fallback Message", widget: text }
-
-  # ---- 新闻文章 · English（可新增/编辑/删除）----
-  - name: "news-en"
-    label: "新闻文章 · English"
-    label_new: "新增新闻 · English"
-    folder: "en/news"
-    create: true
-    delete: true
-    slug: "{{slug}}"
-    editor:
-      preview: false
-    sortable_fields: ["newsDate", "title"]
-    view_filters:
-      - { label: "全部栏目", field: "newsSection", pattern: ".*" }
-      - { label: "Company News", field: "newsSection", pattern: "Company News" }
-      - { label: "Industry News", field: "newsSection", pattern: "Industry News" }
-      - { label: "Industry Frontier", field: "newsSection", pattern: "Industry Frontier" }
-    fields:
-      - { label: "发布日期", name: "newsDate", widget: "string", required: false,
-          pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
-          hint: "格式 YYYY-MM-DD，例 2026-10-03。留空则列表不显示日期；排序按日期由新到旧。" }
-      - { label: "栏目", name: "newsSection", widget: "select",
-          options: ["Company News", "Industry News", "Industry Frontier"], default: "Company News" }
-      - { label: "标题", name: "title", widget: "string" }
-      - { label: "SEO 描述", name: "description", widget: "text",
-          hint: "列表页卡片摘要与搜索结果摘要，写 1-2 句。" }
-      - { label: "URL Slug", name: "newsSlug", widget: "string",
-          hint: "小写英文，用短横线分隔，例 tinico-heat-spreader-dev；建议与文件名保持一致。" }
-      - { label: "正文", name: "body", widget: "markdown" }
-      - { label: "版式", name: "layout", widget: "hidden", default: "news-detail.njk" }
-      - { label: "语言代码", name: "lang", widget: "hidden", default: "en" }
-
-  # ---- 产品介绍 · English（可新增/编辑）----
-  - name: "products-en"
-    label: "产品介绍 · English"
-    label_new: "新增产品 · English"
-    folder: "en/products"
-    create: true
-    delete: true
-    slug: "{{slug}}"
-    editor:
-      preview: false
-    sortable_fields: ["title"]
-    fields:
-      - { label: "产品名称", name: "title", widget: "string" }
-      - { label: "SEO 描述", name: "description", widget: "text",
-          hint: "写 1-2 句，用于搜索结果摘要。" }
-      - { label: "产品锚点 ID", name: "productId", widget: "string",
-          hint: "小写英文短横线，例 strong-grooving-wheels。产品列表的锚点链接会用到。" }
-      - { label: "产品图", name: "productImage", widget: "image", required: false,
-          hint: "先在媒体库上传，再选择文件。" }
-      - label: "产品详情 HTML"
-        name: "body"
-        widget: "code"
-        default: |
-          <div class="product-block">
-            <img class="pb-img" src="/assets/img/your-product.webp" alt="" loading="lazy" />
-            <div>
-              <h2>产品名称</h2>
-              <p>一段产品介绍。</p>
-              <ul class="specs">
-                <li>特点一</li>
-                <li>特点二</li>
-              </ul>
-              <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Request a quote</a></div>
-            </div>
-          </div>
-        hint: "请保留上面的 HTML 结构，只替换引号内的文字；图片地址填已上传的文件；联系按钮的路径必须是 /en/contact/。留空则产品列表不显示该产品。"
-      - { label: "版式", name: "layout", widget: "hidden", default: "product-detail.njk" }
-      - { label: "页面类型", name: "pageType", widget: "hidden", default: "product" }
-      - { label: "语言代码", name: "lang", widget: "hidden", default: "en" }
-
-  # ---- 新闻文章 · 中文（简体）（可新增/编辑/删除）----
+          - { label: "固定网址（由文件路径决定）", name: "permalink", widget: "hidden", default: "/zh/search/" }
   - name: "news-zh"
     label: "新闻文章 · 中文（简体）"
+    description: "内容源语种（简体中文）。在这里修改并发布后，GitHub Action 会自动把改动翻译同步到其余 13 个语种，无需手工处理其它语言。"
     label_new: "新增新闻 · 中文（简体）"
     folder: "zh/news"
     create: true
     delete: true
-    slug: "{{slug}}"
+    slug: "{{newsSlug}}"
     editor:
       preview: false
     sortable_fields: ["newsDate", "title"]
@@ -253,7 +106,7 @@ collections:
       - { label: "标题", name: "title", widget: "string" }
       - { label: "SEO 描述", name: "description", widget: "text",
           hint: "列表页卡片摘要与搜索结果摘要，写 1-2 句。" }
-      - { label: "URL Slug", name: "newsSlug", widget: "string",
+      - { label: "URL Slug", name: "newsSlug", widget: "string", required: true,
           hint: "小写英文，用短横线分隔，例 tinico-heat-spreader-dev；建议与文件名保持一致。" }
       - { label: "正文", name: "body", widget: "markdown" }
       - { label: "版式", name: "layout", widget: "hidden", default: "news-detail.njk" }
@@ -262,11 +115,12 @@ collections:
   # ---- 产品介绍 · 中文（简体）（可新增/编辑）----
   - name: "products-zh"
     label: "产品介绍 · 中文（简体）"
+    description: "内容源语种（简体中文）。在这里修改并发布后，GitHub Action 会自动把改动翻译同步到其余 13 个语种，无需手工处理其它语言。"
     label_new: "新增产品 · 中文（简体）"
     folder: "zh/products"
     create: true
     delete: true
-    slug: "{{slug}}"
+    slug: "{{productId}}"
     editor:
       preview: false
     sortable_fields: ["title"]
@@ -274,7 +128,8 @@ collections:
       - { label: "产品名称", name: "title", widget: "string" }
       - { label: "SEO 描述", name: "description", widget: "text",
           hint: "写 1-2 句，用于搜索结果摘要。" }
-      - { label: "产品锚点 ID", name: "productId", widget: "string",
+      - { label: "卡片简介", name: "summary", widget: "text", hint: "首页与产品列表卡片上的简介文字（1-2 句）。" }
+      - { label: "产品锚点 ID", name: "productId", widget: "string", required: true,
           hint: "小写英文短横线，例 strong-grooving-wheels。产品列表的锚点链接会用到。" }
       - { label: "产品图", name: "productImage", widget: "image", required: false,
           hint: "先在媒体库上传，再选择文件。" }
@@ -300,13 +155,686 @@ collections:
       - { label: "语言代码", name: "lang", widget: "hidden", default: "zh" }
 
   # ---- 新闻文章 · 繁體中文（可新增/编辑/删除）----
+  - name: "ui-strings"
+    label: "界面文案 · UI Strings（中文为源，其它语言自动翻译）"
+    description: "界面文案（按钮、页脚、搜索框等）。这里只维护中文一列，其余 13 个语种会自动翻译。"
+    files:
+      - name: ui-strings
+        label: "界面文案（14 语言）"
+        file: "data/i18n.json"
+        fields:
+          - { label: "en（English）", name: "en", widget: "object", collapsed: true,
+              fields: [
+                { label: "按钮：查看产品", name: "view", widget: "string" },
+                { label: "按钮：获取报价", name: "quote", widget: "string" },
+                { label: "板块标题：核心产品", name: "core", widget: "string" },
+                { label: "链接：了解更多", name: "learn", widget: "string" },
+                { label: "板块标题：为什么选择我们", name: "why", widget: "string" },
+                { label: "文案：有项目要谈", name: "project", widget: "string" },
+                { label: "按钮：AI 在线咨询", name: "ai", widget: "string" },
+                { label: "优势 1", name: "why1", widget: "string" },
+                { label: "优势 2", name: "why2", widget: "string" },
+                { label: "优势 3", name: "why3", widget: "string" },
+                { label: "优势 4", name: "why4", widget: "string" },
+                { label: "搜索页标题", name: "search_title", widget: "string" },
+                { label: "搜索框提示文字", name: "search_ph", widget: "string" },
+                { label: "搜索按钮", name: "search_go", widget: "string" },
+                { label: "结果数量文字（如：条结果）", name: "search_found", widget: "string" },
+                { label: "无结果文字", name: "search_none", widget: "string" },
+              ] }
+          - { label: "zh（简体中文）", name: "zh", widget: "object", collapsed: true,
+              fields: [
+                { label: "按钮：查看产品", name: "view", widget: "string" },
+                { label: "按钮：获取报价", name: "quote", widget: "string" },
+                { label: "板块标题：核心产品", name: "core", widget: "string" },
+                { label: "链接：了解更多", name: "learn", widget: "string" },
+                { label: "板块标题：为什么选择我们", name: "why", widget: "string" },
+                { label: "文案：有项目要谈", name: "project", widget: "string" },
+                { label: "按钮：AI 在线咨询", name: "ai", widget: "string" },
+                { label: "优势 1", name: "why1", widget: "string" },
+                { label: "优势 2", name: "why2", widget: "string" },
+                { label: "优势 3", name: "why3", widget: "string" },
+                { label: "优势 4", name: "why4", widget: "string" },
+                { label: "搜索页标题", name: "search_title", widget: "string" },
+                { label: "搜索框提示文字", name: "search_ph", widget: "string" },
+                { label: "搜索按钮", name: "search_go", widget: "string" },
+                { label: "结果数量文字（如：条结果）", name: "search_found", widget: "string" },
+                { label: "无结果文字", name: "search_none", widget: "string" },
+              ] }
+          - { label: "zh-tw（繁體中文）", name: "zh-tw", widget: "object", collapsed: true,
+              fields: [
+                { label: "按钮：查看产品", name: "view", widget: "string" },
+                { label: "按钮：获取报价", name: "quote", widget: "string" },
+                { label: "板块标题：核心产品", name: "core", widget: "string" },
+                { label: "链接：了解更多", name: "learn", widget: "string" },
+                { label: "板块标题：为什么选择我们", name: "why", widget: "string" },
+                { label: "文案：有项目要谈", name: "project", widget: "string" },
+                { label: "按钮：AI 在线咨询", name: "ai", widget: "string" },
+                { label: "优势 1", name: "why1", widget: "string" },
+                { label: "优势 2", name: "why2", widget: "string" },
+                { label: "优势 3", name: "why3", widget: "string" },
+                { label: "优势 4", name: "why4", widget: "string" },
+                { label: "搜索页标题", name: "search_title", widget: "string" },
+                { label: "搜索框提示文字", name: "search_ph", widget: "string" },
+                { label: "搜索按钮", name: "search_go", widget: "string" },
+                { label: "结果数量文字（如：条结果）", name: "search_found", widget: "string" },
+                { label: "无结果文字", name: "search_none", widget: "string" },
+              ] }
+          - { label: "de（Deutsch）", name: "de", widget: "object", collapsed: true,
+              fields: [
+                { label: "按钮：查看产品", name: "view", widget: "string" },
+                { label: "按钮：获取报价", name: "quote", widget: "string" },
+                { label: "板块标题：核心产品", name: "core", widget: "string" },
+                { label: "链接：了解更多", name: "learn", widget: "string" },
+                { label: "板块标题：为什么选择我们", name: "why", widget: "string" },
+                { label: "文案：有项目要谈", name: "project", widget: "string" },
+                { label: "按钮：AI 在线咨询", name: "ai", widget: "string" },
+                { label: "优势 1", name: "why1", widget: "string" },
+                { label: "优势 2", name: "why2", widget: "string" },
+                { label: "优势 3", name: "why3", widget: "string" },
+                { label: "优势 4", name: "why4", widget: "string" },
+                { label: "搜索页标题", name: "search_title", widget: "string" },
+                { label: "搜索框提示文字", name: "search_ph", widget: "string" },
+                { label: "搜索按钮", name: "search_go", widget: "string" },
+                { label: "结果数量文字（如：条结果）", name: "search_found", widget: "string" },
+                { label: "无结果文字", name: "search_none", widget: "string" },
+              ] }
+          - { label: "ja（日本語）", name: "ja", widget: "object", collapsed: true,
+              fields: [
+                { label: "按钮：查看产品", name: "view", widget: "string" },
+                { label: "按钮：获取报价", name: "quote", widget: "string" },
+                { label: "板块标题：核心产品", name: "core", widget: "string" },
+                { label: "链接：了解更多", name: "learn", widget: "string" },
+                { label: "板块标题：为什么选择我们", name: "why", widget: "string" },
+                { label: "文案：有项目要谈", name: "project", widget: "string" },
+                { label: "按钮：AI 在线咨询", name: "ai", widget: "string" },
+                { label: "优势 1", name: "why1", widget: "string" },
+                { label: "优势 2", name: "why2", widget: "string" },
+                { label: "优势 3", name: "why3", widget: "string" },
+                { label: "优势 4", name: "why4", widget: "string" },
+                { label: "搜索页标题", name: "search_title", widget: "string" },
+                { label: "搜索框提示文字", name: "search_ph", widget: "string" },
+                { label: "搜索按钮", name: "search_go", widget: "string" },
+                { label: "结果数量文字（如：条结果）", name: "search_found", widget: "string" },
+                { label: "无结果文字", name: "search_none", widget: "string" },
+              ] }
+          - { label: "ko（한국어）", name: "ko", widget: "object", collapsed: true,
+              fields: [
+                { label: "按钮：查看产品", name: "view", widget: "string" },
+                { label: "按钮：获取报价", name: "quote", widget: "string" },
+                { label: "板块标题：核心产品", name: "core", widget: "string" },
+                { label: "链接：了解更多", name: "learn", widget: "string" },
+                { label: "板块标题：为什么选择我们", name: "why", widget: "string" },
+                { label: "文案：有项目要谈", name: "project", widget: "string" },
+                { label: "按钮：AI 在线咨询", name: "ai", widget: "string" },
+                { label: "优势 1", name: "why1", widget: "string" },
+                { label: "优势 2", name: "why2", widget: "string" },
+                { label: "优势 3", name: "why3", widget: "string" },
+                { label: "优势 4", name: "why4", widget: "string" },
+                { label: "搜索页标题", name: "search_title", widget: "string" },
+                { label: "搜索框提示文字", name: "search_ph", widget: "string" },
+                { label: "搜索按钮", name: "search_go", widget: "string" },
+                { label: "结果数量文字（如：条结果）", name: "search_found", widget: "string" },
+                { label: "无结果文字", name: "search_none", widget: "string" },
+              ] }
+          - { label: "ru（Русский）", name: "ru", widget: "object", collapsed: true,
+              fields: [
+                { label: "按钮：查看产品", name: "view", widget: "string" },
+                { label: "按钮：获取报价", name: "quote", widget: "string" },
+                { label: "板块标题：核心产品", name: "core", widget: "string" },
+                { label: "链接：了解更多", name: "learn", widget: "string" },
+                { label: "板块标题：为什么选择我们", name: "why", widget: "string" },
+                { label: "文案：有项目要谈", name: "project", widget: "string" },
+                { label: "按钮：AI 在线咨询", name: "ai", widget: "string" },
+                { label: "优势 1", name: "why1", widget: "string" },
+                { label: "优势 2", name: "why2", widget: "string" },
+                { label: "优势 3", name: "why3", widget: "string" },
+                { label: "优势 4", name: "why4", widget: "string" },
+                { label: "搜索页标题", name: "search_title", widget: "string" },
+                { label: "搜索框提示文字", name: "search_ph", widget: "string" },
+                { label: "搜索按钮", name: "search_go", widget: "string" },
+                { label: "结果数量文字（如：条结果）", name: "search_found", widget: "string" },
+                { label: "无结果文字", name: "search_none", widget: "string" },
+              ] }
+          - { label: "es（Español）", name: "es", widget: "object", collapsed: true,
+              fields: [
+                { label: "按钮：查看产品", name: "view", widget: "string" },
+                { label: "按钮：获取报价", name: "quote", widget: "string" },
+                { label: "板块标题：核心产品", name: "core", widget: "string" },
+                { label: "链接：了解更多", name: "learn", widget: "string" },
+                { label: "板块标题：为什么选择我们", name: "why", widget: "string" },
+                { label: "文案：有项目要谈", name: "project", widget: "string" },
+                { label: "按钮：AI 在线咨询", name: "ai", widget: "string" },
+                { label: "优势 1", name: "why1", widget: "string" },
+                { label: "优势 2", name: "why2", widget: "string" },
+                { label: "优势 3", name: "why3", widget: "string" },
+                { label: "优势 4", name: "why4", widget: "string" },
+                { label: "搜索页标题", name: "search_title", widget: "string" },
+                { label: "搜索框提示文字", name: "search_ph", widget: "string" },
+                { label: "搜索按钮", name: "search_go", widget: "string" },
+                { label: "结果数量文字（如：条结果）", name: "search_found", widget: "string" },
+                { label: "无结果文字", name: "search_none", widget: "string" },
+              ] }
+          - { label: "pt（Português）", name: "pt", widget: "object", collapsed: true,
+              fields: [
+                { label: "按钮：查看产品", name: "view", widget: "string" },
+                { label: "按钮：获取报价", name: "quote", widget: "string" },
+                { label: "板块标题：核心产品", name: "core", widget: "string" },
+                { label: "链接：了解更多", name: "learn", widget: "string" },
+                { label: "板块标题：为什么选择我们", name: "why", widget: "string" },
+                { label: "文案：有项目要谈", name: "project", widget: "string" },
+                { label: "按钮：AI 在线咨询", name: "ai", widget: "string" },
+                { label: "优势 1", name: "why1", widget: "string" },
+                { label: "优势 2", name: "why2", widget: "string" },
+                { label: "优势 3", name: "why3", widget: "string" },
+                { label: "优势 4", name: "why4", widget: "string" },
+                { label: "搜索页标题", name: "search_title", widget: "string" },
+                { label: "搜索框提示文字", name: "search_ph", widget: "string" },
+                { label: "搜索按钮", name: "search_go", widget: "string" },
+                { label: "结果数量文字（如：条结果）", name: "search_found", widget: "string" },
+                { label: "无结果文字", name: "search_none", widget: "string" },
+              ] }
+          - { label: "fr（Français）", name: "fr", widget: "object", collapsed: true,
+              fields: [
+                { label: "按钮：查看产品", name: "view", widget: "string" },
+                { label: "按钮：获取报价", name: "quote", widget: "string" },
+                { label: "板块标题：核心产品", name: "core", widget: "string" },
+                { label: "链接：了解更多", name: "learn", widget: "string" },
+                { label: "板块标题：为什么选择我们", name: "why", widget: "string" },
+                { label: "文案：有项目要谈", name: "project", widget: "string" },
+                { label: "按钮：AI 在线咨询", name: "ai", widget: "string" },
+                { label: "优势 1", name: "why1", widget: "string" },
+                { label: "优势 2", name: "why2", widget: "string" },
+                { label: "优势 3", name: "why3", widget: "string" },
+                { label: "优势 4", name: "why4", widget: "string" },
+                { label: "搜索页标题", name: "search_title", widget: "string" },
+                { label: "搜索框提示文字", name: "search_ph", widget: "string" },
+                { label: "搜索按钮", name: "search_go", widget: "string" },
+                { label: "结果数量文字（如：条结果）", name: "search_found", widget: "string" },
+                { label: "无结果文字", name: "search_none", widget: "string" },
+              ] }
+          - { label: "it（Italiano）", name: "it", widget: "object", collapsed: true,
+              fields: [
+                { label: "按钮：查看产品", name: "view", widget: "string" },
+                { label: "按钮：获取报价", name: "quote", widget: "string" },
+                { label: "板块标题：核心产品", name: "core", widget: "string" },
+                { label: "链接：了解更多", name: "learn", widget: "string" },
+                { label: "板块标题：为什么选择我们", name: "why", widget: "string" },
+                { label: "文案：有项目要谈", name: "project", widget: "string" },
+                { label: "按钮：AI 在线咨询", name: "ai", widget: "string" },
+                { label: "优势 1", name: "why1", widget: "string" },
+                { label: "优势 2", name: "why2", widget: "string" },
+                { label: "优势 3", name: "why3", widget: "string" },
+                { label: "优势 4", name: "why4", widget: "string" },
+                { label: "搜索页标题", name: "search_title", widget: "string" },
+                { label: "搜索框提示文字", name: "search_ph", widget: "string" },
+                { label: "搜索按钮", name: "search_go", widget: "string" },
+                { label: "结果数量文字（如：条结果）", name: "search_found", widget: "string" },
+                { label: "无结果文字", name: "search_none", widget: "string" },
+              ] }
+          - { label: "tr（Türkçe）", name: "tr", widget: "object", collapsed: true,
+              fields: [
+                { label: "按钮：查看产品", name: "view", widget: "string" },
+                { label: "按钮：获取报价", name: "quote", widget: "string" },
+                { label: "板块标题：核心产品", name: "core", widget: "string" },
+                { label: "链接：了解更多", name: "learn", widget: "string" },
+                { label: "板块标题：为什么选择我们", name: "why", widget: "string" },
+                { label: "文案：有项目要谈", name: "project", widget: "string" },
+                { label: "按钮：AI 在线咨询", name: "ai", widget: "string" },
+                { label: "优势 1", name: "why1", widget: "string" },
+                { label: "优势 2", name: "why2", widget: "string" },
+                { label: "优势 3", name: "why3", widget: "string" },
+                { label: "优势 4", name: "why4", widget: "string" },
+                { label: "搜索页标题", name: "search_title", widget: "string" },
+                { label: "搜索框提示文字", name: "search_ph", widget: "string" },
+                { label: "搜索按钮", name: "search_go", widget: "string" },
+                { label: "结果数量文字（如：条结果）", name: "search_found", widget: "string" },
+                { label: "无结果文字", name: "search_none", widget: "string" },
+              ] }
+          - { label: "ar（العربية）", name: "ar", widget: "object", collapsed: true,
+              fields: [
+                { label: "按钮：查看产品", name: "view", widget: "string" },
+                { label: "按钮：获取报价", name: "quote", widget: "string" },
+                { label: "板块标题：核心产品", name: "core", widget: "string" },
+                { label: "链接：了解更多", name: "learn", widget: "string" },
+                { label: "板块标题：为什么选择我们", name: "why", widget: "string" },
+                { label: "文案：有项目要谈", name: "project", widget: "string" },
+                { label: "按钮：AI 在线咨询", name: "ai", widget: "string" },
+                { label: "优势 1", name: "why1", widget: "string" },
+                { label: "优势 2", name: "why2", widget: "string" },
+                { label: "优势 3", name: "why3", widget: "string" },
+                { label: "优势 4", name: "why4", widget: "string" },
+                { label: "搜索页标题", name: "search_title", widget: "string" },
+                { label: "搜索框提示文字", name: "search_ph", widget: "string" },
+                { label: "搜索按钮", name: "search_go", widget: "string" },
+                { label: "结果数量文字（如：条结果）", name: "search_found", widget: "string" },
+                { label: "无结果文字", name: "search_none", widget: "string" },
+              ] }
+          - { label: "vi（Tiếng Việt）", name: "vi", widget: "object", collapsed: true,
+              fields: [
+                { label: "按钮：查看产品", name: "view", widget: "string" },
+                { label: "按钮：获取报价", name: "quote", widget: "string" },
+                { label: "板块标题：核心产品", name: "core", widget: "string" },
+                { label: "链接：了解更多", name: "learn", widget: "string" },
+                { label: "板块标题：为什么选择我们", name: "why", widget: "string" },
+                { label: "文案：有项目要谈", name: "project", widget: "string" },
+                { label: "按钮：AI 在线咨询", name: "ai", widget: "string" },
+                { label: "优势 1", name: "why1", widget: "string" },
+                { label: "优势 2", name: "why2", widget: "string" },
+                { label: "优势 3", name: "why3", widget: "string" },
+                { label: "优势 4", name: "why4", widget: "string" },
+                { label: "搜索页标题", name: "search_title", widget: "string" },
+                { label: "搜索框提示文字", name: "search_ph", widget: "string" },
+                { label: "搜索按钮", name: "search_go", widget: "string" },
+                { label: "结果数量文字（如：条结果）", name: "search_found", widget: "string" },
+                { label: "无结果文字", name: "search_none", widget: "string" },
+              ] }
+
+  - name: "site-info"
+    label: "站点信息 · Site Info"
+    description: "站点信息（品牌名、联系方式、导航、页脚）。这里只维护中文相关的字段，其余语种会自动翻译。"
+    files:
+      - name: site-info
+        label: "站点信息"
+        file: "data/site.json"
+        fields:
+          - { label: "公司全称（英文）", name: "name", widget: "string", required: false }
+          - { label: "公司全称（中文）", name: "nameZh", widget: "string", required: false }
+          - { label: "公司全称（繁体）", name: "nameZhTw", widget: "string", required: false }
+          - { label: "品牌简称", name: "shortName", widget: "string", required: false }
+          - { label: "域名（用于 canonical/hreflang）", name: "domain", widget: "string", required: false }
+          - { label: "Logo", name: "logo", widget: "image", required: false }
+          - { label: "产品手册 PDF", name: "brochure", widget: "file", required: false }
+          - { label: "邮箱", name: "email", widget: "string", required: false }
+          - { label: "电话", name: "phone", widget: "string", required: false }
+          - { label: "微信", name: "wechat", widget: "string", required: false }
+          - { label: "WhatsApp 号码（含国家码，不带 +）", name: "whatsapp", widget: "string", required: false }
+          - { label: "地址（英文）", name: "address", widget: "string", required: false }
+          - { label: "地址（中文）", name: "addressZh", widget: "string", required: false }
+          - { label: "地址（繁体）", name: "addressZhTw", widget: "string", required: false }
+          - { label: "LinkedIn", name: "linkedin", widget: "string", required: false }
+          - { label: "YouTube", name: "youtube", widget: "string", required: false }
+          - { label: "在线客服 ID（Tawk.to）", name: "tawkPropertyId", widget: "string", required: false }
+          - { label: "询价表单密钥（Web3Forms）", name: "web3formsKey", widget: "string", required: false }
+          - { label: "默认语言", name: "defaultLang", widget: "string", required: false }
+          - { label: "回退语言", name: "fallbackLang", widget: "string", required: false }
+          - { label: "AI 接口路径", name: "aiChatPath", widget: "string", required: false }
+          - label: "多语言品牌与标题"
+            name: "brandPerLang"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "en · English", name: "en", widget: "object", collapsed: true,
+                  fields: [
+                    { label: "标题后缀（<title>）", name: "suffix", widget: "string" },
+                    { label: "默认 SEO 描述", name: "desc", widget: "string" },
+                    { label: "首页标题", name: "title", widget: "string" },
+                  ] }
+              - { label: "zh · 简体中文", name: "zh", widget: "object", collapsed: true,
+                  fields: [
+                    { label: "标题后缀（<title>）", name: "suffix", widget: "string" },
+                    { label: "默认 SEO 描述", name: "desc", widget: "string" },
+                    { label: "首页标题", name: "title", widget: "string" },
+                  ] }
+              - { label: "zh-tw · 繁體中文", name: "zh-tw", widget: "object", collapsed: true,
+                  fields: [
+                    { label: "标题后缀（<title>）", name: "suffix", widget: "string" },
+                    { label: "默认 SEO 描述", name: "desc", widget: "string" },
+                    { label: "首页标题", name: "title", widget: "string" },
+                  ] }
+              - { label: "de · Deutsch", name: "de", widget: "object", collapsed: true,
+                  fields: [
+                    { label: "标题后缀（<title>）", name: "suffix", widget: "string" },
+                    { label: "默认 SEO 描述", name: "desc", widget: "string" },
+                    { label: "首页标题", name: "title", widget: "string" },
+                  ] }
+              - { label: "ja · 日本語", name: "ja", widget: "object", collapsed: true,
+                  fields: [
+                    { label: "标题后缀（<title>）", name: "suffix", widget: "string" },
+                    { label: "默认 SEO 描述", name: "desc", widget: "string" },
+                    { label: "首页标题", name: "title", widget: "string" },
+                  ] }
+              - { label: "ko · 한국어", name: "ko", widget: "object", collapsed: true,
+                  fields: [
+                    { label: "标题后缀（<title>）", name: "suffix", widget: "string" },
+                    { label: "默认 SEO 描述", name: "desc", widget: "string" },
+                    { label: "首页标题", name: "title", widget: "string" },
+                  ] }
+              - { label: "ru · Русский", name: "ru", widget: "object", collapsed: true,
+                  fields: [
+                    { label: "标题后缀（<title>）", name: "suffix", widget: "string" },
+                    { label: "默认 SEO 描述", name: "desc", widget: "string" },
+                    { label: "首页标题", name: "title", widget: "string" },
+                  ] }
+              - { label: "es · Español", name: "es", widget: "object", collapsed: true,
+                  fields: [
+                    { label: "标题后缀（<title>）", name: "suffix", widget: "string" },
+                    { label: "默认 SEO 描述", name: "desc", widget: "string" },
+                    { label: "首页标题", name: "title", widget: "string" },
+                  ] }
+              - { label: "pt · Português", name: "pt", widget: "object", collapsed: true,
+                  fields: [
+                    { label: "标题后缀（<title>）", name: "suffix", widget: "string" },
+                    { label: "默认 SEO 描述", name: "desc", widget: "string" },
+                    { label: "首页标题", name: "title", widget: "string" },
+                  ] }
+              - { label: "fr · Français", name: "fr", widget: "object", collapsed: true,
+                  fields: [
+                    { label: "标题后缀（<title>）", name: "suffix", widget: "string" },
+                    { label: "默认 SEO 描述", name: "desc", widget: "string" },
+                    { label: "首页标题", name: "title", widget: "string" },
+                  ] }
+              - { label: "it · Italiano", name: "it", widget: "object", collapsed: true,
+                  fields: [
+                    { label: "标题后缀（<title>）", name: "suffix", widget: "string" },
+                    { label: "默认 SEO 描述", name: "desc", widget: "string" },
+                    { label: "首页标题", name: "title", widget: "string" },
+                  ] }
+              - { label: "tr · Türkçe", name: "tr", widget: "object", collapsed: true,
+                  fields: [
+                    { label: "标题后缀（<title>）", name: "suffix", widget: "string" },
+                    { label: "默认 SEO 描述", name: "desc", widget: "string" },
+                    { label: "首页标题", name: "title", widget: "string" },
+                  ] }
+              - { label: "ar · العربية", name: "ar", widget: "object", collapsed: true,
+                  fields: [
+                    { label: "标题后缀（<title>）", name: "suffix", widget: "string" },
+                    { label: "默认 SEO 描述", name: "desc", widget: "string" },
+                    { label: "首页标题", name: "title", widget: "string" },
+                  ] }
+              - { label: "vi · Tiếng Việt", name: "vi", widget: "object", collapsed: true,
+                  fields: [
+                    { label: "标题后缀（<title>）", name: "suffix", widget: "string" },
+                    { label: "默认 SEO 描述", name: "desc", widget: "string" },
+                    { label: "首页标题", name: "title", widget: "string" },
+                  ] }
+          - label: "页脚与聊天窗文案"
+            name: "footerPerLang"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "en · English", name: "en", widget: "object", collapsed: true,
+                  fields: [
+                    { label: "小标题：实时询价", name: "inquiry", widget: "string" },
+                    { label: "链接：提交询价", name: "rfq", widget: "string" },
+                    { label: "小标题：快捷链接", name: "quickLinks", widget: "string" },
+                    { label: "版权行", name: "rights", widget: "string" },
+                    { label: "按钮：AI 咨询", name: "aiBtn", widget: "string" },
+                    { label: "聊天窗标题", name: "chatPanel", widget: "string" },
+                    { label: "聊天输入框提示", name: "chatInput", widget: "string" },
+                    { label: "聊天发送按钮", name: "chatSend", widget: "string" },
+                    { label: "聊天欢迎语", name: "chatWelcome", widget: "string" },
+                    { label: "隐私政策链接文字", name: "privacy", widget: "string" },
+                  ] }
+              - { label: "zh · 简体中文", name: "zh", widget: "object", collapsed: true,
+                  fields: [
+                    { label: "小标题：实时询价", name: "inquiry", widget: "string" },
+                    { label: "链接：提交询价", name: "rfq", widget: "string" },
+                    { label: "小标题：快捷链接", name: "quickLinks", widget: "string" },
+                    { label: "版权行", name: "rights", widget: "string" },
+                    { label: "按钮：AI 咨询", name: "aiBtn", widget: "string" },
+                    { label: "聊天窗标题", name: "chatPanel", widget: "string" },
+                    { label: "聊天输入框提示", name: "chatInput", widget: "string" },
+                    { label: "聊天发送按钮", name: "chatSend", widget: "string" },
+                    { label: "聊天欢迎语", name: "chatWelcome", widget: "string" },
+                    { label: "隐私政策链接文字", name: "privacy", widget: "string" },
+                  ] }
+              - { label: "zh-tw · 繁體中文", name: "zh-tw", widget: "object", collapsed: true,
+                  fields: [
+                    { label: "小标题：实时询价", name: "inquiry", widget: "string" },
+                    { label: "链接：提交询价", name: "rfq", widget: "string" },
+                    { label: "小标题：快捷链接", name: "quickLinks", widget: "string" },
+                    { label: "版权行", name: "rights", widget: "string" },
+                    { label: "按钮：AI 咨询", name: "aiBtn", widget: "string" },
+                    { label: "聊天窗标题", name: "chatPanel", widget: "string" },
+                    { label: "聊天输入框提示", name: "chatInput", widget: "string" },
+                    { label: "聊天发送按钮", name: "chatSend", widget: "string" },
+                    { label: "聊天欢迎语", name: "chatWelcome", widget: "string" },
+                    { label: "隐私政策链接文字", name: "privacy", widget: "string" },
+                  ] }
+              - { label: "de · Deutsch", name: "de", widget: "object", collapsed: true,
+                  fields: [
+                    { label: "小标题：实时询价", name: "inquiry", widget: "string" },
+                    { label: "链接：提交询价", name: "rfq", widget: "string" },
+                    { label: "小标题：快捷链接", name: "quickLinks", widget: "string" },
+                    { label: "版权行", name: "rights", widget: "string" },
+                    { label: "按钮：AI 咨询", name: "aiBtn", widget: "string" },
+                    { label: "聊天窗标题", name: "chatPanel", widget: "string" },
+                    { label: "聊天输入框提示", name: "chatInput", widget: "string" },
+                    { label: "聊天发送按钮", name: "chatSend", widget: "string" },
+                    { label: "聊天欢迎语", name: "chatWelcome", widget: "string" },
+                    { label: "隐私政策链接文字", name: "privacy", widget: "string" },
+                  ] }
+              - { label: "ja · 日本語", name: "ja", widget: "object", collapsed: true,
+                  fields: [
+                    { label: "小标题：实时询价", name: "inquiry", widget: "string" },
+                    { label: "链接：提交询价", name: "rfq", widget: "string" },
+                    { label: "小标题：快捷链接", name: "quickLinks", widget: "string" },
+                    { label: "版权行", name: "rights", widget: "string" },
+                    { label: "按钮：AI 咨询", name: "aiBtn", widget: "string" },
+                    { label: "聊天窗标题", name: "chatPanel", widget: "string" },
+                    { label: "聊天输入框提示", name: "chatInput", widget: "string" },
+                    { label: "聊天发送按钮", name: "chatSend", widget: "string" },
+                    { label: "聊天欢迎语", name: "chatWelcome", widget: "string" },
+                    { label: "隐私政策链接文字", name: "privacy", widget: "string" },
+                  ] }
+              - { label: "ko · 한국어", name: "ko", widget: "object", collapsed: true,
+                  fields: [
+                    { label: "小标题：实时询价", name: "inquiry", widget: "string" },
+                    { label: "链接：提交询价", name: "rfq", widget: "string" },
+                    { label: "小标题：快捷链接", name: "quickLinks", widget: "string" },
+                    { label: "版权行", name: "rights", widget: "string" },
+                    { label: "按钮：AI 咨询", name: "aiBtn", widget: "string" },
+                    { label: "聊天窗标题", name: "chatPanel", widget: "string" },
+                    { label: "聊天输入框提示", name: "chatInput", widget: "string" },
+                    { label: "聊天发送按钮", name: "chatSend", widget: "string" },
+                    { label: "聊天欢迎语", name: "chatWelcome", widget: "string" },
+                    { label: "隐私政策链接文字", name: "privacy", widget: "string" },
+                  ] }
+              - { label: "ru · Русский", name: "ru", widget: "object", collapsed: true,
+                  fields: [
+                    { label: "小标题：实时询价", name: "inquiry", widget: "string" },
+                    { label: "链接：提交询价", name: "rfq", widget: "string" },
+                    { label: "小标题：快捷链接", name: "quickLinks", widget: "string" },
+                    { label: "版权行", name: "rights", widget: "string" },
+                    { label: "按钮：AI 咨询", name: "aiBtn", widget: "string" },
+                    { label: "聊天窗标题", name: "chatPanel", widget: "string" },
+                    { label: "聊天输入框提示", name: "chatInput", widget: "string" },
+                    { label: "聊天发送按钮", name: "chatSend", widget: "string" },
+                    { label: "聊天欢迎语", name: "chatWelcome", widget: "string" },
+                    { label: "隐私政策链接文字", name: "privacy", widget: "string" },
+                  ] }
+              - { label: "es · Español", name: "es", widget: "object", collapsed: true,
+                  fields: [
+                    { label: "小标题：实时询价", name: "inquiry", widget: "string" },
+                    { label: "链接：提交询价", name: "rfq", widget: "string" },
+                    { label: "小标题：快捷链接", name: "quickLinks", widget: "string" },
+                    { label: "版权行", name: "rights", widget: "string" },
+                    { label: "按钮：AI 咨询", name: "aiBtn", widget: "string" },
+                    { label: "聊天窗标题", name: "chatPanel", widget: "string" },
+                    { label: "聊天输入框提示", name: "chatInput", widget: "string" },
+                    { label: "聊天发送按钮", name: "chatSend", widget: "string" },
+                    { label: "聊天欢迎语", name: "chatWelcome", widget: "string" },
+                    { label: "隐私政策链接文字", name: "privacy", widget: "string" },
+                  ] }
+              - { label: "pt · Português", name: "pt", widget: "object", collapsed: true,
+                  fields: [
+                    { label: "小标题：实时询价", name: "inquiry", widget: "string" },
+                    { label: "链接：提交询价", name: "rfq", widget: "string" },
+                    { label: "小标题：快捷链接", name: "quickLinks", widget: "string" },
+                    { label: "版权行", name: "rights", widget: "string" },
+                    { label: "按钮：AI 咨询", name: "aiBtn", widget: "string" },
+                    { label: "聊天窗标题", name: "chatPanel", widget: "string" },
+                    { label: "聊天输入框提示", name: "chatInput", widget: "string" },
+                    { label: "聊天发送按钮", name: "chatSend", widget: "string" },
+                    { label: "聊天欢迎语", name: "chatWelcome", widget: "string" },
+                    { label: "隐私政策链接文字", name: "privacy", widget: "string" },
+                  ] }
+              - { label: "fr · Français", name: "fr", widget: "object", collapsed: true,
+                  fields: [
+                    { label: "小标题：实时询价", name: "inquiry", widget: "string" },
+                    { label: "链接：提交询价", name: "rfq", widget: "string" },
+                    { label: "小标题：快捷链接", name: "quickLinks", widget: "string" },
+                    { label: "版权行", name: "rights", widget: "string" },
+                    { label: "按钮：AI 咨询", name: "aiBtn", widget: "string" },
+                    { label: "聊天窗标题", name: "chatPanel", widget: "string" },
+                    { label: "聊天输入框提示", name: "chatInput", widget: "string" },
+                    { label: "聊天发送按钮", name: "chatSend", widget: "string" },
+                    { label: "聊天欢迎语", name: "chatWelcome", widget: "string" },
+                    { label: "隐私政策链接文字", name: "privacy", widget: "string" },
+                  ] }
+              - { label: "it · Italiano", name: "it", widget: "object", collapsed: true,
+                  fields: [
+                    { label: "小标题：实时询价", name: "inquiry", widget: "string" },
+                    { label: "链接：提交询价", name: "rfq", widget: "string" },
+                    { label: "小标题：快捷链接", name: "quickLinks", widget: "string" },
+                    { label: "版权行", name: "rights", widget: "string" },
+                    { label: "按钮：AI 咨询", name: "aiBtn", widget: "string" },
+                    { label: "聊天窗标题", name: "chatPanel", widget: "string" },
+                    { label: "聊天输入框提示", name: "chatInput", widget: "string" },
+                    { label: "聊天发送按钮", name: "chatSend", widget: "string" },
+                    { label: "聊天欢迎语", name: "chatWelcome", widget: "string" },
+                    { label: "隐私政策链接文字", name: "privacy", widget: "string" },
+                  ] }
+              - { label: "tr · Türkçe", name: "tr", widget: "object", collapsed: true,
+                  fields: [
+                    { label: "小标题：实时询价", name: "inquiry", widget: "string" },
+                    { label: "链接：提交询价", name: "rfq", widget: "string" },
+                    { label: "小标题：快捷链接", name: "quickLinks", widget: "string" },
+                    { label: "版权行", name: "rights", widget: "string" },
+                    { label: "按钮：AI 咨询", name: "aiBtn", widget: "string" },
+                    { label: "聊天窗标题", name: "chatPanel", widget: "string" },
+                    { label: "聊天输入框提示", name: "chatInput", widget: "string" },
+                    { label: "聊天发送按钮", name: "chatSend", widget: "string" },
+                    { label: "聊天欢迎语", name: "chatWelcome", widget: "string" },
+                    { label: "隐私政策链接文字", name: "privacy", widget: "string" },
+                  ] }
+              - { label: "ar · العربية", name: "ar", widget: "object", collapsed: true,
+                  fields: [
+                    { label: "小标题：实时询价", name: "inquiry", widget: "string" },
+                    { label: "链接：提交询价", name: "rfq", widget: "string" },
+                    { label: "小标题：快捷链接", name: "quickLinks", widget: "string" },
+                    { label: "版权行", name: "rights", widget: "string" },
+                    { label: "按钮：AI 咨询", name: "aiBtn", widget: "string" },
+                    { label: "聊天窗标题", name: "chatPanel", widget: "string" },
+                    { label: "聊天输入框提示", name: "chatInput", widget: "string" },
+                    { label: "聊天发送按钮", name: "chatSend", widget: "string" },
+                    { label: "聊天欢迎语", name: "chatWelcome", widget: "string" },
+                    { label: "隐私政策链接文字", name: "privacy", widget: "string" },
+                  ] }
+              - { label: "vi · Tiếng Việt", name: "vi", widget: "object", collapsed: true,
+                  fields: [
+                    { label: "小标题：实时询价", name: "inquiry", widget: "string" },
+                    { label: "链接：提交询价", name: "rfq", widget: "string" },
+                    { label: "小标题：快捷链接", name: "quickLinks", widget: "string" },
+                    { label: "版权行", name: "rights", widget: "string" },
+                    { label: "按钮：AI 咨询", name: "aiBtn", widget: "string" },
+                    { label: "聊天窗标题", name: "chatPanel", widget: "string" },
+                    { label: "聊天输入框提示", name: "chatInput", widget: "string" },
+                    { label: "聊天发送按钮", name: "chatSend", widget: "string" },
+                    { label: "聊天欢迎语", name: "chatWelcome", widget: "string" },
+                    { label: "隐私政策链接文字", name: "privacy", widget: "string" },
+                  ] }
+          - label: "导航菜单"
+            name: "nav"
+            widget: "list"
+            collapsed: true
+            fields:
+              - { label: "标识（勿改）", name: "key", widget: "string" }
+              - { label: "英文标签", name: "label", widget: "string" }
+              - { label: "中文标签", name: "zhLabel", widget: "string" }
+              - { label: "繁体标签", name: "zhTwLabel", widget: "string" }
+              - { label: "URL · en", name: "en", widget: "string" }
+              - { label: "URL · zh", name: "zh", widget: "string" }
+              - { label: "URL · zh-tw", name: "zh-tw", widget: "string" }
+              - { label: "其它语言标签", name: "labels", widget: "object", collapsed: true,
+                  fields: [
+                    { label: "Deutsch", name: "de", widget: "string" },
+                    { label: "日本語", name: "ja", widget: "string" },
+                    { label: "한국어", name: "ko", widget: "string" },
+                    { label: "Русский", name: "ru", widget: "string" },
+                    { label: "Español", name: "es", widget: "string" },
+                    { label: "Português", name: "pt", widget: "string" },
+                    { label: "Français", name: "fr", widget: "string" },
+                    { label: "Italiano", name: "it", widget: "string" },
+                    { label: "Türkçe", name: "tr", widget: "string" },
+                    { label: "العربية", name: "ar", widget: "string" },
+                    { label: "Tiếng Việt", name: "vi", widget: "string" }
+                  ] }
+  - name: "pages-zh-tw"
+    label: "Pages (繁體中文)"
+    description: "由简体中文自动同步生成。如需长期修改，请改「Pages (中文)/新闻(中文)/产品(中文)」下的对应内容。"
+    files:
+      - name: home-zh-tw
+        label: "首頁 (ZH-TW)"
+        file: "zh-tw/index.md"
+        fields:
+          - { label: "標題", name: "title", widget: "string" }
+          - { label: "描述 (SEO)", name: "description", widget: "text" }
+          - { label: "橫幅大標題", name: "heroTitle", widget: "string" }
+          - { label: "橫幅導語", name: "heroLead", widget: "text" }
+          - { label: "固定网址（由文件路径决定）", name: "permalink", widget: "hidden", default: "/zh-tw/" }
+      - name: products-zh-tw
+        label: "產品 (ZH-TW)"
+        file: "zh-tw/products.md"
+        fields:
+          - { label: "標題", name: "title", widget: "string" }
+          - { label: "描述 (SEO)", name: "description", widget: "text" }
+          - { label: "正文", name: "body", widget: "markdown" }
+          - { label: "固定网址（由文件路径决定）", name: "permalink", widget: "hidden", default: "/zh-tw/products/" }
+      - name: about-zh-tw
+        label: "關於我們 (ZH-TW)"
+        file: "zh-tw/about.md"
+        fields:
+          - { label: "標題", name: "title", widget: "string" }
+          - { label: "描述 (SEO)", name: "description", widget: "text" }
+          - { label: "正文", name: "body", widget: "markdown" }
+          - { label: "固定网址（由文件路径决定）", name: "permalink", widget: "hidden", default: "/zh-tw/about/" }
+      - name: contact-zh-tw
+        label: "聯絡我們 (ZH-TW)"
+        file: "zh-tw/contact.md"
+        fields:
+          - { label: "標題", name: "title", widget: "string" }
+          - { label: "描述 (SEO)", name: "description", widget: "text" }
+          - { label: "正文", name: "body", widget: "markdown" }
+          - { label: "固定网址（由文件路径决定）", name: "permalink", widget: "hidden", default: "/zh-tw/contact/" }
+      - name: news-zh-tw
+        label: "新聞 (ZH-TW)"
+        file: "zh-tw/news.md"
+        fields:
+          - { label: "標題", name: "title", widget: "string" }
+          - { label: "描述 (SEO)", name: "description", widget: "text" }
+          - { label: "正文", name: "body", widget: "markdown" }
+          - { label: "固定网址（由文件路径决定）", name: "permalink", widget: "hidden", default: "/zh-tw/news/" }
+
+  # ---- AI chat settings: EDITABLE IN THE BACKEND ----
+  # Change model, API base URL (any OpenAI-compatible), system prompt, or
+  # enable/disable the bot here. The secret API key is NOT stored here — it
+  # lives in the Cloudflare Pages env var AI_LLM_API_KEY.
+      - name: privacy-zh-tw
+        label: "隱私權政策 (页面)"
+        file: "zh-tw/privacy.md"
+        fields:
+          - { label: "標題", name: "title", widget: "string" }
+          - { label: "描述 (SEO)", name: "description", widget: "text" }
+          - { label: "正文", name: "body", widget: "markdown" }
+          - { label: "固定网址（由文件路径决定）", name: "permalink", widget: "hidden", default: "/zh-tw/privacy/" }
+      - name: search-zh-tw
+        label: "搜尋（搜索页）"
+        file: "zh-tw/search.md"
+        fields:
+          - { label: "標題", name: "title", widget: "string" }
+          - { label: "描述 (SEO)", name: "description", widget: "text" }
+          - { label: "正文", name: "body", widget: "markdown" }
+          - { label: "固定网址（由文件路径决定）", name: "permalink", widget: "hidden", default: "/zh-tw/search/" }
   - name: "news-zh-tw"
     label: "新闻文章 · 繁體中文"
+    description: "由简体中文自动同步生成。如需长期修改，请改「Pages (中文)/新闻(中文)/产品(中文)」下的对应内容。"
     label_new: "新增新闻 · 繁體中文"
     folder: "zh-tw/news"
     create: true
     delete: true
-    slug: "{{slug}}"
+    slug: "{{newsSlug}}"
     editor:
       preview: false
     sortable_fields: ["newsDate", "title"]
@@ -324,7 +852,7 @@ collections:
       - { label: "标题", name: "title", widget: "string" }
       - { label: "SEO 描述", name: "description", widget: "text",
           hint: "列表页卡片摘要与搜索结果摘要，写 1-2 句。" }
-      - { label: "URL Slug", name: "newsSlug", widget: "string",
+      - { label: "URL Slug", name: "newsSlug", widget: "string", required: true,
           hint: "小写英文，用短横线分隔，例 tinico-heat-spreader-dev；建议与文件名保持一致。" }
       - { label: "正文", name: "body", widget: "markdown" }
       - { label: "版式", name: "layout", widget: "hidden", default: "news-detail.njk" }
@@ -333,11 +861,12 @@ collections:
   # ---- 产品介绍 · 繁體中文（可新增/编辑）----
   - name: "products-zh-tw"
     label: "产品介绍 · 繁體中文"
+    description: "由简体中文自动同步生成。如需长期修改，请改「Pages (中文)/新闻(中文)/产品(中文)」下的对应内容。"
     label_new: "新增产品 · 繁體中文"
     folder: "zh-tw/products"
     create: true
     delete: true
-    slug: "{{slug}}"
+    slug: "{{productId}}"
     editor:
       preview: false
     sortable_fields: ["title"]
@@ -345,7 +874,8 @@ collections:
       - { label: "产品名称", name: "title", widget: "string" }
       - { label: "SEO 描述", name: "description", widget: "text",
           hint: "写 1-2 句，用于搜索结果摘要。" }
-      - { label: "产品锚点 ID", name: "productId", widget: "string",
+      - { label: "卡片简介", name: "summary", widget: "text", hint: "首頁與產品列表卡片上的簡介文字（1-2 句）。" }
+      - { label: "产品锚点 ID", name: "productId", widget: "string", required: true,
           hint: "小写英文短横线，例 strong-grooving-wheels。产品列表的锚点链接会用到。" }
       - { label: "产品图", name: "productImage", widget: "image", required: false,
           hint: "先在媒体库上传，再选择文件。" }
@@ -371,13 +901,150 @@ collections:
       - { label: "语言代码", name: "lang", widget: "hidden", default: "zh-tw" }
 
   # ---- 新闻文章 · Deutsch（可新增/编辑/删除）----
+  - name: "pages-en"
+    label: "Pages (English)"
+    description: "由简体中文自动同步生成（GitHub Action: i18n sync）。一般不需要手改；手改会在下次中文更新时被覆盖。"
+    files:
+      - name: home-en
+        label: "Home (EN)"
+        file: "en/index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description (SEO)", name: "description", widget: "text" }
+          - { label: "Hero Title", name: "heroTitle", widget: "string" }
+          - { label: "Hero Lead", name: "heroLead", widget: "text" }
+          - { label: "固定网址（由文件路径决定）", name: "permalink", widget: "hidden", default: "/en/" }
+      - name: products-en
+        label: "Products (EN)"
+        file: "en/products.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description (SEO)", name: "description", widget: "text" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "固定网址（由文件路径决定）", name: "permalink", widget: "hidden", default: "/en/products/" }
+      - name: about-en
+        label: "About (EN)"
+        file: "en/about.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description (SEO)", name: "description", widget: "text" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "固定网址（由文件路径决定）", name: "permalink", widget: "hidden", default: "/en/about/" }
+      - name: contact-en
+        label: "Contact (EN)"
+        file: "en/contact.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description (SEO)", name: "description", widget: "text" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "固定网址（由文件路径决定）", name: "permalink", widget: "hidden", default: "/en/contact/" }
+      - name: news-en
+        label: "News (EN)"
+        file: "en/news.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description (SEO)", name: "description", widget: "text" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "固定网址（由文件路径决定）", name: "permalink", widget: "hidden", default: "/en/news/" }
+
+      - name: privacy-en
+        label: "Privacy Policy (页面)"
+        file: "en/privacy.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description (SEO)", name: "description", widget: "text" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "固定网址（由文件路径决定）", name: "permalink", widget: "hidden", default: "/en/privacy/" }
+      - name: search-en
+        label: "Search（搜索页）"
+        file: "en/search.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description (SEO)", name: "description", widget: "text" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "固定网址（由文件路径决定）", name: "permalink", widget: "hidden", default: "/en/search/" }
+  - name: "news-en"
+    label: "新闻文章 · English"
+    description: "由简体中文自动同步生成（GitHub Action: i18n sync）。一般不需要手改；手改会在下次中文更新时被覆盖。"
+    label_new: "新增新闻 · English"
+    folder: "en/news"
+    create: true
+    delete: true
+    slug: "{{newsSlug}}"
+    editor:
+      preview: false
+    sortable_fields: ["newsDate", "title"]
+    view_filters:
+      - { label: "全部栏目", field: "newsSection", pattern: ".*" }
+      - { label: "Company News", field: "newsSection", pattern: "Company News" }
+      - { label: "Industry News", field: "newsSection", pattern: "Industry News" }
+      - { label: "Industry Frontier", field: "newsSection", pattern: "Industry Frontier" }
+    fields:
+      - { label: "发布日期", name: "newsDate", widget: "string", required: false,
+          pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
+          hint: "格式 YYYY-MM-DD，例 2026-10-03。留空则列表不显示日期；排序按日期由新到旧。" }
+      - { label: "栏目", name: "newsSection", widget: "select",
+          options: ["Company News", "Industry News", "Industry Frontier"], default: "Company News" }
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "SEO 描述", name: "description", widget: "text",
+          hint: "列表页卡片摘要与搜索结果摘要，写 1-2 句。" }
+      - { label: "URL Slug", name: "newsSlug", widget: "string", required: true,
+          hint: "小写英文，用短横线分隔，例 tinico-heat-spreader-dev；建议与文件名保持一致。" }
+      - { label: "正文", name: "body", widget: "markdown" }
+      - { label: "版式", name: "layout", widget: "hidden", default: "news-detail.njk" }
+      - { label: "语言代码", name: "lang", widget: "hidden", default: "en" }
+
+  # ---- 产品介绍 · English（可新增/编辑）----
+  - name: "products-en"
+    label: "产品介绍 · English"
+    description: "由简体中文自动同步生成（GitHub Action: i18n sync）。一般不需要手改；手改会在下次中文更新时被覆盖。"
+    label_new: "新增产品 · English"
+    folder: "en/products"
+    create: true
+    delete: true
+    slug: "{{productId}}"
+    editor:
+      preview: false
+    sortable_fields: ["title"]
+    fields:
+      - { label: "产品名称", name: "title", widget: "string" }
+      - { label: "SEO 描述", name: "description", widget: "text",
+          hint: "写 1-2 句，用于搜索结果摘要。" }
+      - { label: "Card summary", name: "summary", widget: "text", hint: "Short summary shown on the home & products cards (1-2 sentences)." }
+      - { label: "产品锚点 ID", name: "productId", widget: "string", required: true,
+          hint: "小写英文短横线，例 strong-grooving-wheels。产品列表的锚点链接会用到。" }
+      - { label: "产品图", name: "productImage", widget: "image", required: false,
+          hint: "先在媒体库上传，再选择文件。" }
+      - label: "产品详情 HTML"
+        name: "body"
+        widget: "code"
+        default: |
+          <div class="product-block">
+            <img class="pb-img" src="/assets/img/your-product.webp" alt="" loading="lazy" />
+            <div>
+              <h2>产品名称</h2>
+              <p>一段产品介绍。</p>
+              <ul class="specs">
+                <li>特点一</li>
+                <li>特点二</li>
+              </ul>
+              <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Request a quote</a></div>
+            </div>
+          </div>
+        hint: "请保留上面的 HTML 结构，只替换引号内的文字；图片地址填已上传的文件；联系按钮的路径必须是 /en/contact/。留空则产品列表不显示该产品。"
+      - { label: "版式", name: "layout", widget: "hidden", default: "product-detail.njk" }
+      - { label: "页面类型", name: "pageType", widget: "hidden", default: "product" }
+      - { label: "语言代码", name: "lang", widget: "hidden", default: "en" }
+
+  # ---- 新闻文章 · 中文（简体）（可新增/编辑/删除）----
   - name: "news-de"
     label: "新闻文章 · Deutsch"
+    description: "由简体中文自动同步生成（GitHub Action: i18n sync）。一般不需要手改；手改会在下次中文更新时被覆盖。"
     label_new: "新增新闻 · Deutsch"
     folder: "de/news"
     create: true
     delete: true
-    slug: "{{slug}}"
+    slug: "{{newsSlug}}"
     editor:
       preview: false
     sortable_fields: ["newsDate", "title"]
@@ -395,7 +1062,7 @@ collections:
       - { label: "标题", name: "title", widget: "string" }
       - { label: "SEO 描述", name: "description", widget: "text",
           hint: "列表页卡片摘要与搜索结果摘要，写 1-2 句。" }
-      - { label: "URL Slug", name: "newsSlug", widget: "string",
+      - { label: "URL Slug", name: "newsSlug", widget: "string", required: true,
           hint: "小写英文，用短横线分隔，例 tinico-heat-spreader-dev；建议与文件名保持一致。" }
       - { label: "正文", name: "body", widget: "markdown" }
       - { label: "版式", name: "layout", widget: "hidden", default: "news-detail.njk" }
@@ -404,11 +1071,12 @@ collections:
   # ---- 产品介绍 · Deutsch（可新增/编辑）----
   - name: "products-de"
     label: "产品介绍 · Deutsch"
+    description: "由简体中文自动同步生成（GitHub Action: i18n sync）。一般不需要手改；手改会在下次中文更新时被覆盖。"
     label_new: "新增产品 · Deutsch"
     folder: "de/products"
     create: true
     delete: true
-    slug: "{{slug}}"
+    slug: "{{productId}}"
     editor:
       preview: false
     sortable_fields: ["title"]
@@ -416,7 +1084,8 @@ collections:
       - { label: "产品名称", name: "title", widget: "string" }
       - { label: "SEO 描述", name: "description", widget: "text",
           hint: "写 1-2 句，用于搜索结果摘要。" }
-      - { label: "产品锚点 ID", name: "productId", widget: "string",
+      - { label: "Card summary", name: "summary", widget: "text", hint: "Short summary shown on the home & products cards (1-2 sentences)." }
+      - { label: "产品锚点 ID", name: "productId", widget: "string", required: true,
           hint: "小写英文短横线，例 strong-grooving-wheels。产品列表的锚点链接会用到。" }
       - { label: "产品图", name: "productImage", widget: "image", required: false,
           hint: "先在媒体库上传，再选择文件。" }
@@ -444,11 +1113,12 @@ collections:
   # ---- 新闻文章 · 日本語（可新增/编辑/删除）----
   - name: "news-ja"
     label: "新闻文章 · 日本語"
+    description: "由简体中文自动同步生成（GitHub Action: i18n sync）。一般不需要手改；手改会在下次中文更新时被覆盖。"
     label_new: "新增新闻 · 日本語"
     folder: "ja/news"
     create: true
     delete: true
-    slug: "{{slug}}"
+    slug: "{{newsSlug}}"
     editor:
       preview: false
     sortable_fields: ["newsDate", "title"]
@@ -466,7 +1136,7 @@ collections:
       - { label: "标题", name: "title", widget: "string" }
       - { label: "SEO 描述", name: "description", widget: "text",
           hint: "列表页卡片摘要与搜索结果摘要，写 1-2 句。" }
-      - { label: "URL Slug", name: "newsSlug", widget: "string",
+      - { label: "URL Slug", name: "newsSlug", widget: "string", required: true,
           hint: "小写英文，用短横线分隔，例 tinico-heat-spreader-dev；建议与文件名保持一致。" }
       - { label: "正文", name: "body", widget: "markdown" }
       - { label: "版式", name: "layout", widget: "hidden", default: "news-detail.njk" }
@@ -475,11 +1145,12 @@ collections:
   # ---- 产品介绍 · 日本語（可新增/编辑）----
   - name: "products-ja"
     label: "产品介绍 · 日本語"
+    description: "由简体中文自动同步生成（GitHub Action: i18n sync）。一般不需要手改；手改会在下次中文更新时被覆盖。"
     label_new: "新增产品 · 日本語"
     folder: "ja/products"
     create: true
     delete: true
-    slug: "{{slug}}"
+    slug: "{{productId}}"
     editor:
       preview: false
     sortable_fields: ["title"]
@@ -487,7 +1158,8 @@ collections:
       - { label: "产品名称", name: "title", widget: "string" }
       - { label: "SEO 描述", name: "description", widget: "text",
           hint: "写 1-2 句，用于搜索结果摘要。" }
-      - { label: "产品锚点 ID", name: "productId", widget: "string",
+      - { label: "Card summary", name: "summary", widget: "text", hint: "Short summary shown on the home & products cards (1-2 sentences)." }
+      - { label: "产品锚点 ID", name: "productId", widget: "string", required: true,
           hint: "小写英文短横线，例 strong-grooving-wheels。产品列表的锚点链接会用到。" }
       - { label: "产品图", name: "productImage", widget: "image", required: false,
           hint: "先在媒体库上传，再选择文件。" }
@@ -515,11 +1187,12 @@ collections:
   # ---- 新闻文章 · 한국어（可新增/编辑/删除）----
   - name: "news-ko"
     label: "新闻文章 · 한국어"
+    description: "由简体中文自动同步生成（GitHub Action: i18n sync）。一般不需要手改；手改会在下次中文更新时被覆盖。"
     label_new: "新增新闻 · 한국어"
     folder: "ko/news"
     create: true
     delete: true
-    slug: "{{slug}}"
+    slug: "{{newsSlug}}"
     editor:
       preview: false
     sortable_fields: ["newsDate", "title"]
@@ -537,7 +1210,7 @@ collections:
       - { label: "标题", name: "title", widget: "string" }
       - { label: "SEO 描述", name: "description", widget: "text",
           hint: "列表页卡片摘要与搜索结果摘要，写 1-2 句。" }
-      - { label: "URL Slug", name: "newsSlug", widget: "string",
+      - { label: "URL Slug", name: "newsSlug", widget: "string", required: true,
           hint: "小写英文，用短横线分隔，例 tinico-heat-spreader-dev；建议与文件名保持一致。" }
       - { label: "正文", name: "body", widget: "markdown" }
       - { label: "版式", name: "layout", widget: "hidden", default: "news-detail.njk" }
@@ -546,11 +1219,12 @@ collections:
   # ---- 产品介绍 · 한국어（可新增/编辑）----
   - name: "products-ko"
     label: "产品介绍 · 한국어"
+    description: "由简体中文自动同步生成（GitHub Action: i18n sync）。一般不需要手改；手改会在下次中文更新时被覆盖。"
     label_new: "新增产品 · 한국어"
     folder: "ko/products"
     create: true
     delete: true
-    slug: "{{slug}}"
+    slug: "{{productId}}"
     editor:
       preview: false
     sortable_fields: ["title"]
@@ -558,7 +1232,8 @@ collections:
       - { label: "产品名称", name: "title", widget: "string" }
       - { label: "SEO 描述", name: "description", widget: "text",
           hint: "写 1-2 句，用于搜索结果摘要。" }
-      - { label: "产品锚点 ID", name: "productId", widget: "string",
+      - { label: "Card summary", name: "summary", widget: "text", hint: "Short summary shown on the home & products cards (1-2 sentences)." }
+      - { label: "产品锚点 ID", name: "productId", widget: "string", required: true,
           hint: "小写英文短横线，例 strong-grooving-wheels。产品列表的锚点链接会用到。" }
       - { label: "产品图", name: "productImage", widget: "image", required: false,
           hint: "先在媒体库上传，再选择文件。" }
@@ -586,11 +1261,12 @@ collections:
   # ---- 新闻文章 · Русский（可新增/编辑/删除）----
   - name: "news-ru"
     label: "新闻文章 · Русский"
+    description: "由简体中文自动同步生成（GitHub Action: i18n sync）。一般不需要手改；手改会在下次中文更新时被覆盖。"
     label_new: "新增新闻 · Русский"
     folder: "ru/news"
     create: true
     delete: true
-    slug: "{{slug}}"
+    slug: "{{newsSlug}}"
     editor:
       preview: false
     sortable_fields: ["newsDate", "title"]
@@ -608,7 +1284,7 @@ collections:
       - { label: "标题", name: "title", widget: "string" }
       - { label: "SEO 描述", name: "description", widget: "text",
           hint: "列表页卡片摘要与搜索结果摘要，写 1-2 句。" }
-      - { label: "URL Slug", name: "newsSlug", widget: "string",
+      - { label: "URL Slug", name: "newsSlug", widget: "string", required: true,
           hint: "小写英文，用短横线分隔，例 tinico-heat-spreader-dev；建议与文件名保持一致。" }
       - { label: "正文", name: "body", widget: "markdown" }
       - { label: "版式", name: "layout", widget: "hidden", default: "news-detail.njk" }
@@ -617,11 +1293,12 @@ collections:
   # ---- 产品介绍 · Русский（可新增/编辑）----
   - name: "products-ru"
     label: "产品介绍 · Русский"
+    description: "由简体中文自动同步生成（GitHub Action: i18n sync）。一般不需要手改；手改会在下次中文更新时被覆盖。"
     label_new: "新增产品 · Русский"
     folder: "ru/products"
     create: true
     delete: true
-    slug: "{{slug}}"
+    slug: "{{productId}}"
     editor:
       preview: false
     sortable_fields: ["title"]
@@ -629,7 +1306,8 @@ collections:
       - { label: "产品名称", name: "title", widget: "string" }
       - { label: "SEO 描述", name: "description", widget: "text",
           hint: "写 1-2 句，用于搜索结果摘要。" }
-      - { label: "产品锚点 ID", name: "productId", widget: "string",
+      - { label: "Card summary", name: "summary", widget: "text", hint: "Short summary shown on the home & products cards (1-2 sentences)." }
+      - { label: "产品锚点 ID", name: "productId", widget: "string", required: true,
           hint: "小写英文短横线，例 strong-grooving-wheels。产品列表的锚点链接会用到。" }
       - { label: "产品图", name: "productImage", widget: "image", required: false,
           hint: "先在媒体库上传，再选择文件。" }
@@ -657,11 +1335,12 @@ collections:
   # ---- 新闻文章 · Español（可新增/编辑/删除）----
   - name: "news-es"
     label: "新闻文章 · Español"
+    description: "由简体中文自动同步生成（GitHub Action: i18n sync）。一般不需要手改；手改会在下次中文更新时被覆盖。"
     label_new: "新增新闻 · Español"
     folder: "es/news"
     create: true
     delete: true
-    slug: "{{slug}}"
+    slug: "{{newsSlug}}"
     editor:
       preview: false
     sortable_fields: ["newsDate", "title"]
@@ -679,7 +1358,7 @@ collections:
       - { label: "标题", name: "title", widget: "string" }
       - { label: "SEO 描述", name: "description", widget: "text",
           hint: "列表页卡片摘要与搜索结果摘要，写 1-2 句。" }
-      - { label: "URL Slug", name: "newsSlug", widget: "string",
+      - { label: "URL Slug", name: "newsSlug", widget: "string", required: true,
           hint: "小写英文，用短横线分隔，例 tinico-heat-spreader-dev；建议与文件名保持一致。" }
       - { label: "正文", name: "body", widget: "markdown" }
       - { label: "版式", name: "layout", widget: "hidden", default: "news-detail.njk" }
@@ -688,11 +1367,12 @@ collections:
   # ---- 产品介绍 · Español（可新增/编辑）----
   - name: "products-es"
     label: "产品介绍 · Español"
+    description: "由简体中文自动同步生成（GitHub Action: i18n sync）。一般不需要手改；手改会在下次中文更新时被覆盖。"
     label_new: "新增产品 · Español"
     folder: "es/products"
     create: true
     delete: true
-    slug: "{{slug}}"
+    slug: "{{productId}}"
     editor:
       preview: false
     sortable_fields: ["title"]
@@ -700,7 +1380,8 @@ collections:
       - { label: "产品名称", name: "title", widget: "string" }
       - { label: "SEO 描述", name: "description", widget: "text",
           hint: "写 1-2 句，用于搜索结果摘要。" }
-      - { label: "产品锚点 ID", name: "productId", widget: "string",
+      - { label: "Card summary", name: "summary", widget: "text", hint: "Short summary shown on the home & products cards (1-2 sentences)." }
+      - { label: "产品锚点 ID", name: "productId", widget: "string", required: true,
           hint: "小写英文短横线，例 strong-grooving-wheels。产品列表的锚点链接会用到。" }
       - { label: "产品图", name: "productImage", widget: "image", required: false,
           hint: "先在媒体库上传，再选择文件。" }
@@ -728,11 +1409,12 @@ collections:
   # ---- 新闻文章 · Português（可新增/编辑/删除）----
   - name: "news-pt"
     label: "新闻文章 · Português"
+    description: "由简体中文自动同步生成（GitHub Action: i18n sync）。一般不需要手改；手改会在下次中文更新时被覆盖。"
     label_new: "新增新闻 · Português"
     folder: "pt/news"
     create: true
     delete: true
-    slug: "{{slug}}"
+    slug: "{{newsSlug}}"
     editor:
       preview: false
     sortable_fields: ["newsDate", "title"]
@@ -750,7 +1432,7 @@ collections:
       - { label: "标题", name: "title", widget: "string" }
       - { label: "SEO 描述", name: "description", widget: "text",
           hint: "列表页卡片摘要与搜索结果摘要，写 1-2 句。" }
-      - { label: "URL Slug", name: "newsSlug", widget: "string",
+      - { label: "URL Slug", name: "newsSlug", widget: "string", required: true,
           hint: "小写英文，用短横线分隔，例 tinico-heat-spreader-dev；建议与文件名保持一致。" }
       - { label: "正文", name: "body", widget: "markdown" }
       - { label: "版式", name: "layout", widget: "hidden", default: "news-detail.njk" }
@@ -759,11 +1441,12 @@ collections:
   # ---- 产品介绍 · Português（可新增/编辑）----
   - name: "products-pt"
     label: "产品介绍 · Português"
+    description: "由简体中文自动同步生成（GitHub Action: i18n sync）。一般不需要手改；手改会在下次中文更新时被覆盖。"
     label_new: "新增产品 · Português"
     folder: "pt/products"
     create: true
     delete: true
-    slug: "{{slug}}"
+    slug: "{{productId}}"
     editor:
       preview: false
     sortable_fields: ["title"]
@@ -771,7 +1454,8 @@ collections:
       - { label: "产品名称", name: "title", widget: "string" }
       - { label: "SEO 描述", name: "description", widget: "text",
           hint: "写 1-2 句，用于搜索结果摘要。" }
-      - { label: "产品锚点 ID", name: "productId", widget: "string",
+      - { label: "Card summary", name: "summary", widget: "text", hint: "Short summary shown on the home & products cards (1-2 sentences)." }
+      - { label: "产品锚点 ID", name: "productId", widget: "string", required: true,
           hint: "小写英文短横线，例 strong-grooving-wheels。产品列表的锚点链接会用到。" }
       - { label: "产品图", name: "productImage", widget: "image", required: false,
           hint: "先在媒体库上传，再选择文件。" }
@@ -799,11 +1483,12 @@ collections:
   # ---- 新闻文章 · Français（可新增/编辑/删除）----
   - name: "news-fr"
     label: "新闻文章 · Français"
+    description: "由简体中文自动同步生成（GitHub Action: i18n sync）。一般不需要手改；手改会在下次中文更新时被覆盖。"
     label_new: "新增新闻 · Français"
     folder: "fr/news"
     create: true
     delete: true
-    slug: "{{slug}}"
+    slug: "{{newsSlug}}"
     editor:
       preview: false
     sortable_fields: ["newsDate", "title"]
@@ -821,7 +1506,7 @@ collections:
       - { label: "标题", name: "title", widget: "string" }
       - { label: "SEO 描述", name: "description", widget: "text",
           hint: "列表页卡片摘要与搜索结果摘要，写 1-2 句。" }
-      - { label: "URL Slug", name: "newsSlug", widget: "string",
+      - { label: "URL Slug", name: "newsSlug", widget: "string", required: true,
           hint: "小写英文，用短横线分隔，例 tinico-heat-spreader-dev；建议与文件名保持一致。" }
       - { label: "正文", name: "body", widget: "markdown" }
       - { label: "版式", name: "layout", widget: "hidden", default: "news-detail.njk" }
@@ -830,11 +1515,12 @@ collections:
   # ---- 产品介绍 · Français（可新增/编辑）----
   - name: "products-fr"
     label: "产品介绍 · Français"
+    description: "由简体中文自动同步生成（GitHub Action: i18n sync）。一般不需要手改；手改会在下次中文更新时被覆盖。"
     label_new: "新增产品 · Français"
     folder: "fr/products"
     create: true
     delete: true
-    slug: "{{slug}}"
+    slug: "{{productId}}"
     editor:
       preview: false
     sortable_fields: ["title"]
@@ -842,7 +1528,8 @@ collections:
       - { label: "产品名称", name: "title", widget: "string" }
       - { label: "SEO 描述", name: "description", widget: "text",
           hint: "写 1-2 句，用于搜索结果摘要。" }
-      - { label: "产品锚点 ID", name: "productId", widget: "string",
+      - { label: "Card summary", name: "summary", widget: "text", hint: "Short summary shown on the home & products cards (1-2 sentences)." }
+      - { label: "产品锚点 ID", name: "productId", widget: "string", required: true,
           hint: "小写英文短横线，例 strong-grooving-wheels。产品列表的锚点链接会用到。" }
       - { label: "产品图", name: "productImage", widget: "image", required: false,
           hint: "先在媒体库上传，再选择文件。" }
@@ -870,11 +1557,12 @@ collections:
   # ---- 新闻文章 · Italiano（可新增/编辑/删除）----
   - name: "news-it"
     label: "新闻文章 · Italiano"
+    description: "由简体中文自动同步生成（GitHub Action: i18n sync）。一般不需要手改；手改会在下次中文更新时被覆盖。"
     label_new: "新增新闻 · Italiano"
     folder: "it/news"
     create: true
     delete: true
-    slug: "{{slug}}"
+    slug: "{{newsSlug}}"
     editor:
       preview: false
     sortable_fields: ["newsDate", "title"]
@@ -892,7 +1580,7 @@ collections:
       - { label: "标题", name: "title", widget: "string" }
       - { label: "SEO 描述", name: "description", widget: "text",
           hint: "列表页卡片摘要与搜索结果摘要，写 1-2 句。" }
-      - { label: "URL Slug", name: "newsSlug", widget: "string",
+      - { label: "URL Slug", name: "newsSlug", widget: "string", required: true,
           hint: "小写英文，用短横线分隔，例 tinico-heat-spreader-dev；建议与文件名保持一致。" }
       - { label: "正文", name: "body", widget: "markdown" }
       - { label: "版式", name: "layout", widget: "hidden", default: "news-detail.njk" }
@@ -901,11 +1589,12 @@ collections:
   # ---- 产品介绍 · Italiano（可新增/编辑）----
   - name: "products-it"
     label: "产品介绍 · Italiano"
+    description: "由简体中文自动同步生成（GitHub Action: i18n sync）。一般不需要手改；手改会在下次中文更新时被覆盖。"
     label_new: "新增产品 · Italiano"
     folder: "it/products"
     create: true
     delete: true
-    slug: "{{slug}}"
+    slug: "{{productId}}"
     editor:
       preview: false
     sortable_fields: ["title"]
@@ -913,7 +1602,8 @@ collections:
       - { label: "产品名称", name: "title", widget: "string" }
       - { label: "SEO 描述", name: "description", widget: "text",
           hint: "写 1-2 句，用于搜索结果摘要。" }
-      - { label: "产品锚点 ID", name: "productId", widget: "string",
+      - { label: "Card summary", name: "summary", widget: "text", hint: "Short summary shown on the home & products cards (1-2 sentences)." }
+      - { label: "产品锚点 ID", name: "productId", widget: "string", required: true,
           hint: "小写英文短横线，例 strong-grooving-wheels。产品列表的锚点链接会用到。" }
       - { label: "产品图", name: "productImage", widget: "image", required: false,
           hint: "先在媒体库上传，再选择文件。" }
@@ -941,11 +1631,12 @@ collections:
   # ---- 新闻文章 · Türkçe（可新增/编辑/删除）----
   - name: "news-tr"
     label: "新闻文章 · Türkçe"
+    description: "由简体中文自动同步生成（GitHub Action: i18n sync）。一般不需要手改；手改会在下次中文更新时被覆盖。"
     label_new: "新增新闻 · Türkçe"
     folder: "tr/news"
     create: true
     delete: true
-    slug: "{{slug}}"
+    slug: "{{newsSlug}}"
     editor:
       preview: false
     sortable_fields: ["newsDate", "title"]
@@ -963,7 +1654,7 @@ collections:
       - { label: "标题", name: "title", widget: "string" }
       - { label: "SEO 描述", name: "description", widget: "text",
           hint: "列表页卡片摘要与搜索结果摘要，写 1-2 句。" }
-      - { label: "URL Slug", name: "newsSlug", widget: "string",
+      - { label: "URL Slug", name: "newsSlug", widget: "string", required: true,
           hint: "小写英文，用短横线分隔，例 tinico-heat-spreader-dev；建议与文件名保持一致。" }
       - { label: "正文", name: "body", widget: "markdown" }
       - { label: "版式", name: "layout", widget: "hidden", default: "news-detail.njk" }
@@ -972,11 +1663,12 @@ collections:
   # ---- 产品介绍 · Türkçe（可新增/编辑）----
   - name: "products-tr"
     label: "产品介绍 · Türkçe"
+    description: "由简体中文自动同步生成（GitHub Action: i18n sync）。一般不需要手改；手改会在下次中文更新时被覆盖。"
     label_new: "新增产品 · Türkçe"
     folder: "tr/products"
     create: true
     delete: true
-    slug: "{{slug}}"
+    slug: "{{productId}}"
     editor:
       preview: false
     sortable_fields: ["title"]
@@ -984,7 +1676,8 @@ collections:
       - { label: "产品名称", name: "title", widget: "string" }
       - { label: "SEO 描述", name: "description", widget: "text",
           hint: "写 1-2 句，用于搜索结果摘要。" }
-      - { label: "产品锚点 ID", name: "productId", widget: "string",
+      - { label: "Card summary", name: "summary", widget: "text", hint: "Short summary shown on the home & products cards (1-2 sentences)." }
+      - { label: "产品锚点 ID", name: "productId", widget: "string", required: true,
           hint: "小写英文短横线，例 strong-grooving-wheels。产品列表的锚点链接会用到。" }
       - { label: "产品图", name: "productImage", widget: "image", required: false,
           hint: "先在媒体库上传，再选择文件。" }
@@ -1012,11 +1705,12 @@ collections:
   # ---- 新闻文章 · العربية（可新增/编辑/删除）----
   - name: "news-ar"
     label: "新闻文章 · العربية"
+    description: "由简体中文自动同步生成（GitHub Action: i18n sync）。一般不需要手改；手改会在下次中文更新时被覆盖。"
     label_new: "新增新闻 · العربية"
     folder: "ar/news"
     create: true
     delete: true
-    slug: "{{slug}}"
+    slug: "{{newsSlug}}"
     editor:
       preview: false
     sortable_fields: ["newsDate", "title"]
@@ -1034,7 +1728,7 @@ collections:
       - { label: "标题", name: "title", widget: "string" }
       - { label: "SEO 描述", name: "description", widget: "text",
           hint: "列表页卡片摘要与搜索结果摘要，写 1-2 句。" }
-      - { label: "URL Slug", name: "newsSlug", widget: "string",
+      - { label: "URL Slug", name: "newsSlug", widget: "string", required: true,
           hint: "小写英文，用短横线分隔，例 tinico-heat-spreader-dev；建议与文件名保持一致。" }
       - { label: "正文", name: "body", widget: "markdown" }
       - { label: "版式", name: "layout", widget: "hidden", default: "news-detail.njk" }
@@ -1043,11 +1737,12 @@ collections:
   # ---- 产品介绍 · العربية（可新增/编辑）----
   - name: "products-ar"
     label: "产品介绍 · العربية"
+    description: "由简体中文自动同步生成（GitHub Action: i18n sync）。一般不需要手改；手改会在下次中文更新时被覆盖。"
     label_new: "新增产品 · العربية"
     folder: "ar/products"
     create: true
     delete: true
-    slug: "{{slug}}"
+    slug: "{{productId}}"
     editor:
       preview: false
     sortable_fields: ["title"]
@@ -1055,7 +1750,8 @@ collections:
       - { label: "产品名称", name: "title", widget: "string" }
       - { label: "SEO 描述", name: "description", widget: "text",
           hint: "写 1-2 句，用于搜索结果摘要。" }
-      - { label: "产品锚点 ID", name: "productId", widget: "string",
+      - { label: "Card summary", name: "summary", widget: "text", hint: "Short summary shown on the home & products cards (1-2 sentences)." }
+      - { label: "产品锚点 ID", name: "productId", widget: "string", required: true,
           hint: "小写英文短横线，例 strong-grooving-wheels。产品列表的锚点链接会用到。" }
       - { label: "产品图", name: "productImage", widget: "image", required: false,
           hint: "先在媒体库上传，再选择文件。" }
@@ -1083,11 +1779,12 @@ collections:
   # ---- 新闻文章 · Tiếng Việt（可新增/编辑/删除）----
   - name: "news-vi"
     label: "新闻文章 · Tiếng Việt"
+    description: "由简体中文自动同步生成（GitHub Action: i18n sync）。一般不需要手改；手改会在下次中文更新时被覆盖。"
     label_new: "新增新闻 · Tiếng Việt"
     folder: "vi/news"
     create: true
     delete: true
-    slug: "{{slug}}"
+    slug: "{{newsSlug}}"
     editor:
       preview: false
     sortable_fields: ["newsDate", "title"]
@@ -1105,7 +1802,7 @@ collections:
       - { label: "标题", name: "title", widget: "string" }
       - { label: "SEO 描述", name: "description", widget: "text",
           hint: "列表页卡片摘要与搜索结果摘要，写 1-2 句。" }
-      - { label: "URL Slug", name: "newsSlug", widget: "string",
+      - { label: "URL Slug", name: "newsSlug", widget: "string", required: true,
           hint: "小写英文，用短横线分隔，例 tinico-heat-spreader-dev；建议与文件名保持一致。" }
       - { label: "正文", name: "body", widget: "markdown" }
       - { label: "版式", name: "layout", widget: "hidden", default: "news-detail.njk" }
@@ -1114,11 +1811,12 @@ collections:
   # ---- 产品介绍 · Tiếng Việt（可新增/编辑）----
   - name: "products-vi"
     label: "产品介绍 · Tiếng Việt"
+    description: "由简体中文自动同步生成（GitHub Action: i18n sync）。一般不需要手改；手改会在下次中文更新时被覆盖。"
     label_new: "新增产品 · Tiếng Việt"
     folder: "vi/products"
     create: true
     delete: true
-    slug: "{{slug}}"
+    slug: "{{productId}}"
     editor:
       preview: false
     sortable_fields: ["title"]
@@ -1126,7 +1824,8 @@ collections:
       - { label: "产品名称", name: "title", widget: "string" }
       - { label: "SEO 描述", name: "description", widget: "text",
           hint: "写 1-2 句，用于搜索结果摘要。" }
-      - { label: "产品锚点 ID", name: "productId", widget: "string",
+      - { label: "Card summary", name: "summary", widget: "text", hint: "Short summary shown on the home & products cards (1-2 sentences)." }
+      - { label: "产品锚点 ID", name: "productId", widget: "string", required: true,
           hint: "小写英文短横线，例 strong-grooving-wheels。产品列表的锚点链接会用到。" }
       - { label: "产品图", name: "productImage", widget: "image", required: false,
           hint: "先在媒体库上传，再选择文件。" }
@@ -1150,3 +1849,20 @@ collections:
       - { label: "版式", name: "layout", widget: "hidden", default: "product-detail.njk" }
       - { label: "页面类型", name: "pageType", widget: "hidden", default: "product" }
       - { label: "语言代码", name: "lang", widget: "hidden", default: "vi" }
+
+  - name: "ai-settings"
+    label: "AI Chat Settings"
+    description: "AI 在线客服的行为与话术配置（服务端使用，非页面文案）。"
+    files:
+      - name: settings
+        label: "AI Chat Config"
+        file: "data/settings.json"
+        fields:
+          - { name: enabled, label: "Enable AI auto-reply", widget: boolean }
+          - { name: provider, label: "Provider", widget: string, hint: "openai-compatible" }
+          - { name: apiBaseUrl, label: "API Base URL", widget: string, hint: "e.g. https://api.openai.com/v1 or https://api.deepseek.com/v1" }
+          - { name: model, label: "Model", widget: string, hint: "e.g. gpt-4o-mini / deepseek-chat" }
+          - { name: systemPrompt, label: "System Prompt", widget: text }
+          - { name: fallbackMessage, label: "Fallback Message", widget: text }
+
+  # ---- 新闻文章 · English（可新增/编辑/删除）----
