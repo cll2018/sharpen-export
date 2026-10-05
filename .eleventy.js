@@ -121,6 +121,16 @@ module.exports = function (eleventyConfig) {
     return parts.includes(segment);
   });
 
+  // A page must ship exactly one <h1>. page.njk renders it from the front-matter
+  // title, so a body that already opens with its own markdown H1 — e.g. the
+  // privacy pages, whose source starts with "# 隐私政策" — would emit two and
+  // get flagged by Search Console. This predicate lets the layout skip its own
+  // H1 in that case, which also protects against an editor typing "# Heading"
+  // into a body through the CMS later on.
+  eleventyConfig.addFilter("startsWithH1", function (html) {
+    return /^\s*<h1[\s>]/i.test(String(html || ""));
+  });
+
   return {
     dir: {
       input: ".",
