@@ -75,4 +75,28 @@ layout: base.njk
   </div>
   {% endfor %}
 </section>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": {{ title | tojson | safe }},
+  "description": {{ description | tojson | safe }},
+  "url": "https://{{ site.domain | safe }}/{{ langCode | safe }}/news/",
+  "inLanguage": "{{ langCode | safe }}",
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": {{ articles.length | safe }},
+    "itemListElement": [
+      {% for a in articles %}
+      {
+        "@type": "ListItem",
+        "position": {{ loop.index | safe }},
+        "name": {{ a.data.title | tojson | safe }},
+        "url": "https://{{ site.domain | safe }}{{ a.url | safe }}"
+      }{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+  }
+}
+</script>
 {% endblock %}

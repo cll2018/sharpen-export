@@ -99,7 +99,7 @@
           ,{ "@type": "ListItem", "position": 2, "name": "About", "item": "https://{{ site.domain | safe }}/{{ lang | safe }}/about/" }
           {% elif page.url | urlFilter('news') %}
           ,{ "@type": "ListItem", "position": 2, "name": "News", "item": "https://{{ site.domain | safe }}/{{ lang | safe }}/news/" }
-          {% if pageType == 'news' %}
+          {% if pageType == 'news' and newsSlug %}
           ,{ "@type": "ListItem", "position": 3, "name": {{ title | tojson | safe }}, "item": "https://{{ site.domain | safe }}/{{ lang | safe }}/news/{{ newsSlug | safe }}/" }
           {% endif %}
           {% elif page.url | urlFilter('contact') %}
@@ -122,14 +122,8 @@
       {
         "@type": "ListItem",
         "position": {{ loop.index | safe }},
-        "item": {
-          "@type": "Product",
-          "name": {{ p.name | tojson | safe }},
-          "description": {{ p.summary | tojson | safe }},
-          "image": "https://{{ site.domain | safe }}{{ p.image | safe }}",
-          "sku": "{{ p.id | safe }}",
-          "brand": { "@type": "Brand", "name": "{{ site.shortName | safe }}" }
-        }
+        "name": {{ p.name | tojson | safe }},
+        "url": "https://{{ site.domain | safe }}/{{ lang | safe }}/products/{{ productSlugs[p.id] | safe }}/"
       }{% if not loop.last %},{% endif %}
       {% endfor %}
     ]
@@ -140,25 +134,24 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Product",
+    "@type": "ItemPage",
     "name": {{ title | tojson | safe }},
     "description": {{ description | tojson | safe }},
-    "image": "https://{{ site.domain | safe }}{{ productImage | safe }}",
-    "sku": "{{ productId | safe }}",
-    "brand": { "@type": "Brand", "name": "{{ site.shortName | safe }}" },
-    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://{{ site.domain | safe }}/{{ lang | safe }}/products/{{ productSlugs[productId] | safe }}/" }
+    "url": "https://{{ site.domain | safe }}/{{ lang | safe }}/products/{{ productSlugs[productId] | safe }}/",
+    "primaryImageOfPage": { "@type": "ImageObject", "url": "https://{{ site.domain | safe }}{{ productImage | safe }}" },
+    "isPartOf": { "@id": "https://{{ site.domain | safe }}/website" }
   }
   </script>
   {% endif %}
-  {% if pageType == 'news' %}
+  {% if pageType == 'news' and newsSlug %}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "NewsArticle",
     "headline": {{ title | tojson | safe }},
     "description": {{ description | tojson | safe }},
-    "datePublished": {{ newsDate | tojson | safe }},
-    "image": [{{ newsImage | default('/assets/img/logo.png') | tojson | safe }}],
+    {% if newsDate %}"datePublished": {{ newsDate | tojson | safe }},{% endif %}
+    "image": ["https://{{ site.domain | safe }}{{ newsImage | default('/assets/img/logo.png') | safe }}"],
     "author": { "@type": "Organization", "name": "{{ site.shortName | safe }}" },
     "publisher": { "@type": "Organization", "name": "{{ site.shortName | safe }}", "logo": { "@type": "ImageObject", "url": "https://{{ site.domain | safe }}/assets/img/logo.png" } },
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://{{ site.domain | safe }}/{{ lang | safe }}/news/{{ newsSlug | safe }}/" }
