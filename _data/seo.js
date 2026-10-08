@@ -53,7 +53,9 @@ const PAGES = [
   { seg: "about", priority: "0.7", changefreq: "monthly", images: ["/assets/img/pm-steel.webp"] },
   { seg: "news", priority: "0.7", changefreq: "daily", images: ["/assets/img/news-company.png"] },
   { seg: "contact", priority: "0.7", changefreq: "monthly", images: ["/assets/img/news-industry.png"] },
-  { seg: "search", priority: "0.3", changefreq: "monthly", images: ["/assets/img/logo.png"] },
+  // NOTE: /search/ pages are intentionally NOT in the sitemap - search result
+  // pages are blocked in robots.txt (GSC crawled the {search_term_string}
+  // template URLs emitted by the SearchAction schema).
   { seg: "privacy", priority: "0.4", changefreq: "yearly", images: ["/assets/img/logo.png"] },
 ];
 
@@ -160,6 +162,10 @@ const robots = [
   "User-agent: *",
   "Allow: /",
   "Disallow: /admin/",
+  // Block search result pages (incl. the literal {search_term_string}
+  // template URLs Google crawls from the SearchAction schema).
+  "Disallow: /*/search/",
+  "Disallow: /*/search?",
   "Content-Signal: search=yes,ai-train=yes,use=reference",
   "",
   "# Explicit allow for crawlers Cloudflare's managed robots.txt may disallow.",
@@ -170,6 +176,8 @@ const robots = [
   .concat([
     "Allow: /",
     "Disallow: /admin/",
+    "Disallow: /*/search/",
+    "Disallow: /*/search?",
     "",
     "Sitemap: " + DOMAIN + "/sitemap.xml",
   ])
