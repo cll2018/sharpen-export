@@ -33,7 +33,7 @@
   {% for l in site.langs %}
   {% set hl = { 'zh-tw': 'zh-TW' }[l.code] or l.code %}<link rel="alternate" hreflang="{{ hl }}" href="{{ page.url | langUrl(l.code) | absUrl(site.domain) }}" />
   {% endfor %}
-  <link rel="alternate" hreflang="x-default" href="{{ '/en/' | absUrl(site.domain) }}" />
+  <link rel="alternate" hreflang="x-default" href="{{ page.url | langUrl('en') | absUrl(site.domain) }}" />
   <meta property="og:title" content="{{ title }} — {{ bp.suffix }}" />
   <meta property="og:description" content="{{ description or bp.desc }}" />
   <meta property="og:type" content="{{ 'product' if pageType == 'product' else 'website' }}" />
