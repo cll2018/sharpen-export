@@ -324,14 +324,30 @@ function pickLang(raw, kind, item, fallbackSection) {
 }
 
 export async function onRequestPost({ request, env }) {
-  // Same-origin only: this Function translates content for our own admin page.
-  // A MISSING Origin used to be waved through, which left this endpoint as an
-  // open translation proxy for anyone with an HTTP client — and the LLM key
-  // behind it has a tight request quota, so abuse surfaces as site-wide 429s.
-  // Browsers always send Origin on a POST, so requiring it costs us nothing.
+  // Same-origin (first-party) only: this Function translates content for our own
+  // admin page. A MISSING Origin used to be waved through, which left this
+  // endpoint as an open translation proxy for anyone with an HTTP client — and
+  // the LLM key behind it has a tight request quota, so abuse surfaces as
+  // site-wide 429s.
+  //
+  // The check still blocks genuinely cross-origin callers, but it now accepts
+  // every first-party host instead of requiring an exact substring match:
+  //   - the request host itself (www.sapu-cn.online),
+  //   - the apex domain (sapu-cn.online) and any of its subdomains,
+  //   - *.pages.dev preview deployments.
+  // The previous `origin.includes(host)` 403'd the admin whenever it was opened
+  // from the apex domain or a preview build, which made "一键发布" fail with a
+  // opaque cross-origin error even though the call was first-party.
   const origin = request.headers.get("Origin");
   const host = new URL(request.url).host;
-  if (!origin || !origin.includes(host)) {
+  let originHost = "";
+  try { originHost = origin ? new URL(origin).host : ""; } catch { originHost = ""; }
+  const firstParty =
+    originHost === host ||
+    originHost === "sapu-cn.online" ||
+    originHost.endsWith(".sapu-cn.online") ||
+    originHost.endsWith(".pages.dev");
+  if (!origin || !firstParty) {
     return json({ ok: false, error: "cross-origin requests are not allowed" }, 403);
   }
 
