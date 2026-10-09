@@ -18,22 +18,26 @@ layout: base.njk
   in a later section.
 #}
 {% set langCode = lang or site.defaultLang %}
-{% set articles = [] %}
+{# Sort on the normalized YYYY-MM-DD key: Decap may store newsDate either as a
+   quoted string or as an unquoted YAML timestamp (parsed into a Date object),
+   and mixing the two types breaks direct comparison. #}
+{% set rows = [] %}
 {% for item in collections.all %}
   {% if item.data.lang == langCode and item.data.newsSlug %}
-    {% set _ = articles.push(item) %}
+    {% set _ = rows.push({ item: item, key: item.data.newsDate | dateYMD }) %}
   {% endif %}
 {% endfor %}
-{% set articles = articles | sort(attribute="data.newsDate", reverse=true) %}
+{% set rows = rows | sort(attribute="key", reverse=true) %}
 <section class="container page">
   <h1>{{ title }}</h1>
   <div class="news-grid">
-    {% for a in articles %}
+    {% for row in rows %}
+    {% set a = row.item %}
     <article class="news-card">
       {% if a.data.newsSection %}<p class="news-card-section">{{ a.data.newsSection }}</p>{% endif %}
       <h3 class="news-card-title"><a href="{{ a.url }}">{{ a.data.title }}</a></h3>
-      {% if a.data.newsDate %}
-      <p class="news-card-date">{{ a.data.newsDate }}</p>
+      {% if row.key %}
+      <p class="news-card-date">{{ row.key }}</p>
       {% endif %}
       <p class="news-card-desc">{{ a.data.description }}</p>
     </article>
@@ -63,14 +67,14 @@ layout: base.njk
   "inLanguage": "{{ langCode | safe }}",
   "mainEntity": {
     "@type": "ItemList",
-    "numberOfItems": {{ articles.length | safe }},
+    "numberOfItems": {{ rows.length | safe }},
     "itemListElement": [
-      {% for a in articles %}
+      {% for row in rows %}
       {
         "@type": "ListItem",
         "position": {{ loop.index | safe }},
-        "name": {{ a.data.title | tojson | safe }},
-        "url": "https://{{ site.domain | safe }}{{ a.url | safe }}"
+        "name": {{ row.item.data.title | tojson | safe }},
+        "url": "https://{{ site.domain | safe }}{{ row.item.url | safe }}"
       }{% if not loop.last %},{% endif %}
       {% endfor %}
     ]

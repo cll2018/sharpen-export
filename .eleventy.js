@@ -47,6 +47,26 @@ module.exports = function (eleventyConfig) {
     return "https://" + domain + url;
   });
 
+  // Normalize a news date to the plain "YYYY-MM-DD" string the UI displays.
+  //
+  // Decap CMS serializes frontmatter strings that look like dates WITHOUT
+  // quotes (newsDate: 2026-10-08), and Eleventy's YAML parser then hands us a
+  // Date object — which templates rendered as "Thu Oct 08 2026 00:00:00
+  // GMT+0000 ...". This filter accepts either form (Date, "YYYY-MM-DD", or
+  // any parseable date string) and always returns YYYY-MM-DD, so the visible
+  // date never changes shape no matter how the CMS writes the file.
+  eleventyConfig.addFilter("dateYMD", function (value) {
+    if (!value) return "";
+    if (value instanceof Date) {
+      return isNaN(value) ? "" : value.toISOString().slice(0, 10);
+    }
+    const s = String(value).trim();
+    const m = s.match(/^\d{4}-\d{2}-\d{2}/);
+    if (m) return m[0];
+    const d = new Date(s);
+    return isNaN(d) ? s : d.toISOString().slice(0, 10);
+  });
+
   // Pick a nav URL for the active language.
   //
   // Root cause of "picking a language then clicking the menu bounces back to

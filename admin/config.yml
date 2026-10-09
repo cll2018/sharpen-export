@@ -105,6 +105,7 @@ collections:
       - { label: "发布日期", name: "newsDate", widget: "string", required: false,
           pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
           hint: "格式 YYYY-MM-DD，例 2026-10-03。留空则列表不显示日期；排序按日期由新到旧。" }
+      - { label: "页面类型", name: "pageType", widget: "hidden", default: "news" }
       - { label: "栏目", name: "newsSection", widget: "select",
           options: ["公司新闻", "行业资讯", "行业前沿发展现状"], default: "公司新闻" }
       - { label: "标题", name: "title", widget: "string" }
@@ -851,6 +852,7 @@ collections:
       - { label: "发布日期", name: "newsDate", widget: "string", required: false,
           pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
           hint: "格式 YYYY-MM-DD，例 2026-10-03。留空则列表不显示日期；排序按日期由新到旧。" }
+      - { label: "页面类型", name: "pageType", widget: "hidden", default: "news" }
       - { label: "栏目", name: "newsSection", widget: "select",
           options: ["公司新聞", "行業資訊", "行業前沿發展現狀"], default: "公司新聞" }
       - { label: "标题", name: "title", widget: "string" }
@@ -987,6 +989,7 @@ collections:
       - { label: "发布日期", name: "newsDate", widget: "string", required: false,
           pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
           hint: "格式 YYYY-MM-DD，例 2026-10-03。留空则列表不显示日期；排序按日期由新到旧。" }
+      - { label: "页面类型", name: "pageType", widget: "hidden", default: "news" }
       - { label: "栏目", name: "newsSection", widget: "select",
           options: ["Company News", "Industry News", "Industry Frontier"], default: "Company News" }
       - { label: "标题", name: "title", widget: "string" }
@@ -1061,6 +1064,7 @@ collections:
       - { label: "发布日期", name: "newsDate", widget: "string", required: false,
           pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
           hint: "格式 YYYY-MM-DD，例 2026-10-03。留空则列表不显示日期；排序按日期由新到旧。" }
+      - { label: "页面类型", name: "pageType", widget: "hidden", default: "news" }
       - { label: "栏目", name: "newsSection", widget: "select",
           options: ["Unternehmensnachrichten", "Branchennews", "Technologietrends"], default: "Unternehmensnachrichten" }
       - { label: "标题", name: "title", widget: "string" }
@@ -1135,6 +1139,7 @@ collections:
       - { label: "发布日期", name: "newsDate", widget: "string", required: false,
           pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
           hint: "格式 YYYY-MM-DD，例 2026-10-03。留空则列表不显示日期；排序按日期由新到旧。" }
+      - { label: "页面类型", name: "pageType", widget: "hidden", default: "news" }
       - { label: "栏目", name: "newsSection", widget: "select",
           options: ["企業ニュース", "業界動向", "業界最前線"], default: "企業ニュース" }
       - { label: "标题", name: "title", widget: "string" }
@@ -1209,6 +1214,7 @@ collections:
       - { label: "发布日期", name: "newsDate", widget: "string", required: false,
           pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
           hint: "格式 YYYY-MM-DD，例 2026-10-03。留空则列表不显示日期；排序按日期由新到旧。" }
+      - { label: "页面类型", name: "pageType", widget: "hidden", default: "news" }
       - { label: "栏目", name: "newsSection", widget: "select",
           options: ["기업 뉴스", "업종 뉴스", "산업 최전선"], default: "기업 뉴스" }
       - { label: "标题", name: "title", widget: "string" }
@@ -1283,6 +1289,7 @@ collections:
       - { label: "发布日期", name: "newsDate", widget: "string", required: false,
           pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
           hint: "格式 YYYY-MM-DD，例 2026-10-03。留空则列表不显示日期；排序按日期由新到旧。" }
+      - { label: "页面类型", name: "pageType", widget: "hidden", default: "news" }
       - { label: "栏目", name: "newsSection", widget: "select",
           options: ["Корпоративные новости", "Отраслевые новости", "Технологии передового края"], default: "Корпоративные новости" }
       - { label: "标题", name: "title", widget: "string" }
@@ -1357,6 +1364,7 @@ collections:
       - { label: "发布日期", name: "newsDate", widget: "string", required: false,
           pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
           hint: "格式 YYYY-MM-DD，例 2026-10-03。留空则列表不显示日期；排序按日期由新到旧。" }
+      - { label: "页面类型", name: "pageType", widget: "hidden", default: "news" }
       - { label: "栏目", name: "newsSection", widget: "select",
           options: ["Noticias de empresa", "Noticias del sector", "Fronteras tecnológicas"], default: "Noticias de empresa" }
       - { label: "标题", name: "title", widget: "string" }
@@ -1431,6 +1439,7 @@ collections:
       - { label: "发布日期", name: "newsDate", widget: "string", required: false,
           pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
           hint: "格式 YYYY-MM-DD，例 2026-10-03。留空则列表不显示日期；排序按日期由新到旧。" }
+      - { label: "页面类型", name: "pageType", widget: "hidden", default: "news" }
       - { label: "栏目", name: "newsSection", widget: "select",
           options: ["Notícias da empresa", "Notícias do setor", "Fronteras tecnológicas"], default: "Notícias da empresa" }
       - { label: "标题", name: "title", widget: "string" }
@@ -1505,6 +1514,7 @@ collections:
       - { label: "发布日期", name: "newsDate", widget: "string", required: false,
           pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
           hint: "格式 YYYY-MM-DD，例 2026-10-03。留空则列表不显示日期；排序按日期由新到旧。" }
+      - { label: "页面类型", name: "pageType", widget: "hidden", default: "news" }
       - { label: "栏目", name: "newsSection", widget: "select",
           options: ["Actualités de l’entreprise", "Actualités du secteur", "Frontières technologiques"], default: "Actualités de l’entreprise" }
       - { label: "标题", name: "title", widget: "string" }
@@ -1579,6 +1589,7 @@ collections:
       - { label: "发布日期", name: "newsDate", widget: "string", required: false,
           pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
           hint: "格式 YYYY-MM-DD，例 2026-10-03。留空则列表不显示日期；排序按日期由新到旧。" }
+      - { label: "页面类型", name: "pageType", widget: "hidden", default: "news" }
       - { label: "栏目", name: "newsSection", widget: "select",
           options: ["Notizie aziendali", "Notizie del settore", "Frontiere tecnologiche"], default: "Notizie aziendali" }
       - { label: "标题", name: "title", widget: "string" }
@@ -1653,6 +1664,7 @@ collections:
       - { label: "发布日期", name: "newsDate", widget: "string", required: false,
           pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
           hint: "格式 YYYY-MM-DD，例 2026-10-03。留空则列表不显示日期；排序按日期由新到旧。" }
+      - { label: "页面类型", name: "pageType", widget: "hidden", default: "news" }
       - { label: "栏目", name: "newsSection", widget: "select",
           options: ["Şirket haberleri", "Sektör haberleri", "Teknoloji gelişmeleri"], default: "Şirket haberleri" }
       - { label: "标题", name: "title", widget: "string" }
@@ -1727,6 +1739,7 @@ collections:
       - { label: "发布日期", name: "newsDate", widget: "string", required: false,
           pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
           hint: "格式 YYYY-MM-DD，例 2026-10-03。留空则列表不显示日期；排序按日期由新到旧。" }
+      - { label: "页面类型", name: "pageType", widget: "hidden", default: "news" }
       - { label: "栏目", name: "newsSection", widget: "select",
           options: ["أخبار الشركة", "أخبار القطاع", "تقنيات السانك"], default: "أخبار الشركة" }
       - { label: "标题", name: "title", widget: "string" }
@@ -1801,6 +1814,7 @@ collections:
       - { label: "发布日期", name: "newsDate", widget: "string", required: false,
           pattern: ['^\d{4}-\d{2}-\d{2}$', '^\d{4}-\d{2}-\d{2}$'],
           hint: "格式 YYYY-MM-DD，例 2026-10-03。留空则列表不显示日期；排序按日期由新到旧。" }
+      - { label: "页面类型", name: "pageType", widget: "hidden", default: "news" }
       - { label: "栏目", name: "newsSection", widget: "select",
           options: ["Tin doanh nghiệp", "Tin ngành", "Công nghệ tiên tiến"], default: "Tin doanh nghiệp" }
       - { label: "标题", name: "title", widget: "string" }

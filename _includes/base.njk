@@ -150,7 +150,7 @@
     "@type": "NewsArticle",
     "headline": {{ title | tojson | safe }},
     "description": {{ description | tojson | safe }},
-    {% if newsDate %}"datePublished": {{ newsDate | tojson | safe }},{% endif %}
+    {% if newsDate %}"datePublished": {{ newsDate | dateYMD | tojson | safe }},{% endif %}
     "image": ["https://{{ site.domain | safe }}{{ newsImage | default('/assets/img/logo.png') | safe }}"],
     "author": { "@type": "Organization", "name": "{{ site.shortName | safe }}" },
     "publisher": { "@type": "Organization", "name": "{{ site.shortName | safe }}", "logo": { "@type": "ImageObject", "url": "https://{{ site.domain | safe }}/assets/img/logo.png" } },

@@ -13,7 +13,7 @@ layout: base.njk
   </nav>
   <h1>{{ title }}</h1>
   {% if newsDate %}
-  <p class="news-meta">{{ newsDate }}</p>
+  <p class="news-meta">{{ newsDate | dateYMD }}</p>
   {% endif %}
   {{ content | safe }}
 </section>
