@@ -3,8 +3,8 @@ layout: product-detail.njk
 lang: zh-tw
 permalink: /zh-tw/products/tinico-heat-spreader/
 title: "TiNiCo 超合金均熱板"
-description: "TiNiCo 超合金均熱板用於 3D 手機蓋板玻璃熱彎模具與半導體熱管理，具有加熱均勻、平面度高、使用壽命長的特點，支持非標定製尺寸，是替代進口熱彎模具均熱板的關鍵材料。"
-summary: "用於 3D 玻璃熱彎模具與半導體熱管理，加熱均勻、平面度高、使用壽命長，支援非標定製尺寸。"
+description: "TiNiCo 超合金均熱板用於 3D 手機蓋板玻璃熱彎模具與半導體熱管理，具有加熱均勻、平面度高、使用壽命長的特點，支持非標定制尺寸，是替代進口熱彎模具均熱板的關鍵材料。"
+summary: "用於 3D 玻璃熱彎模具與半導體熱管理，加熱均勻、平面度高、使用壽命長，支持非標定制尺寸。"
 pageType: product
 productId: tinico-heat-spreader
 productImage: /assets/img/tinico.webp
@@ -14,12 +14,12 @@ productImage: /assets/img/tinico.webp
 <div class="product-block">
   <img class="pb-img" src="/assets/img/tinico.webp" width="1000" height="1000" alt="TiNiCo 超合金均熱板" loading="eager" fetchpriority="high" />
   <div>
-    <p>TiNiCo 超合金均熱板用於 3D 手機蓋板玻璃熱彎模具與半導體熱管理，具有加熱均勻、平面度高、使用壽命長的特點，支持非標定製尺寸，是替代進口熱彎模具均熱板的關鍵材料。</p>
+    <p>TiNiCo 超合金均熱板用於 3D 手機蓋板玻璃熱彎模具與半導體熱管理，具有加熱均勻、平面度高、使用壽命長的特點，支持非標定制尺寸，是替代進口熱彎模具均熱板的關鍵材料。</p>
     <h2>技術參數</h2>
       <ul class="specs">
       <li>應用：3D 玻璃熱彎模具、半導體熱管理</li>
       <li>特點：溫度均勻、平面度高、壽命長</li>
-      <li>支持非標定製尺寸</li>
+      <li>支持非標定制尺寸</li>
     </ul>
     <div class="pb-cta"><a class="btn btn-primary" href="/zh-tw/contact/">獲取報價</a></div>
   

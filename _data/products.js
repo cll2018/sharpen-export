@@ -5,50 +5,50 @@ module.exports = {
   "en": [
     {
       "id": "strong-grooving-wheels",
-      "name": "Strong Grooving Wheels",
-      "summary": "SAP strong grooving wheels combine the advantages of metal and vitrified wheels — high self-sharpening, high sharpness, excellent shape retention and easy dressing — for efficient machining of carbide, HSS and cermet rotary tools and inserts.",
+      "name": "High-strength grooving grinding wheel",
+      "summary": "SAP high-strength grooving grinding wheel combines the advantages of metal grinding wheel and ceramic grinding wheel, featuring high self-sharpening, high sharpness, high shape retention, easy dressing and other advantages, particularly suitable for high-efficiency processing of cemented carbide, high-speed steel and cermet rotary tools and blades.",
       "image": "/assets/img/diamond-wheels.webp"
     },
     {
       "id": "led-backgrinding-wheels",
-      "name": "Semiconductor & LED Wafer Back-Grinding Wheels",
-      "summary": "Diamond wheels for precision grinding of ultra-hard semiconductor materials — sapphire, SiC and GaAs substrate back-thinning for LED and power devices. Self-sharpening, high shape retention, low scratch and low breakage rates.",
+      "name": "Semiconductor LED chip back thinning grinding wheel disc",
+      "summary": "Used for precision grinding of ultra-hard semiconductor materials such as sapphire and SiC, such as back thinning of LED sapphire substrate wafers, SiC substrate wafers, GaAs substrate wafers, and other grinding and thinning; good self-sharpening, high form retention, easy dressing, low scratch rate, low breakage rate.",
       "image": "/assets/img/wafer-backgrind.webp"
     },
     {
       "id": "pm-high-speed-steel",
-      "name": "Powder Metallurgy High-Speed Steel",
-      "summary": "SAP PM high-speed steel for high-end tool & die applications, replacing imported materials. Near-net-shape complex parts, low impurity content, and an extended family of tool/die steels.",
+      "name": "powder metallurgy high-speed steel",
+      "summary": "SAP series powder metallurgy high-speed steel is mainly used in the high-end tool and mold industry, replacing imported materials; it can prepare complex workpieces with near-net shape, has low impurity content, and covers multiple series such as tool steel, high-chromium stainless high-speed steel, titanium-nickel high-speed steel, etc.",
       "image": "/assets/img/pm-steel.webp"
     },
     {
       "id": "tinico-heat-spreader",
-      "name": "TiNiCo Superalloy Heat Spreader",
-      "summary": "TiNiCo superalloy heat spreader for 3D glass hot-bending molds and semiconductor thermal management — uniform heating, high flatness and long service life.",
+      "name": "TiNiCo Super Alloy Heat Spreader",
+      "summary": "Used for 3D glass hot bending molds and semiconductor thermal management, uniform heating, high planarity, long service life, supports non-standard custom sizes.",
       "image": "/assets/img/tinico.webp"
     },
     {
       "id": "sic-wafer-wheels",
-      "name": "Silicon Carbide (SiC) Wafer Thinning Wheels",
-      "summary": "Self-developed SiC wafer thinning wheels using a homogeneous intermetallic cermet bond. Rough grinding at 2000# with high feed; fine grinding at 30000# with <2 nm AFM roughness — boosting yield and cutting polish cost.",
+      "name": "SiC wafer thinning wheel",
+      "summary": "Diamond grinding wheel using a single homogeneous cermet (intermetallic compound) bond; rough grinding 2000# high feed efficient, finish grinding 30000# finish 2nm or less, greatly reduces subsequent polishing volume, improves yield.",
       "image": "/assets/img/sic-wafer.webp"
     },
     {
       "id": "pv-ingot-wheels",
-      "name": "Photovoltaic Silicon Ingot Squaring & Chamfering Wheels",
-      "summary": "Wheels that remove saw marks and surface damage after ingot squaring, achieving flatness, parallelism and the required finish — long life, high surface quality and stable performance.",
+      "name": "Solar silicon ingot squaring and chamfering grinding wheel",
+      "summary": "Removing saw marks and surface damage layers after squaring to achieve flatness and parallelism; removing coarse grinding marks to achieve corresponding surface finish; long service life, high surface finish, and good stability.",
       "image": "/assets/img/pv-ingot.webp"
     },
     {
       "id": "resin-wheels",
-      "name": "Five-Axis Resin-Bond Grinding Wheels",
-      "summary": "Resin-bond wheels with diamond or CBN superabrasive grains for 5-axis tool grinding of carbide and HSS — high surface accuracy, self-sharpening, high material removal and long dressing cycles for CNC cutting tools.",
+      "name": "Resin grinding wheel for five-axis grinder",
+      "summary": "Using resin as the bond, equipped with diamond or CBN superhard abrasive, adapted to the high-precision motion of five-axis grinders, specifically for precision grinding of complex contour surfaces of difficult-to-machine materials such as cemented carbide and high-speed steel, it is the core consumable in CNC tool manufacturing.",
       "image": "/assets/img/resin-wheels.webp"
     },
     {
       "id": "steel-bonded-carbide",
-      "name": "Steel-Bonded Cemented Carbide",
-      "summary": "Steel-bonded cemented carbide for tooling and demanding wear parts — machinable, forgeable and weldable in the annealed condition, hardened to HRC 60–70, pairing high-cobalt carbide wear resistance with far greater toughness; full-life cost far lower than alloy die steels.",
+      "name": "Steel-bonded cemented carbide",
+      "summary": "Targets tooling and harsh wear-resistant components — in the annealed state it can be directly machined by turning, milling, and drilling; it supports forging and welding, and forming can be completed without special equipment; after quench hardening, HRC 60–70, wear resistance is close to high-cobalt cemented carbide, toughness is far superior to ordinary cemented carbide, and full lifecycle cost is far lower than conventional alloy die steel.",
       "image": "/assets/img/steel-bonded-carbide.webp"
     }
   ],
@@ -106,25 +106,25 @@ module.exports = {
     {
       "id": "strong-grooving-wheels",
       "name": "強力開槽砂輪",
-      "summary": "SAP 強力開槽砂輪兼具金屬砂輪和陶瓷砂輪的優勢，具有高自銳性、高鋒利度、高保型性、易修整等優點，特別適合硬質合金、高速鋼及金屬陶瓷迴轉體刀具及刀片的高效率加工。",
+      "summary": "SAP 強力開槽砂輪兼具金屬砂輪和陶瓷砂輪的優勢，具有高自銳性、高鋒利度、高保型性、易修整等優點，特別適合硬質合金、高速鋼及金屬陶瓷回轉體刀具及刀片的高效率加工。",
       "image": "/assets/img/diamond-wheels.webp"
     },
     {
       "id": "led-backgrinding-wheels",
-      "name": "半導體LED芯片背減薄砂輪盤",
+      "name": "半導體LED晶片背減薄砂輪盤",
       "summary": "應用於藍寶石、SiC 等超硬半導體材料的精密磨削，如 LED 藍寶石襯底片背減薄、SiC 襯底片、GaAs 襯底片等磨削減薄；自銳性好、保型性高、易修型、低劃傷率、低破片率。",
       "image": "/assets/img/wafer-backgrind.webp"
     },
     {
       "id": "pm-high-speed-steel",
       "name": "粉末冶金高速鋼",
-      "summary": "SAP 系列粉末冶金高速鋼主要用於高端工模具行業，替代進口材料；可近淨成型製備複雜工件，雜質含量低，並涵蓋模具鋼、高鉻不鏽高速鋼、鈦鎳高速鋼等多個系列。",
+      "summary": "SAP 系列粉末冶金高速鋼主要用於高端工模具行業，替代進口材料；可近淨成型製備複雜工件，雜質含量低，並涵蓋模具鋼、高鉻不銹高速鋼、鈦鎳高速鋼等多個系列。",
       "image": "/assets/img/pm-steel.webp"
     },
     {
       "id": "tinico-heat-spreader",
       "name": "TiNiCo 超合金均熱板",
-      "summary": "用於 3D 玻璃熱彎模具與半導體熱管理，加熱均勻、平面度高、使用壽命長，支援非標定製尺寸。",
+      "summary": "用於 3D 玻璃熱彎模具與半導體熱管理，加熱均勻、平面度高、使用壽命長，支持非標定制尺寸。",
       "image": "/assets/img/tinico.webp"
     },
     {
@@ -148,557 +148,557 @@ module.exports = {
     {
       "id": "steel-bonded-carbide",
       "name": "鋼結硬質合金",
-      "summary": "面向刀具與苛刻耐磨件——退火態可直接車、銑、鑽加工，支持鍛造與焊接，無需特殊設備即可成型；淬硬後 HRC 60–70，耐磨性接近高鉻硬質合金、韌性遠優於普通硬質合金，全生命週期成本遠低於常規合金模具鋼。",
+      "summary": "面向刀具與苛耐磨件——退火態可直接車、銑、鑽加工，支持鍛造與焊接，無需特殊設備即可成型；淬硬後 HRC 60–70，耐磨性接近高鎳硬質合金、韌性遠優於普通硬質合金，全生命週期成本遠低於常規合金模具鋼。",
       "image": "/assets/img/steel-bonded-carbide.webp"
     }
   ],
   "de": [
     {
       "id": "strong-grooving-wheels",
-      "name": "Starre Nutbacken",
-      "summary": "SAP Starke Schlitzradscheiben verbinden die Vorteile von Metall- und Vitrifziertragscheiben – hohe Selbstschärfung, hohe Schärfe, exzellente Formstabilität und leichtes Nachschärfen – für die effiziente Bearbeitung von Hartmetall-, HSS- und Cermet-Rotationsschneidwerkzeugen und -Leisten.",
+      "name": "Starkes Schlitzschleifrad",
+      "summary": "Das SAP starke Schlitzschleifrad kombiniert die Vorteile von Metall- und Keramik-Schleifrad und bietet hohe Selbstscharfheit, hohe Schärfe, hohe Formtreue, leichtes Schruppen und andere Vorteile und eignet sich besonders für die effiziente Bearbeitung von Hartmetall, Schnellstahl und keramischen Metall-Rotationsschneidwerkzeugen und -klingen.",
       "image": "/assets/img/diamond-wheels.webp"
     },
     {
       "id": "led-backgrinding-wheels",
-      "name": "Schleifscheiben für die Rückseitenbearbeitung von Halbleiter- & LED-Wafern",
-      "summary": "Diamantscheiben zum Präzisionsschliff ultra-harter Halbleitermaterialien – Rückdünnschleifen von Saphir-, SiC- und GaAs-Substraten für LED- und Leistungselektronik. Selbstschärfend, hohe Formstabilität, geringe Kratzer- und Bruchraten.",
+      "name": "Halbleiter-LED-Chip-Rückendünnschliff-Schleifscheibe",
+      "summary": "Vereinfachung von Präzisschleifen von superharten Halbleitermaterialien wie Saphir, SiC, wie z.B. das Rückendünnschleifen von LED-Saphir-Substratplatinen, SiC-Substratplatinen, GaAs-Substratplatinen und andere Schleif- und Dünnschliffarbeiten; gute Selbstschärfung, hohe Formbeständigkeit, leichtes Nachschleifen, niedrige Kratzerate, niedrige Bruchrate.",
       "image": "/assets/img/wafer-backgrind.webp"
     },
     {
       "id": "pm-high-speed-steel",
-      "name": "Pulvermetallurgie-Schnellaustahl",
-      "summary": "SAP-PM-Hochgeschwindigkeitsstahl für hochwertige Werkzeug- und Stanzanwendungen, ersetzt importierte Materialien. Komplexe Nahe-Fertigungsformteile, niedriger Verunreinigungsgehalt und eine erweiterte Familie von Werkzeug- und Stanzstählen.",
+      "name": "Pulvermetallurgie-Schnellstahl",
+      "summary": "SAP-Serie Pulvermetallurgie-Schnellstahl wird hauptsächlich in der High-End-Werkzeug- und Schablonenindustrie verwendet, um importierte Materialien zu ersetzen; komplexe Werkstücke können nahe der Nettoform hergestellt werden, der Anteil an Verunreinigungen ist gering, und es umfasst mehrere Serien wie Stanzstahl, hochchromhaltiger rostfreier Schnellstahl, Titan-Nickel-Schnellstahl usw.",
       "image": "/assets/img/pm-steel.webp"
     },
     {
       "id": "tinico-heat-spreader",
-      "name": "TiNiCo-Superalloy-Wärmespreizer",
-      "summary": "TiNiCo-Superalloy-Wärmeleiter für 3D-Glas-Hot-Bending-Formen und Halbleiter-Thermalmanagement – gleichmäßige Erhitzung, hohe Ebenheit und lange Lebensdauer.",
+      "name": "TiNiCo Superlegierungswärmeleiter",
+      "summary": "Für 3D-Glas-Hot-Bending-Formen und Halbleiter-Thermalmanagement, gleichmäßige Erwärmung, hohe Planität, lange Lebensdauer, unterstützt nicht-standardisierte kundenspezifische Größen.",
       "image": "/assets/img/tinico.webp"
     },
     {
       "id": "sic-wafer-wheels",
-      "name": "Schleifscheiben für die Verdünnung von Siliziumkarbid (SiC) Wafern",
-      "summary": "Entwickelte SiC-Wafer-Dünnschliff Scheiben mit homogenem intermetallischem Cermet-Bindemittel. Grobschliff bei 2000# mit hohem Vorschub; Feinschliff bei 30000# mit <2 nm AFM-Rauheit – steigert den Ertrag und senkt die Polierkosten.",
+      "name": "SiC-Wafer-Dünnschliff",
+      "summary": "Diamantscheibe mit einhüligem Keramikmetallbindematerial (intermetallisches Verbund); Grobschliff 2000# hohe Fressrate effizient, Feinschliff 30000# Oberfläche 2nm oder weniger, reduziert die spätere Poliermenge erheblich, steigert den Ausbeute.",
       "image": "/assets/img/sic-wafer.webp"
     },
     {
       "id": "pv-ingot-wheels",
-      "name": "Schleifscheiben für die Rechteck- und Bockbearbeitung von PV-Siliziumbarren",
-      "summary": "Scheiben zum Entfernen von Sägespuren und Oberflächenschäden nach dem Block-Schliff, erreichen Planität, Parallelität und die erforderliche Oberfläche – lange Lebensdauer, hohe Oberflächenqualität und stabile Leistung.",
+      "name": "Grindrad für das Quadratischschleifen und Fasen von PV-Siliziumingots",
+      "summary": "Entfernung von Sägespuren und Schichtenschädigungen nach dem Quadratisieren, um Ebenheit und Parallelität zu erreichen; Entfernung von Grobschliffspuren, um die entsprechende Oberflächengüte zu erreichen; lange Lebensdauer, hohe Oberflächengüte und gute Stabilität.",
       "image": "/assets/img/pv-ingot.webp"
     },
     {
       "id": "resin-wheels",
-      "name": "Fünfachsen-Resinbond-Schleifscheiben",
-      "summary": "Harz-gebundene Scheiben mit Diamant- oder CBN-Hartmetallkörnchen für die 5-Achsen-Werkzeugbearbeitung von Hartmetall und HSS – hohe Oberflächengenauigkeit, Selbstschärfung, hohe Materialabtragungsleistung und lange Nachschärfintervalle für CNC-Schneidwerkzeuge.",
+      "name": "Kunstharzschleifscheibe für Fünf-Achs-Schleifmaschinen",
+      "summary": "Verwendet Kunstharz als Bindung, kombiniert mit Diamant oder CBN-Überschliffwerkzeug, angepasst an die Hochpräzisionsbewegung von Fünf-Achs-Schleifmaschinen, speziell für das präzise Schleifen komplexer Konturen von schwer zu bearbeitenden Materialien wie Hartmetall und Schnellstahl, ist das Kernverbrauchs- material in der CNC-Werkzeugherstellung.",
       "image": "/assets/img/resin-wheels.webp"
     },
     {
       "id": "steel-bonded-carbide",
       "name": "Stahlgebundener Hartmetall",
-      "summary": "Stahlgebundener Hartmetall für Werkzeuge und anspruchsvolle Verschleißteile — im geglühten Zustand bearbeitbar, schmiedbar und schweißbar, nach Härtung HRC 60–70; verbindet die Verschleißbeständigkeit von Hochcobalt-Hartmetall mit deutlich höherer Zähigkeit.",
+      "summary": "Zielt auf Werkzeuge und anspruchsvolle Verschleißteile ab — im gelöschten Zustand kann er direkt gedreht, gefräst und gebohrt werden; er unterstützt Schmieden und Schweißen, und Formgebung kann ohne Spezialausrüstung abgeschlossen werden; nach Härtung HRC 60–70, Verschleißfestigkeit ähnlich wie bei hochcobaltigem Hartmetall, Zähigkeit weit überlegen gegenüber normalem Hartmetall, Lebenszykluskosten weit niedriger als konventioneller legierter Werkzeugstahl.",
       "image": "/assets/img/steel-bonded-carbide.webp"
     }
   ],
   "ja": [
     {
       "id": "strong-grooving-wheels",
-      "name": "高強度溝研ぎ砥石",
-      "summary": "SAPの強度高め溝取り輪は、金属結合輪と焼結結合輪の利点を兼ね備えています。自己鋭磨き性、高 sharpness、優れた形状保持性、および砥ぎ調整の容易さを特徴とし、超硬、高速度鋼（HSS）、セラメット製の旋削工具やインサートの効率的な加工に使用されます。",
+      "name": "強力スロット研削砥石",
+      "summary": "SAP強力スロット研削砥石は金属砥石とセラミック砥石の利点を兼ね備え、高い自己研削性、高い鋭利度、高い形保持性、修正の容易さなどの利点をもち、超硬合金、高速鋼およびセラミック金属回転体工具とブレードの効率的な加工に特に適しています。",
       "image": "/assets/img/diamond-wheels.webp"
     },
     {
       "id": "led-backgrinding-wheels",
-      "name": "半導体・LEDウェーハバック研ぎ砥石",
-      "summary": "超硬半導体材料の精密研削用ダイヤモン砥石。サファイア、SiC、GaAs基体の背面研磨に使用され、LEDやパワーデバイスに適用されます。自己鋭磨き性、高い形状保持性、低い傷付き率、低い割れ率を特徴としています。",
+      "name": "半導体LEDチップ裏面研削砥石盤",
+      "summary": "サファイア、SiCなどの超硬半導体材料の精密研削に使用され、例えばLEDサファイア基板の裏面研削、SiC基板、GaAs基板などの研削薄化；自己研削性がよく、型崩れ防止性が高く、研削調整が容易で、スクラッチ率が低く、破片率が低い。",
       "image": "/assets/img/wafer-backgrind.webp"
     },
     {
       "id": "pm-high-speed-steel",
-      "name": "粉末冶金高速鋼",
-      "summary": "SAPの粉末冶金高速度鋼は、高品質な工具・ダイ応用に特化し、輸入材の代替品として設計されています。近似的な形状の複雑部品の製造を可能にし、不純物含有量が低く、ツール／ダイ用鋼の拡張ラインナップを提供します。",
+      "name": "粉末冶金高速度鋼",
+      "summary": "SAPシリーズ粉末冶金高速度鋼は、主にハイエンド工具型業界で使用され、輸入材料を代替します；複雑なワークを近净形態で製造でき、不純物含量が低く、金型鋼、高クロムステンレス高速度鋼、チタンニッケル高速度鋼等多个系列をカバーします。",
       "image": "/assets/img/pm-steel.webp"
     },
     {
       "id": "tinico-heat-spreader",
-      "name": "TiNiCo超合金均熱板",
-      "summary": "TiNiCo高温合金の放熱板は、3Dガラスの熱曲げ型や半導体の熱管理に使用されます。均一な加熱、高い平面度、および長い使用寿命を提供します。",
+      "name": "TiNiCo スーパー合金放熱板",
+      "summary": "3Dガラス熱曲げ型と半導体熱管理に使用され、加熱が均一で、平面度が高く、使用寿命が長く、非標準のカスタムサイズに対応。",
       "image": "/assets/img/tinico.webp"
     },
     {
       "id": "sic-wafer-wheels",
-      "name": "炭化シリコン（SiC）ウェーハ薄肉化砥石",
-      "summary": "独自開発した均一な中間金属結合材を使用したSiCウェーハ薄付け砥石。2000#での荒研削は高速送りに対応し、30000#での仕上げ研削はAFM粗さが2nm未満を実現し、歩留まり向上と研磨コスト削減に貢献します。",
+      "name": "SiCウェーハ研削",
+      "summary": "単一の均一なセラミックメタルバインド（金属間化合物）結合剤を持つダイヤモンド砥石；荒研ぎ 2000# 大きな送り量で高効率、仕上げ研ぎ 30000# 光沢度 2nm 以下、後工程の研磨量を大幅に削減し、歩留まりを向上。",
       "image": "/assets/img/sic-wafer.webp"
     },
     {
       "id": "pv-ingot-wheels",
-      "name": "光電シリコン丸鋼の四角出し・角抜き砥石",
-      "summary": "イノートの四面整形後の saw マークや表面損傷を除去し、平面度、直交性、および求められる表面状態を実現する砥石。長寿命、高い表面品質、安定した性能を特徴としています。",
+      "name": "太陽光シリコンインゴット方形研削・角取り砥石",
+      "summary": "方形化後ののこ残りおよび表面損傷層を除去し、平面度と平行度を達成；粗研ぎ痕を除去し、対応する表面粗さを達成；使用寿命が長く、表面粗さが低く、安定性が良い。",
       "image": "/assets/img/pv-ingot.webp"
     },
     {
       "id": "resin-wheels",
-      "name": "5軸樹脂接着砥石",
-      "summary": "ダイヤモンドまたはCBN超砥粒を備えたレジン結合砥石。超硬や高速度鋼の5軸ツール研削に使用され、高い表面精度、自己鋭磨き性、高い切削速度、長い砥ぎ調整サイクルを実現し、CNC切削工具に適用されます。",
+      "name": "5軸研削盤用樹脂砥石",
+      "summary": "樹脂を結合剤とし、ダイヤモンドまたはCBN超硬研削材を組み合わせ、5軸研削盤の高精度運動に適応、硬质合金、高速鋼などの加工困難な素材の複雑な形状面の精密研削専用、NC工作物製造のコア消費品です。",
       "image": "/assets/img/resin-wheels.webp"
     },
     {
       "id": "steel-bonded-carbide",
-      "name": "鋼結硬质合金",
-      "summary": "工具・高荷重耐磨部材向け。焼きなまし状態でも切削・锻造・溶接加工が可能、HRC 60–70 まで高硬度化でき、コバルト高配合硬质合金に匹敵する耐摩耗性と高い靭性を兼ね備え、合金型鋼より全ライフコストを大幅に削減します。",
+      "name": "鋼結合超硬合金",
+      "summary": "工具および苛酷な耐摩耗部材をターゲットとしています——焼ならし状態では直接旋削、フライス、ドリリング加工が可能であり、鍛造と溶接をサポートし、特殊設備なしで成形が可能です；油焼入れ後HRC 60–70、耐摩耗性は高コバルト超硬合金に近く、靭性は通常の超硬合金をはるかに超え、全ライフサイクルコストは常規の合金金型鋼よりはるかに低いです。",
       "image": "/assets/img/steel-bonded-carbide.webp"
     }
   ],
   "ko": [
     {
       "id": "strong-grooving-wheels",
-      "name": "고강도 그루빙 휠",
-      "summary": "SAP 강력 그루빙 휠은 금속계 및 유리계 휠의 장점을 결합하여 높은 자체 연마성, 절단성, 우수한 형상 유지력 및 간단한 드레싱을 제공합니다. 이를 통해 카바이드, 고속강(HSS), 세라믹 코팅(cermet) 회전 공구 및 인서트를 효율적으로 가공할 수 있습니다.",
+      "name": "강력한 경선 연삭 휠",
+      "summary": "SAP 강력한 경선 연삭 휠은 금속 연삭 휠과 세라믹 연삭 휠의 장점을 겸비하여 높은 자체 연마성, 높은 예리도, 높은 형상 보존성, 손쉬운 교정 등의 장점을 갖추고 있으며, 탄화강, 고속강 및 서멧 회전체 공구 및 블레이드의 효율적인 가공에 특히 적합합니다.",
       "image": "/assets/img/diamond-wheels.webp"
     },
     {
       "id": "led-backgrinding-wheels",
-      "name": "반도체 및 LED 웨이퍼 백 그라인딩 휠",
-      "summary": "LED 및 전력 장치용 다이아몬드 휠로, 사파이어, SiC, GaAs와 같은 초경 반도체 소재의 정밀 연마 및 백스리밍에 사용됩니다. 자체 연마성, 높은 형상 유지력, 낮은 스코치 및 파손률을 특징으로 합니다.",
+      "name": "반도체 LED 칩 뒷면 연삭 돌반",
+      "summary": "사파이어, SiC 등의 초경 반도체 소재의 정밀 연삭에 적용되며, 예를 들어 LED 사파이어 기판 뒷면 연삭, SiC 기판, GaAs 기판 등의 연삭 및 파두; 자가 연마성이 좋고, 형상 유지성이 높으며, 연삭 조정이 쉽고, 스크래치율이 낮고, 파편화율이 낮습니다.",
       "image": "/assets/img/wafer-backgrind.webp"
     },
     {
       "id": "pm-high-speed-steel",
-      "name": "분말야금 고속강(PM High-Speed Steel)",
-      "summary": "수입 소재를 대체하는 SAP 초정밀 속도조 성형 고속강(PM HSS)으로, 고상위 공정/모금 적용에 적합합니다. 복잡 형상 초정밀 부품, 낮은 불순물 함유량, 그리고 확장된 공정/모금 강종 가구를 제공합니다.",
+      "name": "분말야금 고속강",
+      "summary": "SAP 시리즈 분말야금 고속강은 주로 고급 금형 및 공구 산업에 사용되며 수입 재료를 대체합니다; 복잡한 부품을 청정가공으로 제조할 수 있으며 불순물 함량이 낮고, 금형강, 고크롬 스테인리스 고속강, 티타늄-니켈 고속강 등 여러 시리즈를 포괄합니다.",
       "image": "/assets/img/pm-steel.webp"
     },
     {
       "id": "tinico-heat-spreader",
-      "name": "TiNiCo 초합금 열 확산기",
-      "summary": "3D 유리 핫벤딩 몰드 및 반도체 열 관리용 TiNiCo 초합금 히트 스프리더입니다. 균일한 가열, 높은 평탄도, 장기 사용 수명을 제공합니다.",
+      "name": "TiNiCo 초합금 히트 스프리더",
+      "summary": "3D 유리 열 성형 금형과 반도체 열 관리에 사용되며, 균일한 가열, 높은 평탄도, 긴 사용 수명, 비표준 맞춤 크기 지원.",
       "image": "/assets/img/tinico.webp"
     },
     {
       "id": "sic-wafer-wheels",
-      "name": "탄화규소(SiC) 웨이퍼 얇게 만들기 휠",
-      "summary": "균질 금속간 화합물 세라믹 코팅(bond)을 사용하는 자체 개발 SiC 웨이퍼 씬닝 휠입니다. 2000# 굵기 연마 및 고속 진급 연마, 30000# 정밀 연마(2 nm 이하 AFM 표면 조도)를 실현하여 수율을 높이고 폴리싱 비용을 절감합니다.",
+      "name": "SiC 웨이퍼 씬닝",
+      "summary": "단일 균질 서멧 결합제(금속 간 화합물) 결합제를 사용하는 다이아몬드 휠; 거친 연삭 2000# 큰 절송量 고 효율, 마무리 연삭 30000# 광택도 2nm 이하, 후공정 연마량을 대폭 줄이고 수율을 높입니다.",
       "image": "/assets/img/sic-wafer.webp"
     },
     {
       "id": "pv-ingot-wheels",
-      "name": "태양광(PV) 실리콘 잉곳 네모내기 및 사선 깎기 휠",
-      "summary": "잉곳 스쿼링 후 소각 표시 및 표면 손상을 제거하는 휠로, 필요한 평탄도, 평행도, 마무리 품질을 달성합니다. 장수명, 높은 표면 품질, 안정된 성능을 특징으로 합니다.",
+      "name": "태양광 실리콘 잉고트 정사각형 연마 및 모따기 휠",
+      "summary": "사각화 후 톱자국 및 표면 손상층을 제거하여 평탄도와 평행을 달성；굵은 연마 흔적을 제거하여 적절한 표면 거칠기를 달성；수명 길음, 높은 표면 거칠기, 좋은 안정성.",
       "image": "/assets/img/pv-ingot.webp"
     },
     {
       "id": "resin-wheels",
-      "name": "5축 수지 결합 연마 휠",
-      "summary": "다이아몬드 또는 CBN 초경질 알갱이를 사용하는 레진계 연마 휠입니다. 5축 공구 연마에 사용하며, 카바이드 및 고속강(HSS)를 대상으로 높은 표면 정확성, 자체 연마성, 높은 절삭량, 장시간 드레싱 사이클을 제공합니다.",
+      "name": "5축 연삭기용 수지 연삭 휠",
+      "summary": "수지를 결합제로 사용하고 다이아몬드 또는 CBN 초경 연삭재를 조합하여, 5축 연삭기 고밀도 운동에 맞춰져, 탄화강, 고속강 등 가공이 어려운 소재의 복잡한 형상 정밀 연삭 전용이며, CNC 공정 제조의 핵심 소모품입니다.",
       "image": "/assets/img/resin-wheels.webp"
     },
     {
       "id": "steel-bonded-carbide",
-      "name": "강결 경질합금",
-      "summary": "공구와 고하중 마모 부품을 위한 강결합 세멘테드 카바이드 —annealed 상태에서 가공/단조/용접 가능, HRC 60–70까지 경화되며 고코발트 카바이드에匹敵하는 내마모성과 훨씬 높은 인성을 제공해 합금 다이 스틸 대비 총 수명 비용을 크게 낮춥니다.",
+      "name": "강결 탄화강",
+      "summary": "공구와 가혹한 마모 저항 부품을 대상으로 합니다——소둔 상태에서 직접 선반, 밀링, 드릴링 가공이 가능하며, 대조와 용접을 지원하며 특수 장비 없이 성형이 가능합니다; 담금질 후 HRC 60–70, 마모 저항성은 고코발트 탄화강에 근접하고, 인성은 일반 탄화강보다 훨씬 우수하며, 전수명주기 비용은 일반 합금 금형강보다 훨씬 낮습니다.",
       "image": "/assets/img/steel-bonded-carbide.webp"
     }
   ],
   "ru": [
     {
       "id": "strong-grooving-wheels",
-      "name": "Долговечные круги для подрезания",
-      "summary": "Кантовальные круги SAP объединяют преимущества стальных и фарфоровых кругов — высокую самозаостряемость, остроту, отличное удержание профиля и лёгкую приработку — для эффективной обработки твердосплавных, из быстрорежущей стали (БРС) и кераметаллов, а также ротационных инструментов и пластин.",
+      "name": "Мощный проточный абразивный круг",
+      "summary": "SAP мощный проточный абразивный круг сочетает преимущества металлических и керамических абразивных кругов, обладая высокой самозатачиваемостью, высокой остротой, высокой сохранностью формы, легкостью правки и другими преимуществами, особенно подходящий для высокоэффективной обработки твердосплава, быстрорежущей стали и керамико-металлических вращающихся режущих инструментов и пластин.",
       "image": "/assets/img/diamond-wheels.webp"
     },
     {
       "id": "led-backgrinding-wheels",
-      "name": "Круги для обратной шлифовки кристаллов полупроводников и светодиодов",
-      "summary": "Алмазные круги для точной обработки сверхтвёрдых полупроводниковых материалов — тонирование основы сапфира, SiC и GaAs с обратной стороны для светодиодных и силовых устройств. Самозаостряемость, высокая стабильность формы, низкий процент царапин и сколов.",
+      "name": "Круг для тонкого шлифования тыльной стороны чипов светодиодов для полупроводников",
+      "summary": "Применяется для точного шлифования сверхтвердых полупроводниковых материалов, таких как сапфир, SiC, включая тонкое шлифование тыльной стороны подложек из сапфира для светодиодов, подложек из SiC, подложек из GaAs и другие операции шлифования и утоньшения; хорошая самоостригаемость, высокая сохранность формы, легкость правки, низкий уровень царапин, низкий уровень повреждения пластин.",
       "image": "/assets/img/wafer-backgrind.webp"
     },
     {
       "id": "pm-high-speed-steel",
-      "name": "Быстрорежущая сталь порошковой металлургии",
-      "summary": "БРС порошковой металлургии SAP для инструмента и штампов высшего класса, заменяющая импортные материалы. Детали сложной формы близкой к окончательной, низкое содержание примесей, расширенная линейка сталей для инструмента и штампов.",
+      "name": "порошковая быстрорежущая сталь",
+      "summary": "Порошковая быстрорежущая сталь серии SAP в основном используется в высокотехнологичной отрасли инструмента и оснастки, заменяя импортные материалы; возможно изготовление сложных деталей с почти чистой геометрией, низкое содержание примесей, и охватывает несколько серий, таких как инструментальная сталь, высокохромовая нержавеющая быстрорежущая сталь, титано-никелевая быстрорежущая сталь и т.д.",
       "image": "/assets/img/pm-steel.webp"
     },
     {
       "id": "tinico-heat-spreader",
-      "name": "Теплораспределитель из сверхсплава TiNiCo",
-      "summary": "Распределитель тепла из суперсплава TiNiCo для 3D-стеклоизогнутых форм и термоуправления полупроводников — равномерный нагрев, высокая плоскостность и длительный срок службы.",
+      "name": "TiNiCo Суперсплав радиатор",
+      "summary": "Используется для 3D-стекла термических гибочных форм и теплового управления полупроводников, равномерный нагрев, высокая плоскостность, долгий срок службы, поддерживает нестандартные размеры по индивидуальному заказу.",
       "image": "/assets/img/tinico.webp"
     },
     {
       "id": "sic-wafer-wheels",
-      "name": "Круги для тонкошлифования кристаллов карбида кремния (SiC)",
-      "summary": "Круги собственного производства для тонирования пластин SiC с однородным кераметаллическим связующим. Чёрновое шлифование 2000# с высокой подачей; финишное шлифование 30000# с шероховатостью <2 нм по AFM — повышение выхода годного и сокращение затрат на полировку.",
+      "name": "SiC пластины",
+      "summary": "Алмазный круг с однородной керамико-металлической связкой (металлоидное соединение); чистовое обтачивание 2000# с крупным шагом для высокой эффективности, финишное обтачивание 30000# с шероховатостью 2 нм и менее, значительно снижает последующую полировку, повышает выход годного.",
       "image": "/assets/img/sic-wafer.webp"
     },
     {
       "id": "pv-ingot-wheels",
-      "name": "Круги для торцевания и фаски кристаллов фотополупроводникового кремния",
-      "summary": "Круги для удаления следов распила и поверхностных повреждений после обкатывания кристалла, обеспечивающие плоскостность, параллельность и требуемую чистоту поверхности — длительный срок службы, высокое качество поверхности и стабильная производительность.",
+      "name": "Круг для шлифования и фаски фотоэлектрических кремниевых заготовок",
+      "summary": "Удаление следов пиления и поверхностных слоёв повреждения после квадрования для достижения плоскостности и параллельности; удаление следов грубого шлифования для достижения соответствующей гладкости; длительный срок службы, высокая гладкость поверхности, хорошая стабильность.",
       "image": "/assets/img/pv-ingot.webp"
     },
     {
       "id": "resin-wheels",
-      "name": "Пятисосный абразивный круг на эпоксидной связке",
-      "summary": "Круги с бакелитовой связкой и суперабразивными зернами алмаза или CBN для 5-осевой заточки инструмента из твердого сплава и БРС — высокая точность поверхности, самозаостряемость, высокая производительность и длительный срок приработки для режущего инструмента с ЧПУ.",
+      "name": "Абразивный круг из смолы для пятикоординатных станков",
+      "summary": "С использованием смолы в качестве связки, в сочетании с алмазом или CBN сверхтвердым абразивным материалом, адаптированным к высокоточному движению пятикоординатных станков, специально для точного шлифования сложных поверхностей труднообрабатываемых материалов, таких как твердосплав и быстрорежущая сталь, является основным расходом для производства CNC-инструментов.",
       "image": "/assets/img/resin-wheels.webp"
     },
     {
       "id": "steel-bonded-carbide",
-      "name": "Сталепромежиточный твердосплав",
-      "summary": "Сталь-карбидные твёрдосплавные материалы для инструмента и нагруженных изнашивающихся деталей: обрабатываются, ковка и сварка в отожжённом состоянии, упрочнение до HRC 60–70, износостойкость на уровне высококобальтовых сплавов при значительно большей вязкости.",
+      "name": "Стальносвязанный твёрдосплав",
+      "summary": "Предназначен для режущего инструмента и деталей, работающих в жёстких условиях износостойкости — в отожжённом состоянии может напрямую обрабатываться токарной, фрезерной и сверлильной обработкой; поддерживает ковку и сварку, формовка возможна без специального оборудования; после закалки HRC 60–70, износостойкость близка к высококобальтовому твёрдосплаву, вязкость значительно превосходит обычный твёрдосплав, совокупные затраты на весь жизненный цикл значительно ниже, чем у обычного легированного штамповой стали.",
       "image": "/assets/img/steel-bonded-carbide.webp"
     }
   ],
   "es": [
     {
       "id": "strong-grooving-wheels",
-      "name": "Piedras de Canelado Resistentes",
-      "summary": "Las ruedas de estrías strong de SAP combinan las ventajas de las ruedas metálicas y vítreas —autoafilesado alto, alta agudeza, excelente retención de forma y facilidad de afilado— para el mecanizado eficiente de herramientas rotatorias y insertos de carburo, ACP (HSS) y cermet.",
+      "name": "Rueda de laminado de alta potencia",
+      "summary": "La rueda de laminado de alta potencia SAP combina las ventajas de las ruedas de laminado de metal y cerámica, ofreciendo alta autorrenovación, alta agudeza, alta retención de forma, facilidad de rectificado y otras ventajas, y es particularmente adecuada para el procesamiento de alta eficiencia de herramientas de rotación de carburo, acero rápido y cermet y hojas.",
       "image": "/assets/img/diamond-wheels.webp"
     },
     {
       "id": "led-backgrinding-wheels",
-      "name": "Piedras de Rectificado Posterior de Obletas para Semiconductores y LED",
-      "summary": "Ruedas de diamante para el rebasado de precisión de materiales semiconductores ultraduros —reducción de espesor posterior de sustratos de zafiro, SiC y GaAs para dispositivos LED y de potencia—. Autoafilado, alta retención de forma, bajas tasas de rayones y roturas.",
+      "name": "Disco de rectificado de adelgazamiento posterior de chips LED de semiconductores",
+      "summary": "Se aplica al rectificado de precisión de materiales semiconductores ultra-duros como zafiro, SiC, como el adelgazamiento posterior de sustratos de zafiro para LED, sustratos de SiC, sustratos de GaAs y otros rectificados de adelgazamiento; buena autoafilado, alta retención de forma, fácil refilado, baja tasa de arañado, baja tasa de rotura.",
       "image": "/assets/img/wafer-backgrind.webp"
     },
     {
       "id": "pm-high-speed-steel",
-      "name": "Acero Rápido de Metalurgia de Polvo",
-      "summary": "El acero rápido PM de SAP para aplicaciones de alto nivel en herramientas y moldes, que reemplaza materiales importados. Piezas complejas casi de forma neta, bajo contenido de impurezas y una familia ampliada de aceros de herramientas y moldes.",
+      "name": "acero rápido de metalurgia de polvos",
+      "summary": "El acero rápido de metalurgia de polvos de la serie SAP se utiliza principalmente en la industria de herramientas y moldes de gama alta, sustituyendo los materiales importados; permite preparar piezas complejas en forma casi neta, tiene bajo contenido de impurezas y cubre múltiples series como acero de molde, acero rápido inoxidable de alto cromo, acero rápido de titanio y níquel, entre otras.",
       "image": "/assets/img/pm-steel.webp"
     },
     {
       "id": "tinico-heat-spreader",
-      "name": "Difusor de Calor de Superaleación TiNiCo",
-      "summary": "Dispersor de calor de superaleación TiNiCo para moldes de doblado en caliente de vidrio 3D y gestión térmica de semiconductores —calentamiento uniforme, alta planitud y larga vida útil.",
+      "name": "Disipador de calor de superaleación TiNiCo",
+      "summary": "Se utiliza para moldes de doblado térmico de vidrio 3D y gestión térmica de semiconductores, calentamiento uniforme, alta planaridad, larga vida útil, admite tamaños personalizados no estándar.",
       "image": "/assets/img/tinico.webp"
     },
     {
       "id": "sic-wafer-wheels",
-      "name": "Piedras de Adelgazamiento de Obletas de Carburo de Silicio (SiC)",
-      "summary": "Ruedas de delgado de obleas de SiC desarrolladas internamente que utilizan una unión de cermet intermetálico homogénea. Molido rugoso en 2000# con alta alimentación; molido fino en 30000# con rugosidad AFM <2 nm —mejorando el rendimiento y reduciendo el costo de pulido.",
+      "name": "rueda de adelgazado de obleas SiC",
+      "summary": "Rueda de diamante con aglutinante cermet (compuesto intermetálico) homogéneo y único; desbaste 2000# alta avance eficiente, acabado 30000# acabado 2nm o menos, reduce significativamente el volumen de pulido posterior, mejora la tasa de rendimiento.",
       "image": "/assets/img/sic-wafer.webp"
     },
     {
       "id": "pv-ingot-wheels",
-      "name": "Piedras de Cuadrado y Chanfrado de Lingotes de Silicio Fotovoltaico",
-      "summary": "Ruedas que eliminan marcas de sierra y daños superficiales después del rectificado del lingote, logrando planitud, paralelismo y el acabado requerido —larga vida útil, alta calidad superficial y rendimiento estable.",
+      "name": "Rueda de rectificado para squaring y chaflán de lingotes de silicio fotovoltaico",
+      "summary": "Eliminar las marcas de sierra y capas de daño superficial tras el squaring para lograr planitud y paralelismo; eliminar las marcas de rectificado grueso para lograr la limpieza superficial correspondiente; larga vida útil, alta limpieza superficial y buena estabilidad.",
       "image": "/assets/img/pv-ingot.webp"
     },
     {
       "id": "resin-wheels",
-      "name": "Piedras de Rectificado de Resina de Cinco Ejes",
-      "summary": "Ruedas de aglutinante de resina con granos superabrasivos de diamante o CBN para el rectificado de herramientas de cinco ejes de carburo y ACP (HSS) —alta precisión superficial, autoafilesado, alta remoción de material y ciclos largos de afilado para herramientas de corte CNC.",
+      "name": "Rueda de molde de resina para rectificadoras de cinco ejes",
+      "summary": "Con resina como ligante, combinado con material abrasivo superduro de diamante o CBN, adaptado al movimiento de alta precisión de las rectificadoras de cinco ejes, dedicado al rectificado de precisión de superficies complejas de materiales de difícil mecanizado como cemented carbide y high-speed steel, es el material de consumo central en la fabricación de herramientas CNC.",
       "image": "/assets/img/resin-wheels.webp"
     },
     {
       "id": "steel-bonded-carbide",
-      "name": "Carburo con ligante de acero",
-      "summary": "Carburo cementado unido con acero para herramientas y piezas de desgaste exigentes: mecanizable, forjable y soldable en estado recocido, endurecido a HRC 60–70; combina la resistencia al desgaste del carburo de cobalto alto con mucha mayor tenacidad y menor coste total.",
+      "name": "Carburo aglutinado con acero",
+      "summary": "Dirigido a herramientas y piezas resistentes al desgaste en condiciones exigentes: en estado recocido puede ser mecanizado directamente por torneado, fresado y taladrado; soporta forja y soldadura, y la conformación puede completarse sin equipos especiales; tras el temple HRC 60–70, resistencia al desgaste similar al carburo de alto cobalto, tenacidad muy superior al carburo común, y coste de ciclo de vida total mucho menor que el acero de molde aleado convencional.",
       "image": "/assets/img/steel-bonded-carbide.webp"
     }
   ],
   "pt": [
     {
       "id": "strong-grooving-wheels",
-      "name": "Rodas de Serragem de Rasgo Fortes",
-      "summary": "As rendas de sulcamento fortes SAP combinam as vantagens de rendas metálicas e vitrificadas — autoafiamento alto, alta acuidade, excelente retenção de forma e fácil manutenção — para usinagem eficiente de ferramentas rotativas e inserts de cromo duro, aço rápido e cermet.",
+      "name": "Roda de serração de alta resistência",
+      "summary": "A roda de serração de alta resistência SAP combina as vantagens de rodas metálicas e de cerâmica, apresentando alta autoafiamento, alta agudeza, alta manutenção de forma e facilidade de retratamento, sendo particularmente adequada para o processamento de alta eficiência de ferramentas de corte rotativas e lâminas de carboneto, aço rápido de metalurgia de pó e cermet.",
       "image": "/assets/img/diamond-wheels.webp"
     },
     {
       "id": "led-backgrinding-wheels",
-      "name": "Rodas de Desbaste Posterior de Wafers para Semicondutores & LED",
-      "summary": "Rendas de diamante para retificação de precisão de materiais ultraduros de semicondutores — retassamento posterior de substratos de safira, SiC e GaAs para dispositivos LED e de potência. Autoafiamento, alta retenção de forma, baixa arranhadura e baixas taxas de quebra.",
+      "name": "Roda de afinação de fundo para chips LED de semicondutores",
+      "summary": "Aplicada ao desbaste preciso de materiais semicondutores superduros como safiro e SiC, como o desbaste de fundo de substratos de safiro LED, substratos de SiC, substratos de GaAs, etc.; boa auto-afiamento, alta retenção de forma, fácil retificação, baixa taxa de arranhões, baixa taxa de quebra.",
       "image": "/assets/img/wafer-backgrind.webp"
     },
     {
       "id": "pm-high-speed-steel",
-      "name": "Aço Rápido de Metalurgia do Pó",
-      "summary": "Aço rápido de metalurgia do pó SAP para aplicações de alto padrão de ferramentas e moldes, substituindo materiais importados. Peças de forma próxima do estado final, baixo teor de impurezas e uma família estendida de aços de ferramentas e moldes.",
+      "name": "aço rápido de metalurgia de pó",
+      "summary": "O aço rápido de metalurgia de pó da série SAP é principalmente usado na indústria de ferramentas e moldes de alta gama, substituindo materiais importados; pode preparar peças complexas por conformação quase definitiva, com baixo teor de impurezas, e cobre várias séries, incluindo aço para moldes, aço rápido inoxidável de alto cromo, aço rápido de titânio e níquel, entre outros.",
       "image": "/assets/img/pm-steel.webp"
     },
     {
       "id": "tinico-heat-spreader",
-      "name": "Dissipador de Calor de Superliga TiNiCo",
-      "summary": "Espalhador de calor de superliga TiNiCo para moldes de dobra a quente de vidro 3D e gestão térmica de semicondutores — aquecimento uniforme, alta planicidade e longa vida útil.",
+      "name": "Placa de dispersão de calor de superliga TiNiCo",
+      "summary": "Usadas em moldes de dobra térmica para vidro 3D e gerenciamento térmico de semicondutores, aquecimento uniforme, alta planicidade, longa vida útil, suporta dimensões personalizadas não padrão.",
       "image": "/assets/img/tinico.webp"
     },
     {
       "id": "sic-wafer-wheels",
-      "name": "Rodas de Finamento de Wafers de Carboneto de Silício (SiC)",
-      "summary": "Rendas de retassamento de wafers de SiC desenvolvidas internamente usando liga cermet intermetálica homogênea. Retificação bruta em 2000# com alta velocidade de avanço; retificação fina em 30000# com rugosidade AFM <2 nm — aumentando o rendimento e reduzindo o custo de polimento.",
+      "name": "Roda de desbaste de wafer SiC",
+      "summary": "Roda de diamante com aglutinante de metal cerâmico único homogêneo (compósitos intermetálicos); desbaste grosso 2000# com alta eficiência de avanço, acabamento fino 30000# com rugosidade abaixo de 2nm, reduzindo significativamente a quantidade de polimento posterior e melhorando a taxa de aproveitamento.",
       "image": "/assets/img/sic-wafer.webp"
     },
     {
       "id": "pv-ingot-wheels",
-      "name": "Rodas de Quadratura & Chanfuração de Lingotes de Silício Fotovoltaico",
-      "summary": "Rendas que removem marcas de corte e danos superficiais após a quadração de barras, alcançando planicidade, paralelismo e acabamento exigidos — longa vida útil, alta qualidade superficial e desempenho estável.",
+      "name": "Roda de diamante para desbaste e chanfragem de lingotes de silício fotovoltaico",
+      "summary": "Remove marcas de serra e camada de dano superficial após a quadratura, atingindo planicidade e paralelismo; remove marcas de desbaste grosseiro, atingindo brilho correspondente; longa vida útil, alto brilho superficial, boa estabilidade.",
       "image": "/assets/img/pv-ingot.webp"
     },
     {
       "id": "resin-wheels",
-      "name": "Rodas de Retífica de Ligante Resinoso para Cinco Eixos",
-      "summary": "Rendas de liga de resina com grãos superabrasivos de diamante ou CBN para retificação de ferramentas de cinco eixos em cromo duro e aço rápido — alta precisão superficial, autoafiamento, alto remoção de material e longos ciclos de manutenção para ferramentas de corte CNC.",
+      "name": "Roda de diamante de resina para retificadora de cinco eixos",
+      "summary": "Com aglutinante de resina, combinado com abrasivo superduro de diamante ou CBN, adaptado ao movimento de alta precisão da retificadora de cinco eixos, especificamente para o retifica preciso de perfis complexos de materiais difíceis de trabalhar, como carboneto e aço rápido, sendo o consumível central para a fabricação de ferramentas CNC.",
       "image": "/assets/img/resin-wheels.webp"
     },
     {
       "id": "steel-bonded-carbide",
-      "name": "Carbeto com ligação de aço",
-      "summary": "Carbeto cimentado unido com aço para ferramentas e peças de desgaste severas — usinável, forjável e soldável no estado recozido, endurecido para HRC 60–70, combinando resistência ao desgaste do carbeto de cobalto alto com muito mais tenacidade e menor custo de vida útil.",
+      "name": "Carboneto de cimento com ligante de aço",
+      "summary": "Destinado a ferramentas de corte e peças com desgaste severo — no estado de recozimento pode ser usinado diretamente por torneamento, fresamento e furação, suporta forjamento e soldagem, e a formação de formas pode ser realizada sem equipamentos especiais; após a têmpera HRC 60–70, a resistência ao desgaste é próxima à do carboneto de cimento de alto teor de cobalto, a tenacidade é muito superior à do carboneto de cimento comum, o custo do ciclo de vida total é muito inferior ao do aço para molde ligado convencional.",
       "image": "/assets/img/steel-bonded-carbide.webp"
     }
   ],
   "fr": [
     {
       "id": "strong-grooving-wheels",
-      "name": "Meules de cannelage robustes",
-      "summary": "Les meules de rainurage renforcées SAP combinent les avantages des meules métalliques et vitrifiées — auto-rehaussage élevé, acuité élevée, excellente conservation de forme et dressage facile — pour l'usinage efficace de fraises et plaquettes en carbure, HSS et céramétique.",
+      "name": "Meule de rainurage haute résistance",
+      "summary": "La meule de rainurage haute résistance SAP combine les avantages des meules métalliques et céramiques, offrant une haute auto-aiguisabilité, une haute acuité, une haute rétention de forme et une facilité de dressage, étant particulièrement adaptée au traitement à haute efficacité des outils de coupe de révolution et des lames en carbure, acier rapide et céramique-métal.",
       "image": "/assets/img/diamond-wheels.webp"
     },
     {
       "id": "led-backgrinding-wheels",
-      "name": "Meules de rectification arrière pour substrats et wafers de semi-conducteurs et LED",
-      "summary": "Meules au diamant pour le rectification de précision des matériaux de semi-conducteurs ultradurs — amincissement arrière de substrats en saphir, SiC et GaAs pour LED et dispositifs de puissance. Auto-rehaussage, conservation de forme élevée, faible rayure et taux de casse faible.",
+      "name": "Meule d'amincissement de dos pour puces LED semi-conducteurs",
+      "summary": "Appliquée au meulage de précision de matériaux semi-conducteurs ultra-durs comme le saphir et le SiC, tels que l'amincissement de dos de substrats de saphir LED, de substrats SiC, de substrats GaAs, etc.; bonne auto-aiguisage, haute fidélité de forme, facile à dresser, faible taux de rayure, faible taux de casse.",
       "image": "/assets/img/wafer-backgrind.webp"
     },
     {
       "id": "pm-high-speed-steel",
-      "name": "Acier à outillage haute vitesse par métallurgie des poudres",
-      "summary": "Acier à hautes vitesses par métallurgie des poudres SAP pour des applications haut de gamme en outillage et moues, remplaçant les matériaux importés. Pièces complexes à forme quasi nette, faible teneur en impuretés et famille étendue d'acières pour outillage/moues.",
+      "name": "acier rapide à métallurgie des poudres",
+      "summary": "L'acier rapide à métallurgie des poudres de la série SAP est principalement utilisé dans l'industrie des outils et matrices de haute qualité, remplaçant les matériaux importés ; il permet la fabrication de pièces complexes par préformation, avec une faible teneur en impuretés, et couvre plusieurs séries, y compris acier à matrices, acier rapide inoxydable à haute teneur en chrome, acier rapide au titane et au nickel, entre autres.",
       "image": "/assets/img/pm-steel.webp"
     },
     {
       "id": "tinico-heat-spreader",
-      "name": "Diffuseurs de chaleur en super-alliage TiNiCo",
-      "summary": "Distributeur de chaleur en superalliage TiNiCo pour moules de pliage à chaud de verre 3D et gestion thermique des semi-conducteurs — chauffage uniforme, haute planéité et longue durée de service.",
+      "name": "Plaque de propagation de chaleur super alliage TiNiCo",
+      "summary": "Utilisée pour les moules de thermoformage du verre 3D et la gestion thermique des semi-conducteurs, chauffage uniforme, haute planarité, longue durée de vie, prise en charge de dimensions personnalisées hors norme.",
       "image": "/assets/img/tinico.webp"
     },
     {
       "id": "sic-wafer-wheels",
-      "name": "Meules d'amincissement de wafers en carbure de silicium (SiC)",
-      "summary": "Meules d'amincissement de plaques SiC auto-développées utilisant un liant intermétallique céramétique homogène. Rectification grossière à 2000# avec avance élevée ; rectification fine à 30000# avec rugosité AFM <2 nm — augmentant le rendement et réduisant le coût de polissage.",
+      "name": "Meule d'amincissement de wafer SiC",
+      "summary": "Meule diamant avec liant céramique métallique unique et homogène (composé intermétallique) ; rectification grossière 2000# à grande avance et haute efficacité, finition 30000# avec rugosité inférieure à 2nm, réduisant considérablement la quantité de polissage ultérieur et améliorant le taux de rebut.",
       "image": "/assets/img/sic-wafer.webp"
     },
     {
       "id": "pv-ingot-wheels",
-      "name": "Meules de dressage et chanfreinage pour lingots de silicium photovoltaïque",
-      "summary": "Meules qui éliminent les marques de scie et les dommages de surface après l'équarrissage du lingot, assurant planéité, parallélisme et finition requise — longue durée de vie, haute qualité de surface et performance stable.",
+      "name": "Meule diamant pour fraisage et chanfreinage de lingots de silicium photovoltaïques",
+      "summary": "Enlève les marques de scie et la couche de dommages de surface après la mise en carré, atteignant la planéité et le parallélisme ; enlève les marques de fraisage grossier, atteignant la brillance correspondante ; longue durée de vie, haute brillance de surface, bonne stabilité.",
       "image": "/assets/img/pv-ingot.webp"
     },
     {
       "id": "resin-wheels",
-      "name": "Meules de rectification à liant résine pour 5 axes",
-      "summary": "Meules à liant résine avec grains superabrasifs au diamant ou CBN pour la rectification 5 axes de l'outillage en carbure et HSS — haute précision de surface, auto-rehaussage, haute capacité de coup et longs cycles de dressage pour les outils de coupe CNC.",
+      "name": "Meule diamant en résine pour rectifieuse à cinq axes",
+      "summary": "Avec liant résine, associé à un abrasif superdur de diamant ou CBN, adapté au mouvement de haute précision de la rectifieuse à cinq axes, spécifiquement pour le rectification précis de profils complexes de matériaux difficiles à usiner, tels que le carbure et l'acier rapide, et constitue le consommable central de la fabrication des outils CNC.",
       "image": "/assets/img/resin-wheels.webp"
     },
     {
       "id": "steel-bonded-carbide",
-      "name": "Carbure lié à la base acier",
-      "summary": "Carbure cémentié lié à l'acier pour l'outillage et les pièces de wear exigeantes — usinable, forgeable et soudable à l'état recuit, durci jusqu'à HRC 60–70 ; combine la résistance à l'usure du carbure à haut cobalt avec une ténacité nettement supérieure et un coût total réduit.",
+      "name": "Carbure de ciment lié au acier",
+      "summary": "Destiné aux outils de coupe et aux pièces résistantes à l'usure sévères — à l'état recuit, il peut être usiné directement par tournage, fraisage et perçage, il prend en charge le forgeage et la soudure, la formation peut être réalisée sans équipements spéciaux ; après trempe HRC 60–70, la résistance à l'usure est proche de celle du carbure de ciment à haute teneur en cobalt, la ténacité est bien supérieure à celle du carbure de ciment courant, le coût du cycle de vie total est bien inférieur à celui de l'acier d'outillage allié conventionnel.",
       "image": "/assets/img/steel-bonded-carbide.webp"
     }
   ],
   "it": [
     {
       "id": "strong-grooving-wheels",
-      "name": "Mole a Graffio di Alta Resistenza",
-      "summary": "SAP strong grooving wheels combine the advantages of metal and vitrified wheels — high self-sharpening, high sharpness, excellent shape retention and easy dressing — for efficient machining of carbide, HSS and cermet rotary tools and inserts.",
+      "name": "Mola di scanalatura ad alta resistenza",
+      "summary": "La mola di scanalatura ad alta resistenza SAP combina i vantaggi delle mole metalliche e ceramiche, presentando alta autoaffilatura, alta acume, alta mantenimento della forma e facile dressaggio, ed è particolarmente adatta per la lavorazione ad alta efficienza di utensili di taglio rotativi e lame in carburo, acciaio rapido e cermet.",
       "image": "/assets/img/diamond-wheels.webp"
     },
     {
       "id": "led-backgrinding-wheels",
-      "name": "Mole per Retro-Messura di Wafer per Semiconduttori e LED",
-      "summary": "Diamond wheels for precision grinding of ultra-hard semiconductor materials — sapphire, SiC and GaAs substrate back-thinning for LED and power devices. Self-sharpening, high shape retention, low scratch and low breakage rates.",
+      "name": "Mola di assottigliamento retro per chip LED a semiconduttore",
+      "summary": "Applicata alla rettifica di precisione di materiali semiconduttori ultra-duri come zaffiro e SiC, ad esempio l'assottigliamento retro di substrati in zaffiro LED, substrati in SiC, substrati in GaAs, ecc.; buona auto-temperatura, alta tenutività di forma, facile ripristino, bassa percentuale di graffi, bassa percentuale di rottura.",
       "image": "/assets/img/wafer-backgrind.webp"
     },
     {
       "id": "pm-high-speed-steel",
-      "name": "Acciaio ad Alta Velocità per Metallurgia delle Polveri",
-      "summary": "SAP PM high-speed steel for high-end tool & die applications, replacing imported materials. Near-net-shape complex parts, low impurity content, and an extended family of tool/die steels.",
+      "name": "acciaio rapido da metallurgia delle polveri",
+      "summary": "L'acciaio rapido da metallurgia delle polveri della serie SAP è principalmente utilizzato nell'industria di utensili e stampi di fascia alta, sostituendo i materiali importati; può preparare pezzi complessi mediante formatura quasi netta, con basso contenuto di impurità, e copre diverse serie, tra cui acciaio per stampi, acciaio rapido inossidabile ad alto cromo, acciaio rapido in titanio e nichel, tra gli altri.",
       "image": "/assets/img/pm-steel.webp"
     },
     {
       "id": "tinico-heat-spreader",
-      "name": "Dissipatore di Calore in Superlega TiNiCo",
-      "summary": "TiNiCo superalloy heat spreader for 3D glass hot-bending molds and semiconductor thermal management — uniform heating, high flatness and long service life.",
+      "name": "Piastre di dispersione del calore in superlega TiNiCo",
+      "summary": "Utilizzate negli stampi per la flessione a caldo del vetro 3D e nella gestione termica dei semiconduttori, riscaldamento uniforme, elevata planarità, lunga durata, supporto per dimensioni personalizzate non standard.",
       "image": "/assets/img/tinico.webp"
     },
     {
       "id": "sic-wafer-wheels",
-      "name": "Mole per Sottileggimento di Wafer in Carburo di Silicio (SiC)",
-      "summary": "Self-developed SiC wafer thinning wheels using a homogeneous intermetallic cermet bond. Rough grinding at 2000# with high feed; fine grinding at 30000# with <2 nm AFM roughness — boosting yield and cutting polish cost.",
+      "name": "Mola di assottigliamento wafer SiC",
+      "summary": "Mole per diamante con legante cermet unico omogeneo (composto intermetallico); rettifica grossa 2000# ad alta efficienza con grande avanzamento, finitura 30000# con rugosità inferiore a 2nm, riducendo significativamente la quantità di lucidatura a valle e migliorando il tasso di resa.",
       "image": "/assets/img/sic-wafer.webp"
     },
     {
       "id": "pv-ingot-wheels",
-      "name": "Mole per Squadratura e Smussatura di Lingotti di Silicio Fotovoltaici",
-      "summary": "Wheels that remove saw marks and surface damage after ingot squaring, achieving flatness, parallelism and the required finish — long life, high surface quality and stable performance.",
+      "name": "Mole diamant per fresatura e smusso di lingotti di silicio fotovoltaici",
+      "summary": "Rimuove le tracce di sega e lo strato di danni superficiali dopo la quadratura, raggiungendo planarità e parallelismo; rimuove le tracce di fresatura grossolana, raggiungendo la lucentezza corrispondente; lunga durata, alta lucentezza superficiale, buona stabilità.",
       "image": "/assets/img/pv-ingot.webp"
     },
     {
       "id": "resin-wheels",
-      "name": "Mole di Levigatura a Resina per Cinque Assi",
-      "summary": "Resin-bond wheels with diamond or CBN superabrasive grains for 5-axis tool grinding of carbide and HSS — high surface accuracy, self-sharpening, high material removal and long dressing cycles for CNC cutting tools.",
+      "name": "Mole in resina per rettificatrice a cinque assi",
+      "summary": "Con legante resinosa, abbinata ad abrasivo superduro in diamante o CBN, adatto al movimento ad alta precisione della rettificatrice a cinque assi, specificamente per la rettifica precisa di superfici complesse di materiali difficili da lavorare, come carburo e acciaio rapido, ed è il consumabile centrale per la produzione di utensili CNC.",
       "image": "/assets/img/resin-wheels.webp"
     },
     {
       "id": "steel-bonded-carbide",
-      "name": "Carburo con lega di acciaio",
-      "summary": "Carburo sinterato legato all'acciaio per utensili e parti soggette a severo usura — lavorabile, forgiabile e saldabile nello stato ricotto, induribile a HRC 60–70, combina la resistenza all'usura del carburo alto-cobalto con tenacità nettamente maggiore e costo nel ciclo di vita inferiore.",
+      "name": "Carburo cementato con lega in acciaio",
+      "summary": "Destinato a utensili di taglio e parti resistenti all'usura severe — nello stato ricotto può essere lavorato direttamente su tornio, fresato e forato, supporta forgiatura e saldatura, la formazione può essere completata senza attrezzature speciali; dopo la tempra HRC 60–70, la resistenza all'usura è vicina a quella del carburo cementato ad alto tenore di cobalto, la tenacità è molto superiore a quella del carburo cementato comune, il costo del ciclo di vita totale è molto inferiore a quello dell'acciaio per stampi legato convenzionale.",
       "image": "/assets/img/steel-bonded-carbide.webp"
     }
   ],
   "tr": [
     {
       "id": "strong-grooving-wheels",
-      "name": "Güçlü Çelik Tekerlekleri",
-      "summary": "SAP güçli kanatlı taşlar, metalik ve camlanmış taşların avantajlarını birleştirir: yüksek kendini tuzlama kapasitesi, yüksek kesicilik, mükemmel şekil koruma ve kolay taşlama. Bu, seramik, yüksek hızlı çelik (HSS) ve seramik metalik döner kesici takımları ve plaçların verimli işlenmesini sağlar.",
+      "name": "Yüksek dirençli oluk delme taşı",
+      "summary": "SAP yüksek dirençli oluk delme taşı, metal ve seramik taşların avantajlarını birleştirir; yüksek kendiliğinden keskinleşme, yüksek keskinlik, yüksek form koruma ve kolay düzenleme gibi üstünlükler sunar ve sert metal, hızlı kesen çelik ve seramik metal döner kesme araçları ve bıçakların yüksek verimlilikle işlenmesi için özellikle uygundur.",
       "image": "/assets/img/diamond-wheels.webp"
     },
     {
       "id": "led-backgrinding-wheels",
-      "name": "Yarı İletken & LED Wafer Arka Zımparalama Tekerlekleri",
-      "summary": "Ultra sert yarı iletken malzemelerin hassas taşlanması için elmas taşları; safir, SiC ve GaAs taban plakalarının LED ve güç cihazları için arka inceltme. Kendini tuzlama, yüksek şekil koruma, düşük çizik ve düşük kırılma oranları.",
+      "name": "Yarı iletken LED çipi arka inceltme taşı",
+      "summary": "Yakut ve SiC gibi aşırı sert yarı iletken malzemelerin hassas taşlanmasında kullanılır; örneğin LED yakut alt tabaka arka inceltme, SiC alt tabaka, GaAs alt tabaka taşlama ve inceltme; iyi otomatik keskinleşme, yüksek form tutma, kolay taşlama, düşük çizik oranı, düşük kırılma oranı.",
       "image": "/assets/img/wafer-backgrind.webp"
     },
     {
       "id": "pm-high-speed-steel",
-      "name": "Toz Metalurji Yüksek Hızlı Çelik",
-      "summary": "SAP PM yüksek hızlı çeliği, üst segment çelik ve kalıp uygulamaları için ithal malzemelerin yerini alır. Neredeyse net şekle yakın karmaşık parçalar, düşük kirluluk içeriği ve geniş bir çelik/kalip çeliği ailesi.",
+      "name": "toz metalurjisi yüksek hızlı çelik",
+      "summary": "SAP serisi toz metalurjisi yüksek hızlı çelik, ithal malzemeleri değiştirerek yüksek segment kalıp ve takım endüstrisinde ana olarak kullanılır; düşük safsızlık içeriğine sahip olup karmaşık parçaların neredeyse net şekillendirme ile hazırlanmasına izin verir ve kalıp çeliği, yüksek kromlu paslanmaz yüksek hızlı çelik, titanyum-nikel yüksek hızlı çelik gibi birçok seriyi kapsar.",
       "image": "/assets/img/pm-steel.webp"
     },
     {
       "id": "tinico-heat-spreader",
-      "name": "TiNiCo Süper Alaşım Isı Dağıtıcısı",
-      "summary": "3 boyutlu cam sıcak büküm kalıpları ve yarı iletken termal yönetimi için TiNiCo süper alaşım ısı dağıtıcı — homojen ısıtma, yüksek düzlemsellik ve uzun servis ömrü.",
+      "name": "TiNiCo süper alaşım ısı yayıcı",
+      "summary": "3D cam termal büküm kalıpları ve yarı iletken termal yönetiminde kullanılır; eşit ısıtma, yüksek düzlük, uzun ömür, standart dışı özel boyutları destekler.",
       "image": "/assets/img/tinico.webp"
     },
     {
       "id": "sic-wafer-wheels",
-      "name": "Silikon Karbid (SiC) Wafer İnceltme Tekerlekleri",
-      "summary": "Homojen intermetalik seramik metalik bağ içeren, kendi geliştirmiş olduğumuz SiC wafer inceltme taşları. Yüksek besleme ile 2000# pürüz taşlama; <2 nm AFM pürüzlülük ile 30000# ince taşlama — verimi artırarak zımparalama maliyetini düşürür.",
+      "name": "SiC wafer inceltme",
+      "summary": "Tek tip homojen metal seramik (aralık metal bileşimi) bağlayıcılı elmas taş; kaba talaş 2000# yüksek verimli yüksek ilerleme, zımparalamada 30000# pürüzsüzlüğü 2nm altı, sonraki aşamadaki cilalama miktarını önemli ölçüde azaltır, verimi artırır.",
       "image": "/assets/img/sic-wafer.webp"
     },
     {
       "id": "pv-ingot-wheels",
-      "name": "Fotovoltaik Silisyum Ingot Kareleştirme & Kenarleme Tekerlekleri",
-      "summary": "Külüt çekme sonrası testere izlerini ve yüzey hasarlarını kaldırarak düzlemsellik, paralellik ve gerekli yüzeyi elde eden taşlar — uzun ömür, yüksek yüzey kalitesi ve stabil performans.",
+      "name": "Fotovoltaik silikon ingot dikdörtgenleme ve pahalamada elmas taş",
+      "summary": "Kare kesim sonrası testere izlerini ve yüzey hasar katmanını gidererek düzlük ve paralellik sağlanır; kaba zımpara izlerini gidererek uygun parlaklığa ulaşılır; uzun ömür, yüksek yüzey parlaklığı, iyi stabilite.",
       "image": "/assets/img/pv-ingot.webp"
     },
     {
       "id": "resin-wheels",
-      "name": "Beş Eksenli Reçine Bağlı Zımparalama Tekerlekleri",
-      "summary": "Seramik veya CBN süper aşındırıcı taneleri içeren, beş eksenli çelik ve HSS takım taşlaması için reçine bağlı taşlar — yüksek yüzey doğruluğu, kendini tuzlama, yüksek malzeme kaldırma ve CNC kesici takımlar için uzun taşlama döngüleri.",
+      "name": "Beş eksenli taşlama tezgahı için reçine taşlama diski",
+      "summary": "Reçine bağlayıcı ile, elmas veya CBN aşırı sert aşıntı malzemesi ile donatılmıştır, beş eksenli taşlama tezgahının yüksek hassasiyetli hareketine uyum sağlar, sert metal, yüksek hızlı çelik gibi zor işlenen malzemelerin karmaşık yüzeylerinin hassas taşlanması için özellikle kullanılır ve CNC takım imalatının çekirdek sarf malzemesidir.",
       "image": "/assets/img/resin-wheels.webp"
     },
     {
       "id": "steel-bonded-carbide",
-      "name": "Çelik bağlı sert alaşım",
-      "summary": "Kesici takım ve zor aşınma parçaları için çelik bağlı sementize krom — tavlalı durumda işlenebilir, dövülebilir ve kaynaklanabilir, HRC 60–70 sertleştirilir; yüksek kobalt karbür dayanıklılığını çok daha yüksek toklukla birleştirir ve yaşam döngüsü maliyetini düşürür.",
+      "name": "Sertleştirilmiş karbit çelik bağlayıcılı",
+      "summary": "Kesici aletler ve zorlu aşınma parçaları için tasarlanmıştır — tavlama durumunda doğrudan tornalama, frezeleme ve delme işlemi yapılabilir, dövme ve kaynak desteği sağlar, özel ekipman olmadan şekillendirme tamamlanabilir; sertleştirme sonrası HRC 60–70, aşınma direnci yüksek kobalt içeriğine sahip sertleştirilmiş karbite yakındır, tokluk sıradan sertleştirilmiş karbitten çok daha üstündür, tam yaşam döngüsü maliyeti konvansiyonel alaşımlı kalıp çeliğinden çok daha düşüktür.",
       "image": "/assets/img/steel-bonded-carbide.webp"
     }
   ],
   "ar": [
     {
       "id": "strong-grooving-wheels",
-      "name": "عجلات شدّ قوية",
-      "summary": "تجمع عجلات القَطع القوية من SAP بين مزايا العجلات المعدنية والزجاجية - حدّة ذاتية عالية، حدّة فائقة، احتفاظ ممتاز بالشكل، وسهولة التسوية - لمعالجة فعالة لأدوات وقواطع الدوران المصنوعة من الكاربيد والفولاذ عالي السرعة وسيراميت.",
+      "name": "قرص قطع الأخدود عالي القوة",
+      "summary": "يجمع قرص قطع الأخدود عالي القوة SAP بين مزايا الأقراص المعدنية والسيراميكية، ويتميز بذاتية حدة عالية، وحده عالية، والحفاظ على الشكل العالي، وسهولة الصقل، وهو مناسب بشكل خاص لمعالجة عالية الكفاءة لأدوات القطع الدوارة والشفرات من الكربيد الفولاذ السريع والسيرميت.",
       "image": "/assets/img/diamond-wheels.webp"
     },
     {
       "id": "led-backgrinding-wheels",
-      "name": "عجلات صنفرة خلفية لألواح أشباه الموصلات والألواح الدقيقة (LED)",
-      "summary": "عجلات ألماس لطحن دقيق لمواد أشباه الموصلات فائقة الصلابة - ترقق الخلف للألواح المصنوعة من الزركونيا (Sapphire) وكربيد السيليكون (SiC) وغاليوم الأسينيد (GaAs) لأجهزة LED وأجهزة الطاقة. تتمتع بحدّة ذاتية عالية، واحتفاظ جيد بالشكل، ومعدلات خدش وكسر منخفضة.",
+      "name": "قرص صقل خلفية شريحة LED أشباه الموصلات",
+      "summary": "يُستخدم في الصقل الدقيق لمواد أشباه الموصلات فائقة الصلابة مثل الأزركون والسيليكون كربيد (SiC)، مثل صقل خلفية ركيزة LED من الأزركون، ركيزة SiC، ركيزة GaAs، وما إلى ذلك؛ جيد في التجديد الذاتي، عالي في الحفاظ على الشكل، سهل في الإصلاح، معدل خدوش منخفض، معدل كسر منخفض.",
       "image": "/assets/img/wafer-backgrind.webp"
     },
     {
       "id": "pm-high-speed-steel",
-      "name": "فولاذ القص السريع بالمعالجة بالمسحوق (Powder Metallurgy High-Speed Steel)",
-      "summary": "الفولاذ عالي السرعة بـالفلزات المسحوقة (PM) من SAP لتطبيقات الأدوات والقوالب عالية الجودة، مع استبدال المواد المستوردة. قطع معقدة بأبعاد تقريبية (Near-net-shape)، محتوى منخفض من الشوائب، وعائلة موسعة من فحلي الأدوات والقوالب.",
+      "name": "فولاذ عالي السرعة من المساحيق",
+      "summary": "يُستخدم فولاذ عالي السرعة من المساحيق من سلسلة SAP بشكل رئيسي في صناعة القوالب والقطع الأداوات عالية الجودة، ويستبدل المواد المستوردة؛ ويمكن تهيئة قطع معقدة عبر التشكيل شبه النهائي، مع محتوى منخفض للشوائب، ويتضمن عدة سلاسل مثل فولاذ القوالب، الفولاذ السريع المقاوم للصدأ عالي الكروم، الفولاذ السريع للنحاس والنيكل، وغير ذلك.",
       "image": "/assets/img/pm-steel.webp"
     },
     {
       "id": "tinico-heat-spreader",
-      "name": "مبدّل حراري فائق من سبائك TiNiCo",
-      "summary": "منتشر حراري من سبيكة TiNiCo فائقة لأقواس بثق الزجاج ثلاثي الأبعاد بإدارة حرارية لأشباه الموصلات - تسخين متجانس، تسطح عالٍ وعمر خدمة طويل.",
+      "name": "لوح انتشار حراري من سبائك TiNiCo فائقة",
+      "summary": "تُستخدم في قوالب الانحناء الحراري لزجاج ثلاثي الأبعاد وإدارة الحرارة في أشباه الموصلات، مع تسخين متجانس ودرجة استواء عالية وعمر طويل، وتدعم الأحجام المخصصة غير القياسية.",
       "image": "/assets/img/tinico.webp"
     },
     {
       "id": "sic-wafer-wheels",
-      "name": "عجلات ترقيق ألواح الكاربيد السيليكوني (SiC)",
-      "summary": "عجلات ترقق ألواح كربيد السيليكون (SiC) المصنوعة ذاتيًا باستخدام رابطة سيراميت بينة الفلزات متجانسة. طحن خشن عند 2000# بمعدل تغذية عالٍ؛ وطحن دقيق عند 30000# مع خشونة AFM أقل من 2 نانومتر - مما يعزز نسبة العائد ويقلل تكلفة الطلاء.",
+      "name": "عجلة ترقيم رقائق SiC",
+      "summary": "قرص ماس برابطة سيراميك معدني متجانسة وأحادية (مركب معدني بيني)؛ طحن خشن 2000# بتقدم كبير وكفاءة عالية، وتلميع نهائي 30000# بسطح أقل من 2nm، مما يقلل بشكل كبير كمية التصليح اللاحق ويزيد نسبة الإنتاج الجيد.",
       "image": "/assets/img/sic-wafer.webp"
     },
     {
       "id": "pv-ingot-wheels",
-      "name": "عجلات استواء وزوايا مائلة (Chamfering) للجزيئات السيليكونية في ألواح الطاقة الشمسية",
-      "summary": "عجلات تزيل آثار الطحن والتلف السطحي بعد استمارة الشظايا، محققة التسطيح والتوازي والتشطيب المطلوبين - عمر طويل، جودة سطح عالية وأداء مستقر.",
+      "name": "قرص الماس لصقل وتقطيع الزوايا لألواح السيليكون الكهروضوئية",
+      "summary": "إزالة آثار المنشار وطبقة损伤 السطحية بعد التقطيع المربع، تحقيق المسطحية والتوازي؛ إزالة آثار الصقل الخشن تحقيقا للنعومة المقابلة؛ عمر افتراضي طويل، نعومة سطحية عالية، ثبات جيد.",
       "image": "/assets/img/pv-ingot.webp"
     },
     {
       "id": "resin-wheels",
-      "name": "عجلات صنفرة برابطة راتنجية لخمس محاور",
-      "summary": "عجلات طحن برابطة راتنجية تحتوي على حبيبات كاسرة فائقة من الألماس أو كربيد البوران (CBN) لطحن الأدوات بخمس محاور من الكاربيد والفولاذ عالي السرعة - دقة سطح عالية، حدّة ذاتية، إزالة كميات كبيرة من المادة ودورات تسوية طويلة للأدوات القطعية CNC.",
+      "name": "قرص ماس راتنجي لطحن بخمسة محاور",
+      "summary": "مع رابط راتنجي، مدمج مع شدة فائقة الصلابة من الماس أو CBN، مناسب لحركة عالية الدقة لطحن بخمسة محاور، متخصص لطحن دقيق للأسطح المعقدة لمواد يصعب تشكيلها مثل الكربيد والفولاذ عالي السرعة، وهو المستهلك الأساسي لصناعة أدوات CNC.",
       "image": "/assets/img/resin-wheels.webp"
     },
     {
       "id": "steel-bonded-carbide",
-      "name": "كربيد مربوط بالصلب",
-      "summary": "كربيد مثبت بالصلب للأدوات وقطع التآكل الصعبة — قابل للميكانيكا والخراطة والتهذيب واللحام في الحالة المبلورة، يَصلَّب حتى HRC 60–70، يجمع بين مقاومة التآكل للكربيد عالي الكوبالت ومتانة أعلى بكثير وتكلفة دورة حياة أقل.",
+      "name": "الكربيد المسبوك الرابطة الفولاذية",
+      "summary": "موجهة نحو أدوات القطع ومكونات التآكل الشديدة — في حالة التلدين يمكن المعالجة مباشرةً بالتقطيع والتشطيب بالفرز والخزق، تدعم الصب والليامة، ويمكن التشكيل دون معدات خاصة؛ بعد التصلب HRC 60–70، ومقاومة التآكل تقترب من الكربيد المسبوك عالي الكوبالت، والليونة تتفوق بكثير على الكربيد المسبوك العادي، وتكلفة دورة الحياة الكاملة أقل بكثير من فولاذ القوالب السبائكي الاعتيادي.",
       "image": "/assets/img/steel-bonded-carbide.webp"
     }
   ],
   "vi": [
     {
       "id": "strong-grooving-wheels",
-      "name": "Bánh Mài Rãnh Cứng",
-      "summary": "Phôi mài rãnh SAP Strong kết hợp các ưu điểm của phôi kim loại và phôi thủy tinh hóa — khả năng tự sắc cao, độ sắc bén cao, giữ hình dạng tuyệt vời và dễ đánh bóng — để gia công hiệu quả dụng cụ và chèn xoay bằng carbide, HSS và cermet.",
+      "name": "Đĩa mài rãnh chịu lực cao",
+      "summary": "Đĩa mài rãnh chịu lực cao SAP kết hợp các lợi thế của đĩa mài kim loại và đĩa gốm, có độ tự sắc cao, độ sắc bén cao, khả năng giữ hình dạng cao và dễ chỉnh sửa, đặc biệt thích hợp cho gia công hiệu suất cao các dụng cụ cắt thân quay và dao của carbide cứng, thép tốc độ cao luyện bột và kim loại gốm.",
       "image": "/assets/img/diamond-wheels.webp"
     },
     {
       "id": "led-backgrinding-wheels",
-      "name": "Bánh Mài Mặt Sau Wafer Bán Dẫn & LED",
-      "summary": "Phôi mài kim cương cho việc mài chính xác các vật liệu bán dẫn siêu cứng — làm mỏng mặt lưng của đế sapphire, SiC và GaAs cho LED và thiết bị công suất. Tự sắc, giữ hình dạng cao, tỷ lệ vết xước và tỷ lệ vỡ thấp.",
+      "name": "Đĩa mài mỏng lưng chip LED bán dẫn",
+      "summary": "Được ứng dụng trong việc mài chính xác các vật liệu bán dẫn cực cứng như sapphire, SiC, ví dụ như mài mỏng lưng đế sapphire LED, đế SiC, đế GaAs; khả năng tự mài sắc tốt, độ giữ hình dạng cao, dễ chỉnh sửa, tỷ lệ xước thấp, tỷ lệ vỡ thấp.",
       "image": "/assets/img/wafer-backgrind.webp"
     },
     {
       "id": "pm-high-speed-steel",
-      "name": "Thép Tốc Độ Cao Kim Loại Bột",
-      "summary": "Thép tốc độ cao luyện bằng phương pháp luyện bột (PM) SAP dành cho các ứng dụng khuôn và dụng cụ cấp cao, thay thế các vật liệu nhập khẩu. Các chi tiết phức tạp gần dạng mạng, hàm lượng tạp chất thấp và một họ các thép dụng cụ/khuôn được mở rộng.",
+      "name": "thép tốc độ cao luyện bột",
+      "summary": "Thép tốc độ cao luyện bột của dòng SAP chủ yếu được sử dụng trong ngành công nghiệp khuôn và dụng cụ cao cấp, thay thế vật liệu nhập khẩu; có thể chế tạo chi tiết phức tạp bằng phương pháp định hình gần đạt, hàm lượng tạp chất thấp và bao gồm nhiều dòng như thép khuôn, thép không gỉ tốc độ cao crom cao, thép tốc độ cao titan và niken, cùng nhiều dòng khác.",
       "image": "/assets/img/pm-steel.webp"
     },
     {
       "id": "tinico-heat-spreader",
-      "name": "Vật Liệu Dẫn Nhiệt Siêu Hợp Kim TiNiCo",
-      "summary": "Bản truyền nhiệt hợp kim siêu TiNiCo cho khuôn nóng uốn thủy tinh 3D và quản lý nhiệt bán dẫn — gia nhiệt đồng đều, độ phẳng cao và tuổi thọ dịch vụ dài.",
+      "name": "Tấm tản nhiệt hợp kim siêu TiNiCo",
+      "summary": "Dùng trong khuôn ép nhiệt kính 3D và quản lý nhiệt bán dẫn, làm nóng đều, độ phẳng cao, tuổi thọ dài, hỗ trợ kích thước tùy chỉnh phi tiêu chuẩn.",
       "image": "/assets/img/tinico.webp"
     },
     {
       "id": "sic-wafer-wheels",
-      "name": "Bánh Mài Mỏng Hóa Wafer Carbide Silic (SiC)",
-      "summary": "Phôi mài mỏng wafer SiC tự phát triển sử dụng liên kết intermetallic homogenized. Mài thô ở 2000# với tốc độ tiến cao; mài tinh ở 30000# với độ nhám AFM <2 nm — tăng tỷ lệ thu và cắt giảm chi phí đánh bóng.",
+      "name": "Đĩa mài mỏng wafer SiC",
+      "summary": "Đĩa mài kim cương với chất kết dính gốm kim loại đồng nhất đơn lẻ (hợp chất liên kim); mài thô 2000# hiệu quả cao với chạy dao lớn, mài tinh 30000# độ nhẵn 2nm trở xuống, giảm đáng kể lượng đánh bóng công đoạn sau, nâng cao tỷ lệ đạt.",
       "image": "/assets/img/sic-wafer.webp"
     },
     {
       "id": "pv-ingot-wheels",
-      "name": "Bánh Mài Vuông & Mài Vát Thỏi Silicon Quang Điện",
-      "summary": "Phôi loại bỏ vết cưa và hư hỏng bề mặt sau khi vát cạnh thỏi, đạt được độ phẳng, độ song song và độ hoàn thiện yêu cầu — tuổi thọ dài, chất lượng bề mặt cao và hiệu suất ổn định.",
+      "name": "Đĩa mài kim cương để vát góc và mài vuông thanh silic quang điện",
+      "summary": "Loại bỏ vết cưa và lớp bề mặt bị tổn thương sau khi cắt vuông, đạt được độ phẳng và song song; loại bỏ vết mài thô, đạt được độ bóng tương ứng; tuổi thọ dài, độ bóng bề mặt cao, tính ổn định tốt.",
       "image": "/assets/img/pv-ingot.webp"
     },
     {
       "id": "resin-wheels",
-      "name": "Bánh Mài Liên Kết Nhựa 5 Trục",
-      "summary": "Phôi mài liên kết nhựa với hạt siêu mài mòn kim cương hoặc CBN cho việc mài dụng cụ năm trục bằng carbide và HSS — độ chính xác bề mặt cao, tự sắc, tốc độ cắt cao và chu kỳ đánh bóng dài cho dụng cụ cắt CNC.",
+      "name": "Đĩa mài nhựa kết dính cho máy mài 5 trục",
+      "summary": "Sử dụng nhựa làm chất kết dính, kết hợp với hạt mài siêu cứng kim cương hoặc CBN, phù hợp với chuyển động chính xác cao của máy mài 5 trục, chuyên dụng cho việc mài chính xác bề mặt phức tạp của các vật liệu khó gia công như carbide cứng, thép tốc độ cao, là vật liệu tiêu hao cốt lõi trong sản xuất dao cụ CNC.",
       "image": "/assets/img/resin-wheels.webp"
     },
     {
       "id": "steel-bonded-carbide",
-      "name": "Thép kết hợp với hạt cứng",
-      "summary": "Carbide kết dạng thép (cemented carbide) cho dụng cụ và bộ phận chịu mài mòn khắc nghiệt — gia công được ở trạng thái ủ, có thể rèn và hàn mà không cần thiết bị đặc biệt, tôi cứng tới HRC 60–70, kết hợp độ chống mài mòn của carbide cao coban với độ dẻo dai vượt trội và chi phí vòng đời thấp hơn.",
+      "name": "Carbide cứng liên kết thép",
+      "summary": "Hướng đến dụng cụ cắt và chi tiết chịu mài mòn khắc nghiệt — ở trạng thái ủ có thể gia công trực tiếp tiện, phay, khoan, hỗ trợ rèn và hàn, hình thành không cần thiết bị đặc biệt; sau tôi cứng HRC 60–70, khả năng chống mài mòn gần bằng carbide cứng hàm lượng coban cao, độ dai vượt xa carbide cứng thông thường, chi phí vòng đời toàn bộ thấp hơn nhiều so với thép khuôn hợp kim thông thường.",
       "image": "/assets/img/steel-bonded-carbide.webp"
     }
   ]

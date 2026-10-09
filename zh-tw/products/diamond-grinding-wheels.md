@@ -3,8 +3,8 @@ layout: product-detail.njk
 lang: zh-tw
 permalink: /zh-tw/products/diamond-grinding-wheels/
 title: "強力開槽砂輪"
-description: "薩普新材通過自主研發，攻克結合劑與金剛石/CBN 磨粒結合時的技術難題，率先在國內研製出均質金屬陶瓷結合劑，替代高端進口砂輪。SAP 強力開槽砂輪兼具金屬砂輪和陶瓷砂輪的優勢，具有高自銳性、高鋒利度、高保型性、易修整等優點，特別適合用於硬質合金、高速鋼及金屬陶瓷迴轉體刀具及刀片的高效率加工。"
-summary: "SAP 強力開槽砂輪兼具金屬砂輪和陶瓷砂輪的優勢，具有高自銳性、高鋒利度、高保型性、易修整等優點，特別適合硬質合金、高速鋼及金屬陶瓷迴轉體刀具及刀片的高效率加工。"
+description: "薩普新材通過自主研發，攻克服結合劑與金刚石/CBN 磨粒結合時的技術難題，率先在國內研製出均質金屬陶瓷結合劑，替代高端進口砂輪。SAP 強力開槽砂輪兼具金屬砂輪和陶瓷砂輪的優勢，具有高自銳性、高鋒利度、高保型性、易修整等優點，特別適合用於硬質合金、高速鋼及金屬陶瓷回轉體刀具及刀片的高效率加工。"
+summary: "SAP 強力開槽砂輪兼具金屬砂輪和陶瓷砂輪的優勢，具有高自銳性、高鋒利度、高保型性、易修整等優點，特別適合硬質合金、高速鋼及金屬陶瓷回轉體刀具及刀片的高效率加工。"
 pageType: product
 productId: strong-grooving-wheels
 productImage: /assets/img/diamond-wheels.webp
@@ -14,7 +14,7 @@ productImage: /assets/img/diamond-wheels.webp
 <div class="product-block">
   <img class="pb-img" src="/assets/img/diamond-wheels.webp" width="1000" height="1000" alt="強力開槽砂輪" loading="eager" fetchpriority="high" />
   <div>
-    <p>薩普新材通過自主研發，攻克結合劑與金剛石/CBN 磨粒結合時的技術難題，率先在國內研製出均質金屬陶瓷結合劑，替代高端進口砂輪。SAP 強力開槽砂輪兼具金屬砂輪和陶瓷砂輪的優勢，具有高自銳性、高鋒利度、高保型性、易修整等優點，特別適合用於硬質合金、高速鋼及金屬陶瓷迴轉體刀具及刀片的高效率加工。</p>
+    <p>薩普新材通過自主研發，攻克服結合劑與金刚石/CBN 磨粒結合時的技術難題，率先在國內研製出均質金屬陶瓷結合劑，替代高端進口砂輪。SAP 強力開槽砂輪兼具金屬砂輪和陶瓷砂輪的優勢，具有高自銳性、高鋒利度、高保型性、易修整等優點，特別適合用於硬質合金、高速鋼及金屬陶瓷回轉體刀具及刀片的高效率加工。</p>
     <h2>技術參數</h2>
       <ul class="specs">
       <li>砂輪工作面自洽造孔、高出刃高度</li>

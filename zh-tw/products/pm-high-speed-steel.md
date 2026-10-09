@@ -4,7 +4,7 @@ lang: zh-tw
 permalink: /zh-tw/products/pm-high-speed-steel/
 title: "粉末冶金高速鋼"
 description: "SAP 系列粉末冶金高速鋼產品主要用於高端工模具行業，替代進口材料。採用新型粉末冶金工藝，只需極少量機加工，即可獲得滿足各種形狀和尺寸需求的工模具產品。"
-summary: "SAP 系列粉末冶金高速鋼主要用於高端工模具行業，替代進口材料；可近淨成型製備複雜工件，雜質含量低，並涵蓋模具鋼、高鉻不鏽高速鋼、鈦鎳高速鋼等多個系列。"
+summary: "SAP 系列粉末冶金高速鋼主要用於高端工模具行業，替代進口材料；可近淨成型製備複雜工件，雜質含量低，並涵蓋模具鋼、高鉻不銹高速鋼、鈦鎳高速鋼等多個系列。"
 pageType: product
 productId: pm-high-speed-steel
 productImage: /assets/img/pm-steel.webp
@@ -14,12 +14,12 @@ productImage: /assets/img/pm-steel.webp
 <div class="product-block">
   <img class="pb-img" src="/assets/img/pm-steel.webp" width="704" height="704" alt="粉末冶金高速鋼" loading="eager" fetchpriority="high" />
   <div>
-    <p>SAP 系列粉末冶金高速鋼產品主要用於高端工模具行業，替代進口材料。採用新型粉末冶金工藝，只需極少量機加工，即可獲得滿足各種形狀和尺寸需求的工模具產品。除粉末冶金高速鋼材料之外，SAP 系列工模具材料還涵蓋模具鋼、高鉻不鏽高速鋼、高釩高速鋼、鈦鎳高速鋼、TiC/TiCN 鋼結硬質合金、Fe-Cr/Fe-Mn/Ni-Cr 鋼結硬質合金等多個系列。</p>
+    <p>SAP 系列粉末冶金高速鋼產品主要用於高端工模具行業，替代進口材料。採用新型粉末冶金工藝，只需極少量機加工，即可獲得滿足各種形狀和尺寸需求的工模具產品。除粉末冶金高速鋼材料之外，SAP 系列工模具材料還涵蓋模具鋼、高鉻不銹高速鋼、高釩高速鋼、鈦鎳高速鋼、TiC/TiCN 鋼結硬質合金、Fe-Cr/Fe-Mn/Ni-Cr 鋼結硬質合金等多個系列。</p>
     <h2>技術參數</h2>
       <ul class="specs">
-      <li>可近淨成型製備複雜工件，支持形狀定製，減少加工成本</li>
+      <li>可近淨成型製備複雜工件，支持形狀定制，減少加工成本</li>
       <li>低雜質含量（O≤60ppm，S≤80ppm，P≤50ppm）</li>
-      <li>突破傳統熔鍊法的合金化限制，成分調節方便</li>
+      <li>突破傳統熔煉法的合金化限制，成分調節方便</li>
       <li>擅長製備超硬硬質相強化粉末冶金高速鋼</li>
     </ul>
     <div class="pb-cta"><a class="btn btn-primary" href="/zh-tw/contact/">獲取報價</a></div>

@@ -3,8 +3,8 @@ layout: product-detail.njk
 lang: de
 permalink: /de/products/steel-bonded-carbide/
 title: "Stahlgebundener Hartmetall"
-description: "Stahlgebundener Hartmetall für Werkzeuge und anspruchsvolle Verschleißteile — im geglühten Zustand direkt dreh- und frästeilig, schweiß- und schmiedbar ohne Spezialausrüstung, geeignet für komplexe Formen."
-summary: "Stahlgebundener Hartmetall für Werkzeuge und anspruchsvolle Verschleißteile — im geglühten Zustand bearbeitbar, schmiedbar und schweißbar, nach Härtung HRC 60–70; verbindet die Verschleißbeständigkeit von Hochcobalt-Hartmetall mit deutlich höherer Zähigkeit."
+description: "Stahlgebundener Hartmetall zielt auf Werkzeuge und anspruchsvolle Verschleißteile ab — im gelöschten Zustand kann er direkt gedreht, gefräst und gebohrt werden; er unterstützt Schmieden und Schweißen, und komplexe Formgebung kann ohne Spezialausrüstung abgeschlossen werden. Nach Härtung kann die Härte HRC 60–70 erreichen, die Verschleißfestigkeit ist ähnlich der von hochcobaltigem Hartmetall, die Zähigkeit ist weit überlegen gegenüber normalem Hartmetall, die Schlagzähigkeit ist stärker."
+summary: "Zielt auf Werkzeuge und anspruchsvolle Verschleißteile ab — im gelöschten Zustand kann er direkt gedreht, gefräst und gebohrt werden; er unterstützt Schmieden und Schweißen, und Formgebung kann ohne Spezialausrüstung abgeschlossen werden; nach Härtung HRC 60–70, Verschleißfestigkeit ähnlich wie bei hochcobaltigem Hartmetall, Zähigkeit weit überlegen gegenüber normalem Hartmetall, Lebenszykluskosten weit niedriger als konventioneller legierter Werkzeugstahl."
 pageType: product
 productId: steel-bonded-carbide
 productImage: /assets/img/steel-bonded-carbide.webp
@@ -14,13 +14,13 @@ productImage: /assets/img/steel-bonded-carbide.webp
 <div class="product-block">
   <img class="pb-img" src="/assets/img/steel-bonded-carbide.webp" width="900" height="712" alt="Stahlgebundener Hartmetall" loading="eager" fetchpriority="high" />
   <div>
-    <p>Stahlgebundener Hartmetall für Werkzeuge und anspruchsvolle Verschleißteile — im geglühten Zustand direkt dreh- und frästeilig, schweiß- und schmiedbar ohne Spezialausrüstung, geeignet für komplexe Formen. Nach Härten erreichbare Festigkeit von HRC 60–70, Verschleißbeständigkeit nahe an Hochcobalt-Hartmetall bei deutlich höherer Zähigkeit und Schlagzähigkeit als herkömmlicher Hartmetall. Anpassbar auf Verschleiß-, Korrosions- und Hitzewiderstand; über den gesamten Lebenszyklus deutlich günstiger als konventioneller Legierungs-Werkzeugstahl, Werkzeuglebensdauer um ein- bis zweistellig höher, deutlich weniger Umrichtzeiten.</p>
-    <h2>Technische Daten</h2>
+    <p>Stahlgebundener Hartmetall zielt auf Werkzeuge und anspruchsvolle Verschleißteile ab — im gelöschten Zustand kann er direkt gedreht, gefräst und gebohrt werden; er unterstützt Schmieden und Schweißen, und komplexe Formgebung kann ohne Spezialausrüstung abgeschlossen werden. Nach Härtung kann die Härte HRC 60–70 erreichen, die Verschleißfestigkeit ist ähnlich der von hochcobaltigem Hartmetall, die Zähigkeit ist weit überlegen gegenüber normalem Hartmetall, die Schlagzähigkeit ist stärker. Durch die Einstellung des Bindungsstahls können besondere Eigenschaften wie Verschleißfestigkeit, Korrosionsbeständigkeit und Hitzestabilität erzielt werden; Lebenszykluskosten sind weit niedriger als konventioneller legierter Werkzeugstahl, die Lebensdauer von Werkzeugen kann um das Dutzend- bis Mehrfache erhöht werden, was die Stillstandszeit durch Werkzeugwechsel deutlich reduziert.</p>
+    <h2>Technische Parameter</h2>
       <ul class="specs">
-      <li>Anwendungen: Kaltfließpress-, Kaltschmied- und Stanz-/Prägeleisten, Brandform-Formen für Schamott; ersetzt YG20-Hartmetall in hochbelasteten Stanzkernen.</li>
-      <li>Schneidwerkzeuge: Hartmetall- und HSS-Werkzeuge für Titan- und Nickellegierungen, Tiefbohr- und geologische Bohrwerkzeuge.</li>
-      <li>Verschleißteile: Rollen, Düsen, Lager; Hochwertigkeits-Güten für Luftfahrt- und U-Boot-Navigationskomponenten.</li>
-      <li>Haltevorrichtungen für Diamant-/CBN-Schleifscheiben und CBN-Fräsform-Jigs; erfüllt Genauigkeits- und Verschleißanforderungen.</li>
+      <li>Anwendungen: Kaltformgebung, Kaltumformung und Lochschlag/Stanzwerkzeuge; Schamottestein Formwerkzeuge; ersetzt YG20-Typ Hartmetall für hochbelastete Werkzeugkern.</li>
+      <li>Schneidwerkzeuge: Hartmetall- und Schnellstahl-Werkzeuge für Titanlegierungen und Nickellegierungen, Kernbohrungen und geologisches Bohren.</li>
+      <li>Verschleißteile: Rollen, Düsen, Lager; höherwertige Sorten werden für Luft- und Raumfahrt- und U-Boot-Navigationsteile verwendet.</li>
+      <li>Haltevorrichtungen für Diamant-/CBN-Schleifscheiben und Stützkonstruktionen für CBN-Fräsen; erfüllt Präzisions- und Verschleißanforderungen.</li>
     </ul>
     <div class="pb-cta"><a class="btn btn-primary" href="/de/contact/">Angebot anfordern</a></div>
   
