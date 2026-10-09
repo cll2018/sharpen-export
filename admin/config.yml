@@ -18,6 +18,10 @@ public_folder: "/assets/img"
 
 publish_mode: editorial_workflow
 
+# UI 界面语言：使用 Decap CMS 内置的简体中文语言包（顶栏、编辑器按钮、
+# 工作流弹窗等系统文案）。个别此版本未翻译的键会回退英文。
+locale: zh_Hans
+
 collections:
   - name: "pages-zh"
     label: "页面"
