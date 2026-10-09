@@ -25,3 +25,4 @@ productImage: /assets/img/wafer-backgrind.webp
     <div class="pb-cta"><a class="btn btn-primary" href="/ru/contact/">Запросить расчет</a></div>
   
 </div>
+</div>

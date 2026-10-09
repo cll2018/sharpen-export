@@ -26,3 +26,4 @@ productImage: /assets/img/resin-wheels.webp
     <div class="pb-cta"><a class="btn btn-primary" href="/tr/contact/">Teklif iste</a></div>
   
 </div>
+</div>

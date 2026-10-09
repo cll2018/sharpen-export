@@ -26,3 +26,4 @@ productImage: /assets/img/resin-wheels.webp
     <div class="pb-cta"><a class="btn btn-primary" href="/es/contact/">Solicitar una cotización</a></div>
   
 </div>
+</div>

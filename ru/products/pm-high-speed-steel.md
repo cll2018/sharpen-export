@@ -25,3 +25,4 @@ productImage: /assets/img/pm-steel.webp
     <div class="pb-cta"><a class="btn btn-primary" href="/ru/contact/">Запросить расчет</a></div>
   
 </div>
+</div>

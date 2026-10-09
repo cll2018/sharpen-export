@@ -25,3 +25,4 @@ productImage: /assets/img/wafer-backgrind.webp
     <div class="pb-cta"><a class="btn btn-primary" href="/de/contact/">Angebot anfordern</a></div>
   
 </div>
+</div>

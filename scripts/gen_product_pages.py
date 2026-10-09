@@ -120,7 +120,13 @@ def generate():
             img_m = re.search(r'<img class="pb-img"[^>]*src="([^"]*)"', inner)
             img = img_m.group(1) if img_m else "/assets/img/logo.png"
             desc = make_desc(first_paragraph(inner))
-            body = '<div class="product-block">\n' + inner + "\n</div>"
+            # Close BOTH the inner content <div> and the outer .product-block
+            # <div>. A single closer left the outer block unclosed: product
+            # detail pages still rendered (the browser closes the div when the
+            # parent ends), but the products index stacks eight of these
+            # blocks, so every block after the first nested inside the
+            # previous one and the layout collapsed.
+            body = '<div class="product-block">\n' + inner + "\n</div>\n</div>"
             # Fix any CTA that points at another language's contact page
             # (e.g. a stale /en/contact/) to THIS language's own contact page.
             # Single replacement — safe to run after fix_cta_links.py too.

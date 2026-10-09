@@ -25,3 +25,4 @@ productImage: /assets/img/wafer-backgrind.webp
     <div class="pb-cta"><a class="btn btn-primary" href="/ar/contact/">طلب عرض سعر</a></div>
   
 </div>
+</div>

@@ -24,3 +24,4 @@ productImage: /assets/img/pv-ingot.webp
     <div class="pb-cta"><a class="btn btn-primary" href="/fr/contact/">Demander un devis</a></div>
   
 </div>
+</div>

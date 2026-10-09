@@ -9,6 +9,7 @@ newsSlug: Professor He Yuehui has successively been listed on the dual lists of
 layout: news-detail.njk
 lang: zh
 pageType: news
+permalink: /zh/news/professor-he-yuehui-has-successively-been-listed-on-the-dual-lists-of-stanford-universitys-worlds-top-2-top-scientists-for-five-consecutive-sessions/
 ---
 全球前2%顶尖科学家榜单更新当地时间 10 月 7 日，美国斯坦福大学 John P.A. Ioannidis 教授团队联合爱思唯尔（Elsevier）发布第 9 版全球前 2% 顶尖科学家榜单（World's Top 2% Scientists 2026）。
 

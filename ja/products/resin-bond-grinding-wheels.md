@@ -26,3 +26,4 @@ productImage: /assets/img/resin-wheels.webp
     <div class="pb-cta"><a class="btn btn-primary" href="/ja/contact/">見積依頼</a></div>
   
 </div>
+</div>

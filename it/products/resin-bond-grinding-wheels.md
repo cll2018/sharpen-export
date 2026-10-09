@@ -26,3 +26,4 @@ productImage: /assets/img/resin-wheels.webp
     <div class="pb-cta"><a class="btn btn-primary" href="/it/contact/">Richiedi un preventivo</a></div>
   
 </div>
+</div>

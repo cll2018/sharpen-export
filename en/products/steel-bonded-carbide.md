@@ -25,3 +25,4 @@ productImage: /assets/img/steel-bonded-carbide.webp
     <div class="pb-cta"><a class="btn btn-primary" href="/en/contact/">Request a quote</a></div>
   
 </div>
+</div>
