@@ -50,6 +50,12 @@ module.exports = {
       "name": "Steel-bonded cemented carbide",
       "summary": "Targets tooling and harsh wear-resistant components — in the annealed state it can be directly machined by turning, milling, and drilling; it supports forging and welding, and forming can be completed without special equipment; after quench hardening, HRC 60–70, wear resistance is close to high-cobalt cemented carbide, toughness is far superior to ordinary cemented carbide, and full lifecycle cost is far lower than conventional alloy die steel.",
       "image": "/assets/img/steel-bonded-carbide.webp"
+    },
+    {
+      "id": "silicon wafer thinning diamond grinding wheel",
+      "name": "Silicon Wafer Thinning Diamond Grinding Wheel",
+      "summary": "Silicon Wafer Thinning Diamond Grinding Wheel",
+      "image": "/assets/img/silicon-wafer-diamond-wheel.webp"
     }
   ],
   "zh": [
@@ -100,6 +106,12 @@ module.exports = {
       "name": "钢结硬质合金",
       "summary": "面向刀具与苛刻耐磨件——退火态可直接车、铣、钻加工，支持锻造与焊接，无需特殊设备即可成型；淬硬后 HRC 60–70，耐磨性接近高钴硬质合金、韧性远优于普通硬质合金，全生命周期成本远低于常规合金模具钢。",
       "image": "/assets/img/steel-bonded-carbide.webp"
+    },
+    {
+      "id": "silicon wafer thinning diamond grinding wheel",
+      "name": "硅片减薄金刚石砂轮",
+      "summary": "硅片减薄金刚石砂轮",
+      "image": "/assets/img/silicon-wafer-diamond-wheel.webp"
     }
   ],
   "zh-tw": [
@@ -150,6 +162,12 @@ module.exports = {
       "name": "鋼結硬質合金",
       "summary": "面向刀具與苛耐磨件——退火態可直接車、銑、鑽加工，支持鍛造與焊接，無需特殊設備即可成型；淬硬後 HRC 60–70，耐磨性接近高鎳硬質合金、韌性遠優於普通硬質合金，全生命週期成本遠低於常規合金模具鋼。",
       "image": "/assets/img/steel-bonded-carbide.webp"
+    },
+    {
+      "id": "silicon wafer thinning diamond grinding wheel",
+      "name": "矽片減薄鑽石砂輪",
+      "summary": "矽片減薄鑽石砂輪",
+      "image": "/assets/img/silicon-wafer-diamond-wheel.webp"
     }
   ],
   "de": [
@@ -200,6 +218,12 @@ module.exports = {
       "name": "Stahlgebundener Hartmetall",
       "summary": "Zielt auf Werkzeuge und anspruchsvolle Verschleißteile ab — im gelöschten Zustand kann er direkt gedreht, gefräst und gebohrt werden; er unterstützt Schmieden und Schweißen, und Formgebung kann ohne Spezialausrüstung abgeschlossen werden; nach Härtung HRC 60–70, Verschleißfestigkeit ähnlich wie bei hochcobaltigem Hartmetall, Zähigkeit weit überlegen gegenüber normalem Hartmetall, Lebenszykluskosten weit niedriger als konventioneller legierter Werkzeugstahl.",
       "image": "/assets/img/steel-bonded-carbide.webp"
+    },
+    {
+      "id": "silicon wafer thinning diamond grinding wheel",
+      "name": "Diamantschleifscheibe für Silizium-Wafer-Dünnschliff",
+      "summary": "Diamantschleifscheibe für Silizium-Wafer-Dünnschliff",
+      "image": "/assets/img/silicon-wafer-diamond-wheel.webp"
     }
   ],
   "ja": [
@@ -250,6 +274,12 @@ module.exports = {
       "name": "鋼結合超硬合金",
       "summary": "工具および苛酷な耐摩耗部材をターゲットとしています——焼ならし状態では直接旋削、フライス、ドリリング加工が可能であり、鍛造と溶接をサポートし、特殊設備なしで成形が可能です；油焼入れ後HRC 60–70、耐摩耗性は高コバルト超硬合金に近く、靭性は通常の超硬合金をはるかに超え、全ライフサイクルコストは常規の合金金型鋼よりはるかに低いです。",
       "image": "/assets/img/steel-bonded-carbide.webp"
+    },
+    {
+      "id": "silicon wafer thinning diamond grinding wheel",
+      "name": "シリコンウェーハ研削用ダイヤモンド砥石",
+      "summary": "シリコンウェーハ研削用ダイヤモンド砥石",
+      "image": "/assets/img/silicon-wafer-diamond-wheel.webp"
     }
   ],
   "ko": [
@@ -300,6 +330,12 @@ module.exports = {
       "name": "강결 탄화강",
       "summary": "공구와 가혹한 마모 저항 부품을 대상으로 합니다——소둔 상태에서 직접 선반, 밀링, 드릴링 가공이 가능하며, 대조와 용접을 지원하며 특수 장비 없이 성형이 가능합니다; 담금질 후 HRC 60–70, 마모 저항성은 고코발트 탄화강에 근접하고, 인성은 일반 탄화강보다 훨씬 우수하며, 전수명주기 비용은 일반 합금 금형강보다 훨씬 낮습니다.",
       "image": "/assets/img/steel-bonded-carbide.webp"
+    },
+    {
+      "id": "silicon wafer thinning diamond grinding wheel",
+      "name": "실리콘 웨이퍼 씬닝 다이아몬드 휠",
+      "summary": "실리콘 웨이퍼 씬닝 다이아몬드 휠",
+      "image": "/assets/img/silicon-wafer-diamond-wheel.webp"
     }
   ],
   "ru": [
@@ -350,6 +386,12 @@ module.exports = {
       "name": "Стальносвязанный твёрдосплав",
       "summary": "Предназначен для режущего инструмента и деталей, работающих в жёстких условиях износостойкости — в отожжённом состоянии может напрямую обрабатываться токарной, фрезерной и сверлильной обработкой; поддерживает ковку и сварку, формовка возможна без специального оборудования; после закалки HRC 60–70, износостойкость близка к высококобальтовому твёрдосплаву, вязкость значительно превосходит обычный твёрдосплав, совокупные затраты на весь жизненный цикл значительно ниже, чем у обычного легированного штамповой стали.",
       "image": "/assets/img/steel-bonded-carbide.webp"
+    },
+    {
+      "id": "silicon wafer thinning diamond grinding wheel",
+      "name": "Алмазный круг для проточки кремниевых пластин",
+      "summary": "Алмазный круг для проточки кремниевых пластин",
+      "image": "/assets/img/silicon-wafer-diamond-wheel.webp"
     }
   ],
   "es": [
@@ -400,6 +442,12 @@ module.exports = {
       "name": "Carburo aglutinado con acero",
       "summary": "Dirigido a herramientas y piezas resistentes al desgaste en condiciones exigentes: en estado recocido puede ser mecanizado directamente por torneado, fresado y taladrado; soporta forja y soldadura, y la conformación puede completarse sin equipos especiales; tras el temple HRC 60–70, resistencia al desgaste similar al carburo de alto cobalto, tenacidad muy superior al carburo común, y coste de ciclo de vida total mucho menor que el acero de molde aleado convencional.",
       "image": "/assets/img/steel-bonded-carbide.webp"
+    },
+    {
+      "id": "silicon wafer thinning diamond grinding wheel",
+      "name": "Rueda de diamante para adelgazamiento de obleas de silicio",
+      "summary": "Rueda de diamante para adelgazamiento de obleas de silicio",
+      "image": "/assets/img/silicon-wafer-diamond-wheel.webp"
     }
   ],
   "pt": [
@@ -450,6 +498,12 @@ module.exports = {
       "name": "Carboneto de cimento com ligante de aço",
       "summary": "Destinado a ferramentas de corte e peças com desgaste severo — no estado de recozimento pode ser usinado diretamente por torneamento, fresamento e furação, suporta forjamento e soldagem, e a formação de formas pode ser realizada sem equipamentos especiais; após a têmpera HRC 60–70, a resistência ao desgaste é próxima à do carboneto de cimento de alto teor de cobalto, a tenacidade é muito superior à do carboneto de cimento comum, o custo do ciclo de vida total é muito inferior ao do aço para molde ligado convencional.",
       "image": "/assets/img/steel-bonded-carbide.webp"
+    },
+    {
+      "id": "silicon wafer thinning diamond grinding wheel",
+      "name": "Roda de diamante para afinamento de wafer de silício",
+      "summary": "Roda de diamante para afinamento de wafer de silício",
+      "image": "/assets/img/silicon-wafer-diamond-wheel.webp"
     }
   ],
   "fr": [
@@ -500,6 +554,12 @@ module.exports = {
       "name": "Carbure de ciment lié au acier",
       "summary": "Destiné aux outils de coupe et aux pièces résistantes à l'usure sévères — à l'état recuit, il peut être usiné directement par tournage, fraisage et perçage, il prend en charge le forgeage et la soudure, la formation peut être réalisée sans équipements spéciaux ; après trempe HRC 60–70, la résistance à l'usure est proche de celle du carbure de ciment à haute teneur en cobalt, la ténacité est bien supérieure à celle du carbure de ciment courant, le coût du cycle de vie total est bien inférieur à celui de l'acier d'outillage allié conventionnel.",
       "image": "/assets/img/steel-bonded-carbide.webp"
+    },
+    {
+      "id": "silicon wafer thinning diamond grinding wheel",
+      "name": "Meule diamant pour amincissement de wafer en silicium",
+      "summary": "Meule diamant pour amincissement de wafer en silicium",
+      "image": "/assets/img/silicon-wafer-diamond-wheel.webp"
     }
   ],
   "it": [
@@ -550,6 +610,12 @@ module.exports = {
       "name": "Carburo cementato con lega in acciaio",
       "summary": "Destinato a utensili di taglio e parti resistenti all'usura severe — nello stato ricotto può essere lavorato direttamente su tornio, fresato e forato, supporta forgiatura e saldatura, la formazione può essere completata senza attrezzature speciali; dopo la tempra HRC 60–70, la resistenza all'usura è vicina a quella del carburo cementato ad alto tenore di cobalto, la tenacità è molto superiore a quella del carburo cementato comune, il costo del ciclo di vita totale è molto inferiore a quello dell'acciaio per stampi legato convenzionale.",
       "image": "/assets/img/steel-bonded-carbide.webp"
+    },
+    {
+      "id": "silicon wafer thinning diamond grinding wheel",
+      "name": "Mole per diamante per assottigliamento wafer di silicio",
+      "summary": "Mole per diamante per assottigliamento wafer di silicio",
+      "image": "/assets/img/silicon-wafer-diamond-wheel.webp"
     }
   ],
   "tr": [
@@ -600,6 +666,12 @@ module.exports = {
       "name": "Sertleştirilmiş karbit çelik bağlayıcılı",
       "summary": "Kesici aletler ve zorlu aşınma parçaları için tasarlanmıştır — tavlama durumunda doğrudan tornalama, frezeleme ve delme işlemi yapılabilir, dövme ve kaynak desteği sağlar, özel ekipman olmadan şekillendirme tamamlanabilir; sertleştirme sonrası HRC 60–70, aşınma direnci yüksek kobalt içeriğine sahip sertleştirilmiş karbite yakındır, tokluk sıradan sertleştirilmiş karbitten çok daha üstündür, tam yaşam döngüsü maliyeti konvansiyonel alaşımlı kalıp çeliğinden çok daha düşüktür.",
       "image": "/assets/img/steel-bonded-carbide.webp"
+    },
+    {
+      "id": "silicon wafer thinning diamond grinding wheel",
+      "name": "Silisyum wafer inceltme elmas taş",
+      "summary": "Silisyum wafer inceltme elmas taş",
+      "image": "/assets/img/silicon-wafer-diamond-wheel.webp"
     }
   ],
   "ar": [
@@ -650,6 +722,12 @@ module.exports = {
       "name": "الكربيد المسبوك الرابطة الفولاذية",
       "summary": "موجهة نحو أدوات القطع ومكونات التآكل الشديدة — في حالة التلدين يمكن المعالجة مباشرةً بالتقطيع والتشطيب بالفرز والخزق، تدعم الصب والليامة، ويمكن التشكيل دون معدات خاصة؛ بعد التصلب HRC 60–70، ومقاومة التآكل تقترب من الكربيد المسبوك عالي الكوبالت، والليونة تتفوق بكثير على الكربيد المسبوك العادي، وتكلفة دورة الحياة الكاملة أقل بكثير من فولاذ القوالب السبائكي الاعتيادي.",
       "image": "/assets/img/steel-bonded-carbide.webp"
+    },
+    {
+      "id": "silicon wafer thinning diamond grinding wheel",
+      "name": "قرص الماس لتقليل سمك شريحة السيليكون",
+      "summary": "قرص الماس لتقليل سمك شريحة السيليكون",
+      "image": "/assets/img/silicon-wafer-diamond-wheel.webp"
     }
   ],
   "vi": [
@@ -700,6 +778,12 @@ module.exports = {
       "name": "Carbide cứng liên kết thép",
       "summary": "Hướng đến dụng cụ cắt và chi tiết chịu mài mòn khắc nghiệt — ở trạng thái ủ có thể gia công trực tiếp tiện, phay, khoan, hỗ trợ rèn và hàn, hình thành không cần thiết bị đặc biệt; sau tôi cứng HRC 60–70, khả năng chống mài mòn gần bằng carbide cứng hàm lượng coban cao, độ dai vượt xa carbide cứng thông thường, chi phí vòng đời toàn bộ thấp hơn nhiều so với thép khuôn hợp kim thông thường.",
       "image": "/assets/img/steel-bonded-carbide.webp"
+    },
+    {
+      "id": "silicon wafer thinning diamond grinding wheel",
+      "name": "Đĩa mài kim cương giảm mỏng wafer silicon",
+      "summary": "Đĩa mài kim cương giảm mỏng wafer silicon",
+      "image": "/assets/img/silicon-wafer-diamond-wheel.webp"
     }
   ]
 };
