@@ -31,7 +31,7 @@ module.exports = {
       "id": "sic-wafer-wheels",
       "name": "SiC wafer thinning wheel",
       "summary": "Diamond grinding wheel using a single homogeneous cermet (intermetallic compound) bond; rough grinding 2000# high feed efficient, finish grinding 30000# finish 2nm or less, greatly reduces subsequent polishing volume, improves yield.",
-      "image": "/assets/img/sic-wafer.webp"
+      "image": "/assets/img/sic-wafer-thinning.webp"
     },
     {
       "id": "pv-ingot-wheels",
@@ -81,7 +81,7 @@ module.exports = {
       "id": "sic-wafer-wheels",
       "name": "碳化硅晶圆减薄砂轮",
       "summary": "采用单一均质金属陶瓷（金属间化合物）结合剂的金刚石砂轮；粗磨 2000# 大进给高效，精磨 30000# 光洁度 2nm 以下，大大减少后道抛光量、提升良率。",
-      "image": "/assets/img/sic-wafer.webp"
+      "image": "/assets/img/sic-wafer-thinning.webp"
     },
     {
       "id": "pv-ingot-wheels",
@@ -131,7 +131,7 @@ module.exports = {
       "id": "sic-wafer-wheels",
       "name": "碳化矽晶圓減薄砂輪",
       "summary": "採用單一均質金屬陶瓷（金屬間化合物）結合劑的鑽石砂輪；粗磨 2000# 大進給高效，精磨 30000# 光潔度 2nm 以下，大大減少後道拋光量、提升良率。",
-      "image": "/assets/img/sic-wafer.webp"
+      "image": "/assets/img/sic-wafer-thinning.webp"
     },
     {
       "id": "pv-ingot-wheels",
@@ -181,7 +181,7 @@ module.exports = {
       "id": "sic-wafer-wheels",
       "name": "SiC-Wafer-Dünnschliff",
       "summary": "Diamantscheibe mit einhüligem Keramikmetallbindematerial (intermetallisches Verbund); Grobschliff 2000# hohe Fressrate effizient, Feinschliff 30000# Oberfläche 2nm oder weniger, reduziert die spätere Poliermenge erheblich, steigert den Ausbeute.",
-      "image": "/assets/img/sic-wafer.webp"
+      "image": "/assets/img/sic-wafer-thinning.webp"
     },
     {
       "id": "pv-ingot-wheels",
@@ -231,7 +231,7 @@ module.exports = {
       "id": "sic-wafer-wheels",
       "name": "SiCウェーハ研削",
       "summary": "単一の均一なセラミックメタルバインド（金属間化合物）結合剤を持つダイヤモンド砥石；荒研ぎ 2000# 大きな送り量で高効率、仕上げ研ぎ 30000# 光沢度 2nm 以下、後工程の研磨量を大幅に削減し、歩留まりを向上。",
-      "image": "/assets/img/sic-wafer.webp"
+      "image": "/assets/img/sic-wafer-thinning.webp"
     },
     {
       "id": "pv-ingot-wheels",
@@ -281,7 +281,7 @@ module.exports = {
       "id": "sic-wafer-wheels",
       "name": "SiC 웨이퍼 씬닝",
       "summary": "단일 균질 서멧 결합제(금속 간 화합물) 결합제를 사용하는 다이아몬드 휠; 거친 연삭 2000# 큰 절송量 고 효율, 마무리 연삭 30000# 광택도 2nm 이하, 후공정 연마량을 대폭 줄이고 수율을 높입니다.",
-      "image": "/assets/img/sic-wafer.webp"
+      "image": "/assets/img/sic-wafer-thinning.webp"
     },
     {
       "id": "pv-ingot-wheels",
@@ -331,7 +331,7 @@ module.exports = {
       "id": "sic-wafer-wheels",
       "name": "SiC пластины",
       "summary": "Алмазный круг с однородной керамико-металлической связкой (металлоидное соединение); чистовое обтачивание 2000# с крупным шагом для высокой эффективности, финишное обтачивание 30000# с шероховатостью 2 нм и менее, значительно снижает последующую полировку, повышает выход годного.",
-      "image": "/assets/img/sic-wafer.webp"
+      "image": "/assets/img/sic-wafer-thinning.webp"
     },
     {
       "id": "pv-ingot-wheels",
@@ -381,7 +381,7 @@ module.exports = {
       "id": "sic-wafer-wheels",
       "name": "rueda de adelgazado de obleas SiC",
       "summary": "Rueda de diamante con aglutinante cermet (compuesto intermetálico) homogéneo y único; desbaste 2000# alta avance eficiente, acabado 30000# acabado 2nm o menos, reduce significativamente el volumen de pulido posterior, mejora la tasa de rendimiento.",
-      "image": "/assets/img/sic-wafer.webp"
+      "image": "/assets/img/sic-wafer-thinning.webp"
     },
     {
       "id": "pv-ingot-wheels",
@@ -431,7 +431,7 @@ module.exports = {
       "id": "sic-wafer-wheels",
       "name": "Roda de desbaste de wafer SiC",
       "summary": "Roda de diamante com aglutinante de metal cerâmico único homogêneo (compósitos intermetálicos); desbaste grosso 2000# com alta eficiência de avanço, acabamento fino 30000# com rugosidade abaixo de 2nm, reduzindo significativamente a quantidade de polimento posterior e melhorando a taxa de aproveitamento.",
-      "image": "/assets/img/sic-wafer.webp"
+      "image": "/assets/img/sic-wafer-thinning.webp"
     },
     {
       "id": "pv-ingot-wheels",
@@ -481,7 +481,7 @@ module.exports = {
       "id": "sic-wafer-wheels",
       "name": "Meule d'amincissement de wafer SiC",
       "summary": "Meule diamant avec liant céramique métallique unique et homogène (composé intermétallique) ; rectification grossière 2000# à grande avance et haute efficacité, finition 30000# avec rugosité inférieure à 2nm, réduisant considérablement la quantité de polissage ultérieur et améliorant le taux de rebut.",
-      "image": "/assets/img/sic-wafer.webp"
+      "image": "/assets/img/sic-wafer-thinning.webp"
     },
     {
       "id": "pv-ingot-wheels",
@@ -531,7 +531,7 @@ module.exports = {
       "id": "sic-wafer-wheels",
       "name": "Mola di assottigliamento wafer SiC",
       "summary": "Mole per diamante con legante cermet unico omogeneo (composto intermetallico); rettifica grossa 2000# ad alta efficienza con grande avanzamento, finitura 30000# con rugosità inferiore a 2nm, riducendo significativamente la quantità di lucidatura a valle e migliorando il tasso di resa.",
-      "image": "/assets/img/sic-wafer.webp"
+      "image": "/assets/img/sic-wafer-thinning.webp"
     },
     {
       "id": "pv-ingot-wheels",
@@ -581,7 +581,7 @@ module.exports = {
       "id": "sic-wafer-wheels",
       "name": "SiC wafer inceltme",
       "summary": "Tek tip homojen metal seramik (aralık metal bileşimi) bağlayıcılı elmas taş; kaba talaş 2000# yüksek verimli yüksek ilerleme, zımparalamada 30000# pürüzsüzlüğü 2nm altı, sonraki aşamadaki cilalama miktarını önemli ölçüde azaltır, verimi artırır.",
-      "image": "/assets/img/sic-wafer.webp"
+      "image": "/assets/img/sic-wafer-thinning.webp"
     },
     {
       "id": "pv-ingot-wheels",
@@ -631,7 +631,7 @@ module.exports = {
       "id": "sic-wafer-wheels",
       "name": "عجلة ترقيم رقائق SiC",
       "summary": "قرص ماس برابطة سيراميك معدني متجانسة وأحادية (مركب معدني بيني)؛ طحن خشن 2000# بتقدم كبير وكفاءة عالية، وتلميع نهائي 30000# بسطح أقل من 2nm، مما يقلل بشكل كبير كمية التصليح اللاحق ويزيد نسبة الإنتاج الجيد.",
-      "image": "/assets/img/sic-wafer.webp"
+      "image": "/assets/img/sic-wafer-thinning.webp"
     },
     {
       "id": "pv-ingot-wheels",
@@ -681,7 +681,7 @@ module.exports = {
       "id": "sic-wafer-wheels",
       "name": "Đĩa mài mỏng wafer SiC",
       "summary": "Đĩa mài kim cương với chất kết dính gốm kim loại đồng nhất đơn lẻ (hợp chất liên kim); mài thô 2000# hiệu quả cao với chạy dao lớn, mài tinh 30000# độ nhẵn 2nm trở xuống, giảm đáng kể lượng đánh bóng công đoạn sau, nâng cao tỷ lệ đạt.",
-      "image": "/assets/img/sic-wafer.webp"
+      "image": "/assets/img/sic-wafer-thinning.webp"
     },
     {
       "id": "pv-ingot-wheels",

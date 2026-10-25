@@ -69,6 +69,10 @@ module.exports = {
     "w": 1200,
     "h": 542
   },
+  "/assets/img/sic-wafer-thinning.webp": {
+    "w": 697,
+    "h": 292
+  },
   "/assets/img/steel-bonded-carbide.png": {
     "w": 900,
     "h": 712
