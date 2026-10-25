@@ -3,6 +3,7 @@ layout: home.njk
 lang: ja
 permalink: /ja/
 title: "ホーム"
+seoTitle: "【公式サイト】Changsha Sharpen New Materials Co., Ltd."
 description: "ダイヤモンド/CBN砥石、粉末冶金高速度鋼、TiNiCo放熱板。半導体・サファイア・ハートメタル・3Dガラス向け。中国長沙のグローバルB2Bメーカー。"
 heroTitle: "ハイエンド製造のための精密研削と先端材料"
 heroLead: "シャープン新材料は、高性能な超硬/CBN研削砥石、粉末冶金高速鋼、および半導体・サファイア・超硬合金・3Dガラスの熱応用に対応したTiNiCo超合金ヒートスプレッダーを開発しています。"

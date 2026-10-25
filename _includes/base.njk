@@ -4,7 +4,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   {% set bp = (site.brandPerLang[lang] or site.brandPerLang[site.defaultLang]) %}
-  <title>{{ title }} — {{ bp.suffix }}</title>
+  {#- Per-page SEO title override (homepages use 【官网】+company name). #}
+  <title>{{ seoTitle or (title + " — " + bp.suffix) }}</title>
   <meta name="description" content="{{ description or bp.desc }}" />
   <meta name="keywords" content="{% if keywords %}{{ keywords | join(', ') }}{% else %}{{ title | keywordsFor(lang) }}{% endif %}" />
   <meta name="author" content="{{ site.name }}" />
@@ -37,7 +38,7 @@
   {% set hl = { 'zh-tw': 'zh-TW' }[l.code] or l.code %}<link rel="alternate" hreflang="{{ hl }}" href="{{ page.url | langUrl(l.code) | absUrl(site.domain) }}" />
   {% endfor %}
   <link rel="alternate" hreflang="x-default" href="{{ page.url | langUrl('en') | absUrl(site.domain) }}" />
-  <meta property="og:title" content="{{ title }} — {{ bp.suffix }}" />
+  <meta property="og:title" content="{{ seoTitle or (title + " — " + bp.suffix) }}" />
   <meta property="og:description" content="{{ description or bp.desc }}" />
   <meta property="og:type" content="{{ 'product' if pageType == 'product' else 'website' }}" />
   <meta property="og:url" content="{{ page.url | absUrl(site.domain) }}" />
@@ -51,7 +52,7 @@
   {% set ogLoc = {zh:'zh_CN','zh-tw':'zh_TW'}[lang] or lang %}
   <meta property="og:locale" content="{{ ogLoc }}" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="{{ title }} — {{ bp.suffix }}" />
+  <meta name="twitter:title" content="{{ seoTitle or (title + " — " + bp.suffix) }}" />
   <meta name="twitter:description" content="{{ description or bp.desc }}" />
   <meta name="twitter:image" content="{{ ogImg | absUrl(site.domain) }}" />
   <script type="application/ld+json">
