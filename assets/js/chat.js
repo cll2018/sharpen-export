@@ -14,6 +14,11 @@
   var history = [];
   var minBtn = document.getElementById("chat-min");
 
+  // Rate limit: at most 19 sends per rolling minute, one request in flight.
+  var CHAT_MAX_PER_MIN = 19;
+  var sendTimes = [];
+  var inFlight = false;
+
   function openChat() {
     if (!panel) return;
     panel.hidden = false;
@@ -68,6 +73,20 @@
       e.preventDefault();
       var text = input.value.trim();
       if (!text) return;
+
+      // Single in-flight: ignore extra submits while a request is pending.
+      if (inFlight) return;
+      // Rolling 60s window cap: at most 19 sends per minute.
+      var now = Date.now();
+      sendTimes = sendTimes.filter(function (t) { return now - t < 60000; });
+      if (sendTimes.length >= CHAT_MAX_PER_MIN) {
+        addBot("消息发送过于频繁，请稍后再试（上限 19 条/分钟）。");
+        return;
+      }
+      sendTimes.push(now);
+      inFlight = true;
+      if (input) input.disabled = true;
+
       addUser(text);
       input.value = "";
       history.push({ role: "user", content: text });
@@ -81,6 +100,8 @@
       })
         .then(function (r) { return r.json(); })
         .then(function (res) {
+          inFlight = false;
+          if (input) input.disabled = false;
           // remove the "…" placeholder
           if (log.lastChild) log.removeChild(log.lastChild);
           var reply = res.reply || "(no response)";
@@ -99,6 +120,8 @@
           }
         })
         .catch(function () {
+          inFlight = false;
+          if (input) input.disabled = false;
           if (log.lastChild) log.removeChild(log.lastChild);
           addBot("Network error. Please try WhatsApp or the RFQ form.");
         });
