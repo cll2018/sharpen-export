@@ -18,6 +18,9 @@
 /** Upstream allows 20 requests/minute for this key; stop short of the ceiling. */
 const LLM_MAX_PER_MINUTE = 20;
 
+/** Chat-only budget: keep it under the upstream 20/min so /translate (CI) has headroom. */
+const LLM_CHAT_MAX_PER_MINUTE = 19;
+
 /** /rfq: at most 5 submissions per IP inside a 5-minute window... */
 const RFQ_MAX_PER_WINDOW = 5;
 const RFQ_WINDOW_MINUTES = 5;
@@ -41,6 +44,7 @@ export function rateLimits(env) {
     rfqPerWindow: configured(env, "RFQ_MAX_PER_WINDOW", RFQ_MAX_PER_WINDOW),
     rfqWindowMinutes: configured(env, "RFQ_WINDOW_MINUTES", RFQ_WINDOW_MINUTES),
     rfqTotalPerIp: configured(env, "RFQ_MAX_TOTAL_PER_IP", RFQ_MAX_TOTAL_PER_IP),
+    llmChatPerMinute: configured(env, "LLM_CHAT_MAX_PER_MINUTE", LLM_CHAT_MAX_PER_MINUTE),
   };
 }
 
@@ -90,6 +94,49 @@ export async function takeLlmSlot(env) {
     return { allowed: true, limit, used };
   } catch (e) {
     console.warn("[rate-limit] llm limiter failed open: " + (e && e.message));
+    return { allowed: true, limit, used: null, degraded: "error" };
+  }
+}
+
+/**
+ * Take one slot from the chat-only LLM budget (max 19/min by default).
+ * Mirrors takeLlmSlot but counts against the `chat_window` table so the chat
+ * widget has its own cap independent of /translate. Fails open.
+ */
+export async function takeChatSlot(env) {
+  const limit = rateLimits(env).llmChatPerMinute;
+  const db = env && env.RATE_LIMIT_DB;
+  if (!db) return { allowed: true, limit, used: null, degraded: "no-binding" };
+
+  const now = Date.now();
+  const windowStart = Math.floor(now / MINUTE_MS) * MINUTE_MS;
+  const windowEndsIn = Math.max(1, Math.ceil((windowStart + MINUTE_MS - now) / 1000));
+
+  try {
+    const results = await db.batch([
+      db
+        .prepare(
+          "INSERT INTO chat_window (window_start, used) VALUES (?1, 1) " +
+            "ON CONFLICT(window_start) DO UPDATE SET used = used + 1 RETURNING used"
+        )
+        .bind(windowStart),
+      db
+        .prepare("DELETE FROM chat_window WHERE window_start < ?1")
+        .bind(windowStart - 10 * MINUTE_MS),
+    ]);
+
+    const row = results && results[0] && results[0].results && results[0].results[0];
+    const used = row && typeof row.used === "number" ? row.used : null;
+    if (used === null) {
+      console.warn("[rate-limit] chat window returned an unexpected shape");
+      return { allowed: true, limit, used: null, degraded: "unexpected-result" };
+    }
+    if (used > limit) {
+      return { allowed: false, limit, used, retryAfterSeconds: windowEndsIn };
+    }
+    return { allowed: true, limit, used };
+  } catch (e) {
+    console.warn("[rate-limit] chat limiter failed open: " + (e && e.message));
     return { allowed: true, limit, used: null, degraded: "error" };
   }
 }
