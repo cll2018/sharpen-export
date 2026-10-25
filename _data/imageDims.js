@@ -73,6 +73,11 @@ module.exports = {
     "w": 697,
     "h": 292
   },
+  "/assets/img/silicon-wafer-diamond-wheel.webp": {
+    "w": 998,
+    "h": 774
+  },
+
   "/assets/img/steel-bonded-carbide.png": {
     "w": 900,
     "h": 712
