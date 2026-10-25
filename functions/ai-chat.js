@@ -10,7 +10,7 @@
 // Swap apiBaseUrl + model to use DeepSeek, OpenRouter, Groq, a self-hosted
 // endpoint, etc. — anything that speaks /v1/chat/completions.
 
-import { takeLlmSlot } from "./_lib/rate-limit.js";
+import { takeLlmSlot, takeChatSlot } from "./_lib/rate-limit.js";
 
 const FALLBACK = {
   reply:
@@ -52,6 +52,13 @@ export async function onRequestPost({ request, env }) {
   // nothing upstream and fall back immediately — the provider would answer 429
   // anyway, and that 429 used to be invisible here because this handler swallows
   // every error.
+  // Chat-specific budget: 19/min (env LLM_CHAT_MAX_PER_MINUTE), kept under the
+  // 20/min upstream ceiling so the /translate CI job still has headroom.
+  const chatSlot = await takeChatSlot(env);
+  if (!chatSlot.allowed) {
+    return json({ ...FALLBACK, rateLimited: true, scope: "chat" }, 200);
+  }
+
   const slot = await takeLlmSlot(env);
   if (!slot.allowed) {
     return json({ ...FALLBACK, rateLimited: true }, 200);
