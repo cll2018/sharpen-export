@@ -1894,7 +1894,7 @@ collections:
           - { name: provider, label: "Provider", widget: string, hint: "openai-compatible" }
           - { name: apiBaseUrl, label: "API Base URL", widget: string, hint: "e.g. https://api.openai.com/v1 or https://api.deepseek.com/v1" }
           - { name: model, label: "Model", widget: string, hint: "e.g. gpt-4o-mini / deepseek-chat" }
-          - { name: systemPrompt, label: "System Prompt", widget: text }
+          - { name: systemPrompt, label: "System Prompt", widget: textarea }
           - { name: fallbackMessage, label: "Fallback Message", widget: text }
 
   # ---- 新闻文章 · English（可新增/编辑/删除）----
