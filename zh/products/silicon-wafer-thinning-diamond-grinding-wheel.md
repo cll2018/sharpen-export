@@ -20,9 +20,7 @@ lang: zh
 金属/树脂/陶瓷多结合剂可选，适配不同工艺阶段需求。
 批次一致性稳定，减少产线调试时间，提升整体良率。</p>
     <ul class="specs">
-      <li>特点一</li>
-      <li>特点二</li>
-    </ul>
+       </ul>
     <div class="pb-cta"><a class="btn btn-primary" href="/zh/contact/">索取报价</a></div>
   </div>
 </div>
