@@ -40,6 +40,20 @@ const ALL_LANGS = site.langs.map((l) => l.code);
 const TARGETS = ALL_LANGS.filter((c) => c !== SRC);
 const API_KEY = process.env.AI_LLM_API_KEY;
 
+// ---- rate limiting -------------------------------------------------------
+// The translation endpoint allows 20 requests / minute. A token-bucket-style
+// minimum spacing keeps us safely under that even when the source fans out to
+// many languages in one pass. Without this the script used to burst past the
+// limit, get HTTP 429, and (with only 2 retries) fail every translation.
+const REQ_PER_MIN = Math.max(1, Number(settings.requestsPerMinute) || 20);
+const MIN_INTERVAL = Math.ceil(60000 / REQ_PER_MIN) + 100; // small safety margin
+let _lastCall = 0;
+async function throttle() {
+  const wait = Math.max(0, _lastCall + MIN_INTERVAL - Date.now());
+  if (wait) await sleep(wait);
+  _lastCall = Date.now();
+}
+
 const TRANSLATABLE = new Set(["title", "description", "summary", "newsSection"]);
 
 const warnings = [];
@@ -114,37 +128,70 @@ function jsonResponse(text) {
 }
 
 async function callModel(prompt, maxTokens) {
-  const res = await fetch((settings.apiBaseUrl || "").replace(/\/$/, "") + "/chat/completions", {
-    method: "POST",
-    headers: { "Content-Type": "application/json", Authorization: "Bearer " + API_KEY },
-    body: JSON.stringify({
-      model: settings.model || "gpt-4o-mini",
-      temperature: 0.1,
-      max_tokens: maxTokens,
-      messages: [
-        {
-          role: "system",
-          content:
-            "You are a meticulous technical translator for a Chinese industrial manufacturer " +
-            "(grinding wheels, CBN wheels, cemented carbide, PM high-speed steel, SiC wafer " +
-            "grinding, TiNiCo heat spreaders). You translate literally and faithfully: you " +
-            "translate every word, add no words, drop no words, and never add adjectives, " +
-            "qualifiers, numbers or product details that are not in the source. You always " +
-            "answer with a single valid JSON object and nothing else.",
-        },
-        { role: "user", content: prompt },
-      ],
-    }),
-  });
-  if (!res.ok) {
-    const body = await res.text().catch(() => "");
-    throw new Error(`LLM HTTP ${res.status} ${body.slice(0, 140)}`);
+  const url = (settings.apiBaseUrl || "").replace(/\/$/, "") + "/chat/completions";
+  const maxAttempts = 6;
+  let attempt = 0;
+  while (true) {
+    attempt++;
+    await throttle();
+    let res;
+    try {
+      res = await fetch(url, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Authorization: "Bearer " + API_KEY },
+        body: JSON.stringify({
+          model: settings.model || "agnes-3.0-flash",
+          temperature: 0.1,
+          max_tokens: maxTokens,
+          messages: [
+            {
+              role: "system",
+              content:
+                "You are a meticulous technical translator for a Chinese industrial manufacturer " +
+                "(grinding wheels, CBN wheels, cemented carbide, PM high-speed steel, SiC wafer " +
+                "grinding, TiNiCo heat spreaders). You translate literally and faithfully: you " +
+                "translate every word, add no words, drop no words, and never add adjectives, " +
+                "qualifiers, numbers or product details that are not in the source. You always " +
+                "answer with a single valid JSON object and nothing else.",
+            },
+            { role: "user", content: prompt },
+          ],
+        }),
+      });
+    } catch (e) {
+      // Transient network error — back off and retry.
+      if (attempt < maxAttempts) {
+        const backoff = Math.min(60000, 2000 * 2 ** (attempt - 1));
+        console.log(`    network error (attempt ${attempt}/${maxAttempts}), retry in ${backoff}ms: ${String(e.message || e).slice(0, 100)}`);
+        await sleep(backoff);
+        continue;
+      }
+      throw e;
+    }
+    if (res.ok) {
+      const data = await res.json();
+      const content = data.choices?.[0]?.message?.content || "";
+      const parsed = jsonResponse(content);
+      if (!parsed) throw new Error("model reply was not valid JSON");
+      return parsed;
+    }
+    // 429 (rate limited) or 5xx (server busy) → honor Retry-After / exponential backoff.
+    // Other 4xx (bad key, bad request) → fail fast, no point retrying.
+    const status = res.status;
+    const bodyText = await res.text().catch(() => "");
+    if (status === 429 || status >= 500) {
+      if (attempt < maxAttempts) {
+        const retryAfter = Number(res.headers.get("retry-after")) || 0;
+        const backoff = retryAfter > 0
+          ? retryAfter * 1000
+          : Math.min(60000, 2000 * 2 ** (attempt - 1));
+        console.log(`    HTTP ${status} (attempt ${attempt}/${maxAttempts}), backoff ${backoff}ms`);
+        await sleep(backoff);
+        continue;
+      }
+    }
+    throw new Error(`LLM HTTP ${status} ${bodyText.slice(0, 140)}`);
   }
-  const data = await res.json();
-  const content = data.choices?.[0]?.message?.content || "";
-  const parsed = jsonResponse(content);
-  if (!parsed) throw new Error("model reply was not valid JSON");
-  return parsed;
 }
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -218,14 +265,11 @@ async function translateBundle(label, payload, langs) {
       1000 + Math.ceil(sourceChars * 1.35 * batch.length));
 
     let got = null, lastErr = "unknown error";
-    for (let attempt = 1; attempt <= 2 && !got; attempt++) {
-      try {
-        got = await callModel(prompt, maxTokens);
-      } catch (e) {
-        lastErr = String(e.message || e);
-        console.log(`    attempt ${attempt} failed: ${lastErr.slice(0, 120)}`);
-        if (attempt < 2) await sleep(2000);
-      }
+    try {
+      got = await callModel(prompt, maxTokens);
+    } catch (e) {
+      lastErr = String(e.message || e);
+      console.log(`    batch failed: ${lastErr.slice(0, 160)}`);
     }
     if (got) {
       for (const lang of batch) {
