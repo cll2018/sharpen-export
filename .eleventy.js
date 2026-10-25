@@ -6,7 +6,9 @@ module.exports = function (eleventyConfig) {
   // Load build-time SEO data (sitemap URL list + robots body).
   const seo = require("./_data/seo.js");
   eleventyConfig.addGlobalData("sitemap", seo.sitemap);
-  eleventyConfig.addGlobalData("robots", seo.robots);
+  // NB: named robotsTxt (not "robots") so it cannot shadow the per-page
+  // `robots:` front-matter variable that base.njk reads for the meta tag.
+  eleventyConfig.addGlobalData("robotsTxt", seo.robots);
   eleventyConfig.addGlobalData("seoDomain", seo.domain);
 
   // Static assets + the CMS admin + the AI chat settings file + AI index.
@@ -19,6 +21,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("favicon.ico");
   // Cloudflare Pages redirect rules (localized slugs + old llms.txt URLs -> canonical).
   eleventyConfig.addPassthroughCopy("_redirects");
+  // Cloudflare Pages response headers (static-asset caching).
+  eleventyConfig.addPassthroughCopy("_headers");
 
   // Keep build/runtime helpers out of the output.
   eleventyConfig.ignores.add("README.md");

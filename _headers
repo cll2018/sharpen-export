@@ -1,0 +1,8 @@
+# Cloudflare Pages response headers.
+# Long cache for static assets (filenames are not content-hashed, so a
+# conservative 7-day TTL plus stale-while-revalidate). HTML keeps the Pages
+# default (max-age=0, must-revalidate) so content updates ship immediately.
+
+/assets/*
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
+

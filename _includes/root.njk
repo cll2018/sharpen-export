@@ -11,7 +11,11 @@
   {% if site.sogouVerifyMeta %}
   {{ site.sogouVerifyMeta | safe }}
   {% endif %}
-  <link rel="canonical" href="https://{{ site.domain }}/" />
+  <!-- Root is a JS language-selector splash that auto-navigates visitors to their
+       language. Canonicalize to the English home so this URL does not compete
+       with /en/ (GSC flagged it as "duplicate, Google chose a different
+       canonical"). The x-default alternate below points at the same target. -->
+  <link rel="canonical" href="https://{{ site.domain }}/en/" />
   <link rel="llms.txt" href="/llms.txt" />
   {% for l in site.langs %}
   <link rel="alternate" hreflang="{{ l.code }}" href="https://{{ site.domain }}/{{ l.code }}/" />

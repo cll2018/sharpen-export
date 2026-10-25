@@ -53,9 +53,12 @@ const PAGES = [
   { seg: "about", priority: "0.7", changefreq: "monthly", images: ["/assets/img/pm-steel.webp"] },
   { seg: "news", priority: "0.7", changefreq: "daily", images: ["/assets/img/news-company.png"] },
   { seg: "contact", priority: "0.7", changefreq: "monthly", images: ["/assets/img/news-industry.png"] },
-  // NOTE: /search/ pages are intentionally NOT in the sitemap - search result
-  // pages are blocked in robots.txt (GSC crawled the {search_term_string}
-  // template URLs emitted by the SearchAction schema).
+  // NOTE: /search/ pages are intentionally NOT in the sitemap - they are thin
+  // client-side UIs carrying a noindex meta (see _includes/search.njk). They
+  // used to be Disallowed in robots.txt as well, but that hid the noindex from
+  // Google and pinned the {search_term_string} template URLs in GSC's
+  // "blocked by robots.txt" report forever. Crawlable + noindex is the only
+  // combination that actually removes a URL from Google's index.
   { seg: "privacy", priority: "0.4", changefreq: "yearly", images: ["/assets/img/logo.png"] },
 ];
 
@@ -162,10 +165,9 @@ const robots = [
   "User-agent: *",
   "Allow: /",
   "Disallow: /admin/",
-  // Block search result pages (incl. the literal {search_term_string}
-  // template URLs Google crawls from the SearchAction schema).
-  "Disallow: /*/search/",
-  "Disallow: /*/search?",
+  // Search pages are NOT blocked here: they carry <meta name="robots"
+  // content="noindex,follow"> so Google can crawl, see the noindex, and drop
+  // the {search_term_string} template URLs from the index.
   "Content-Signal: search=yes,ai-train=yes,use=reference",
   "",
   "# Explicit allow for crawlers Cloudflare's managed robots.txt may disallow.",
@@ -176,8 +178,6 @@ const robots = [
   .concat([
     "Allow: /",
     "Disallow: /admin/",
-    "Disallow: /*/search/",
-    "Disallow: /*/search?",
     "",
     "Sitemap: " + DOMAIN + "/sitemap.xml",
   ])
